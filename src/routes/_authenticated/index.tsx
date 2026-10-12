@@ -1,6 +1,8 @@
 import { createFileRoute } from '@tanstack/react-router'
-import { Dashboard } from '@/features/dashboard'
+import { CommunityOverview } from '@/features/community/overview'
+import { timeRangeSearchSchema } from '@/lib/monitor/ranges'
 
 export const Route = createFileRoute('/_authenticated/')({
-  component: Dashboard,
+  validateSearch: timeRangeSearchSchema,
+  component: CommunityOverview,
 })

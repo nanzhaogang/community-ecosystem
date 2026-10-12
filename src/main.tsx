@@ -6,7 +6,11 @@ import {
   QueryClient,
   QueryClientProvider,
 } from '@tanstack/react-query'
-import { RouterProvider, createRouter } from '@tanstack/react-router'
+import {
+  RouterProvider,
+  createHashHistory,
+  createRouter,
+} from '@tanstack/react-router'
 import { toast } from 'sonner'
 import { useAuthStore } from '@/stores/auth-store'
 import { handleServerError } from '@/lib/handle-server-error'
@@ -73,8 +77,11 @@ const queryClient = new QueryClient({
 })
 
 // Create a new router instance
+// Hash history is used so that deep links work on static hosting
+// such as GitHub Pages without a server-side rewrite.
 const router = createRouter({
   routeTree,
+  history: createHashHistory(),
   context: { queryClient },
   defaultPreload: 'intent',
   defaultPreloadStaleTime: 0,

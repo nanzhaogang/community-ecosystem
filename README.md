@@ -1,119 +1,114 @@
-# Shadcn Admin Dashboard
+# OSS Community Monitor
 
-Admin Dashboard UI crafted with Shadcn and Vite. Built with responsiveness and accessibility in mind.
+基于 [shadcn-admin](https://github.com/satnaing/shadcn-admin) 模板改造的 **GitHub 开源社区运营与健康度监控平台**。纯静态站点，数据由 GitHub Actions 定时采集并保存为 JSON，随站点一起发布到 GitHub Pages，**无需任何常驻后端服务**。
 
-![alt text](public/images/shadcn-admin.png)
+首个（默认）监控仓库：`openJiuwen-ai/sciencediscovery`
 
-[![Sponsored by Clerk](https://img.shields.io/badge/Sponsored%20by-Clerk-5b6ee1?logo=clerk)](https://go.clerk.com/GttUAaK)
+## 功能页面
 
-I've been creating dashboard UIs at work and for my personal projects. I always wanted to make a reusable collection of dashboard UI for future projects; and here it is now. While I've created a few custom components, some of the code is directly adapted from ShadcnUI examples.
+| 路由 | 页面 | 说明 |
+| --- | --- | --- |
+| `/` | 社区总览 | 核心指标卡、PR/Issue 概览、数据状态横幅、社区运营预警 |
+| `/pulls` | PR 分析 | 新增/合入趋势、Open 积压、内外部占比、响应与合入周期分布、明细表 |
+| `/issues` | Issue 分析 | 新增/关闭趋势、积压、首次响应趋势、未解决年龄分布、明细表（已排除 PR） |
+| `/growth` | 增长趋势 | 统一时间筛选（近 7 天 / 30 天 / 全部 / 自定义），社区增长 / 开发活动 / 响应效率三组图表 |
+| `/contributors` | 贡献者分析 | 活跃/新增贡献者、内外部占比、贡献集中度（页面框架 + 真实聚合数据） |
+| `/ecosystem` | 生态影响力 | GitHub 之外的传播监控（页面框架 + 空状态，暂无数据源接入） |
 
-> This is not a starter project (template) though. I'll probably make one in the future.
+## 技术栈
 
-## Features
+- **前端**：React 19、TypeScript、Vite、Tailwind CSS 4、TanStack Router（Hash 路由）、TanStack Query、TanStack Table、Recharts
+- **采集**：Node.js ESM 脚本，调用 GitHub REST API v3
+- **调度**：GitHub Actions（定时 + 手动触发）
+- **存储**：`public/data/*.json`
+- **部署**：GitHub Pages
 
-- Light/dark mode
-- Responsive
-- Accessible
-- With built-in Sidebar component
-- Global search command
-- 10+ pages
-- Extra custom components
-- RTL support
-
-<details>
-<summary>Customized Components (click to expand)</summary>
-
-This project uses Shadcn UI components, but some have been slightly modified for better RTL (Right-to-Left) support and other improvements. These customized components differ from the original Shadcn UI versions.
-
-If you want to update components using the Shadcn CLI (e.g., `npx shadcn@latest add <component>`), it's generally safe for non-customized components. For the listed customized ones, you may need to manually merge changes to preserve the project's modifications and avoid overwriting RTL support or other updates.
-
-> If you don't require RTL support, you can safely update the 'RTL Updated Components' via the Shadcn CLI, as these changes are primarily for RTL compatibility. The 'Modified Components' may have other customizations to consider.
-
-### Modified Components
-
-- scroll-area
-- sonner
-- separator
-
-### RTL Updated Components
-
-- alert-dialog
-- calendar
-- command
-- dialog
-- dropdown-menu
-- select
-- table
-- sheet
-- sidebar
-- switch
-
-**Notes:**
-
-- **Modified Components**: These have general updates, potentially including RTL adjustments.
-- **RTL Updated Components**: These have specific changes for RTL language support (e.g., layout, positioning).
-- For implementation details, check the source files in `src/components/ui/`.
-- All other Shadcn UI components in the project are standard and can be safely updated via the CLI.
-
-</details>
-
-## Tech Stack
-
-**UI:** [ShadcnUI](https://ui.shadcn.com) (TailwindCSS + RadixUI)
-
-**Build Tool:** [Vite](https://vitejs.dev/)
-
-**Routing:** [TanStack Router](https://tanstack.com/router/latest)
-
-**Type Checking:** [TypeScript](https://www.typescriptlang.org/)
-
-**Linting/Formatting:** [ESLint](https://eslint.org/) & [Prettier](https://prettier.io/)
-
-**Icons:** [Lucide Icons](https://lucide.dev/icons/), [Tabler Icons](https://tabler.io/icons) (Brand icons only)
-
-**Auth (partial):** [Clerk](https://go.clerk.com/GttUAaK)
-
-## Run Locally
-
-Clone the project
+## 本地运行
 
 ```bash
-  git clone https://github.com/satnaing/shadcn-admin.git
+npm install        # 注意：本项目约定使用 npm（非 pnpm）
+npm run dev        # http://localhost:5173
+npm run build      # 生产构建（tsc -b && vite build）
 ```
 
-Go to the project directory
+> 需要 Node.js 20.19+（或 22.12+）。低于该版本 Vite 会给出警告。
+> 若在 Windows 上启动报 `Cannot find native binding`，执行：
+> `npm install @rolldown/binding-win32-x64-msvc@1.2.13 --no-save`
+
+## 采集数据
 
 ```bash
-  cd shadcn-admin
+npm run collect
 ```
 
-Install dependencies
+- 未配置 Token 时使用匿名 API（60 次/小时），仅能完成列表采集与少量的首次响应详情采集。
+- 配置 `GITHUB_TOKEN` 后可大幅提升配额，建议把 `MONITOR_MAX_DETAIL_ITEMS` 调大以覆盖全部 PR/Issue。
 
-```bash
-  pnpm install
-```
+采集脚本产出 `public/data/` 下的文件：
 
-Start the server
+| 文件 | 内容 |
+| --- | --- |
+| `meta.json` | 采集状态、监控启用时间、错误、声明（`notes`） |
+| `latest.json` | 当前累计快照（Star/Fork、PR/Issue/贡献者聚合指标） |
+| `history.json` | 每日一条历史点（每日增量活动 + 累计计数） |
+| `pulls.json` / `issues.json` | PR / Issue 明细记录 |
+| `contributors.json` | 贡献者记录与分类 |
+| `ecosystem.json` | 站外传播数据（当前为空状态） |
+| `config.json` | 公开的分类规则（**不含任何密钥**） |
 
-```bash
-  pnpm run dev
-```
+### 可配置环境变量
 
-## Sponsoring this project ❤️
+| 变量 | 默认 | 说明 |
+| --- | --- | --- |
+| `MONITOR_REPO` | `openJiuwen-ai/sciencediscovery` | 监控仓库 `owner/name` |
+| `GITHUB_TOKEN` | 空 | GitHub Token，仅通过环境注入，绝不写入产物 |
+| `MONITOR_MAINTAINERS` | 空 | 逗号分隔的维护者登录名（用于内/外部判定） |
+| `MONITOR_INTERNAL_ORGS` | 仓库 owner | 逗号分隔的内部组织 |
+| `MONITOR_BOTS` | 内置常见 bot | 逗号分隔的机器人账号 |
+| `MONITOR_OVERDUE_HOURS` | `168` | 超时未响应阈值（小时） |
+| `MONITOR_LONG_OPEN_DAYS` | `30` | Issue 长期未解决阈值（天） |
+| `MONITOR_MAX_LIST_PAGES` | `20` | 列表分页上限 |
+| `MONITOR_MAX_DETAIL_ITEMS` | `0`（自动） | 首次响应详情采集条数上限 |
+| `MONITOR_DETAIL_WINDOW_DAYS` | `180` | 详情采集的时间窗口（天） |
 
-If you find this project helpful or use this in your own work, consider [sponsoring me](https://github.com/sponsors/satnaing) to support development and maintenance. You can [buy me a coffee](https://buymeacoffee.com/satnaing) as well. Don’t worry, every penny helps. Thank you! 🙏
+## 指标口径
 
-For questions or sponsorship inquiries, feel free to reach out at [satnaingdev@gmail.com](mailto:satnaingdev@gmail.com).
+- **PR 状态**：Open / 已合入（`merged_at` 非空）/ 关闭未合入（关闭且未合入）；累计量与周期增量分开统计。
+- **Issue**：统计时排除 PR（GitHub 的 PR 也占用 Issue 编号）；区分 Open / Closed 与周期内新增、关闭。
+- **首次响应**：创建时间 → 第一次有效人工响应（排除作者本人评论与机器人回复；PR 的审查记录计入）。
+- **未响应**：不计入平均响应时间的 0 值，单独统计当前等待时长；**仅对已实际检查过评论的条目断言"未响应"**（`detailChecked`）。
+- **合入周期**：PR 创建 → 合入；**关闭周期**：Issue 创建 → 关闭。
+- **时间**：统一 UTC 存储，历史点按 UTC 天切分。
+- **内/外部**：依据可配置维护者名单、作者关联（`author_association`）、组织成员判定；无法确认标记为 `unknown`，绝不猜测。
 
-### Current Sponsor
+## 部署到 GitHub Pages
 
-- [Clerk](https://go.clerk.com/GttUAaK) - authentication and user management for the modern web
+1. 仓库 **Settings → Pages → Build and deployment → Source** 选择 **GitHub Actions**。
+2. 推送到 `main` 分支即触发 `.github/workflows/deploy.yml`（安装 → 构建 → 上传 → 部署）。
+3. Vite 使用相对 `base`（`./`），资源与 `./data/*.json` 在项目子路径（`/<repo>/`）与用户根站点（`/`）下均可正常加载；路由使用 Hash 模式，深层路径刷新不会 404。
+4. `.github/workflows/collect.yml` 每天 02:10 UTC 自动采集，也可在 Actions 页面手动触发；采集后提交数据变更并触发一次 Pages 部署。
+5. 可选：在仓库 **Variables** 中设置 `MONITOR_REPO` / `MONITOR_MAINTAINERS` / `MONITOR_INTERNAL_ORGS` / `MONITOR_BOTS` 覆盖默认配置。
 
-## Author
+> **安全**：`GITHUB_TOKEN` 仅通过 Actions Secrets 注入采集脚本，不进入前端代码、公开 JSON 或构建产物。
 
-Crafted with 🤍 by [@satnaing](https://github.com/satnaing)
+## 数据状态约定
 
-## License
+前端明确区分四种状态，避免误导：
 
-Licensed under the [MIT License](https://choosealicense.com/licenses/mit/)
+- **真实零值**：指标为 `0`。
+- **暂无数据**：指标为 `null`（无可计算样本）。
+- **数据不完整**：`meta.status = partial`（部分资源采集失败或分页被截断）。
+- **采集失败**：`meta.status = failed`；失败时保留上一次有效数据，不清零、不覆盖。
+
+## 已知限制与尚未实现
+
+- 历史趋势**从监控启用时间开始**；Star/Fork 等累计计数的历史无法回溯重建，`historyComplete` 恒为 `false`。
+- 首次响应/未响应指标依赖逐条拉取评论与审查记录，受 API 配额限制时仅覆盖部分条目（`detailChecked` 标记是否已检查），`meta.notes` 会说明本次覆盖范围。
+- 贡献者「内/外部」判定依赖作者关联与可配置名单，未接入组织成员 API，部分账号标记为 `unknown`。
+- 贡献者页为框架 + 真实聚合数据；贡献类型细分、贡献集中度趋势为后续迭代。
+- 生态影响力页为框架 + 空状态，尚未接入任何站外数据源，**未使用虚构数据**。
+- 采集失败时仅保留旧数据并记录错误，未实现多资源间的细粒度增量合并。
+
+## 致谢 / License
+
+基于 [satnaing/shadcn-admin](https://github.com/satnaing/shadcn-admin) （MIT）改造。Licensed under the [MIT License](https://choosealicense.com/licenses/mit/).

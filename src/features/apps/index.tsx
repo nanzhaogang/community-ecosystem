@@ -66,19 +66,19 @@ export function Apps() {
     })
   }
 
-  const handleTypeChange = (value: AppType) => {
-    setAppType(value)
+  const handleTypeChange = (value: string) => {
+    setAppType(value as AppType)
     navigate({
       search: (prev) => ({
         ...prev,
-        type: value === 'all' ? undefined : value,
+        type: value === 'all' ? undefined : (value as AppType),
       }),
     })
   }
 
-  const handleSortChange = (sort: 'asc' | 'desc') => {
-    setSort(sort)
-    navigate({ search: (prev) => ({ ...prev, sort }) })
+  const handleSortChange = (sort: string) => {
+    setSort(sort as 'asc' | 'desc')
+    navigate({ search: (prev) => ({ ...prev, sort: sort as 'asc' | 'desc' }) })
   }
 
   return (

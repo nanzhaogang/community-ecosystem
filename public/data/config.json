@@ -1,0 +1,18 @@
+{
+  "maintainers": [],
+  "internalOrgs": [
+    "openJiuwen-ai"
+  ],
+  "bots": [
+    "dependabot[bot]",
+    "github-actions[bot]",
+    "renovate[bot]",
+    "codecov[bot]",
+    "copilot[bot]",
+    "openjiuwen-sync-bot[bot]",
+    "openjiuwen-release-bot[bot]",
+    "openjiuwen-collaboration-bot[bot]"
+  ],
+  "overdueThresholdHours": 168,
+  "longOpenIssueDays": 30
+}

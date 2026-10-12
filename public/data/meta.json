@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "repo": {
+    "owner": "openJiuwen-ai",
+    "name": "sciencediscovery",
+    "fullName": "openJiuwen-ai/sciencediscovery",
+    "htmlUrl": "https://github.com/openJiuwen-ai/sciencediscovery",
+    "description": "ScienceDiscovery is an all‑in‑one agentic workbench built specifically for scientific research.",
+    "homepage": "",
+    "defaultBranch": "main",
+    "createdAt": "2026-08-14T09:38:06Z",
+    "license": "Apache-2.0",
+    "topics": []
+  },
+  "monitoringStart": "2026-10-12T03:52:24.775Z",
+  "lastSuccessAt": "2026-10-12T03:54:34.259Z",
+  "lastAttemptAt": "2026-10-12T03:54:34.259Z",
+  "status": "ok",
+  "errors": [],
+  "tokenConfigured": false,
+  "historyComplete": false,
+  "notes": [
+    "Historical trends start at monitoringStart; cumulative Star/Fork history cannot be reconstructed retroactively.",
+    "List collection capped at 20 pages per resource.",
+    "First-response details limited to 18 items this run."
+  ]
+}

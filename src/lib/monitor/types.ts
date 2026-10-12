@@ -1,0 +1,248 @@
+/**
+ * Shared data contract between the collection script (`scripts/collect.mjs`)
+ * and the frontend. Every file lives under `public/data/`.
+ *
+ * Conventions:
+ * - All timestamps are ISO-8601 strings in UTC.
+ * - A `null` numeric value means "not available yet" (e.g. no sample),
+ *   which is different from a real `0`.
+ */
+
+export type DataStatus = 'ok' | 'partial' | 'failed' | 'empty'
+
+export type ContributionType = 'internal' | 'external' | 'unknown'
+
+export type RepoRef = {
+  owner: string
+  name: string
+  fullName: string
+  htmlUrl: string
+  description: string | null
+  homepage: string | null
+  defaultBranch: string
+  createdAt: string
+  license: string | null
+  topics: string[]
+}
+
+export type CollectionError = {
+  at: string
+  scope: string
+  message: string
+}
+
+/** `meta.json` — collection status and provenance. */
+export type MonitorMeta = {
+  schemaVersion: number
+  repo: RepoRef
+  /** When this monitor started persisting history (UTC ISO). */
+  monitoringStart: string | null
+  lastSuccessAt: string | null
+  lastAttemptAt: string | null
+  status: DataStatus
+  errors: CollectionError[]
+  tokenConfigured: boolean
+  /** False when early history could not be reconstructed reliably. */
+  historyComplete: boolean
+  notes: string[]
+}
+
+/** Aggregated duration statistics in hours. */
+export type DurationStats = {
+  avgHours: number | null
+  medianHours: number | null
+  p90Hours: number | null
+  sampleSize: number
+}
+
+export type PendingItem = {
+  number: number
+  title: string
+  author: string
+  createdAt: string
+  waitingHours: number
+  url: string
+}
+
+export type Composition = {
+  internal: number
+  external: number
+  unknown: number
+}
+
+export type PullMetrics = {
+  total: number
+  open: number
+  merged: number
+  closedUnmerged: number
+  composition: Composition
+  /** Unresponded open PRs (no first human response yet). */
+  awaitingResponse: number
+  firstResponse: DurationStats
+  mergeCycle: DurationStats
+  overdue: {
+    thresholdHours: number
+    count: number
+    items: PendingItem[]
+  }
+  /** Open PRs from external contributors with no response yet. */
+  externalMaxWaitHours: number | null
+}
+
+export type IssueMetrics = {
+  total: number
+  open: number
+  closed: number
+  composition: Composition
+  awaitingResponse: number
+  firstResponse: DurationStats
+  closeCycle: DurationStats
+  overdue: {
+    thresholdHours: number
+    count: number
+    items: PendingItem[]
+  }
+  longOpen: {
+    thresholdDays: number
+    count: number
+    items: PendingItem[]
+  }
+}
+
+export type ContributorMetrics = {
+  total: number
+  activeLast30d: number
+  newLast30d: number
+  composition: Composition
+}
+
+export type RepoCounters = {
+  stars: number
+  forks: number
+  watchers: number
+  openIssuesAndPrs: number
+}
+
+/** `latest.json` — cumulative / current snapshot. */
+export type MetricSnapshot = {
+  generatedAt: string
+  repo: RepoCounters
+  contributors: ContributorMetrics
+  pulls: PullMetrics
+  issues: IssueMetrics
+}
+
+/** `history.json` — one entry per collected day (UTC). */
+export type HistoryPoint = {
+  date: string
+  /** Cumulative counters observed at `date`. */
+  stars: number
+  forks: number
+  watchers: number
+  openPulls: number
+  openIssues: number
+  totalPulls: number
+  totalIssues: number
+  /** Activity observed during that UTC day. */
+  newPulls: number
+  mergedPulls: number
+  closedUnmergedPulls: number
+  newIssues: number
+  closedIssues: number
+  activeContributors: number
+  collectedAt: string
+}
+
+export type PullRecord = {
+  number: number
+  title: string
+  author: string
+  contributionType: ContributionType
+  state: 'open' | 'merged' | 'closed'
+  isDraft: boolean
+  createdAt: string
+  mergedAt: string | null
+  closedAt: string | null
+  firstResponseAt: string | null
+  firstResponseHours: number | null
+  waitingHours: number | null
+  mergeCycleHours: number | null
+  /** Whether the collector inspected comments/reviews for this item. */
+  detailChecked: boolean
+  labels: string[]
+  url: string
+}
+
+export type IssueRecord = {
+  number: number
+  title: string
+  author: string
+  contributionType: ContributionType
+  state: 'open' | 'closed'
+  isPullRequest: false
+  createdAt: string
+  closedAt: string | null
+  firstResponseAt: string | null
+  firstResponseHours: number | null
+  waitingHours: number | null
+  closeCycleHours: number | null
+  comments: number
+  /** Whether the collector inspected comments for this item. */
+  detailChecked: boolean
+  labels: string[]
+  url: string
+}
+
+export type ContributorRecord = {
+  login: string
+  contributionType: ContributionType
+  isBot: boolean
+  firstContributionAt: string | null
+  lastContributionAt: string | null
+  pulls: number
+  issues: number
+  reviews: number
+}
+
+/** `contributors.json` */
+export type ContributorDataset = {
+  generatedAt: string | null
+  items: ContributorRecord[]
+}
+
+export type ChannelMetrics = {
+  views: number | null
+  likes: number | null
+  comments: number | null
+  shares: number | null
+}
+
+export type EcosystemItem = {
+  id: string
+  platform: string
+  title: string
+  url: string
+  publishedAt: string | null
+  metrics: ChannelMetrics
+  collectedAt: string
+  source: string
+}
+
+/** `ecosystem.json` — GitHub-external propagation. */
+export type EcosystemDataset = {
+  generatedAt: string | null
+  available: boolean
+  note: string
+  items: EcosystemItem[]
+}
+
+/** `config.json` — public classification rules (never contains secrets). */
+export type MonitorConfig = {
+  maintainers: string[]
+  internalOrgs: string[]
+  bots: string[]
+  /** Hours without a first human response before a PR/Issue is "overdue". */
+  overdueThresholdHours: number
+  /** Days an Issue may stay open before being flagged as long-unresolved. */
+  longOpenIssueDays: number
+}

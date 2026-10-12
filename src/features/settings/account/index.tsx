@@ -4,9 +4,8 @@ import { AccountForm } from './account-form'
 export function SettingsAccount() {
   return (
     <ContentSection
-      title='Account'
-      desc='Update your account settings. Set your preferred language and
-          timezone.'
+      title='账户'
+      desc='更新你的账户设置。设置你偏好的语言和时区。'
     >
       <AccountForm />
     </ContentSection>

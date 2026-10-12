@@ -76,7 +76,7 @@ export function TeamSwitcher({ teams }: TeamSwitcherProps) {
               <div className='flex size-6 items-center justify-center rounded-md border bg-background'>
                 <Plus className='size-4' />
               </div>
-              <div className='font-medium text-muted-foreground'>Add team</div>
+              <div className='font-medium text-muted-foreground'>新建团队</div>
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>

@@ -1,0 +1,197 @@
+import type {
+  HistoryPoint,
+  IssueRecord,
+  PullRecord,
+  ContributionType,
+} from './types'
+import type { ResolvedRange } from './ranges'
+
+const DAY_MS = 24 * 60 * 60 * 1000
+
+export function toDayKey(date: Date): string {
+  return date.toISOString().slice(0, 10)
+}
+
+export function isInRange(iso: string | null, range: ResolvedRange): boolean {
+  if (!iso) return false
+  const t = new Date(iso).getTime()
+  if (Number.isNaN(t)) return false
+  if (range.from && t < range.from.getTime()) return false
+  if (t >= range.to.getTime() + DAY_MS) return false
+  return true
+}
+
+export function sliceHistory(
+  history: HistoryPoint[],
+  range: ResolvedRange
+): HistoryPoint[] {
+  return history.filter((p) => {
+    const t = new Date(`${p.date}T00:00:00.000Z`).getTime()
+    if (range.from && t < range.from.getTime()) return false
+    if (t > range.to.getTime()) return false
+    return true
+  })
+}
+
+type CumulativeKey = 'stars' | 'forks' | 'watchers' | 'openPulls' | 'openIssues'
+type ActivityKey =
+  | 'newPulls'
+  | 'mergedPulls'
+  | 'closedUnmergedPulls'
+  | 'newIssues'
+  | 'closedIssues'
+
+/**
+ * Delta of a cumulative counter over the range, using the last snapshot
+ * *before* the range as the baseline so partial days are not double counted.
+ */
+export function cumulativeDelta(
+  history: HistoryPoint[],
+  range: ResolvedRange,
+  key: CumulativeKey
+): { value: number | null; fullBaseline: boolean } {
+  const sorted = [...history].sort((a, b) => a.date.localeCompare(b.date))
+  const fromTime = range.from ? range.from.getTime() : null
+
+  let baselineIdx = -1
+  let lastIdx = -1
+  for (let i = 0; i < sorted.length; i++) {
+    const t = new Date(`${sorted[i].date}T00:00:00.000Z`).getTime()
+    if (fromTime !== null && t < fromTime) baselineIdx = i
+    if (t <= range.to.getTime()) lastIdx = i
+  }
+
+  if (lastIdx === -1) return { value: null, fullBaseline: false }
+  const last = sorted[lastIdx][key]
+  if (range.from === null) {
+    // All history: compare against the very first snapshot.
+    return { value: null, fullBaseline: false }
+  }
+  const hasBaseline = baselineIdx !== -1
+  const baseline = hasBaseline ? sorted[baselineIdx][key] : sorted[lastIdx][key]
+  return { value: last - baseline, fullBaseline: hasBaseline }
+}
+
+export function activitySum(
+  history: HistoryPoint[],
+  range: ResolvedRange,
+  key: ActivityKey
+): number {
+  return sliceHistory(history, range).reduce((acc, p) => acc + (p[key] ?? 0), 0)
+}
+
+export type PeriodMetrics = {
+  starsDelta: number | null
+  forksDelta: number | null
+  openPullsDelta: number | null
+  openIssuesDelta: number | null
+  newPulls: number
+  mergedPulls: number
+  closedUnmergedPulls: number
+  newIssues: number
+  closedIssues: number
+  points: number
+  baselineComplete: boolean
+}
+
+export function computePeriodMetrics(
+  history: HistoryPoint[],
+  range: ResolvedRange
+): PeriodMetrics {
+  const stars = cumulativeDelta(history, range, 'stars')
+  const forks = cumulativeDelta(history, range, 'forks')
+  const openPulls = cumulativeDelta(history, range, 'openPulls')
+  const openIssues = cumulativeDelta(history, range, 'openIssues')
+  const points = sliceHistory(history, range).length
+
+  return {
+    starsDelta: stars.value,
+    forksDelta: forks.value,
+    openPullsDelta: openPulls.value,
+    openIssuesDelta: openIssues.value,
+    newPulls: activitySum(history, range, 'newPulls'),
+    mergedPulls: activitySum(history, range, 'mergedPulls'),
+    closedUnmergedPulls: activitySum(history, range, 'closedUnmergedPulls'),
+    newIssues: activitySum(history, range, 'newIssues'),
+    closedIssues: activitySum(history, range, 'closedIssues'),
+    points,
+    baselineComplete: stars.fullBaseline,
+  }
+}
+
+/** The equally sized window immediately before `range`, if bounded. */
+export function previousRange(range: ResolvedRange): ResolvedRange | null {
+  if (!range.from || !range.days) return null
+  const to = new Date(range.from.getTime() - DAY_MS)
+  const from = new Date(to.getTime() - (range.days - 1) * DAY_MS)
+  return {
+    key: 'custom',
+    from,
+    to,
+    days: range.days,
+    label: '上一周期',
+  }
+}
+
+/** Unique authors with a PR or Issue created inside the window. */
+export function activeContributors(
+  pulls: PullRecord[],
+  issues: IssueRecord[],
+  range: ResolvedRange
+): number {
+  const set = new Set<string>()
+  for (const p of pulls) if (isInRange(p.createdAt, range)) set.add(p.author)
+  for (const i of issues) if (isInRange(i.createdAt, range)) set.add(i.author)
+  return set.size
+}
+
+export function compositionOf(
+  records: { contributionType: ContributionType }[]
+): Record<ContributionType, number> {
+  const out: Record<ContributionType, number> = {
+    internal: 0,
+    external: 0,
+    unknown: 0,
+  }
+  for (const r of records) out[r.contributionType] += 1
+  return out
+}
+
+/** Bucket numeric values into labeled ranges for distribution charts. */
+export function bucketValues(
+  values: number[],
+  edges: number[],
+  labels: string[]
+): { bucket: string; count: number }[] {
+  const counts = labels.map(() => 0)
+  for (const v of values) {
+    let placed = false
+    for (let i = 0; i < edges.length; i++) {
+      if (v <= edges[i]) {
+        counts[i] += 1
+        placed = true
+        break
+      }
+    }
+    if (!placed) counts[labels.length - 1] += 1
+  }
+  return labels.map((bucket, i) => ({ bucket, count: counts[i] }))
+}
+
+/** Age distribution (in days) for currently open issues. */
+export function issueAgeBuckets(
+  issues: IssueRecord[],
+  now: Date
+): { bucket: string; count: number }[] {
+  const labels = ['<7d', '7-30d', '30-90d', '90-180d', '>180d']
+  const edges = [7, 30, 90, 180]
+  const ages = issues
+    .filter((i) => i.state === 'open')
+    .map((i) => (now.getTime() - new Date(i.createdAt).getTime()) / DAY_MS)
+  return bucketValues(ages, edges, labels)
+}
+
+export const FIRST_RESPONSE_BUCKETS = {
+  edges: [4, 12, 24, 72, 168],
+  labels: ['<4h', '4-12h', '12-24h', '1-3d', '3-7d', '>7d'],
+}

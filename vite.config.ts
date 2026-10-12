@@ -8,6 +8,10 @@ import { playwright } from '@vitest/browser-playwright'
 
 // https://vite.dev/config/
 export default defineConfig({
+  // Relative base keeps asset/data URLs portable across GitHub Pages
+  // project subpaths (e.g. /<repo>/) and user/organization sites (/).
+  // Override with VITE_BASE=/<repo>/ when a fixed subpath is preferred.
+  base: process.env.VITE_BASE ?? './',
   plugins: [
     tanstackRouter({
       target: 'react',
