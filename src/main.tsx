@@ -14,6 +14,7 @@ import {
 import { toast } from 'sonner'
 import { useAuthStore } from '@/stores/auth-store'
 import { handleServerError } from '@/lib/handle-server-error'
+import { MonitorAutoRefresh } from '@/components/monitor-auto-refresh'
 import { DirectionProvider } from './context/direction-provider'
 import { FontProvider } from './context/font-provider'
 import { ThemeProvider } from './context/theme-provider'
@@ -101,6 +102,7 @@ if (!rootElement.innerHTML) {
   root.render(
     <StrictMode>
       <QueryClientProvider client={queryClient}>
+        <MonitorAutoRefresh />
         <ThemeProvider>
           <FontProvider>
             <DirectionProvider>

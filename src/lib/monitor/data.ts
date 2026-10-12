@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
 import { useQuery } from '@tanstack/react-query'
+import type { TimeRangeSearch } from './ranges'
 import type {
   ContributorDataset,
   EcosystemDataset,
@@ -12,7 +13,6 @@ import type {
   ReposIndex,
   RepoSummary,
 } from './types'
-import type { TimeRangeSearch } from './ranges'
 
 /**
  * Static JSON files produced by `scripts/collect.mjs` and shipped with the
@@ -39,7 +39,7 @@ function useDataQuery<T, R = T>(
   enabled = true
 ) {
   return useQuery({
-    queryKey: ['monitor', key],
+    queryKey: ['monitor', key, file],
     queryFn: () => fetchJson<T>(file),
     select,
     enabled,
@@ -59,13 +59,28 @@ type RecordDataset<T> = { generatedAt: string; items: T[] }
 export const useRepos = () => useDataQuery<ReposIndex>('index.json', 'index')
 
 export const useMonitorMeta = (repo: string) =>
-  useDataQuery<MonitorMeta>(`${repo}/meta.json`, `${repo}:meta`, undefined, Boolean(repo))
+  useDataQuery<MonitorMeta>(
+    `${repo}/meta.json`,
+    `${repo}:meta`,
+    undefined,
+    Boolean(repo)
+  )
 
 export const useLatestSnapshot = (repo: string) =>
-  useDataQuery<MetricSnapshot>(`${repo}/latest.json`, `${repo}:latest`, undefined, Boolean(repo))
+  useDataQuery<MetricSnapshot>(
+    `${repo}/latest.json`,
+    `${repo}:latest`,
+    undefined,
+    Boolean(repo)
+  )
 
 export const useHistory = (repo: string) =>
-  useDataQuery<HistoryPoint[]>(`${repo}/history.json`, `${repo}:history`, undefined, Boolean(repo))
+  useDataQuery<HistoryPoint[]>(
+    `${repo}/history.json`,
+    `${repo}:history`,
+    undefined,
+    Boolean(repo)
+  )
 
 export const usePulls = (repo: string) =>
   useDataQuery<RecordDataset<PullRecord>, PullRecord[]>(
@@ -84,7 +99,12 @@ export const useIssues = (repo: string) =>
   )
 
 export const useContributors = (repo: string) =>
-  useDataQuery<ContributorDataset>(`${repo}/contributors.json`, `${repo}:contributors`, undefined, Boolean(repo))
+  useDataQuery<ContributorDataset>(
+    `${repo}/contributors.json`,
+    `${repo}:contributors`,
+    undefined,
+    Boolean(repo)
+  )
 
 /** Classification rules are shared across all monitored repositories. */
 export const useMonitorConfig = () =>
@@ -107,7 +127,8 @@ export function useMonitorCore(repo: string) {
     latest,
     history,
     isLoading: !repo || meta.isLoading || latest.isLoading || history.isLoading,
-    isError: Boolean(repo) && (meta.isError || latest.isError || history.isError),
+    isError:
+      Boolean(repo) && (meta.isError || latest.isError || history.isError),
   }
 }
 

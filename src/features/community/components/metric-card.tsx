@@ -1,5 +1,11 @@
-import type { LucideIcon } from 'lucide-react'
-import { ArrowDownRight, ArrowUpRight, Minus } from 'lucide-react'
+import {
+  ArrowDownRight,
+  ArrowUpRight,
+  Minus,
+  type LucideIcon,
+} from 'lucide-react'
+import { formatDelta } from '@/lib/monitor/format'
+import { cn } from '@/lib/utils'
 import {
   Card,
   CardContent,
@@ -7,8 +13,6 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
-import { cn } from '@/lib/utils'
-import { formatDelta } from '@/lib/monitor/format'
 
 type MetricCardProps = {
   title: string
@@ -51,7 +55,9 @@ function DeltaBadge({ delta }: { delta: number | null | undefined }) {
     <span
       className={cn(
         'inline-flex items-center gap-1 font-medium',
-        positive ? 'text-emerald-600 dark:text-emerald-400' : 'text-red-600 dark:text-red-400'
+        positive
+          ? 'text-emerald-600 dark:text-emerald-400'
+          : 'text-red-600 dark:text-red-400'
       )}
     >
       <Icon className='size-3.5' />
@@ -107,7 +113,9 @@ export function MetricCard({
                 环比：{formatDelta(previousDelta)}
               </span>
             ) : null}
-            {hint ? <span className='text-muted-foreground'>{hint}</span> : null}
+            {hint ? (
+              <span className='text-muted-foreground'>{hint}</span>
+            ) : null}
           </div>
         ) : null}
         {description ? (
