@@ -14,6 +14,8 @@ type MetricCardProps = {
   title: string
   value: string
   icon?: LucideIcon
+  /** Small inline text rendered right after the value, e.g. "(外部5)". */
+  suffix?: string
   /** Signed change within the selected period (null = no baseline). */
   delta?: number | null
   /** Signed change within the previous period, for comparison. */
@@ -21,6 +23,8 @@ type MetricCardProps = {
   /** Short context line, e.g. "Open now". */
   hint?: string
   description?: string
+  /** Tighter padding/value size, for high-density grids. */
+  compact?: boolean
   className?: string
 }
 
@@ -60,29 +64,52 @@ export function MetricCard({
   title,
   value,
   icon: Icon,
+  suffix,
   delta,
   previousDelta,
   hint,
   description,
+  compact,
   className,
 }: MetricCardProps) {
+  const hasInfo =
+    delta !== undefined ||
+    (previousDelta !== undefined && previousDelta !== null) ||
+    Boolean(hint)
+
   return (
-    <Card className={cn('gap-4', className)}>
+    <Card className={cn(compact ? 'gap-1 py-3' : 'gap-4', className)}>
       <CardHeader className='flex flex-row items-center justify-between space-y-0 pb-0'>
         <CardTitle className='text-sm font-medium'>{title}</CardTitle>
         {Icon ? <Icon className='size-4 text-muted-foreground' /> : null}
       </CardHeader>
       <CardContent className='space-y-2'>
-        <div className='text-2xl font-bold tabular-nums'>{value}</div>
-        <div className='flex flex-wrap items-center gap-x-2 gap-y-1 text-xs'>
-          <DeltaBadge delta={delta} />
-          {previousDelta !== undefined && previousDelta !== null ? (
-            <span className='text-muted-foreground'>
-              环比：{formatDelta(previousDelta)}
+        <div className='flex items-baseline gap-2'>
+          <span
+            className={cn(
+              'font-bold tabular-nums',
+              compact ? 'text-xl' : 'text-2xl'
+            )}
+          >
+            {value}
+          </span>
+          {suffix ? (
+            <span className='text-sm text-muted-foreground tabular-nums'>
+              {suffix}
             </span>
           ) : null}
-          {hint ? <span className='text-muted-foreground'>{hint}</span> : null}
         </div>
+        {hasInfo ? (
+          <div className='flex flex-wrap items-center gap-x-2 gap-y-1 text-xs'>
+            {delta !== undefined ? <DeltaBadge delta={delta} /> : null}
+            {previousDelta !== undefined && previousDelta !== null ? (
+              <span className='text-muted-foreground'>
+                环比：{formatDelta(previousDelta)}
+              </span>
+            ) : null}
+            {hint ? <span className='text-muted-foreground'>{hint}</span> : null}
+          </div>
+        ) : null}
         {description ? (
           <CardDescription className='text-xs'>{description}</CardDescription>
         ) : null}

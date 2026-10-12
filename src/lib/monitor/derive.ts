@@ -133,16 +133,29 @@ export function previousRange(range: ResolvedRange): ResolvedRange | null {
   }
 }
 
-/** Unique authors with a PR or Issue created inside the window. */
-export function activeContributors(
+/**
+ * Unique authors with a PR or Issue created inside the window, split into the
+ * overall count and how many of them are external contributors (based on each
+ * record's `contributionType`).
+ */
+export function activeContributorsSplit(
   pulls: PullRecord[],
   issues: IssueRecord[],
   range: ResolvedRange
-): number {
-  const set = new Set<string>()
-  for (const p of pulls) if (isInRange(p.createdAt, range)) set.add(p.author)
-  for (const i of issues) if (isInRange(i.createdAt, range)) set.add(i.author)
-  return set.size
+): { total: number; external: number } {
+  const all = new Set<string>()
+  const external = new Set<string>()
+  for (const p of pulls) {
+    if (!isInRange(p.createdAt, range)) continue
+    all.add(p.author)
+    if (p.contributionType === 'external') external.add(p.author)
+  }
+  for (const i of issues) {
+    if (!isInRange(i.createdAt, range)) continue
+    all.add(i.author)
+    if (i.contributionType === 'external') external.add(i.author)
+  }
+  return { total: all.size, external: external.size }
 }
 
 export function compositionOf(
