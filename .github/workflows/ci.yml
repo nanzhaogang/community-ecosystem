@@ -21,27 +21,25 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-
-      - name: Install pnpm
-        run: npm install -g pnpm
+          cache: npm
 
       - name: Install dependencies
-        run: pnpm install --frozen-lockfile
+        run: npm ci
 
       - name: Lint the code
-        run: pnpm lint
+        run: npm run lint
 
       # - name: Analyze unused files and dependencies
-      #   run: pnpm knip
+      #   run: npm run knip
 
       - name: Run Prettier check
-        run: pnpm format:check
+        run: npm run format:check
 
       - name: Install browsers
-        run: pnpm test:browser:install
+        run: npm run test:browser:install
 
       - name: Run tests
-        run: pnpm test
+        run: npm test
 
       - name: Build the project
-        run: pnpm build
+        run: npm run build
