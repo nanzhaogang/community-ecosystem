@@ -1,3 +1,4 @@
+import type { ReactNode } from 'react'
 import { Badge } from '@/components/ui/badge'
 import { IconGithub } from '@/assets/brand-icons'
 import { RepoSelect } from './repo-select'
@@ -15,6 +16,8 @@ type MonitorHeaderProps = {
   repos?: RepoSummary[]
   /** Currently selected repository key (`owner/name`). */
   selectedRepo?: string
+  /** Optional right-aligned actions (e.g. a refresh button). */
+  actions?: ReactNode
 }
 
 export function MonitorHeader({
@@ -25,6 +28,7 @@ export function MonitorHeader({
   onSearchChange,
   repos,
   selectedRepo,
+  actions,
 }: MonitorHeaderProps) {
   return (
     <div className='flex flex-col gap-4'>
@@ -57,6 +61,7 @@ export function MonitorHeader({
               </Badge>
             </a>
           ) : null}
+          {actions}
         </div>
       </div>
       <TimeRangeFilter value={search} onChange={onSearchChange} />

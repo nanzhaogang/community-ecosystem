@@ -2,11 +2,9 @@ import { useMemo } from 'react'
 import { type ColumnDef } from '@tanstack/react-table'
 import { ExternalLink, Globe, Megaphone } from 'lucide-react'
 import { getRouteApi } from '@tanstack/react-router'
-import { ConfigDrawer } from '@/components/config-drawer'
 import { DataTableColumnHeader } from '@/components/data-table'
 import { Header } from '@/components/layout/header'
 import { Main } from '@/components/layout/main'
-import { ProfileDropdown } from '@/components/profile-dropdown'
 import { ThemeSwitch } from '@/components/theme-switch'
 import { Badge } from '@/components/ui/badge'
 import {
@@ -154,8 +152,6 @@ export function EcosystemInfluence() {
         <Header>
           <div className='me-auto' />
           <ThemeSwitch />
-          <ConfigDrawer />
-          <ProfileDropdown />
         </Header>
         <Main>
           <ErrorState onRetry={() => repoList.refetch()} />
@@ -170,8 +166,6 @@ export function EcosystemInfluence() {
         <Header>
           <div className='me-auto' />
           <ThemeSwitch />
-          <ConfigDrawer />
-          <ProfileDropdown />
         </Header>
         <Main>
           <LoadingState />
@@ -186,8 +180,6 @@ export function EcosystemInfluence() {
         <Header>
           <div className='me-auto' />
           <ThemeSwitch />
-          <ConfigDrawer />
-          <ProfileDropdown />
         </Header>
         <Main>
           <ErrorState onRetry={() => base.meta.refetch()} />
@@ -208,8 +200,6 @@ export function EcosystemInfluence() {
       <Header>
         <div className='me-auto' />
         <ThemeSwitch />
-        <ConfigDrawer />
-        <ProfileDropdown />
       </Header>
 
       <Main className='flex flex-1 flex-col gap-6'>

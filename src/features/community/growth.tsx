@@ -8,10 +8,8 @@ import {
   Users,
 } from 'lucide-react'
 import { getRouteApi } from '@tanstack/react-router'
-import { ConfigDrawer } from '@/components/config-drawer'
 import { Header } from '@/components/layout/header'
 import { Main } from '@/components/layout/main'
-import { ProfileDropdown } from '@/components/profile-dropdown'
 import { ThemeSwitch } from '@/components/theme-switch'
 import { sliceHistory } from '@/lib/monitor/derive'
 import { useIssues, usePulls, useSelectedRepo } from '@/lib/monitor/data'
@@ -124,8 +122,6 @@ export function GrowthTrends() {
         <Header>
           <div className='me-auto' />
           <ThemeSwitch />
-          <ConfigDrawer />
-          <ProfileDropdown />
         </Header>
         <Main>
           <ErrorState onRetry={() => repoList.refetch()} />
@@ -140,8 +136,6 @@ export function GrowthTrends() {
         <Header>
           <div className='me-auto' />
           <ThemeSwitch />
-          <ConfigDrawer />
-          <ProfileDropdown />
         </Header>
         <Main>
           <LoadingState />
@@ -156,8 +150,6 @@ export function GrowthTrends() {
         <Header>
           <div className='me-auto' />
           <ThemeSwitch />
-          <ConfigDrawer />
-          <ProfileDropdown />
         </Header>
         <Main>
           <ErrorState onRetry={() => base.meta.refetch()} />
@@ -175,8 +167,6 @@ export function GrowthTrends() {
       <Header>
         <div className='me-auto' />
         <ThemeSwitch />
-        <ConfigDrawer />
-        <ProfileDropdown />
       </Header>
 
       <Main className='flex flex-1 flex-col gap-6'>
