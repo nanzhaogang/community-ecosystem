@@ -1,0 +1,82 @@
+{
+  "generatedAt": "2026-10-12T06:33:45.833Z",
+  "repo": {
+    "stars": 6018,
+    "forks": 1097,
+    "watchers": 402,
+    "openIssuesAndPrs": 1644
+  },
+  "contributors": {
+    "total": 140,
+    "activeLast30d": 28,
+    "newLast30d": 28,
+    "composition": {
+      "internal": 0,
+      "external": 28,
+      "unknown": 112
+    }
+  },
+  "pulls": {
+    "total": 300,
+    "open": 146,
+    "merged": 121,
+    "closedUnmerged": 33,
+    "composition": {
+      "internal": 0,
+      "external": 77,
+      "unknown": 223
+    },
+    "awaitingResponse": 0,
+    "firstResponse": {
+      "avgHours": null,
+      "medianHours": null,
+      "p90Hours": null,
+      "sampleSize": 0
+    },
+    "mergeCycle": {
+      "avgHours": 30.6,
+      "medianHours": 3.3,
+      "p90Hours": 136.1,
+      "sampleSize": 121
+    },
+    "overdue": {
+      "thresholdHours": 168,
+      "count": 0,
+      "items": []
+    },
+    "externalMaxWaitHours": null
+  },
+  "issues": {
+    "total": 122,
+    "open": 109,
+    "closed": 13,
+    "composition": {
+      "internal": 0,
+      "external": 23,
+      "unknown": 99
+    },
+    "awaitingResponse": 0,
+    "firstResponse": {
+      "avgHours": null,
+      "medianHours": null,
+      "p90Hours": null,
+      "sampleSize": 0
+    },
+    "closeCycle": {
+      "avgHours": 9.1,
+      "medianHours": 0.4,
+      "p90Hours": 12.3,
+      "sampleSize": 13
+    },
+    "overdue": {
+      "thresholdHours": 168,
+      "count": 0,
+      "items": []
+    },
+    "longOpen": {
+      "thresholdDays": 30,
+      "count": 0,
+      "items": []
+    }
+  }
+}

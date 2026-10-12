@@ -7,7 +7,6 @@ import { DataTableColumnHeader } from '@/components/data-table'
 import { Header } from '@/components/layout/header'
 import { Main } from '@/components/layout/main'
 import { ProfileDropdown } from '@/components/profile-dropdown'
-import { Search } from '@/components/search'
 import { ThemeSwitch } from '@/components/theme-switch'
 import { Badge } from '@/components/ui/badge'
 import {
@@ -17,7 +16,7 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
-import { useEcosystem } from '@/lib/monitor/data'
+import { useEcosystem, useSelectedRepo } from '@/lib/monitor/data'
 import { formatDate, formatExact } from '@/lib/monitor/format'
 import { ChartCard } from './components/chart-card'
 import { DataStatusBanner } from './components/data-status-banner'
@@ -125,7 +124,8 @@ function ecosystemColumns(): ColumnDef<EcosystemItem, unknown>[] {
 export function EcosystemInfluence() {
   const search = route.useSearch()
   const navigate = route.useNavigate()
-  const base = useMonitorBase(search)
+  const repoList = useSelectedRepo(search)
+  const base = useMonitorBase(repoList.key, search)
   const ecosystem = useEcosystem()
 
   const data = ecosystem.data
@@ -148,11 +148,27 @@ export function EcosystemInfluence() {
   const onSearchChange = (next: typeof search) =>
     navigate({ search: (prev) => ({ ...prev, ...next }) })
 
+  if (repoList.isError) {
+    return (
+      <>
+        <Header>
+          <div className='me-auto' />
+          <ThemeSwitch />
+          <ConfigDrawer />
+          <ProfileDropdown />
+        </Header>
+        <Main>
+          <ErrorState onRetry={() => repoList.refetch()} />
+        </Main>
+      </>
+    )
+  }
+
   if (base.isLoading) {
     return (
       <>
         <Header>
-          <Search className='me-auto' />
+          <div className='me-auto' />
           <ThemeSwitch />
           <ConfigDrawer />
           <ProfileDropdown />
@@ -168,7 +184,7 @@ export function EcosystemInfluence() {
     return (
       <>
         <Header>
-          <Search className='me-auto' />
+          <div className='me-auto' />
           <ThemeSwitch />
           <ConfigDrawer />
           <ProfileDropdown />
@@ -190,7 +206,7 @@ export function EcosystemInfluence() {
   return (
     <>
       <Header>
-        <Search className='me-auto' />
+        <div className='me-auto' />
         <ThemeSwitch />
         <ConfigDrawer />
         <ProfileDropdown />
@@ -203,6 +219,8 @@ export function EcosystemInfluence() {
           meta={base.meta.data}
           search={search}
           onSearchChange={onSearchChange}
+          repos={repoList.repos}
+          selectedRepo={repoList.key}
         />
 
         <DataStatusBanner meta={base.meta.data} />

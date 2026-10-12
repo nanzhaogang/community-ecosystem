@@ -12,10 +12,9 @@ import { ConfigDrawer } from '@/components/config-drawer'
 import { Header } from '@/components/layout/header'
 import { Main } from '@/components/layout/main'
 import { ProfileDropdown } from '@/components/profile-dropdown'
-import { Search } from '@/components/search'
 import { ThemeSwitch } from '@/components/theme-switch'
 import { sliceHistory } from '@/lib/monitor/derive'
-import { useIssues, usePulls } from '@/lib/monitor/data'
+import { useIssues, usePulls, useSelectedRepo } from '@/lib/monitor/data'
 import { formatDurationHours, formatExact, formatNumber } from '@/lib/monitor/format'
 import { ChartCard } from './components/chart-card'
 import { DataStatusBanner } from './components/data-status-banner'
@@ -60,9 +59,10 @@ function avgResponseByMonth(
 export function GrowthTrends() {
   const search = route.useSearch()
   const navigate = route.useNavigate()
-  const base = useMonitorBase(search)
-  const pulls = usePulls()
-  const issues = useIssues()
+  const repoList = useSelectedRepo(search)
+  const base = useMonitorBase(repoList.key, search)
+  const pulls = usePulls(repoList.key)
+  const issues = useIssues(repoList.key)
 
   const points = useMemo(
     () => sliceHistory(base.history, base.range),
@@ -118,11 +118,27 @@ export function GrowthTrends() {
   const onSearchChange = (next: typeof search) =>
     navigate({ search: (prev) => ({ ...prev, ...next }) })
 
+  if (repoList.isError) {
+    return (
+      <>
+        <Header>
+          <div className='me-auto' />
+          <ThemeSwitch />
+          <ConfigDrawer />
+          <ProfileDropdown />
+        </Header>
+        <Main>
+          <ErrorState onRetry={() => repoList.refetch()} />
+        </Main>
+      </>
+    )
+  }
+
   if (base.isLoading) {
     return (
       <>
         <Header>
-          <Search className='me-auto' />
+          <div className='me-auto' />
           <ThemeSwitch />
           <ConfigDrawer />
           <ProfileDropdown />
@@ -138,7 +154,7 @@ export function GrowthTrends() {
     return (
       <>
         <Header>
-          <Search className='me-auto' />
+          <div className='me-auto' />
           <ThemeSwitch />
           <ConfigDrawer />
           <ProfileDropdown />
@@ -157,7 +173,7 @@ export function GrowthTrends() {
   return (
     <>
       <Header>
-        <Search className='me-auto' />
+        <div className='me-auto' />
         <ThemeSwitch />
         <ConfigDrawer />
         <ProfileDropdown />
@@ -170,6 +186,8 @@ export function GrowthTrends() {
           meta={base.meta.data}
           search={search}
           onSearchChange={onSearchChange}
+          repos={repoList.repos}
+          selectedRepo={repoList.key}
         />
 
         <DataStatusBanner meta={base.meta.data} />

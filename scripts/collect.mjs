@@ -1,22 +1,28 @@
 #!/usr/bin/env node
 /**
- * GitHub open-source community data collector.
+ * GitHub open-source community data collector (multi-repository).
  *
  * Produces the static JSON contract consumed by the frontend:
- *   public/data/{meta,latest,history,pulls,issues,contributors,ecosystem,config}.json
+ *   public/data/index.json                        list of monitored repositories
+ *   public/data/config.json                       shared classification rules
+ *   public/data/<owner>/<name>/meta.json          per-repo status & provenance
+ *   public/data/<owner>/<name>/latest.json        per-repo cumulative snapshot
+ *   public/data/<owner>/<name>/history.json       per-repo daily snapshots
+ *   public/data/<owner>/<name>/{pulls,issues,contributors}.json
  *
  * Design rules (see the task spec):
  * - Secrets come only from the environment and are never written to output.
  * - A failed step must NOT overwrite the last valid data with zeros.
  * - History only ever appends forward, one point per UTC day.
  * - Distinguish "real zero" from "no sample" by using `null`.
+ * - A failure in one repository never aborts the others.
  *
  * Usage:
  *   node scripts/collect.mjs            # local / CI collection
  *   npm run collect
  */
 
-import { readFileSync, writeFileSync, existsSync, renameSync } from 'node:fs'
+import { readFileSync, writeFileSync, existsSync, renameSync, mkdirSync } from 'node:fs'
 import path from 'node:path'
 
 import { GitHubClient } from './lib/github.mjs'
@@ -67,20 +73,42 @@ function stronger(current, next) {
 async function main() {
   const log = (msg) => console.log(msg)
   const cfg = loadConfig(OUT_DIR)
-  const repoRef = refOf(cfg.repo)
-  const full = repoRef.fullName
-
   const client = new GitHubClient({ token: cfg.token, log })
   const now = new Date()
+
+  const summaries = []
+  for (const repo of cfg.repos) {
+    try {
+      const summary = await collectRepo(repo, cfg, client, now, log)
+      if (summary) summaries.push(summary)
+    } catch (error) {
+      log(`! ${repo.fullName}: ${error?.message ?? error}`)
+    }
+  }
+
+  // Shared across repos. Public classification rules only — never secrets.
+  writeJson(path.join(OUT_DIR, 'config.json'), cfg.config)
+  writeJson(path.join(OUT_DIR, 'index.json'), {
+    generatedAt: new Date().toISOString(),
+    repos: summaries,
+  })
+  log(`Wrote ${OUT_DIR}`)
+}
+
+async function collectRepo(repo, cfg, client, now, log) {
+  const repoRef = refOf(repo)
+  const full = repoRef.fullName
   const nowIso = now.toISOString()
+  const repoDir = path.join(OUT_DIR, repo.owner, repo.name)
+  mkdirSync(repoDir, { recursive: true })
 
   log(`Collecting ${full} (token: ${client.authenticated ? 'yes' : 'no'})`)
 
-  const prevMeta = readJson(path.join(OUT_DIR, 'meta.json'))
-  const prevLatest = readJson(path.join(OUT_DIR, 'latest.json'))
-  const prevHistory = readJson(path.join(OUT_DIR, 'history.json'), []) ?? []
-  const prevPulls = readJson(path.join(OUT_DIR, 'pulls.json'), { items: [] })
-  const prevIssues = readJson(path.join(OUT_DIR, 'issues.json'), { items: [] })
+  const prevMeta = readJson(path.join(repoDir, 'meta.json'))
+  const prevLatest = readJson(path.join(repoDir, 'latest.json'))
+  const prevHistory = readJson(path.join(repoDir, 'history.json'), []) ?? []
+  const prevPulls = readJson(path.join(repoDir, 'pulls.json'), { items: [] })
+  const prevIssues = readJson(path.join(repoDir, 'issues.json'), { items: [] })
 
   /** @type {{ at: string, scope: string, message: string }[]} */
   const errors = []
@@ -176,7 +204,6 @@ async function main() {
     let used = 0
     for (const item of ordered) {
       if (used >= detailBudget) {
-        notes.push(`First-response details limited to ${detailBudget} items this run.`)
         break
       }
       try {
@@ -329,7 +356,6 @@ async function main() {
   const lastSuccessAt = anyData ? nowIso : (prevMeta?.lastSuccessAt ?? null)
 
   const monitoringStart = prevMeta?.monitoringStart ?? nowIso
-  const maxPages = cfg.maxListPages
   const meta = {
     schemaVersion: cfg.schemaVersion,
     repo: {
@@ -349,34 +375,37 @@ async function main() {
     errors,
     tokenConfigured: client.authenticated,
     historyComplete: false,
-    notes: [
-      'Historical trends start at monitoringStart; cumulative Star/Fork history cannot be reconstructed retroactively.',
-      `List collection capped at ${maxPages} pages per resource.`,
-      ...notes,
-    ],
+    notes,
   }
 
   // --- persist --------------------------------------------------------------
-  writeJson(path.join(OUT_DIR, 'meta.json'), meta)
-  writeJson(path.join(OUT_DIR, 'latest.json'), latest)
-  writeJson(path.join(OUT_DIR, 'history.json'), history)
+  writeJson(path.join(repoDir, 'meta.json'), meta)
+  writeJson(path.join(repoDir, 'latest.json'), latest)
+  writeJson(path.join(repoDir, 'history.json'), history)
   writeJson(
-    path.join(OUT_DIR, 'pulls.json'),
+    path.join(repoDir, 'pulls.json'),
     pullRecords ? { generatedAt, items: pullRecords } : prevPulls
   )
   writeJson(
-    path.join(OUT_DIR, 'issues.json'),
+    path.join(repoDir, 'issues.json'),
     issueRecords ? { generatedAt, items: issueRecords } : prevIssues
   )
-  writeJson(path.join(OUT_DIR, 'contributors.json'), {
-    generatedAt: contributorsSection ? generatedAt : (readJson(path.join(OUT_DIR, 'contributors.json'))?.generatedAt ?? null),
-    items: contributorsSection ? buildContributorRecords(pullRecords ?? [], issueRecords ?? [], contributorRaw, assocByLogin, cfg) : (readJson(path.join(OUT_DIR, 'contributors.json'))?.items ?? []),
+  writeJson(path.join(repoDir, 'contributors.json'), {
+    generatedAt: contributorsSection ? generatedAt : (readJson(path.join(repoDir, 'contributors.json'))?.generatedAt ?? null),
+    items: contributorsSection ? buildContributorRecords(pullRecords ?? [], issueRecords ?? [], contributorRaw, assocByLogin, cfg) : (readJson(path.join(repoDir, 'contributors.json'))?.items ?? []),
   })
-  // Public classification rules only — never secrets.
-  writeJson(path.join(OUT_DIR, 'config.json'), cfg.config)
 
   log(`Status: ${status} | PRs: ${pullsSection?.total ?? '-'} | Issues: ${issuesSection?.total ?? '-'}`)
-  log(`Wrote ${OUT_DIR}`)
+
+  // Summary used to build the multi-repo `index.json`.
+  return {
+    owner: repoRef.owner,
+    name: repoRef.name,
+    fullName: repoRef.fullName,
+    htmlUrl: meta.repo.htmlUrl,
+    description: meta.repo.description,
+    defaultBranch: meta.repo.defaultBranch,
+  }
 }
 
 function resolveDetailBudget(cfg, client) {

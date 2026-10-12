@@ -12,7 +12,6 @@ import { ConfigDrawer } from '@/components/config-drawer'
 import { Header } from '@/components/layout/header'
 import { Main } from '@/components/layout/main'
 import { ProfileDropdown } from '@/components/profile-dropdown'
-import { Search } from '@/components/search'
 import { ThemeSwitch } from '@/components/theme-switch'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import {
@@ -21,7 +20,7 @@ import {
   compositionOf,
   sliceHistory,
 } from '@/lib/monitor/derive'
-import { usePulls } from '@/lib/monitor/data'
+import { usePulls, useSelectedRepo } from '@/lib/monitor/data'
 import { formatDurationHours, formatExact, formatNumber } from '@/lib/monitor/format'
 import { BreakdownList } from './components/breakdown-list'
 import { ChartCard } from './components/chart-card'
@@ -40,8 +39,9 @@ const route = getRouteApi('/_authenticated/pulls')
 export function PullsAnalysis() {
   const search = route.useSearch()
   const navigate = route.useNavigate()
-  const base = useMonitorBase(search)
-  const pulls = usePulls()
+  const repoList = useSelectedRepo(search)
+  const base = useMonitorBase(repoList.key, search)
+  const pulls = usePulls(repoList.key)
 
   const records = pulls.data ?? []
 
@@ -72,11 +72,27 @@ export function PullsAnalysis() {
   const onSearchChange = (next: typeof search) =>
     navigate({ search: (prev) => ({ ...prev, ...next }) })
 
+  if (repoList.isError) {
+    return (
+      <>
+        <Header>
+          <div className='me-auto' />
+          <ThemeSwitch />
+          <ConfigDrawer />
+          <ProfileDropdown />
+        </Header>
+        <Main>
+          <ErrorState onRetry={() => repoList.refetch()} />
+        </Main>
+      </>
+    )
+  }
+
   if (base.isLoading) {
     return (
       <>
         <Header>
-          <Search className='me-auto' />
+          <div className='me-auto' />
           <ThemeSwitch />
           <ConfigDrawer />
           <ProfileDropdown />
@@ -92,7 +108,7 @@ export function PullsAnalysis() {
     return (
       <>
         <Header>
-          <Search className='me-auto' />
+          <div className='me-auto' />
           <ThemeSwitch />
           <ConfigDrawer />
           <ProfileDropdown />
@@ -111,7 +127,7 @@ export function PullsAnalysis() {
   return (
     <>
       <Header>
-        <Search className='me-auto' />
+        <div className='me-auto' />
         <ThemeSwitch />
         <ConfigDrawer />
         <ProfileDropdown />
@@ -124,6 +140,8 @@ export function PullsAnalysis() {
           meta={base.meta.data}
           search={search}
           onSearchChange={onSearchChange}
+          repos={repoList.repos}
+          selectedRepo={repoList.key}
         />
 
         <DataStatusBanner meta={base.meta.data} />

@@ -11,7 +11,6 @@ import { ConfigDrawer } from '@/components/config-drawer'
 import { Header } from '@/components/layout/header'
 import { Main } from '@/components/layout/main'
 import { ProfileDropdown } from '@/components/profile-dropdown'
-import { Search } from '@/components/search'
 import { ThemeSwitch } from '@/components/theme-switch'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import {
@@ -19,7 +18,7 @@ import {
   issueAgeBuckets,
   sliceHistory,
 } from '@/lib/monitor/derive'
-import { useIssues } from '@/lib/monitor/data'
+import { useIssues, useSelectedRepo } from '@/lib/monitor/data'
 import { formatDurationHours, formatExact } from '@/lib/monitor/format'
 import { BreakdownList } from './components/breakdown-list'
 import { ChartCard } from './components/chart-card'
@@ -62,8 +61,9 @@ function firstResponseByMonth(
 export function IssuesAnalysis() {
   const search = route.useSearch()
   const navigate = route.useNavigate()
-  const base = useMonitorBase(search)
-  const issues = useIssues()
+  const repoList = useSelectedRepo(search)
+  const base = useMonitorBase(repoList.key, search)
+  const issues = useIssues(repoList.key)
 
   const records = issues.data ?? []
 
@@ -93,11 +93,27 @@ export function IssuesAnalysis() {
   const onSearchChange = (next: typeof search) =>
     navigate({ search: (prev) => ({ ...prev, ...next }) })
 
+  if (repoList.isError) {
+    return (
+      <>
+        <Header>
+          <div className='me-auto' />
+          <ThemeSwitch />
+          <ConfigDrawer />
+          <ProfileDropdown />
+        </Header>
+        <Main>
+          <ErrorState onRetry={() => repoList.refetch()} />
+        </Main>
+      </>
+    )
+  }
+
   if (base.isLoading) {
     return (
       <>
         <Header>
-          <Search className='me-auto' />
+          <div className='me-auto' />
           <ThemeSwitch />
           <ConfigDrawer />
           <ProfileDropdown />
@@ -113,7 +129,7 @@ export function IssuesAnalysis() {
     return (
       <>
         <Header>
-          <Search className='me-auto' />
+          <div className='me-auto' />
           <ThemeSwitch />
           <ConfigDrawer />
           <ProfileDropdown />
@@ -132,7 +148,7 @@ export function IssuesAnalysis() {
   return (
     <>
       <Header>
-        <Search className='me-auto' />
+        <div className='me-auto' />
         <ThemeSwitch />
         <ConfigDrawer />
         <ProfileDropdown />
@@ -145,6 +161,8 @@ export function IssuesAnalysis() {
           meta={base.meta.data}
           search={search}
           onSearchChange={onSearchChange}
+          repos={repoList.repos}
+          selectedRepo={repoList.key}
         />
 
         <DataStatusBanner meta={base.meta.data} />

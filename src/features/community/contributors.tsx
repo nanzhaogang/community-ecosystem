@@ -7,12 +7,11 @@ import { DataTableColumnHeader } from '@/components/data-table'
 import { Header } from '@/components/layout/header'
 import { Main } from '@/components/layout/main'
 import { ProfileDropdown } from '@/components/profile-dropdown'
-import { Search } from '@/components/search'
 import { ThemeSwitch } from '@/components/theme-switch'
 import { Badge } from '@/components/ui/badge'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { cn } from '@/lib/utils'
-import { useContributors } from '@/lib/monitor/data'
+import { useContributors, useSelectedRepo } from '@/lib/monitor/data'
 import { formatDate, formatExact, formatNumber } from '@/lib/monitor/format'
 import { BreakdownList } from './components/breakdown-list'
 import { DataStatusBanner } from './components/data-status-banner'
@@ -113,8 +112,9 @@ function contributorsColumns(): ColumnDef<ContributorRecord, unknown>[] {
 export function ContributorsAnalysis() {
   const search = route.useSearch()
   const navigate = route.useNavigate()
-  const base = useMonitorBase(search)
-  const contributors = useContributors()
+  const repoList = useSelectedRepo(search)
+  const base = useMonitorBase(repoList.key, search)
+  const contributors = useContributors(repoList.key)
 
   const items = contributors.data?.items ?? []
 
@@ -137,11 +137,27 @@ export function ContributorsAnalysis() {
   const onSearchChange = (next: typeof search) =>
     navigate({ search: (prev) => ({ ...prev, ...next }) })
 
+  if (repoList.isError) {
+    return (
+      <>
+        <Header>
+          <div className='me-auto' />
+          <ThemeSwitch />
+          <ConfigDrawer />
+          <ProfileDropdown />
+        </Header>
+        <Main>
+          <ErrorState onRetry={() => repoList.refetch()} />
+        </Main>
+      </>
+    )
+  }
+
   if (base.isLoading) {
     return (
       <>
         <Header>
-          <Search className='me-auto' />
+          <div className='me-auto' />
           <ThemeSwitch />
           <ConfigDrawer />
           <ProfileDropdown />
@@ -157,7 +173,7 @@ export function ContributorsAnalysis() {
     return (
       <>
         <Header>
-          <Search className='me-auto' />
+          <div className='me-auto' />
           <ThemeSwitch />
           <ConfigDrawer />
           <ProfileDropdown />
@@ -175,7 +191,7 @@ export function ContributorsAnalysis() {
   return (
     <>
       <Header>
-        <Search className='me-auto' />
+        <div className='me-auto' />
         <ThemeSwitch />
         <ConfigDrawer />
         <ProfileDropdown />
@@ -188,6 +204,8 @@ export function ContributorsAnalysis() {
           meta={base.meta.data}
           search={search}
           onSearchChange={onSearchChange}
+          repos={repoList.repos}
+          selectedRepo={repoList.key}
         />
 
         <DataStatusBanner meta={base.meta.data} />

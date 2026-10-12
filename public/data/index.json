@@ -1,0 +1,21 @@
+{
+  "generatedAt": "2026-10-12T06:33:54.186Z",
+  "repos": [
+    {
+      "owner": "openJiuwen-ai",
+      "name": "sciencediscovery",
+      "fullName": "openJiuwen-ai/sciencediscovery",
+      "htmlUrl": "https://github.com/openJiuwen-ai/sciencediscovery",
+      "description": "ScienceDiscovery is an all‑in‑one agentic workbench built specifically for scientific research.",
+      "defaultBranch": "main"
+    },
+    {
+      "owner": "openJiuwen-ai",
+      "name": "jiuwenswarm",
+      "fullName": "openJiuwen-ai/jiuwenswarm",
+      "htmlUrl": "https://github.com/openJiuwen-ai/jiuwenswarm",
+      "description": "JiuwenSwarm is an intelligent AI Agent built on openJiuwen. It extends the powerful capabilities of large language models directly to your fingertips through various communication apps you use daily.",
+      "defaultBranch": "develop"
+    }
+  ]
+}

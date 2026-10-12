@@ -246,3 +246,22 @@ export type MonitorConfig = {
   /** Days an Issue may stay open before being flagged as long-unresolved. */
   longOpenIssueDays: number
 }
+
+/** One monitored repository as listed in `index.json`. */
+export type RepoSummary = {
+  owner: string
+  name: string
+  fullName: string
+  htmlUrl: string
+  description: string | null
+  defaultBranch: string
+}
+
+/**
+ * `index.json` — the set of repositories collected in one run. Per-repo files
+ * live under `data/<owner>/<name>/`.
+ */
+export type ReposIndex = {
+  generatedAt: string | null
+  repos: RepoSummary[]
+}

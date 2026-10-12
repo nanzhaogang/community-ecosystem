@@ -23,6 +23,8 @@ export const TIME_RANGE_LABELS: Record<TimeRangeKey, string> = {
 
 /** Shared `validateSearch` schema used by every monitor page. */
 export const timeRangeSearchSchema = z.object({
+  /** Selected repository key (`owner/name`). Absent = first monitored repo. */
+  repo: z.string().optional().catch(undefined),
   range: z.enum(TIME_RANGES).optional().catch('30d'),
   /** Custom range start, `yyyy-MM-dd`. */
   from: z.string().optional().catch(undefined),

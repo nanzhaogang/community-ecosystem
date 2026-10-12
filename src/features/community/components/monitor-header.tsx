@@ -1,7 +1,8 @@
 import { Badge } from '@/components/ui/badge'
 import { IconGithub } from '@/assets/brand-icons'
+import { RepoSelect } from './repo-select'
 import { TimeRangeFilter } from './time-range-filter'
-import type { MonitorMeta } from '@/lib/monitor/types'
+import type { MonitorMeta, RepoSummary } from '@/lib/monitor/types'
 import type { TimeRangeSearch } from '@/lib/monitor/ranges'
 
 type MonitorHeaderProps = {
@@ -10,6 +11,10 @@ type MonitorHeaderProps = {
   meta: MonitorMeta | undefined
   search: TimeRangeSearch
   onSearchChange: (next: TimeRangeSearch) => void
+  /** Full list of monitored repositories, for the switcher. */
+  repos?: RepoSummary[]
+  /** Currently selected repository key (`owner/name`). */
+  selectedRepo?: string
 }
 
 export function MonitorHeader({
@@ -18,6 +23,8 @@ export function MonitorHeader({
   meta,
   search,
   onSearchChange,
+  repos,
+  selectedRepo,
 }: MonitorHeaderProps) {
   return (
     <div className='flex flex-col gap-4'>
@@ -28,20 +35,29 @@ export function MonitorHeader({
             <p className='text-sm text-muted-foreground'>{description}</p>
           ) : null}
         </div>
-        {meta?.repo ? (
-          <a
-            href={meta.repo.htmlUrl}
-            target='_blank'
-            rel='noreferrer'
-            className='inline-flex items-center gap-2 rounded-md border px-3 py-1.5 text-sm transition-colors hover:bg-muted'
-          >
-            <IconGithub className='size-4' />
-            <span className='font-medium'>{meta.repo.fullName}</span>
-            <Badge variant='outline' className='font-normal'>
-              {meta.repo.defaultBranch}
-            </Badge>
-          </a>
-        ) : null}
+        <div className='flex flex-wrap items-center gap-2'>
+          {repos && selectedRepo ? (
+            <RepoSelect
+              repos={repos}
+              value={selectedRepo}
+              onChange={(key) => onSearchChange({ ...search, repo: key })}
+            />
+          ) : null}
+          {meta?.repo ? (
+            <a
+              href={meta.repo.htmlUrl}
+              target='_blank'
+              rel='noreferrer'
+              className='inline-flex items-center gap-2 rounded-md border px-3 py-1.5 text-sm transition-colors hover:bg-muted'
+            >
+              <IconGithub className='size-4' />
+              <span className='font-medium'>{meta.repo.fullName}</span>
+              <Badge variant='outline' className='font-normal'>
+                {meta.repo.defaultBranch}
+              </Badge>
+            </a>
+          ) : null}
+        </div>
       </div>
       <TimeRangeFilter value={search} onChange={onSearchChange} />
     </div>

@@ -16,8 +16,8 @@ function toDate(value: string | null | undefined): Date | null {
  * Shared derivation for every monitor page: resolves the URL time range
  * against the dataset and computes current + previous period metrics.
  */
-export function useMonitorBase(search: TimeRangeSearch) {
-  const core = useMonitorCore()
+export function useMonitorBase(repo: string, search: TimeRangeSearch) {
+  const core = useMonitorCore(repo)
   const history = useMemo(() => core.history.data ?? [], [core.history.data])
 
   const now = useMemo(() => {

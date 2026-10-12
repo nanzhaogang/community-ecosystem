@@ -19,9 +19,5 @@
   "errors": [],
   "tokenConfigured": false,
   "historyComplete": false,
-  "notes": [
-    "Historical trends start at monitoringStart; cumulative Star/Fork history cannot be reconstructed retroactively.",
-    "List collection capped at 20 pages per resource.",
-    "First-response details limited to 18 items this run."
-  ]
+  "notes": []
 }

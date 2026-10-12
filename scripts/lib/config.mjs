@@ -1,7 +1,10 @@
 import { readFileSync, existsSync } from 'node:fs'
 import path from 'node:path'
 
-const DEFAULT_REPO = 'openJiuwen-ai/sciencediscovery'
+const DEFAULT_REPOS = [
+  'openJiuwen-ai/sciencediscovery',
+  'openJiuwen-ai/jiuwenswarm',
+]
 
 function splitList(value) {
   if (!value) return []
@@ -31,15 +34,24 @@ function loadExistingConfig(outDir) {
 /**
  * Resolve runtime configuration.
  *
- * Secrets (GITHUB_TOKEN) are only ever read from the environment and are
- * never written to any output file.
+ * Multiple repositories are collected in one run. `MONITOR_REPOS` is a
+ * comma-separated list; `MONITOR_REPO` (single) is still honoured. Secrets
+ * (GITHUB_TOKEN) are only ever read from the environment and are never
+ * written to any output file.
  */
 export function loadConfig(outDir) {
   const existing = loadExistingConfig(outDir)
 
-  // Only MONITOR_REPO changes the target. GITHUB_REPOSITORY is intentionally
-  // ignored: in CI it points at the site repo, not the monitored project.
-  const repo = parseRepo(process.env.MONITOR_REPO || DEFAULT_REPO)
+  // Only MONITOR_REPOS / MONITOR_REPO change the targets. GITHUB_REPOSITORY is
+  // intentionally ignored: in CI it points at the site repo, not the monitored
+  // project.
+  const repoList = splitList(process.env.MONITOR_REPOS)
+  const slugs = repoList.length
+    ? repoList
+    : process.env.MONITOR_REPO
+      ? [process.env.MONITOR_REPO]
+      : DEFAULT_REPOS
+  const repos = slugs.map(parseRepo)
 
   const maintainers = splitList(process.env.MONITOR_MAINTAINERS)
   const internalOrgs = splitList(process.env.MONITOR_INTERNAL_ORGS)
@@ -50,7 +62,7 @@ export function loadConfig(outDir) {
     maintainers: maintainers.length ? maintainers : (existing?.maintainers ?? []),
     internalOrgs: internalOrgs.length
       ? internalOrgs
-      : (existing?.internalOrgs ?? [repo.owner]),
+      : (existing?.internalOrgs ?? [...new Set(repos.map((r) => r.owner))]),
     bots: bots.length
       ? bots
       : (existing?.bots ?? [
@@ -72,7 +84,7 @@ export function loadConfig(outDir) {
   }
 
   return {
-    repo,
+    repos,
     config,
     token: process.env.GITHUB_TOKEN ?? process.env.MONITOR_TOKEN ?? '',
     outDir: outDir,
