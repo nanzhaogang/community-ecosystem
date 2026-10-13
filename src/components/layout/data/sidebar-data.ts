@@ -5,7 +5,6 @@ import {
   Globe,
   LayoutDashboard,
   LineChart,
-  Users,
 } from 'lucide-react'
 import { type SidebarData } from '../types'
 
@@ -37,14 +36,9 @@ export const sidebarData: SidebarData = {
           icon: CircleDot,
         },
         {
-          title: '增长趋势',
+          title: '社区成长',
           url: '/growth',
           icon: LineChart,
-        },
-        {
-          title: '贡献者',
-          url: '/contributors',
-          icon: Users,
         },
         {
           title: '生态影响力',

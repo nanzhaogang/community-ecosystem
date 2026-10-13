@@ -16,6 +16,8 @@ type MonitorHeaderProps = {
   repos?: RepoSummary[]
   /** Currently selected repository key (`owner/name`). */
   selectedRepo?: string
+  /** Render the time-range filter (default true). */
+  showRange?: boolean
   /** Optional right-aligned actions (e.g. a refresh button). */
   actions?: ReactNode
 }
@@ -28,6 +30,7 @@ export function MonitorHeader({
   onSearchChange,
   repos,
   selectedRepo,
+  showRange = true,
   actions,
 }: MonitorHeaderProps) {
   return (
@@ -64,7 +67,9 @@ export function MonitorHeader({
           {actions}
         </div>
       </div>
-      <TimeRangeFilter value={search} onChange={onSearchChange} />
+      {showRange ? (
+        <TimeRangeFilter value={search} onChange={onSearchChange} />
+      ) : null}
     </div>
   )
 }

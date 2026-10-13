@@ -1,33 +1,16 @@
 import { useMemo } from 'react'
-import {
-  GitPullRequest,
-  GitPullRequestArrow,
-  GitPullRequestClosed,
-  GitPullRequestDraft,
-  Timer,
-  UsersRound,
-} from 'lucide-react'
 import { getRouteApi } from '@tanstack/react-router'
 import { Header } from '@/components/layout/header'
 import { Main } from '@/components/layout/main'
 import { ThemeSwitch } from '@/components/theme-switch'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import {
-  FIRST_RESPONSE_BUCKETS,
-  bucketValues,
-  compositionOf,
-  sliceHistory,
-} from '@/lib/monitor/derive'
 import { usePulls, useSelectedRepo } from '@/lib/monitor/data'
-import { formatDurationHours, formatExact, formatNumber } from '@/lib/monitor/format'
-import { BreakdownList } from './components/breakdown-list'
+import { formatNumber } from '@/lib/monitor/format'
 import { ChartCard } from './components/chart-card'
-import { DataStatusBanner } from './components/data-status-banner'
-import { DistributionChart } from './components/distribution-chart'
-import { MetricCard } from './components/metric-card'
 import { MonitorHeader } from './components/monitor-header'
 import { MonitorTable } from './components/monitor-table'
 import { ErrorState, LoadingState } from './components/states'
+import { TimeRangeFilter } from './components/time-range-filter'
 import { TrendChart } from './components/trend-chart'
 import { pullsColumns } from './pulls-columns'
 import { useMonitorBase } from './use-monitor'
@@ -43,29 +26,29 @@ export function PullsAnalysis() {
 
   const records = pulls.data ?? []
 
-  const trend = useMemo(
-    () =>
-      sliceHistory(base.history, base.range).map((p) => ({
-        date: p.date.slice(5),
-        newPulls: p.newPulls,
-        mergedPulls: p.mergedPulls,
-        openPulls: p.openPulls,
-      })),
-    [base.history, base.range]
-  )
-
-  const responseBuckets = useMemo(() => {
-    const values = records
-      .map((r) => r.firstResponseHours)
-      .filter((v): v is number => v !== null)
-    return bucketValues(
-      values,
-      FIRST_RESPONSE_BUCKETS.edges,
-      FIRST_RESPONSE_BUCKETS.labels
-    )
-  }, [records])
-
-  const composition = useMemo(() => compositionOf(records), [records])
+  // Cumulative PR count as of each day, counted from the full record set (not
+  // the young daily history). Fixed ranges keep their window; "全部历史" spans
+  // from the first PR to today.
+  const cumulative = useMemo(() => {
+    const { from, to, key } = base.range
+    const created = records
+      .map((r) => r.createdAt.slice(0, 10))
+      .sort((a, b) => a.localeCompare(b))
+    const startDay =
+      key === 'all' ? created[0] : from?.toISOString().slice(0, 10)
+    const endDay = to.toISOString().slice(0, 10)
+    if (!startDay || startDay > endDay) return []
+    const points: { date: string; total: number }[] = []
+    let seen = 0
+    const cursor = new Date(`${startDay}T00:00:00.000Z`)
+    while (cursor.toISOString().slice(0, 10) <= endDay) {
+      const day = cursor.toISOString().slice(0, 10)
+      while (seen < created.length && created[seen] <= day) seen += 1
+      points.push({ date: day.slice(5), total: seen })
+      cursor.setUTCDate(cursor.getUTCDate() + 1)
+    }
+    return points
+  }, [records, base.range])
 
   const onSearchChange = (next: typeof search) =>
     navigate({ search: (prev) => ({ ...prev, ...next }) })
@@ -114,7 +97,6 @@ export function PullsAnalysis() {
 
   const latest = base.latest.data
   const pullsData = latest?.pulls
-  const { current, previous } = base
 
   return (
     <>
@@ -126,129 +108,36 @@ export function PullsAnalysis() {
       <Main className='flex flex-1 flex-col gap-6'>
         <MonitorHeader
           title='Pull Request 分析'
-          description='Pull Request 的贡献流、响应效率与积压情况。'
+          description=''
           meta={base.meta.data}
           search={search}
           onSearchChange={onSearchChange}
           repos={repoList.repos}
           selectedRepo={repoList.key}
+          showRange={false}
         />
 
-        <DataStatusBanner meta={base.meta.data} />
-
-        <div className='grid gap-4 sm:grid-cols-2 lg:grid-cols-4'>
-          <MetricCard
-            title='新增 PRs'
-            value={formatExact(current.newPulls)}
-            icon={GitPullRequest}
-            delta={current.newPulls}
-            previousDelta={previous?.newPulls}
-            hint={base.range.label}
+        <ChartCard
+          title='PR 累计数量'
+          description='所选区间内 PR 累计总数的变化趋势。'
+          action={<TimeRangeFilter value={search} onChange={onSearchChange} />}
+          empty={cumulative.length === 0}
+          emptyMessage='暂无历史数据。'
+        >
+          <TrendChart
+            data={cumulative}
+            xKey='date'
+            series={[
+              {
+                key: 'total',
+                label: 'PR 累计',
+                color: 'var(--chart-1)',
+                type: 'line',
+              },
+            ]}
+            yDomain={['auto', 'auto']}
           />
-          <MetricCard
-            title='已合并 PRs'
-            value={formatExact(current.mergedPulls)}
-            icon={GitPullRequestClosed}
-            delta={current.mergedPulls}
-            previousDelta={previous?.mergedPulls}
-            hint='本周期'
-          />
-          <MetricCard
-            title='Open PRs'
-            value={formatExact(pullsData?.open)}
-            icon={GitPullRequestArrow}
-            delta={current.openPullsDelta}
-            previousDelta={previous?.openPullsDelta}
-            hint='积压'
-          />
-          <MetricCard
-            title='关闭未合并'
-            value={formatExact(current.closedUnmergedPulls)}
-            icon={GitPullRequestDraft}
-            hint='本周期'
-          />
-          <MetricCard
-            title='首次响应（平均）'
-            value={formatDurationHours(pullsData?.firstResponse.avgHours ?? null)}
-            icon={Timer}
-            hint={`中位 ${formatDurationHours(pullsData?.firstResponse.medianHours ?? null)}`}
-            description={`${pullsData?.firstResponse.sampleSize ?? 0} 个已响应的 PR`}
-          />
-          <MetricCard
-            title='合并周期（平均）'
-            value={formatDurationHours(pullsData?.mergeCycle.avgHours ?? null)}
-            icon={Timer}
-            hint={`中位 ${formatDurationHours(pullsData?.mergeCycle.medianHours ?? null)}`}
-          />
-          <MetricCard
-            title='等待回复'
-            value={formatExact(pullsData?.awaitingResponse)}
-            icon={GitPullRequestDraft}
-            hint='尚无回复的 Open PR'
-          />
-          <MetricCard
-            title='超时'
-            value={formatExact(pullsData?.overdue.count)}
-            icon={GitPullRequestDraft}
-            hint={`> ${formatDurationHours(pullsData?.overdue.thresholdHours ?? null)}`}
-          />
-        </div>
-
-        <div className='grid gap-4 lg:grid-cols-2'>
-          <ChartCard
-            title='新增 vs 已合并 PRs'
-            description='每日新建与合并的 Pull Request。'
-            empty={trend.length === 0}
-            emptyMessage='暂无历史数据。趋势数据从监控开始日期起累计。'
-          >
-            <TrendChart
-              data={trend}
-              xKey='date'
-              series={[
-                { key: 'newPulls', label: '新增', color: 'var(--chart-1)', type: 'bar' },
-                { key: 'mergedPulls', label: '已合并', color: 'var(--chart-2)', type: 'line' },
-              ]}
-            />
-          </ChartCard>
-
-          <ChartCard
-            title='Open PR 积压'
-            description='Open Pull Request 随时间变化。'
-            empty={trend.length === 0}
-          >
-            <TrendChart
-              data={trend}
-              xKey='date'
-              series={[
-                { key: 'openPulls', label: 'Open PRs', color: 'var(--chart-3)', type: 'area' },
-              ]}
-            />
-          </ChartCard>
-
-          <ChartCard
-            title='首次响应分布'
-            description='从 PR 创建到首次人工响应的时间。'
-            empty={records.length === 0}
-          >
-            <DistributionChart data={responseBuckets} color='var(--chart-4)' />
-          </ChartCard>
-
-          <Card>
-            <CardHeader>
-              <CardTitle className='flex items-center gap-2 text-base'>
-                <UsersRound className='size-4' />
-                内部 vs 外部贡献
-              </CardTitle>
-            </CardHeader>
-            <CardContent className='space-y-4'>
-              <BreakdownList composition={composition} />
-              <p className='text-xs text-muted-foreground'>
-                内部 = 维护者 / 组织成员 / 协作者。无法确认的账号一律标记为
-                未知，绝不猜测。
-              </p>
-            </CardContent>
-          </Card>
-        </div>
+        </ChartCard>
 
         <Card>
           <CardHeader>

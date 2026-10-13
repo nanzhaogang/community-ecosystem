@@ -24,9 +24,11 @@ type TrendChartProps = {
   data: ChartDatum[]
   xKey: string
   series: ChartSeries[]
-  height?: number
+  height?: number | `${number}%`
   yFormatter?: (value: number) => string
   xFormatter?: (value: string) => string
+  /** Override the y-axis domain, e.g. `['auto', 'auto']` to zoom into the data. */
+  yDomain?: [number | string, number | string]
   stacked?: boolean
 }
 
@@ -45,6 +47,7 @@ export function TrendChart({
   height = 280,
   yFormatter,
   xFormatter,
+  yDomain,
   stacked,
 }: TrendChartProps) {
   return (
@@ -67,6 +70,7 @@ export function TrendChart({
           tickLine={false}
           axisLine={false}
           width={44}
+          domain={yDomain}
           tickFormatter={yFormatter}
         />
         <Tooltip contentStyle={TOOLTIP_STYLE} />

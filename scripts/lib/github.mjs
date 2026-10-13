@@ -126,7 +126,7 @@ export class GitHubClient {
       const batch = await res.json()
       if (!Array.isArray(batch)) break
       items.push(...batch)
-      url = nextLink(res.headers.get('link'))
+      url = links(res.headers.get('link')).next
     }
 
     return { items, truncated }
@@ -147,13 +147,15 @@ export class GitHubClient {
   }
 }
 
-function nextLink(linkHeader) {
-  if (!linkHeader) return null
+/** Parse a `Link` response header into `{ first, prev, next, last }` URLs. */
+function links(linkHeader) {
+  const out = {}
+  if (!linkHeader) return out
   for (const part of linkHeader.split(',')) {
-    const match = part.match(/<([^>]+)>;\s*rel="next"/)
-    if (match) return match[1]
+    const match = part.match(/<([^>]+)>;\s*rel="([^"]+)"/)
+    if (match) out[match[2]] = match[1]
   }
-  return null
+  return out
 }
 
 export function sleep(ms) {

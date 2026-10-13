@@ -125,7 +125,7 @@ export function previousRange(range: ResolvedRange): ResolvedRange | null {
   const to = new Date(range.from.getTime() - DAY_MS)
   const from = new Date(to.getTime() - (range.days - 1) * DAY_MS)
   return {
-    key: 'custom',
+    key: 'previous',
     from,
     to,
     days: range.days,
@@ -136,7 +136,8 @@ export function previousRange(range: ResolvedRange): ResolvedRange | null {
 /**
  * Unique authors with a PR or Issue created inside the window, split into the
  * overall count and how many of them are external contributors (based on each
- * record's `contributionType`).
+ * record's `contributionType`). Bots ("unknown") are neither internal nor
+ * external, so they are excluded — the same split used everywhere else.
  */
 export function activeContributorsSplit(
   pulls: PullRecord[],
@@ -145,15 +146,18 @@ export function activeContributorsSplit(
 ): { total: number; external: number } {
   const all = new Set<string>()
   const external = new Set<string>()
+  const add = (author: string, type: ContributionType) => {
+    if (type === 'unknown') return
+    all.add(author)
+    if (type === 'external') external.add(author)
+  }
   for (const p of pulls) {
     if (!isInRange(p.createdAt, range)) continue
-    all.add(p.author)
-    if (p.contributionType === 'external') external.add(p.author)
+    add(p.author, p.contributionType)
   }
   for (const i of issues) {
     if (!isInRange(i.createdAt, range)) continue
-    all.add(i.author)
-    if (i.contributionType === 'external') external.add(i.author)
+    add(i.author, i.contributionType)
   }
   return { total: all.size, external: external.size }
 }
@@ -202,9 +206,4 @@ export function issueAgeBuckets(
     .filter((i) => i.state === 'open')
     .map((i) => (now.getTime() - new Date(i.createdAt).getTime()) / DAY_MS)
   return bucketValues(ages, edges, labels)
-}
-
-export const FIRST_RESPONSE_BUCKETS = {
-  edges: [4, 12, 24, 72, 168],
-  labels: ['<4h', '4-12h', '12-24h', '1-3d', '3-7d', '>7d'],
 }

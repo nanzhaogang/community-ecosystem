@@ -6,12 +6,65 @@ const DEFAULT_REPOS = [
   'openJiuwen-ai/jiuwenswarm',
 ]
 
+const DEFAULT_BOTS = [
+  'dependabot[bot]',
+  'github-actions[bot]',
+  'renovate[bot]',
+  'codecov[bot]',
+  'copilot[bot]',
+  'openjiuwen-sync-bot[bot]',
+  'openjiuwen-release-bot[bot]',
+  'openjiuwen-collaboration-bot[bot]',
+]
+
+/** Internal contributors are configured once, for every monitored repo. */
+const INTERNAL_CONTRIBUTORS_FILE = path.join(
+  process.cwd(),
+  'config',
+  'internal-contributors.json'
+)
+
 function splitList(value) {
   if (!value) return []
   return value
     .split(',')
     .map((s) => s.trim())
     .filter(Boolean)
+}
+
+/**
+ * Per-repository internal contributors read from
+ * `config/internal-contributors.json`, keyed by `owner/name`. Everyone else
+ * (non-bot) in that repository counts as external.
+ *
+ * @returns {Record<string, string[]>}
+ */
+function loadInternalContributors() {
+  if (!existsSync(INTERNAL_CONTRIBUTORS_FILE)) return {}
+  try {
+    const parsed = JSON.parse(readFileSync(INTERNAL_CONTRIBUTORS_FILE, 'utf8'))
+    if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) return {}
+    /** @type {Record<string, string[]>} */
+    const out = {}
+    for (const [repo, logins] of Object.entries(parsed)) {
+      if (Array.isArray(logins)) {
+        out[repo] = logins.filter((v) => typeof v === 'string')
+      }
+    }
+    return out
+  } catch {
+    return {}
+  }
+}
+
+/**
+ * Internal contributor logins for one repository (empty when unconfigured).
+ *
+ * @param {{ internalContributors: Record<string, string[]> }} config
+ * @param {string} fullName `owner/name`
+ */
+export function internalContributorsFor(config, fullName) {
+  return config.internalContributors[fullName] ?? []
 }
 
 /** @returns {{ owner: string, name: string, fullName: string }} */
@@ -53,31 +106,12 @@ export function loadConfig(outDir) {
       : DEFAULT_REPOS
   const repos = slugs.map(parseRepo)
 
-  const maintainers = splitList(process.env.MONITOR_MAINTAINERS)
-  const internalOrgs = splitList(process.env.MONITOR_INTERNAL_ORGS)
   const bots = splitList(process.env.MONITOR_BOTS)
 
   /** @type {import('../src/lib/monitor/types.ts').MonitorConfig} */
   const config = {
-    maintainers: maintainers.length ? maintainers : (existing?.maintainers ?? []),
-    internalOrgs: internalOrgs.length
-      ? internalOrgs
-      : (existing?.internalOrgs ?? [...new Set(repos.map((r) => r.owner))]),
-    bots: bots.length
-      ? bots
-      : (existing?.bots ?? [
-          'dependabot[bot]',
-          'github-actions[bot]',
-          'renovate[bot]',
-          'codecov[bot]',
-          'copilot[bot]',
-          'openjiuwen-sync-bot[bot]',
-          'openjiuwen-release-bot[bot]',
-          'openjiuwen-collaboration-bot[bot]',
-        ]),
-    overdueThresholdHours: Number(
-      process.env.MONITOR_OVERDUE_HOURS ?? existing?.overdueThresholdHours ?? 168
-    ),
+    internalContributors: loadInternalContributors(),
+    bots: bots.length ? bots : (existing?.bots ?? DEFAULT_BOTS),
     longOpenIssueDays: Number(
       process.env.MONITOR_LONG_OPEN_DAYS ?? existing?.longOpenIssueDays ?? 30
     ),
@@ -89,8 +123,6 @@ export function loadConfig(outDir) {
     token: process.env.GITHUB_TOKEN ?? process.env.MONITOR_TOKEN ?? '',
     outDir: outDir,
     maxListPages: Number(process.env.MONITOR_MAX_LIST_PAGES ?? 20),
-    maxDetailItems: Number(process.env.MONITOR_MAX_DETAIL_ITEMS ?? 0),
-    detailWindowDays: Number(process.env.MONITOR_DETAIL_WINDOW_DAYS ?? 180),
     schemaVersion: 1,
   }
 }

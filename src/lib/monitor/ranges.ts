@@ -1,10 +1,11 @@
 import z from 'zod'
 
-export const TIME_RANGES = ['7d', '30d', 'all', 'custom'] as const
+export const TIME_RANGES = ['7d', '30d', 'all'] as const
 export type TimeRangeKey = (typeof TIME_RANGES)[number]
 
 export type ResolvedRange = {
-  key: TimeRangeKey
+  /** `previous` marks the comparison window emitted by `previousRange`. */
+  key: TimeRangeKey | 'previous'
   /** Inclusive start (UTC). null = unbounded (all history). */
   from: Date | null
   /** Exclusive end (UTC). */
@@ -18,7 +19,6 @@ export const TIME_RANGE_LABELS: Record<TimeRangeKey, string> = {
   '7d': '最近 7 天',
   '30d': '最近 30 天',
   all: '全部历史',
-  custom: '自定义',
 }
 
 /** Shared `validateSearch` schema used by every monitor page. */
@@ -26,21 +26,11 @@ export const timeRangeSearchSchema = z.object({
   /** Selected repository key (`owner/name`). Absent = first monitored repo. */
   repo: z.string().optional().catch(undefined),
   range: z.enum(TIME_RANGES).optional().catch('30d'),
-  /** Custom range start, `yyyy-MM-dd`. */
-  from: z.string().optional().catch(undefined),
-  /** Custom range end, `yyyy-MM-dd`. */
-  to: z.string().optional().catch(undefined),
 })
 
 export type TimeRangeSearch = z.infer<typeof timeRangeSearchSchema>
 
 const DAY_MS = 24 * 60 * 60 * 1000
-
-function parseDay(value: string | undefined): Date | null {
-  if (!value) return null
-  const parsed = new Date(`${value}T00:00:00.000Z`)
-  return Number.isNaN(parsed.getTime()) ? null : parsed
-}
 
 function startOfUtcDay(date: Date): Date {
   return new Date(
@@ -61,27 +51,6 @@ export function resolveRange(
 ): ResolvedRange {
   const key = search.range ?? '30d'
   const to = startOfUtcDay(now)
-
-  if (key === 'custom') {
-    const from = parseDay(search.from)
-    const customTo = parseDay(search.to)
-    const end = customTo ? startOfUtcDay(customTo) : to
-    const start = from ? startOfUtcDay(from) : null
-    const days = start
-      ? Math.max(1, Math.round((end.getTime() - start.getTime()) / DAY_MS) + 1)
-      : null
-    return {
-      key,
-      from: start,
-      to: end,
-      days,
-      label: start
-        ? `${start.toISOString().slice(0, 10)} → ${end
-            .toISOString()
-            .slice(0, 10)}`
-        : TIME_RANGE_LABELS.custom,
-    }
-  }
 
   if (key === 'all') {
     return {

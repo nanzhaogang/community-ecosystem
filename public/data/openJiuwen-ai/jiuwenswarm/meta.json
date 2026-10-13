@@ -13,11 +13,11 @@
     "topics": []
   },
   "monitoringStart": "2026-10-12T06:33:45.833Z",
-  "lastSuccessAt": "2026-10-12T06:33:45.833Z",
-  "lastAttemptAt": "2026-10-12T06:33:45.833Z",
+  "lastSuccessAt": "2026-10-13T07:15:28.466Z",
+  "lastAttemptAt": "2026-10-13T07:15:28.466Z",
   "status": "ok",
   "errors": [],
-  "tokenConfigured": false,
+  "tokenConfigured": true,
   "historyComplete": false,
   "notes": [
     "Pull request list truncated by MONITOR_MAX_LIST_PAGES.",

@@ -1,60 +1,21 @@
 import { useMemo } from 'react'
-import {
-  CircleDot,
-  CircleDashed,
-  CircleSlash,
-  Timer,
-  UsersRound,
-} from 'lucide-react'
 import { getRouteApi } from '@tanstack/react-router'
 import { Header } from '@/components/layout/header'
 import { Main } from '@/components/layout/main'
 import { ThemeSwitch } from '@/components/theme-switch'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import {
-  compositionOf,
-  issueAgeBuckets,
-  sliceHistory,
-} from '@/lib/monitor/derive'
 import { useIssues, useSelectedRepo } from '@/lib/monitor/data'
-import { formatDurationHours, formatExact } from '@/lib/monitor/format'
-import { BreakdownList } from './components/breakdown-list'
+import { formatNumber } from '@/lib/monitor/format'
 import { ChartCard } from './components/chart-card'
-import { DataStatusBanner } from './components/data-status-banner'
-import { DistributionChart } from './components/distribution-chart'
-import { MetricCard } from './components/metric-card'
 import { MonitorHeader } from './components/monitor-header'
 import { MonitorTable } from './components/monitor-table'
 import { ErrorState, LoadingState } from './components/states'
+import { TimeRangeFilter } from './components/time-range-filter'
 import { TrendChart } from './components/trend-chart'
 import { issuesColumns } from './issues-columns'
 import { useMonitorBase } from './use-monitor'
-import type { IssueRecord } from '@/lib/monitor/types'
 
 const route = getRouteApi('/_authenticated/issues')
-
-/** Average first response time grouped by creation month. */
-function firstResponseByMonth(
-  records: IssueRecord[]
-): { month: string; avgHours: number }[] {
-  const buckets = new Map<string, number[]>()
-  for (const r of records) {
-    if (r.firstResponseHours === null) continue
-    const month = r.createdAt.slice(0, 7)
-    const arr = buckets.get(month) ?? []
-    arr.push(r.firstResponseHours)
-    buckets.set(month, arr)
-  }
-  return [...buckets.entries()]
-    .sort((a, b) => a[0].localeCompare(b[0]))
-    .map(([month, values]) => ({
-      month,
-      avgHours:
-        Math.round(
-          (values.reduce((a, b) => a + b, 0) / values.length) * 10
-        ) / 10,
-    }))
-}
 
 export function IssuesAnalysis() {
   const search = route.useSearch()
@@ -65,28 +26,29 @@ export function IssuesAnalysis() {
 
   const records = issues.data ?? []
 
-  const trend = useMemo(
-    () =>
-      sliceHistory(base.history, base.range).map((p) => ({
-        date: p.date.slice(5),
-        newIssues: p.newIssues,
-        closedIssues: p.closedIssues,
-        openIssues: p.openIssues,
-      })),
-    [base.history, base.range]
-  )
-
-  const ageBuckets = useMemo(
-    () => issueAgeBuckets(records, base.now),
-    [records, base.now]
-  )
-
-  const responseTrend = useMemo(
-    () => firstResponseByMonth(records),
-    [records]
-  )
-
-  const composition = useMemo(() => compositionOf(records), [records])
+  // Cumulative Issue count as of each day, counted from the full record set
+  // (not the young daily history). Fixed ranges keep their window; "全部历史"
+  // spans from the first Issue to today.
+  const cumulative = useMemo(() => {
+    const { from, to, key } = base.range
+    const created = records
+      .map((r) => r.createdAt.slice(0, 10))
+      .sort((a, b) => a.localeCompare(b))
+    const startDay =
+      key === 'all' ? created[0] : from?.toISOString().slice(0, 10)
+    const endDay = to.toISOString().slice(0, 10)
+    if (!startDay || startDay > endDay) return []
+    const points: { date: string; total: number }[] = []
+    let seen = 0
+    const cursor = new Date(`${startDay}T00:00:00.000Z`)
+    while (cursor.toISOString().slice(0, 10) <= endDay) {
+      const day = cursor.toISOString().slice(0, 10)
+      while (seen < created.length && created[seen] <= day) seen += 1
+      points.push({ date: day.slice(5), total: seen })
+      cursor.setUTCDate(cursor.getUTCDate() + 1)
+    }
+    return points
+  }, [records, base.range])
 
   const onSearchChange = (next: typeof search) =>
     navigate({ search: (prev) => ({ ...prev, ...next }) })
@@ -135,7 +97,6 @@ export function IssuesAnalysis() {
 
   const latest = base.latest.data
   const issuesData = latest?.issues
-  const { current, previous } = base
 
   return (
     <>
@@ -147,138 +108,36 @@ export function IssuesAnalysis() {
       <Main className='flex flex-1 flex-col gap-6'>
         <MonitorHeader
           title='Issue 分析'
-          description='Issue 的提交、解决速度与未解决积压。已排除 Pull Request。'
+          description=''
           meta={base.meta.data}
           search={search}
           onSearchChange={onSearchChange}
           repos={repoList.repos}
           selectedRepo={repoList.key}
+          showRange={false}
         />
 
-        <DataStatusBanner meta={base.meta.data} />
-
-        <div className='grid gap-4 sm:grid-cols-2 lg:grid-cols-4'>
-          <MetricCard
-            title='新增 Issues'
-            value={formatExact(current.newIssues)}
-            icon={CircleDot}
-            delta={current.newIssues}
-            previousDelta={previous?.newIssues}
-            hint={base.range.label}
+        <ChartCard
+          title='Issue 累计数量'
+          description='所选区间内 Issue 累计总数的变化趋势。'
+          action={<TimeRangeFilter value={search} onChange={onSearchChange} />}
+          empty={cumulative.length === 0}
+          emptyMessage='暂无历史数据。'
+        >
+          <TrendChart
+            data={cumulative}
+            xKey='date'
+            series={[
+              {
+                key: 'total',
+                label: 'Issue 累计',
+                color: 'var(--chart-1)',
+                type: 'line',
+              },
+            ]}
+            yDomain={['auto', 'auto']}
           />
-          <MetricCard
-            title='已关闭 Issues'
-            value={formatExact(current.closedIssues)}
-            icon={CircleSlash}
-            delta={current.closedIssues}
-            previousDelta={previous?.closedIssues}
-            hint='本周期'
-          />
-          <MetricCard
-            title='Open Issues'
-            value={formatExact(issuesData?.open)}
-            icon={CircleDashed}
-            delta={current.openIssuesDelta}
-            previousDelta={previous?.openIssuesDelta}
-            hint='积压'
-          />
-          <MetricCard
-            title='等待回复'
-            value={formatExact(issuesData?.awaitingResponse)}
-            icon={Timer}
-            hint='尚无回复的 Open Issue'
-          />
-          <MetricCard
-            title='首次响应平均'
-            value={formatDurationHours(issuesData?.firstResponse.avgHours ?? null)}
-            icon={Timer}
-            description={`中位 ${formatDurationHours(issuesData?.firstResponse.medianHours ?? null)} · P90 ${formatDurationHours(issuesData?.firstResponse.p90Hours ?? null)}`}
-          />
-          <MetricCard
-            title='关闭周期平均'
-            value={formatDurationHours(issuesData?.closeCycle.avgHours ?? null)}
-            icon={Timer}
-            hint={`中位 ${formatDurationHours(issuesData?.closeCycle.medianHours ?? null)}`}
-          />
-          <MetricCard
-            title='超时'
-            value={formatExact(issuesData?.overdue.count)}
-            icon={CircleDashed}
-            hint={`> ${formatDurationHours(issuesData?.overdue.thresholdHours ?? null)}`}
-          />
-          <MetricCard
-            title={`长期未解决（>${issuesData?.longOpen.thresholdDays ?? 30} 天）`}
-            value={formatExact(issuesData?.longOpen.count)}
-            icon={CircleDashed}
-          />
-        </div>
-
-        <div className='grid gap-4 lg:grid-cols-2'>
-          <ChartCard
-            title='新增 vs 已关闭 Issues'
-            description='每日新建与关闭的 Issue。'
-            empty={trend.length === 0}
-            emptyMessage='暂无历史数据。趋势数据从监控开始日期起累计。'
-          >
-            <TrendChart
-              data={trend}
-              xKey='date'
-              series={[
-                { key: 'newIssues', label: '新增', color: 'var(--chart-1)', type: 'bar' },
-                { key: 'closedIssues', label: '已关闭', color: 'var(--chart-2)', type: 'line' },
-              ]}
-            />
-          </ChartCard>
-
-          <ChartCard
-            title='Open Issue 积压'
-            description='Open Issue 随时间变化。'
-            empty={trend.length === 0}
-          >
-            <TrendChart
-              data={trend}
-              xKey='date'
-              series={[
-                { key: 'openIssues', label: 'Open Issues', color: 'var(--chart-3)', type: 'area' },
-              ]}
-            />
-          </ChartCard>
-
-          <ChartCard
-            title='首次响应趋势'
-            description='按创建月份统计的平均首次响应时间。'
-            empty={responseTrend.length === 0}
-          >
-            <TrendChart
-              data={responseTrend}
-              xKey='month'
-              series={[
-                { key: 'avgHours', label: '平均小时', color: 'var(--chart-4)', type: 'line' },
-              ]}
-              yFormatter={(v) => `${v}h`}
-            />
-          </ChartCard>
-
-          <ChartCard
-            title='未解决 Issue 的存续时长'
-            description='当前 Open Issue 的存续时长分布。'
-            empty={records.length === 0}
-          >
-            <DistributionChart data={ageBuckets} color='var(--chart-5)' />
-          </ChartCard>
-        </div>
-
-        <Card>
-          <CardHeader>
-            <CardTitle className='flex items-center gap-2 text-base'>
-              <UsersRound className='size-4' />
-              内部 vs 外部贡献
-            </CardTitle>
-          </CardHeader>
-          <CardContent>
-            <BreakdownList composition={composition} />
-          </CardContent>
-        </Card>
+        </ChartCard>
 
         <Card>
           <CardHeader>
@@ -312,6 +171,10 @@ export function IssuesAnalysis() {
             />
           </CardContent>
         </Card>
+
+        <p className='text-xs text-muted-foreground'>
+          数据集中的 Issue 总数：{formatNumber(issuesData?.total)}。
+        </p>
       </Main>
     </>
   )

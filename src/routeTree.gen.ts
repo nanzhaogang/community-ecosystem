@@ -22,7 +22,6 @@ import { Route as errors404RouteImport } from './routes/(errors)/404'
 import { Route as errors500RouteImport } from './routes/(errors)/500'
 import { Route as errors503RouteImport } from './routes/(errors)/503'
 import { Route as AuthenticatedIndexRouteImport } from './routes/_authenticated/index'
-import { Route as AuthenticatedContributorsRouteImport } from './routes/_authenticated/contributors'
 import { Route as AuthenticatedEcosystemRouteImport } from './routes/_authenticated/ecosystem'
 import { Route as AuthenticatedGrowthRouteImport } from './routes/_authenticated/growth'
 import { Route as AuthenticatedIssuesRouteImport } from './routes/_authenticated/issues'
@@ -105,12 +104,6 @@ const AuthenticatedIndexRoute = AuthenticatedIndexRouteImport.update({
   path: '/',
   getParentRoute: () => AuthenticatedRouteRoute,
 } as any)
-const AuthenticatedContributorsRoute =
-  AuthenticatedContributorsRouteImport.update({
-    id: '/contributors',
-    path: '/contributors',
-    getParentRoute: () => AuthenticatedRouteRoute,
-  } as any)
 const AuthenticatedEcosystemRoute = AuthenticatedEcosystemRouteImport.update({
   id: '/ecosystem',
   path: '/ecosystem',
@@ -214,7 +207,6 @@ export interface FileRoutesByFullPath {
   '/404': typeof errors404Route
   '/500': typeof errors500Route
   '/503': typeof errors503Route
-  '/contributors': typeof AuthenticatedContributorsRoute
   '/ecosystem': typeof AuthenticatedEcosystemRoute
   '/growth': typeof AuthenticatedGrowthRoute
   '/issues': typeof AuthenticatedIssuesRoute
@@ -242,7 +234,6 @@ export interface FileRoutesByTo {
   '/404': typeof errors404Route
   '/500': typeof errors500Route
   '/503': typeof errors503Route
-  '/contributors': typeof AuthenticatedContributorsRoute
   '/ecosystem': typeof AuthenticatedEcosystemRoute
   '/growth': typeof AuthenticatedGrowthRoute
   '/issues': typeof AuthenticatedIssuesRoute
@@ -276,7 +267,6 @@ export interface FileRoutesById {
   '/(errors)/404': typeof errors404Route
   '/(errors)/500': typeof errors500Route
   '/(errors)/503': typeof errors503Route
-  '/_authenticated/contributors': typeof AuthenticatedContributorsRoute
   '/_authenticated/ecosystem': typeof AuthenticatedEcosystemRoute
   '/_authenticated/growth': typeof AuthenticatedGrowthRoute
   '/_authenticated/issues': typeof AuthenticatedIssuesRoute
@@ -309,7 +299,6 @@ export interface FileRouteTypes {
     | '/404'
     | '/500'
     | '/503'
-    | '/contributors'
     | '/ecosystem'
     | '/growth'
     | '/issues'
@@ -337,7 +326,6 @@ export interface FileRouteTypes {
     | '/404'
     | '/500'
     | '/503'
-    | '/contributors'
     | '/ecosystem'
     | '/growth'
     | '/issues'
@@ -370,7 +358,6 @@ export interface FileRouteTypes {
     | '/(errors)/404'
     | '/(errors)/500'
     | '/(errors)/503'
-    | '/_authenticated/contributors'
     | '/_authenticated/ecosystem'
     | '/_authenticated/growth'
     | '/_authenticated/issues'
@@ -494,13 +481,6 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof AuthenticatedIndexRouteImport
-      parentRoute: typeof AuthenticatedRouteRoute
-    }
-    '/_authenticated/contributors': {
-      id: '/_authenticated/contributors'
-      path: '/contributors'
-      fullPath: '/contributors'
-      preLoaderRoute: typeof AuthenticatedContributorsRouteImport
       parentRoute: typeof AuthenticatedRouteRoute
     }
     '/_authenticated/ecosystem': {
@@ -643,7 +623,6 @@ const AuthenticatedSettingsRouteRouteWithChildren =
 
 interface AuthenticatedRouteRouteChildren {
   AuthenticatedSettingsRouteRoute: typeof AuthenticatedSettingsRouteRouteWithChildren
-  AuthenticatedContributorsRoute: typeof AuthenticatedContributorsRoute
   AuthenticatedEcosystemRoute: typeof AuthenticatedEcosystemRoute
   AuthenticatedGrowthRoute: typeof AuthenticatedGrowthRoute
   AuthenticatedIssuesRoute: typeof AuthenticatedIssuesRoute
@@ -658,7 +637,6 @@ interface AuthenticatedRouteRouteChildren {
 
 const AuthenticatedRouteRouteChildren: AuthenticatedRouteRouteChildren = {
   AuthenticatedSettingsRouteRoute: AuthenticatedSettingsRouteRouteWithChildren,
-  AuthenticatedContributorsRoute: AuthenticatedContributorsRoute,
   AuthenticatedEcosystemRoute: AuthenticatedEcosystemRoute,
   AuthenticatedGrowthRoute: AuthenticatedGrowthRoute,
   AuthenticatedIssuesRoute: AuthenticatedIssuesRoute,

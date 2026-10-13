@@ -1,91 +1,45 @@
 {
-  "generatedAt": "2026-10-12T03:54:34.259Z",
+  "generatedAt": "2026-10-13T07:15:28.466Z",
   "repo": {
-    "stars": 162,
-    "forks": 25,
+    "stars": 163,
+    "forks": 27,
     "watchers": 1,
-    "openIssuesAndPrs": 94
+    "openIssuesAndPrs": 89
   },
   "contributors": {
-    "total": 15,
-    "activeLast30d": 9,
-    "newLast30d": 8,
+    "total": 16,
+    "activeLast30d": 10,
+    "newLast30d": 9,
     "composition": {
-      "internal": 3,
-      "external": 7,
-      "unknown": 5
+      "internal": 16,
+      "external": 0,
+      "unknown": 0
     }
   },
   "pulls": {
-    "total": 161,
+    "total": 171,
     "open": 11,
-    "merged": 137,
-    "closedUnmerged": 13,
+    "merged": 144,
+    "closedUnmerged": 16,
     "composition": {
-      "internal": 66,
-      "external": 49,
+      "internal": 125,
+      "external": 0,
       "unknown": 46
-    },
-    "awaitingResponse": 2,
-    "firstResponse": {
-      "avgHours": 1,
-      "medianHours": 1,
-      "p90Hours": 1,
-      "sampleSize": 1
-    },
-    "mergeCycle": {
-      "avgHours": 7.1,
-      "medianHours": 1.2,
-      "p90Hours": 15.2,
-      "sampleSize": 137
-    },
-    "overdue": {
-      "thresholdHours": 168,
-      "count": 0,
-      "items": []
-    },
-    "externalMaxWaitHours": null
+    }
   },
   "issues": {
-    "total": 107,
-    "open": 83,
-    "closed": 24,
+    "total": 111,
+    "open": 78,
+    "closed": 33,
     "composition": {
-      "internal": 50,
-      "external": 55,
+      "internal": 109,
+      "external": 0,
       "unknown": 2
-    },
-    "awaitingResponse": 14,
-    "firstResponse": {
-      "avgHours": 24.6,
-      "medianHours": 24.6,
-      "p90Hours": 24.6,
-      "sampleSize": 1
-    },
-    "closeCycle": {
-      "avgHours": 31.9,
-      "medianHours": 18.6,
-      "p90Hours": 62.2,
-      "sampleSize": 24
-    },
-    "overdue": {
-      "thresholdHours": 168,
-      "count": 0,
-      "items": []
     },
     "longOpen": {
       "thresholdDays": 30,
-      "count": 1,
-      "items": [
-        {
-          "number": 1,
-          "title": "[Experience Feedback]: How can I obtain the binary installation package?",
-          "author": "freeeyes",
-          "createdAt": "2026-08-19T01:41:43Z",
-          "waitingHours": 1298.214238611111,
-          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1"
-        }
-      ]
+      "count": 0,
+      "items": []
     }
   }
 }

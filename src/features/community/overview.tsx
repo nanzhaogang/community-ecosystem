@@ -1,10 +1,9 @@
 import { useState, type ReactNode } from 'react'
 import {
+  AlertCircle,
   CircleDot,
   GitFork,
   GitPullRequest,
-  GitPullRequestArrow,
-  GitPullRequestClosed,
   RefreshCw,
   Star,
   Users,
@@ -24,6 +23,11 @@ import {
   CardHeader,
   CardTitle,
 } from '@/components/ui/card'
+import {
+  Popover,
+  PopoverContent,
+  PopoverTrigger,
+} from '@/components/ui/popover'
 import { cn } from '@/lib/utils'
 import { activeContributorsSplit } from '@/lib/monitor/derive'
 import {
@@ -33,41 +37,71 @@ import {
 import { repoKey, useIssues, usePulls, useRepos } from '@/lib/monitor/data'
 import {
   formatDateTime,
-  formatDurationHours,
   formatExact,
   formatNumber,
-  formatRelative,
+  formatPercent,
 } from '@/lib/monitor/format'
-import { BreakdownList } from './components/breakdown-list'
 import { MetricCard } from './components/metric-card'
 import { MonitorHeader } from './components/monitor-header'
 import { ErrorState, LoadingState } from './components/states'
 import { useMonitorBase } from './use-monitor'
 import type { TimeRangeSearch } from '@/lib/monitor/ranges'
-import type { RepoSummary } from '@/lib/monitor/types'
+import type { Composition, RepoSummary } from '@/lib/monitor/types'
 
 const route = getRouteApi('/_authenticated/')
 
-function StatRow({
-  label,
-  value,
-  hint,
-}: {
-  label: string
-  value: string
-  hint?: string
-}) {
+/**
+ * The overview always reflects the current state, so it uses one fixed window
+ * (the platform's 30-day convention) instead of a user-selectable range.
+ */
+const FIXED_RANGE: TimeRangeSearch = { range: '30d' }
+
+/** Click-to-open explanation for the "活跃贡献者" metric. */
+function ActiveContributorsInfo() {
   return (
-    <div className='flex items-center justify-between gap-3 py-1.5 text-sm'>
+    <Popover>
+      <PopoverTrigger asChild>
+        <button
+          type='button'
+          aria-label='活跃贡献者说明'
+          className='shrink-0 text-muted-foreground transition-colors hover:text-foreground'
+        >
+          <AlertCircle className='size-3.5' />
+        </button>
+      </PopoverTrigger>
+      <PopoverContent align='start' className='w-72 text-xs leading-relaxed'>
+        统计最近 30 天内创建过 PR 或 Issue 的去重作者数（含外部作者）。
+      </PopoverContent>
+    </Popover>
+  )
+}
+
+function StatRow({ label, value }: { label: string; value: string }) {
+  return (
+    <div className='flex items-center justify-between gap-3 py-1 text-sm'>
       <span className='text-muted-foreground'>{label}</span>
-      <span className='flex items-baseline gap-2 tabular-nums'>
-        <span className='font-medium'>{value}</span>
-        {hint ? (
-          <span className='text-xs text-muted-foreground'>{hint}</span>
-        ) : null}
-      </span>
+      <span className='font-medium tabular-nums'>{value}</span>
     </div>
   )
+}
+
+/**
+ * Internal / external split as plain numbers. Bots ("unknown") are neither, so
+ * they are excluded from both sides — matching the config-driven split used by
+ * every other page. Only the external value keeps its share of the total; the
+ * internal share is usually ~100% and adds noise.
+ */
+function compositionParts(composition?: Composition) {
+  const internal = composition?.internal ?? 0
+  const external = composition?.external ?? 0
+  const total = internal + external
+  return {
+    internal: formatExact(internal),
+    external:
+      total > 0
+        ? `${formatExact(external)}（${formatPercent(external / total, 0)}）`
+        : formatExact(external),
+  }
 }
 
 /**
@@ -77,16 +111,14 @@ function StatRow({
  */
 function RepoOverviewBox({
   repo,
-  search,
   live,
 }: {
   repo: RepoSummary
-  search: TimeRangeSearch
   /** Live GitHub counts for this repo, set by the page-level refresh. */
   live?: LiveRepoStats
 }) {
   const key = repoKey(repo)
-  const base = useMonitorBase(key, search)
+  const base = useMonitorBase(key, FIXED_RANGE)
   const pulls = usePulls(key)
   const issues = useIssues(key)
 
@@ -108,8 +140,6 @@ function RepoOverviewBox({
 
   const meta = base.meta.data
   const latest = base.latest.data
-  const { current } = base
-  const lastUpdated = formatRelative(meta?.lastSuccessAt)
 
   const pullRecords = pulls.data ?? []
   const issueRecords = issues.data ?? []
@@ -117,167 +147,107 @@ function RepoOverviewBox({
 
   const pullsData = latest?.pulls
   const issuesData = latest?.issues
+  const pullComp = compositionParts(pullsData?.composition)
+  const issueComp = compositionParts(issuesData?.composition)
 
   const repoRef = meta?.repo
   const fullName = repoRef?.fullName ?? repo.fullName
   const htmlUrl = repoRef?.htmlUrl ?? repo.htmlUrl
   const defaultBranch = repoRef?.defaultBranch ?? repo.defaultBranch
-  const description = repoRef?.description ?? repo.description
 
   return (
-    <section className='space-y-6 rounded-xl border bg-card p-4 sm:p-6'>
-      <header className='flex flex-wrap items-start justify-between gap-3'>
-        <div className='space-y-1'>
-          <a
-            href={htmlUrl}
-            target='_blank'
-            rel='noreferrer'
-            className='inline-flex items-center gap-2 text-lg font-semibold tracking-tight hover:underline'
-          >
-            <IconGithub className='size-5' />
-            {fullName}
-            <Badge variant='outline' className='font-normal'>
-              {defaultBranch}
-            </Badge>
-          </a>
-          {description ? (
-            <p className='max-w-2xl text-sm text-muted-foreground'>
-              {description}
-            </p>
-          ) : null}
-        </div>
-        <div className='shrink-0 text-right text-xs text-muted-foreground'>
-          数据更新时间 {formatDateTime(live?.fetchedAt ?? meta?.lastSuccessAt)}
-          {live ? ' (实时)' : lastUpdated ? ` (${lastUpdated})` : null}
-        </div>
+    <section className='space-y-4 rounded-xl border bg-card p-4'>
+      <header className='flex flex-wrap items-center gap-3'>
+        <a
+          href={htmlUrl}
+          target='_blank'
+          rel='noreferrer'
+          className='inline-flex items-center gap-2 text-lg font-semibold tracking-tight hover:underline'
+        >
+          <IconGithub className='size-5' />
+          {fullName}
+          <Badge variant='outline' className='font-normal'>
+            {defaultBranch}
+          </Badge>
+        </a>
       </header>
 
-      <div className='grid gap-4 sm:grid-cols-2 lg:grid-cols-4'>
+      <div className='grid gap-3 sm:grid-cols-2 lg:grid-cols-4'>
         <MetricCard
+          inline
           compact
           title='Stars'
           value={formatNumber(live?.stars ?? latest?.repo.stars)}
           icon={Star}
         />
         <MetricCard
+          inline
           compact
           title='Forks'
           value={formatNumber(live?.forks ?? latest?.repo.forks)}
           icon={GitFork}
         />
         <MetricCard
+          inline
           compact
-          title='贡献者'
+          title='累计贡献者'
           value={formatNumber(latest?.contributors.total)}
           icon={Users}
           suffix={`(外部${latest?.contributors.composition.external ?? 0})`}
         />
         <MetricCard
+          inline
           compact
           title='活跃贡献者'
           value={formatExact(active.total)}
           icon={Users}
           suffix={`(外部${active.external})`}
-        />
-        <MetricCard
-          compact
-          title='PR 总数'
-          value={formatNumber(pullsData?.total)}
-          icon={GitPullRequest}
-        />
-        <MetricCard
-          compact
-          title='Open PRs'
-          value={formatExact(live?.openPulls ?? pullsData?.open)}
-          icon={GitPullRequestArrow}
-        />
-        <MetricCard
-          compact
-          title='Issue 总数'
-          value={formatNumber(issuesData?.total)}
-          icon={CircleDot}
-        />
-        <MetricCard
-          compact
-          title='Open Issues'
-          value={formatExact(live?.openIssues ?? issuesData?.open)}
-          icon={CircleDot}
+          info={<ActiveContributorsInfo />}
         />
       </div>
 
-      <div className='grid gap-4 lg:grid-cols-2'>
-        <Card>
+      <div className='grid gap-3 lg:grid-cols-2'>
+        <Card className='gap-2 py-4'>
           <CardHeader>
             <CardTitle className='flex items-center gap-2 text-base'>
-              <GitPullRequestClosed className='size-4' />
-              Pull Request 概览
+              <GitPullRequest className='size-4' />
+              Pull Request
             </CardTitle>
           </CardHeader>
-          <CardContent className='space-y-4'>
-            <div className='divide-y'>
-              <StatRow label='总数' value={formatExact(pullsData?.total)} />
-              <StatRow label='已合并' value={formatExact(pullsData?.merged)} />
+          <CardContent className='space-y-1'>
+            <div className='grid grid-cols-2 gap-x-6'>
+              <StatRow label='总数' value={formatNumber(pullsData?.total)} />
               <StatRow
-                label='开启中'
+                label='Open'
                 value={formatExact(live?.openPulls ?? pullsData?.open)}
-                hint={`本周期新建 ${current.newPulls} / 合并 ${current.mergedPulls}`}
-              />
-              <StatRow
-                label='首次响应（平均 / 中位）'
-                value={`${formatDurationHours(pullsData?.firstResponse.avgHours ?? null)} / ${formatDurationHours(pullsData?.firstResponse.medianHours ?? null)}`}
-                hint={`n=${pullsData?.firstResponse.sampleSize ?? 0}`}
-              />
-              <StatRow
-                label='合并周期（平均 / 中位）'
-                value={`${formatDurationHours(pullsData?.mergeCycle.avgHours ?? null)} / ${formatDurationHours(pullsData?.mergeCycle.medianHours ?? null)}`}
-                hint={`n=${pullsData?.mergeCycle.sampleSize ?? 0}`}
               />
             </div>
-            <BreakdownList
-              composition={
-                pullsData?.composition ?? { internal: 0, external: 0, unknown: 0 }
-              }
-            />
+            <div className='grid grid-cols-2 gap-x-6'>
+              <StatRow label='内部' value={pullComp.internal} />
+              <StatRow label='外部' value={pullComp.external} />
+            </div>
           </CardContent>
         </Card>
 
-        <Card>
+        <Card className='gap-2 py-4'>
           <CardHeader>
             <CardTitle className='flex items-center gap-2 text-base'>
               <CircleDot className='size-4' />
-              Issue 概览
+              Issue
             </CardTitle>
           </CardHeader>
-          <CardContent className='space-y-4'>
-            <div className='divide-y'>
-              <div className='grid grid-cols-2 gap-x-6'>
-                <StatRow label='总数' value={formatExact(issuesData?.total)} />
-                <StatRow label='待关闭' value={formatExact(live?.openIssues ?? issuesData?.open)} />
-              </div>
+          <CardContent className='space-y-1'>
+            <div className='grid grid-cols-2 gap-x-6'>
+              <StatRow label='总数' value={formatNumber(issuesData?.total)} />
               <StatRow
-                label='首次响应平均'
-                value={formatDurationHours(issuesData?.firstResponse.avgHours ?? null)}
-                hint={`n=${issuesData?.firstResponse.sampleSize ?? 0}`}
-              />
-              <StatRow
-                label='首次响应中位 / P90'
-                value={`${formatDurationHours(issuesData?.firstResponse.medianHours ?? null)} / ${formatDurationHours(issuesData?.firstResponse.p90Hours ?? null)}`}
-              />
-              <StatRow
-                label='关闭周期（平均 / 中位）'
-                value={`${formatDurationHours(issuesData?.closeCycle.avgHours ?? null)} / ${formatDurationHours(issuesData?.closeCycle.medianHours ?? null)}`}
-                hint={`n=${issuesData?.closeCycle.sampleSize ?? 0}`}
-              />
-              <StatRow
-                label={`长期未解决（>${issuesData?.longOpen.thresholdDays ?? 30} 天）`}
-                value={formatExact(issuesData?.longOpen.count)}
+                label='Open'
+                value={formatExact(live?.openIssues ?? issuesData?.open)}
               />
             </div>
-            <BreakdownList
-              composition={
-                issuesData?.composition ?? { internal: 0, external: 0, unknown: 0 }
-              }
-            />
+            <div className='grid grid-cols-2 gap-x-6'>
+              <StatRow label='内部' value={issueComp.internal} />
+              <StatRow label='外部' value={issueComp.external} />
+            </div>
           </CardContent>
         </Card>
       </div>
@@ -294,6 +264,16 @@ export function CommunityOverview() {
 
   const [liveByRepo, setLiveByRepo] = useState<Record<string, LiveRepoStats>>({})
   const [updating, setUpdating] = useState(false)
+
+  // All repositories share a single "data updated at" label: the newest live
+  // fetch after a manual refresh, otherwise the published snapshot's build time.
+  const liveFetchedAt = Object.values(liveByRepo).reduce<string | null>(
+    (latest, stats) =>
+      !latest || stats.fetchedAt > latest ? stats.fetchedAt : latest,
+    null
+  )
+  const sharedUpdatedAt =
+    liveFetchedAt ?? reposQuery.data?.generatedAt ?? null
 
   const onSearchChange = (next: typeof search) =>
     navigate({ search: (prev) => ({ ...prev, ...next }) })
@@ -341,19 +321,24 @@ export function CommunityOverview() {
   }
 
   const updateButton = (
-    <Button
-      size='sm'
-      variant='outline'
-      className='h-8'
-      onClick={handleUpdateAll}
-      disabled={updating || repos.length === 0}
-    >
-      <RefreshCw
-        className={cn('size-3.5', updating && 'animate-spin')}
-        aria-hidden='true'
-      />
-      更新数据
-    </Button>
+    <div className='flex items-center gap-3'>
+      <Button
+        size='sm'
+        variant='outline'
+        className='h-8'
+        onClick={handleUpdateAll}
+        disabled={updating || repos.length === 0}
+      >
+        <RefreshCw
+          className={cn('size-3.5', updating && 'animate-spin')}
+          aria-hidden='true'
+        />
+        更新数据
+      </Button>
+      <span className='text-xs text-muted-foreground'>
+        数据更新时间 {formatDateTime(sharedUpdatedAt)}
+      </span>
+    </div>
   )
 
   const shell = (children: ReactNode) => (
@@ -382,6 +367,7 @@ export function CommunityOverview() {
         meta={undefined}
         search={search}
         onSearchChange={onSearchChange}
+        showRange={false}
         actions={updateButton}
       />
 
@@ -392,7 +378,6 @@ export function CommunityOverview() {
           <RepoOverviewBox
             key={repoKey(repo)}
             repo={repo}
-            search={search}
             live={liveByRepo[repoKey(repo)]}
           />
         ))

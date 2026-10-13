@@ -42,10 +42,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Monitored project(s) — comma-separated list (override with a repository variable if needed).
           MONITOR_REPOS: ${{ vars.MONITOR_REPOS || 'openJiuwen-ai/sciencediscovery,openJiuwen-ai/jiuwenswarm' }}
-          MONITOR_MAX_DETAIL_ITEMS: '3000'
           MONITOR_MAX_LIST_PAGES: '40'
-          MONITOR_MAINTAINERS: ${{ vars.MONITOR_MAINTAINERS }}
-          MONITOR_INTERNAL_ORGS: ${{ vars.MONITOR_INTERNAL_ORGS }}
           MONITOR_BOTS: ${{ vars.MONITOR_BOTS }}
         run: npm run collect
 

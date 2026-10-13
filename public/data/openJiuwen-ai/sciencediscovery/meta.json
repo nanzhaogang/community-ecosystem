@@ -13,11 +13,11 @@
     "topics": []
   },
   "monitoringStart": "2026-10-12T03:52:24.775Z",
-  "lastSuccessAt": "2026-10-12T03:54:34.259Z",
-  "lastAttemptAt": "2026-10-12T03:54:34.259Z",
+  "lastSuccessAt": "2026-10-13T07:15:28.466Z",
+  "lastAttemptAt": "2026-10-13T07:15:28.466Z",
   "status": "ok",
   "errors": [],
-  "tokenConfigured": false,
+  "tokenConfigured": true,
   "historyComplete": false,
   "notes": []
 }

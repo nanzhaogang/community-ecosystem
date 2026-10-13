@@ -1,8 +1,25 @@
 {
-  "maintainers": [],
-  "internalOrgs": [
-    "openJiuwen-ai"
-  ],
+  "internalContributors": {
+    "openJiuwen-ai/sciencediscovery": [
+      "Birfy",
+      "claude",
+      "cyanneko",
+      "freeeyes",
+      "functoreality",
+      "HongyeZhou",
+      "hsliuustc0106",
+      "ink999107",
+      "qijiaxi0813",
+      "Thibaultjaigu",
+      "wyhohyw",
+      "ybzhouni",
+      "YisiLuo",
+      "yuanzhou75",
+      "zhaozhaozz",
+      "zy95-12"
+    ],
+    "openJiuwen-ai/jiuwenswarm": []
+  },
   "bots": [
     "dependabot[bot]",
     "github-actions[bot]",
@@ -13,6 +30,5 @@
     "openjiuwen-release-bot[bot]",
     "openjiuwen-collaboration-bot[bot]"
   ],
-  "overdueThresholdHours": 168,
   "longOpenIssueDays": 30
 }

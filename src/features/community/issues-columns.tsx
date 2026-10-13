@@ -101,21 +101,15 @@ export const issuesColumns: ColumnDef<IssueRecord, unknown>[] = [
   },
   {
     id: 'duration',
-    accessorFn: (row) =>
-      row.firstResponseHours ?? row.waitingHours ?? row.closeCycleHours,
+    accessorFn: (row) => row.waitingHours,
     header: ({ column }) => (
-      <DataTableColumnHeader column={column} title='等待 / 周期' />
+      <DataTableColumnHeader column={column} title='等待时长' />
     ),
-    cell: ({ row }) => {
-      const r = row.original
-      const value =
-        r.firstResponseHours ?? r.waitingHours ?? r.closeCycleHours
-      return (
-        <span className='text-nowrap text-xs tabular-nums'>
-          {formatDurationHours(value)}
-        </span>
-      )
-    },
+    cell: ({ row }) => (
+      <span className='text-nowrap text-xs tabular-nums'>
+        {formatDurationHours(row.original.waitingHours)}
+      </span>
+    ),
     enableSorting: false,
     meta: { className: 'w-32' },
   },

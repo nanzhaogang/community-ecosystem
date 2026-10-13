@@ -47,14 +47,6 @@ export type MonitorMeta = {
   notes: string[]
 }
 
-/** Aggregated duration statistics in hours. */
-export type DurationStats = {
-  avgHours: number | null
-  medianHours: number | null
-  p90Hours: number | null
-  sampleSize: number
-}
-
 export type PendingItem = {
   number: number
   title: string
@@ -76,17 +68,6 @@ export type PullMetrics = {
   merged: number
   closedUnmerged: number
   composition: Composition
-  /** Unresponded open PRs (no first human response yet). */
-  awaitingResponse: number
-  firstResponse: DurationStats
-  mergeCycle: DurationStats
-  overdue: {
-    thresholdHours: number
-    count: number
-    items: PendingItem[]
-  }
-  /** Open PRs from external contributors with no response yet. */
-  externalMaxWaitHours: number | null
 }
 
 export type IssueMetrics = {
@@ -94,14 +75,6 @@ export type IssueMetrics = {
   open: number
   closed: number
   composition: Composition
-  awaitingResponse: number
-  firstResponse: DurationStats
-  closeCycle: DurationStats
-  overdue: {
-    thresholdHours: number
-    count: number
-    items: PendingItem[]
-  }
   longOpen: {
     thresholdDays: number
     count: number
@@ -163,12 +136,8 @@ export type PullRecord = {
   createdAt: string
   mergedAt: string | null
   closedAt: string | null
-  firstResponseAt: string | null
-  firstResponseHours: number | null
+  /** Hours an open PR has been waiting. */
   waitingHours: number | null
-  mergeCycleHours: number | null
-  /** Whether the collector inspected comments/reviews for this item. */
-  detailChecked: boolean
   labels: string[]
   url: string
 }
@@ -182,13 +151,9 @@ export type IssueRecord = {
   isPullRequest: false
   createdAt: string
   closedAt: string | null
-  firstResponseAt: string | null
-  firstResponseHours: number | null
+  /** Hours an open Issue has been waiting. */
   waitingHours: number | null
-  closeCycleHours: number | null
   comments: number
-  /** Whether the collector inspected comments for this item. */
-  detailChecked: boolean
   labels: string[]
   url: string
 }
@@ -238,11 +203,12 @@ export type EcosystemDataset = {
 
 /** `config.json` — public classification rules (never contains secrets). */
 export type MonitorConfig = {
-  maintainers: string[]
-  internalOrgs: string[]
+  /**
+   * Internal contributor logins per repository, keyed by `owner/name`.
+   * Every other (non-bot) login in that repository is external.
+   */
+  internalContributors: Record<string, string[]>
   bots: string[]
-  /** Hours without a first human response before a PR/Issue is "overdue". */
-  overdueThresholdHours: number
   /** Days an Issue may stay open before being flagged as long-unresolved. */
   longOpenIssueDays: number
 }

@@ -42,12 +42,13 @@ export function formatDate(value: string | null | undefined): string {
 
 export function formatDateTime(value: string | null | undefined): string {
   if (!value) return '—'
-  try {
-    // Always render in UTC to match the storage timezone.
-    return `${format(parseISO(value), 'yyyy-MM-dd HH:mm')} UTC`
-  } catch {
-    return '—'
-  }
+  const date = new Date(value)
+  if (Number.isNaN(date.getTime())) return '—'
+  const pad = (n: number) => String(n).padStart(2, '0')
+  // Render in the viewer's local timezone (e.g. Beijing time).
+  return `${date.getFullYear()}-${pad(date.getMonth() + 1)}-${pad(
+    date.getDate()
+  )} ${pad(date.getHours())}:${pad(date.getMinutes())}`
 }
 
 export function formatRelative(

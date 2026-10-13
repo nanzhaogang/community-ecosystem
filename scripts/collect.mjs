@@ -26,15 +26,8 @@ import { readFileSync, writeFileSync, existsSync, renameSync, mkdirSync } from '
 import path from 'node:path'
 
 import { GitHubClient } from './lib/github.mjs'
-import { loadConfig } from './lib/config.mjs'
-import {
-  classify,
-  isBot,
-  toComposition,
-  durationStats,
-  hoursBetween,
-  firstResponseAt,
-} from './lib/metrics.mjs'
+import { loadConfig, internalContributorsFor } from './lib/config.mjs'
+import { classify, isBot, toComposition, hoursBetween } from './lib/metrics.mjs'
 
 const OUT_DIR = path.join(process.cwd(), 'public', 'data')
 const DAY_MS = 24 * 60 * 60 * 1000
@@ -60,14 +53,6 @@ function dayKey(date) {
 
 function refOf(repo) {
   return { owner: repo.owner, name: repo.name, fullName: repo.fullName }
-}
-
-/** Strongest association seen for a login (internal wins, then any known). */
-function stronger(current, next) {
-  if (!current) return next
-  if (current === 'internal' || next === 'internal') return 'internal'
-  if (current === 'external' || next === 'external') return 'external'
-  return current
 }
 
 async function main() {
@@ -101,6 +86,8 @@ async function collectRepo(repo, cfg, client, now, log) {
   const nowIso = now.toISOString()
   const repoDir = path.join(OUT_DIR, repo.owner, repo.name)
   mkdirSync(repoDir, { recursive: true })
+
+  const internal = internalContributorsFor(cfg.config, full)
 
   log(`Collecting ${full} (token: ${client.authenticated ? 'yes' : 'no'})`)
 
@@ -166,112 +153,24 @@ async function collectRepo(repo, cfg, client, now, log) {
     fail('issues', error)
   }
 
-  // --- first-response details (bounded by rate limit / config budget) --------
-  const detailBudget = resolveDetailBudget(cfg, client)
-  const details = pullsRaw || issuesRaw ? await fetchDetails() : { pulls: new Set(), issues: new Set() }
-
-  async function fetchDetails() {
-    const pullSet = new Set()
-    const issueSet = new Set()
-    if (detailBudget <= 0) {
-      notes.push(
-        'First-response detail fetching skipped (no budget). Set MONITOR_MAX_DETAIL_ITEMS or provide a token.'
-      )
-      return { pulls: pullSet, issues: issueSet }
-    }
-
-    const cutoff = new Date(now.getTime() - cfg.detailWindowDays * DAY_MS).getTime()
-    const queue = []
-    for (const p of pullsRaw ?? []) {
-      queue.push({ kind: 'pull', number: p.number, open: p.state === 'open', at: p.created_at })
-    }
-    for (const i of issuesRaw ?? []) {
-      queue.push({ kind: 'issue', number: i.number, open: i.state === 'open', at: i.created_at })
-    }
-    // Open items first (need it to judge "awaiting response"), then most recent.
-    queue.sort((a, b) => {
-      if (a.open !== b.open) return a.open ? -1 : 1
-      return new Date(b.at) - new Date(a.at)
-    })
-    const recent = new Set(
-      (pullsRaw ?? [])
-        .concat(issuesRaw ?? [])
-        .filter((x) => new Date(x.created_at).getTime() >= cutoff)
-        .map((x) => x.number)
-    )
-    const ordered = queue.filter((q) => recent.has(q.number)).concat(queue.filter((q) => !recent.has(q.number)))
-
-    let used = 0
-    for (const item of ordered) {
-      if (used >= detailBudget) {
-        break
-      }
-      try {
-        const comments = await client.getJson(
-          `/repos/${full}/issues/${item.number}/comments?per_page=100`,
-          { allow403: true }
-        )
-        let reviews = []
-        if (item.kind === 'pull') {
-          reviews = await client.getJson(
-            `/repos/${full}/pulls/${item.number}/reviews?per_page=100`,
-            { allow403: true }
-          )
-        }
-        const merged = [...(comments ?? []), ...(reviews ?? [])].map((c) => ({
-          user: c.user,
-          created_at: c.created_at ?? c.submitted_at,
-        }))
-        item.comments = merged
-        used += 1
-        if (item.kind === 'pull') pullSet.add(item.number)
-        else issueSet.add(item.number)
-      } catch (error) {
-        if (error?.name === 'RateLimitError' || error instanceof Error) {
-          notes.push(`Stopped first-response detail fetching after ${used} items (${error.message}).`)
-          break
-        }
-      }
-      // Attach resolved comment lists back onto the raw records.
-      const target = item.kind === 'pull' ? pullsRaw : issuesRaw
-      const rec = (target ?? []).find((r) => r.number === item.number)
-      if (rec) rec.__comments = item.comments ?? []
-    }
-    log(`  fetched first-response details for ${used} items`)
-    return { pulls: pullSet, issues: issueSet }
-  }
-
-  // --- build detail records -------------------------------------------------
-  const assocByLogin = new Map()
-  const recordAssociation = (login, association) => {
-    if (!login) return
-    assocByLogin.set(login, stronger(assocByLogin.get(login), association))
-  }
-
+  // --- build records --------------------------------------------------------
   let pullRecords = null
   if (pullsRaw) {
     pullRecords = pullsRaw.map((p) => {
       const author = p.user?.login ?? 'unknown'
-      recordAssociation(author, p.author_association)
-      const detailed = details.pulls.has(p.number)
-      const first = detailed ? firstResponseAt(p.user, p.__comments, cfg.config) : null
       const mergedAt = p.merged_at ?? null
       const state = mergedAt ? 'merged' : p.state === 'open' ? 'open' : 'closed'
       return {
         number: p.number,
         title: p.title ?? '',
         author,
-        contributionType: classify(author, p.author_association, p.user?.type, cfg.config),
+        contributionType: classify(author, internal, cfg.config, p.user?.type),
         state,
         isDraft: Boolean(p.draft),
         createdAt: p.created_at,
         mergedAt,
         closedAt: p.closed_at ?? null,
-        firstResponseAt: first,
-        firstResponseHours: first ? hoursBetween(p.created_at, first) : null,
-        waitingHours: !first && state === 'open' ? hoursBetween(p.created_at, nowIso) : null,
-        mergeCycleHours: mergedAt ? hoursBetween(p.created_at, mergedAt) : null,
-        detailChecked: detailed,
+        waitingHours: state === 'open' ? hoursBetween(p.created_at, nowIso) : null,
         labels: (p.labels ?? []).map((l) => l.name),
         url: p.html_url,
       }
@@ -282,24 +181,17 @@ async function collectRepo(repo, cfg, client, now, log) {
   if (issuesRaw) {
     issueRecords = issuesRaw.map((i) => {
       const author = i.user?.login ?? 'unknown'
-      recordAssociation(author, i.author_association)
-      const detailed = details.issues.has(i.number)
-      const first = detailed ? firstResponseAt(i.user, i.__comments, cfg.config) : null
       return {
         number: i.number,
         title: i.title ?? '',
         author,
-        contributionType: classify(author, i.author_association, i.user?.type, cfg.config),
+        contributionType: classify(author, internal, cfg.config, i.user?.type),
         state: i.state === 'open' ? 'open' : 'closed',
         isPullRequest: false,
         createdAt: i.created_at,
         closedAt: i.closed_at ?? null,
-        firstResponseAt: first,
-        firstResponseHours: first ? hoursBetween(i.created_at, first) : null,
-        waitingHours: !first && i.state === 'open' ? hoursBetween(i.created_at, nowIso) : null,
-        closeCycleHours: i.closed_at ? hoursBetween(i.created_at, i.closed_at) : null,
+        waitingHours: i.state === 'open' ? hoursBetween(i.created_at, nowIso) : null,
         comments: i.comments ?? 0,
-        detailChecked: detailed,
         labels: (i.labels ?? []).map((l) => l.name),
         url: i.html_url,
       }
@@ -308,14 +200,14 @@ async function collectRepo(repo, cfg, client, now, log) {
 
   // --- metrics --------------------------------------------------------------
   const pullsSection = pullRecords
-    ? computePullMetrics(pullRecords, cfg.config)
+    ? computePullMetrics(pullRecords)
     : (prevLatest?.pulls ?? null)
   const issuesSection = issueRecords
     ? computeIssueMetrics(issueRecords, cfg.config)
     : (prevLatest?.issues ?? null)
   const contributorsSection =
     pullRecords || issueRecords
-      ? computeContributors(pullRecords ?? [], issueRecords ?? [], contributorRaw, assocByLogin, cfg, now)
+      ? computeContributors(pullRecords ?? [], issueRecords ?? [], contributorRaw, internal, cfg, now)
       : (prevLatest?.contributors ?? null)
 
   const counters = {
@@ -330,7 +222,7 @@ async function collectRepo(repo, cfg, client, now, log) {
     generatedAt,
     repo: counters,
     contributors: contributorsSection ?? emptyContributors(),
-    pulls: pullsSection ?? emptyPulls(cfg.config),
+    pulls: pullsSection ?? emptyPulls(),
     issues: issuesSection ?? emptyIssues(cfg.config),
   }
 
@@ -392,7 +284,7 @@ async function collectRepo(repo, cfg, client, now, log) {
   )
   writeJson(path.join(repoDir, 'contributors.json'), {
     generatedAt: contributorsSection ? generatedAt : (readJson(path.join(repoDir, 'contributors.json'))?.generatedAt ?? null),
-    items: contributorsSection ? buildContributorRecords(pullRecords ?? [], issueRecords ?? [], contributorRaw, assocByLogin, cfg) : (readJson(path.join(repoDir, 'contributors.json'))?.items ?? []),
+    items: contributorsSection ? buildContributorRecords(pullRecords ?? [], issueRecords ?? [], contributorRaw, internal, cfg) : (readJson(path.join(repoDir, 'contributors.json'))?.items ?? []),
   })
 
   log(`Status: ${status} | PRs: ${pullsSection?.total ?? '-'} | Issues: ${issuesSection?.total ?? '-'}`)
@@ -408,38 +300,10 @@ async function collectRepo(repo, cfg, client, now, log) {
   }
 }
 
-function resolveDetailBudget(cfg, client) {
-  if (cfg.maxDetailItems > 0) return cfg.maxDetailItems
-  const remaining = client.remaining
-  if (remaining === null) return 0
-  // Each item costs ~2 requests (comments + reviews); leave a small reserve.
-  return Math.max(0, Math.min(3000, Math.floor((remaining - 5) / 2)))
-}
-
-/** Open items we positively verified have no human response yet. */
-function verifiedUnresponded(records, config) {
-  return records.filter(
-    (r) =>
-      r.state === 'open' &&
-      r.detailChecked &&
-      r.firstResponseAt === null &&
-      r.waitingHours !== null &&
-      !isBot(r.author, undefined, config)
-  )
-}
-
-function computePullMetrics(records, config) {
+function computePullMetrics(records) {
   const open = records.filter((r) => r.state === 'open')
   const merged = records.filter((r) => r.state === 'merged')
   const closedUnmerged = records.filter((r) => r.state === 'closed')
-  const responded = records.filter((r) => r.firstResponseHours !== null)
-  const mergedCycle = merged.filter((r) => r.mergeCycleHours !== null)
-
-  const awaiting = verifiedUnresponded(open, config)
-  const overdueItems = awaiting
-    .filter((r) => r.waitingHours >= config.overdueThresholdHours)
-    .sort((a, b) => b.waitingHours - a.waitingHours)
-  const externalWaiting = awaiting.filter((r) => r.contributionType === 'external')
 
   return {
     total: records.length,
@@ -447,31 +311,14 @@ function computePullMetrics(records, config) {
     merged: merged.length,
     closedUnmerged: closedUnmerged.length,
     composition: toComposition(records),
-    awaitingResponse: awaiting.length,
-    firstResponse: durationStats(responded.map((r) => r.firstResponseHours)),
-    mergeCycle: durationStats(mergedCycle.map((r) => r.mergeCycleHours)),
-    overdue: {
-      thresholdHours: config.overdueThresholdHours,
-      count: overdueItems.length,
-      items: overdueItems.slice(0, 50).map(toPending),
-    },
-    externalMaxWaitHours: externalWaiting.length
-      ? Math.max(...externalWaiting.map((r) => r.waitingHours))
-      : null,
   }
 }
 
 function computeIssueMetrics(records, config) {
   const open = records.filter((r) => r.state === 'open')
   const closed = records.filter((r) => r.state === 'closed')
-  const responded = records.filter((r) => r.firstResponseHours !== null)
-  const closedCycle = closed.filter((r) => r.closeCycleHours !== null)
 
-  const awaiting = verifiedUnresponded(open, config)
-  const overdueItems = awaiting
-    .filter((r) => r.waitingHours >= config.overdueThresholdHours)
-    .sort((a, b) => b.waitingHours - a.waitingHours)
-  // Long-unresolved is age based and does not depend on response details.
+  // Long-unresolved is age based: how long an open Issue has been around.
   const longOpenItems = open
     .filter(
       (r) =>
@@ -486,14 +333,6 @@ function computeIssueMetrics(records, config) {
     open: open.length,
     closed: closed.length,
     composition: toComposition(records),
-    awaitingResponse: awaiting.length,
-    firstResponse: durationStats(responded.map((r) => r.firstResponseHours)),
-    closeCycle: durationStats(closedCycle.map((r) => r.closeCycleHours)),
-    overdue: {
-      thresholdHours: config.overdueThresholdHours,
-      count: overdueItems.length,
-      items: overdueItems.slice(0, 50).map(toPending),
-    },
     longOpen: {
       thresholdDays: config.longOpenIssueDays,
       count: longOpenItems.length,
@@ -513,7 +352,7 @@ function toPending(r) {
   }
 }
 
-function computeContributors(pullRecords, issueRecords, contributorRaw, assocByLogin, cfg, now) {
+function computeContributors(pullRecords, issueRecords, contributorRaw, internal, cfg, now) {
   const logins = new Set()
   for (const r of pullRecords) if (!isBot(r.author, undefined, cfg.config)) logins.add(r.author)
   for (const r of issueRecords) if (!isBot(r.author, undefined, cfg.config)) logins.add(r.author)
@@ -539,7 +378,7 @@ function computeContributors(pullRecords, issueRecords, contributorRaw, assocByL
     const first = firstSeen.get(login)
     if (last !== undefined && last >= cutoff) activeLast30d += 1
     if (first !== undefined && first >= cutoff) newLast30d += 1
-    const type = classify(login, assocByLogin.get(login), undefined, cfg.config)
+    const type = classify(login, internal, cfg.config)
     composition[type] += 1
   }
 
@@ -551,13 +390,13 @@ function computeContributors(pullRecords, issueRecords, contributorRaw, assocByL
   }
 }
 
-function buildContributorRecords(pullRecords, issueRecords, contributorRaw, assocByLogin, cfg) {
+function buildContributorRecords(pullRecords, issueRecords, contributorRaw, internal, cfg) {
   const map = new Map()
   const ensure = (login) => {
     if (!map.has(login)) {
       map.set(login, {
         login,
-        contributionType: classify(login, assocByLogin.get(login), undefined, cfg.config),
+        contributionType: classify(login, internal, cfg.config),
         isBot: isBot(login, undefined, cfg.config),
         firstContributionAt: null,
         lastContributionAt: null,
@@ -661,18 +500,13 @@ function emptyContributors() {
   }
 }
 
-function emptyPulls(config) {
+function emptyPulls() {
   return {
     total: 0,
     open: 0,
     merged: 0,
     closedUnmerged: 0,
     composition: { internal: 0, external: 0, unknown: 0 },
-    awaitingResponse: 0,
-    firstResponse: durationStats([]),
-    mergeCycle: durationStats([]),
-    overdue: { thresholdHours: config.overdueThresholdHours, count: 0, items: [] },
-    externalMaxWaitHours: null,
   }
 }
 
@@ -682,10 +516,6 @@ function emptyIssues(config) {
     open: 0,
     closed: 0,
     composition: { internal: 0, external: 0, unknown: 0 },
-    awaitingResponse: 0,
-    firstResponse: durationStats([]),
-    closeCycle: durationStats([]),
-    overdue: { thresholdHours: config.overdueThresholdHours, count: 0, items: [] },
     longOpen: { thresholdDays: config.longOpenIssueDays, count: 0, items: [] },
   }
 }
