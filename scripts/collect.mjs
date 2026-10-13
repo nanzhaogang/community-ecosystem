@@ -142,10 +142,19 @@ async function collectRepo(repo, cfg, client, now, log) {
 
   // --- issues (PRs are filtered out; GitHub numbers PRs as issues) ----------
   let issuesRaw = null
+  /**
+   * Conversation-comment counts for pull requests, keyed by number. The
+   * `/pulls` feed omits `comments` entirely, but the `/issues` feed returns
+   * PRs too and exposes it — so we harvest it here before filtering.
+   */
+  let prComments = null
   try {
     const { items, truncated } = await client.paginate(
       `/repos/${full}/issues?state=all&sort=created&direction=desc`,
       { maxPages: cfg.maxListPages }
+    )
+    prComments = new Map(
+      items.filter((i) => i.pull_request).map((i) => [i.number, i.comments ?? 0])
     )
     issuesRaw = items.filter((i) => !i.pull_request)
     if (truncated) notes.push('Issue list truncated by MONITOR_MAX_LIST_PAGES.')
@@ -171,10 +180,19 @@ async function collectRepo(repo, cfg, client, now, log) {
         mergedAt,
         closedAt: p.closed_at ?? null,
         waitingHours: state === 'open' ? hoursBetween(p.created_at, nowIso) : null,
+        comments: prComments?.get(p.number) ?? 0,
         labels: (p.labels ?? []).map((l) => l.name),
         url: p.html_url,
       }
     })
+    if (prComments) {
+      const missing = pullsRaw.filter((p) => !prComments.has(p.number)).length
+      if (missing > 0) {
+        notes.push(
+          `${missing} pull request comment counts unavailable (issues feed truncated).`
+        )
+      }
+    }
   }
 
   let issueRecords = null

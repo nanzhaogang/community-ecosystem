@@ -41,7 +41,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           # Monitored project(s) — comma-separated list (override with a repository variable if needed).
-          MONITOR_REPOS: ${{ vars.MONITOR_REPOS || 'openJiuwen-ai/sciencediscovery,openJiuwen-ai/jiuwenswarm' }}
+          MONITOR_REPOS: ${{ vars.MONITOR_REPOS || 'openJiuwen-ai/sciencediscovery,ThinkFlowLab/system1-agents,ThinkFlowLab/vllm-rlt,ThinkFlowLab/system1-omni,ThinkFlowLab/nanodot,ThinkFlowLab/vllm-omni-mlx,ThinkFlowLab/OmniRSI,ThinkFlowLab/nanoMuse,ThinkFlowLab/mobilegym,ThinkFlowLab/OpenMinis,ThinkFlowLab/orbit_tests,ThinkFlowLab/pi,ThinkFlowLab/mlx-perf,ThinkFlowLab/agentic-video-generation,ThinkFlowLab/agent-core' }}
           MONITOR_MAX_LIST_PAGES: '40'
           MONITOR_BOTS: ${{ vars.MONITOR_BOTS }}
         run: npm run collect

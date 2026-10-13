@@ -3,7 +3,20 @@ import path from 'node:path'
 
 const DEFAULT_REPOS = [
   'openJiuwen-ai/sciencediscovery',
-  'openJiuwen-ai/jiuwenswarm',
+  'ThinkFlowLab/system1-agents',
+  'ThinkFlowLab/vllm-rlt',
+  'ThinkFlowLab/system1-omni',
+  'ThinkFlowLab/nanodot',
+  'ThinkFlowLab/vllm-omni-mlx',
+  'ThinkFlowLab/OmniRSI',
+  'ThinkFlowLab/nanoMuse',
+  'ThinkFlowLab/mobilegym',
+  'ThinkFlowLab/OpenMinis',
+  'ThinkFlowLab/orbit_tests',
+  'ThinkFlowLab/pi',
+  'ThinkFlowLab/mlx-perf',
+  'ThinkFlowLab/agentic-video-generation',
+  'ThinkFlowLab/agent-core',
 ]
 
 const DEFAULT_BOTS = [

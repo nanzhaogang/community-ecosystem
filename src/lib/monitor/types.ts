@@ -138,6 +138,7 @@ export type PullRecord = {
   closedAt: string | null
   /** Hours an open PR has been waiting. */
   waitingHours: number | null
+  comments: number
   labels: string[]
   url: string
 }

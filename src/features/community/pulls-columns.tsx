@@ -102,17 +102,29 @@ export const pullsColumns: ColumnDef<PullRecord, unknown>[] = [
   },
   {
     id: 'waiting',
-    accessorFn: (row) => row.waitingHours,
+    accessorFn: (row) => row.waitingHours ?? undefined,
     header: ({ column }) => (
-      <DataTableColumnHeader column={column} title='等待时长' />
+      <DataTableColumnHeader column={column} title='滞留时长' />
     ),
     cell: ({ row }) => (
       <span className='text-nowrap text-xs tabular-nums'>
         {formatDurationHours(row.original.waitingHours)}
       </span>
     ),
-    enableSorting: false,
+    sortUndefined: 'last',
     meta: { className: 'w-32' },
+  },
+  {
+    accessorKey: 'comments',
+    header: ({ column }) => (
+      <DataTableColumnHeader column={column} title='评论数' />
+    ),
+    cell: ({ row }) => (
+      <span className='text-xs tabular-nums'>
+        {row.original.comments ?? '—'}
+      </span>
+    ),
+    meta: { className: 'w-24' },
   },
   {
     id: 'link',

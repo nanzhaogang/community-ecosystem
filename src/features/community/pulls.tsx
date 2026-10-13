@@ -4,11 +4,17 @@ import { Header } from '@/components/layout/header'
 import { Main } from '@/components/layout/main'
 import { ThemeSwitch } from '@/components/theme-switch'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
-import { usePulls, useSelectedRepo } from '@/lib/monitor/data'
-import { formatNumber } from '@/lib/monitor/format'
+import {
+  repoKey,
+  useActivityScores,
+  usePulls,
+  useSelectedRepo,
+} from '@/lib/monitor/data'
+import { formatDurationHours, formatNumber } from '@/lib/monitor/format'
 import { ChartCard } from './components/chart-card'
 import { MonitorHeader } from './components/monitor-header'
 import { MonitorTable } from './components/monitor-table'
+import { RepoFilter } from './components/repo-filter'
 import { ErrorState, LoadingState } from './components/states'
 import { TimeRangeFilter } from './components/time-range-filter'
 import { TrendChart } from './components/trend-chart'
@@ -21,34 +27,87 @@ export function PullsAnalysis() {
   const search = route.useSearch()
   const navigate = route.useNavigate()
   const repoList = useSelectedRepo(search)
-  const base = useMonitorBase(repoList.key, search)
-  const pulls = usePulls(repoList.key)
+  const scores = useActivityScores(repoList.repos)
+
+  // Repositories ranked by community activity, highest first.
+  const orderedRepos = [...repoList.repos].sort(
+    (a, b) => (scores.get(repoKey(b)) ?? -1) - (scores.get(repoKey(a)) ?? -1)
+  )
+
+  // Default to the highest-activity repository when the URL does not pin one.
+  const selectedKey = search.repo
+    ? repoList.key
+    : orderedRepos[0]
+      ? repoKey(orderedRepos[0])
+      : repoList.key
+
+  const base = useMonitorBase(selectedKey, search)
+  const pulls = usePulls(selectedKey)
+
+  // Activity scores are `null` until every repository's data has loaded.
+  const scoresReady = [...scores.values()].every((value) => value !== null)
 
   const records = pulls.data ?? []
 
-  // Cumulative PR count as of each day, counted from the full record set (not
-  // the young daily history). Fixed ranges keep their window; "全部历史" spans
-  // from the first PR to today.
+  // Cumulative PR count and cumulative comment count as of each day, counted
+  // from the full record set (not the young daily history). Comments are summed
+  // over the PRs opened up to that day. Fixed ranges keep their window; "全部历史"
+  // spans from the first PR to today.
   const cumulative = useMemo(() => {
     const { from, to, key } = base.range
-    const created = records
-      .map((r) => r.createdAt.slice(0, 10))
-      .sort((a, b) => a.localeCompare(b))
+    const opened = [...records].sort((a, b) =>
+      a.createdAt.localeCompare(b.createdAt)
+    )
     const startDay =
-      key === 'all' ? created[0] : from?.toISOString().slice(0, 10)
+      key === 'all'
+        ? opened[0]?.createdAt.slice(0, 10)
+        : from?.toISOString().slice(0, 10)
     const endDay = to.toISOString().slice(0, 10)
     if (!startDay || startDay > endDay) return []
-    const points: { date: string; total: number }[] = []
+    const points: { date: string; total: number; comments: number }[] = []
     let seen = 0
+    let comments = 0
     const cursor = new Date(`${startDay}T00:00:00.000Z`)
     while (cursor.toISOString().slice(0, 10) <= endDay) {
       const day = cursor.toISOString().slice(0, 10)
-      while (seen < created.length && created[seen] <= day) seen += 1
-      points.push({ date: day.slice(5), total: seen })
+      while (
+        seen < opened.length &&
+        opened[seen].createdAt.slice(0, 10) <= day
+      ) {
+        comments += opened[seen].comments
+        seen += 1
+      }
+      points.push({ date: day.slice(5), total: seen, comments })
       cursor.setUTCDate(cursor.getUTCDate() + 1)
     }
     return points
   }, [records, base.range])
+
+  // Summary stats shown between the trend chart and the detail table.
+  const stats = useMemo(() => {
+    const total = records.length
+    const commentTotal = records.reduce((sum, r) => sum + (r.comments ?? 0), 0)
+    const openPulls = records.filter((r) => r.state === 'open')
+    const externalMax = openPulls
+      .filter((r) => r.contributionType === 'external')
+      .reduce<number | null>(
+        (max, r) =>
+          r.waitingHours === null
+            ? max
+            : max === null || r.waitingHours > max
+              ? r.waitingHours
+              : max,
+        null
+      )
+    const waiting = openPulls
+      .map((r) => r.waitingHours)
+      .filter((h): h is number => h !== null)
+    const avgWaiting =
+      waiting.length === 0
+        ? null
+        : waiting.reduce((sum, h) => sum + h, 0) / waiting.length
+    return { total, commentTotal, externalMax, avgWaiting }
+  }, [records])
 
   const onSearchChange = (next: typeof search) =>
     navigate({ search: (prev) => ({ ...prev, ...next }) })
@@ -67,7 +126,7 @@ export function PullsAnalysis() {
     )
   }
 
-  if (base.isLoading) {
+  if (base.isLoading || (!search.repo && !scoresReady)) {
     return (
       <>
         <Header>
@@ -112,14 +171,18 @@ export function PullsAnalysis() {
           meta={base.meta.data}
           search={search}
           onSearchChange={onSearchChange}
-          repos={repoList.repos}
-          selectedRepo={repoList.key}
           showRange={false}
+        />
+
+        <RepoFilter
+          repos={orderedRepos}
+          value={selectedKey}
+          onChange={(key) => onSearchChange({ repo: key })}
         />
 
         <ChartCard
           title='PR 累计数量'
-          description='所选区间内 PR 累计总数的变化趋势。'
+          description='所选区间内 PR 累计总数与评论累计数的变化趋势。'
           action={<TimeRangeFilter value={search} onChange={onSearchChange} />}
           empty={cumulative.length === 0}
           emptyMessage='暂无历史数据。'
@@ -134,10 +197,45 @@ export function PullsAnalysis() {
                 color: 'var(--chart-1)',
                 type: 'line',
               },
+              {
+                key: 'comments',
+                label: '评论累计',
+                color: 'var(--chart-2)',
+                type: 'line',
+              },
             ]}
             yDomain={['auto', 'auto']}
           />
         </ChartCard>
+
+        <div className='grid gap-3 sm:grid-cols-2 lg:grid-cols-4'>
+          {[
+            { label: 'PR 累计数量', value: formatNumber(stats.total) },
+            {
+              label: 'PR 评论累计数量',
+              value: formatNumber(stats.commentTotal),
+            },
+            {
+              label: '外部贡献者 PR 最大滞留时长',
+              value: formatDurationHours(stats.externalMax),
+            },
+            {
+              label: 'PR 平均滞留时长',
+              value: formatDurationHours(stats.avgWaiting),
+            },
+          ].map((item) => (
+            <Card key={item.label}>
+              <CardContent className='flex flex-col gap-1 p-4'>
+                <span className='text-xs text-muted-foreground'>
+                  {item.label}
+                </span>
+                <span className='text-2xl font-semibold tabular-nums'>
+                  {item.value}
+                </span>
+              </CardContent>
+            </Card>
+          ))}
+        </div>
 
         <Card>
           <CardHeader>

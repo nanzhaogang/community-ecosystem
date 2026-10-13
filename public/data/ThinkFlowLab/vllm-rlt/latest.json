@@ -1,0 +1,54 @@
+{
+  "generatedAt": "2026-10-13T09:43:43.521Z",
+  "repo": {
+    "stars": 157,
+    "forks": 28,
+    "watchers": 1,
+    "openIssuesAndPrs": 38
+  },
+  "contributors": {
+    "total": 23,
+    "activeLast30d": 22,
+    "newLast30d": 21,
+    "composition": {
+      "internal": 23,
+      "external": 0,
+      "unknown": 0
+    }
+  },
+  "pulls": {
+    "total": 96,
+    "open": 26,
+    "merged": 43,
+    "closedUnmerged": 27,
+    "composition": {
+      "internal": 96,
+      "external": 0,
+      "unknown": 0
+    }
+  },
+  "issues": {
+    "total": 23,
+    "open": 12,
+    "closed": 11,
+    "composition": {
+      "internal": 23,
+      "external": 0,
+      "unknown": 0
+    },
+    "longOpen": {
+      "thresholdDays": 30,
+      "count": 1,
+      "items": [
+        {
+          "number": 22,
+          "title": "feat: add OpenAI-compatible serving and reuse vllm bench serve",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-09-12T07:22:42Z",
+          "waitingHours": 746.3504225,
+          "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/22"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-10-13T09:43:43.521Z",
+  "repo": {
+    "stars": 14,
+    "forks": 3,
+    "watchers": 0,
+    "openIssuesAndPrs": 3
+  },
+  "contributors": {
+    "total": 3,
+    "activeLast30d": 2,
+    "newLast30d": 2,
+    "composition": {
+      "internal": 3,
+      "external": 0,
+      "unknown": 0
+    }
+  },
+  "pulls": {
+    "total": 5,
+    "open": 1,
+    "merged": 4,
+    "closedUnmerged": 0,
+    "composition": {
+      "internal": 5,
+      "external": 0,
+      "unknown": 0
+    }
+  },
+  "issues": {
+    "total": 2,
+    "open": 2,
+    "closed": 0,
+    "composition": {
+      "internal": 2,
+      "external": 0,
+      "unknown": 0
+    },
+    "longOpen": {
+      "thresholdDays": 30,
+      "count": 0,
+      "items": []
+    }
+  }
+}

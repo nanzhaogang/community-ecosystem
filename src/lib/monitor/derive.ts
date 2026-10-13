@@ -3,10 +3,76 @@ import type {
   IssueRecord,
   PullRecord,
   ContributionType,
+  ContributorRecord,
 } from './types'
 import type { ResolvedRange } from './ranges'
 
 const DAY_MS = 24 * 60 * 60 * 1000
+
+/** Window the community activity score is measured over. */
+export const ACTIVITY_WINDOW_DAYS = 30
+
+/**
+ * Indicators of the community activity score: the reference threshold each
+ * value is measured against, and its weight in the weighted sum.
+ */
+export const ACTIVITY_INDICATORS = [
+  { label: '贡献者数量', threshold: 3000, weight: 0.4 },
+  { label: '新增 Issue 数量', threshold: 3000, weight: 0.15 },
+  { label: '新增 PR 数量', threshold: 5000, weight: 0.15 },
+  { label: 'Issue 平均评论数', threshold: 5, weight: 0.15 },
+  { label: 'PR 平均评论数', threshold: 8, weight: 0.15 },
+] as const
+
+/**
+ * Community activity score over the last `ACTIVITY_WINDOW_DAYS` days. Each
+ * indicator's achievement grows logarithmically towards its threshold and the
+ * results are combined by weight:
+ *
+ *   C = (1 / Σαᵢ) · Σ αᵢ · ln(1 + Sᵢ) / ln(1 + max(Sᵢ, Tᵢ))
+ *
+ * where Sᵢ is the indicator's observed value and Tᵢ its threshold.
+ */
+export function activityScore(
+  pulls: PullRecord[],
+  issues: IssueRecord[],
+  contributors: ContributorRecord[],
+  now = new Date()
+): number {
+  const windowStart = new Date(
+    now.getTime() - ACTIVITY_WINDOW_DAYS * DAY_MS
+  ).toISOString()
+
+  const newPulls = pulls.filter((p) => p.createdAt >= windowStart)
+  const newIssues = issues.filter((i) => i.createdAt >= windowStart)
+  const mean = (records: { comments: number }[]) =>
+    records.length === 0
+      ? 0
+      : records.reduce((sum, r) => sum + r.comments, 0) / records.length
+
+  const values = [
+    contributors.filter(
+      (c) => !c.isBot && (c.lastContributionAt ?? '') >= windowStart
+    ).length,
+    newIssues.length,
+    newPulls.length,
+    mean(newIssues),
+    mean(newPulls),
+  ]
+
+  const totalWeight = ACTIVITY_INDICATORS.reduce(
+    (sum, indicator) => sum + indicator.weight,
+    0
+  )
+  const weighted = ACTIVITY_INDICATORS.reduce((sum, indicator, index) => {
+    const value = values[index]
+    const ratio =
+      Math.log(1 + value) / Math.log(1 + Math.max(value, indicator.threshold))
+    return sum + indicator.weight * ratio
+  }, 0)
+
+  return weighted / totalWeight
+}
 
 export function toDayKey(date: Date): string {
   return date.toISOString().slice(0, 10)

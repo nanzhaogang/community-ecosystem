@@ -101,16 +101,16 @@ export const issuesColumns: ColumnDef<IssueRecord, unknown>[] = [
   },
   {
     id: 'duration',
-    accessorFn: (row) => row.waitingHours,
+    accessorFn: (row) => row.waitingHours ?? undefined,
     header: ({ column }) => (
-      <DataTableColumnHeader column={column} title='等待时长' />
+      <DataTableColumnHeader column={column} title='滞留时长' />
     ),
     cell: ({ row }) => (
       <span className='text-nowrap text-xs tabular-nums'>
         {formatDurationHours(row.original.waitingHours)}
       </span>
     ),
-    enableSorting: false,
+    sortUndefined: 'last',
     meta: { className: 'w-32' },
   },
   {

@@ -4,21 +4,20 @@
 
 **在线访问：** https://nanzhaogang.github.io/community-ecosystem/
 
-当前监控仓库：
+当前监控仓库（共 15 个）：
 
-- `openJiuwen-ai/sciencediscovery`（默认）
-- `openJiuwen-ai/jiuwenswarm`
+- `openJiuwen-ai/sciencediscovery`
+- ThinkFlowLab：`system1-agents`、`vllm-rlt`、`system1-omni`、`nanodot`、`vllm-omni-mlx`、`OmniRSI`、`nanoMuse`、`mobilegym`、`OpenMinis`、`orbit_tests`、`pi`、`mlx-perf`、`agentic-video-generation`、`agent-core`
 
 ## 功能页面
 
 | 路由 | 页面 | 说明 |
 | --- | --- | --- |
 | `/` | 社区概览 | 以仓库为颗粒度展示核心指标（Stars / Forks / 贡献者 / PR / Issue）、PR 与 Issue 概览、社区运营预警；右上角可一键更新所有仓库的最新数据 |
-| `/pulls` | PR 分析 | 新增 / 合入趋势、Open 积压、内外部占比、明细表 |
-| `/issues` | Issue 分析 | 新增 / 关闭趋势、积压、长期未解决、未解决年龄分布、明细表（已排除 PR） |
-| `/growth` | 增长趋势 | 统一时间筛选（近 7 天 / 30 天 / 全部 / 自定义），社区增长、开发活跃度两组图表 |
-| `/contributors` | 贡献者分析 | 活跃 / 新增贡献者、内外部占比、贡献集中度 |
-| `/ecosystem` | 生态影响力 | GitHub 之外的传播监控 |
+| `/pulls` | PR 分析 | PR 累计数量曲线（近 7 天 / 30 天 / 全部）与明细表 |
+| `/issues` | Issue 分析 | Issue 累计数量曲线（近 7 天 / 30 天 / 全部）与明细表（已排除 PR） |
+| `/growth` | 社区成长 | 每社区一行：左侧贡献者增长曲线（全部 / 外部），右侧 Star History |
+| `/ecosystem` | 生态影响力 | 暂未开放 |
 
 ## 本地运行
 
@@ -64,7 +63,7 @@ npm run collect
     "hsliuustc0106",
     "wyhohyw"
   ],
-  "openJiuwen-ai/jiuwenswarm": []
+  "ThinkFlowLab/agent-core": []
 }
 ```
 
@@ -74,7 +73,7 @@ npm run collect
 
 | 变量 | 默认 | 说明 |
 | --- | --- | --- |
-| `MONITOR_REPO` | `openJiuwen-ai/sciencediscovery` | 监控仓库 `owner/name` |
+| `MONITOR_REPOS` | 上述 15 个仓库 | 逗号分隔的监控仓库 `owner/name` 列表（`MONITOR_REPO` 为单仓库的兼容写法） |
 | `GITHUB_TOKEN` | 空 | GitHub Token，仅通过环境变量注入，不写入任何产物 |
 | `MONITOR_BOTS` | 内置常见 bot | 逗号分隔的机器人账号 |
 | `MONITOR_LONG_OPEN_DAYS` | `30` | Issue 长期未解决阈值（天） |
@@ -84,10 +83,10 @@ npm run collect
 
 - **PR 状态**：Open / 已合入（`merged_at` 非空）/ 关闭未合入（关闭且未合入）；累计量与周期增量分开统计。
 - **Issue**：统计时排除 PR（GitHub 的 PR 也占用 Issue 编号）；区分 Open / Closed 与周期内新增、关闭。
-- **等待时长**：Open 条目的存续时长（创建至今）；Issue 超过阈值即计入「长期未解决」。
+- **滞留时长**：Open 条目的存续时长（创建至今）；Issue 超过阈值即计入「长期未解决」。
 - **概览**：社区概览只展示最新现状，不提供时间范围选择（增量统计不使用该数据）。
 - **时间**：统一 UTC 存储，历史点按 UTC 天切分。
-- **内 / 外部**：白名单制，按仓库区分。`config/internal-contributors.json` 中该仓库列出的登录名记为 internal，其余非 bot 作者记为 external，bot 记为 unknown（前端折叠进 internal）。
+- **内 / 外部**：白名单制，按仓库区分。`config/internal-contributors.json` 中该仓库列出的登录名记为 internal，其余非 bot 作者记为 external，bot 记为 unknown 且不计入内 / 外部；各页面口径一致。
 
 ## License
 

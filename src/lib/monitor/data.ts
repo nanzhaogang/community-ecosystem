@@ -1,5 +1,6 @@
 import { useMemo } from 'react'
-import { useQuery } from '@tanstack/react-query'
+import { useQueries, useQuery } from '@tanstack/react-query'
+import { activityScore } from './derive'
 import type { TimeRangeSearch } from './ranges'
 import type {
   ContributorDataset,
@@ -32,20 +33,32 @@ async function fetchJson<T>(file: string): Promise<T> {
   return (await res.json()) as T
 }
 
+/**
+ * Shared options for a repository detail file. Kept separate from the hooks so
+ * multi-repository views (e.g. the activity ranking) can reuse the exact same
+ * query keys and therefore share the cache instead of re-fetching.
+ */
+function datasetOptions<T, R = T>(
+  file: string,
+  key: string,
+  select?: (data: T) => R
+) {
+  return {
+    queryKey: ['monitor', key, file],
+    queryFn: () => fetchJson<T>(file),
+    select,
+    retry: 1,
+    staleTime: 5 * 60 * 1000,
+  }
+}
+
 function useDataQuery<T, R = T>(
   file: string,
   key: string,
   select?: (data: T) => R,
   enabled = true
 ) {
-  return useQuery({
-    queryKey: ['monitor', key, file],
-    queryFn: () => fetchJson<T>(file),
-    select,
-    enabled,
-    retry: 1,
-    staleTime: 5 * 60 * 1000,
-  })
+  return useQuery({ ...datasetOptions(file, key, select), enabled })
 }
 
 /** Composite key for a repository (`owner/name`). */
@@ -82,29 +95,34 @@ export const useHistory = (repo: string) =>
     Boolean(repo)
   )
 
-export const usePulls = (repo: string) =>
-  useDataQuery<RecordDataset<PullRecord>, PullRecord[]>(
+export const pullsQuery = (repo: string) =>
+  datasetOptions<RecordDataset<PullRecord>, PullRecord[]>(
     `${repo}/pulls.json`,
     `${repo}:pulls`,
-    (data) => data.items,
-    Boolean(repo)
+    (data) => data.items
   )
 
-export const useIssues = (repo: string) =>
-  useDataQuery<RecordDataset<IssueRecord>, IssueRecord[]>(
+export const issuesQuery = (repo: string) =>
+  datasetOptions<RecordDataset<IssueRecord>, IssueRecord[]>(
     `${repo}/issues.json`,
     `${repo}:issues`,
-    (data) => data.items,
-    Boolean(repo)
+    (data) => data.items
   )
 
-export const useContributors = (repo: string) =>
-  useDataQuery<ContributorDataset>(
+export const contributorsQuery = (repo: string) =>
+  datasetOptions<ContributorDataset>(
     `${repo}/contributors.json`,
-    `${repo}:contributors`,
-    undefined,
-    Boolean(repo)
+    `${repo}:contributors`
   )
+
+export const usePulls = (repo: string) =>
+  useQuery({ ...pullsQuery(repo), enabled: Boolean(repo) })
+
+export const useIssues = (repo: string) =>
+  useQuery({ ...issuesQuery(repo), enabled: Boolean(repo) })
+
+export const useContributors = (repo: string) =>
+  useQuery({ ...contributorsQuery(repo), enabled: Boolean(repo) })
 
 /** Classification rules are shared across all monitored repositories. */
 export const useMonitorConfig = () =>
@@ -156,6 +174,44 @@ export function useSelectedRepo(search: TimeRangeSearch) {
     isError: reposQuery.isError,
     refetch: reposQuery.refetch,
   }
+}
+
+/**
+ * Community activity score for every repository, keyed by `owner/name`. Loaded
+ * with `useQueries` so a page can rank repositories before rendering them. The
+ * query options are shared with the single-repo hooks, so nothing is fetched
+ * twice — the same cache entry is reused.
+ */
+export function useActivityScores(
+  repos: RepoSummary[]
+): Map<string, number | null> {
+  const keys = repos.map(repoKey)
+  const pulls = useQueries({
+    queries: keys.map((key) => ({ ...pullsQuery(key), enabled: Boolean(key) })),
+  })
+  const issues = useQueries({
+    queries: keys.map((key) => ({ ...issuesQuery(key), enabled: Boolean(key) })),
+  })
+  const contributors = useQueries({
+    queries: keys.map((key) => ({
+      ...contributorsQuery(key),
+      enabled: Boolean(key),
+    })),
+  })
+
+  const scores = new Map<string, number | null>()
+  keys.forEach((key, index) => {
+    const pullRecords = pulls[index].data
+    const issueRecords = issues[index].data
+    const contributorData = contributors[index].data
+    scores.set(
+      key,
+      pullRecords && issueRecords && contributorData
+        ? activityScore(pullRecords, issueRecords, contributorData.items)
+        : null
+    )
+  })
+  return scores
 }
 
 export { DATA_DIR, fetchJson }

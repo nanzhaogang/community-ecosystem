@@ -1,21 +1,16 @@
 import type { ReactNode } from 'react'
 import { Badge } from '@/components/ui/badge'
 import { IconGithub } from '@/assets/brand-icons'
-import { RepoSelect } from './repo-select'
 import { TimeRangeFilter } from './time-range-filter'
-import type { MonitorMeta, RepoSummary } from '@/lib/monitor/types'
+import type { MonitorMeta } from '@/lib/monitor/types'
 import type { TimeRangeSearch } from '@/lib/monitor/ranges'
 
 type MonitorHeaderProps = {
   title: string
-  description?: string
+  description?: ReactNode
   meta: MonitorMeta | undefined
   search: TimeRangeSearch
   onSearchChange: (next: TimeRangeSearch) => void
-  /** Full list of monitored repositories, for the switcher. */
-  repos?: RepoSummary[]
-  /** Currently selected repository key (`owner/name`). */
-  selectedRepo?: string
   /** Render the time-range filter (default true). */
   showRange?: boolean
   /** Optional right-aligned actions (e.g. a refresh button). */
@@ -28,8 +23,6 @@ export function MonitorHeader({
   meta,
   search,
   onSearchChange,
-  repos,
-  selectedRepo,
   showRange = true,
   actions,
 }: MonitorHeaderProps) {
@@ -43,13 +36,6 @@ export function MonitorHeader({
           ) : null}
         </div>
         <div className='flex flex-wrap items-center gap-2'>
-          {repos && selectedRepo ? (
-            <RepoSelect
-              repos={repos}
-              value={selectedRepo}
-              onChange={(key) => onSearchChange({ ...search, repo: key })}
-            />
-          ) : null}
           {meta?.repo ? (
             <a
               href={meta.repo.htmlUrl}
