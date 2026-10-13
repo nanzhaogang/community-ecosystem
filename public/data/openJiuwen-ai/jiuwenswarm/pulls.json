@@ -1,19 +1,157 @@
 {
-  "generatedAt": "2026-10-13T07:15:28.466Z",
+  "generatedAt": "2026-10-13T09:20:36.157Z",
   "items": [
+    {
+      "number": 8165,
+      "title": "fix: stop sibling candidates after adopted node reaches threshold and show skipped state",
+      "author": "openjiuwen-sync-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-13T09:18:14Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 0.039488055555555554,
+      "labels": [
+        "ci-running",
+        "sync-managed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8165"
+    },
+    {
+      "number": 8163,
+      "title": "fix(process-cli): 非交互命令仅支持单 Agent 普通模式",
+      "author": "openjiuwen-sync-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-13T08:37:29Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 0.7186547222222223,
+      "labels": [
+        "ci-running",
+        "sync-managed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8163"
+    },
+    {
+      "number": 8161,
+      "title": "fix: 主模型切换后同步压缩器并修正档位模型 id 漂移",
+      "author": "openjiuwen-sync-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-13T08:16:33Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 1.0675436111111112,
+      "labels": [
+        "ci-running",
+        "sync-managed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8161"
+    },
+    {
+      "number": 8158,
+      "title": "fix:BUG20261008376404-系统异常退出",
+      "author": "openjiuwen-sync-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-13T07:57:25Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 1.3864325,
+      "labels": [
+        "ci-successful",
+        "sync-managed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8158"
+    },
+    {
+      "number": 8157,
+      "title": "feat: session-scoped adapter 空闲 TTL 支持环境变量覆盖",
+      "author": "openjiuwen-sync-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-13T07:55:00Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 1.4267102777777778,
+      "labels": [
+        "ci-successful",
+        "sync-managed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8157"
+    },
+    {
+      "number": 8156,
+      "title": "feat(security): report discovered skills through desktop bridge",
+      "author": "openjiuwen-sync-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-13T07:54:54Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 1.4283769444444445,
+      "labels": [
+        "ci-successful",
+        "sync-managed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8156"
+    },
+    {
+      "number": 8153,
+      "title": "fix(web)：修复前后端时间不一致时顺序出错的问题",
+      "author": "openjiuwen-sync-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-13T07:32:44Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 1.797821388888889,
+      "labels": [
+        "ci-successful",
+        "sync-managed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8153"
+    },
+    {
+      "number": 8152,
+      "title": "fix(cron): log stream_gen.aclose failures instead of silent swallow",
+      "author": "openjiuwen-sync-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-13T07:18:03Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 2.0425436111111113,
+      "labels": [
+        "ci-successful",
+        "sync-managed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8152"
+    },
     {
       "number": 8151,
       "title": "fix(skill-turbo): 补充Skillturbo引擎侧关键路径 UT 防护",
       "author": "openjiuwen-sync-bot[bot]",
       "contributionType": "unknown",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-13T07:06:32Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 0.14901833333333334,
+      "mergedAt": "2026-10-13T08:47:34Z",
+      "closedAt": "2026-10-13T08:47:34Z",
+      "waitingHours": null,
       "labels": [
-        "ci-running",
+        "ci-successful",
+        "merged",
+        "check-successful",
         "sync-managed"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8151"
@@ -45,7 +183,7 @@
       "createdAt": "2026-10-13T06:56:23Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 0.318185,
+      "waitingHours": 2.4036547222222224,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -62,7 +200,7 @@
       "createdAt": "2026-10-13T06:55:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 0.3309627777777778,
+      "waitingHours": 2.4164325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -79,9 +217,9 @@
       "createdAt": "2026-10-13T06:41:08Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 0.5723516666666667,
+      "waitingHours": 2.657821388888889,
       "labels": [
-        "ci-running",
+        "ci-failed",
         "sync-managed"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8146"
@@ -91,14 +229,16 @@
       "title": "feat(swarm): swarmflow supports third-party agents, tool call display, and member grouping",
       "author": "openjiuwen-sync-bot[bot]",
       "contributionType": "unknown",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-13T06:31:04Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 0.7401294444444444,
+      "mergedAt": "2026-10-13T08:48:41Z",
+      "closedAt": "2026-10-13T08:48:41Z",
+      "waitingHours": null,
       "labels": [
-        "ci-failed",
+        "ci-successful",
+        "merged",
+        "check-successful",
         "sync-managed"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8145"
@@ -115,7 +255,7 @@
       "closedAt": "2026-10-13T06:58:59Z",
       "waitingHours": null,
       "labels": [
-        "ci-running",
+        "ci-failed",
         "sync-managed"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8144"
@@ -130,7 +270,7 @@
       "createdAt": "2026-10-13T06:08:18Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1.1195738888888889,
+      "waitingHours": 3.205043611111111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -163,8 +303,9 @@
       "createdAt": "2026-10-13T04:33:21Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 2.702073888888889,
+      "waitingHours": 4.787543611111111,
       "labels": [
+        "ci-successful",
         "sync-managed"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8137"
@@ -179,7 +320,7 @@
       "createdAt": "2026-10-13T04:26:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 2.819018333333333,
+      "waitingHours": 4.9044880555555554,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -196,9 +337,9 @@
       "createdAt": "2026-10-13T04:26:14Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 2.820685,
+      "waitingHours": 4.906154722222222,
       "labels": [
-        "ci-running",
+        "ci-failed",
         "sync-managed"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8135"
@@ -213,7 +354,7 @@
       "createdAt": "2026-10-13T04:24:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 2.8429072222222223,
+      "waitingHours": 4.9283769444444445,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -230,7 +371,7 @@
       "createdAt": "2026-10-13T04:12:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 3.057073888888889,
+      "waitingHours": 5.142543611111111,
       "labels": [
         "ci-running"
       ],
@@ -303,9 +444,9 @@
       "createdAt": "2026-10-13T02:56:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 4.309296111111111,
+      "waitingHours": 6.3947658333333335,
       "labels": [
-        "ci-running",
+        "ci-successful",
         "sync-managed"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8123"
@@ -320,7 +461,7 @@
       "createdAt": "2026-10-13T02:49:30Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 4.432907222222222,
+      "waitingHours": 6.518376944444444,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -332,14 +473,16 @@
       "title": "config(agent_ras): LOW 工具调用告警默认不再向前台推送",
       "author": "openjiuwen-sync-bot[bot]",
       "contributionType": "unknown",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-13T02:34:55Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 4.6759627777777775,
+      "mergedAt": "2026-10-13T07:47:24Z",
+      "closedAt": "2026-10-13T07:47:24Z",
+      "waitingHours": null,
       "labels": [
         "ci-successful",
+        "merged",
+        "check-successful",
         "sync-managed"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8119"
@@ -390,9 +533,9 @@
       "createdAt": "2026-10-13T02:20:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 4.914573888888889,
+      "waitingHours": 7.000043611111111,
       "labels": [
-        "ci-running",
+        "ci-successful",
         "sync-managed"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8114"
@@ -443,7 +586,7 @@
       "createdAt": "2026-10-13T02:05:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 5.169851666666666,
+      "waitingHours": 7.255321388888889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -460,7 +603,7 @@
       "createdAt": "2026-10-13T02:00:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 5.244296111111111,
+      "waitingHours": 7.329765833333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -496,7 +639,7 @@
       "createdAt": "2026-10-13T00:59:32Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 6.265685,
+      "waitingHours": 8.351154722222223,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -551,7 +694,7 @@
       "createdAt": "2026-10-12T13:01:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 18.240129444444445,
+      "waitingHours": 20.325599166666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -568,7 +711,7 @@
       "createdAt": "2026-10-12T13:00:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 18.25429611111111,
+      "waitingHours": 20.339765833333335,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -585,7 +728,7 @@
       "createdAt": "2026-10-12T12:59:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 18.271240555555554,
+      "waitingHours": 20.35671027777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -602,7 +745,7 @@
       "createdAt": "2026-10-12T12:58:35Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 18.281518333333334,
+      "waitingHours": 20.366988055555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -619,7 +762,7 @@
       "createdAt": "2026-10-12T12:57:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 18.295685,
+      "waitingHours": 20.381154722222224,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -636,7 +779,7 @@
       "createdAt": "2026-10-12T12:56:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 18.314573888888887,
+      "waitingHours": 20.400043611111112,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -653,7 +796,7 @@
       "createdAt": "2026-10-12T12:55:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 18.335962777777777,
+      "waitingHours": 20.4214325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -708,7 +851,7 @@
       "createdAt": "2026-10-12T12:28:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 18.787629444444445,
+      "waitingHours": 20.873099166666666,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -925,14 +1068,16 @@
       "title": "fix: 解决issue分支和模块不联动问题",
       "author": "openjiuwen-sync-bot[bot]",
       "contributionType": "unknown",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-12T09:59:07Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 21.272629444444444,
+      "mergedAt": "2026-10-13T07:19:56Z",
+      "closedAt": "2026-10-13T07:19:56Z",
+      "waitingHours": null,
       "labels": [
         "ci-successful",
+        "merged",
+        "check-successful",
         "sync-managed"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8081"
@@ -1002,7 +1147,7 @@
       "createdAt": "2026-10-12T09:07:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 22.13096277777778,
+      "waitingHours": 24.2164325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -1076,7 +1221,7 @@
       "createdAt": "2026-10-12T08:47:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 22.467629444444444,
+      "waitingHours": 24.553099166666666,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -1129,7 +1274,7 @@
       "createdAt": "2026-10-12T08:14:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 23.010407222222224,
+      "waitingHours": 25.095876944444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -1184,7 +1329,7 @@
       "createdAt": "2026-10-12T07:30:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 23.75429611111111,
+      "waitingHours": 25.839765833333335,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -1239,7 +1384,7 @@
       "createdAt": "2026-10-12T07:09:30Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 24.099573888888887,
+      "waitingHours": 26.185043611111112,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -1256,7 +1401,7 @@
       "createdAt": "2026-10-12T07:08:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 24.109851666666668,
+      "waitingHours": 26.19532138888889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -1273,7 +1418,7 @@
       "createdAt": "2026-10-12T07:08:23Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 24.118185,
+      "waitingHours": 26.203654722222222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -1290,7 +1435,7 @@
       "createdAt": "2026-10-12T06:56:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 24.31207388888889,
+      "waitingHours": 26.39754361111111,
       "labels": [
         "ci-failed"
       ],
@@ -1325,7 +1470,7 @@
       "createdAt": "2026-10-12T06:48:28Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 24.450129444444446,
+      "waitingHours": 26.535599166666668,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -1342,7 +1487,7 @@
       "createdAt": "2026-10-12T03:48:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 27.442351666666667,
+      "waitingHours": 29.52782138888889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -1416,7 +1561,7 @@
       "createdAt": "2026-10-12T03:28:02Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 27.790685,
+      "waitingHours": 29.87615472222222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -1466,14 +1611,16 @@
       "title": "fix(team): 团队工具结果嵌套字符串按 512 字符截断",
       "author": "openjiuwen-sync-bot[bot]",
       "contributionType": "unknown",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-12T02:21:54Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 28.892907222222224,
+      "mergedAt": "2026-10-13T08:17:48Z",
+      "closedAt": "2026-10-13T08:17:48Z",
+      "waitingHours": null,
       "labels": [
         "ci-successful",
+        "merged",
+        "check-successful",
         "sync-managed"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/8024"
@@ -1488,7 +1635,7 @@
       "createdAt": "2026-10-12T02:19:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 28.928740555555557,
+      "waitingHours": 31.014210277777778,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -1543,7 +1690,7 @@
       "createdAt": "2026-10-10T09:45:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 69.49651833333333,
+      "waitingHours": 71.58198805555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -1579,7 +1726,7 @@
       "createdAt": "2026-10-10T09:21:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 69.90096277777778,
+      "waitingHours": 71.9864325,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -1615,7 +1762,7 @@
       "createdAt": "2026-10-10T09:01:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 70.22624055555555,
+      "waitingHours": 72.31171027777778,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -1651,7 +1798,7 @@
       "createdAt": "2026-10-10T08:51:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 70.40485166666667,
+      "waitingHours": 72.49032138888889,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -1706,7 +1853,7 @@
       "createdAt": "2026-10-10T08:39:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 70.60429611111111,
+      "waitingHours": 72.68976583333334,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -1723,7 +1870,7 @@
       "createdAt": "2026-10-10T08:38:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 70.61762944444445,
+      "waitingHours": 72.70309916666666,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -1740,7 +1887,7 @@
       "createdAt": "2026-10-10T08:37:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 70.63124055555555,
+      "waitingHours": 72.71671027777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -1757,7 +1904,7 @@
       "createdAt": "2026-10-10T08:34:18Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 70.68624055555556,
+      "waitingHours": 72.77171027777777,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -1882,7 +2029,7 @@
       "createdAt": "2026-10-10T07:24:09Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 71.85540722222223,
+      "waitingHours": 73.94087694444444,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -1988,7 +2135,7 @@
       "createdAt": "2026-10-10T07:00:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 72.24790722222222,
+      "waitingHours": 74.33337694444444,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -2005,7 +2152,7 @@
       "createdAt": "2026-10-10T06:54:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 72.34735166666667,
+      "waitingHours": 74.43282138888888,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -2039,7 +2186,7 @@
       "createdAt": "2026-10-10T06:45:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 72.50235166666667,
+      "waitingHours": 74.58782138888888,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -2108,7 +2255,7 @@
       "createdAt": "2026-10-10T05:21:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 73.90624055555556,
+      "waitingHours": 75.99171027777778,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -2237,7 +2384,7 @@
       "createdAt": "2026-10-10T02:54:05Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 76.35651833333333,
+      "waitingHours": 78.44198805555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -2254,7 +2401,7 @@
       "createdAt": "2026-10-10T02:46:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 76.47540722222222,
+      "waitingHours": 78.56087694444444,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -2379,7 +2526,7 @@
       "createdAt": "2026-10-10T01:31:28Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 77.73346277777777,
+      "waitingHours": 79.8189325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -2434,7 +2581,7 @@
       "createdAt": "2026-10-09T16:42:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 86.54790722222222,
+      "waitingHours": 88.63337694444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -2451,7 +2598,7 @@
       "createdAt": "2026-10-09T15:54:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 87.35040722222222,
+      "waitingHours": 89.43587694444444,
       "labels": [
         "ci-successful"
       ],
@@ -2467,7 +2614,7 @@
       "createdAt": "2026-10-09T15:32:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 87.72012944444444,
+      "waitingHours": 89.80559916666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -2484,7 +2631,7 @@
       "createdAt": "2026-10-09T14:39:05Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 88.60651833333333,
+      "waitingHours": 90.69198805555556,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/7920"
     },
@@ -2498,7 +2645,7 @@
       "createdAt": "2026-10-09T14:39:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 88.60790722222222,
+      "waitingHours": 90.69337694444444,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/7919"
     },
@@ -2512,7 +2659,7 @@
       "createdAt": "2026-10-09T14:38:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 88.60957388888889,
+      "waitingHours": 90.69504361111112,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/7918"
     },
@@ -2526,7 +2673,7 @@
       "createdAt": "2026-10-09T14:38:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 88.61512944444445,
+      "waitingHours": 90.70059916666666,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/7917"
     },
@@ -2540,7 +2687,7 @@
       "createdAt": "2026-10-09T14:38:21Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 88.61874055555556,
+      "waitingHours": 90.70421027777778,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/7916"
     },
@@ -2554,7 +2701,7 @@
       "createdAt": "2026-10-09T13:43:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 89.52874055555556,
+      "waitingHours": 91.61421027777777,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -2664,7 +2811,7 @@
       "createdAt": "2026-10-09T09:32:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 93.70901833333333,
+      "waitingHours": 95.79448805555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -2791,7 +2938,7 @@
       "createdAt": "2026-10-09T08:38:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 94.61429611111112,
+      "waitingHours": 96.69976583333333,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -2865,7 +3012,7 @@
       "createdAt": "2026-10-09T07:56:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 95.31762944444445,
+      "waitingHours": 97.40309916666666,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -3032,7 +3179,7 @@
       "createdAt": "2026-10-09T06:51:30Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 96.3995738888889,
+      "waitingHours": 98.48504361111111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -3063,14 +3210,16 @@
       "title": "[dev-stable] 回合 AgentServer Bugfix：Workflow预算结构与Hook会话ID",
       "author": "openjiuwen-sync-bot[bot]",
       "contributionType": "unknown",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-09T06:38:08Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 96.62235166666666,
+      "mergedAt": "2026-10-13T08:22:52Z",
+      "closedAt": "2026-10-13T08:22:52Z",
+      "waitingHours": null,
       "labels": [
         "ci-successful",
+        "merged",
+        "check-successful",
         "sync-managed"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/7874"
@@ -3142,7 +3291,7 @@
       "createdAt": "2026-10-09T03:58:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 99.29124055555556,
+      "waitingHours": 101.37671027777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -3268,7 +3417,7 @@
       "createdAt": "2026-10-09T02:51:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 100.39679611111112,
+      "waitingHours": 102.48226583333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -3299,14 +3448,16 @@
       "title": "[dev-stable] 回合 AgentServer Bugfix：修复 :rewind 多会话恢复错误",
       "author": "openjiuwen-sync-bot[bot]",
       "contributionType": "unknown",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-09T02:41:50Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 100.560685,
+      "mergedAt": "2026-10-13T08:23:09Z",
+      "closedAt": "2026-10-13T08:23:09Z",
+      "waitingHours": null,
       "labels": [
         "ci-successful",
+        "merged",
+        "check-successful",
         "sync-managed"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/7850"
@@ -3321,7 +3472,7 @@
       "createdAt": "2026-10-09T02:29:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 100.76401833333334,
+      "waitingHours": 102.84948805555555,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -3391,7 +3542,7 @@
       "createdAt": "2026-10-09T01:55:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 101.33651833333333,
+      "waitingHours": 103.42198805555556,
       "labels": [
         "ci-running",
         "conflicted"
@@ -3495,7 +3646,7 @@
       "createdAt": "2026-10-08T17:51:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 109.39651833333333,
+      "waitingHours": 111.48198805555556,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -3512,7 +3663,7 @@
       "createdAt": "2026-10-08T17:51:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 109.39874055555556,
+      "waitingHours": 111.48421027777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -3529,7 +3680,7 @@
       "createdAt": "2026-10-08T17:51:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 109.40040722222223,
+      "waitingHours": 111.48587694444444,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -3546,7 +3697,7 @@
       "createdAt": "2026-10-08T17:10:35Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 110.08151833333334,
+      "waitingHours": 112.16698805555555,
       "labels": [
         "ci-failed",
         "conflicted"
@@ -3563,7 +3714,7 @@
       "createdAt": "2026-10-08T16:30:47Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 110.74485166666666,
+      "waitingHours": 112.83032138888889,
       "labels": [
         "ci-successful"
       ],
@@ -3579,7 +3730,7 @@
       "createdAt": "2026-10-08T15:16:46Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 111.97846277777778,
+      "waitingHours": 114.0639325,
       "labels": [
         "ci-successful"
       ],
@@ -3595,7 +3746,7 @@
       "createdAt": "2026-10-08T15:16:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 111.98207388888889,
+      "waitingHours": 114.0675436111111,
       "labels": [
         "ci-failed"
       ],
@@ -3611,7 +3762,7 @@
       "createdAt": "2026-10-08T14:11:32Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 113.065685,
+      "waitingHours": 115.15115472222222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -3685,7 +3836,7 @@
       "createdAt": "2026-10-08T11:59:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 115.27290722222222,
+      "waitingHours": 117.35837694444444,
       "labels": [
         "ci-successful"
       ],
@@ -3739,7 +3890,7 @@
       "createdAt": "2026-10-08T11:55:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 115.32485166666666,
+      "waitingHours": 117.41032138888889,
       "labels": [
         "ci-successful"
       ],
@@ -4009,7 +4160,7 @@
       "createdAt": "2026-10-08T08:45:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 118.49401833333333,
+      "waitingHours": 120.57948805555556,
       "labels": [
         "ci-successful"
       ],
@@ -4082,7 +4233,7 @@
       "createdAt": "2026-10-08T08:22:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 118.89040722222222,
+      "waitingHours": 120.97587694444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -4135,7 +4286,7 @@
       "createdAt": "2026-10-08T08:05:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 119.15929611111112,
+      "waitingHours": 121.24476583333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -4171,7 +4322,7 @@
       "createdAt": "2026-10-08T08:05:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 119.16124055555555,
+      "waitingHours": 121.24671027777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -4205,7 +4356,7 @@
       "createdAt": "2026-10-08T07:27:31Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 119.7992961111111,
+      "waitingHours": 121.88476583333333,
       "labels": [
         "ci-successful"
       ],
@@ -4238,7 +4389,7 @@
       "createdAt": "2026-10-08T07:12:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 120.05040722222222,
+      "waitingHours": 122.13587694444445,
       "labels": [
         "ci-successful"
       ],
@@ -4288,7 +4439,7 @@
       "createdAt": "2026-10-07T18:08:05Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 133.123185,
+      "waitingHours": 135.20865472222224,
       "labels": [
         "ci-successful"
       ],
@@ -4304,7 +4455,7 @@
       "createdAt": "2026-10-07T15:47:05Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 135.473185,
+      "waitingHours": 137.55865472222223,
       "labels": [
         "ci-successful"
       ],
@@ -4320,7 +4471,7 @@
       "createdAt": "2026-10-07T10:34:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 140.68651833333334,
+      "waitingHours": 142.77198805555557,
       "labels": [
         "ci-successful"
       ],
@@ -4352,7 +4503,7 @@
       "createdAt": "2026-10-07T10:02:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 141.21457388888888,
+      "waitingHours": 143.3000436111111,
       "labels": [
         "ci-successful"
       ],
@@ -4368,7 +4519,7 @@
       "createdAt": "2026-10-07T09:10:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 142.08179611111112,
+      "waitingHours": 144.16726583333335,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/7754"
     },
@@ -4382,7 +4533,7 @@
       "createdAt": "2026-10-06T21:56:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 153.3092961111111,
+      "waitingHours": 155.39476583333334,
       "labels": [
         "ci-failed"
       ],
@@ -4398,7 +4549,7 @@
       "createdAt": "2026-10-06T19:53:15Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 155.3704072222222,
+      "waitingHours": 157.45587694444444,
       "labels": [
         "ci-failed"
       ],
@@ -4414,7 +4565,7 @@
       "createdAt": "2026-10-06T19:50:02Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 155.42401833333332,
+      "waitingHours": 157.50948805555555,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -4431,7 +4582,7 @@
       "createdAt": "2026-10-06T19:47:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 155.45901833333335,
+      "waitingHours": 157.54448805555555,
       "labels": [
         "ci-successful"
       ],
@@ -4447,7 +4598,7 @@
       "createdAt": "2026-10-06T16:40:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 158.57735166666666,
+      "waitingHours": 160.6628213888889,
       "labels": [
         "ci-successful"
       ],
@@ -4463,7 +4614,7 @@
       "createdAt": "2026-10-06T16:37:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 158.635685,
+      "waitingHours": 160.72115472222222,
       "labels": [
         "conflicted"
       ],
@@ -4479,7 +4630,7 @@
       "createdAt": "2026-10-06T16:36:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 158.65262944444444,
+      "waitingHours": 160.73809916666667,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/7743"
     },
@@ -4493,7 +4644,7 @@
       "createdAt": "2026-10-06T16:31:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 158.7359627777778,
+      "waitingHours": 160.8214325,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/7741"
     },
@@ -4507,7 +4658,7 @@
       "createdAt": "2026-10-06T16:29:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 158.7620738888889,
+      "waitingHours": 160.84754361111112,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/7739"
     },
@@ -4521,7 +4672,7 @@
       "createdAt": "2026-10-06T16:29:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 158.77374055555555,
+      "waitingHours": 160.85921027777778,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/7737"
     },
@@ -4535,7 +4686,7 @@
       "createdAt": "2026-10-06T09:43:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 165.5320738888889,
+      "waitingHours": 167.6175436111111,
       "labels": [
         "ci-successful"
       ],
@@ -4551,7 +4702,7 @@
       "createdAt": "2026-10-06T09:32:23Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 165.718185,
+      "waitingHours": 167.80365472222223,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -4568,7 +4719,7 @@
       "createdAt": "2026-10-06T09:30:31Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 165.7492961111111,
+      "waitingHours": 167.83476583333334,
       "labels": [
         "ci-successful"
       ],
@@ -4584,7 +4735,7 @@
       "createdAt": "2026-10-06T08:31:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 166.72540722222223,
+      "waitingHours": 168.81087694444443,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -4601,7 +4752,7 @@
       "createdAt": "2026-10-06T08:28:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 166.7892961111111,
+      "waitingHours": 168.87476583333333,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -4618,7 +4769,7 @@
       "createdAt": "2026-10-06T08:08:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 167.12096277777778,
+      "waitingHours": 169.2064325,
       "labels": [
         "ci-successful"
       ],
@@ -4634,7 +4785,7 @@
       "createdAt": "2026-10-06T02:54:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 172.34235166666667,
+      "waitingHours": 174.4278213888889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -4651,7 +4802,7 @@
       "createdAt": "2026-10-06T02:18:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 172.94790722222223,
+      "waitingHours": 175.03337694444446,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -4668,7 +4819,7 @@
       "createdAt": "2026-10-06T02:15:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 172.99401833333334,
+      "waitingHours": 175.07948805555554,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -4685,7 +4836,7 @@
       "createdAt": "2026-10-06T02:15:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 172.99762944444444,
+      "waitingHours": 175.08309916666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -4702,7 +4853,7 @@
       "createdAt": "2026-10-06T02:15:22Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 173.0017961111111,
+      "waitingHours": 175.08726583333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -4719,7 +4870,7 @@
       "createdAt": "2026-10-06T02:14:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 173.01262944444446,
+      "waitingHours": 175.09809916666666,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -4736,7 +4887,7 @@
       "createdAt": "2026-10-06T02:13:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 173.03651833333333,
+      "waitingHours": 175.12198805555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -4753,7 +4904,7 @@
       "createdAt": "2026-10-06T01:29:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 173.76235166666666,
+      "waitingHours": 175.8478213888889,
       "labels": [
         "ci-successful"
       ],
@@ -4769,7 +4920,7 @@
       "createdAt": "2026-10-05T17:55:28Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 181.33346277777778,
+      "waitingHours": 183.4189325,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -4786,7 +4937,7 @@
       "createdAt": "2026-10-05T15:49:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 183.42985166666668,
+      "waitingHours": 185.51532138888888,
       "labels": [
         "ci-running",
         "conflicted"
@@ -4799,14 +4950,13 @@
       "author": "zuiho-kai",
       "contributionType": "internal",
       "state": "open",
-      "isDraft": false,
+      "isDraft": true,
       "createdAt": "2026-10-05T10:19:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 188.933185,
+      "waitingHours": 191.0186547222222,
       "labels": [
-        "ci-failed",
-        "conflicted"
+        "ci-failed"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/7713"
     },
@@ -4820,7 +4970,7 @@
       "createdAt": "2026-10-05T09:48:58Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 189.4417961111111,
+      "waitingHours": 191.52726583333333,
       "labels": [
         "ci-successful"
       ],
@@ -4836,7 +4986,7 @@
       "createdAt": "2026-10-05T09:13:52Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 190.0267961111111,
+      "waitingHours": 192.11226583333334,
       "labels": [
         "ci-failed"
       ],
@@ -4852,7 +5002,7 @@
       "createdAt": "2026-10-05T08:25:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 190.8367961111111,
+      "waitingHours": 192.92226583333334,
       "labels": [
         "ci-successful"
       ],
@@ -4868,7 +5018,7 @@
       "createdAt": "2026-10-05T08:23:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 190.8717961111111,
+      "waitingHours": 192.95726583333334,
       "labels": [
         "ci-failed"
       ],
@@ -4884,7 +5034,7 @@
       "createdAt": "2026-10-05T08:21:24Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 190.90124055555555,
+      "waitingHours": 192.98671027777777,
       "labels": [
         "ci-running"
       ],
@@ -4900,7 +5050,7 @@
       "createdAt": "2026-10-05T07:22:47Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 191.878185,
+      "waitingHours": 193.96365472222223,
       "labels": [
         "ci-successful"
       ],
@@ -4916,7 +5066,7 @@
       "createdAt": "2026-10-05T03:39:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 195.59846277777777,
+      "waitingHours": 197.6839325,
       "labels": [
         "ci-successful"
       ],
@@ -4932,7 +5082,7 @@
       "createdAt": "2026-10-04T21:53:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 201.35901833333332,
+      "waitingHours": 203.44448805555555,
       "labels": [
         "ci-successful"
       ],
@@ -4948,7 +5098,7 @@
       "createdAt": "2026-10-04T21:50:58Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 201.40846277777777,
+      "waitingHours": 203.4939325,
       "labels": [
         "ci-successful"
       ],
@@ -4964,7 +5114,7 @@
       "createdAt": "2026-10-04T21:41:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 201.56207388888888,
+      "waitingHours": 203.6475436111111,
       "labels": [
         "ci-successful"
       ],
@@ -4980,7 +5130,7 @@
       "createdAt": "2026-10-04T12:37:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 210.62540722222224,
+      "waitingHours": 212.71087694444444,
       "labels": [
         "ci-successful"
       ],
@@ -5032,7 +5182,7 @@
       "createdAt": "2026-10-04T03:33:35Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 219.698185,
+      "waitingHours": 221.78365472222222,
       "labels": [
         "ci-successful"
       ],
@@ -5119,7 +5269,7 @@
       "createdAt": "2026-10-03T08:54:39Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 238.3470738888889,
+      "waitingHours": 240.4325436111111,
       "labels": [
         "ci-successful"
       ],
@@ -5135,7 +5285,7 @@
       "createdAt": "2026-10-03T08:54:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 238.34790722222223,
+      "waitingHours": 240.43337694444443,
       "labels": [
         "ci-successful"
       ],
@@ -5151,7 +5301,7 @@
       "createdAt": "2026-10-03T08:54:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 238.34846277777777,
+      "waitingHours": 240.4339325,
       "labels": [
         "ci-successful"
       ],
@@ -5167,7 +5317,7 @@
       "createdAt": "2026-10-03T08:54:32Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 238.34901833333333,
+      "waitingHours": 240.43448805555556,
       "labels": [
         "ci-failed"
       ],
@@ -5183,7 +5333,7 @@
       "createdAt": "2026-10-02T22:33:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 248.69874055555556,
+      "waitingHours": 250.7842102777778,
       "labels": [
         "ci-successful"
       ],
@@ -5199,7 +5349,7 @@
       "createdAt": "2026-10-02T09:50:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 261.42012944444446,
+      "waitingHours": 263.5055991666667,
       "labels": [
         "ci-successful"
       ],
@@ -5215,7 +5365,7 @@
       "createdAt": "2026-10-02T07:59:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 263.27374055555555,
+      "waitingHours": 265.3592102777778,
       "labels": [
         "ci-successful"
       ],
@@ -5231,7 +5381,7 @@
       "createdAt": "2026-10-02T06:17:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 264.97262944444446,
+      "waitingHours": 267.0580991666667,
       "labels": [
         "ci-successful"
       ],
@@ -5247,7 +5397,7 @@
       "createdAt": "2026-10-01T18:24:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 276.85457388888886,
+      "waitingHours": 278.9400436111111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -5264,7 +5414,7 @@
       "createdAt": "2026-10-01T15:20:02Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 279.9240183333333,
+      "waitingHours": 282.00948805555555,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -5281,7 +5431,7 @@
       "createdAt": "2026-10-01T15:19:58Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 279.92512944444445,
+      "waitingHours": 282.0105991666667,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -5298,7 +5448,7 @@
       "createdAt": "2026-10-01T15:19:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 279.92790722222225,
+      "waitingHours": 282.0133769444444,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -5315,7 +5465,7 @@
       "createdAt": "2026-10-01T13:49:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 281.4395738888889,
+      "waitingHours": 283.52504361111113,
       "labels": [
         "ci-successful"
       ],
@@ -5331,7 +5481,7 @@
       "createdAt": "2026-10-01T11:29:15Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 283.7704072222222,
+      "waitingHours": 285.85587694444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -5348,7 +5498,7 @@
       "createdAt": "2026-10-01T11:18:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 283.9526294444444,
+      "waitingHours": 286.03809916666665,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -5365,7 +5515,7 @@
       "createdAt": "2026-10-01T10:58:21Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 284.2854072222222,
+      "waitingHours": 286.37087694444443,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -5382,7 +5532,7 @@
       "createdAt": "2026-10-01T10:30:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 284.74735166666665,
+      "waitingHours": 286.8328213888889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -5399,7 +5549,7 @@
       "createdAt": "2026-10-01T10:13:35Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 285.03151833333334,
+      "waitingHours": 287.11698805555557,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -5416,7 +5566,7 @@
       "createdAt": "2026-10-01T09:39:23Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 285.60151833333333,
+      "waitingHours": 287.68698805555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -5433,7 +5583,7 @@
       "createdAt": "2026-10-01T09:37:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 285.6295738888889,
+      "waitingHours": 287.7150436111111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -5450,7 +5600,7 @@
       "createdAt": "2026-10-01T09:35:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 285.65929611111113,
+      "waitingHours": 287.74476583333336,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -5500,7 +5650,7 @@
       "createdAt": "2026-10-01T01:57:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 293.2967961111111,
+      "waitingHours": 295.38226583333335,
       "labels": [
         "ci-successful"
       ],
@@ -5516,7 +5666,7 @@
       "createdAt": "2026-10-01T00:56:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 294.3092961111111,
+      "waitingHours": 296.39476583333334,
       "labels": [
         "ci-failed"
       ],
@@ -5532,7 +5682,7 @@
       "createdAt": "2026-09-30T17:10:21Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 302.0854072222222,
+      "waitingHours": 304.17087694444444,
       "labels": [
         "ci-running"
       ],
@@ -5548,7 +5698,7 @@
       "createdAt": "2026-09-30T16:34:32Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 302.68235166666665,
+      "waitingHours": 304.7678213888889,
       "labels": [
         "ci-successful"
       ],
@@ -5583,7 +5733,7 @@
       "createdAt": "2026-09-30T11:25:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 307.838185,
+      "waitingHours": 309.92365472222224,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -5784,7 +5934,7 @@
       "createdAt": "2026-09-30T07:58:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 311.2884627777778,
+      "waitingHours": 313.3739325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -5801,7 +5951,7 @@
       "createdAt": "2026-09-30T07:49:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 311.4270738888889,
+      "waitingHours": 313.5125436111111,
       "labels": [
         "ci-successful"
       ],
@@ -5853,7 +6003,7 @@
       "createdAt": "2026-09-30T06:56:52Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 312.31012944444444,
+      "waitingHours": 314.39559916666667,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/7609"
     },
@@ -5867,7 +6017,7 @@
       "createdAt": "2026-09-30T06:40:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 312.5798516666667,
+      "waitingHours": 314.6653213888889,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -5955,7 +6105,7 @@
       "createdAt": "2026-09-30T02:20:15Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 316.9204072222222,
+      "waitingHours": 319.0058769444444,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -6082,7 +6232,7 @@
       "createdAt": "2026-09-30T00:34:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 318.68012944444445,
+      "waitingHours": 320.7655991666667,
       "labels": [
         "ci-successful"
       ],
@@ -6261,7 +6411,7 @@
       "createdAt": "2026-09-29T09:51:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 333.40096277777775,
+      "waitingHours": 335.4864325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -6278,7 +6428,7 @@
       "createdAt": "2026-09-29T09:21:26Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 333.900685,
+      "waitingHours": 335.98615472222224,
       "labels": [
         "ci-successful"
       ],
@@ -6332,7 +6482,7 @@
       "createdAt": "2026-09-29T09:01:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 334.22874055555553,
+      "waitingHours": 336.31421027777776,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -6349,7 +6499,7 @@
       "createdAt": "2026-09-29T08:55:01Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 334.3409627777778,
+      "waitingHours": 336.4264325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -6423,7 +6573,7 @@
       "createdAt": "2026-09-29T08:22:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 334.8770738888889,
+      "waitingHours": 336.96254361111113,
       "labels": [
         "ci-running",
         "conflicted"
@@ -6592,7 +6742,7 @@
       "createdAt": "2026-09-29T06:21:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 336.8945738888889,
+      "waitingHours": 338.9800436111111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -6645,7 +6795,7 @@
       "createdAt": "2026-09-29T06:07:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 337.12790722222223,
+      "waitingHours": 339.21337694444446,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -7006,7 +7156,7 @@
       "createdAt": "2026-09-29T01:42:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 341.55485166666665,
+      "waitingHours": 343.6403213888889,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -7078,7 +7228,7 @@
       "createdAt": "2026-09-29T01:15:05Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 342.00651833333336,
+      "waitingHours": 344.09198805555553,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -7131,7 +7281,7 @@
       "createdAt": "2026-09-28T17:16:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 349.99040722222225,
+      "waitingHours": 352.0758769444444,
       "labels": [
         "ci-successful"
       ],
@@ -7242,7 +7392,7 @@
       "createdAt": "2026-09-28T12:53:26Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 354.36735166666665,
+      "waitingHours": 356.4528213888889,
       "labels": [
         "ci-successful"
       ],
@@ -7410,7 +7560,7 @@
       "createdAt": "2026-09-28T10:57:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 356.29262944444446,
+      "waitingHours": 358.3780991666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -7446,7 +7596,7 @@
       "createdAt": "2026-09-28T10:51:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 356.3929072222222,
+      "waitingHours": 358.47837694444445,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -7667,7 +7817,7 @@
       "createdAt": "2026-09-28T08:40:58Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 358.5751294444444,
+      "waitingHours": 360.66059916666666,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -7993,7 +8143,7 @@
       "createdAt": "2026-09-28T07:05:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 360.1717961111111,
+      "waitingHours": 362.25726583333335,
       "labels": [
         "ci-successful"
       ],
@@ -8028,7 +8178,7 @@
       "createdAt": "2026-09-28T06:58:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 360.2770738888889,
+      "waitingHours": 362.3625436111111,
       "labels": [
         "ci-running"
       ],
@@ -8371,7 +8521,7 @@
       "createdAt": "2026-09-28T02:27:18Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 364.80290722222225,
+      "waitingHours": 366.8883769444444,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -8464,7 +8614,7 @@
       "createdAt": "2026-09-27T13:28:58Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 377.7751294444444,
+      "waitingHours": 379.86059916666665,
       "labels": [
         "ci-successful"
       ],
@@ -8480,7 +8630,7 @@
       "createdAt": "2026-09-27T13:25:15Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 377.8370738888889,
+      "waitingHours": 379.9225436111111,
       "labels": [
         "ci-successful"
       ],
@@ -8534,7 +8684,7 @@
       "createdAt": "2026-09-27T03:58:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 387.2748516666667,
+      "waitingHours": 389.3603213888889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -8551,7 +8701,7 @@
       "createdAt": "2026-09-26T09:07:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 406.14124055555556,
+      "waitingHours": 408.2267102777778,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -8568,7 +8718,7 @@
       "createdAt": "2026-09-25T22:53:21Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 416.3687405555556,
+      "waitingHours": 418.4542102777778,
       "labels": [
         "ci-successful"
       ],
@@ -8584,7 +8734,7 @@
       "createdAt": "2026-09-25T20:50:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 418.4212405555555,
+      "waitingHours": 420.50671027777776,
       "labels": [
         "ci-successful"
       ],
@@ -8630,7 +8780,7 @@
       "createdAt": "2026-09-25T15:35:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 423.65874055555554,
+      "waitingHours": 425.74421027777777,
       "labels": [
         "ci-failed"
       ],
@@ -8646,7 +8796,7 @@
       "createdAt": "2026-09-25T15:09:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 424.09401833333334,
+      "waitingHours": 426.17948805555557,
       "labels": [
         "ci-failed"
       ],
@@ -8662,7 +8812,7 @@
       "createdAt": "2026-09-25T14:52:15Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 424.3870738888889,
+      "waitingHours": 426.4725436111111,
       "labels": [
         "ci-failed"
       ],
@@ -8697,7 +8847,7 @@
       "createdAt": "2026-09-25T11:17:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 427.9670738888889,
+      "waitingHours": 430.0525436111111,
       "labels": [
         "ci-successful"
       ],
@@ -8713,7 +8863,7 @@
       "createdAt": "2026-09-25T10:48:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 428.45096277777776,
+      "waitingHours": 430.5364325,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -8730,7 +8880,7 @@
       "createdAt": "2026-09-25T10:00:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 429.2484627777778,
+      "waitingHours": 431.3339325,
       "labels": [
         "ci-successful"
       ],
@@ -8831,7 +8981,7 @@
       "createdAt": "2026-09-25T01:51:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 437.395685,
+      "waitingHours": 439.48115472222224,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -9053,7 +9203,7 @@
       "createdAt": "2026-09-24T09:29:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 453.7717961111111,
+      "waitingHours": 455.8572658333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -9332,7 +9482,7 @@
       "createdAt": "2026-09-24T08:40:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 454.57901833333335,
+      "waitingHours": 456.6644880555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -9442,7 +9592,7 @@
       "createdAt": "2026-09-24T07:38:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 455.62262944444444,
+      "waitingHours": 457.70809916666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -9514,7 +9664,7 @@
       "createdAt": "2026-09-24T07:24:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 455.8542961111111,
+      "waitingHours": 457.93976583333335,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -9586,7 +9736,7 @@
       "createdAt": "2026-09-24T07:14:02Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 456.02401833333334,
+      "waitingHours": 458.1094880555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -9641,7 +9791,7 @@
       "createdAt": "2026-09-24T07:00:15Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 456.25374055555557,
+      "waitingHours": 458.3392102777778,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -9696,7 +9846,7 @@
       "createdAt": "2026-09-24T06:17:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 456.96929611111113,
+      "waitingHours": 459.0547658333333,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -10139,7 +10289,7 @@
       "createdAt": "2026-09-24T01:59:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 461.258185,
+      "waitingHours": 463.3436547222222,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -10344,7 +10494,7 @@
       "createdAt": "2026-09-23T15:24:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 471.85485166666666,
+      "waitingHours": 473.9403213888889,
       "labels": [
         "ci-successful"
       ],
@@ -10474,7 +10624,7 @@
       "createdAt": "2026-09-23T11:14:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 476.01346277777776,
+      "waitingHours": 478.0989325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -10510,7 +10660,7 @@
       "createdAt": "2026-09-23T11:03:08Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 476.205685,
+      "waitingHours": 478.29115472222225,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -10789,7 +10939,7 @@
       "createdAt": "2026-09-23T09:47:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 477.4604072222222,
+      "waitingHours": 479.54587694444444,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -11126,7 +11276,7 @@
       "createdAt": "2026-09-23T08:30:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 478.753185,
+      "waitingHours": 480.8386547222222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -11143,7 +11293,7 @@
       "createdAt": "2026-09-23T08:29:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 478.77124055555555,
+      "waitingHours": 480.8567102777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -11348,7 +11498,7 @@
       "createdAt": "2026-09-23T07:28:01Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 479.7909627777778,
+      "waitingHours": 481.8764325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -11534,7 +11684,7 @@
       "createdAt": "2026-09-23T06:51:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 480.4023516666667,
+      "waitingHours": 482.4878213888889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -11718,7 +11868,7 @@
       "createdAt": "2026-09-23T05:04:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 482.1837405555556,
+      "waitingHours": 484.2692102777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -11754,7 +11904,7 @@
       "createdAt": "2026-09-23T03:03:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 484.20346277777776,
+      "waitingHours": 486.2889325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -12031,7 +12181,7 @@
       "createdAt": "2026-09-22T16:06:35Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 495.148185,
+      "waitingHours": 497.23365472222224,
       "labels": [
         "ci-successful"
       ],
@@ -12047,7 +12197,7 @@
       "createdAt": "2026-09-22T14:50:23Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 496.418185,
+      "waitingHours": 498.5036547222222,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -12083,7 +12233,7 @@
       "createdAt": "2026-09-22T14:23:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 496.8645738888889,
+      "waitingHours": 498.9500436111111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -12535,7 +12685,7 @@
       "createdAt": "2026-09-22T11:41:23Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 499.568185,
+      "waitingHours": 501.6536547222222,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -12780,7 +12930,7 @@
       "createdAt": "2026-09-22T09:03:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 502.2067961111111,
+      "waitingHours": 504.2922658333333,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -13705,7 +13855,7 @@
       "createdAt": "2026-09-21T21:37:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 513.6292961111111,
+      "waitingHours": 515.7147658333333,
       "labels": [
         "ci-successful"
       ],
@@ -13721,7 +13871,7 @@
       "createdAt": "2026-09-21T21:30:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 513.7548516666667,
+      "waitingHours": 515.8403213888889,
       "labels": [
         "ci-successful"
       ],
@@ -13737,7 +13887,7 @@
       "createdAt": "2026-09-21T21:23:31Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 513.8659627777778,
+      "waitingHours": 515.9514325,
       "labels": [
         "ci-failed"
       ],
@@ -13753,7 +13903,7 @@
       "createdAt": "2026-09-21T18:12:26Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 517.050685,
+      "waitingHours": 519.1361547222223,
       "labels": [
         "ci-successful"
       ],
@@ -13769,7 +13919,7 @@
       "createdAt": "2026-09-21T15:34:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 519.683185,
+      "waitingHours": 521.7686547222222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -13786,7 +13936,7 @@
       "createdAt": "2026-09-21T15:10:09Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 520.0887405555555,
+      "waitingHours": 522.1742102777778,
       "labels": [
         "ci-successful"
       ],
@@ -13802,7 +13952,7 @@
       "createdAt": "2026-09-21T15:07:30Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 520.1329072222222,
+      "waitingHours": 522.2183769444445,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/6887"
     },
@@ -13816,7 +13966,7 @@
       "createdAt": "2026-09-21T14:23:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 520.8701294444445,
+      "waitingHours": 522.9555991666666,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -14507,7 +14657,7 @@
       "createdAt": "2026-09-21T09:12:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 526.0442961111111,
+      "waitingHours": 528.1297658333333,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -14955,7 +15105,7 @@
       "createdAt": "2026-09-21T07:08:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 528.1215183333334,
+      "waitingHours": 530.2069880555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -15084,7 +15234,7 @@
       "createdAt": "2026-09-21T06:43:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 528.5412405555555,
+      "waitingHours": 530.6267102777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -15357,7 +15507,7 @@
       "createdAt": "2026-09-21T03:09:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 532.0954072222222,
+      "waitingHours": 534.1808769444444,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -15695,7 +15845,7 @@
       "createdAt": "2026-09-21T01:41:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 533.5734627777778,
+      "waitingHours": 535.6589325,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -15731,7 +15881,7 @@
       "createdAt": "2026-09-21T01:29:24Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 533.7679072222222,
+      "waitingHours": 535.8533769444444,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -16221,7 +16371,7 @@
       "createdAt": "2026-09-20T10:30:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 548.7526294444444,
+      "waitingHours": 550.8380991666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -16238,7 +16388,7 @@
       "createdAt": "2026-09-20T10:27:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 548.793185,
+      "waitingHours": 550.8786547222222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -16703,7 +16853,7 @@
       "createdAt": "2026-09-20T08:23:32Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 550.865685,
+      "waitingHours": 552.9511547222222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -16720,7 +16870,7 @@
       "createdAt": "2026-09-20T08:18:24Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 550.9512405555555,
+      "waitingHours": 553.0367102777777,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -17545,7 +17695,7 @@
       "createdAt": "2026-09-19T18:51:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 564.3973516666666,
+      "waitingHours": 566.4828213888889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -17688,7 +17838,7 @@
       "createdAt": "2026-09-18T19:16:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 587.975685,
+      "waitingHours": 590.0611547222222,
       "labels": [
         "ci-successful"
       ],
@@ -17704,7 +17854,7 @@
       "createdAt": "2026-09-18T14:55:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 592.3290183333334,
+      "waitingHours": 594.4144880555556,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -17871,7 +18021,7 @@
       "createdAt": "2026-09-18T10:27:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 596.8070738888889,
+      "waitingHours": 598.8925436111111,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -18148,7 +18298,7 @@
       "createdAt": "2026-09-18T08:47:24Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 598.4679072222223,
+      "waitingHours": 600.5533769444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -18778,7 +18928,7 @@
       "createdAt": "2026-09-18T04:19:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 602.925685,
+      "waitingHours": 605.0111547222223,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -18850,7 +19000,7 @@
       "createdAt": "2026-09-18T03:43:39Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 603.5304072222223,
+      "waitingHours": 605.6158769444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -19178,7 +19328,7 @@
       "createdAt": "2026-09-18T02:41:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 604.5726294444445,
+      "waitingHours": 606.6580991666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -19252,7 +19402,7 @@
       "createdAt": "2026-09-18T02:21:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 604.8954072222223,
+      "waitingHours": 606.9808769444444,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -19415,7 +19565,7 @@
       "createdAt": "2026-09-18T02:01:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 605.2395738888889,
+      "waitingHours": 607.3250436111111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -19432,7 +19582,7 @@
       "createdAt": "2026-09-18T01:45:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 605.4973516666666,
+      "waitingHours": 607.5828213888889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -19706,7 +19856,7 @@
       "createdAt": "2026-09-17T12:16:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 618.983185,
+      "waitingHours": 621.0686547222223,
       "labels": [
         "conflicted"
       ],
@@ -19891,7 +20041,7 @@
       "createdAt": "2026-09-17T11:15:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 620.0042961111111,
+      "waitingHours": 622.0897658333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -19908,7 +20058,7 @@
       "createdAt": "2026-09-17T11:15:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 620.0045738888889,
+      "waitingHours": 622.0900436111111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -19925,7 +20075,7 @@
       "createdAt": "2026-09-17T11:15:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 620.0059627777778,
+      "waitingHours": 622.0914325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -20360,7 +20510,7 @@
       "createdAt": "2026-09-17T07:04:52Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 624.1767961111111,
+      "waitingHours": 626.2622658333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -20451,7 +20601,7 @@
       "createdAt": "2026-09-17T05:55:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 625.3342961111111,
+      "waitingHours": 627.4197658333334,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -20485,7 +20635,7 @@
       "createdAt": "2026-09-17T05:50:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 625.4109627777777,
+      "waitingHours": 627.4964325,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -20521,7 +20671,7 @@
       "createdAt": "2026-09-17T05:00:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 626.2476294444444,
+      "waitingHours": 628.3330991666667,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -20798,7 +20948,7 @@
       "createdAt": "2026-09-17T01:43:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 629.5392961111111,
+      "waitingHours": 631.6247658333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -20834,7 +20984,7 @@
       "createdAt": "2026-09-16T13:32:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 641.7209627777778,
+      "waitingHours": 643.8064325,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -20870,7 +21020,7 @@
       "createdAt": "2026-09-16T11:57:01Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 643.3076294444445,
+      "waitingHours": 645.3930991666666,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -20942,7 +21092,7 @@
       "createdAt": "2026-09-16T11:34:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 643.6776294444444,
+      "waitingHours": 645.7630991666666,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -21221,7 +21371,7 @@
       "createdAt": "2026-09-16T08:41:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 646.5645738888888,
+      "waitingHours": 648.6500436111111,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -21333,7 +21483,7 @@
       "createdAt": "2026-09-16T08:03:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 647.2062405555556,
+      "waitingHours": 649.2917102777777,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -21657,7 +21807,7 @@
       "createdAt": "2026-09-16T03:17:21Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 651.9687405555555,
+      "waitingHours": 654.0542102777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -21731,7 +21881,7 @@
       "createdAt": "2026-09-16T02:45:14Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 652.5040183333333,
+      "waitingHours": 654.5894880555555,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -21803,7 +21953,7 @@
       "createdAt": "2026-09-16T02:13:22Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 653.0351294444445,
+      "waitingHours": 655.1205991666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -21820,7 +21970,7 @@
       "createdAt": "2026-09-16T02:02:22Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 653.2184627777777,
+      "waitingHours": 655.3039325,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -21949,7 +22099,7 @@
       "createdAt": "2026-09-15T20:59:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 658.2642961111111,
+      "waitingHours": 660.3497658333333,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -22169,7 +22319,7 @@
       "createdAt": "2026-09-15T12:13:09Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 667.0387405555556,
+      "waitingHours": 669.1242102777778,
       "labels": [
         "ci-successful"
       ],
@@ -22426,7 +22576,7 @@
       "createdAt": "2026-09-15T09:30:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 669.7484627777778,
+      "waitingHours": 671.8339325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -22534,7 +22684,7 @@
       "createdAt": "2026-09-15T08:47:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 670.4626294444445,
+      "waitingHours": 672.5480991666667,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/5997"
     },
@@ -22869,7 +23019,7 @@
       "createdAt": "2026-09-15T05:09:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 674.0967961111111,
+      "waitingHours": 676.1822658333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -23057,7 +23207,7 @@
       "createdAt": "2026-09-15T02:44:01Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 676.5242961111111,
+      "waitingHours": 678.6097658333333,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -23205,7 +23355,7 @@
       "createdAt": "2026-09-15T01:32:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 677.7140183333333,
+      "waitingHours": 679.7994880555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -23222,7 +23372,7 @@
       "createdAt": "2026-09-14T22:46:14Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 680.4873516666667,
+      "waitingHours": 682.5728213888889,
       "labels": [
         "ci-failed"
       ],
@@ -23762,7 +23912,7 @@
       "createdAt": "2026-09-14T08:21:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 694.9048516666667,
+      "waitingHours": 696.9903213888889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -24026,7 +24176,7 @@
       "createdAt": "2026-09-14T01:57:05Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 701.3065183333333,
+      "waitingHours": 703.3919880555555,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -24081,7 +24231,7 @@
       "createdAt": "2026-09-13T19:16:18Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 707.9862405555556,
+      "waitingHours": 710.0717102777778,
       "labels": [
         "ci-failed",
         "conflicted"
@@ -24098,7 +24248,7 @@
       "createdAt": "2026-09-13T14:55:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 712.3367961111111,
+      "waitingHours": 714.4222658333333,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/5830"
     },
@@ -24169,7 +24319,7 @@
       "createdAt": "2026-09-13T04:09:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 723.0979072222223,
+      "waitingHours": 725.1833769444445,
       "labels": [
         "ci-running"
       ],
@@ -24223,7 +24373,7 @@
       "createdAt": "2026-09-12T12:48:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 738.453185,
+      "waitingHours": 740.5386547222222,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -24390,7 +24540,7 @@
       "createdAt": "2026-09-12T07:07:35Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 744.1315183333334,
+      "waitingHours": 746.2169880555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -24500,7 +24650,7 @@
       "createdAt": "2026-09-12T01:02:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 750.213185,
+      "waitingHours": 752.2986547222222,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -24536,7 +24686,7 @@
       "createdAt": "2026-09-11T19:45:23Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 755.5015183333334,
+      "waitingHours": 757.5869880555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -24665,7 +24815,7 @@
       "createdAt": "2026-09-11T09:32:28Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 765.7167961111111,
+      "waitingHours": 767.8022658333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -24701,7 +24851,7 @@
       "createdAt": "2026-09-11T09:21:02Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 765.9073516666666,
+      "waitingHours": 767.9928213888888,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -24718,7 +24868,7 @@
       "createdAt": "2026-09-11T09:20:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 765.9087405555556,
+      "waitingHours": 767.9942102777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -24735,7 +24885,7 @@
       "createdAt": "2026-09-11T09:20:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 765.910685,
+      "waitingHours": 767.9961547222222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -24752,7 +24902,7 @@
       "createdAt": "2026-09-11T09:20:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 765.9120738888889,
+      "waitingHours": 767.9975436111112,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -24843,7 +24993,7 @@
       "createdAt": "2026-09-11T09:01:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 766.2292961111111,
+      "waitingHours": 768.3147658333334,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -24860,7 +25010,7 @@
       "createdAt": "2026-09-11T09:01:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 766.230685,
+      "waitingHours": 768.3161547222222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -24877,7 +25027,7 @@
       "createdAt": "2026-09-11T09:01:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 766.2320738888889,
+      "waitingHours": 768.3175436111111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -24894,7 +25044,7 @@
       "createdAt": "2026-09-11T09:01:28Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 766.2334627777777,
+      "waitingHours": 768.3189325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -24911,7 +25061,7 @@
       "createdAt": "2026-09-11T09:01:22Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 766.2351294444444,
+      "waitingHours": 768.3205991666666,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -24928,7 +25078,7 @@
       "createdAt": "2026-09-11T09:01:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 766.2367961111111,
+      "waitingHours": 768.3222658333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -24945,7 +25095,7 @@
       "createdAt": "2026-09-11T09:01:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 766.2384627777777,
+      "waitingHours": 768.3239325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -24981,7 +25131,7 @@
       "createdAt": "2026-09-11T09:00:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 766.2579072222222,
+      "waitingHours": 768.3433769444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -25036,7 +25186,7 @@
       "createdAt": "2026-09-11T08:33:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 766.7004072222222,
+      "waitingHours": 768.7858769444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -25442,7 +25592,7 @@
       "createdAt": "2026-09-11T03:49:22Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 771.4351294444444,
+      "waitingHours": 773.5205991666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -25554,7 +25704,7 @@
       "createdAt": "2026-09-11T03:10:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 772.0842961111111,
+      "waitingHours": 774.1697658333334,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -25609,7 +25759,7 @@
       "createdAt": "2026-09-11T02:46:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 772.4901294444444,
+      "waitingHours": 774.5755991666666,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -25898,7 +26048,7 @@
       "createdAt": "2026-09-10T16:17:01Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 782.9742961111111,
+      "waitingHours": 785.0597658333334,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/5659"
     },
@@ -25950,7 +26100,7 @@
       "createdAt": "2026-09-10T15:14:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 784.0217961111111,
+      "waitingHours": 786.1072658333334,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -26455,7 +26605,7 @@
       "createdAt": "2026-09-10T11:03:14Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 788.2040183333334,
+      "waitingHours": 790.2894880555556,
       "labels": [
         "ci-failed"
       ],
@@ -26822,7 +26972,7 @@
       "createdAt": "2026-09-10T09:10:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 790.0748516666666,
+      "waitingHours": 792.1603213888889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -26839,7 +26989,7 @@
       "createdAt": "2026-09-10T08:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 790.2651294444445,
+      "waitingHours": 792.3505991666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -27431,7 +27581,7 @@
       "createdAt": "2026-09-10T03:36:08Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 795.655685,
+      "waitingHours": 797.7411547222222,
       "labels": [
         "ci-successful"
       ],
@@ -27787,7 +27937,7 @@
       "createdAt": "2026-09-09T14:54:32Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 808.3490183333333,
+      "waitingHours": 810.4344880555556,
       "labels": [
         "ci-failed",
         "conflicted"
@@ -27878,7 +28028,7 @@
       "createdAt": "2026-09-09T11:42:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 811.5426294444444,
+      "waitingHours": 813.6280991666666,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -28787,7 +28937,7 @@
       "createdAt": "2026-09-09T03:38:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 819.6145738888889,
+      "waitingHours": 821.7000436111111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -30802,7 +30952,7 @@
       "createdAt": "2026-09-08T07:43:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 839.5301294444445,
+      "waitingHours": 841.6155991666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -31117,7 +31267,7 @@
       "createdAt": "2026-09-08T05:21:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 841.8987405555556,
+      "waitingHours": 843.9842102777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -31134,7 +31284,7 @@
       "createdAt": "2026-09-08T05:14:05Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 842.023185,
+      "waitingHours": 844.1086547222222,
       "labels": [
         "ci-failed",
         "conflicted"
@@ -31301,7 +31451,7 @@
       "createdAt": "2026-09-08T03:40:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 843.5754072222222,
+      "waitingHours": 845.6608769444445,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -31696,7 +31846,7 @@
       "createdAt": "2026-09-08T02:22:39Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 844.8804072222222,
+      "waitingHours": 846.9658769444444,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -32804,7 +32954,7 @@
       "createdAt": "2026-09-07T08:57:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 862.2962405555555,
+      "waitingHours": 864.3817102777778,
       "labels": [
         "conflicted"
       ],
@@ -32877,7 +33027,7 @@
       "createdAt": "2026-09-07T08:33:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 862.6965183333333,
+      "waitingHours": 864.7819880555555,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -33234,7 +33384,7 @@
       "createdAt": "2026-09-07T06:51:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 864.4026294444444,
+      "waitingHours": 866.4880991666666,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -33346,7 +33496,7 @@
       "createdAt": "2026-09-07T06:21:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 864.8937405555556,
+      "waitingHours": 866.9792102777777,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -33701,7 +33851,7 @@
       "createdAt": "2026-09-07T02:41:39Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 868.5637405555556,
+      "waitingHours": 870.6492102777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -33794,7 +33944,7 @@
       "createdAt": "2026-09-06T08:41:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 886.5701294444444,
+      "waitingHours": 888.6555991666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -34241,7 +34391,7 @@
       "createdAt": "2026-09-04T12:42:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 930.5484627777778,
+      "waitingHours": 932.6339325,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -34933,7 +35083,7 @@
       "createdAt": "2026-09-04T07:55:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 935.3392961111111,
+      "waitingHours": 937.4247658333334,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -35174,7 +35324,7 @@
       "createdAt": "2026-09-04T06:40:46Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 936.5784627777778,
+      "waitingHours": 938.6639325,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -35229,7 +35379,7 @@
       "createdAt": "2026-09-04T04:49:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 938.435685,
+      "waitingHours": 940.5211547222223,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -35656,7 +35806,7 @@
       "createdAt": "2026-09-04T01:12:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 942.0487405555556,
+      "waitingHours": 944.1342102777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -35692,7 +35842,7 @@
       "createdAt": "2026-09-04T00:31:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 942.7359627777778,
+      "waitingHours": 944.8214325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -35764,7 +35914,7 @@
       "createdAt": "2026-09-03T14:29:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 952.7692961111111,
+      "waitingHours": 954.8547658333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -36511,7 +36661,7 @@
       "createdAt": "2026-09-03T07:10:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 960.0779072222222,
+      "waitingHours": 962.1633769444444,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -36583,7 +36733,7 @@
       "createdAt": "2026-09-03T06:58:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 960.2792961111111,
+      "waitingHours": 962.3647658333333,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -37233,7 +37383,7 @@
       "createdAt": "2026-09-02T14:59:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 976.2598516666667,
+      "waitingHours": 978.3453213888889,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -38437,7 +38587,7 @@
       "createdAt": "2026-09-02T02:45:02Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 988.5073516666666,
+      "waitingHours": 990.5928213888889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -38619,7 +38769,7 @@
       "createdAt": "2026-09-01T14:49:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1000.4287405555556,
+      "waitingHours": 1002.5142102777778,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -38712,7 +38862,7 @@
       "createdAt": "2026-09-01T12:53:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1002.3709627777778,
+      "waitingHours": 1004.4564325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -38766,7 +38916,7 @@
       "createdAt": "2026-09-01T12:34:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1002.6773516666667,
+      "waitingHours": 1004.7628213888889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -39007,7 +39157,7 @@
       "createdAt": "2026-09-01T09:56:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1005.310685,
+      "waitingHours": 1007.3961547222223,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -39244,7 +39394,7 @@
       "createdAt": "2026-09-01T08:25:05Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1006.8398516666666,
+      "waitingHours": 1008.9253213888888,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -39261,7 +39411,7 @@
       "createdAt": "2026-09-01T08:24:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1006.8415183333333,
+      "waitingHours": 1008.9269880555555,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -39574,7 +39724,7 @@
       "createdAt": "2026-09-01T05:36:08Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1009.655685,
+      "waitingHours": 1011.7411547222222,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -39976,7 +40126,7 @@
       "createdAt": "2026-08-31T13:01:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1026.2320738888889,
+      "waitingHours": 1028.3175436111112,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -40310,7 +40460,7 @@
       "createdAt": "2026-08-31T09:08:39Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1030.1137405555555,
+      "waitingHours": 1032.1992102777779,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -40384,7 +40534,7 @@
       "createdAt": "2026-08-31T08:41:31Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1030.5659627777777,
+      "waitingHours": 1032.6514325,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -40566,7 +40716,7 @@
       "createdAt": "2026-08-31T07:48:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1031.450407222222,
+      "waitingHours": 1033.5358769444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -41157,7 +41307,7 @@
       "createdAt": "2026-08-30T21:10:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1042.089296111111,
+      "waitingHours": 1044.1747658333334,
       "labels": [
         "ci-successful"
       ],
@@ -41173,7 +41323,7 @@
       "createdAt": "2026-08-30T21:06:28Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1042.1501294444445,
+      "waitingHours": 1044.2355991666666,
       "labels": [
         "ci-successful"
       ],
@@ -41223,7 +41373,7 @@
       "createdAt": "2026-08-30T20:59:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1042.2587405555555,
+      "waitingHours": 1044.3442102777778,
       "labels": [
         "ci-successful"
       ],
@@ -41256,7 +41406,7 @@
       "createdAt": "2026-08-30T20:49:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1042.4259627777778,
+      "waitingHours": 1044.5114325,
       "labels": [
         "ci-failed"
       ],
@@ -41289,7 +41439,7 @@
       "createdAt": "2026-08-30T15:10:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1048.0801294444445,
+      "waitingHours": 1050.1655991666667,
       "labels": [
         "ci-failed",
         "conflicted"
@@ -41363,7 +41513,7 @@
       "createdAt": "2026-08-30T10:42:02Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1052.5573516666666,
+      "waitingHours": 1054.642821388889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -41380,7 +41530,7 @@
       "createdAt": "2026-08-30T10:41:08Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1052.5723516666667,
+      "waitingHours": 1054.6578213888888,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -41454,7 +41604,7 @@
       "createdAt": "2026-08-30T08:53:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1054.3640183333334,
+      "waitingHours": 1056.4494880555555,
       "labels": [
         "conflicted"
       ],
@@ -41489,7 +41639,7 @@
       "createdAt": "2026-08-30T08:06:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1055.1559627777779,
+      "waitingHours": 1057.2414325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -41677,7 +41827,7 @@
       "createdAt": "2026-08-29T15:04:02Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1072.190685,
+      "waitingHours": 1074.2761547222221,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -42554,7 +42704,7 @@
       "createdAt": "2026-08-28T12:31:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1098.7298516666667,
+      "waitingHours": 1100.8153213888888,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -42666,7 +42816,7 @@
       "createdAt": "2026-08-28T09:31:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1101.7376294444443,
+      "waitingHours": 1103.8230991666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -42890,7 +43040,7 @@
       "createdAt": "2026-08-28T07:49:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1103.430685,
+      "waitingHours": 1105.5161547222222,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -43090,7 +43240,7 @@
       "createdAt": "2026-08-28T06:46:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1104.483185,
+      "waitingHours": 1106.5686547222222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -43439,7 +43589,7 @@
       "createdAt": "2026-08-27T15:52:18Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1119.3862405555556,
+      "waitingHours": 1121.4717102777777,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -43657,7 +43807,7 @@
       "createdAt": "2026-08-27T12:36:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1122.6479072222223,
+      "waitingHours": 1124.7333769444444,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -43769,7 +43919,7 @@
       "createdAt": "2026-08-27T11:48:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1123.4454072222222,
+      "waitingHours": 1125.5308769444443,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -43838,7 +43988,7 @@
       "createdAt": "2026-08-27T11:35:14Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1123.670685,
+      "waitingHours": 1125.7561547222222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -43855,7 +44005,7 @@
       "createdAt": "2026-08-27T11:33:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1123.7062405555555,
+      "waitingHours": 1125.7917102777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -43872,7 +44022,7 @@
       "createdAt": "2026-08-27T11:31:01Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1123.7409627777777,
+      "waitingHours": 1125.8264325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -44054,7 +44204,7 @@
       "createdAt": "2026-08-27T08:17:46Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1126.9617961111112,
+      "waitingHours": 1129.0472658333333,
       "labels": [
         "conflicted"
       ],
@@ -44127,7 +44277,7 @@
       "createdAt": "2026-08-27T07:34:21Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1127.6854072222222,
+      "waitingHours": 1129.7708769444444,
       "labels": [
         "ci-successful"
       ],
@@ -44376,7 +44526,7 @@
       "createdAt": "2026-08-27T06:42:30Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1128.549573888889,
+      "waitingHours": 1130.635043611111,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/4032"
     },
@@ -44447,7 +44597,7 @@
       "createdAt": "2026-08-27T06:03:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1129.1959627777778,
+      "waitingHours": 1131.2814325,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -44483,7 +44633,7 @@
       "createdAt": "2026-08-27T04:40:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1130.5765183333333,
+      "waitingHours": 1132.6619880555556,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -44724,7 +44874,7 @@
       "createdAt": "2026-08-26T13:51:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1145.395685,
+      "waitingHours": 1147.4811547222223,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -44965,7 +45115,7 @@
       "createdAt": "2026-08-26T09:50:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1149.4104072222221,
+      "waitingHours": 1151.4958769444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -45147,7 +45297,7 @@
       "createdAt": "2026-08-26T08:46:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1150.4884627777778,
+      "waitingHours": 1152.5739325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -45407,7 +45557,7 @@
       "createdAt": "2026-08-26T07:01:23Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1152.2348516666666,
+      "waitingHours": 1154.320321388889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -45817,7 +45967,7 @@
       "createdAt": "2026-08-25T23:57:52Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1159.2934627777777,
+      "waitingHours": 1161.3789325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -45887,7 +46037,7 @@
       "createdAt": "2026-08-25T14:24:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1168.8526294444443,
+      "waitingHours": 1170.9380991666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -46070,7 +46220,7 @@
       "createdAt": "2026-08-25T11:33:08Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1171.705685,
+      "waitingHours": 1173.7911547222222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -46218,7 +46368,7 @@
       "createdAt": "2026-08-25T09:44:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1173.5212405555556,
+      "waitingHours": 1175.6067102777777,
       "labels": [
         "ci-successful"
       ],
@@ -46695,7 +46845,7 @@
       "createdAt": "2026-08-25T03:35:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1179.6698516666668,
+      "waitingHours": 1181.755321388889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -47048,7 +47198,7 @@
       "createdAt": "2026-08-24T12:27:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1194.795685,
+      "waitingHours": 1196.8811547222222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -47498,7 +47648,7 @@
       "createdAt": "2026-08-24T07:26:02Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1199.8240183333332,
+      "waitingHours": 1201.9094880555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -47591,7 +47741,7 @@
       "createdAt": "2026-08-24T06:17:30Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1200.9662405555555,
+      "waitingHours": 1203.0517102777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -47644,7 +47794,7 @@
       "createdAt": "2026-08-24T03:16:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1203.9820738888889,
+      "waitingHours": 1206.0675436111112,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -47680,7 +47830,7 @@
       "createdAt": "2026-08-24T03:00:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1204.2579072222222,
+      "waitingHours": 1206.3433769444443,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -47716,7 +47866,7 @@
       "createdAt": "2026-08-24T01:45:09Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1205.5054072222222,
+      "waitingHours": 1207.5908769444445,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -47881,7 +48031,7 @@
       "createdAt": "2026-08-23T13:36:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1217.6479072222223,
+      "waitingHours": 1219.7333769444444,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -47985,7 +48135,7 @@
       "createdAt": "2026-08-23T09:09:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1222.0915183333334,
+      "waitingHours": 1224.1769880555555,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -48317,7 +48467,7 @@
       "createdAt": "2026-08-22T08:12:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1247.0437405555556,
+      "waitingHours": 1249.1292102777777,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -48467,7 +48617,7 @@
       "createdAt": "2026-08-22T03:48:28Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1251.4501294444444,
+      "waitingHours": 1253.5355991666668,
       "labels": [
         "conflicted"
       ],
@@ -48671,7 +48821,7 @@
       "createdAt": "2026-08-21T10:57:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1268.307073888889,
+      "waitingHours": 1270.392543611111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -49003,7 +49153,7 @@
       "createdAt": "2026-08-21T08:08:24Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1271.1179072222221,
+      "waitingHours": 1273.2033769444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -49261,7 +49411,7 @@
       "createdAt": "2026-08-21T06:21:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1272.9009627777777,
+      "waitingHours": 1274.9864325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -49316,7 +49466,7 @@
       "createdAt": "2026-08-21T05:11:58Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1274.0584627777778,
+      "waitingHours": 1276.1439325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -49466,7 +49616,7 @@
       "createdAt": "2026-08-21T03:33:08Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1275.705685,
+      "waitingHours": 1277.7911547222222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -49538,7 +49688,7 @@
       "createdAt": "2026-08-21T00:21:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1278.9034627777778,
+      "waitingHours": 1280.9889325,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/3631"
     },
@@ -49552,7 +49702,7 @@
       "createdAt": "2026-08-21T00:17:01Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1278.974296111111,
+      "waitingHours": 1281.0597658333334,
       "labels": [
         "conflicted"
       ],
@@ -49568,7 +49718,7 @@
       "createdAt": "2026-08-20T17:56:28Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1285.3167961111112,
+      "waitingHours": 1287.4022658333333,
       "labels": [
         "ci-failed"
       ],
@@ -49915,7 +50065,7 @@
       "createdAt": "2026-08-20T12:03:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1291.1954072222222,
+      "waitingHours": 1293.2808769444443,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -49987,7 +50137,7 @@
       "createdAt": "2026-08-20T11:35:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1291.6692961111112,
+      "waitingHours": 1293.7547658333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -50078,7 +50228,7 @@
       "createdAt": "2026-08-20T10:57:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1292.2929072222223,
+      "waitingHours": 1294.3783769444444,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -50095,7 +50245,7 @@
       "createdAt": "2026-08-20T10:57:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1292.293185,
+      "waitingHours": 1294.378654722222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -50169,7 +50319,7 @@
       "createdAt": "2026-08-20T10:40:26Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1292.5840183333332,
+      "waitingHours": 1294.6694880555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -50311,7 +50461,7 @@
       "createdAt": "2026-08-20T09:16:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1293.9754072222222,
+      "waitingHours": 1296.0608769444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -50442,7 +50592,7 @@
       "createdAt": "2026-08-20T08:34:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1294.6859627777778,
+      "waitingHours": 1296.7714325,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -50628,7 +50778,7 @@
       "createdAt": "2026-08-20T06:58:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1296.2779072222222,
+      "waitingHours": 1298.3633769444446,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -50740,7 +50890,7 @@
       "createdAt": "2026-08-20T06:07:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1297.1301294444445,
+      "waitingHours": 1299.2155991666666,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -50852,7 +51002,7 @@
       "createdAt": "2026-08-20T02:23:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1300.8745738888888,
+      "waitingHours": 1302.9600436111111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -51416,7 +51566,7 @@
       "createdAt": "2026-08-19T08:22:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1318.8865183333332,
+      "waitingHours": 1320.9719880555556,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -51566,7 +51716,7 @@
       "createdAt": "2026-08-19T06:51:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1320.3915183333334,
+      "waitingHours": 1322.4769880555555,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -51790,7 +51940,7 @@
       "createdAt": "2026-08-19T02:44:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1324.5237405555556,
+      "waitingHours": 1326.6092102777777,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -52422,7 +52572,7 @@
       "createdAt": "2026-08-18T10:06:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1341.1473516666667,
+      "waitingHours": 1343.2328213888889,
       "labels": [
         "conflicted"
       ],
@@ -52550,7 +52700,7 @@
       "createdAt": "2026-08-18T09:22:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1341.8770738888888,
+      "waitingHours": 1343.9625436111112,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -52624,7 +52774,7 @@
       "createdAt": "2026-08-18T09:07:35Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1342.1315183333334,
+      "waitingHours": 1344.2169880555555,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -52994,7 +53144,7 @@
       "createdAt": "2026-08-18T04:29:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1346.7642961111112,
+      "waitingHours": 1348.8497658333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -53106,7 +53256,7 @@
       "createdAt": "2026-08-17T15:55:14Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1359.3373516666666,
+      "waitingHours": 1361.422821388889,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -53123,7 +53273,7 @@
       "createdAt": "2026-08-17T14:37:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1360.634296111111,
+      "waitingHours": 1362.7197658333334,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -53140,7 +53290,7 @@
       "createdAt": "2026-08-17T14:24:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1360.8415183333334,
+      "waitingHours": 1362.9269880555555,
       "labels": [
         "ci-failed"
       ],
@@ -53175,7 +53325,7 @@
       "createdAt": "2026-08-17T13:48:21Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1361.452073888889,
+      "waitingHours": 1363.537543611111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -53192,7 +53342,7 @@
       "createdAt": "2026-08-17T13:47:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1361.460685,
+      "waitingHours": 1363.5461547222221,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -53245,7 +53395,7 @@
       "createdAt": "2026-08-17T12:53:09Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1362.372073888889,
+      "waitingHours": 1364.457543611111,
       "labels": [
         "ci-successful"
       ],
@@ -53261,7 +53411,7 @@
       "createdAt": "2026-08-17T12:52:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1362.3859627777779,
+      "waitingHours": 1364.4714325,
       "labels": [
         "ci-failed"
       ],
@@ -53389,7 +53539,7 @@
       "createdAt": "2026-08-17T12:11:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1363.0729072222223,
+      "waitingHours": 1365.1583769444444,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -53761,7 +53911,7 @@
       "createdAt": "2026-08-17T07:51:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1367.4067961111111,
+      "waitingHours": 1369.4922658333332,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -53890,7 +54040,7 @@
       "createdAt": "2026-08-17T06:58:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1368.277073888889,
+      "waitingHours": 1370.362543611111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -54209,7 +54359,7 @@
       "createdAt": "2026-08-16T14:42:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1384.5504072222222,
+      "waitingHours": 1386.6358769444444,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -54416,7 +54566,7 @@
       "createdAt": "2026-08-15T09:17:46Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1413.9617961111112,
+      "waitingHours": 1416.0472658333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -54862,7 +55012,7 @@
       "createdAt": "2026-08-14T15:32:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1431.7201294444444,
+      "waitingHours": 1433.8055991666668,
       "labels": [
         "ci-running"
       ],
@@ -54878,7 +55028,7 @@
       "createdAt": "2026-08-14T13:57:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1433.293185,
+      "waitingHours": 1435.378654722222,
       "labels": [
         "ci-failed"
       ],
@@ -54894,7 +55044,7 @@
       "createdAt": "2026-08-14T13:30:47Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1433.7448516666666,
+      "waitingHours": 1435.830321388889,
       "labels": [
         "ci-failed"
       ],
@@ -55003,7 +55153,7 @@
       "createdAt": "2026-08-14T09:48:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1437.4487405555556,
+      "waitingHours": 1439.5342102777777,
       "labels": [
         "ci-successful"
       ],
@@ -55038,7 +55188,7 @@
       "createdAt": "2026-08-14T09:09:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1438.0967961111112,
+      "waitingHours": 1440.1822658333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -55315,7 +55465,7 @@
       "createdAt": "2026-08-14T07:00:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1440.2476294444446,
+      "waitingHours": 1442.3330991666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -55349,7 +55499,7 @@
       "createdAt": "2026-08-14T06:20:35Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1440.9148516666667,
+      "waitingHours": 1443.0003213888888,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -55645,7 +55795,7 @@
       "createdAt": "2026-08-13T15:28:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1455.7765183333333,
+      "waitingHours": 1457.8619880555555,
       "labels": [
         "ci-running"
       ],
@@ -55718,7 +55868,7 @@
       "createdAt": "2026-08-13T13:33:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1457.6937405555555,
+      "waitingHours": 1459.7792102777778,
       "labels": [
         "ci-successful"
       ],
@@ -55789,7 +55939,7 @@
       "createdAt": "2026-08-13T13:05:15Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1458.1704072222221,
+      "waitingHours": 1460.2558769444445,
       "labels": [
         "conflicted"
       ],
@@ -55824,7 +55974,7 @@
       "createdAt": "2026-08-13T12:34:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1458.6779072222223,
+      "waitingHours": 1460.7633769444444,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -55992,7 +56142,7 @@
       "createdAt": "2026-08-13T09:40:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1461.577073888889,
+      "waitingHours": 1463.662543611111,
       "labels": [
         "ci-successful"
       ],
@@ -56304,7 +56454,7 @@
       "createdAt": "2026-08-13T08:02:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1463.2215183333333,
+      "waitingHours": 1465.3069880555556,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -56632,7 +56782,7 @@
       "createdAt": "2026-08-13T04:16:18Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1466.9862405555555,
+      "waitingHours": 1469.0717102777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -56834,7 +56984,7 @@
       "createdAt": "2026-08-13T02:08:31Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1469.1159627777777,
+      "waitingHours": 1471.2014325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -56925,7 +57075,7 @@
       "createdAt": "2026-08-12T13:39:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1481.5987405555557,
+      "waitingHours": 1483.6842102777778,
       "labels": [
         "ci-running",
         "sync-managed"
@@ -57298,7 +57448,7 @@
       "createdAt": "2026-08-12T07:54:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1487.3534627777778,
+      "waitingHours": 1489.4389325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -57353,7 +57503,7 @@
       "createdAt": "2026-08-12T07:23:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1487.8629072222222,
+      "waitingHours": 1489.9483769444444,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -57538,7 +57688,7 @@
       "createdAt": "2026-08-12T05:05:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1490.1604072222221,
+      "waitingHours": 1492.2458769444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -57631,7 +57781,7 @@
       "createdAt": "2026-08-12T03:29:28Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1491.766796111111,
+      "waitingHours": 1493.8522658333334,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -57906,7 +58056,7 @@
       "createdAt": "2026-08-12T01:09:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1494.1023516666667,
+      "waitingHours": 1496.1878213888888,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -57959,7 +58109,7 @@
       "createdAt": "2026-08-11T15:55:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1503.3401294444445,
+      "waitingHours": 1505.4255991666666,
       "labels": [
         "ci-successful"
       ],
@@ -58031,7 +58181,7 @@
       "createdAt": "2026-08-11T13:03:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1506.1959627777778,
+      "waitingHours": 1508.2814325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -58103,7 +58253,7 @@
       "createdAt": "2026-08-11T12:54:46Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1506.3451294444444,
+      "waitingHours": 1508.4305991666668,
       "labels": [
         "ci-failed",
         "conflicted"
@@ -58156,7 +58306,7 @@
       "createdAt": "2026-08-11T12:16:14Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1506.9873516666667,
+      "waitingHours": 1509.072821388889,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -58227,7 +58377,7 @@
       "createdAt": "2026-08-11T11:50:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1507.410685,
+      "waitingHours": 1509.4961547222222,
       "labels": [
         "ci-successful"
       ],
@@ -58278,7 +58428,7 @@
       "createdAt": "2026-08-11T11:29:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1507.7590183333334,
+      "waitingHours": 1509.8444880555555,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -58405,7 +58555,7 @@
       "createdAt": "2026-08-11T09:06:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1510.1473516666667,
+      "waitingHours": 1512.2328213888889,
       "labels": [
         "ci-successful"
       ],
@@ -58421,7 +58571,7 @@
       "createdAt": "2026-08-11T09:06:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1510.1479072222223,
+      "waitingHours": 1512.2333769444444,
       "labels": [
         "ci-successful"
       ],
@@ -58454,7 +58604,7 @@
       "createdAt": "2026-08-11T08:51:08Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1510.405685,
+      "waitingHours": 1512.4911547222223,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -58543,7 +58693,7 @@
       "createdAt": "2026-08-11T08:25:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1510.8337405555556,
+      "waitingHours": 1512.9192102777777,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -58891,7 +59041,7 @@
       "createdAt": "2026-08-11T01:48:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1517.4476294444444,
+      "waitingHours": 1519.5330991666667,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -58944,7 +59094,7 @@
       "createdAt": "2026-08-10T16:42:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1526.5559627777777,
+      "waitingHours": 1528.6414325,
       "labels": [
         "ci-successful"
       ],
@@ -58977,7 +59127,7 @@
       "createdAt": "2026-08-10T15:11:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1528.0642961111112,
+      "waitingHours": 1530.1497658333333,
       "labels": [
         "ci-successful"
       ],
@@ -58993,7 +59143,7 @@
       "createdAt": "2026-08-10T14:51:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1528.3965183333332,
+      "waitingHours": 1530.4819880555556,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -59010,7 +59160,7 @@
       "createdAt": "2026-08-10T13:40:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1529.582073888889,
+      "waitingHours": 1531.6675436111111,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -59122,7 +59272,7 @@
       "createdAt": "2026-08-10T12:06:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1531.1559627777779,
+      "waitingHours": 1533.2414325,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -59158,7 +59308,7 @@
       "createdAt": "2026-08-10T11:56:31Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1531.3159627777777,
+      "waitingHours": 1533.4014325,
       "labels": [
         "ci-successful"
       ],
@@ -59212,7 +59362,7 @@
       "createdAt": "2026-08-10T11:43:01Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1531.5409627777778,
+      "waitingHours": 1533.6264325,
       "labels": [
         "ci-successful"
       ],
@@ -59321,7 +59471,7 @@
       "createdAt": "2026-08-10T09:35:46Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1533.661796111111,
+      "waitingHours": 1535.7472658333334,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -59338,7 +59488,7 @@
       "createdAt": "2026-08-10T09:24:28Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1533.8501294444445,
+      "waitingHours": 1535.9355991666666,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -59426,7 +59576,7 @@
       "createdAt": "2026-08-10T08:19:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1534.925685,
+      "waitingHours": 1537.0111547222223,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -59700,9 +59850,10 @@
       "createdAt": "2026-08-09T14:24:39Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1552.8470738888889,
+      "waitingHours": 1554.9325436111112,
       "labels": [
-        "ci-successful"
+        "ci-successful",
+        "conflicted"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/2578"
     },
@@ -59749,7 +59900,7 @@
       "createdAt": "2026-08-08T10:27:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1580.793185,
+      "waitingHours": 1582.878654722222,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -59929,7 +60080,7 @@
       "createdAt": "2026-08-07T16:55:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1598.3401294444445,
+      "waitingHours": 1600.4255991666666,
       "labels": [
         "ci-failed",
         "conflicted"
@@ -59946,7 +60097,7 @@
       "createdAt": "2026-08-07T15:04:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1600.1884627777779,
+      "waitingHours": 1602.2739325,
       "labels": [
         "ci-successful"
       ],
@@ -59962,7 +60113,7 @@
       "createdAt": "2026-08-07T15:01:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1600.2392961111111,
+      "waitingHours": 1602.3247658333332,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -59998,7 +60149,7 @@
       "createdAt": "2026-08-07T12:13:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1603.0259627777777,
+      "waitingHours": 1605.1114325,
       "labels": [
         "ci-successful"
       ],
@@ -60052,7 +60203,7 @@
       "createdAt": "2026-08-07T11:13:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1604.0309627777779,
+      "waitingHours": 1606.1164325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -60088,7 +60239,7 @@
       "createdAt": "2026-08-07T10:04:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1605.1754072222222,
+      "waitingHours": 1607.2608769444444,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -60199,7 +60350,7 @@
       "createdAt": "2026-08-07T09:24:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1605.843185,
+      "waitingHours": 1607.9286547222223,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -60235,7 +60386,7 @@
       "createdAt": "2026-08-07T09:14:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1606.0087405555555,
+      "waitingHours": 1608.0942102777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -60271,7 +60422,7 @@
       "createdAt": "2026-08-07T08:59:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1606.2612405555556,
+      "waitingHours": 1608.3467102777777,
       "labels": [
         "ci-failed",
         "conflicted"
@@ -60288,7 +60439,7 @@
       "createdAt": "2026-08-07T08:52:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1606.388185,
+      "waitingHours": 1608.4736547222221,
       "labels": [
         "ci-successful"
       ],
@@ -60359,7 +60510,7 @@
       "createdAt": "2026-08-07T08:30:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1606.7559627777778,
+      "waitingHours": 1608.8414325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -60636,7 +60787,7 @@
       "createdAt": "2026-08-06T16:36:39Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1622.6470738888888,
+      "waitingHours": 1624.7325436111112,
       "labels": [
         "ci-failed"
       ],
@@ -60652,7 +60803,7 @@
       "createdAt": "2026-08-06T15:59:23Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1623.268185,
+      "waitingHours": 1625.3536547222222,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -60669,7 +60820,7 @@
       "createdAt": "2026-08-06T15:39:26Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1623.600685,
+      "waitingHours": 1625.6861547222222,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -60720,7 +60871,7 @@
       "createdAt": "2026-08-06T15:13:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1624.0320738888888,
+      "waitingHours": 1626.1175436111112,
       "labels": [
         "ci-successful"
       ],
@@ -60774,7 +60925,7 @@
       "createdAt": "2026-08-06T14:34:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1624.6792961111112,
+      "waitingHours": 1626.7647658333333,
       "labels": [
         "ci-failed",
         "conflicted"
@@ -60865,7 +61016,7 @@
       "createdAt": "2026-08-06T12:57:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1626.2962405555556,
+      "waitingHours": 1628.3817102777778,
       "labels": [
         "ci-successful"
       ],
@@ -60918,7 +61069,7 @@
       "createdAt": "2026-08-06T12:46:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1626.485685,
+      "waitingHours": 1628.5711547222222,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -60973,7 +61124,7 @@
       "createdAt": "2026-08-06T12:29:23Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1626.768185,
+      "waitingHours": 1628.8536547222222,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -61066,7 +61217,7 @@
       "createdAt": "2026-08-06T11:12:26Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1628.050685,
+      "waitingHours": 1630.1361547222223,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -61083,7 +61234,7 @@
       "createdAt": "2026-08-06T10:53:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1628.360685,
+      "waitingHours": 1630.4461547222222,
       "labels": [
         "ci-successful"
       ],
@@ -61227,7 +61378,7 @@
       "createdAt": "2026-08-06T08:45:22Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1630.5017961111112,
+      "waitingHours": 1632.5872658333333,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -61337,7 +61488,7 @@
       "createdAt": "2026-08-06T07:51:21Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1631.402073888889,
+      "waitingHours": 1633.487543611111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -61613,7 +61764,7 @@
       "createdAt": "2026-08-05T18:08:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1645.1176294444444,
+      "waitingHours": 1647.2030991666666,
       "labels": [
         "ci-successful"
       ],
@@ -61663,7 +61814,7 @@
       "createdAt": "2026-08-05T15:55:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1647.339296111111,
+      "waitingHours": 1649.4247658333334,
       "labels": [
         "ci-successful"
       ],
@@ -61698,7 +61849,7 @@
       "createdAt": "2026-08-05T14:38:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1648.608185,
+      "waitingHours": 1650.6936547222222,
       "labels": [
         "ci-failed",
         "conflicted"
@@ -61822,7 +61973,7 @@
       "createdAt": "2026-08-05T12:13:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1651.027073888889,
+      "waitingHours": 1653.112543611111,
       "labels": [
         "ci-successful"
       ],
@@ -61838,7 +61989,7 @@
       "createdAt": "2026-08-05T12:07:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1651.1290183333333,
+      "waitingHours": 1653.2144880555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -61872,7 +62023,7 @@
       "createdAt": "2026-08-05T11:36:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1651.6462405555556,
+      "waitingHours": 1653.7317102777777,
       "labels": [
         "ci-successful"
       ],
@@ -61959,7 +62110,7 @@
       "createdAt": "2026-08-05T10:16:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1652.9790183333334,
+      "waitingHours": 1655.0644880555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -61976,7 +62127,7 @@
       "createdAt": "2026-08-05T10:06:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1653.1487405555556,
+      "waitingHours": 1655.2342102777777,
       "labels": [
         "ci-successful"
       ],
@@ -62010,7 +62161,7 @@
       "createdAt": "2026-08-05T10:02:52Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1653.2101294444444,
+      "waitingHours": 1655.2955991666668,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -62046,7 +62197,7 @@
       "createdAt": "2026-08-05T09:48:15Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1653.4537405555557,
+      "waitingHours": 1655.5392102777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -62553,7 +62704,7 @@
       "createdAt": "2026-08-05T03:49:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1659.4262405555555,
+      "waitingHours": 1661.5117102777779,
       "labels": [
         "sync-managed"
       ],
@@ -62588,7 +62739,7 @@
       "createdAt": "2026-08-05T03:12:58Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1660.0417961111111,
+      "waitingHours": 1662.1272658333332,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -62788,7 +62939,7 @@
       "createdAt": "2026-08-04T18:48:30Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1668.4495738888888,
+      "waitingHours": 1670.5350436111112,
       "labels": [
         "ci-running"
       ],
@@ -62804,7 +62955,7 @@
       "createdAt": "2026-08-04T16:33:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1670.707073888889,
+      "waitingHours": 1672.7925436111111,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -62858,7 +63009,7 @@
       "createdAt": "2026-08-04T14:03:46Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1673.1951294444445,
+      "waitingHours": 1675.2805991666667,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -62967,7 +63118,7 @@
       "createdAt": "2026-08-04T12:27:15Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1674.8037405555556,
+      "waitingHours": 1676.8892102777777,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -63384,7 +63535,7 @@
       "createdAt": "2026-08-04T08:09:39Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1679.0970738888889,
+      "waitingHours": 1681.1825436111112,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -63578,7 +63729,7 @@
       "createdAt": "2026-08-04T03:06:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1684.1467961111111,
+      "waitingHours": 1686.2322658333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -63688,7 +63839,7 @@
       "createdAt": "2026-08-04T00:20:08Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1686.9223516666666,
+      "waitingHours": 1689.007821388889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -63781,7 +63932,7 @@
       "createdAt": "2026-08-03T11:21:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1699.9023516666666,
+      "waitingHours": 1701.987821388889,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -64129,7 +64280,7 @@
       "createdAt": "2026-08-03T04:39:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1706.6034627777778,
+      "waitingHours": 1708.6889325,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -64181,7 +64332,7 @@
       "createdAt": "2026-08-03T02:53:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1708.3701294444445,
+      "waitingHours": 1710.4555991666666,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -64198,7 +64349,7 @@
       "createdAt": "2026-08-03T02:51:21Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1708.402073888889,
+      "waitingHours": 1710.487543611111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -64252,7 +64403,7 @@
       "createdAt": "2026-08-03T01:04:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1710.1787405555556,
+      "waitingHours": 1712.2642102777777,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -64288,7 +64439,7 @@
       "createdAt": "2026-08-02T12:35:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1722.6587405555556,
+      "waitingHours": 1724.7442102777777,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -64305,7 +64456,7 @@
       "createdAt": "2026-08-02T10:32:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1724.7092961111111,
+      "waitingHours": 1726.7947658333333,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -64378,7 +64529,7 @@
       "createdAt": "2026-08-01T15:01:05Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1744.2398516666667,
+      "waitingHours": 1746.3253213888888,
       "labels": [
         "conflicted"
       ],
@@ -64619,7 +64770,7 @@
       "createdAt": "2026-08-01T03:30:32Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1755.7490183333334,
+      "waitingHours": 1757.8344880555555,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -64910,7 +65061,7 @@
       "createdAt": "2026-07-31T08:56:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1774.3229072222223,
+      "waitingHours": 1776.4083769444444,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -65181,7 +65332,7 @@
       "createdAt": "2026-07-31T06:20:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1776.914573888889,
+      "waitingHours": 1779.000043611111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -65346,7 +65497,7 @@
       "createdAt": "2026-07-31T01:18:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1781.957073888889,
+      "waitingHours": 1784.0425436111111,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -65433,7 +65584,7 @@
       "createdAt": "2026-07-30T13:53:35Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1793.3648516666667,
+      "waitingHours": 1795.4503213888888,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -65581,7 +65732,7 @@
       "createdAt": "2026-07-30T11:23:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1795.8745738888888,
+      "waitingHours": 1797.9600436111111,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -65598,7 +65749,7 @@
       "createdAt": "2026-07-30T11:21:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1795.8929072222222,
+      "waitingHours": 1797.9783769444443,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -65835,7 +65986,7 @@
       "createdAt": "2026-07-30T08:14:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1799.0142961111112,
+      "waitingHours": 1801.0997658333333,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -65907,7 +66058,7 @@
       "createdAt": "2026-07-30T08:00:21Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1799.2520738888888,
+      "waitingHours": 1801.3375436111112,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -65943,7 +66094,7 @@
       "createdAt": "2026-07-30T07:36:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1799.644573888889,
+      "waitingHours": 1801.7300436111111,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -66099,7 +66250,7 @@
       "createdAt": "2026-07-30T06:03:24Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1801.2012405555556,
+      "waitingHours": 1803.2867102777777,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -66223,7 +66374,7 @@
       "createdAt": "2026-07-30T01:59:47Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1805.2615183333332,
+      "waitingHours": 1807.3469880555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -66278,7 +66429,7 @@
       "createdAt": "2026-07-29T17:26:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1813.8112405555555,
+      "waitingHours": 1815.8967102777779,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -66331,7 +66482,7 @@
       "createdAt": "2026-07-29T15:33:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1815.704573888889,
+      "waitingHours": 1817.790043611111,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -66348,7 +66499,7 @@
       "createdAt": "2026-07-29T15:21:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1815.8923516666666,
+      "waitingHours": 1817.977821388889,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -66365,7 +66516,7 @@
       "createdAt": "2026-07-29T15:18:18Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1815.9529072222222,
+      "waitingHours": 1818.0383769444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -66399,7 +66550,7 @@
       "createdAt": "2026-07-29T14:25:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1816.8365183333333,
+      "waitingHours": 1818.9219880555556,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -66565,7 +66716,7 @@
       "createdAt": "2026-07-29T11:26:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1819.821796111111,
+      "waitingHours": 1821.9072658333334,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -66599,7 +66750,7 @@
       "createdAt": "2026-07-29T10:45:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1820.4954072222222,
+      "waitingHours": 1822.5808769444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -66616,7 +66767,7 @@
       "createdAt": "2026-07-29T10:40:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1820.5865183333333,
+      "waitingHours": 1822.6719880555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -66633,7 +66784,7 @@
       "createdAt": "2026-07-29T10:35:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1820.6626294444445,
+      "waitingHours": 1822.7480991666666,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -66667,7 +66818,7 @@
       "createdAt": "2026-07-29T09:28:35Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1821.7815183333332,
+      "waitingHours": 1823.8669880555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -66907,7 +67058,7 @@
       "createdAt": "2026-07-29T07:42:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1823.5509627777778,
+      "waitingHours": 1825.6364325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -67142,7 +67293,7 @@
       "createdAt": "2026-07-29T03:31:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1827.7273516666667,
+      "waitingHours": 1829.8128213888888,
       "labels": [
         "ci-successful"
       ],
@@ -67270,7 +67421,7 @@
       "createdAt": "2026-07-28T17:26:26Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1837.8173516666666,
+      "waitingHours": 1839.902821388889,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -67306,7 +67457,7 @@
       "createdAt": "2026-07-28T15:01:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1840.2384627777778,
+      "waitingHours": 1842.3239325,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -67360,7 +67511,7 @@
       "createdAt": "2026-07-28T13:32:30Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1841.7162405555555,
+      "waitingHours": 1843.8017102777778,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -67663,7 +67814,7 @@
       "createdAt": "2026-07-28T09:21:30Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1845.8995738888889,
+      "waitingHours": 1847.9850436111112,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -67756,7 +67907,7 @@
       "createdAt": "2026-07-28T08:23:35Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1846.8648516666667,
+      "waitingHours": 1848.9503213888888,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -67847,7 +67998,7 @@
       "createdAt": "2026-07-28T07:20:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1847.9229072222222,
+      "waitingHours": 1850.0083769444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -68108,7 +68259,7 @@
       "createdAt": "2026-07-28T02:20:28Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1852.9167961111111,
+      "waitingHours": 1855.0022658333332,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -68144,7 +68295,7 @@
       "createdAt": "2026-07-28T01:28:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1853.780685,
+      "waitingHours": 1855.8661547222223,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -68199,7 +68350,7 @@
       "createdAt": "2026-07-28T01:03:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1854.2059627777778,
+      "waitingHours": 1856.2914325,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -68284,7 +68435,7 @@
       "createdAt": "2026-07-27T13:31:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1865.7273516666667,
+      "waitingHours": 1867.8128213888888,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -68409,7 +68560,7 @@
       "createdAt": "2026-07-27T11:27:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1867.7954072222221,
+      "waitingHours": 1869.8808769444445,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -68464,7 +68615,7 @@
       "createdAt": "2026-07-27T10:37:09Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1868.6387405555556,
+      "waitingHours": 1870.7242102777777,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -68648,7 +68799,7 @@
       "createdAt": "2026-07-27T09:01:22Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1870.2351294444445,
+      "waitingHours": 1872.3205991666666,
       "labels": [
         "ci-failed",
         "conflicted"
@@ -68757,7 +68908,7 @@
       "createdAt": "2026-07-27T08:35:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1870.6609627777777,
+      "waitingHours": 1872.7464325,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -69272,7 +69423,7 @@
       "createdAt": "2026-07-27T03:32:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1875.7112405555556,
+      "waitingHours": 1877.7967102777777,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -69380,7 +69531,7 @@
       "createdAt": "2026-07-27T02:58:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1876.2812405555555,
+      "waitingHours": 1878.3667102777779,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -69510,7 +69661,7 @@
       "createdAt": "2026-07-27T01:47:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1877.4598516666667,
+      "waitingHours": 1879.5453213888889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -69527,7 +69678,7 @@
       "createdAt": "2026-07-26T18:34:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1884.6876294444444,
+      "waitingHours": 1886.7730991666667,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -69560,7 +69711,7 @@
       "createdAt": "2026-07-26T13:27:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1889.8023516666667,
+      "waitingHours": 1891.8878213888888,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -69889,7 +70040,7 @@
       "createdAt": "2026-07-25T09:14:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1918.012907222222,
+      "waitingHours": 1920.0983769444445,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -69980,7 +70131,7 @@
       "createdAt": "2026-07-25T09:08:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1918.1126294444443,
+      "waitingHours": 1920.1980991666667,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -70016,7 +70167,7 @@
       "createdAt": "2026-07-25T08:55:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1918.3265183333333,
+      "waitingHours": 1920.4119880555556,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -70474,7 +70625,7 @@
       "createdAt": "2026-07-25T03:43:24Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1923.5345738888889,
+      "waitingHours": 1925.6200436111112,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -70689,7 +70840,7 @@
       "createdAt": "2026-07-25T02:36:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1924.6473516666667,
+      "waitingHours": 1926.7328213888889,
       "labels": [
         "ci-successful",
         "sync-managed"
@@ -70706,7 +70857,7 @@
       "createdAt": "2026-07-25T02:24:18Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1924.8529072222223,
+      "waitingHours": 1926.9383769444444,
       "labels": [
         "sync-managed"
       ],
@@ -70798,7 +70949,7 @@
       "createdAt": "2026-07-25T01:41:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1925.5737405555556,
+      "waitingHours": 1927.6592102777777,
       "labels": [
         "sync-managed"
       ],
@@ -70852,7 +71003,7 @@
       "createdAt": "2026-07-25T01:33:39Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1925.6970738888888,
+      "waitingHours": 1927.7825436111111,
       "labels": [
         "ci-failed",
         "sync-managed"
@@ -70961,7 +71112,7 @@
       "createdAt": "2026-07-24T16:46:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1934.4754072222222,
+      "waitingHours": 1936.5608769444445,
       "labels": [
         "ci-running",
         "conflicted"
@@ -71029,7 +71180,7 @@
       "createdAt": "2026-07-24T10:59:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1940.269296111111,
+      "waitingHours": 1942.3547658333334,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -71624,7 +71775,7 @@
       "createdAt": "2026-07-23T20:10:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1955.0865183333333,
+      "waitingHours": 1957.1719880555556,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -71641,7 +71792,7 @@
       "createdAt": "2026-07-23T20:09:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1955.1070738888889,
+      "waitingHours": 1957.1925436111112,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -71913,7 +72064,7 @@
       "createdAt": "2026-07-23T08:46:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1966.4859627777778,
+      "waitingHours": 1968.5714325,
       "labels": [
         "ci-successful",
         "conflicted"
@@ -72352,7 +72503,7 @@
       "createdAt": "2026-07-22T15:44:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1983.5237405555556,
+      "waitingHours": 1985.6092102777777,
       "labels": [
         "conflicted"
       ],
@@ -72639,7 +72790,7 @@
       "createdAt": "2026-07-22T07:59:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1991.259296111111,
+      "waitingHours": 1993.3447658333334,
       "labels": [
         "ci-failed",
         "conflicted"
@@ -72863,142 +73014,6 @@
         "check-successful"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/967"
-    },
-    {
-      "number": 965,
-      "title": "feat(symphony): learn dynamic graph from session history",
-      "author": "openjiuwenai",
-      "contributionType": "internal",
-      "state": "merged",
-      "isDraft": false,
-      "createdAt": "2026-07-22T01:24:31Z",
-      "mergedAt": "2026-07-22T01:24:34Z",
-      "closedAt": "2026-07-22T01:24:34Z",
-      "waitingHours": null,
-      "labels": [
-        "merged",
-        "check-successful"
-      ],
-      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/965"
-    },
-    {
-      "number": 964,
-      "title": "[fix] add JIUWENSWARM_SKIP_NETWORK_CHECK env var to skip external network detection Refs:#1667",
-      "author": "openjiuwenai",
-      "contributionType": "internal",
-      "state": "merged",
-      "isDraft": false,
-      "createdAt": "2026-07-22T01:23:30Z",
-      "mergedAt": "2026-07-22T01:23:33Z",
-      "closedAt": "2026-07-22T01:23:33Z",
-      "waitingHours": null,
-      "labels": [
-        "merged",
-        "check-successful"
-      ],
-      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/964"
-    },
-    {
-      "number": 963,
-      "title": "feat(tui): implement /switch-cc command and supervision ports for agentos-tui launcher handoff",
-      "author": "openjiuwenai",
-      "contributionType": "internal",
-      "state": "merged",
-      "isDraft": false,
-      "createdAt": "2026-07-22T01:22:13Z",
-      "mergedAt": "2026-07-22T01:22:17Z",
-      "closedAt": "2026-07-22T01:22:17Z",
-      "waitingHours": null,
-      "labels": [
-        "merged",
-        "check-successful"
-      ],
-      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/963"
-    },
-    {
-      "number": 962,
-      "title": "add env var:AGENT_EXTRA_RAILS",
-      "author": "openjiuwenai",
-      "contributionType": "internal",
-      "state": "merged",
-      "isDraft": false,
-      "createdAt": "2026-07-22T01:15:22Z",
-      "mergedAt": "2026-07-22T01:15:25Z",
-      "closedAt": "2026-07-22T01:15:25Z",
-      "waitingHours": null,
-      "labels": [
-        "merged",
-        "check-successful"
-      ],
-      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/962"
-    },
-    {
-      "number": 961,
-      "title": "feat(goal): Web Goal streaming (is_stream), failure error text, and set history write.",
-      "author": "openjiuwenai",
-      "contributionType": "internal",
-      "state": "merged",
-      "isDraft": false,
-      "createdAt": "2026-07-22T01:13:30Z",
-      "mergedAt": "2026-07-22T01:13:33Z",
-      "closedAt": "2026-07-22T01:13:33Z",
-      "waitingHours": null,
-      "labels": [
-        "merged",
-        "check-successful"
-      ],
-      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/961"
-    },
-    {
-      "number": 960,
-      "title": "fix：广播结束消息不回显",
-      "author": "openjiuwenai",
-      "contributionType": "internal",
-      "state": "merged",
-      "isDraft": false,
-      "createdAt": "2026-07-22T01:13:06Z",
-      "mergedAt": "2026-07-22T01:13:10Z",
-      "closedAt": "2026-07-22T01:13:10Z",
-      "waitingHours": null,
-      "labels": [
-        "merged",
-        "check-successful"
-      ],
-      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/960"
-    },
-    {
-      "number": 959,
-      "title": "feat(agent_ras):工具循环检测功能下移agent-core，并新增agent可靠性agent-ras 配置透传",
-      "author": "openjiuwenai",
-      "contributionType": "internal",
-      "state": "merged",
-      "isDraft": false,
-      "createdAt": "2026-07-22T01:03:57Z",
-      "mergedAt": "2026-07-22T01:04:01Z",
-      "closedAt": "2026-07-22T01:04:01Z",
-      "waitingHours": null,
-      "labels": [
-        "merged",
-        "check-successful"
-      ],
-      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/959"
-    },
-    {
-      "number": 958,
-      "title": "feat(symphony): Symphony 能力编排支持双向束搜索",
-      "author": "openjiuwenai",
-      "contributionType": "internal",
-      "state": "merged",
-      "isDraft": false,
-      "createdAt": "2026-07-21T15:13:54Z",
-      "mergedAt": "2026-07-21T15:13:57Z",
-      "closedAt": "2026-07-21T15:13:57Z",
-      "waitingHours": null,
-      "labels": [
-        "merged",
-        "check-successful"
-      ],
-      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/pull/958"
     }
   ]
 }

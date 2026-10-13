@@ -19,18 +19,18 @@
   {
     "date": "2026-10-13",
     "stars": 6245,
-    "forks": 1100,
+    "forks": 1099,
     "watchers": 402,
-    "openPulls": 576,
-    "openIssues": 692,
+    "openPulls": 577,
+    "openIssues": 694,
     "totalPulls": 4000,
-    "totalIssues": 1653,
-    "newPulls": 29,
-    "mergedPulls": 21,
+    "totalIssues": 1654,
+    "newPulls": 37,
+    "mergedPulls": 28,
     "closedUnmergedPulls": 7,
-    "newIssues": 16,
-    "closedIssues": 3,
+    "newIssues": 22,
+    "closedIssues": 4,
     "activeContributors": 4,
-    "collectedAt": "2026-10-13T07:15:28.466Z"
+    "collectedAt": "2026-10-13T09:20:36.157Z"
   }
 ]

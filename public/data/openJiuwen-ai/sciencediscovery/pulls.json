@@ -1,17 +1,51 @@
 {
-  "generatedAt": "2026-10-13T07:15:28.466Z",
+  "generatedAt": "2026-10-13T09:20:36.157Z",
   "items": [
+    {
+      "number": 287,
+      "title": "test(e2e): wait for managed Python readiness in J5",
+      "author": "zhaozhaozz",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-13T09:08:36Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 0.2000436111111111,
+      "labels": [
+        "bug",
+        "release:internal"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/287"
+    },
+    {
+      "number": 285,
+      "title": "fix(network): unify proxy configuration and protect local transport",
+      "author": "zy95-12",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-13T08:57:14Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 0.38948805555555555,
+      "labels": [
+        "bug",
+        "release:fix"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/285"
+    },
     {
       "number": 282,
       "title": "fix(runner): distinguish interactive waiting from repair authorization",
       "author": "zy95-12",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-13T07:00:34Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 0.24846277777777778,
+      "mergedAt": "2026-10-13T07:58:15Z",
+      "closedAt": "2026-10-13T07:58:15Z",
+      "waitingHours": null,
       "labels": [
         "bug",
         "release:fix"
@@ -125,7 +159,7 @@
       "createdAt": "2026-10-12T08:25:58Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 22.825129444444446,
+      "waitingHours": 24.910599166666668,
       "labels": [
         "enhancement",
         "release:performance"
@@ -142,7 +176,7 @@
       "createdAt": "2026-10-12T06:54:52Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 24.343462777777777,
+      "waitingHours": 26.4289325,
       "labels": [
         "release:internal"
       ],
@@ -158,7 +192,7 @@
       "createdAt": "2026-10-12T04:43:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 26.525685,
+      "waitingHours": 28.61115472222222,
       "labels": [
         "bug",
         "release:fix"
@@ -207,7 +241,7 @@
       "createdAt": "2026-10-11T07:31:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 47.72596277777778,
+      "waitingHours": 49.8114325,
       "labels": [
         "release:internal"
       ],
@@ -300,12 +334,12 @@
       "title": "test(e2e): wait for main-Agent run chains before final delivery",
       "author": "wyhohyw",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-10T02:25:13Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 76.83762944444445,
+      "mergedAt": "2026-10-13T08:40:49Z",
+      "closedAt": "2026-10-13T08:40:49Z",
+      "waitingHours": null,
       "labels": [
         "bug",
         "release:internal"
@@ -432,7 +466,7 @@
       "createdAt": "2026-10-02T00:01:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 271.2367961111111,
+      "waitingHours": 273.32226583333335,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/231"
     },
@@ -530,7 +564,7 @@
       "createdAt": "2026-09-28T12:00:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 355.25790722222223,
+      "waitingHours": 357.34337694444446,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/222"
     },
@@ -840,7 +874,7 @@
       "createdAt": "2026-09-25T13:04:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 426.1837405555556,
+      "waitingHours": 428.2692102777778,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/196"
     },
@@ -1180,7 +1214,7 @@
       "createdAt": "2026-09-23T15:31:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 471.7292961111111,
+      "waitingHours": 473.81476583333335,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/169"
     },
@@ -1194,7 +1228,7 @@
       "createdAt": "2026-09-23T14:49:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 472.4259627777778,
+      "waitingHours": 474.5114325,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/168"
     },

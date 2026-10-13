@@ -1,6 +1,119 @@
 {
-  "generatedAt": "2026-10-13T07:15:28.466Z",
+  "generatedAt": "2026-10-13T09:20:36.157Z",
   "items": [
+    {
+      "number": 8164,
+      "title": "[Bug]: tiered 通配规则（如 python3 *）的字符类不含 CJK，含中文路径或参数的命令无法匹配，全部 fail-closed 弹卡",
+      "author": "openjiuwen-collaboration-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-13T09:01:46Z",
+      "closedAt": null,
+      "waitingHours": 0.3139325,
+      "comments": 1,
+      "labels": [
+        "bug",
+        "priority/unspecified",
+        "status/ACCEPTED"
+      ],
+      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/8164"
+    },
+    {
+      "number": 8162,
+      "title": "[Feature]: 单智能体/集群模式下支持三方Harness专家/专家团，支持如 claude、codex等三方harness",
+      "author": "openjiuwen-collaboration-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-13T08:33:08Z",
+      "closedAt": null,
+      "waitingHours": 0.7911547222222223,
+      "comments": 1,
+      "labels": [
+        "sig/jiuwenswarm",
+        "priority/major",
+        "feature",
+        "status/ACCEPTED"
+      ],
+      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/8162"
+    },
+    {
+      "number": 8160,
+      "title": "[Bug]: 主模型切换后上下文压缩器未同步，叠加档位模型 id 漂移导致压缩失败与空响应",
+      "author": "openjiuwen-collaboration-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-13T08:15:05Z",
+      "closedAt": null,
+      "waitingHours": 1.0919880555555554,
+      "comments": 1,
+      "labels": [
+        "bug",
+        "sig/jiuwenswarm",
+        "priority/unspecified",
+        "enterprise",
+        "status/ACCEPTED"
+      ],
+      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/8160"
+    },
+    {
+      "number": 8159,
+      "title": "[Bug]: 【企业级架构】数据可视化生成可交互的html，实际交付的是deepresearch 技能生成的研究报告，与预期不符",
+      "author": "openjiuwen-collaboration-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-13T08:14:16Z",
+      "closedAt": null,
+      "waitingHours": 1.1055991666666667,
+      "comments": 1,
+      "labels": [
+        "bug",
+        "sig/jiuwenswarm",
+        "priority/normal",
+        "enterprise",
+        "status/ACCEPTED"
+      ],
+      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/8159"
+    },
+    {
+      "number": 8155,
+      "title": "[Feature]: 企业级架构支持 Team 集群模式、专家智能团、专家智能体",
+      "author": "openjiuwen-collaboration-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-13T07:49:52Z",
+      "closedAt": null,
+      "waitingHours": 1.5122658333333334,
+      "comments": 1,
+      "labels": [
+        "priority/unspecified",
+        "feature",
+        "status/ACCEPTED"
+      ],
+      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/8155"
+    },
+    {
+      "number": 8154,
+      "title": "[Bug]: dev-stable分支问题解决Agent执行控制相关",
+      "author": "openjiuwen-collaboration-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-13T07:34:47Z",
+      "closedAt": null,
+      "waitingHours": 1.7636547222222223,
+      "comments": 1,
+      "labels": [
+        "bug",
+        "priority/unspecified",
+        "status/ACCEPTED"
+      ],
+      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/8154"
+    },
     {
       "number": 8149,
       "title": "[Feature]: 企业级能力回合develop主线",
@@ -10,7 +123,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-13T07:02:13Z",
       "closedAt": null,
-      "waitingHours": 0.22096277777777779,
+      "waitingHours": 2.3064325,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -28,13 +141,13 @@
       "isPullRequest": false,
       "createdAt": "2026-10-13T05:45:13Z",
       "closedAt": null,
-      "waitingHours": 1.504296111111111,
+      "waitingHours": 3.5897658333333333,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
         "feature",
         "priority/normal",
-        "status/ACCEPTED"
+        "status/TODO"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/8142"
     },
@@ -47,13 +160,13 @@
       "isPullRequest": false,
       "createdAt": "2026-10-13T05:40:19Z",
       "closedAt": null,
-      "waitingHours": 1.5859627777777778,
+      "waitingHours": 3.6714325,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
         "feature",
         "priority/normal",
-        "status/ACCEPTED"
+        "status/TODO"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/8141"
     },
@@ -66,12 +179,12 @@
       "isPullRequest": false,
       "createdAt": "2026-10-13T05:28:17Z",
       "closedAt": null,
-      "waitingHours": 1.7865183333333334,
+      "waitingHours": 3.8719880555555557,
       "comments": 1,
       "labels": [
         "feature",
         "priority/normal",
-        "status/ACCEPTED"
+        "status/TODO"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/8140"
     },
@@ -84,7 +197,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-13T04:46:02Z",
       "closedAt": null,
-      "waitingHours": 2.490685,
+      "waitingHours": 4.576154722222222,
       "comments": 2,
       "labels": [
         "bug",
@@ -102,7 +215,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-13T04:12:08Z",
       "closedAt": null,
-      "waitingHours": 3.055685,
+      "waitingHours": 5.141154722222222,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -118,7 +231,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-13T03:50:30Z",
       "closedAt": null,
-      "waitingHours": 3.4162405555555555,
+      "waitingHours": 5.501710277777778,
       "comments": 1,
       "labels": [
         "bug",
@@ -137,7 +250,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-13T03:44:35Z",
       "closedAt": null,
-      "waitingHours": 3.5148516666666665,
+      "waitingHours": 5.600321388888889,
       "comments": 1,
       "labels": [
         "bug",
@@ -155,7 +268,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-13T03:12:40Z",
       "closedAt": null,
-      "waitingHours": 4.046796111111111,
+      "waitingHours": 6.132265833333333,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -175,7 +288,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-13T03:05:35Z",
       "closedAt": null,
-      "waitingHours": 4.164851666666666,
+      "waitingHours": 6.250321388888889,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -195,7 +308,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-13T03:01:17Z",
       "closedAt": null,
-      "waitingHours": 4.236518333333334,
+      "waitingHours": 6.321988055555556,
       "comments": 1,
       "labels": [
         "bug",
@@ -214,7 +327,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-13T02:39:49Z",
       "closedAt": null,
-      "waitingHours": 4.594296111111111,
+      "waitingHours": 6.679765833333334,
       "comments": 1,
       "labels": [
         "bug",
@@ -233,7 +346,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-13T02:37:54Z",
       "closedAt": null,
-      "waitingHours": 4.6262405555555555,
+      "waitingHours": 6.711710277777778,
       "comments": 1,
       "labels": [
         "bug",
@@ -253,7 +366,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-13T02:30:49Z",
       "closedAt": null,
-      "waitingHours": 4.744296111111111,
+      "waitingHours": 6.829765833333333,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -306,7 +419,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T12:12:17Z",
       "closedAt": null,
-      "waitingHours": 19.053185,
+      "waitingHours": 21.13865472222222,
       "comments": 1,
       "labels": [
         "bug",
@@ -324,7 +437,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T12:05:16Z",
       "closedAt": null,
-      "waitingHours": 19.170129444444445,
+      "waitingHours": 21.255599166666666,
       "comments": 1,
       "labels": [
         "priority/major",
@@ -342,7 +455,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T09:45:09Z",
       "closedAt": null,
-      "waitingHours": 21.50540722222222,
+      "waitingHours": 23.590876944444446,
       "comments": 3,
       "labels": [
         "bug",
@@ -361,7 +474,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T09:34:02Z",
       "closedAt": null,
-      "waitingHours": 21.690685,
+      "waitingHours": 23.776154722222223,
       "comments": 1,
       "labels": [
         "bug",
@@ -381,7 +494,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T09:15:59Z",
       "closedAt": null,
-      "waitingHours": 21.99151833333333,
+      "waitingHours": 24.076988055555557,
       "comments": 1,
       "labels": [
         "bug",
@@ -401,7 +514,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T08:59:05Z",
       "closedAt": null,
-      "waitingHours": 22.273185,
+      "waitingHours": 24.358654722222223,
       "comments": 1,
       "labels": [
         "bug",
@@ -421,7 +534,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T08:46:26Z",
       "closedAt": null,
-      "waitingHours": 22.484018333333335,
+      "waitingHours": 24.569488055555556,
       "comments": 1,
       "labels": [
         "bug",
@@ -440,7 +553,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T08:24:37Z",
       "closedAt": null,
-      "waitingHours": 22.847629444444443,
+      "waitingHours": 24.93309916666667,
       "comments": 1,
       "labels": [
         "bug",
@@ -459,7 +572,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T07:50:22Z",
       "closedAt": null,
-      "waitingHours": 23.418462777777776,
+      "waitingHours": 25.5039325,
       "comments": 1,
       "labels": [
         "bug",
@@ -477,7 +590,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T07:48:10Z",
       "closedAt": null,
-      "waitingHours": 23.455129444444445,
+      "waitingHours": 25.540599166666667,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -494,7 +607,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T07:46:08Z",
       "closedAt": null,
-      "waitingHours": 23.489018333333334,
+      "waitingHours": 25.574488055555555,
       "comments": 1,
       "labels": [
         "bug",
@@ -514,7 +627,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T07:41:09Z",
       "closedAt": null,
-      "waitingHours": 23.572073888888887,
+      "waitingHours": 25.657543611111112,
       "comments": 1,
       "labels": [
         "bug",
@@ -532,7 +645,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T07:27:40Z",
       "closedAt": null,
-      "waitingHours": 23.79679611111111,
+      "waitingHours": 25.882265833333335,
       "comments": 1,
       "labels": [
         "feature",
@@ -550,7 +663,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T07:23:52Z",
       "closedAt": null,
-      "waitingHours": 23.860129444444443,
+      "waitingHours": 25.945599166666668,
       "comments": 1,
       "labels": [
         "feature",
@@ -568,7 +681,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T06:47:19Z",
       "closedAt": null,
-      "waitingHours": 24.46929611111111,
+      "waitingHours": 26.554765833333335,
       "comments": 1,
       "labels": [
         "bug",
@@ -586,7 +699,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T06:40:53Z",
       "closedAt": null,
-      "waitingHours": 24.576518333333333,
+      "waitingHours": 26.661988055555554,
       "comments": 1,
       "labels": [
         "bug",
@@ -606,7 +719,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T06:38:52Z",
       "closedAt": null,
-      "waitingHours": 24.610129444444443,
+      "waitingHours": 26.695599166666668,
       "comments": 1,
       "labels": [
         "bug",
@@ -626,7 +739,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T06:32:22Z",
       "closedAt": null,
-      "waitingHours": 24.718462777777777,
+      "waitingHours": 26.8039325,
       "comments": 1,
       "labels": [
         "bug",
@@ -645,7 +758,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T06:24:41Z",
       "closedAt": null,
-      "waitingHours": 24.846518333333332,
+      "waitingHours": 26.931988055555557,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -662,7 +775,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T06:22:38Z",
       "closedAt": null,
-      "waitingHours": 24.880685,
+      "waitingHours": 26.96615472222222,
       "comments": 1,
       "labels": [
         "bug",
@@ -681,7 +794,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T06:20:05Z",
       "closedAt": null,
-      "waitingHours": 24.923185,
+      "waitingHours": 27.00865472222222,
       "comments": 2,
       "labels": [
         "bug",
@@ -699,7 +812,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T06:07:29Z",
       "closedAt": null,
-      "waitingHours": 25.133185,
+      "waitingHours": 27.218654722222222,
       "comments": 1,
       "labels": [
         "bug",
@@ -718,7 +831,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T04:02:38Z",
       "closedAt": null,
-      "waitingHours": 27.214018333333332,
+      "waitingHours": 29.299488055555557,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -734,7 +847,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T03:38:10Z",
       "closedAt": null,
-      "waitingHours": 27.62179611111111,
+      "waitingHours": 29.707265833333334,
       "comments": 1,
       "labels": [
         "bug",
@@ -753,7 +866,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T03:23:02Z",
       "closedAt": null,
-      "waitingHours": 27.874018333333332,
+      "waitingHours": 29.959488055555557,
       "comments": 1,
       "labels": [
         "bug",
@@ -773,7 +886,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T03:15:58Z",
       "closedAt": null,
-      "waitingHours": 27.99179611111111,
+      "waitingHours": 30.077265833333332,
       "comments": 2,
       "labels": [
         "bug",
@@ -793,7 +906,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T03:05:43Z",
       "closedAt": null,
-      "waitingHours": 28.162629444444445,
+      "waitingHours": 30.248099166666666,
       "comments": 1,
       "labels": [
         "bug",
@@ -812,7 +925,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T03:02:25Z",
       "closedAt": null,
-      "waitingHours": 28.217629444444444,
+      "waitingHours": 30.303099166666666,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -832,7 +945,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T02:22:26Z",
       "closedAt": null,
-      "waitingHours": 28.884018333333334,
+      "waitingHours": 30.969488055555555,
       "comments": 1,
       "labels": [
         "bug",
@@ -850,7 +963,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-12T02:02:47Z",
       "closedAt": null,
-      "waitingHours": 29.211518333333334,
+      "waitingHours": 31.296988055555556,
       "comments": 1,
       "labels": [
         "priority/major",
@@ -860,14 +973,14 @@
     },
     {
       "number": 8020,
-      "title": "[Feature]: 单智能体模式下支持三方Harness专家，支持如 claude、codex等三方harness",
+      "title": "[Feature]: 单智能体/集群模式下支持三方Harness专家/专家团，支持如 claude、codex等三方harness",
       "author": "openjiuwen-collaboration-bot[bot]",
       "contributionType": "unknown",
       "state": "open",
       "isPullRequest": false,
       "createdAt": "2026-10-12T01:33:52Z",
       "closedAt": null,
-      "waitingHours": 29.69346277777778,
+      "waitingHours": 31.7789325,
       "comments": 2,
       "labels": [
         "sig/jiuwenswarm",
@@ -886,7 +999,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T15:01:10Z",
       "closedAt": null,
-      "waitingHours": 40.23846277777778,
+      "waitingHours": 42.3239325,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -903,7 +1016,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T15:12:29Z",
       "closedAt": null,
-      "waitingHours": 64.04985166666667,
+      "waitingHours": 66.13532138888888,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -920,7 +1033,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T10:58:34Z",
       "closedAt": null,
-      "waitingHours": 68.2817961111111,
+      "waitingHours": 70.36726583333333,
       "comments": 1,
       "labels": [
         "bug",
@@ -937,7 +1050,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T09:44:58Z",
       "closedAt": null,
-      "waitingHours": 69.50846277777778,
+      "waitingHours": 71.5939325,
       "comments": 1,
       "labels": [
         "priority/major",
@@ -955,7 +1068,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T09:17:02Z",
       "closedAt": null,
-      "waitingHours": 69.97401833333333,
+      "waitingHours": 72.05948805555556,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -972,7 +1085,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T09:16:28Z",
       "closedAt": null,
-      "waitingHours": 69.98346277777777,
+      "waitingHours": 72.0689325,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -989,7 +1102,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T09:10:51Z",
       "closedAt": null,
-      "waitingHours": 70.07707388888889,
+      "waitingHours": 72.1625436111111,
       "comments": 1,
       "labels": [
         "priority/normal",
@@ -1006,7 +1119,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T08:44:06Z",
       "closedAt": null,
-      "waitingHours": 70.52290722222222,
+      "waitingHours": 72.60837694444444,
       "comments": 1,
       "labels": [
         "bug",
@@ -1026,7 +1139,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T08:13:29Z",
       "closedAt": null,
-      "waitingHours": 71.033185,
+      "waitingHours": 73.11865472222222,
       "comments": 1,
       "labels": [
         "priority/normal",
@@ -1061,7 +1174,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T07:57:22Z",
       "closedAt": null,
-      "waitingHours": 71.30179611111112,
+      "waitingHours": 73.38726583333333,
       "comments": 1,
       "labels": [
         "bug",
@@ -1080,7 +1193,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T07:55:14Z",
       "closedAt": null,
-      "waitingHours": 71.33735166666666,
+      "waitingHours": 73.42282138888889,
       "comments": 1,
       "labels": [
         "bug",
@@ -1100,7 +1213,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T07:24:26Z",
       "closedAt": null,
-      "waitingHours": 71.850685,
+      "waitingHours": 73.93615472222223,
       "comments": 1,
       "labels": [
         "bug",
@@ -1119,7 +1232,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T07:21:42Z",
       "closedAt": null,
-      "waitingHours": 71.89624055555555,
+      "waitingHours": 73.98171027777778,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -1137,7 +1250,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T07:08:22Z",
       "closedAt": null,
-      "waitingHours": 72.11846277777778,
+      "waitingHours": 74.2039325,
       "comments": 1,
       "labels": [
         "bug",
@@ -1175,7 +1288,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T06:31:23Z",
       "closedAt": null,
-      "waitingHours": 72.73485166666667,
+      "waitingHours": 74.82032138888889,
       "comments": 1,
       "labels": [
         "bug",
@@ -1195,7 +1308,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T04:04:29Z",
       "closedAt": null,
-      "waitingHours": 75.183185,
+      "waitingHours": 77.26865472222222,
       "comments": 1,
       "labels": [
         "bug",
@@ -1215,7 +1328,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T03:54:45Z",
       "closedAt": null,
-      "waitingHours": 75.34540722222222,
+      "waitingHours": 77.43087694444445,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -1234,7 +1347,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T03:43:14Z",
       "closedAt": null,
-      "waitingHours": 75.53735166666667,
+      "waitingHours": 77.6228213888889,
       "comments": 1,
       "labels": [
         "bug",
@@ -1254,7 +1367,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T03:41:53Z",
       "closedAt": null,
-      "waitingHours": 75.55985166666666,
+      "waitingHours": 77.64532138888889,
       "comments": 2,
       "labels": [
         "bug",
@@ -1292,7 +1405,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T03:19:59Z",
       "closedAt": null,
-      "waitingHours": 75.92485166666667,
+      "waitingHours": 78.01032138888888,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -1310,7 +1423,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T03:19:53Z",
       "closedAt": null,
-      "waitingHours": 75.92651833333333,
+      "waitingHours": 78.01198805555556,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -1328,7 +1441,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T03:19:48Z",
       "closedAt": null,
-      "waitingHours": 75.92790722222222,
+      "waitingHours": 78.01337694444445,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -1346,7 +1459,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T03:19:47Z",
       "closedAt": null,
-      "waitingHours": 75.928185,
+      "waitingHours": 78.01365472222223,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -1451,7 +1564,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T03:00:37Z",
       "closedAt": null,
-      "waitingHours": 76.24762944444444,
+      "waitingHours": 78.33309916666667,
       "comments": 1,
       "labels": [
         "bug",
@@ -1471,7 +1584,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T02:58:25Z",
       "closedAt": null,
-      "waitingHours": 76.28429611111112,
+      "waitingHours": 78.36976583333333,
       "comments": 1,
       "labels": [
         "bug",
@@ -1489,7 +1602,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T02:38:48Z",
       "closedAt": null,
-      "waitingHours": 76.61124055555555,
+      "waitingHours": 78.69671027777778,
       "comments": 1,
       "labels": [
         "bug",
@@ -1507,7 +1620,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T02:09:39Z",
       "closedAt": null,
-      "waitingHours": 77.09707388888889,
+      "waitingHours": 79.18254361111111,
       "comments": 1,
       "labels": [
         "bug",
@@ -1543,7 +1656,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T01:34:24Z",
       "closedAt": null,
-      "waitingHours": 77.68457388888889,
+      "waitingHours": 79.7700436111111,
       "comments": 1,
       "labels": [
         "bug",
@@ -1562,7 +1675,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T01:30:57Z",
       "closedAt": null,
-      "waitingHours": 77.74207388888888,
+      "waitingHours": 79.82754361111111,
       "comments": 1,
       "labels": [
         "bug",
@@ -1582,7 +1695,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T01:27:30Z",
       "closedAt": null,
-      "waitingHours": 77.79957388888889,
+      "waitingHours": 79.88504361111112,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -1601,7 +1714,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T00:59:56Z",
       "closedAt": null,
-      "waitingHours": 78.25901833333333,
+      "waitingHours": 80.34448805555556,
       "comments": 1,
       "labels": [
         "bug",
@@ -1619,7 +1732,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T21:37:39Z",
       "closedAt": null,
-      "waitingHours": 81.63040722222222,
+      "waitingHours": 83.71587694444445,
       "comments": 1,
       "labels": [
         "status/ACCEPTED"
@@ -1635,7 +1748,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T21:22:49Z",
       "closedAt": null,
-      "waitingHours": 81.87762944444444,
+      "waitingHours": 83.96309916666667,
       "comments": 1,
       "labels": [
         "status/ACCEPTED"
@@ -1651,7 +1764,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T21:16:51Z",
       "closedAt": null,
-      "waitingHours": 81.9770738888889,
+      "waitingHours": 84.06254361111111,
       "comments": 4,
       "labels": [
         "bug",
@@ -1668,7 +1781,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T21:09:48Z",
       "closedAt": null,
-      "waitingHours": 82.09457388888889,
+      "waitingHours": 84.18004361111112,
       "comments": 4,
       "labels": [
         "status/TODO"
@@ -1684,7 +1797,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T20:44:07Z",
       "closedAt": null,
-      "waitingHours": 82.52262944444445,
+      "waitingHours": 84.60809916666666,
       "comments": 1,
       "labels": [
         "bug",
@@ -1701,7 +1814,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T10:04:14Z",
       "closedAt": null,
-      "waitingHours": 93.18735166666667,
+      "waitingHours": 95.27282138888889,
       "comments": 2,
       "labels": [
         "priority/major",
@@ -1718,7 +1831,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T09:59:54Z",
       "closedAt": null,
-      "waitingHours": 93.2595738888889,
+      "waitingHours": 95.34504361111111,
       "comments": 2,
       "labels": [
         "bug",
@@ -1736,7 +1849,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T09:46:08Z",
       "closedAt": null,
-      "waitingHours": 93.48901833333333,
+      "waitingHours": 95.57448805555556,
       "comments": 1,
       "labels": [
         "bug",
@@ -1756,7 +1869,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T09:02:32Z",
       "closedAt": null,
-      "waitingHours": 94.215685,
+      "waitingHours": 96.30115472222222,
       "comments": 1,
       "labels": [
         "bug",
@@ -1775,7 +1888,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T08:39:09Z",
       "closedAt": null,
-      "waitingHours": 94.60540722222223,
+      "waitingHours": 96.69087694444444,
       "comments": 1,
       "labels": [
         "priority/major",
@@ -1792,7 +1905,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T08:28:19Z",
       "closedAt": null,
-      "waitingHours": 94.78596277777778,
+      "waitingHours": 96.8714325,
       "comments": 1,
       "labels": [
         "priority/normal",
@@ -1809,7 +1922,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T08:13:22Z",
       "closedAt": null,
-      "waitingHours": 95.03512944444445,
+      "waitingHours": 97.12059916666666,
       "comments": 1,
       "labels": [
         "bug",
@@ -1829,7 +1942,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T08:05:51Z",
       "closedAt": null,
-      "waitingHours": 95.16040722222222,
+      "waitingHours": 97.24587694444445,
       "comments": 4,
       "labels": [
         "bug",
@@ -1847,7 +1960,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T07:55:24Z",
       "closedAt": null,
-      "waitingHours": 95.33457388888888,
+      "waitingHours": 97.42004361111111,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -1866,7 +1979,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T07:49:47Z",
       "closedAt": null,
-      "waitingHours": 95.428185,
+      "waitingHours": 97.51365472222223,
       "comments": 1,
       "labels": [
         "bug",
@@ -1920,7 +2033,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T06:40:02Z",
       "closedAt": null,
-      "waitingHours": 96.590685,
+      "waitingHours": 98.67615472222222,
       "comments": 1,
       "labels": [
         "bug",
@@ -1938,7 +2051,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T06:34:44Z",
       "closedAt": null,
-      "waitingHours": 96.67901833333333,
+      "waitingHours": 98.76448805555556,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -1956,7 +2069,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T06:28:22Z",
       "closedAt": null,
-      "waitingHours": 96.78512944444445,
+      "waitingHours": 98.87059916666666,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -1974,7 +2087,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T06:24:37Z",
       "closedAt": null,
-      "waitingHours": 96.84762944444445,
+      "waitingHours": 98.93309916666666,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -1992,7 +2105,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T06:21:43Z",
       "closedAt": null,
-      "waitingHours": 96.89596277777778,
+      "waitingHours": 98.9814325,
       "comments": 1,
       "labels": [
         "bug",
@@ -2011,7 +2124,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T05:36:25Z",
       "closedAt": null,
-      "waitingHours": 97.65096277777778,
+      "waitingHours": 99.7364325,
       "comments": 2,
       "labels": [
         "status/TODO"
@@ -2027,7 +2140,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T05:36:23Z",
       "closedAt": null,
-      "waitingHours": 97.65151833333333,
+      "waitingHours": 99.73698805555556,
       "comments": 2,
       "labels": [
         "status/TODO"
@@ -2043,7 +2156,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T05:36:22Z",
       "closedAt": null,
-      "waitingHours": 97.65179611111111,
+      "waitingHours": 99.73726583333334,
       "comments": 2,
       "labels": [
         "status/TODO"
@@ -2059,7 +2172,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T05:36:20Z",
       "closedAt": null,
-      "waitingHours": 97.65235166666666,
+      "waitingHours": 99.73782138888889,
       "comments": 3,
       "labels": [
         "status/TODO"
@@ -2075,7 +2188,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T05:36:12Z",
       "closedAt": null,
-      "waitingHours": 97.65457388888889,
+      "waitingHours": 99.7400436111111,
       "comments": 2,
       "labels": [
         "status/TODO"
@@ -2091,7 +2204,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T03:38:02Z",
       "closedAt": null,
-      "waitingHours": 99.62401833333334,
+      "waitingHours": 101.70948805555555,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -2108,7 +2221,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T02:57:20Z",
       "closedAt": null,
-      "waitingHours": 100.30235166666667,
+      "waitingHours": 102.3878213888889,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -2126,7 +2239,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T02:36:59Z",
       "closedAt": null,
-      "waitingHours": 100.64151833333334,
+      "waitingHours": 102.72698805555555,
       "comments": 1,
       "labels": [
         "bug",
@@ -2145,7 +2258,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T02:29:19Z",
       "closedAt": null,
-      "waitingHours": 100.76929611111112,
+      "waitingHours": 102.85476583333333,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -2162,7 +2275,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T02:01:17Z",
       "closedAt": null,
-      "waitingHours": 101.23651833333334,
+      "waitingHours": 103.32198805555555,
       "comments": 1,
       "labels": [
         "priority/normal",
@@ -2179,7 +2292,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T17:09:04Z",
       "closedAt": null,
-      "waitingHours": 110.10679611111111,
+      "waitingHours": 112.19226583333334,
       "comments": 1,
       "labels": [
         "status/ACCEPTED"
@@ -2195,7 +2308,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T16:25:45Z",
       "closedAt": null,
-      "waitingHours": 110.82874055555556,
+      "waitingHours": 112.91421027777778,
       "comments": 1,
       "labels": [
         "bug",
@@ -2212,7 +2325,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T15:14:53Z",
       "closedAt": null,
-      "waitingHours": 112.00985166666666,
+      "waitingHours": 114.09532138888889,
       "comments": 1,
       "labels": [
         "status/ACCEPTED"
@@ -2228,7 +2341,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T13:37:05Z",
       "closedAt": null,
-      "waitingHours": 113.63985166666667,
+      "waitingHours": 115.72532138888889,
       "comments": 1,
       "labels": [
         "bug",
@@ -2245,7 +2358,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T12:59:29Z",
       "closedAt": null,
-      "waitingHours": 114.26651833333334,
+      "waitingHours": 116.35198805555555,
       "comments": 1,
       "labels": [
         "bug",
@@ -2263,7 +2376,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T12:52:03Z",
       "closedAt": null,
-      "waitingHours": 114.39040722222222,
+      "waitingHours": 116.47587694444445,
       "comments": 4,
       "labels": [
         "priority/unspecified",
@@ -2280,7 +2393,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T12:17:47Z",
       "closedAt": null,
-      "waitingHours": 114.96151833333333,
+      "waitingHours": 117.04698805555556,
       "comments": 1,
       "labels": [
         "bug",
@@ -2298,7 +2411,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T12:03:14Z",
       "closedAt": null,
-      "waitingHours": 115.20401833333334,
+      "waitingHours": 117.28948805555555,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -2315,7 +2428,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T12:02:22Z",
       "closedAt": null,
-      "waitingHours": 115.21846277777777,
+      "waitingHours": 117.3039325,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -2332,7 +2445,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T11:58:05Z",
       "closedAt": null,
-      "waitingHours": 115.28985166666666,
+      "waitingHours": 117.37532138888889,
       "comments": 1,
       "labels": [
         "status/ACCEPTED"
@@ -2348,7 +2461,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T11:54:34Z",
       "closedAt": null,
-      "waitingHours": 115.34846277777778,
+      "waitingHours": 117.4339325,
       "comments": 1,
       "labels": [
         "status/ACCEPTED"
@@ -2382,7 +2495,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T10:03:34Z",
       "closedAt": null,
-      "waitingHours": 117.19846277777778,
+      "waitingHours": 119.2839325,
       "comments": 1,
       "labels": [
         "bug",
@@ -2400,7 +2513,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T10:00:37Z",
       "closedAt": null,
-      "waitingHours": 117.24762944444444,
+      "waitingHours": 119.33309916666667,
       "comments": 1,
       "labels": [
         "bug",
@@ -2419,7 +2532,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T09:41:43Z",
       "closedAt": null,
-      "waitingHours": 117.56262944444444,
+      "waitingHours": 119.64809916666667,
       "comments": 1,
       "labels": [
         "bug",
@@ -2431,14 +2544,14 @@
     },
     {
       "number": 7795,
-      "title": "[Feature]: 补齐 SkillPack 沉淀 Tool、本地使用与 Hub 发布闭环",
+      "title": "[Feature]: 补齐技能包沉淀封装、本地使用与 Hub 发布闭环",
       "author": "openjiuwen-collaboration-bot[bot]",
       "contributionType": "unknown",
       "state": "open",
       "isPullRequest": false,
       "createdAt": "2026-10-08T09:19:11Z",
       "closedAt": null,
-      "waitingHours": 117.938185,
+      "waitingHours": 120.02365472222222,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -2457,7 +2570,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T08:59:42Z",
       "closedAt": null,
-      "waitingHours": 118.26290722222222,
+      "waitingHours": 120.34837694444444,
       "comments": 1,
       "labels": [
         "bug",
@@ -2475,7 +2588,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T08:53:42Z",
       "closedAt": null,
-      "waitingHours": 118.36290722222222,
+      "waitingHours": 120.44837694444445,
       "comments": 1,
       "labels": [
         "bug",
@@ -2495,7 +2608,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T08:24:08Z",
       "closedAt": null,
-      "waitingHours": 118.855685,
+      "waitingHours": 120.94115472222222,
       "comments": 1,
       "labels": [
         "bug",
@@ -2514,7 +2627,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T07:55:51Z",
       "closedAt": null,
-      "waitingHours": 119.32707388888889,
+      "waitingHours": 121.4125436111111,
       "comments": 1,
       "labels": [
         "bug",
@@ -2532,7 +2645,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T07:15:27Z",
       "closedAt": null,
-      "waitingHours": 120.00040722222222,
+      "waitingHours": 122.08587694444445,
       "comments": 1,
       "labels": [
         "bug",
@@ -2550,7 +2663,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T05:40:57Z",
       "closedAt": null,
-      "waitingHours": 121.57540722222222,
+      "waitingHours": 123.66087694444444,
       "comments": 1,
       "labels": [
         "priority/major",
@@ -2568,7 +2681,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T03:43:06Z",
       "closedAt": null,
-      "waitingHours": 123.5395738888889,
+      "waitingHours": 125.62504361111111,
       "comments": 4,
       "labels": [
         "priority/unspecified",
@@ -2585,7 +2698,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T03:21:35Z",
       "closedAt": null,
-      "waitingHours": 123.898185,
+      "waitingHours": 125.98365472222223,
       "comments": 1,
       "labels": [
         "bug",
@@ -2621,7 +2734,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T03:01:30Z",
       "closedAt": null,
-      "waitingHours": 124.23290722222222,
+      "waitingHours": 126.31837694444444,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -2638,7 +2751,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T02:45:11Z",
       "closedAt": null,
-      "waitingHours": 124.50485166666667,
+      "waitingHours": 126.5903213888889,
       "comments": 1,
       "labels": [
         "bug",
@@ -2678,7 +2791,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T02:32:03Z",
       "closedAt": null,
-      "waitingHours": 124.72374055555555,
+      "waitingHours": 126.80921027777778,
       "comments": 1,
       "labels": [
         "bug",
@@ -2696,7 +2809,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T01:56:27Z",
       "closedAt": null,
-      "waitingHours": 125.31707388888888,
+      "waitingHours": 127.40254361111111,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -2713,7 +2826,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T00:57:52Z",
       "closedAt": null,
-      "waitingHours": 126.29346277777778,
+      "waitingHours": 128.3789325,
       "comments": 1,
       "labels": [
         "bug",
@@ -2731,7 +2844,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-07T13:43:59Z",
       "closedAt": null,
-      "waitingHours": 137.52485166666668,
+      "waitingHours": 139.61032138888888,
       "comments": 1,
       "labels": [
         "documentation",
@@ -2748,7 +2861,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T19:52:41Z",
       "closedAt": null,
-      "waitingHours": 155.37985166666667,
+      "waitingHours": 157.4653213888889,
       "comments": 1,
       "labels": [
         "bug",
@@ -2765,7 +2878,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T19:49:13Z",
       "closedAt": null,
-      "waitingHours": 155.43762944444444,
+      "waitingHours": 157.52309916666667,
       "comments": 1,
       "labels": [
         "status/ACCEPTED"
@@ -2781,7 +2894,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T19:46:21Z",
       "closedAt": null,
-      "waitingHours": 155.48540722222222,
+      "waitingHours": 157.57087694444445,
       "comments": 1,
       "labels": [
         "status/ACCEPTED"
@@ -2797,7 +2910,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T16:37:06Z",
       "closedAt": null,
-      "waitingHours": 158.6395738888889,
+      "waitingHours": 160.72504361111112,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -2813,7 +2926,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T16:36:06Z",
       "closedAt": null,
-      "waitingHours": 158.65624055555554,
+      "waitingHours": 160.74171027777777,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -2829,7 +2942,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T16:31:09Z",
       "closedAt": null,
-      "waitingHours": 158.73874055555555,
+      "waitingHours": 160.82421027777778,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -2845,7 +2958,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T16:29:36Z",
       "closedAt": null,
-      "waitingHours": 158.7645738888889,
+      "waitingHours": 160.85004361111112,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -2861,7 +2974,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T16:28:50Z",
       "closedAt": null,
-      "waitingHours": 158.77735166666668,
+      "waitingHours": 160.86282138888888,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -2877,7 +2990,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T15:46:42Z",
       "closedAt": null,
-      "waitingHours": 159.4795738888889,
+      "waitingHours": 161.56504361111112,
       "comments": 1,
       "labels": [
         "priority/major",
@@ -2894,7 +3007,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T09:42:41Z",
       "closedAt": null,
-      "waitingHours": 165.54651833333332,
+      "waitingHours": 167.63198805555555,
       "comments": 1,
       "labels": [
         "bug",
@@ -2911,7 +3024,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T09:31:38Z",
       "closedAt": null,
-      "waitingHours": 165.730685,
+      "waitingHours": 167.81615472222222,
       "comments": 1,
       "labels": [
         "bug",
@@ -2928,7 +3041,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T09:29:47Z",
       "closedAt": null,
-      "waitingHours": 165.76151833333333,
+      "waitingHours": 167.84698805555556,
       "comments": 1,
       "labels": [
         "bug",
@@ -2945,7 +3058,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T03:47:55Z",
       "closedAt": null,
-      "waitingHours": 171.45929611111112,
+      "waitingHours": 173.54476583333334,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -2961,7 +3074,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T03:25:17Z",
       "closedAt": null,
-      "waitingHours": 171.83651833333334,
+      "waitingHours": 173.92198805555554,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -2977,7 +3090,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T10:19:13Z",
       "closedAt": null,
-      "waitingHours": 188.93762944444444,
+      "waitingHours": 191.02309916666667,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -2993,7 +3106,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T09:22:38Z",
       "closedAt": null,
-      "waitingHours": 189.880685,
+      "waitingHours": 191.96615472222223,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -3009,7 +3122,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T09:13:11Z",
       "closedAt": null,
-      "waitingHours": 190.038185,
+      "waitingHours": 192.12365472222223,
       "comments": 1,
       "labels": [
         "status/ACCEPTED"
@@ -3025,7 +3138,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T08:24:36Z",
       "closedAt": null,
-      "waitingHours": 190.84790722222223,
+      "waitingHours": 192.93337694444443,
       "comments": 1,
       "labels": [
         "bug",
@@ -3042,7 +3155,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T08:22:23Z",
       "closedAt": null,
-      "waitingHours": 190.88485166666666,
+      "waitingHours": 192.9703213888889,
       "comments": 1,
       "labels": [
         "bug",
@@ -3059,7 +3172,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T08:20:39Z",
       "closedAt": null,
-      "waitingHours": 190.91374055555556,
+      "waitingHours": 192.9992102777778,
       "comments": 1,
       "labels": [
         "bug",
@@ -3076,7 +3189,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T03:12:12Z",
       "closedAt": null,
-      "waitingHours": 196.05457388888888,
+      "waitingHours": 198.1400436111111,
       "comments": 1,
       "labels": [
         "bug",
@@ -3093,7 +3206,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-04T21:53:04Z",
       "closedAt": null,
-      "waitingHours": 201.37346277777777,
+      "waitingHours": 203.4589325,
       "comments": 1,
       "labels": [
         "status/ACCEPTED"
@@ -3109,7 +3222,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-04T21:50:05Z",
       "closedAt": null,
-      "waitingHours": 201.423185,
+      "waitingHours": 203.50865472222222,
       "comments": 1,
       "labels": [
         "status/ACCEPTED"
@@ -3125,7 +3238,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-04T21:40:53Z",
       "closedAt": null,
-      "waitingHours": 201.57651833333333,
+      "waitingHours": 203.66198805555555,
       "comments": 1,
       "labels": [
         "bug",
@@ -3142,7 +3255,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-04T12:37:00Z",
       "closedAt": null,
-      "waitingHours": 210.64124055555556,
+      "waitingHours": 212.72671027777778,
       "comments": 1,
       "labels": [
         "bug",
@@ -3159,7 +3272,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-04T06:05:19Z",
       "closedAt": null,
-      "waitingHours": 217.16929611111112,
+      "waitingHours": 219.25476583333332,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -3193,7 +3306,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-03T19:28:06Z",
       "closedAt": null,
-      "waitingHours": 227.7895738888889,
+      "waitingHours": 229.87504361111112,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -3211,7 +3324,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-02T09:49:22Z",
       "closedAt": null,
-      "waitingHours": 261.43512944444444,
+      "waitingHours": 263.52059916666667,
       "comments": 1,
       "labels": [
         "bug",
@@ -3228,7 +3341,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-02T05:53:23Z",
       "closedAt": null,
-      "waitingHours": 265.368185,
+      "waitingHours": 267.4536547222222,
       "comments": 1,
       "labels": [
         "bug",
@@ -3245,7 +3358,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T20:13:45Z",
       "closedAt": null,
-      "waitingHours": 275.02874055555554,
+      "waitingHours": 277.1142102777778,
       "comments": 4,
       "labels": [
         "priority/unspecified",
@@ -3262,7 +3375,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T20:12:10Z",
       "closedAt": null,
-      "waitingHours": 275.05512944444445,
+      "waitingHours": 277.1405991666667,
       "comments": 4,
       "labels": [
         "priority/unspecified",
@@ -3279,7 +3392,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T18:03:12Z",
       "closedAt": null,
-      "waitingHours": 277.2045738888889,
+      "waitingHours": 279.2900436111111,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -3295,7 +3408,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T17:48:52Z",
       "closedAt": null,
-      "waitingHours": 277.44346277777777,
+      "waitingHours": 279.5289325,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -3311,7 +3424,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T17:48:50Z",
       "closedAt": null,
-      "waitingHours": 277.44401833333336,
+      "waitingHours": 279.52948805555553,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -3327,7 +3440,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T17:48:47Z",
       "closedAt": null,
-      "waitingHours": 277.4448516666667,
+      "waitingHours": 279.53032138888886,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -3343,7 +3456,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T17:48:45Z",
       "closedAt": null,
-      "waitingHours": 277.44540722222223,
+      "waitingHours": 279.53087694444446,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -3359,7 +3472,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T17:48:42Z",
       "closedAt": null,
-      "waitingHours": 277.44624055555556,
+      "waitingHours": 279.5317102777778,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -3375,7 +3488,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T17:48:40Z",
       "closedAt": null,
-      "waitingHours": 277.4467961111111,
+      "waitingHours": 279.5322658333333,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -3391,7 +3504,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T17:48:37Z",
       "closedAt": null,
-      "waitingHours": 277.44762944444443,
+      "waitingHours": 279.53309916666666,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -3407,7 +3520,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T17:48:35Z",
       "closedAt": null,
-      "waitingHours": 277.448185,
+      "waitingHours": 279.5336547222222,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -3423,7 +3536,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T17:47:55Z",
       "closedAt": null,
-      "waitingHours": 277.4592961111111,
+      "waitingHours": 279.5447658333333,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -3439,7 +3552,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T17:04:17Z",
       "closedAt": null,
-      "waitingHours": 278.1865183333333,
+      "waitingHours": 280.27198805555554,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -3471,7 +3584,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T16:34:13Z",
       "closedAt": null,
-      "waitingHours": 302.68762944444444,
+      "waitingHours": 304.77309916666667,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -3487,7 +3600,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T13:46:21Z",
       "closedAt": null,
-      "waitingHours": 305.48540722222225,
+      "waitingHours": 307.5708769444444,
       "comments": 4,
       "labels": [
         "sig/jiuwenswarm",
@@ -3505,7 +3618,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T09:42:28Z",
       "closedAt": null,
-      "waitingHours": 309.55012944444445,
+      "waitingHours": 311.6355991666667,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -3522,7 +3635,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T09:11:15Z",
       "closedAt": null,
-      "waitingHours": 310.07040722222223,
+      "waitingHours": 312.15587694444446,
       "comments": 1,
       "labels": [
         "bug",
@@ -3540,7 +3653,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T08:54:23Z",
       "closedAt": null,
-      "waitingHours": 310.35151833333333,
+      "waitingHours": 312.43698805555556,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -3557,7 +3670,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T08:46:52Z",
       "closedAt": null,
-      "waitingHours": 310.4767961111111,
+      "waitingHours": 312.56226583333336,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -3574,7 +3687,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T08:00:48Z",
       "closedAt": null,
-      "waitingHours": 311.2445738888889,
+      "waitingHours": 313.33004361111114,
       "comments": 1,
       "labels": [
         "bug",
@@ -3594,7 +3707,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T07:57:27Z",
       "closedAt": null,
-      "waitingHours": 311.30040722222225,
+      "waitingHours": 313.3858769444444,
       "comments": 1,
       "labels": [
         "bug",
@@ -3614,7 +3727,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T07:55:46Z",
       "closedAt": null,
-      "waitingHours": 311.32846277777776,
+      "waitingHours": 313.4139325,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -3632,7 +3745,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T07:54:57Z",
       "closedAt": null,
-      "waitingHours": 311.3420738888889,
+      "waitingHours": 313.4275436111111,
       "comments": 1,
       "labels": [
         "bug",
@@ -3652,7 +3765,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T07:31:19Z",
       "closedAt": null,
-      "waitingHours": 311.7359627777778,
+      "waitingHours": 313.8214325,
       "comments": 4,
       "labels": [
         "bug",
@@ -3670,7 +3783,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T07:04:26Z",
       "closedAt": null,
-      "waitingHours": 312.1840183333333,
+      "waitingHours": 314.26948805555554,
       "comments": 2,
       "labels": [
         "bug",
@@ -3690,7 +3803,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T06:56:34Z",
       "closedAt": null,
-      "waitingHours": 312.31512944444444,
+      "waitingHours": 314.40059916666667,
       "comments": 1,
       "labels": [
         "status/TODO"
@@ -3706,7 +3819,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T06:35:38Z",
       "closedAt": null,
-      "waitingHours": 312.66401833333333,
+      "waitingHours": 314.74948805555556,
       "comments": 1,
       "labels": [
         "bug",
@@ -3724,7 +3837,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T06:00:14Z",
       "closedAt": null,
-      "waitingHours": 313.2540183333333,
+      "waitingHours": 315.33948805555553,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -3741,7 +3854,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T04:55:35Z",
       "closedAt": null,
-      "waitingHours": 314.33151833333335,
+      "waitingHours": 316.4169880555556,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -3759,7 +3872,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T04:53:59Z",
       "closedAt": null,
-      "waitingHours": 314.358185,
+      "waitingHours": 316.4436547222222,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -3777,7 +3890,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T04:50:57Z",
       "closedAt": null,
-      "waitingHours": 314.40874055555554,
+      "waitingHours": 316.49421027777777,
       "comments": 1,
       "labels": [
         "priority/major",
@@ -3794,7 +3907,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T04:08:42Z",
       "closedAt": null,
-      "waitingHours": 315.11290722222225,
+      "waitingHours": 317.1983769444444,
       "comments": 1,
       "labels": [
         "bug",
@@ -3813,7 +3926,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T03:27:02Z",
       "closedAt": null,
-      "waitingHours": 315.80735166666665,
+      "waitingHours": 317.8928213888889,
       "comments": 1,
       "labels": [
         "bug",
@@ -3832,7 +3945,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T03:04:55Z",
       "closedAt": null,
-      "waitingHours": 316.1759627777778,
+      "waitingHours": 318.2614325,
       "comments": 1,
       "labels": [
         "bug",
@@ -3851,7 +3964,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T02:50:08Z",
       "closedAt": null,
-      "waitingHours": 316.42235166666666,
+      "waitingHours": 318.5078213888889,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -3868,7 +3981,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T02:36:05Z",
       "closedAt": null,
-      "waitingHours": 316.65651833333334,
+      "waitingHours": 318.74198805555557,
       "comments": 2,
       "labels": [
         "priority/unspecified",
@@ -3885,7 +3998,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T02:33:01Z",
       "closedAt": null,
-      "waitingHours": 316.7076294444444,
+      "waitingHours": 318.79309916666665,
       "comments": 1,
       "labels": [
         "bug",
@@ -3905,7 +4018,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T02:04:33Z",
       "closedAt": null,
-      "waitingHours": 317.1820738888889,
+      "waitingHours": 319.26754361111114,
       "comments": 1,
       "labels": [
         "bug",
@@ -3923,7 +4036,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T01:47:21Z",
       "closedAt": null,
-      "waitingHours": 317.46874055555554,
+      "waitingHours": 319.55421027777777,
       "comments": 1,
       "labels": [
         "priority/unspecified",
@@ -3940,7 +4053,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T01:35:29Z",
       "closedAt": null,
-      "waitingHours": 317.66651833333333,
+      "waitingHours": 319.75198805555556,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -3958,7 +4071,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T01:30:08Z",
       "closedAt": null,
-      "waitingHours": 317.755685,
+      "waitingHours": 319.8411547222222,
       "comments": 5,
       "labels": [
         "priority/unspecified",
@@ -3975,7 +4088,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-30T01:06:44Z",
       "closedAt": null,
-      "waitingHours": 318.145685,
+      "waitingHours": 320.23115472222224,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -4012,7 +4125,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T15:46:32Z",
       "closedAt": null,
-      "waitingHours": 327.48235166666666,
+      "waitingHours": 329.5678213888889,
       "comments": 5,
       "labels": [
         "priority/unspecified",
@@ -4030,7 +4143,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T15:45:18Z",
       "closedAt": null,
-      "waitingHours": 327.50290722222223,
+      "waitingHours": 329.58837694444446,
       "comments": 5,
       "labels": [
         "sig/jiuwenswarm",
@@ -4048,7 +4161,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T13:25:08Z",
       "closedAt": null,
-      "waitingHours": 329.83901833333334,
+      "waitingHours": 331.92448805555557,
       "comments": 4,
       "labels": [
         "priority/unspecified"
@@ -4064,7 +4177,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T11:59:05Z",
       "closedAt": null,
-      "waitingHours": 331.273185,
+      "waitingHours": 333.35865472222224,
       "comments": 1,
       "labels": [
         "bug",
@@ -4083,7 +4196,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T10:27:56Z",
       "closedAt": null,
-      "waitingHours": 332.79235166666666,
+      "waitingHours": 334.8778213888889,
       "comments": 1,
       "labels": [
         "priority/unspecified"
@@ -4099,7 +4212,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T09:44:29Z",
       "closedAt": null,
-      "waitingHours": 333.51651833333335,
+      "waitingHours": 335.6019880555556,
       "comments": 1,
       "labels": [
         "bug",
@@ -4136,7 +4249,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T08:48:07Z",
       "closedAt": null,
-      "waitingHours": 334.45596277777776,
+      "waitingHours": 336.5414325,
       "comments": 1,
       "labels": [
         "bug",
@@ -4153,7 +4266,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T08:30:42Z",
       "closedAt": null,
-      "waitingHours": 334.7462405555556,
+      "waitingHours": 336.8317102777778,
       "comments": 1,
       "labels": [
         "bug",
@@ -4172,7 +4285,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T08:21:28Z",
       "closedAt": null,
-      "waitingHours": 334.9001294444444,
+      "waitingHours": 336.98559916666665,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -4190,7 +4303,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T08:15:45Z",
       "closedAt": null,
-      "waitingHours": 334.99540722222224,
+      "waitingHours": 337.08087694444447,
       "comments": 1,
       "labels": [
         "bug",
@@ -4207,7 +4320,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T08:14:25Z",
       "closedAt": null,
-      "waitingHours": 335.0176294444444,
+      "waitingHours": 337.10309916666665,
       "comments": 1,
       "labels": [
         "bug",
@@ -4224,7 +4337,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T07:53:42Z",
       "closedAt": null,
-      "waitingHours": 335.36290722222225,
+      "waitingHours": 337.4483769444444,
       "comments": 1,
       "labels": [
         "bug",
@@ -4241,7 +4354,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T07:42:59Z",
       "closedAt": null,
-      "waitingHours": 335.54151833333333,
+      "waitingHours": 337.62698805555556,
       "comments": 1,
       "labels": [
         "bug",
@@ -4276,7 +4389,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T07:14:34Z",
       "closedAt": null,
-      "waitingHours": 336.0151294444444,
+      "waitingHours": 338.10059916666665,
       "comments": 1,
       "labels": [
         "priority/unspecified"
@@ -4292,7 +4405,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T06:59:51Z",
       "closedAt": null,
-      "waitingHours": 336.2604072222222,
+      "waitingHours": 338.34587694444446,
       "comments": 1,
       "labels": [
         "priority/major"
@@ -4343,7 +4456,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T06:49:39Z",
       "closedAt": null,
-      "waitingHours": 336.43040722222224,
+      "waitingHours": 338.51587694444447,
       "comments": 1,
       "labels": [
         "bug",
@@ -4362,7 +4475,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T06:41:53Z",
       "closedAt": null,
-      "waitingHours": 336.55985166666665,
+      "waitingHours": 338.6453213888889,
       "comments": 1,
       "labels": [
         "documentation",
@@ -4396,7 +4509,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T03:48:27Z",
       "closedAt": null,
-      "waitingHours": 339.4504072222222,
+      "waitingHours": 341.53587694444445,
       "comments": 0,
       "labels": [
         "bug",
@@ -4413,7 +4526,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T03:45:58Z",
       "closedAt": null,
-      "waitingHours": 339.4917961111111,
+      "waitingHours": 341.57726583333334,
       "comments": 0,
       "labels": [
         "bug",
@@ -4431,7 +4544,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T03:35:02Z",
       "closedAt": null,
-      "waitingHours": 339.6740183333333,
+      "waitingHours": 341.75948805555555,
       "comments": 0,
       "labels": [
         "priority/normal"
@@ -4447,7 +4560,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T03:07:44Z",
       "closedAt": null,
-      "waitingHours": 340.1290183333333,
+      "waitingHours": 342.21448805555553,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -4465,7 +4578,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T02:22:13Z",
       "closedAt": null,
-      "waitingHours": 340.8876294444444,
+      "waitingHours": 342.97309916666666,
       "comments": 0,
       "labels": [
         "priority/unspecified"
@@ -4481,7 +4594,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T02:14:46Z",
       "closedAt": null,
-      "waitingHours": 341.0117961111111,
+      "waitingHours": 343.0972658333333,
       "comments": 0,
       "labels": [
         "priority/major",
@@ -4498,7 +4611,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T01:35:14Z",
       "closedAt": null,
-      "waitingHours": 341.670685,
+      "waitingHours": 343.7561547222222,
       "comments": 0,
       "labels": [
         "bug",
@@ -4516,7 +4629,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T01:32:56Z",
       "closedAt": null,
-      "waitingHours": 341.70901833333335,
+      "waitingHours": 343.7944880555556,
       "comments": 1,
       "labels": [
         "bug",
@@ -4534,7 +4647,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T18:55:38Z",
       "closedAt": null,
-      "waitingHours": 348.330685,
+      "waitingHours": 350.41615472222225,
       "comments": 0,
       "labels": [
         "priority/unspecified"
@@ -4550,7 +4663,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T15:10:07Z",
       "closedAt": null,
-      "waitingHours": 352.08929611111114,
+      "waitingHours": 354.1747658333333,
       "comments": 0,
       "labels": [
         "bug",
@@ -4567,7 +4680,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T14:42:51Z",
       "closedAt": null,
-      "waitingHours": 352.54374055555553,
+      "waitingHours": 354.62921027777776,
       "comments": 0,
       "labels": [
         "priority/major"
@@ -4583,7 +4696,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T12:52:56Z",
       "closedAt": null,
-      "waitingHours": 354.375685,
+      "waitingHours": 356.4611547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -4600,7 +4713,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T12:52:42Z",
       "closedAt": null,
-      "waitingHours": 354.3795738888889,
+      "waitingHours": 356.4650436111111,
       "comments": 0,
       "labels": [
         "bug"
@@ -4635,7 +4748,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T12:24:58Z",
       "closedAt": null,
-      "waitingHours": 354.84179611111114,
+      "waitingHours": 356.9272658333333,
       "comments": 4,
       "labels": [
         "feature",
@@ -4671,7 +4784,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T12:02:13Z",
       "closedAt": null,
-      "waitingHours": 355.2209627777778,
+      "waitingHours": 357.3064325,
       "comments": 2,
       "labels": [
         "priority/normal"
@@ -4706,7 +4819,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T11:29:13Z",
       "closedAt": null,
-      "waitingHours": 355.77096277777775,
+      "waitingHours": 357.8564325,
       "comments": 2,
       "labels": [
         "bug",
@@ -4725,7 +4838,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T11:24:30Z",
       "closedAt": null,
-      "waitingHours": 355.84957388888887,
+      "waitingHours": 357.9350436111111,
       "comments": 0,
       "labels": [
         "bug",
@@ -4742,7 +4855,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T10:59:31Z",
       "closedAt": null,
-      "waitingHours": 356.26596277777776,
+      "waitingHours": 358.3514325,
       "comments": 0,
       "labels": [
         "priority/unspecified"
@@ -4758,7 +4871,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T10:58:45Z",
       "closedAt": null,
-      "waitingHours": 356.27874055555554,
+      "waitingHours": 358.3642102777778,
       "comments": 0,
       "labels": [
         "documentation",
@@ -4792,7 +4905,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T10:17:09Z",
       "closedAt": null,
-      "waitingHours": 356.9720738888889,
+      "waitingHours": 359.0575436111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/7455"
@@ -4806,7 +4919,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T09:42:58Z",
       "closedAt": null,
-      "waitingHours": 357.5417961111111,
+      "waitingHours": 359.62726583333335,
       "comments": 0,
       "labels": [
         "bug",
@@ -4841,7 +4954,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T08:42:10Z",
       "closedAt": null,
-      "waitingHours": 358.55512944444445,
+      "waitingHours": 360.6405991666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -4876,7 +4989,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T08:05:08Z",
       "closedAt": null,
-      "waitingHours": 359.17235166666666,
+      "waitingHours": 361.2578213888889,
       "comments": 0,
       "labels": [
         "bug",
@@ -4893,7 +5006,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T08:01:49Z",
       "closedAt": null,
-      "waitingHours": 359.22762944444446,
+      "waitingHours": 361.3130991666667,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -4927,7 +5040,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T07:41:25Z",
       "closedAt": null,
-      "waitingHours": 359.56762944444444,
+      "waitingHours": 361.65309916666666,
       "comments": 0,
       "labels": [
         "bug",
@@ -4962,7 +5075,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T07:34:46Z",
       "closedAt": null,
-      "waitingHours": 359.6784627777778,
+      "waitingHours": 361.7639325,
       "comments": 0,
       "labels": [
         "priority/unspecified"
@@ -4978,7 +5091,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T06:53:50Z",
       "closedAt": null,
-      "waitingHours": 360.360685,
+      "waitingHours": 362.4461547222222,
       "comments": 0,
       "labels": [
         "bug",
@@ -5012,7 +5125,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T06:36:28Z",
       "closedAt": null,
-      "waitingHours": 360.6501294444444,
+      "waitingHours": 362.73559916666665,
       "comments": 0,
       "labels": [
         "bug",
@@ -5029,7 +5142,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T04:57:19Z",
       "closedAt": null,
-      "waitingHours": 362.30262944444445,
+      "waitingHours": 364.3880991666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -5046,7 +5159,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T03:30:01Z",
       "closedAt": null,
-      "waitingHours": 363.75762944444443,
+      "waitingHours": 365.84309916666666,
       "comments": 0,
       "labels": [
         "bug",
@@ -5099,7 +5212,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T02:19:38Z",
       "closedAt": null,
-      "waitingHours": 364.930685,
+      "waitingHours": 367.0161547222222,
       "comments": 0,
       "labels": [
         "bug",
@@ -5118,7 +5231,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T00:44:45Z",
       "closedAt": null,
-      "waitingHours": 366.5120738888889,
+      "waitingHours": 368.5975436111111,
       "comments": 0,
       "labels": [
         "bug",
@@ -5135,7 +5248,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-27T13:26:51Z",
       "closedAt": null,
-      "waitingHours": 377.81040722222224,
+      "waitingHours": 379.89587694444447,
       "comments": 0,
       "labels": [
         "bug"
@@ -5151,7 +5264,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-27T13:23:27Z",
       "closedAt": null,
-      "waitingHours": 377.8670738888889,
+      "waitingHours": 379.95254361111114,
       "comments": 0,
       "labels": [
         "bug"
@@ -5167,7 +5280,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-26T09:58:51Z",
       "closedAt": null,
-      "waitingHours": 405.2770738888889,
+      "waitingHours": 407.3625436111111,
       "comments": 2,
       "labels": [
         "priority/unspecified"
@@ -5183,7 +5296,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-25T15:34:56Z",
       "closedAt": null,
-      "waitingHours": 423.675685,
+      "waitingHours": 425.7611547222222,
       "comments": 0,
       "labels": [
         "bug"
@@ -5199,7 +5312,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-25T15:29:43Z",
       "closedAt": null,
-      "waitingHours": 423.7626294444444,
+      "waitingHours": 425.84809916666666,
       "comments": 0,
       "labels": [
         "bug"
@@ -5215,7 +5328,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-25T15:24:54Z",
       "closedAt": null,
-      "waitingHours": 423.8429072222222,
+      "waitingHours": 425.92837694444444,
       "comments": 0,
       "labels": [
         "bug"
@@ -5231,7 +5344,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-25T15:13:37Z",
       "closedAt": null,
-      "waitingHours": 424.0309627777778,
+      "waitingHours": 426.1164325,
       "comments": 0,
       "labels": [
         "bug"
@@ -5247,7 +5360,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-25T15:08:55Z",
       "closedAt": null,
-      "waitingHours": 424.1092961111111,
+      "waitingHours": 426.19476583333335,
       "comments": 0,
       "labels": [
         "bug"
@@ -5263,7 +5376,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-25T14:51:14Z",
       "closedAt": null,
-      "waitingHours": 424.40401833333334,
+      "waitingHours": 426.48948805555557,
       "comments": 0,
       "labels": [
         "bug"
@@ -5279,7 +5392,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-25T14:36:13Z",
       "closedAt": null,
-      "waitingHours": 424.65429611111114,
+      "waitingHours": 426.7397658333333,
       "comments": 0,
       "labels": [
         "bug"
@@ -5295,7 +5408,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-25T11:16:16Z",
       "closedAt": null,
-      "waitingHours": 427.9867961111111,
+      "waitingHours": 430.07226583333335,
       "comments": 0,
       "labels": [
         "bug"
@@ -5311,7 +5424,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-25T10:47:00Z",
       "closedAt": null,
-      "waitingHours": 428.47457388888887,
+      "waitingHours": 430.5600436111111,
       "comments": 0,
       "labels": [
         "bug"
@@ -5327,7 +5440,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-25T09:59:29Z",
       "closedAt": null,
-      "waitingHours": 429.26651833333335,
+      "waitingHours": 431.3519880555556,
       "comments": 0,
       "labels": [
         "bug"
@@ -5361,7 +5474,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T11:04:56Z",
       "closedAt": null,
-      "waitingHours": 452.175685,
+      "waitingHours": 454.2611547222222,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -5378,7 +5491,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T10:59:23Z",
       "closedAt": null,
-      "waitingHours": 452.268185,
+      "waitingHours": 454.35365472222225,
       "comments": 2,
       "labels": [
         "sig/jiuwenswarm",
@@ -5413,7 +5526,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T09:46:04Z",
       "closedAt": null,
-      "waitingHours": 453.49012944444445,
+      "waitingHours": 455.5755991666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -5431,7 +5544,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T09:37:47Z",
       "closedAt": null,
-      "waitingHours": 453.628185,
+      "waitingHours": 455.7136547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -5448,7 +5561,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T09:30:22Z",
       "closedAt": null,
-      "waitingHours": 453.7517961111111,
+      "waitingHours": 455.83726583333333,
       "comments": 0,
       "labels": [
         "bug",
@@ -5504,7 +5617,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T09:08:09Z",
       "closedAt": null,
-      "waitingHours": 454.1220738888889,
+      "waitingHours": 456.20754361111113,
       "comments": 0,
       "labels": [
         "bug",
@@ -5523,7 +5636,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T09:05:17Z",
       "closedAt": null,
-      "waitingHours": 454.16985166666666,
+      "waitingHours": 456.2553213888889,
       "comments": 0,
       "labels": [
         "bug",
@@ -5542,7 +5655,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T08:38:44Z",
       "closedAt": null,
-      "waitingHours": 454.61235166666665,
+      "waitingHours": 456.6978213888889,
       "comments": 0,
       "labels": [
         "bug",
@@ -5614,7 +5727,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T08:00:05Z",
       "closedAt": null,
-      "waitingHours": 455.25651833333336,
+      "waitingHours": 457.34198805555553,
       "comments": 0,
       "labels": [
         "bug",
@@ -5632,7 +5745,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T07:56:13Z",
       "closedAt": null,
-      "waitingHours": 455.32096277777777,
+      "waitingHours": 457.4064325,
       "comments": 1,
       "labels": [
         "bug",
@@ -5740,7 +5853,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T07:30:42Z",
       "closedAt": null,
-      "waitingHours": 455.7462405555556,
+      "waitingHours": 457.8317102777778,
       "comments": 0,
       "labels": [
         "bug",
@@ -5758,7 +5871,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T07:27:12Z",
       "closedAt": null,
-      "waitingHours": 455.8045738888889,
+      "waitingHours": 457.89004361111114,
       "comments": 0,
       "labels": [
         "bug",
@@ -5777,7 +5890,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T07:27:03Z",
       "closedAt": null,
-      "waitingHours": 455.8070738888889,
+      "waitingHours": 457.89254361111114,
       "comments": 2,
       "labels": [
         "bug",
@@ -5796,7 +5909,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T07:24:01Z",
       "closedAt": null,
-      "waitingHours": 455.85762944444446,
+      "waitingHours": 457.9430991666667,
       "comments": 1,
       "labels": [
         "bug",
@@ -5834,7 +5947,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T07:01:01Z",
       "closedAt": null,
-      "waitingHours": 456.2409627777778,
+      "waitingHours": 458.3264325,
       "comments": 1,
       "labels": [
         "bug",
@@ -5889,7 +6002,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T06:54:14Z",
       "closedAt": null,
-      "waitingHours": 456.35401833333333,
+      "waitingHours": 458.43948805555556,
       "comments": 0,
       "labels": [
         "bug",
@@ -5907,7 +6020,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T06:42:28Z",
       "closedAt": null,
-      "waitingHours": 456.55012944444445,
+      "waitingHours": 458.6355991666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -5943,7 +6056,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T06:27:24Z",
       "closedAt": null,
-      "waitingHours": 456.8012405555556,
+      "waitingHours": 458.88671027777775,
       "comments": 0,
       "labels": [
         "bug",
@@ -5980,7 +6093,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T03:33:59Z",
       "closedAt": null,
-      "waitingHours": 459.6915183333333,
+      "waitingHours": 461.77698805555553,
       "comments": 0,
       "labels": [
         "bug",
@@ -6016,7 +6129,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T02:50:07Z",
       "closedAt": null,
-      "waitingHours": 460.42262944444445,
+      "waitingHours": 462.5080991666667,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -6033,7 +6146,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T02:47:15Z",
       "closedAt": null,
-      "waitingHours": 460.4704072222222,
+      "waitingHours": 462.55587694444444,
       "comments": 3,
       "labels": [
         "sig/jiuwenswarm",
@@ -6050,7 +6163,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T02:41:58Z",
       "closedAt": null,
-      "waitingHours": 460.5584627777778,
+      "waitingHours": 462.6439325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -6067,7 +6180,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T02:41:55Z",
       "closedAt": null,
-      "waitingHours": 460.5592961111111,
+      "waitingHours": 462.64476583333334,
       "comments": 2,
       "labels": [
         "bug",
@@ -6177,7 +6290,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T02:07:16Z",
       "closedAt": null,
-      "waitingHours": 461.1367961111111,
+      "waitingHours": 463.2222658333333,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -6232,7 +6345,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T01:31:52Z",
       "closedAt": null,
-      "waitingHours": 461.7267961111111,
+      "waitingHours": 463.81226583333336,
       "comments": 1,
       "labels": [
         "bug",
@@ -6252,7 +6365,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T01:28:43Z",
       "closedAt": null,
-      "waitingHours": 461.77929611111114,
+      "waitingHours": 463.8647658333333,
       "comments": 1,
       "labels": [
         "bug",
@@ -6290,7 +6403,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T15:17:24Z",
       "closedAt": null,
-      "waitingHours": 471.9679072222222,
+      "waitingHours": 474.05337694444444,
       "comments": 0,
       "labels": [
         "bug",
@@ -6360,7 +6473,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T10:51:52Z",
       "closedAt": null,
-      "waitingHours": 476.39346277777776,
+      "waitingHours": 478.4789325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -6377,7 +6490,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T10:28:00Z",
       "closedAt": null,
-      "waitingHours": 476.79124055555553,
+      "waitingHours": 478.87671027777776,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -6395,7 +6508,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T10:19:15Z",
       "closedAt": null,
-      "waitingHours": 476.9370738888889,
+      "waitingHours": 479.02254361111113,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -6412,7 +6525,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T09:48:26Z",
       "closedAt": null,
-      "waitingHours": 477.450685,
+      "waitingHours": 479.53615472222225,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -6465,7 +6578,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T09:30:47Z",
       "closedAt": null,
-      "waitingHours": 477.74485166666665,
+      "waitingHours": 479.8303213888889,
       "comments": 0,
       "labels": [
         "bug",
@@ -6482,7 +6595,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T09:17:08Z",
       "closedAt": null,
-      "waitingHours": 477.97235166666667,
+      "waitingHours": 480.0578213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -6499,7 +6612,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T09:15:47Z",
       "closedAt": null,
-      "waitingHours": 477.99485166666665,
+      "waitingHours": 480.0803213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -6516,7 +6629,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T09:12:23Z",
       "closedAt": null,
-      "waitingHours": 478.0515183333333,
+      "waitingHours": 480.13698805555555,
       "comments": 1,
       "labels": [
         "bug",
@@ -6536,7 +6649,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T09:09:21Z",
       "closedAt": null,
-      "waitingHours": 478.10207388888887,
+      "waitingHours": 480.1875436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -6608,7 +6721,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T08:58:55Z",
       "closedAt": null,
-      "waitingHours": 478.27596277777775,
+      "waitingHours": 480.3614325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -6660,7 +6773,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T08:42:17Z",
       "closedAt": null,
-      "waitingHours": 478.553185,
+      "waitingHours": 480.6386547222222,
       "comments": 0,
       "labels": [
         "bug",
@@ -6697,7 +6810,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T08:38:50Z",
       "closedAt": null,
-      "waitingHours": 478.610685,
+      "waitingHours": 480.6961547222222,
       "comments": 0,
       "labels": [
         "bug",
@@ -6715,7 +6828,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T08:29:19Z",
       "closedAt": null,
-      "waitingHours": 478.7692961111111,
+      "waitingHours": 480.8547658333333,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -6752,7 +6865,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T08:20:11Z",
       "closedAt": null,
-      "waitingHours": 478.9215183333333,
+      "waitingHours": 481.00698805555555,
       "comments": 0,
       "labels": [
         "bug",
@@ -6771,7 +6884,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T08:19:49Z",
       "closedAt": null,
-      "waitingHours": 478.92762944444445,
+      "waitingHours": 481.0130991666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -6878,7 +6991,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T07:47:31Z",
       "closedAt": null,
-      "waitingHours": 479.4659627777778,
+      "waitingHours": 481.5514325,
       "comments": 0,
       "labels": [
         "bug",
@@ -6896,7 +7009,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T07:44:12Z",
       "closedAt": null,
-      "waitingHours": 479.52124055555555,
+      "waitingHours": 481.6067102777778,
       "comments": 0,
       "labels": [
         "bug",
@@ -6950,7 +7063,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T07:28:44Z",
       "closedAt": null,
-      "waitingHours": 479.77901833333334,
+      "waitingHours": 481.86448805555557,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -6984,7 +7097,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T07:17:36Z",
       "closedAt": null,
-      "waitingHours": 479.9645738888889,
+      "waitingHours": 482.0500436111111,
       "comments": 0,
       "labels": [
         "bug",
@@ -7003,7 +7116,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T07:17:15Z",
       "closedAt": null,
-      "waitingHours": 479.9704072222222,
+      "waitingHours": 482.05587694444444,
       "comments": 3,
       "labels": [
         "bug",
@@ -7040,7 +7153,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T07:04:23Z",
       "closedAt": null,
-      "waitingHours": 480.18485166666665,
+      "waitingHours": 482.2703213888889,
       "comments": 1,
       "labels": [
         "bug",
@@ -7059,7 +7172,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T07:02:17Z",
       "closedAt": null,
-      "waitingHours": 480.21985166666667,
+      "waitingHours": 482.3053213888889,
       "comments": 0,
       "labels": [
         "bug",
@@ -7113,7 +7226,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T06:52:57Z",
       "closedAt": null,
-      "waitingHours": 480.37540722222224,
+      "waitingHours": 482.46087694444446,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -7130,7 +7243,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T06:52:36Z",
       "closedAt": null,
-      "waitingHours": 480.38124055555556,
+      "waitingHours": 482.4667102777778,
       "comments": 0,
       "labels": [
         "bug",
@@ -7185,7 +7298,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T06:08:25Z",
       "closedAt": null,
-      "waitingHours": 481.11762944444445,
+      "waitingHours": 483.2030991666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -7220,7 +7333,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T03:47:54Z",
       "closedAt": null,
-      "waitingHours": 483.4595738888889,
+      "waitingHours": 485.5450436111111,
       "comments": 2,
       "labels": [
         "bug",
@@ -7256,7 +7369,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T03:38:37Z",
       "closedAt": null,
-      "waitingHours": 483.6142961111111,
+      "waitingHours": 485.69976583333334,
       "comments": 0,
       "labels": [
         "bug"
@@ -7272,7 +7385,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T03:23:07Z",
       "closedAt": null,
-      "waitingHours": 483.87262944444444,
+      "waitingHours": 485.95809916666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -7308,7 +7421,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T03:08:31Z",
       "closedAt": null,
-      "waitingHours": 484.1159627777778,
+      "waitingHours": 486.2014325,
       "comments": 0,
       "labels": [
         "bug",
@@ -7344,7 +7457,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T03:02:24Z",
       "closedAt": null,
-      "waitingHours": 484.2179072222222,
+      "waitingHours": 486.30337694444444,
       "comments": 0,
       "labels": [
         "bug",
@@ -7362,7 +7475,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T03:02:01Z",
       "closedAt": null,
-      "waitingHours": 484.22429611111113,
+      "waitingHours": 486.30976583333336,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -7415,7 +7528,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T02:52:41Z",
       "closedAt": null,
-      "waitingHours": 484.37985166666664,
+      "waitingHours": 486.46532138888887,
       "comments": 1,
       "labels": [
         "bug",
@@ -7433,7 +7546,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T02:44:53Z",
       "closedAt": null,
-      "waitingHours": 484.5098516666667,
+      "waitingHours": 486.59532138888886,
       "comments": 0,
       "labels": [
         "bug",
@@ -7561,7 +7674,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T02:29:48Z",
       "closedAt": null,
-      "waitingHours": 484.76124055555556,
+      "waitingHours": 486.8467102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -7596,7 +7709,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T02:23:22Z",
       "closedAt": null,
-      "waitingHours": 484.8684627777778,
+      "waitingHours": 486.9539325,
       "comments": 0,
       "labels": [
         "bug",
@@ -7614,7 +7727,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T02:11:14Z",
       "closedAt": null,
-      "waitingHours": 485.070685,
+      "waitingHours": 487.1561547222222,
       "comments": 1,
       "labels": [
         "bug",
@@ -7632,7 +7745,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T02:07:53Z",
       "closedAt": null,
-      "waitingHours": 485.1265183333333,
+      "waitingHours": 487.21198805555554,
       "comments": 2,
       "labels": [
         "bug",
@@ -7669,7 +7782,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T02:06:33Z",
       "closedAt": null,
-      "waitingHours": 485.14874055555555,
+      "waitingHours": 487.2342102777778,
       "comments": 2,
       "labels": [
         "bug",
@@ -7725,7 +7838,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T01:12:09Z",
       "closedAt": null,
-      "waitingHours": 486.05540722222224,
+      "waitingHours": 488.14087694444447,
       "comments": 1,
       "labels": [
         "bug",
@@ -7744,7 +7857,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T16:06:07Z",
       "closedAt": null,
-      "waitingHours": 495.1559627777778,
+      "waitingHours": 497.2414325,
       "comments": 0,
       "labels": [
         "bug"
@@ -7778,7 +7891,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T12:43:22Z",
       "closedAt": null,
-      "waitingHours": 498.53512944444446,
+      "waitingHours": 500.6205991666667,
       "comments": 1,
       "labels": [
         "bug",
@@ -7816,7 +7929,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T12:31:42Z",
       "closedAt": null,
-      "waitingHours": 498.72957388888886,
+      "waitingHours": 500.8150436111111,
       "comments": 0,
       "labels": [
         "bug",
@@ -7835,7 +7948,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T11:41:24Z",
       "closedAt": null,
-      "waitingHours": 499.56790722222223,
+      "waitingHours": 501.65337694444446,
       "comments": 0,
       "labels": [
         "bug",
@@ -7853,7 +7966,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T11:21:20Z",
       "closedAt": null,
-      "waitingHours": 499.9023516666667,
+      "waitingHours": 501.9878213888889,
       "comments": 1,
       "labels": [
         "bug",
@@ -7908,7 +8021,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T11:00:29Z",
       "closedAt": null,
-      "waitingHours": 500.24985166666664,
+      "waitingHours": 502.3353213888889,
       "comments": 0,
       "labels": [
         "bug",
@@ -7926,7 +8039,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T10:58:38Z",
       "closedAt": null,
-      "waitingHours": 500.280685,
+      "waitingHours": 502.36615472222223,
       "comments": 1,
       "labels": [
         "bug",
@@ -7945,7 +8058,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T10:56:13Z",
       "closedAt": null,
-      "waitingHours": 500.32096277777777,
+      "waitingHours": 502.4064325,
       "comments": 0,
       "labels": [
         "bug",
@@ -7981,7 +8094,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T10:53:40Z",
       "closedAt": null,
-      "waitingHours": 500.3634627777778,
+      "waitingHours": 502.4489325,
       "comments": 0,
       "labels": [
         "bug",
@@ -8035,7 +8148,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T09:44:25Z",
       "closedAt": null,
-      "waitingHours": 501.5176294444444,
+      "waitingHours": 503.60309916666665,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -8052,7 +8165,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T09:42:55Z",
       "closedAt": null,
-      "waitingHours": 501.54262944444446,
+      "waitingHours": 503.6280991666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -8071,7 +8184,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T09:35:20Z",
       "closedAt": null,
-      "waitingHours": 501.6690183333333,
+      "waitingHours": 503.75448805555556,
       "comments": 3,
       "labels": [
         "bug",
@@ -8126,7 +8239,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T09:20:19Z",
       "closedAt": null,
-      "waitingHours": 501.9192961111111,
+      "waitingHours": 504.00476583333335,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -8269,7 +8382,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T08:07:24Z",
       "closedAt": null,
-      "waitingHours": 503.1345738888889,
+      "waitingHours": 505.2200436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -8286,7 +8399,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T07:58:46Z",
       "closedAt": null,
-      "waitingHours": 503.2784627777778,
+      "waitingHours": 505.3639325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -8322,7 +8435,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T07:41:38Z",
       "closedAt": null,
-      "waitingHours": 503.5640183333333,
+      "waitingHours": 505.64948805555554,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -8374,7 +8487,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T06:58:41Z",
       "closedAt": null,
-      "waitingHours": 504.2798516666667,
+      "waitingHours": 506.3653213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -8392,7 +8505,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T06:58:33Z",
       "closedAt": null,
-      "waitingHours": 504.2820738888889,
+      "waitingHours": 506.3675436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -8481,7 +8594,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T06:28:20Z",
       "closedAt": null,
-      "waitingHours": 504.785685,
+      "waitingHours": 506.87115472222223,
       "comments": 0,
       "labels": [
         "bug",
@@ -8499,7 +8612,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T04:56:29Z",
       "closedAt": null,
-      "waitingHours": 506.3165183333333,
+      "waitingHours": 508.40198805555553,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -8517,7 +8630,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T03:44:16Z",
       "closedAt": null,
-      "waitingHours": 507.5201294444444,
+      "waitingHours": 509.60559916666665,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -8660,7 +8773,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T01:52:54Z",
       "closedAt": null,
-      "waitingHours": 509.37624055555557,
+      "waitingHours": 511.4617102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -8695,7 +8808,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T01:37:33Z",
       "closedAt": null,
-      "waitingHours": 509.6320738888889,
+      "waitingHours": 511.7175436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -8712,7 +8825,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T01:21:52Z",
       "closedAt": null,
-      "waitingHours": 509.89346277777776,
+      "waitingHours": 511.9789325,
       "comments": 0,
       "labels": [
         "bug",
@@ -8730,7 +8843,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T01:19:13Z",
       "closedAt": null,
-      "waitingHours": 509.93762944444444,
+      "waitingHours": 512.0230991666666,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -8747,7 +8860,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T21:34:06Z",
       "closedAt": null,
-      "waitingHours": 513.6895738888888,
+      "waitingHours": 515.7750436111111,
       "comments": 0,
       "labels": [
         "bug"
@@ -8763,7 +8876,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T21:28:49Z",
       "closedAt": null,
-      "waitingHours": 513.7776294444444,
+      "waitingHours": 515.8630991666666,
       "comments": 0,
       "labels": [
         "bug"
@@ -8779,7 +8892,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T21:22:05Z",
       "closedAt": null,
-      "waitingHours": 513.8898516666667,
+      "waitingHours": 515.9753213888889,
       "comments": 1,
       "labels": [
         "bug"
@@ -8795,7 +8908,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T14:52:35Z",
       "closedAt": null,
-      "waitingHours": 520.3815183333334,
+      "waitingHours": 522.4669880555556,
       "comments": 0,
       "labels": [
         "bug",
@@ -8812,7 +8925,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T14:18:33Z",
       "closedAt": null,
-      "waitingHours": 520.9487405555556,
+      "waitingHours": 523.0342102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -8829,7 +8942,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T13:46:14Z",
       "closedAt": null,
-      "waitingHours": 521.4873516666667,
+      "waitingHours": 523.5728213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -9011,7 +9124,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T11:02:08Z",
       "closedAt": null,
-      "waitingHours": 524.2223516666667,
+      "waitingHours": 526.3078213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -9028,7 +9141,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T09:54:27Z",
       "closedAt": null,
-      "waitingHours": 525.3504072222222,
+      "waitingHours": 527.4358769444444,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -9081,7 +9194,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T09:12:09Z",
       "closedAt": null,
-      "waitingHours": 526.0554072222222,
+      "waitingHours": 528.1408769444445,
       "comments": 0,
       "labels": [
         "bug",
@@ -9117,7 +9230,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T08:54:46Z",
       "closedAt": null,
-      "waitingHours": 526.3451294444444,
+      "waitingHours": 528.4305991666666,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -9189,7 +9302,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T08:28:01Z",
       "closedAt": null,
-      "waitingHours": 526.7909627777777,
+      "waitingHours": 528.8764325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -9224,7 +9337,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T08:23:34Z",
       "closedAt": null,
-      "waitingHours": 526.8651294444444,
+      "waitingHours": 528.9505991666666,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -9241,7 +9354,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T08:20:32Z",
       "closedAt": null,
-      "waitingHours": 526.915685,
+      "waitingHours": 529.0011547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -9294,7 +9407,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T08:14:09Z",
       "closedAt": null,
-      "waitingHours": 527.0220738888889,
+      "waitingHours": 529.107543611111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -9311,7 +9424,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T08:11:01Z",
       "closedAt": null,
-      "waitingHours": 527.0742961111112,
+      "waitingHours": 529.1597658333334,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -9347,7 +9460,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T08:06:53Z",
       "closedAt": null,
-      "waitingHours": 527.143185,
+      "waitingHours": 529.2286547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -9364,7 +9477,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T08:06:13Z",
       "closedAt": null,
-      "waitingHours": 527.1542961111111,
+      "waitingHours": 529.2397658333333,
       "comments": 0,
       "labels": [
         "bug",
@@ -9383,7 +9496,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T07:58:52Z",
       "closedAt": null,
-      "waitingHours": 527.2767961111111,
+      "waitingHours": 529.3622658333334,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -9400,7 +9513,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T07:57:31Z",
       "closedAt": null,
-      "waitingHours": 527.2992961111111,
+      "waitingHours": 529.3847658333333,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -9453,7 +9566,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T07:51:29Z",
       "closedAt": null,
-      "waitingHours": 527.3998516666667,
+      "waitingHours": 529.4853213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -9524,7 +9637,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T07:28:13Z",
       "closedAt": null,
-      "waitingHours": 527.7876294444444,
+      "waitingHours": 529.8730991666666,
       "comments": 1,
       "labels": [
         "bug",
@@ -9579,7 +9692,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T07:00:28Z",
       "closedAt": null,
-      "waitingHours": 528.2501294444445,
+      "waitingHours": 530.3355991666666,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -9667,7 +9780,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T06:38:16Z",
       "closedAt": null,
-      "waitingHours": 528.6201294444445,
+      "waitingHours": 530.7055991666666,
       "comments": 0,
       "labels": [
         "bug",
@@ -9703,7 +9816,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T03:48:58Z",
       "closedAt": null,
-      "waitingHours": 531.4417961111111,
+      "waitingHours": 533.5272658333333,
       "comments": 1,
       "labels": [
         "bug",
@@ -9720,7 +9833,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T03:31:46Z",
       "closedAt": null,
-      "waitingHours": 531.7284627777777,
+      "waitingHours": 533.8139325,
       "comments": 0,
       "labels": [
         "bug",
@@ -9756,7 +9869,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T03:24:19Z",
       "closedAt": null,
-      "waitingHours": 531.8526294444445,
+      "waitingHours": 533.9380991666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -9810,7 +9923,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T03:16:58Z",
       "closedAt": null,
-      "waitingHours": 531.9751294444444,
+      "waitingHours": 534.0605991666666,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/6748"
@@ -9878,7 +9991,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T02:31:33Z",
       "closedAt": null,
-      "waitingHours": 532.7320738888889,
+      "waitingHours": 534.8175436111111,
       "comments": 0,
       "labels": [
         "bug",
@@ -9933,7 +10046,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T02:23:20Z",
       "closedAt": null,
-      "waitingHours": 532.8690183333333,
+      "waitingHours": 534.9544880555555,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -10020,7 +10133,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T01:43:03Z",
       "closedAt": null,
-      "waitingHours": 533.5404072222223,
+      "waitingHours": 535.6258769444445,
       "comments": 2,
       "labels": [
         "bug",
@@ -10039,7 +10152,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-21T01:42:52Z",
       "closedAt": null,
-      "waitingHours": 533.5434627777778,
+      "waitingHours": 535.6289325,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -10184,7 +10297,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T11:40:51Z",
       "closedAt": null,
-      "waitingHours": 547.5770738888889,
+      "waitingHours": 549.6625436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -10202,7 +10315,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T11:39:30Z",
       "closedAt": null,
-      "waitingHours": 547.5995738888889,
+      "waitingHours": 549.6850436111112,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -10220,7 +10333,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T11:38:36Z",
       "closedAt": null,
-      "waitingHours": 547.6145738888889,
+      "waitingHours": 549.7000436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -10238,7 +10351,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T11:37:33Z",
       "closedAt": null,
-      "waitingHours": 547.6320738888888,
+      "waitingHours": 549.7175436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -10256,7 +10369,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T11:13:51Z",
       "closedAt": null,
-      "waitingHours": 548.0270738888889,
+      "waitingHours": 550.1125436111112,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -10273,7 +10386,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T11:09:16Z",
       "closedAt": null,
-      "waitingHours": 548.1034627777777,
+      "waitingHours": 550.1889325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -10291,7 +10404,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T11:06:49Z",
       "closedAt": null,
-      "waitingHours": 548.1442961111111,
+      "waitingHours": 550.2297658333333,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -10345,7 +10458,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T09:27:49Z",
       "closedAt": null,
-      "waitingHours": 549.7942961111111,
+      "waitingHours": 551.8797658333333,
       "comments": 1,
       "labels": [
         "bug",
@@ -10382,7 +10495,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T09:25:28Z",
       "closedAt": null,
-      "waitingHours": 549.8334627777778,
+      "waitingHours": 551.9189325,
       "comments": 0,
       "labels": [
         "bug",
@@ -10400,7 +10513,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T09:23:00Z",
       "closedAt": null,
-      "waitingHours": 549.8745738888889,
+      "waitingHours": 551.9600436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -10489,7 +10602,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T09:07:33Z",
       "closedAt": null,
-      "waitingHours": 550.1320738888888,
+      "waitingHours": 552.2175436111111,
       "comments": 0,
       "labels": [
         "bug",
@@ -10617,7 +10730,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T08:26:52Z",
       "closedAt": null,
-      "waitingHours": 550.8101294444444,
+      "waitingHours": 552.8955991666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -10779,7 +10892,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T07:46:37Z",
       "closedAt": null,
-      "waitingHours": 551.4809627777778,
+      "waitingHours": 553.5664325,
       "comments": 0,
       "labels": [
         "bug",
@@ -10851,7 +10964,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T07:23:32Z",
       "closedAt": null,
-      "waitingHours": 551.865685,
+      "waitingHours": 553.9511547222222,
       "comments": 0,
       "labels": [
         "bug",
@@ -10887,7 +11000,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T07:15:00Z",
       "closedAt": null,
-      "waitingHours": 552.0079072222222,
+      "waitingHours": 554.0933769444445,
       "comments": 0,
       "labels": [
         "bug",
@@ -10940,7 +11053,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T06:38:47Z",
       "closedAt": null,
-      "waitingHours": 552.6115183333334,
+      "waitingHours": 554.6969880555556,
       "comments": 0,
       "labels": [
         "bug",
@@ -11012,7 +11125,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T03:42:25Z",
       "closedAt": null,
-      "waitingHours": 555.5509627777777,
+      "waitingHours": 557.6364325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -11103,7 +11216,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T03:24:51Z",
       "closedAt": null,
-      "waitingHours": 555.8437405555555,
+      "waitingHours": 557.9292102777778,
       "comments": 0,
       "labels": [
         "bug",
@@ -11210,7 +11323,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T02:20:54Z",
       "closedAt": null,
-      "waitingHours": 556.9095738888889,
+      "waitingHours": 558.9950436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -11246,7 +11359,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T01:53:44Z",
       "closedAt": null,
-      "waitingHours": 557.3623516666667,
+      "waitingHours": 559.4478213888889,
       "comments": 0,
       "labels": [
         "bug",
@@ -11264,7 +11377,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T01:51:54Z",
       "closedAt": null,
-      "waitingHours": 557.3929072222222,
+      "waitingHours": 559.4783769444444,
       "comments": 0,
       "labels": [
         "bug",
@@ -11282,7 +11395,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T01:48:30Z",
       "closedAt": null,
-      "waitingHours": 557.4495738888888,
+      "waitingHours": 559.5350436111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/6552"
@@ -11314,7 +11427,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T01:13:29Z",
       "closedAt": null,
-      "waitingHours": 558.033185,
+      "waitingHours": 560.1186547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -11332,7 +11445,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-19T23:53:29Z",
       "closedAt": null,
-      "waitingHours": 559.3665183333334,
+      "waitingHours": 561.4519880555556,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -11350,7 +11463,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-19T14:10:18Z",
       "closedAt": null,
-      "waitingHours": 569.0862405555556,
+      "waitingHours": 571.1717102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -11367,7 +11480,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-19T14:07:55Z",
       "closedAt": null,
-      "waitingHours": 569.1259627777778,
+      "waitingHours": 571.2114325,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/6540"
@@ -11381,7 +11494,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-19T14:02:29Z",
       "closedAt": null,
-      "waitingHours": 569.2165183333333,
+      "waitingHours": 571.3019880555555,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -11398,7 +11511,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-19T13:25:37Z",
       "closedAt": null,
-      "waitingHours": 569.8309627777778,
+      "waitingHours": 571.9164325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -11483,7 +11596,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T23:46:16Z",
       "closedAt": null,
-      "waitingHours": 583.4867961111111,
+      "waitingHours": 585.5722658333333,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -11500,7 +11613,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T10:38:59Z",
       "closedAt": null,
-      "waitingHours": 596.608185,
+      "waitingHours": 598.6936547222223,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -11517,7 +11630,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T10:26:42Z",
       "closedAt": null,
-      "waitingHours": 596.8129072222222,
+      "waitingHours": 598.8983769444444,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -11663,7 +11776,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T09:27:23Z",
       "closedAt": null,
-      "waitingHours": 597.8015183333333,
+      "waitingHours": 599.8869880555555,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -11680,7 +11793,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T09:25:59Z",
       "closedAt": null,
-      "waitingHours": 597.8248516666666,
+      "waitingHours": 599.9103213888889,
       "comments": 0,
       "labels": [
         "bug",
@@ -11752,7 +11865,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T09:08:07Z",
       "closedAt": null,
-      "waitingHours": 598.1226294444444,
+      "waitingHours": 600.2080991666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -11770,7 +11883,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T09:03:24Z",
       "closedAt": null,
-      "waitingHours": 598.2012405555555,
+      "waitingHours": 600.2867102777777,
       "comments": 0,
       "labels": [
         "bug",
@@ -12200,7 +12313,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T07:44:46Z",
       "closedAt": null,
-      "waitingHours": 599.5117961111112,
+      "waitingHours": 601.5972658333334,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -12271,7 +12384,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T07:18:27Z",
       "closedAt": null,
-      "waitingHours": 599.9504072222222,
+      "waitingHours": 602.0358769444445,
       "comments": 3,
       "labels": [
         "bug",
@@ -12290,7 +12403,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T07:15:28Z",
       "closedAt": null,
-      "waitingHours": 600.0001294444445,
+      "waitingHours": 602.0855991666666,
       "comments": 0,
       "labels": [
         "bug",
@@ -12327,7 +12440,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T06:59:35Z",
       "closedAt": null,
-      "waitingHours": 600.2648516666667,
+      "waitingHours": 602.3503213888889,
       "comments": 2,
       "labels": [
         "bug",
@@ -12364,7 +12477,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T06:57:34Z",
       "closedAt": null,
-      "waitingHours": 600.2984627777778,
+      "waitingHours": 602.3839325,
       "comments": 0,
       "labels": [
         "bug",
@@ -12471,7 +12584,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T06:11:59Z",
       "closedAt": null,
-      "waitingHours": 601.058185,
+      "waitingHours": 603.1436547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -12488,7 +12601,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T04:56:56Z",
       "closedAt": null,
-      "waitingHours": 602.3090183333334,
+      "waitingHours": 604.3944880555556,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -12577,8 +12690,8 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T03:34:10Z",
       "closedAt": null,
-      "waitingHours": 603.6884627777778,
-      "comments": 0,
+      "waitingHours": 605.7739325,
+      "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
         "priority/major"
@@ -12612,7 +12725,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T03:17:48Z",
       "closedAt": null,
-      "waitingHours": 603.9612405555556,
+      "waitingHours": 606.0467102777778,
       "comments": 2,
       "labels": [
         "bug",
@@ -12667,7 +12780,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T02:57:00Z",
       "closedAt": null,
-      "waitingHours": 604.3079072222222,
+      "waitingHours": 606.3933769444444,
       "comments": 0,
       "labels": [
         "bug",
@@ -12792,7 +12905,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T02:13:08Z",
       "closedAt": null,
-      "waitingHours": 605.0390183333334,
+      "waitingHours": 607.1244880555555,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -12880,7 +12993,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T01:44:53Z",
       "closedAt": null,
-      "waitingHours": 605.5098516666667,
+      "waitingHours": 607.5953213888889,
       "comments": 3,
       "labels": [
         "bug",
@@ -13035,16 +13148,17 @@
       "title": "[Feature]: 安全护栏支持Agent/插件等隔离",
       "author": "openjiuwen-collaboration-bot[bot]",
       "contributionType": "unknown",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-09-17T12:02:18Z",
-      "closedAt": null,
-      "waitingHours": 619.2195738888889,
+      "closedAt": "2026-10-13T08:23:19Z",
+      "waitingHours": null,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
         "feature",
-        "priority/normal"
+        "priority/normal",
+        "status/DONE"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/6326"
     },
@@ -13264,7 +13378,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T11:39:23Z",
       "closedAt": null,
-      "waitingHours": 619.6015183333334,
+      "waitingHours": 621.6869880555555,
       "comments": 0,
       "labels": [
         "bug",
@@ -13387,7 +13501,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T11:33:31Z",
       "closedAt": null,
-      "waitingHours": 619.6992961111112,
+      "waitingHours": 621.7847658333334,
       "comments": 0,
       "labels": [
         "bug",
@@ -13699,7 +13813,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T08:49:31Z",
       "closedAt": null,
-      "waitingHours": 622.4326294444445,
+      "waitingHours": 624.5180991666666,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -13716,7 +13830,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T08:49:29Z",
       "closedAt": null,
-      "waitingHours": 622.433185,
+      "waitingHours": 624.5186547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -13733,7 +13847,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T08:45:23Z",
       "closedAt": null,
-      "waitingHours": 622.5015183333334,
+      "waitingHours": 624.5869880555556,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -13819,7 +13933,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T07:50:28Z",
       "closedAt": null,
-      "waitingHours": 623.4167961111111,
+      "waitingHours": 625.5022658333334,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -13925,7 +14039,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T07:23:19Z",
       "closedAt": null,
-      "waitingHours": 623.8692961111111,
+      "waitingHours": 625.9547658333333,
       "comments": 0,
       "labels": [
         "bug",
@@ -14047,7 +14161,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T06:49:59Z",
       "closedAt": null,
-      "waitingHours": 624.4248516666667,
+      "waitingHours": 626.5103213888889,
       "comments": 0,
       "labels": [
         "bug",
@@ -14065,7 +14179,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T06:36:33Z",
       "closedAt": null,
-      "waitingHours": 624.6487405555556,
+      "waitingHours": 626.7342102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14171,7 +14285,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T06:21:03Z",
       "closedAt": null,
-      "waitingHours": 624.9070738888889,
+      "waitingHours": 626.9925436111112,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14242,7 +14356,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T05:07:05Z",
       "closedAt": null,
-      "waitingHours": 626.1398516666667,
+      "waitingHours": 628.2253213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14259,7 +14373,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T05:04:41Z",
       "closedAt": null,
-      "waitingHours": 626.1798516666667,
+      "waitingHours": 628.2653213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14348,7 +14462,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T03:34:41Z",
       "closedAt": null,
-      "waitingHours": 627.6798516666667,
+      "waitingHours": 629.7653213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14382,7 +14496,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T03:16:22Z",
       "closedAt": null,
-      "waitingHours": 627.9851294444444,
+      "waitingHours": 630.0705991666666,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14519,7 +14633,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T02:30:22Z",
       "closedAt": null,
-      "waitingHours": 628.7517961111112,
+      "waitingHours": 630.8372658333333,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14536,7 +14650,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T02:29:49Z",
       "closedAt": null,
-      "waitingHours": 628.7609627777778,
+      "waitingHours": 630.8464325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14572,7 +14686,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T02:05:54Z",
       "closedAt": null,
-      "waitingHours": 629.1595738888889,
+      "waitingHours": 631.2450436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14609,7 +14723,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T01:53:11Z",
       "closedAt": null,
-      "waitingHours": 629.3715183333334,
+      "waitingHours": 631.4569880555556,
       "comments": 2,
       "labels": [
         "documentation",
@@ -14681,7 +14795,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T01:23:12Z",
       "closedAt": null,
-      "waitingHours": 629.8712405555556,
+      "waitingHours": 631.9567102777778,
       "comments": 1,
       "labels": [
         "bug",
@@ -14717,7 +14831,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T15:20:51Z",
       "closedAt": null,
-      "waitingHours": 639.9104072222223,
+      "waitingHours": 641.9958769444445,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14734,7 +14848,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T14:51:15Z",
       "closedAt": null,
-      "waitingHours": 640.4037405555556,
+      "waitingHours": 642.4892102777778,
       "comments": 2,
       "labels": [
         "sig/jiuwenswarm",
@@ -14751,7 +14865,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T14:39:13Z",
       "closedAt": null,
-      "waitingHours": 640.6042961111111,
+      "waitingHours": 642.6897658333334,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14768,7 +14882,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T14:26:45Z",
       "closedAt": null,
-      "waitingHours": 640.8120738888889,
+      "waitingHours": 642.8975436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14785,7 +14899,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T13:33:47Z",
       "closedAt": null,
-      "waitingHours": 641.6948516666666,
+      "waitingHours": 643.7803213888889,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/6169"
@@ -14816,7 +14930,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T11:30:40Z",
       "closedAt": null,
-      "waitingHours": 643.7467961111112,
+      "waitingHours": 645.8322658333333,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14833,7 +14947,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T11:15:14Z",
       "closedAt": null,
-      "waitingHours": 644.0040183333333,
+      "waitingHours": 646.0894880555555,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14850,7 +14964,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T10:57:39Z",
       "closedAt": null,
-      "waitingHours": 644.2970738888889,
+      "waitingHours": 646.3825436111111,
       "comments": 0,
       "labels": [
         "bug"
@@ -14866,7 +14980,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T10:57:35Z",
       "closedAt": null,
-      "waitingHours": 644.298185,
+      "waitingHours": 646.3836547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14883,7 +14997,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T10:15:24Z",
       "closedAt": null,
-      "waitingHours": 645.0012405555556,
+      "waitingHours": 647.0867102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -14900,7 +15014,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T10:06:57Z",
       "closedAt": null,
-      "waitingHours": 645.142073888889,
+      "waitingHours": 647.2275436111111,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -14953,7 +15067,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T09:03:51Z",
       "closedAt": null,
-      "waitingHours": 646.1937405555556,
+      "waitingHours": 648.2792102777778,
       "comments": 0,
       "labels": [
         "bug",
@@ -15005,7 +15119,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T08:22:46Z",
       "closedAt": null,
-      "waitingHours": 646.8784627777778,
+      "waitingHours": 648.9639325,
       "comments": 0,
       "labels": [
         "bug",
@@ -15151,7 +15265,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T07:45:36Z",
       "closedAt": null,
-      "waitingHours": 647.4979072222222,
+      "waitingHours": 649.5833769444445,
       "comments": 0,
       "labels": [
         "bug",
@@ -15240,7 +15354,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T06:39:08Z",
       "closedAt": null,
-      "waitingHours": 648.605685,
+      "waitingHours": 650.6911547222222,
       "comments": 0,
       "labels": [
         "bug"
@@ -15306,7 +15420,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T06:17:13Z",
       "closedAt": null,
-      "waitingHours": 648.9709627777778,
+      "waitingHours": 651.0564325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -15358,7 +15472,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T04:25:45Z",
       "closedAt": null,
-      "waitingHours": 650.8287405555556,
+      "waitingHours": 652.9142102777778,
       "comments": 3,
       "labels": [
         "bug",
@@ -15376,7 +15490,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T03:26:59Z",
       "closedAt": null,
-      "waitingHours": 651.808185,
+      "waitingHours": 653.8936547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -15481,7 +15595,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T02:38:31Z",
       "closedAt": null,
-      "waitingHours": 652.6159627777778,
+      "waitingHours": 654.7014325,
       "comments": 0,
       "labels": [
         "bug",
@@ -15552,7 +15666,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T02:02:30Z",
       "closedAt": null,
-      "waitingHours": 653.2162405555556,
+      "waitingHours": 655.3017102777778,
       "comments": 0,
       "labels": [
         "bug",
@@ -15587,7 +15701,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T01:24:53Z",
       "closedAt": null,
-      "waitingHours": 653.843185,
+      "waitingHours": 655.9286547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -15605,7 +15719,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T01:21:24Z",
       "closedAt": null,
-      "waitingHours": 653.9012405555555,
+      "waitingHours": 655.9867102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -15677,7 +15791,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T01:02:03Z",
       "closedAt": null,
-      "waitingHours": 654.2237405555555,
+      "waitingHours": 656.3092102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -15695,7 +15809,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T16:39:23Z",
       "closedAt": null,
-      "waitingHours": 662.6015183333334,
+      "waitingHours": 664.6869880555555,
       "comments": 0,
       "labels": [
         "bug"
@@ -15799,7 +15913,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T12:17:13Z",
       "closedAt": null,
-      "waitingHours": 666.9709627777778,
+      "waitingHours": 669.0564325,
       "comments": 2,
       "labels": [
         "bug",
@@ -15854,7 +15968,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T11:36:31Z",
       "closedAt": null,
-      "waitingHours": 667.6492961111111,
+      "waitingHours": 669.7347658333333,
       "comments": 0,
       "labels": [
         "bug",
@@ -15908,7 +16022,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T11:14:06Z",
       "closedAt": null,
-      "waitingHours": 668.0229072222222,
+      "waitingHours": 670.1083769444444,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/6027"
@@ -15922,7 +16036,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T11:11:54Z",
       "closedAt": null,
-      "waitingHours": 668.0595738888888,
+      "waitingHours": 670.1450436111111,
       "comments": 2,
       "labels": [
         "sig/jiuwenswarm",
@@ -16078,7 +16192,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T09:38:15Z",
       "closedAt": null,
-      "waitingHours": 669.6204072222222,
+      "waitingHours": 671.7058769444444,
       "comments": 1,
       "labels": [
         "bug",
@@ -16113,7 +16227,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T09:36:10Z",
       "closedAt": null,
-      "waitingHours": 669.6551294444445,
+      "waitingHours": 671.7405991666667,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -16200,7 +16314,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T08:13:14Z",
       "closedAt": null,
-      "waitingHours": 671.0373516666667,
+      "waitingHours": 673.1228213888888,
       "comments": 0,
       "labels": [
         "bug",
@@ -16272,7 +16386,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T08:05:45Z",
       "closedAt": null,
-      "waitingHours": 671.1620738888889,
+      "waitingHours": 673.2475436111112,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -16342,7 +16456,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T07:29:12Z",
       "closedAt": null,
-      "waitingHours": 671.7712405555556,
+      "waitingHours": 673.8567102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -16429,7 +16543,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T06:34:36Z",
       "closedAt": null,
-      "waitingHours": 672.6812405555555,
+      "waitingHours": 674.7667102777777,
       "comments": 0,
       "labels": [
         "bug",
@@ -16465,7 +16579,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T06:23:53Z",
       "closedAt": null,
-      "waitingHours": 672.8598516666667,
+      "waitingHours": 674.9453213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -16482,7 +16596,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T06:21:26Z",
       "closedAt": null,
-      "waitingHours": 672.900685,
+      "waitingHours": 674.9861547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -16516,7 +16630,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T06:16:26Z",
       "closedAt": null,
-      "waitingHours": 672.9840183333333,
+      "waitingHours": 675.0694880555556,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -16571,7 +16685,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T03:43:19Z",
       "closedAt": null,
-      "waitingHours": 675.5359627777777,
+      "waitingHours": 677.6214325,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/5951"
@@ -16639,7 +16753,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T03:17:25Z",
       "closedAt": null,
-      "waitingHours": 675.9676294444445,
+      "waitingHours": 678.0530991666667,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -16657,7 +16771,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T03:13:13Z",
       "closedAt": null,
-      "waitingHours": 676.0376294444444,
+      "waitingHours": 678.1230991666666,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -16695,7 +16809,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T02:40:49Z",
       "closedAt": null,
-      "waitingHours": 676.5776294444445,
+      "waitingHours": 678.6630991666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -16730,7 +16844,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T02:24:52Z",
       "closedAt": null,
-      "waitingHours": 676.8434627777777,
+      "waitingHours": 678.9289325,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/5934"
@@ -16744,7 +16858,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T02:21:48Z",
       "closedAt": null,
-      "waitingHours": 676.8945738888889,
+      "waitingHours": 678.9800436111111,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/5933"
@@ -16758,7 +16872,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T02:02:03Z",
       "closedAt": null,
-      "waitingHours": 677.2237405555555,
+      "waitingHours": 679.3092102777778,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/5932"
@@ -16772,7 +16886,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T01:56:11Z",
       "closedAt": null,
-      "waitingHours": 677.3215183333333,
+      "waitingHours": 679.4069880555555,
       "comments": 1,
       "labels": [
         "bug",
@@ -16826,7 +16940,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T01:35:55Z",
       "closedAt": null,
-      "waitingHours": 677.6592961111111,
+      "waitingHours": 679.7447658333333,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -16843,7 +16957,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T01:32:15Z",
       "closedAt": null,
-      "waitingHours": 677.7204072222222,
+      "waitingHours": 679.8058769444444,
       "comments": 0,
       "labels": [
         "bug",
@@ -16861,7 +16975,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T13:33:32Z",
       "closedAt": null,
-      "waitingHours": 689.6990183333334,
+      "waitingHours": 691.7844880555556,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -16879,7 +16993,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T12:45:12Z",
       "closedAt": null,
-      "waitingHours": 690.5045738888889,
+      "waitingHours": 692.5900436111111,
       "comments": 1,
       "labels": [
         "bug",
@@ -16968,7 +17082,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T11:42:13Z",
       "closedAt": null,
-      "waitingHours": 691.5542961111111,
+      "waitingHours": 693.6397658333333,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -17002,7 +17116,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T11:07:55Z",
       "closedAt": null,
-      "waitingHours": 692.1259627777778,
+      "waitingHours": 694.2114325,
       "comments": 0,
       "labels": [
         "bug",
@@ -17020,7 +17134,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T10:22:13Z",
       "closedAt": null,
-      "waitingHours": 692.8876294444444,
+      "waitingHours": 694.9730991666667,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -17054,7 +17168,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T09:33:40Z",
       "closedAt": null,
-      "waitingHours": 693.6967961111111,
+      "waitingHours": 695.7822658333333,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -17071,7 +17185,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T09:23:05Z",
       "closedAt": null,
-      "waitingHours": 693.873185,
+      "waitingHours": 695.9586547222223,
       "comments": 0,
       "labels": [
         "bug",
@@ -17089,7 +17203,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T09:22:42Z",
       "closedAt": null,
-      "waitingHours": 693.8795738888889,
+      "waitingHours": 695.9650436111111,
       "comments": 0,
       "labels": [
         "bug",
@@ -17108,7 +17222,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T09:21:11Z",
       "closedAt": null,
-      "waitingHours": 693.9048516666667,
+      "waitingHours": 695.9903213888889,
       "comments": 0,
       "labels": [
         "bug",
@@ -17127,7 +17241,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T09:18:35Z",
       "closedAt": null,
-      "waitingHours": 693.948185,
+      "waitingHours": 696.0336547222222,
       "comments": 0,
       "labels": [
         "bug",
@@ -17199,7 +17313,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T08:16:45Z",
       "closedAt": null,
-      "waitingHours": 694.9787405555555,
+      "waitingHours": 697.0642102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -17234,7 +17348,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T07:54:06Z",
       "closedAt": null,
-      "waitingHours": 695.3562405555556,
+      "waitingHours": 697.4417102777778,
       "comments": 0,
       "labels": [
         "bug",
@@ -17270,7 +17384,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T07:47:16Z",
       "closedAt": null,
-      "waitingHours": 695.4701294444444,
+      "waitingHours": 697.5555991666666,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -17342,7 +17456,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T06:50:58Z",
       "closedAt": null,
-      "waitingHours": 696.4084627777778,
+      "waitingHours": 698.4939325,
       "comments": 0,
       "labels": [
         "bug",
@@ -17377,7 +17491,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T03:41:11Z",
       "closedAt": null,
-      "waitingHours": 699.5715183333333,
+      "waitingHours": 701.6569880555555,
       "comments": 0,
       "labels": [
         "bug",
@@ -17434,7 +17548,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T03:31:26Z",
       "closedAt": null,
-      "waitingHours": 699.7340183333333,
+      "waitingHours": 701.8194880555556,
       "comments": 1,
       "labels": [
         "bug",
@@ -17471,7 +17585,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T03:29:14Z",
       "closedAt": null,
-      "waitingHours": 699.770685,
+      "waitingHours": 701.8561547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -17526,7 +17640,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-14T02:53:39Z",
       "closedAt": null,
-      "waitingHours": 700.3637405555555,
+      "waitingHours": 702.4492102777778,
       "comments": 1,
       "labels": [
         "bug",
@@ -17618,7 +17732,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-13T19:16:16Z",
       "closedAt": null,
-      "waitingHours": 707.9867961111111,
+      "waitingHours": 710.0722658333333,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/5831"
@@ -17632,7 +17746,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-13T13:30:20Z",
       "closedAt": null,
-      "waitingHours": 713.7523516666666,
+      "waitingHours": 715.8378213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -17683,7 +17797,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-13T04:35:49Z",
       "closedAt": null,
-      "waitingHours": 722.6609627777777,
+      "waitingHours": 724.7464325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -17700,7 +17814,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-13T03:56:33Z",
       "closedAt": null,
-      "waitingHours": 723.3154072222222,
+      "waitingHours": 725.4008769444445,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -17717,7 +17831,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-13T03:51:38Z",
       "closedAt": null,
-      "waitingHours": 723.3973516666666,
+      "waitingHours": 725.4828213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -17734,7 +17848,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-13T03:37:27Z",
       "closedAt": null,
-      "waitingHours": 723.6337405555555,
+      "waitingHours": 725.7192102777777,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -17962,7 +18076,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-12T02:21:13Z",
       "closedAt": null,
-      "waitingHours": 748.9042961111111,
+      "waitingHours": 750.9897658333333,
       "comments": 0,
       "labels": [
         "bug",
@@ -18017,7 +18131,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-12T01:33:15Z",
       "closedAt": null,
-      "waitingHours": 749.7037405555556,
+      "waitingHours": 751.7892102777778,
       "comments": 0,
       "labels": [
         "bug",
@@ -18035,7 +18149,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-12T01:28:57Z",
       "closedAt": null,
-      "waitingHours": 749.7754072222223,
+      "waitingHours": 751.8608769444445,
       "comments": 0,
       "labels": [
         "bug",
@@ -18053,7 +18167,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T14:36:29Z",
       "closedAt": null,
-      "waitingHours": 760.6498516666667,
+      "waitingHours": 762.7353213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -18126,7 +18240,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T11:05:28Z",
       "closedAt": null,
-      "waitingHours": 764.1667961111111,
+      "waitingHours": 766.2522658333334,
       "comments": 0,
       "labels": [
         "bug",
@@ -18162,7 +18276,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T09:59:03Z",
       "closedAt": null,
-      "waitingHours": 765.2737405555556,
+      "waitingHours": 767.3592102777778,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/5770"
@@ -18265,7 +18379,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T08:27:21Z",
       "closedAt": null,
-      "waitingHours": 766.8020738888889,
+      "waitingHours": 768.8875436111111,
       "comments": 0,
       "labels": [
         "bug",
@@ -18284,7 +18398,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T08:21:13Z",
       "closedAt": null,
-      "waitingHours": 766.9042961111111,
+      "waitingHours": 768.9897658333333,
       "comments": 0,
       "labels": [
         "bug",
@@ -18321,7 +18435,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T08:01:40Z",
       "closedAt": null,
-      "waitingHours": 767.2301294444444,
+      "waitingHours": 769.3155991666666,
       "comments": 0,
       "labels": [
         "bug",
@@ -18339,7 +18453,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T07:51:05Z",
       "closedAt": null,
-      "waitingHours": 767.4065183333333,
+      "waitingHours": 769.4919880555556,
       "comments": 0,
       "labels": [
         "bug",
@@ -18410,7 +18524,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T07:10:28Z",
       "closedAt": null,
-      "waitingHours": 768.0834627777778,
+      "waitingHours": 770.1689325,
       "comments": 0,
       "labels": [
         "bug",
@@ -18447,7 +18561,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T06:23:23Z",
       "closedAt": null,
-      "waitingHours": 768.868185,
+      "waitingHours": 770.9536547222223,
       "comments": 1,
       "labels": [
         "bug",
@@ -18467,7 +18581,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T04:06:02Z",
       "closedAt": null,
-      "waitingHours": 771.1573516666666,
+      "waitingHours": 773.2428213888888,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/5712"
@@ -18518,7 +18632,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T03:45:26Z",
       "closedAt": null,
-      "waitingHours": 771.500685,
+      "waitingHours": 773.5861547222222,
       "comments": 1,
       "labels": [
         "bug",
@@ -18591,7 +18705,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T03:16:05Z",
       "closedAt": null,
-      "waitingHours": 771.9898516666667,
+      "waitingHours": 774.0753213888889,
       "comments": 0,
       "labels": [
         "bug",
@@ -18645,7 +18759,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T02:58:12Z",
       "closedAt": null,
-      "waitingHours": 772.2879072222222,
+      "waitingHours": 774.3733769444444,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/5690"
@@ -18659,7 +18773,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T02:58:11Z",
       "closedAt": null,
-      "waitingHours": 772.288185,
+      "waitingHours": 774.3736547222222,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/5689"
@@ -18673,7 +18787,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T02:47:58Z",
       "closedAt": null,
-      "waitingHours": 772.4584627777778,
+      "waitingHours": 774.5439325,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/5688"
@@ -18722,7 +18836,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T02:01:47Z",
       "closedAt": null,
-      "waitingHours": 773.228185,
+      "waitingHours": 775.3136547222222,
       "comments": 0,
       "labels": [
         "bug",
@@ -18740,7 +18854,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T01:54:48Z",
       "closedAt": null,
-      "waitingHours": 773.3445738888889,
+      "waitingHours": 775.4300436111112,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -18757,7 +18871,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T01:50:12Z",
       "closedAt": null,
-      "waitingHours": 773.4212405555555,
+      "waitingHours": 775.5067102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -18830,7 +18944,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T01:33:47Z",
       "closedAt": null,
-      "waitingHours": 773.6948516666666,
+      "waitingHours": 775.7803213888889,
       "comments": 1,
       "labels": [
         "bug",
@@ -18850,7 +18964,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-11T01:25:33Z",
       "closedAt": null,
-      "waitingHours": 773.8320738888889,
+      "waitingHours": 775.9175436111111,
       "comments": 0,
       "labels": [
         "bug",
@@ -18887,7 +19001,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T21:01:41Z",
       "closedAt": null,
-      "waitingHours": 778.2298516666667,
+      "waitingHours": 780.3153213888888,
       "comments": 0,
       "labels": [
         "bug"
@@ -18977,7 +19091,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T12:54:53Z",
       "closedAt": null,
-      "waitingHours": 786.343185,
+      "waitingHours": 788.4286547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -19029,7 +19143,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T12:18:20Z",
       "closedAt": null,
-      "waitingHours": 786.9523516666667,
+      "waitingHours": 789.0378213888889,
       "comments": 0,
       "labels": [
         "bug",
@@ -19066,7 +19180,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T12:11:05Z",
       "closedAt": null,
-      "waitingHours": 787.073185,
+      "waitingHours": 789.1586547222222,
       "comments": 0,
       "labels": [
         "bug",
@@ -19155,7 +19269,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T11:37:06Z",
       "closedAt": null,
-      "waitingHours": 787.6395738888889,
+      "waitingHours": 789.7250436111111,
       "comments": 0,
       "labels": [
         "bug",
@@ -19191,7 +19305,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T11:15:10Z",
       "closedAt": null,
-      "waitingHours": 788.0051294444445,
+      "waitingHours": 790.0905991666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -19243,7 +19357,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T11:02:55Z",
       "closedAt": null,
-      "waitingHours": 788.2092961111111,
+      "waitingHours": 790.2947658333334,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/5609"
@@ -19401,7 +19515,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T09:12:08Z",
       "closedAt": null,
-      "waitingHours": 790.055685,
+      "waitingHours": 792.1411547222223,
       "comments": 3,
       "labels": [
         "bug",
@@ -19473,7 +19587,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T08:48:22Z",
       "closedAt": null,
-      "waitingHours": 790.4517961111111,
+      "waitingHours": 792.5372658333333,
       "comments": 0,
       "labels": [
         "bug",
@@ -19492,7 +19606,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T08:45:05Z",
       "closedAt": null,
-      "waitingHours": 790.5065183333334,
+      "waitingHours": 792.5919880555556,
       "comments": 2,
       "labels": [
         "bug",
@@ -19545,7 +19659,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T08:34:56Z",
       "closedAt": null,
-      "waitingHours": 790.675685,
+      "waitingHours": 792.7611547222223,
       "comments": 0,
       "labels": [
         "bug",
@@ -19581,7 +19695,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T08:24:37Z",
       "closedAt": null,
-      "waitingHours": 790.8476294444445,
+      "waitingHours": 792.9330991666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -19600,7 +19714,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T08:00:27Z",
       "closedAt": null,
-      "waitingHours": 791.2504072222222,
+      "waitingHours": 793.3358769444444,
       "comments": 0,
       "labels": [
         "bug",
@@ -19653,7 +19767,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T06:47:44Z",
       "closedAt": null,
-      "waitingHours": 792.4623516666667,
+      "waitingHours": 794.5478213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -19670,7 +19784,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T06:42:55Z",
       "closedAt": null,
-      "waitingHours": 792.5426294444444,
+      "waitingHours": 794.6280991666666,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -19687,7 +19801,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T06:42:30Z",
       "closedAt": null,
-      "waitingHours": 792.5495738888889,
+      "waitingHours": 794.6350436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -20002,7 +20116,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T02:14:40Z",
       "closedAt": null,
-      "waitingHours": 797.0134627777778,
+      "waitingHours": 799.0989325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -20019,7 +20133,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T02:11:24Z",
       "closedAt": null,
-      "waitingHours": 797.0679072222222,
+      "waitingHours": 799.1533769444444,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -20036,7 +20150,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T02:10:51Z",
       "closedAt": null,
-      "waitingHours": 797.0770738888889,
+      "waitingHours": 799.1625436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -20053,7 +20167,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T02:06:39Z",
       "closedAt": null,
-      "waitingHours": 797.1470738888889,
+      "waitingHours": 799.232543611111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -20088,7 +20202,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-10T01:21:22Z",
       "closedAt": null,
-      "waitingHours": 797.9017961111111,
+      "waitingHours": 799.9872658333334,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -20105,7 +20219,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-09T16:15:01Z",
       "closedAt": null,
-      "waitingHours": 807.0076294444444,
+      "waitingHours": 809.0930991666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/5489"
@@ -20189,7 +20303,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-09T09:35:57Z",
       "closedAt": null,
-      "waitingHours": 813.6587405555556,
+      "waitingHours": 815.7442102777778,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/5473"
@@ -20346,7 +20460,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-09T08:20:17Z",
       "closedAt": null,
-      "waitingHours": 814.9198516666667,
+      "waitingHours": 817.0053213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -20417,7 +20531,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-09T07:24:31Z",
       "closedAt": null,
-      "waitingHours": 815.8492961111111,
+      "waitingHours": 817.9347658333334,
       "comments": 0,
       "labels": [
         "bug",
@@ -20488,7 +20602,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-09T04:02:25Z",
       "closedAt": null,
-      "waitingHours": 819.2176294444445,
+      "waitingHours": 821.3030991666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -20506,7 +20620,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-09T03:38:05Z",
       "closedAt": null,
-      "waitingHours": 819.623185,
+      "waitingHours": 821.7086547222223,
       "comments": 0,
       "labels": [
         "bug",
@@ -20577,7 +20691,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-09T03:18:37Z",
       "closedAt": null,
-      "waitingHours": 819.9476294444445,
+      "waitingHours": 822.0330991666667,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -20612,7 +20726,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-09T03:10:31Z",
       "closedAt": null,
-      "waitingHours": 820.0826294444445,
+      "waitingHours": 822.1680991666667,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -20665,7 +20779,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-09T02:34:34Z",
       "closedAt": null,
-      "waitingHours": 820.6817961111111,
+      "waitingHours": 822.7672658333333,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -20700,7 +20814,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-09T02:29:41Z",
       "closedAt": null,
-      "waitingHours": 820.763185,
+      "waitingHours": 822.8486547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -20738,7 +20852,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T12:48:48Z",
       "closedAt": null,
-      "waitingHours": 834.4445738888888,
+      "waitingHours": 836.5300436111111,
       "comments": 0,
       "labels": [
         "bug",
@@ -20915,7 +21029,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T10:14:27Z",
       "closedAt": null,
-      "waitingHours": 837.017073888889,
+      "waitingHours": 839.1025436111111,
       "comments": 0,
       "labels": [
         "bug",
@@ -20968,7 +21082,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T09:46:18Z",
       "closedAt": null,
-      "waitingHours": 837.4862405555556,
+      "waitingHours": 839.5717102777778,
       "comments": 1,
       "labels": [
         "bug",
@@ -21038,7 +21152,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T09:02:39Z",
       "closedAt": null,
-      "waitingHours": 838.2137405555555,
+      "waitingHours": 840.2992102777778,
       "comments": 0,
       "labels": [
         "bug",
@@ -21110,7 +21224,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T08:37:49Z",
       "closedAt": null,
-      "waitingHours": 838.6276294444444,
+      "waitingHours": 840.7130991666667,
       "comments": 0,
       "labels": [
         "bug",
@@ -21162,7 +21276,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T08:23:50Z",
       "closedAt": null,
-      "waitingHours": 838.860685,
+      "waitingHours": 840.9461547222222,
       "comments": 0,
       "labels": [
         "documentation",
@@ -21216,7 +21330,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T07:52:21Z",
       "closedAt": null,
-      "waitingHours": 839.3854072222222,
+      "waitingHours": 841.4708769444444,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -21254,7 +21368,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T07:44:22Z",
       "closedAt": null,
-      "waitingHours": 839.5184627777778,
+      "waitingHours": 841.6039325,
       "comments": 0,
       "labels": [
         "bug",
@@ -21290,7 +21404,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T07:39:33Z",
       "closedAt": null,
-      "waitingHours": 839.5987405555555,
+      "waitingHours": 841.6842102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -21308,7 +21422,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T07:39:11Z",
       "closedAt": null,
-      "waitingHours": 839.6048516666667,
+      "waitingHours": 841.6903213888888,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -21344,7 +21458,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T07:33:44Z",
       "closedAt": null,
-      "waitingHours": 839.695685,
+      "waitingHours": 841.7811547222223,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -21363,7 +21477,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T07:27:02Z",
       "closedAt": null,
-      "waitingHours": 839.8073516666667,
+      "waitingHours": 841.8928213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -21435,7 +21549,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T06:53:49Z",
       "closedAt": null,
-      "waitingHours": 840.3609627777778,
+      "waitingHours": 842.4464325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -21490,7 +21604,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T06:28:51Z",
       "closedAt": null,
-      "waitingHours": 840.7770738888889,
+      "waitingHours": 842.8625436111112,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -21542,7 +21656,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T04:18:47Z",
       "closedAt": null,
-      "waitingHours": 842.9448516666666,
+      "waitingHours": 845.0303213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -21612,7 +21726,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T03:35:07Z",
       "closedAt": null,
-      "waitingHours": 843.6726294444444,
+      "waitingHours": 845.7580991666666,
       "comments": 0,
       "labels": [
         "bug",
@@ -21630,7 +21744,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T03:22:29Z",
       "closedAt": null,
-      "waitingHours": 843.883185,
+      "waitingHours": 845.9686547222223,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -21649,7 +21763,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T03:20:04Z",
       "closedAt": null,
-      "waitingHours": 843.9234627777778,
+      "waitingHours": 846.0089325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -21914,7 +22028,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-08T01:23:52Z",
       "closedAt": null,
-      "waitingHours": 845.8601294444444,
+      "waitingHours": 847.9455991666666,
       "comments": 4,
       "labels": [
         "bug",
@@ -22075,7 +22189,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T11:39:57Z",
       "closedAt": null,
-      "waitingHours": 859.5920738888889,
+      "waitingHours": 861.6775436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -22164,7 +22278,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T11:11:43Z",
       "closedAt": null,
-      "waitingHours": 860.0626294444445,
+      "waitingHours": 862.1480991666666,
       "comments": 0,
       "labels": [
         "bug",
@@ -22182,7 +22296,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T11:07:06Z",
       "closedAt": null,
-      "waitingHours": 860.1395738888889,
+      "waitingHours": 862.2250436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -22235,7 +22349,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T10:56:22Z",
       "closedAt": null,
-      "waitingHours": 860.3184627777778,
+      "waitingHours": 862.4039325,
       "comments": 0,
       "labels": [
         "bug",
@@ -22396,7 +22510,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T08:57:55Z",
       "closedAt": null,
-      "waitingHours": 862.2926294444444,
+      "waitingHours": 864.3780991666666,
       "comments": 1,
       "labels": [
         "bug",
@@ -22432,7 +22546,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T08:55:25Z",
       "closedAt": null,
-      "waitingHours": 862.3342961111111,
+      "waitingHours": 864.4197658333334,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/5089"
@@ -22499,7 +22613,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T08:20:00Z",
       "closedAt": null,
-      "waitingHours": 862.9245738888889,
+      "waitingHours": 865.0100436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -22517,7 +22631,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T08:18:02Z",
       "closedAt": null,
-      "waitingHours": 862.9573516666667,
+      "waitingHours": 865.0428213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -22535,7 +22649,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T08:12:56Z",
       "closedAt": null,
-      "waitingHours": 863.0423516666667,
+      "waitingHours": 865.1278213888888,
       "comments": 0,
       "labels": [
         "bug",
@@ -22553,7 +22667,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T07:59:06Z",
       "closedAt": null,
-      "waitingHours": 863.2729072222222,
+      "waitingHours": 865.3583769444444,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -22641,7 +22755,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T07:14:04Z",
       "closedAt": null,
-      "waitingHours": 864.0234627777778,
+      "waitingHours": 866.1089325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -22694,7 +22808,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T06:55:29Z",
       "closedAt": null,
-      "waitingHours": 864.333185,
+      "waitingHours": 866.4186547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -22728,7 +22842,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T06:46:47Z",
       "closedAt": null,
-      "waitingHours": 864.478185,
+      "waitingHours": 866.5636547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -22780,7 +22894,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T06:21:17Z",
       "closedAt": null,
-      "waitingHours": 864.903185,
+      "waitingHours": 866.9886547222222,
       "comments": 0,
       "labels": [
         "bug",
@@ -22833,7 +22947,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T05:19:51Z",
       "closedAt": null,
-      "waitingHours": 865.9270738888889,
+      "waitingHours": 868.0125436111111,
       "comments": 0,
       "labels": [
         "bug",
@@ -22868,7 +22982,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-07T03:43:57Z",
       "closedAt": null,
-      "waitingHours": 867.5254072222223,
+      "waitingHours": 869.6108769444445,
       "comments": 2,
       "labels": [
         "sig/jiuwenswarm",
@@ -23136,7 +23250,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-06T03:36:15Z",
       "closedAt": null,
-      "waitingHours": 891.6537405555556,
+      "waitingHours": 893.7392102777778,
       "comments": 0,
       "labels": [
         "bug",
@@ -23188,7 +23302,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-05T17:44:37Z",
       "closedAt": null,
-      "waitingHours": 901.5142961111111,
+      "waitingHours": 903.5997658333333,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -23205,7 +23319,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-05T17:01:21Z",
       "closedAt": null,
-      "waitingHours": 902.2354072222222,
+      "waitingHours": 904.3208769444444,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -23239,7 +23353,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-05T14:44:48Z",
       "closedAt": null,
-      "waitingHours": 904.5112405555556,
+      "waitingHours": 906.5967102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -23309,7 +23423,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-05T07:51:45Z",
       "closedAt": null,
-      "waitingHours": 911.3954072222223,
+      "waitingHours": 913.4808769444444,
       "comments": 0,
       "labels": [
         "bug",
@@ -23399,7 +23513,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-05T00:52:43Z",
       "closedAt": null,
-      "waitingHours": 918.3792961111111,
+      "waitingHours": 920.4647658333333,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/4959"
@@ -23413,7 +23527,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-05T00:48:11Z",
       "closedAt": null,
-      "waitingHours": 918.4548516666666,
+      "waitingHours": 920.5403213888889,
       "comments": 1,
       "labels": [
         "bug"
@@ -23516,7 +23630,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-04T09:50:59Z",
       "closedAt": null,
-      "waitingHours": 933.408185,
+      "waitingHours": 935.4936547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -23566,7 +23680,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-04T09:00:10Z",
       "closedAt": null,
-      "waitingHours": 934.2551294444445,
+      "waitingHours": 936.3405991666667,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -23671,7 +23785,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-04T08:36:35Z",
       "closedAt": null,
-      "waitingHours": 934.648185,
+      "waitingHours": 936.7336547222222,
       "comments": 0,
       "labels": [
         "bug",
@@ -23741,7 +23855,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-04T08:11:47Z",
       "closedAt": null,
-      "waitingHours": 935.0615183333333,
+      "waitingHours": 937.1469880555555,
       "comments": 0,
       "labels": [
         "bug",
@@ -23777,7 +23891,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-04T07:59:11Z",
       "closedAt": null,
-      "waitingHours": 935.2715183333333,
+      "waitingHours": 937.3569880555556,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -23794,7 +23908,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-04T07:58:09Z",
       "closedAt": null,
-      "waitingHours": 935.2887405555556,
+      "waitingHours": 937.3742102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -23846,7 +23960,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-04T07:46:00Z",
       "closedAt": null,
-      "waitingHours": 935.4912405555556,
+      "waitingHours": 937.5767102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -24044,7 +24158,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-04T06:54:54Z",
       "closedAt": null,
-      "waitingHours": 936.3429072222223,
+      "waitingHours": 938.4283769444445,
       "comments": 0,
       "labels": [
         "bug",
@@ -24062,7 +24176,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-04T06:47:55Z",
       "closedAt": null,
-      "waitingHours": 936.4592961111111,
+      "waitingHours": 938.5447658333334,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -24342,7 +24456,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-04T02:09:26Z",
       "closedAt": null,
-      "waitingHours": 941.100685,
+      "waitingHours": 943.1861547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -24410,7 +24524,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T14:27:32Z",
       "closedAt": null,
-      "waitingHours": 952.7990183333334,
+      "waitingHours": 954.8844880555556,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -24617,7 +24731,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T09:47:21Z",
       "closedAt": null,
-      "waitingHours": 957.4687405555555,
+      "waitingHours": 959.5542102777778,
       "comments": 0,
       "labels": [
         "priority/unspecified"
@@ -24669,7 +24783,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T08:46:14Z",
       "closedAt": null,
-      "waitingHours": 958.4873516666667,
+      "waitingHours": 960.5728213888889,
       "comments": 2,
       "labels": [
         "sig/jiuwenswarm",
@@ -24742,7 +24856,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T07:40:55Z",
       "closedAt": null,
-      "waitingHours": 959.5759627777778,
+      "waitingHours": 961.6614325,
       "comments": 2,
       "labels": [
         "priority/unspecified"
@@ -24758,7 +24872,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T07:40:43Z",
       "closedAt": null,
-      "waitingHours": 959.5792961111111,
+      "waitingHours": 961.6647658333334,
       "comments": 2,
       "labels": [
         "bug"
@@ -24845,7 +24959,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T06:41:01Z",
       "closedAt": null,
-      "waitingHours": 960.5742961111112,
+      "waitingHours": 962.6597658333334,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -24862,7 +24976,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T06:32:55Z",
       "closedAt": null,
-      "waitingHours": 960.7092961111111,
+      "waitingHours": 962.7947658333334,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -24879,7 +24993,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T06:27:20Z",
       "closedAt": null,
-      "waitingHours": 960.8023516666667,
+      "waitingHours": 962.8878213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -24896,7 +25010,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T06:24:39Z",
       "closedAt": null,
-      "waitingHours": 960.8470738888889,
+      "waitingHours": 962.9325436111111,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -24967,7 +25081,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T04:00:12Z",
       "closedAt": null,
-      "waitingHours": 963.2545738888889,
+      "waitingHours": 965.3400436111111,
       "comments": 5,
       "labels": [
         "sig/jiuwenswarm",
@@ -25002,7 +25116,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T03:40:59Z",
       "closedAt": null,
-      "waitingHours": 963.5748516666666,
+      "waitingHours": 965.6603213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -25019,7 +25133,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T03:40:38Z",
       "closedAt": null,
-      "waitingHours": 963.580685,
+      "waitingHours": 965.6661547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -25036,7 +25150,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T03:37:12Z",
       "closedAt": null,
-      "waitingHours": 963.6379072222222,
+      "waitingHours": 965.7233769444445,
       "comments": 0,
       "labels": [
         "bug",
@@ -25054,7 +25168,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T03:36:18Z",
       "closedAt": null,
-      "waitingHours": 963.6529072222222,
+      "waitingHours": 965.7383769444444,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -25090,7 +25204,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T03:34:38Z",
       "closedAt": null,
-      "waitingHours": 963.680685,
+      "waitingHours": 965.7661547222223,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -25141,7 +25255,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T03:03:48Z",
       "closedAt": null,
-      "waitingHours": 964.1945738888888,
+      "waitingHours": 966.2800436111111,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -25193,7 +25307,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T02:27:17Z",
       "closedAt": null,
-      "waitingHours": 964.803185,
+      "waitingHours": 966.8886547222222,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -25210,7 +25324,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T02:02:19Z",
       "closedAt": null,
-      "waitingHours": 965.2192961111111,
+      "waitingHours": 967.3047658333334,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -25227,7 +25341,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T01:22:38Z",
       "closedAt": null,
-      "waitingHours": 965.880685,
+      "waitingHours": 967.9661547222222,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -25244,7 +25358,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-03T01:14:11Z",
       "closedAt": null,
-      "waitingHours": 966.0215183333333,
+      "waitingHours": 968.1069880555556,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -25413,7 +25527,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-02T09:14:35Z",
       "closedAt": null,
-      "waitingHours": 982.0148516666667,
+      "waitingHours": 984.1003213888889,
       "comments": 1,
       "labels": [
         "bug",
@@ -25467,7 +25581,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-02T08:54:55Z",
       "closedAt": null,
-      "waitingHours": 982.3426294444445,
+      "waitingHours": 984.4280991666667,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -25520,7 +25634,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-02T08:22:46Z",
       "closedAt": null,
-      "waitingHours": 982.8784627777778,
+      "waitingHours": 984.9639325,
       "comments": 0,
       "labels": [
         "bug",
@@ -25626,7 +25740,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-02T07:39:53Z",
       "closedAt": null,
-      "waitingHours": 983.593185,
+      "waitingHours": 985.6786547222222,
       "comments": 1,
       "labels": [
         "bug",
@@ -25784,7 +25898,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-02T06:18:25Z",
       "closedAt": null,
-      "waitingHours": 984.9509627777778,
+      "waitingHours": 987.0364325,
       "comments": 0,
       "labels": [
         "bug",
@@ -25838,7 +25952,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-02T05:42:14Z",
       "closedAt": null,
-      "waitingHours": 985.5540183333334,
+      "waitingHours": 987.6394880555556,
       "comments": 0,
       "labels": [
         "bug",
@@ -26276,7 +26390,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T17:03:05Z",
       "closedAt": null,
-      "waitingHours": 998.2065183333333,
+      "waitingHours": 1000.2919880555555,
       "comments": 1,
       "labels": [
         "sig/jiuwenswarm",
@@ -26365,7 +26479,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T14:44:32Z",
       "closedAt": null,
-      "waitingHours": 1000.515685,
+      "waitingHours": 1002.6011547222222,
       "comments": 0,
       "labels": [
         "bug"
@@ -26398,7 +26512,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T12:54:54Z",
       "closedAt": null,
-      "waitingHours": 1002.3429072222223,
+      "waitingHours": 1004.4283769444445,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -26640,7 +26754,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T08:40:22Z",
       "closedAt": null,
-      "waitingHours": 1006.5851294444444,
+      "waitingHours": 1008.6705991666666,
       "comments": 0,
       "labels": [
         "priority/unspecified"
@@ -26673,7 +26787,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T08:26:11Z",
       "closedAt": null,
-      "waitingHours": 1006.8215183333333,
+      "waitingHours": 1008.9069880555555,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -26707,7 +26821,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T08:18:28Z",
       "closedAt": null,
-      "waitingHours": 1006.9501294444444,
+      "waitingHours": 1009.0355991666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/4495"
@@ -26721,12 +26835,13 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T08:18:22Z",
       "closedAt": null,
-      "waitingHours": 1006.9517961111111,
+      "waitingHours": 1009.0372658333333,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
         "feature",
-        "priority/hint"
+        "priority/hint",
+        "status/NEEDS-INFO"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/4494"
     },
@@ -26846,7 +26961,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T07:18:47Z",
       "closedAt": null,
-      "waitingHours": 1007.9448516666666,
+      "waitingHours": 1010.0303213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -26883,7 +26998,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T07:16:19Z",
       "closedAt": null,
-      "waitingHours": 1007.9859627777778,
+      "waitingHours": 1010.0714325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -26901,7 +27016,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T06:55:44Z",
       "closedAt": null,
-      "waitingHours": 1008.3290183333334,
+      "waitingHours": 1010.4144880555556,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -26919,7 +27034,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T06:52:05Z",
       "closedAt": null,
-      "waitingHours": 1008.3898516666667,
+      "waitingHours": 1010.4753213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -27067,7 +27182,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T04:17:58Z",
       "closedAt": null,
-      "waitingHours": 1010.9584627777778,
+      "waitingHours": 1013.0439325,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -27085,7 +27200,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T03:10:26Z",
       "closedAt": null,
-      "waitingHours": 1012.0840183333333,
+      "waitingHours": 1014.1694880555556,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -27155,7 +27270,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T02:54:46Z",
       "closedAt": null,
-      "waitingHours": 1012.3451294444444,
+      "waitingHours": 1014.4305991666666,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -27242,7 +27357,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T02:19:09Z",
       "closedAt": null,
-      "waitingHours": 1012.9387405555556,
+      "waitingHours": 1015.0242102777778,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -27259,7 +27374,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-01T01:59:08Z",
       "closedAt": null,
-      "waitingHours": 1013.2723516666666,
+      "waitingHours": 1015.3578213888889,
       "comments": 0,
       "labels": [
         "bug",
@@ -27343,7 +27458,7 @@
       "isPullRequest": false,
       "createdAt": "2026-08-31T13:51:23Z",
       "closedAt": null,
-      "waitingHours": 1025.4015183333333,
+      "waitingHours": 1027.4869880555555,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/4423"
@@ -27496,7 +27611,7 @@
       "isPullRequest": false,
       "createdAt": "2026-08-31T12:25:33Z",
       "closedAt": null,
-      "waitingHours": 1026.832073888889,
+      "waitingHours": 1028.9175436111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/4410"
@@ -27510,7 +27625,7 @@
       "isPullRequest": false,
       "createdAt": "2026-08-31T12:17:02Z",
       "closedAt": null,
-      "waitingHours": 1026.9740183333333,
+      "waitingHours": 1029.0594880555554,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/4409"
@@ -28017,7 +28132,7 @@
       "isPullRequest": false,
       "createdAt": "2026-08-31T07:54:54Z",
       "closedAt": null,
-      "waitingHours": 1031.3429072222223,
+      "waitingHours": 1033.4283769444444,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -28399,7 +28514,7 @@
       "isPullRequest": false,
       "createdAt": "2026-08-30T21:07:56Z",
       "closedAt": null,
-      "waitingHours": 1042.125685,
+      "waitingHours": 1044.2111547222223,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/4296"
@@ -28429,7 +28544,7 @@
       "isPullRequest": false,
       "createdAt": "2026-08-30T21:01:50Z",
       "closedAt": null,
-      "waitingHours": 1042.2273516666667,
+      "waitingHours": 1044.3128213888888,
       "comments": 0,
       "labels": [
         "bug"
@@ -28445,7 +28560,7 @@
       "isPullRequest": false,
       "createdAt": "2026-08-30T20:59:50Z",
       "closedAt": null,
-      "waitingHours": 1042.260685,
+      "waitingHours": 1044.3461547222223,
       "comments": 0,
       "labels": [
         "bug"
@@ -28461,7 +28576,7 @@
       "isPullRequest": false,
       "createdAt": "2026-08-30T20:55:24Z",
       "closedAt": null,
-      "waitingHours": 1042.3345738888888,
+      "waitingHours": 1044.4200436111112,
       "comments": 1,
       "labels": [
         "bug"
@@ -28493,7 +28608,7 @@
       "isPullRequest": false,
       "createdAt": "2026-08-30T20:48:05Z",
       "closedAt": null,
-      "waitingHours": 1042.4565183333334,
+      "waitingHours": 1044.5419880555555,
       "comments": 1,
       "labels": [
         "bug"
@@ -28525,7 +28640,7 @@
       "isPullRequest": false,
       "createdAt": "2026-08-30T07:57:54Z",
       "closedAt": null,
-      "waitingHours": 1055.2929072222223,
+      "waitingHours": 1057.3783769444444,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -28773,7 +28888,7 @@
       "isPullRequest": false,
       "createdAt": "2026-08-29T08:25:49Z",
       "closedAt": null,
-      "waitingHours": 1078.8276294444445,
+      "waitingHours": 1080.9130991666666,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -28827,7 +28942,7 @@
       "isPullRequest": false,
       "createdAt": "2026-08-29T07:51:54Z",
       "closedAt": null,
-      "waitingHours": 1079.3929072222222,
+      "waitingHours": 1081.4783769444443,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -29021,7 +29136,7 @@
       "isPullRequest": false,
       "createdAt": "2026-08-28T09:30:56Z",
       "closedAt": null,
-      "waitingHours": 1101.7423516666668,
+      "waitingHours": 1103.8278213888889,
       "comments": 0,
       "labels": [
         "sig/jiuwenswarm",
@@ -29083,95 +29198,6 @@
         "priority/major"
       ],
       "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/4170"
-    },
-    {
-      "number": 4162,
-      "title": "[Bug]: 修复 PushRegistry 单槽被短连接清空导致 send_file 误报成功",
-      "author": "openjiuwen-collaboration-bot[bot]",
-      "contributionType": "unknown",
-      "state": "closed",
-      "isPullRequest": false,
-      "createdAt": "2026-08-28T07:34:38Z",
-      "closedAt": "2026-08-31T03:06:19Z",
-      "waitingHours": null,
-      "comments": 3,
-      "labels": [
-        "bug",
-        "sig/jiuwenswarm",
-        "priority/unspecified"
-      ],
-      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/4162"
-    },
-    {
-      "number": 4160,
-      "title": "[Bug]: agent中配置的身份性格信息没有生效",
-      "author": "openjiuwen-collaboration-bot[bot]",
-      "contributionType": "unknown",
-      "state": "closed",
-      "isPullRequest": false,
-      "createdAt": "2026-08-28T07:33:51Z",
-      "closedAt": "2026-09-22T02:57:28Z",
-      "waitingHours": null,
-      "comments": 1,
-      "labels": [
-        "bug",
-        "sig/jiuwenswarm",
-        "priority/unspecified"
-      ],
-      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/4160"
-    },
-    {
-      "number": 4159,
-      "title": "[Feature]: AgentOS 实例 instance_id 注册与启动清沙箱",
-      "author": "openjiuwen-collaboration-bot[bot]",
-      "contributionType": "unknown",
-      "state": "open",
-      "isPullRequest": false,
-      "createdAt": "2026-08-28T07:26:20Z",
-      "closedAt": null,
-      "waitingHours": 1103.8190183333334,
-      "comments": 0,
-      "labels": [
-        "sig/jiuwenswarm",
-        "priority/major",
-        "feature"
-      ],
-      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/4159"
-    },
-    {
-      "number": 4158,
-      "title": "[Feature]: A2A 出站与入站管理+UI界面",
-      "author": "openjiuwen-collaboration-bot[bot]",
-      "contributionType": "unknown",
-      "state": "open",
-      "isPullRequest": false,
-      "createdAt": "2026-08-28T07:22:19Z",
-      "closedAt": null,
-      "waitingHours": 1103.8859627777779,
-      "comments": 2,
-      "labels": [
-        "sig/jiuwenswarm",
-        "priority/major",
-        "feature"
-      ],
-      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/4158"
-    },
-    {
-      "number": 4157,
-      "title": "[Bug]:exe安装后启动不了，一直在转圈",
-      "author": "openjiuwen-collaboration-bot[bot]",
-      "contributionType": "unknown",
-      "state": "open",
-      "isPullRequest": false,
-      "createdAt": "2026-08-28T07:18:07Z",
-      "closedAt": null,
-      "waitingHours": 1103.9559627777778,
-      "comments": 0,
-      "labels": [
-        "sig/jiuwenswarm",
-        "priority/critical"
-      ],
-      "url": "https://github.com/openJiuwen-ai/jiuwenswarm/issues/4157"
     }
   ]
 }
