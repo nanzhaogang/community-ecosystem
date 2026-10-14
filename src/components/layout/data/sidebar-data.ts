@@ -3,6 +3,7 @@ import {
   CircleDot,
   GitPullRequest,
   Globe,
+  Info,
   LayoutDashboard,
   LineChart,
 } from 'lucide-react'
@@ -44,6 +45,11 @@ export const sidebarData: SidebarData = {
           title: '生态影响力',
           url: '/ecosystem',
           icon: Globe,
+        },
+        {
+          title: '关于本站',
+          url: '/about',
+          icon: Info,
         },
       ],
     },

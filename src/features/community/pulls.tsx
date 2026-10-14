@@ -181,8 +181,8 @@ export function PullsAnalysis() {
         />
 
         <ChartCard
-          title='PR 累计数量'
-          description='所选区间内 PR 累计总数与评论累计数的变化趋势。'
+          title='PR 累计总数与评论累计数增长趋势'
+          description=''
           action={<TimeRangeFilter value={search} onChange={onSearchChange} />}
           empty={cumulative.length === 0}
           emptyMessage='暂无历史数据。'
@@ -202,9 +202,11 @@ export function PullsAnalysis() {
                 label: '评论累计',
                 color: 'var(--chart-2)',
                 type: 'line',
+                yAxis: 'right',
               },
             ]}
             yDomain={['auto', 'auto']}
+            y2Domain={['auto', 'auto']}
           />
         </ChartCard>
 

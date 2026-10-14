@@ -69,11 +69,13 @@ npm run collect
 
 某个仓库清单中的登录名记为 internal，该仓库其余非 bot 作者记为 external，bot 记为 unknown。新增内部贡献者时，在对应仓库的数组里按行追加即可。
 
+该文件的键同时决定被监控的社区列表（采集脚本以此为准），因此**新增一个社区只需在这里加一项**，再运行一次采集即可。
+
 ### 可配置环境变量
 
 | 变量 | 默认 | 说明 |
 | --- | --- | --- |
-| `MONITOR_REPOS` | 上述 15 个仓库 | 逗号分隔的监控仓库 `owner/name` 列表（`MONITOR_REPO` 为单仓库的兼容写法） |
+| `MONITOR_REPOS` | `config/internal-contributors.json` 的键 | 逗号分隔的监控仓库 `owner/name` 列表，仅用于临时覆盖默认列表（`MONITOR_REPO` 为单仓库的兼容写法）；平时新增社区只需修改配置文件 |
 | `GITHUB_TOKEN` | 空 | GitHub Token，仅通过环境变量注入，不写入任何产物 |
 | `MONITOR_BOTS` | 内置常见 bot | 逗号分隔的机器人账号 |
 | `MONITOR_LONG_OPEN_DAYS` | `30` | Issue 长期未解决阈值（天） |

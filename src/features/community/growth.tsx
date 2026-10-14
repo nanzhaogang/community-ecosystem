@@ -3,6 +3,7 @@ import { Header } from '@/components/layout/header'
 import { Main } from '@/components/layout/main'
 import { ThemeSwitch } from '@/components/theme-switch'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
+import { IconGithub } from '@/assets/brand-icons'
 import { useContributors, useRepos } from '@/lib/monitor/data'
 import { TrendChart } from './components/trend-chart'
 import { EmptyState, ErrorState, LoadingState } from './components/states'
@@ -65,7 +66,17 @@ function RepoGrowthRow({ repo }: { repo: RepoSummary }) {
   return (
     <Card>
       <CardHeader>
-        <CardTitle className='text-base'>{repo.fullName}</CardTitle>
+        <CardTitle className='text-base'>
+          <a
+            href={repo.htmlUrl}
+            target='_blank'
+            rel='noreferrer'
+            className='inline-flex items-center gap-2 hover:underline'
+          >
+            <IconGithub className='size-4' />
+            {repo.fullName}
+          </a>
+        </CardTitle>
       </CardHeader>
       <CardContent className='grid gap-6 lg:grid-cols-2'>
         <div className='flex h-full flex-col gap-3'>

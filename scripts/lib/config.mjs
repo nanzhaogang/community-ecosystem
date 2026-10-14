@@ -1,24 +1,6 @@
 import { readFileSync, existsSync } from 'node:fs'
 import path from 'node:path'
 
-const DEFAULT_REPOS = [
-  'openJiuwen-ai/sciencediscovery',
-  'ThinkFlowLab/system1-agents',
-  'ThinkFlowLab/vllm-rlt',
-  'ThinkFlowLab/system1-omni',
-  'ThinkFlowLab/nanodot',
-  'ThinkFlowLab/vllm-omni-mlx',
-  'ThinkFlowLab/OmniRSI',
-  'ThinkFlowLab/nanoMuse',
-  'ThinkFlowLab/mobilegym',
-  'ThinkFlowLab/OpenMinis',
-  'ThinkFlowLab/orbit_tests',
-  'ThinkFlowLab/pi',
-  'ThinkFlowLab/mlx-perf',
-  'ThinkFlowLab/agentic-video-generation',
-  'ThinkFlowLab/agent-core',
-]
-
 const DEFAULT_BOTS = [
   'dependabot[bot]',
   'github-actions[bot]',
@@ -100,30 +82,37 @@ function loadExistingConfig(outDir) {
 /**
  * Resolve runtime configuration.
  *
- * Multiple repositories are collected in one run. `MONITOR_REPOS` is a
- * comma-separated list; `MONITOR_REPO` (single) is still honoured. Secrets
- * (GITHUB_TOKEN) are only ever read from the environment and are never
- * written to any output file.
+ * Multiple repositories are collected in one run. The monitored list defaults
+ * to the keys of `config/internal-contributors.json`, so adding a community is
+ * a single-file change; `MONITOR_REPOS` (comma-separated) or `MONITOR_REPO`
+ * (single) override it when needed. Secrets (GITHUB_TOKEN) are only ever read
+ * from the environment and are never written to any output file.
  */
 export function loadConfig(outDir) {
   const existing = loadExistingConfig(outDir)
 
-  // Only MONITOR_REPOS / MONITOR_REPO change the targets. GITHUB_REPOSITORY is
-  // intentionally ignored: in CI it points at the site repo, not the monitored
-  // project.
+  // The whitelist keys define the monitored repositories: GITHUB_REPOSITORY is
+  // intentionally ignored, since in CI it points at the site repo, not the
+  // monitored project.
+  const internalContributors = loadInternalContributors()
   const repoList = splitList(process.env.MONITOR_REPOS)
   const slugs = repoList.length
     ? repoList
     : process.env.MONITOR_REPO
       ? [process.env.MONITOR_REPO]
-      : DEFAULT_REPOS
+      : Object.keys(internalContributors)
+  if (slugs.length === 0) {
+    throw new Error(
+      'No monitored repositories configured: add "owner/name" keys to config/internal-contributors.json'
+    )
+  }
   const repos = slugs.map(parseRepo)
 
   const bots = splitList(process.env.MONITOR_BOTS)
 
   /** @type {import('../src/lib/monitor/types.ts').MonitorConfig} */
   const config = {
-    internalContributors: loadInternalContributors(),
+    internalContributors,
     bots: bots.length ? bots : (existing?.bots ?? DEFAULT_BOTS),
     longOpenIssueDays: Number(
       process.env.MONITOR_LONG_OPEN_DAYS ?? existing?.longOpenIssueDays ?? 30
