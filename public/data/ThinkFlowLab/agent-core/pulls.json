@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T09:43:43.521Z",
+  "generatedAt": "2026-10-14T07:31:46.875Z",
   "items": [
     {
       "number": 11,
@@ -11,7 +11,7 @@
       "createdAt": "2026-09-30T17:44:09Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 303.9929225,
+      "waitingHours": 325.7938541666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/agent-core/pull/11"
@@ -26,7 +26,7 @@
       "createdAt": "2026-09-30T17:42:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 304.01403361111113,
+      "waitingHours": 325.8149652777778,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/agent-core/pull/10"
@@ -41,7 +41,7 @@
       "createdAt": "2026-09-30T17:12:58Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 304.5126447222222,
+      "waitingHours": 326.31357638888886,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/agent-core/pull/9"
@@ -56,7 +56,7 @@
       "createdAt": "2026-09-30T17:10:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 304.5468113888889,
+      "waitingHours": 326.34774305555555,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/agent-core/pull/8"
@@ -71,7 +71,7 @@
       "createdAt": "2026-09-30T17:07:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 304.59708916666665,
+      "waitingHours": 326.3980208333333,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/agent-core/pull/7"

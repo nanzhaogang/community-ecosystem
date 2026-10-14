@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T09:43:43.521Z",
+  "generatedAt": "2026-10-14T07:31:46.875Z",
   "items": [
     {
       "login": "hsliuustc0106",
@@ -16,8 +16,8 @@
       "contributionType": "internal",
       "isBot": false,
       "firstContributionAt": "2026-09-27T12:08:45Z",
-      "lastContributionAt": "2026-10-11T03:23:51Z",
-      "pulls": 36,
+      "lastContributionAt": "2026-10-14T00:52:25Z",
+      "pulls": 37,
       "issues": 1,
       "reviews": 0
     },
@@ -52,21 +52,21 @@
       "reviews": 0
     },
     {
+      "login": "MrDongsls",
+      "contributionType": "internal",
+      "isBot": false,
+      "firstContributionAt": "2026-10-01T10:06:32Z",
+      "lastContributionAt": "2026-10-13T14:49:33Z",
+      "pulls": 3,
+      "issues": 1,
+      "reviews": 0
+    },
+    {
       "login": "chaimaerachdi",
       "contributionType": "internal",
       "isBot": false,
       "firstContributionAt": "2026-10-08T14:51:51Z",
       "lastContributionAt": "2026-10-12T14:22:29Z",
-      "pulls": 2,
-      "issues": 1,
-      "reviews": 0
-    },
-    {
-      "login": "MrDongsls",
-      "contributionType": "internal",
-      "isBot": false,
-      "firstContributionAt": "2026-10-01T10:06:32Z",
-      "lastContributionAt": "2026-10-11T16:03:57Z",
       "pulls": 2,
       "issues": 1,
       "reviews": 0

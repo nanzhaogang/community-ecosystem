@@ -1,6 +1,51 @@
 {
-  "generatedAt": "2026-10-13T09:43:43.521Z",
+  "generatedAt": "2026-10-14T07:31:46.875Z",
   "items": [
+    {
+      "number": 122,
+      "title": "[PD] Prioritize ready handoffs before prefill submission",
+      "author": "bjf-frz",
+      "contributionType": "internal",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-10-14T07:25:12Z",
+      "mergedAt": "2026-10-14T07:28:20Z",
+      "closedAt": "2026-10-14T07:28:20Z",
+      "waitingHours": null,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/122"
+    },
+    {
+      "number": 121,
+      "title": "feat(speculative): implement pipelined self-speculative decoding for looped transformers",
+      "author": "cs-ai-li",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-14T05:19:58Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 2.1969097222222222,
+      "comments": 2,
+      "labels": [],
+      "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/121"
+    },
+    {
+      "number": 120,
+      "title": "docs: record alternate-branch speculation results",
+      "author": "prettygirlisnotme",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-13T13:49:29Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 17.704965277777777,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/120"
+    },
     {
       "number": 119,
       "title": "Add a real-checkpoint P->D agreement test for the RFC #111 handoff contract",
@@ -11,14 +56,14 @@
       "createdAt": "2026-10-12T21:31:09Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 12.209589166666667,
+      "waitingHours": 34.01052083333333,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/119"
     },
     {
       "number": 118,
-      "title": "Split Prefill: foundtion for mixed prefill/decode batching and wavefront chunked prefill batching (WCPB).",
+      "title": "Split Prefill (Ouro): foundtion for mixed prefill/decode batching and wavefront chunked prefill batching (WCPB).",
       "author": "LyxWxj",
       "contributionType": "internal",
       "state": "open",
@@ -26,7 +71,7 @@
       "createdAt": "2026-10-12T05:43:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 28.00764472222222,
+      "waitingHours": 49.80857638888889,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/118"
@@ -116,7 +161,7 @@
       "createdAt": "2026-10-10T08:14:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 73.49375583333334,
+      "waitingHours": 95.2946875,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/112"
@@ -131,7 +176,7 @@
       "createdAt": "2026-10-08T08:22:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 121.35653361111112,
+      "waitingHours": 143.1574652777778,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/110"
@@ -176,7 +221,7 @@
       "createdAt": "2026-10-07T16:01:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 137.71125583333333,
+      "waitingHours": 159.5121875,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/107"
@@ -266,7 +311,7 @@
       "createdAt": "2026-10-05T02:06:02Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 199.62820027777778,
+      "waitingHours": 221.42913194444444,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/101"
@@ -476,7 +521,7 @@
       "createdAt": "2026-10-04T18:23:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 207.32986694444443,
+      "waitingHours": 229.13079861111112,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/86"
@@ -491,8 +536,8 @@
       "createdAt": "2026-10-03T05:56:58Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 243.77931138888889,
-      "comments": 7,
+      "waitingHours": 265.58024305555557,
+      "comments": 8,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/83"
     },
@@ -547,11 +592,11 @@
       "author": "0z5a",
       "contributionType": "internal",
       "state": "open",
-      "isDraft": true,
+      "isDraft": false,
       "createdAt": "2026-10-01T12:34:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 285.1479225,
+      "waitingHours": 306.94885416666665,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/78"
@@ -561,13 +606,13 @@
       "title": "[MODEL][PD] Integrate Nanbeige4.2 with PD serving",
       "author": "kunkunblueberry",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-09-30T16:11:56Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 305.52986694444445,
-      "comments": 4,
+      "mergedAt": "2026-10-14T06:19:01Z",
+      "closedAt": "2026-10-14T06:19:01Z",
+      "waitingHours": null,
+      "comments": 8,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/77"
     },
@@ -686,7 +731,7 @@
       "createdAt": "2026-09-27T13:46:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 379.95181138888887,
+      "waitingHours": 401.7527430555556,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/64"
@@ -716,7 +761,7 @@
       "createdAt": "2026-09-25T07:39:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 434.06320027777775,
+      "waitingHours": 455.86413194444447,
       "comments": 8,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/62"
@@ -746,7 +791,7 @@
       "createdAt": "2026-09-24T18:05:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 447.6298669444445,
+      "waitingHours": 469.43079861111113,
       "comments": 12,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/60"
@@ -761,7 +806,7 @@
       "createdAt": "2026-09-24T08:10:21Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 457.55625583333335,
+      "waitingHours": 479.3571875,
       "comments": 8,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/59"
@@ -836,7 +881,7 @@
       "createdAt": "2026-09-24T01:56:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 463.7840336111111,
+      "waitingHours": 485.58496527777777,
       "comments": 6,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/52"
@@ -911,7 +956,7 @@
       "createdAt": "2026-09-23T13:06:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 476.6195891666667,
+      "waitingHours": 498.42052083333334,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/47"
@@ -1061,7 +1106,7 @@
       "createdAt": "2026-09-22T01:06:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 512.6187558333334,
+      "waitingHours": 534.4196875,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/36"
@@ -1151,7 +1196,7 @@
       "createdAt": "2026-09-13T14:01:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 715.7112558333333,
+      "waitingHours": 737.5121875,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/29"
@@ -1166,7 +1211,7 @@
       "createdAt": "2026-09-13T13:56:24Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 715.7887558333333,
+      "waitingHours": 737.5896875,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/28"
@@ -1181,7 +1226,7 @@
       "createdAt": "2026-09-13T13:30:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 716.2176447222222,
+      "waitingHours": 738.0185763888888,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/27"
@@ -1286,7 +1331,7 @@
       "createdAt": "2026-09-11T02:03:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 775.6640336111111,
+      "waitingHours": 797.4649652777778,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/19"
@@ -1301,7 +1346,7 @@
       "createdAt": "2026-09-11T01:51:32Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 775.8698669444444,
+      "waitingHours": 797.6707986111111,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/18"
@@ -1316,7 +1361,7 @@
       "createdAt": "2026-09-11T01:24:47Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 776.3157002777778,
+      "waitingHours": 798.1166319444444,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/17"
@@ -1331,7 +1376,7 @@
       "createdAt": "2026-09-11T00:30:28Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 777.2209780555555,
+      "waitingHours": 799.0219097222222,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/16"
@@ -1346,7 +1391,7 @@
       "createdAt": "2026-09-10T22:24:35Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 779.3190336111111,
+      "waitingHours": 801.1199652777777,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/15"
@@ -1361,7 +1406,7 @@
       "createdAt": "2026-09-10T20:44:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 780.9832002777778,
+      "waitingHours": 802.7841319444444,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/pull/14"

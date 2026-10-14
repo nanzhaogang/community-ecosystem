@@ -1,17 +1,139 @@
 {
-  "generatedAt": "2026-10-13T09:43:43.521Z",
+  "generatedAt": "2026-10-14T07:31:46.875Z",
   "items": [
+    {
+      "number": 300,
+      "title": "ci: allow DRB citation scoring forty minutes",
+      "author": "wyhohyw",
+      "contributionType": "internal",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-10-14T06:36:56Z",
+      "mergedAt": "2026-10-14T07:17:09Z",
+      "closedAt": "2026-10-14T07:17:09Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "release:internal"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/300"
+    },
+    {
+      "number": 297,
+      "title": "test(ci): add full public BiomniBench-DA L5 baseline candidate gate",
+      "author": "yuanzhou75",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-10-14T02:12:52Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 5.315243055555555,
+      "comments": 2,
+      "labels": [
+        "release:internal"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/297"
+    },
+    {
+      "number": 295,
+      "title": "fix(web): keep each settings read independent and preserve overrides on the default model",
+      "author": "wyhohyw",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-14T01:35:43Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 5.934409722222222,
+      "comments": 10,
+      "labels": [
+        "bug",
+        "release:fix"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/295"
+    },
+    {
+      "number": 294,
+      "title": "test(e2e): accept numbered sections in research delivery signoff",
+      "author": "zhaozhaozz",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-13T15:58:01Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 15.562743055555556,
+      "comments": 2,
+      "labels": [
+        "release:internal"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/294"
+    },
+    {
+      "number": 293,
+      "title": "test(benchmark): add full DeepResearchBench II to L5 release CI",
+      "author": "zy95-12",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-13T15:44:06Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 15.7946875,
+      "comments": 2,
+      "labels": [
+        "release:internal"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/293"
+    },
+    {
+      "number": 289,
+      "title": "fix(web): explain session scope of conversation model picker",
+      "author": "Boulea7",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-10-13T10:31:49Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 20.99940972222222,
+      "comments": 3,
+      "labels": [
+        "enhancement",
+        "release:fix"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/289"
+    },
+    {
+      "number": 288,
+      "title": "fix(web): keep custom provider setup usable when a settings request fails",
+      "author": "wyhohyw",
+      "contributionType": "internal",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-10-13T10:27:40Z",
+      "mergedAt": "2026-10-13T12:55:58Z",
+      "closedAt": "2026-10-13T12:55:58Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "bug",
+        "release:fix"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/288"
+    },
     {
       "number": 287,
       "title": "test(e2e): wait for managed Python readiness in J5",
       "author": "zhaozhaozz",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-13T09:08:36Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 0.5854225,
+      "mergedAt": "2026-10-14T04:30:26Z",
+      "closedAt": "2026-10-14T04:30:26Z",
+      "waitingHours": null,
       "comments": 2,
       "labels": [
         "bug",
@@ -29,7 +151,7 @@
       "createdAt": "2026-10-13T08:57:14Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 0.7748669444444445,
+      "waitingHours": 22.57579861111111,
       "comments": 6,
       "labels": [
         "bug",
@@ -168,7 +290,7 @@
       "createdAt": "2026-10-12T08:25:58Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 25.295978055555555,
+      "waitingHours": 47.09690972222222,
       "comments": 2,
       "labels": [
         "enhancement",
@@ -181,12 +303,12 @@
       "title": "ci: restore Biomni DA cases to daily and release",
       "author": "wyhohyw",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-12T06:54:52Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 26.81431138888889,
+      "mergedAt": "2026-10-14T03:27:59Z",
+      "closedAt": "2026-10-14T03:27:59Z",
+      "waitingHours": null,
       "comments": 8,
       "labels": [
         "release:internal"
@@ -203,7 +325,7 @@
       "createdAt": "2026-10-12T04:43:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 28.99653361111111,
+      "waitingHours": 50.797465277777775,
       "comments": 2,
       "labels": [
         "bug",
@@ -255,7 +377,7 @@
       "createdAt": "2026-10-11T07:31:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 50.19681138888889,
+      "waitingHours": 71.99774305555556,
       "comments": 3,
       "labels": [
         "release:internal"
@@ -494,7 +616,7 @@
       "createdAt": "2026-10-02T00:01:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 273.7076447222222,
+      "waitingHours": 295.5085763888889,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/231"
@@ -599,7 +721,7 @@
       "createdAt": "2026-09-28T12:00:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 357.7287558333333,
+      "waitingHours": 379.5296875,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/222"
@@ -931,7 +1053,7 @@
       "createdAt": "2026-09-25T13:04:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 428.65458916666665,
+      "waitingHours": 450.4555208333333,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/196"
@@ -1295,7 +1417,7 @@
       "createdAt": "2026-09-23T15:31:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 474.2001447222222,
+      "waitingHours": 496.00107638888886,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/169"
@@ -1310,7 +1432,7 @@
       "createdAt": "2026-09-23T14:49:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 474.89681138888886,
+      "waitingHours": 496.6977430555556,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/168"

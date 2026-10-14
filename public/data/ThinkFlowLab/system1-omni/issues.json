@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T09:43:43.521Z",
+  "generatedAt": "2026-10-14T07:31:46.875Z",
   "items": [
     {
       "number": 137,
@@ -10,7 +10,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T16:03:57Z",
       "closedAt": null,
-      "waitingHours": 41.6629225,
+      "waitingHours": 63.463854166666664,
       "comments": 0,
       "labels": [
         "new model"
@@ -26,7 +26,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T12:34:21Z",
       "closedAt": null,
-      "waitingHours": 45.15625583333333,
+      "waitingHours": 66.9571875,
       "comments": 1,
       "labels": [
         "help wanted",
@@ -43,7 +43,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T13:06:02Z",
       "closedAt": null,
-      "waitingHours": 68.62820027777778,
+      "waitingHours": 90.42913194444445,
       "comments": 1,
       "labels": [
         "help wanted",
@@ -60,7 +60,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T11:11:52Z",
       "closedAt": null,
-      "waitingHours": 70.53097805555555,
+      "waitingHours": 92.33190972222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/issues/130"
@@ -74,7 +74,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T11:26:15Z",
       "closedAt": null,
-      "waitingHours": 94.29125583333334,
+      "waitingHours": 116.0921875,
       "comments": 1,
       "labels": [
         "enhancement"
@@ -90,7 +90,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T15:38:03Z",
       "closedAt": null,
-      "waitingHours": 114.09458916666667,
+      "waitingHours": 135.89552083333334,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/issues/125"
@@ -104,7 +104,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T04:29:27Z",
       "closedAt": null,
-      "waitingHours": 125.2379225,
+      "waitingHours": 147.03885416666665,
       "comments": 1,
       "labels": [
         "help wanted",
@@ -122,7 +122,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-07T14:18:03Z",
       "closedAt": null,
-      "waitingHours": 139.4279225,
+      "waitingHours": 161.22885416666668,
       "comments": 5,
       "labels": [
         "help wanted",
@@ -140,7 +140,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T04:22:51Z",
       "closedAt": null,
-      "waitingHours": 173.3479225,
+      "waitingHours": 195.14885416666667,
       "comments": 1,
       "labels": [
         "help wanted",
@@ -158,7 +158,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:00:21Z",
       "closedAt": null,
-      "waitingHours": 200.7229225,
+      "waitingHours": 222.52385416666667,
       "comments": 1,
       "labels": [
         "enhancement",
@@ -192,7 +192,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:00:19Z",
       "closedAt": null,
-      "waitingHours": 200.72347805555555,
+      "waitingHours": 222.52440972222223,
       "comments": 6,
       "labels": [
         "help wanted",
@@ -210,7 +210,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:00:09Z",
       "closedAt": null,
-      "waitingHours": 200.72625583333334,
+      "waitingHours": 222.5271875,
       "comments": 6,
       "labels": [
         "help wanted",
@@ -227,7 +227,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T00:53:49Z",
       "closedAt": null,
-      "waitingHours": 200.8318113888889,
+      "waitingHours": 222.63274305555555,
       "comments": 0,
       "labels": [
         "documentation"
@@ -243,7 +243,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-03T07:48:11Z",
       "closedAt": null,
-      "waitingHours": 241.92570027777776,
+      "waitingHours": 263.7266319444444,
       "comments": 1,
       "labels": [
         "help wanted",
@@ -260,7 +260,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T21:30:58Z",
       "closedAt": null,
-      "waitingHours": 276.2126447222222,
+      "waitingHours": 298.0135763888889,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/issues/61"
@@ -274,7 +274,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T09:59:49Z",
       "closedAt": null,
-      "waitingHours": 287.7318113888889,
+      "waitingHours": 309.53274305555556,
       "comments": 0,
       "labels": [
         "RFC"
@@ -340,7 +340,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T13:42:36Z",
       "closedAt": null,
-      "waitingHours": 332.01875583333333,
+      "waitingHours": 353.8196875,
       "comments": 0,
       "labels": [
         "help wanted",
@@ -357,7 +357,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T05:30:50Z",
       "closedAt": null,
-      "waitingHours": 340.21486694444445,
+      "waitingHours": 362.0157986111111,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/issues/36"
@@ -371,7 +371,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T14:26:04Z",
       "closedAt": null,
-      "waitingHours": 355.2943113888889,
+      "waitingHours": 377.09524305555556,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/issues/31"
@@ -385,7 +385,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T09:42:19Z",
       "closedAt": null,
-      "waitingHours": 360.02347805555553,
+      "waitingHours": 381.82440972222224,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/issues/27"
@@ -399,7 +399,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T02:27:31Z",
       "closedAt": null,
-      "waitingHours": 367.2701447222222,
+      "waitingHours": 389.0710763888889,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/issues/14"
@@ -413,7 +413,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-27T09:02:01Z",
       "closedAt": null,
-      "waitingHours": 384.6951447222222,
+      "waitingHours": 406.49607638888887,
       "comments": 8,
       "labels": [
         "help wanted",
@@ -430,7 +430,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-27T08:42:35Z",
       "closedAt": null,
-      "waitingHours": 385.0190336111111,
+      "waitingHours": 406.8199652777778,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/issues/9"

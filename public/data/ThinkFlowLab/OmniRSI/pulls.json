@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-13T09:43:43.521Z",
+  "generatedAt": "2026-10-14T07:31:46.875Z",
   "items": [
     {
       "number": 7,
@@ -71,8 +71,8 @@
       "createdAt": "2026-10-09T10:26:01Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 95.29514472222222,
-      "comments": 16,
+      "waitingHours": 117.09607638888889,
+      "comments": 17,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/OmniRSI/pull/2"
     }
