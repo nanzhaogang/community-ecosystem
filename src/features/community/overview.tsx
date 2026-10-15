@@ -5,7 +5,6 @@ import {
   Flag,
   GitFork,
   GitPullRequest,
-  RefreshCw,
   Star,
   Users,
 } from 'lucide-react'
@@ -17,7 +16,6 @@ import { Header } from '@/components/layout/header'
 import { Main } from '@/components/layout/main'
 import { ThemeSwitch } from '@/components/theme-switch'
 import { Badge } from '@/components/ui/badge'
-import { Button } from '@/components/ui/button'
 import {
   Card,
   CardContent,
@@ -29,7 +27,6 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from '@/components/ui/popover'
-import { cn } from '@/lib/utils'
 import {
   ACTIVITY_INDICATORS,
   ACTIVITY_WINDOW_DAYS,
@@ -376,7 +373,7 @@ export function CommunityOverview() {
       : null
 
   const [liveByRepo, setLiveByRepo] = useState<Record<string, LiveRepoStats>>({})
-  const [updating, setUpdating] = useState(false)
+  const [, setUpdating] = useState(false)
 
   // All repositories share a single "data updated at" label: the newest live
   // fetch after a manual refresh, otherwise the published snapshot's build time.
@@ -395,6 +392,8 @@ export function CommunityOverview() {
    * Refresh every monitored repository at once: fetch live counts from GitHub
    * for all of them; if GitHub is unreachable, fall back to re-fetching the
    * published snapshots so the button still updates the page.
+   *
+   * Retained on purpose while the "更新数据" button is hidden from the page.
    */
   const handleUpdateAll = async () => {
     if (repos.length === 0) return
@@ -433,25 +432,14 @@ export function CommunityOverview() {
     }
   }
 
-  const updateButton = (
-    <div className='flex items-center gap-3'>
-      <Button
-        size='sm'
-        variant='outline'
-        className='h-8'
-        onClick={handleUpdateAll}
-        disabled={updating || repos.length === 0}
-      >
-        <RefreshCw
-          className={cn('size-3.5', updating && 'animate-spin')}
-          aria-hidden='true'
-        />
-        更新数据
-      </Button>
-      <span className='text-xs text-muted-foreground'>
-        数据更新时间 {formatDateTime(sharedUpdatedAt)}
-      </span>
-    </div>
+  // Re-attach this to a button to re-enable the live refresh; kept meanwhile so
+  // the implementation is not lost.
+  void handleUpdateAll
+
+  const dataUpdatedAt = (
+    <span className='text-xs text-muted-foreground'>
+      数据更新时间 {formatDateTime(sharedUpdatedAt)}
+    </span>
   )
 
   const shell = (children: ReactNode) => (
@@ -487,7 +475,7 @@ export function CommunityOverview() {
         search={search}
         onSearchChange={onSearchChange}
         showRange={false}
-        actions={updateButton}
+        actions={dataUpdatedAt}
       />
 
       {repos.length === 0 ? (

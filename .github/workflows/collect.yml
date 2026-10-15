@@ -5,8 +5,8 @@ name: Collect community data
 
 on:
   schedule:
-    # 02:10 UTC every day.
-    - cron: '10 2 * * *'
+    # 15:00 UTC every day — 23:00 Beijing time (UTC+8).
+    - cron: '0 15 * * *'
   workflow_dispatch:
     inputs:
       full:
