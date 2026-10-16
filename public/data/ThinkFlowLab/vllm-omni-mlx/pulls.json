@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T18:48:07.073Z",
+  "generatedAt": "2026-10-16T18:32:56.667Z",
   "items": [
     {
       "number": 116,
@@ -11,7 +11,7 @@
       "createdAt": "2026-10-11T23:01:21Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 91.77946472222222,
+      "waitingHours": 115.52657416666666,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/pull/116"
@@ -26,7 +26,7 @@
       "createdAt": "2026-10-11T01:12:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 113.6008536111111,
+      "waitingHours": 137.34796305555557,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/pull/115"
@@ -41,7 +41,7 @@
       "createdAt": "2026-10-10T14:31:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 124.27002027777777,
+      "waitingHours": 148.01712972222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/pull/114"
@@ -56,7 +56,7 @@
       "createdAt": "2026-10-09T00:35:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 162.2022425,
+      "waitingHours": 185.94935194444443,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/pull/113"
@@ -86,7 +86,7 @@
       "createdAt": "2026-10-07T03:59:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 206.80696472222223,
+      "waitingHours": 230.55407416666668,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/pull/109"
@@ -101,7 +101,7 @@
       "createdAt": "2026-10-07T01:37:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 209.17613138888888,
+      "waitingHours": 232.92324083333332,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/pull/108"
@@ -161,7 +161,7 @@
       "createdAt": "2026-10-06T14:53:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 219.91779805555555,
+      "waitingHours": 243.6649075,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/pull/103"
@@ -176,7 +176,7 @@
       "createdAt": "2026-10-06T14:40:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 220.1325202777778,
+      "waitingHours": 243.87962972222223,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/pull/102"
@@ -405,7 +405,7 @@
       "createdAt": "2026-10-04T14:33:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 268.2519647222222,
+      "waitingHours": 291.9990741666667,
       "comments": 1,
       "labels": [
         "enhancement"

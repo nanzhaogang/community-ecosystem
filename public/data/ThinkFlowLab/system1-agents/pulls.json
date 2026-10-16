@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-10-15T18:48:07.073Z",
+  "generatedAt": "2026-10-16T18:32:56.667Z",
   "items": [
+    {
+      "number": 86,
+      "title": "[Feat] Served Cua-S1 4B screenshot decisions against system1-omni's multimodal worker",
+      "author": "Birfy",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-10-16T17:53:54Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 0.6507408333333333,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/ThinkFlowLab/system1-agents/pull/86"
+    },
     {
       "number": 85,
       "title": "[Fix] Keep long s1a-mcp runs inside host tool timeouts: progress, fail-fast busy error, clean cancellation, documented settings",
@@ -11,7 +26,7 @@
       "createdAt": "2026-10-15T11:55:22Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 6.879186944444444,
+      "waitingHours": 30.62629638888889,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/85"
@@ -21,12 +36,12 @@
       "title": "[Feat] Give s1a-mcp tools titles, behavior hints and typed output schemas",
       "author": "Birfy",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-15T05:49:32Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 12.976409166666667,
+      "mergedAt": "2026-10-16T00:18:31Z",
+      "closedAt": "2026-10-16T00:18:31Z",
+      "waitingHours": null,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/84"
@@ -59,7 +74,7 @@
       "createdAt": "2026-10-14T09:31:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 33.28363138888889,
+      "waitingHours": 57.03074083333333,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/78"
@@ -74,8 +89,8 @@
       "createdAt": "2026-10-14T05:51:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 36.9372425,
-      "comments": 4,
+      "waitingHours": 60.684351944444444,
+      "comments": 6,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/77"
     },
@@ -89,7 +104,7 @@
       "createdAt": "2026-10-14T03:42:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 39.097520277777775,
+      "waitingHours": 62.84462972222222,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/76"
@@ -104,7 +119,7 @@
       "createdAt": "2026-10-13T23:59:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 42.80335361111111,
+      "waitingHours": 66.55046305555555,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/73"
@@ -119,7 +134,7 @@
       "createdAt": "2026-10-12T09:45:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 81.03946472222222,
+      "waitingHours": 104.78657416666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/72"
@@ -164,7 +179,7 @@
       "createdAt": "2026-10-10T11:19:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 127.47835361111112,
+      "waitingHours": 151.22546305555557,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/69"
@@ -179,7 +194,7 @@
       "createdAt": "2026-10-10T02:51:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 135.94057583333333,
+      "waitingHours": 159.68768527777777,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/67"
@@ -204,12 +219,12 @@
       "title": "[Fix] Name dataset lines in ticket JSON errors",
       "author": "Birfy",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-10T01:22:37Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 137.42502027777778,
+      "mergedAt": "2026-10-16T00:17:17Z",
+      "closedAt": "2026-10-16T00:17:17Z",
+      "waitingHours": null,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/65"
@@ -224,7 +239,7 @@
       "createdAt": "2026-10-09T23:40:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 139.13168694444445,
+      "waitingHours": 162.8787963888889,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/64"
@@ -239,7 +254,7 @@
       "createdAt": "2026-10-09T23:12:08Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 139.5997425,
+      "waitingHours": 163.34685194444444,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/63"
@@ -254,7 +269,7 @@
       "createdAt": "2026-10-09T17:19:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 145.4772425,
+      "waitingHours": 169.22435194444444,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/62"
@@ -284,7 +299,7 @@
       "createdAt": "2026-10-09T14:48:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 147.9883536111111,
+      "waitingHours": 171.73546305555556,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/60"
@@ -294,12 +309,12 @@
       "title": "[Eval] Report failures and unknowns in results table",
       "author": "Birfy",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-09T14:32:24Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 148.26196472222222,
+      "mergedAt": "2026-10-16T00:17:32Z",
+      "closedAt": "2026-10-16T00:17:32Z",
+      "waitingHours": null,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/59"
@@ -626,7 +641,7 @@
       "createdAt": "2026-09-29T17:03:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 385.74029805555557,
+      "waitingHours": 409.4874075,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/34"
@@ -709,7 +724,7 @@
       "createdAt": "2026-09-27T07:18:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 443.4897425,
+      "waitingHours": 467.2368519444444,
       "comments": 6,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/23"
@@ -874,7 +889,7 @@
       "createdAt": "2026-09-22T19:36:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 551.1989091666667,
+      "waitingHours": 574.9460186111111,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/6"

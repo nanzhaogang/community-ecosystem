@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-15T18:48:07.073Z",
+  "generatedAt": "2026-10-16T18:32:56.667Z",
   "repo": {
     "stars": 165,
     "forks": 32,
     "watchers": 1,
-    "openIssuesAndPrs": 124
+    "openIssuesAndPrs": 144
   },
   "contributors": {
     "total": 20,
     "activeLast30d": 16,
-    "newLast30d": 14,
+    "newLast30d": 13,
     "composition": {
       "internal": 16,
       "external": 4,
@@ -17,36 +17,196 @@
     }
   },
   "pulls": {
-    "total": 194,
-    "open": 25,
-    "merged": 153,
+    "total": 208,
+    "open": 37,
+    "merged": 155,
     "closedUnmerged": 16,
     "composition": {
-      "internal": 145,
+      "internal": 159,
       "external": 3,
       "unknown": 46
     }
   },
   "issues": {
-    "total": 136,
-    "open": 99,
-    "closed": 37,
+    "total": 148,
+    "open": 107,
+    "closed": 41,
     "composition": {
-      "internal": 132,
+      "internal": 144,
       "external": 2,
       "unknown": 2
     },
     "longOpen": {
       "thresholdDays": 30,
-      "count": 1,
+      "count": 21,
       "items": [
         {
           "number": 22,
           "title": "[RFC] Make ScienceDiscovery easy to understand, start, and use",
           "author": "hsliuustc0106",
           "createdAt": "2026-09-15T09:57:55Z",
-          "waitingHours": 728.8366869444444,
+          "waitingHours": 752.5837963888889,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/22"
+        },
+        {
+          "number": 25,
+          "title": "[Docs]: Build the documentation into a site and publish it on GitHub Pages",
+          "author": "Birfy",
+          "createdAt": "2026-09-16T08:59:28Z",
+          "waitingHours": 729.5579630555555,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/25"
+        },
+        {
+          "number": 26,
+          "title": "[Docs]: Expand the tutorial series and add runnable quick-start cases",
+          "author": "Birfy",
+          "createdAt": "2026-09-16T09:04:22Z",
+          "waitingHours": 729.4762963888888,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/26"
+        },
+        {
+          "number": 27,
+          "title": "[Docs]: Rework the README — clear pitch, summarized core features, and links into the tutorials",
+          "author": "Birfy",
+          "createdAt": "2026-09-16T09:08:40Z",
+          "waitingHours": 729.4046297222222,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/27"
+        },
+        {
+          "number": 29,
+          "title": "[Feature]: Dependency preflight failures should say how to fix them, not just what is missing",
+          "author": "Birfy",
+          "createdAt": "2026-09-16T09:17:43Z",
+          "waitingHours": 729.2537963888889,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/29"
+        },
+        {
+          "number": 30,
+          "title": "[Docs]: Introduce the command-line interface in the README",
+          "author": "Birfy",
+          "createdAt": "2026-09-16T09:20:27Z",
+          "waitingHours": 729.2082408333333,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/30"
+        },
+        {
+          "number": 31,
+          "title": "[Feature]: Support Windows — a tested WSL2 path now, native Windows as a design question",
+          "author": "Birfy",
+          "createdAt": "2026-09-16T09:28:20Z",
+          "waitingHours": 729.0768519444445,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/31"
+        },
+        {
+          "number": 32,
+          "title": "[Feature]: Notify users of new releases, and support self-update",
+          "author": "Birfy",
+          "createdAt": "2026-09-16T09:28:26Z",
+          "waitingHours": 729.0751852777778,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/32"
+        },
+        {
+          "number": 33,
+          "title": "[Feature]: Support general cloud compute as a third remote job mode",
+          "author": "Birfy",
+          "createdAt": "2026-09-16T09:28:29Z",
+          "waitingHours": 729.0743519444444,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/33"
+        },
+        {
+          "number": 34,
+          "title": "[Feature]: Ship a desktop application window on Windows and macOS instead of requiring a browser",
+          "author": "Birfy",
+          "createdAt": "2026-09-16T10:40:04Z",
+          "waitingHours": 727.8812963888889,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/34"
+        },
+        {
+          "number": 37,
+          "title": "[Feature]: Empty-state onboarding steps are static text; make them actionable and add a one-click sample analysis",
+          "author": "zhaozhaozz",
+          "createdAt": "2026-09-16T11:11:28Z",
+          "waitingHours": 727.3579630555555,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/37"
+        },
+        {
+          "number": 38,
+          "title": "[Feature]: Sandbox unavailability only warns in the terminal while serve still reports ready; surface real compute readiness",
+          "author": "zhaozhaozz",
+          "createdAt": "2026-09-16T11:11:31Z",
+          "waitingHours": 727.3571297222222,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/38"
+        },
+        {
+          "number": 40,
+          "title": "[Bug]: At a ~900px viewport the sidebar stacks over the top half and pushes the conversation and composer out of the first screen",
+          "author": "zhaozhaozz",
+          "createdAt": "2026-09-16T11:11:40Z",
+          "waitingHours": 727.3546297222222,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/40"
+        },
+        {
+          "number": 41,
+          "title": "[Feature]: New-project dialog spreads runtime inheritance settings by default; default to name-only and fold the rest into advanced options",
+          "author": "zhaozhaozz",
+          "createdAt": "2026-09-16T11:11:42Z",
+          "waitingHours": 727.3540741666667,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/41"
+        },
+        {
+          "number": 42,
+          "title": "[Feature]: Permission approval card wording is unclear and \"Always allow matching items\" does not explain its scope",
+          "author": "zhaozhaozz",
+          "createdAt": "2026-09-16T11:11:45Z",
+          "waitingHours": 727.3532408333333,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/42"
+        },
+        {
+          "number": 43,
+          "title": "[Feature]: Raw CSVs in the workspace only open in a new tab; reuse the interactive table viewer for them",
+          "author": "zhaozhaozz",
+          "createdAt": "2026-09-16T11:11:53Z",
+          "waitingHours": 727.3510186111112,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/43"
+        },
+        {
+          "number": 44,
+          "title": "[Feature]: Switching the model in a session only affects that session with no hint, and new sessions fall back to the global default",
+          "author": "zhaozhaozz",
+          "createdAt": "2026-09-16T11:11:55Z",
+          "waitingHours": 727.3504630555556,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/44"
+        },
+        {
+          "number": 45,
+          "title": "[Bug]: Chinese UI still shows hardcoded English and internal jargon (Unauthorized toast, M1 Skill recall, Git Head, etc.)",
+          "author": "zhaozhaozz",
+          "createdAt": "2026-09-16T11:11:57Z",
+          "waitingHours": 727.3499075,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/45"
+        },
+        {
+          "number": 47,
+          "title": "[Feature]: Extend reasoning effort selection to the CLI and to per-role agents",
+          "author": "Birfy",
+          "createdAt": "2026-09-16T12:24:31Z",
+          "waitingHours": 726.1404630555555,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/47"
+        },
+        {
+          "number": 48,
+          "title": "[Feedback] Strengths and gaps vs. the 2026 open-source science-workbench landscape",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-09-16T14:07:39Z",
+          "waitingHours": 724.4215741666667,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/48"
+        },
+        {
+          "number": 49,
+          "title": "Idea Tree settings: budget and assessor fields are still validated and persisted, but the runtime always overwrites them from the template/intensity preset",
+          "author": "zhaozhaozz",
+          "createdAt": "2026-09-16T15:59:10Z",
+          "waitingHours": 722.5629630555555,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/49"
         }
       ]
     }

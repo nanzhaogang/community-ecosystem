@@ -1,6 +1,48 @@
 {
-  "generatedAt": "2026-10-15T18:48:07.073Z",
+  "generatedAt": "2026-10-16T18:32:56.667Z",
   "items": [
+    {
+      "number": 21,
+      "title": "[RFC] Dense Commit Coordination: Magpie-Inspired Issue-Led Agent Collaboration",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-10-16T08:23:53Z",
+      "closedAt": "2026-10-16T12:50:10Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/OmniRSI/issues/21"
+    },
+    {
+      "number": 17,
+      "title": "[RFC] Knowledge Base v1: Skills, Knowledge, and Internal Experience",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-16T02:34:13Z",
+      "closedAt": null,
+      "waitingHours": 15.978796388888888,
+      "comments": 3,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/OmniRSI/issues/17"
+    },
+    {
+      "number": 15,
+      "title": "[RFC] 性能优化 Skill：流程、分工与目录（整理自 playbook RFC 0003）",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-16T01:32:25Z",
+      "closedAt": null,
+      "waitingHours": 17.00879638888889,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/OmniRSI/issues/15"
+    },
     {
       "number": 10,
       "title": "Acceptance: Drama 3 / B300×1 / 1.5× throughput at every concurrency",
@@ -10,10 +52,10 @@
       "isPullRequest": false,
       "createdAt": "2026-10-15T06:53:05Z",
       "closedAt": null,
-      "waitingHours": 11.9172425,
+      "waitingHours": 35.66435194444445,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/OmniRSI/issues/10"
+      "url": "https://github.com/InferMatrixLab/OmniRSI/issues/10"
     },
     {
       "number": 8,
@@ -24,10 +66,10 @@
       "isPullRequest": false,
       "createdAt": "2026-10-14T02:18:38Z",
       "closedAt": null,
-      "waitingHours": 40.491409166666664,
+      "waitingHours": 64.23851861111112,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/OmniRSI/issues/8"
+      "url": "https://github.com/InferMatrixLab/OmniRSI/issues/8"
     },
     {
       "number": 3,
@@ -38,10 +80,10 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T00:56:41Z",
       "closedAt": null,
-      "waitingHours": 113.8572425,
+      "waitingHours": 137.60435194444443,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/OmniRSI/issues/3"
+      "url": "https://github.com/InferMatrixLab/OmniRSI/issues/3"
     },
     {
       "number": 1,
@@ -52,10 +94,10 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T09:34:48Z",
       "closedAt": null,
-      "waitingHours": 153.22196472222222,
+      "waitingHours": 176.96907416666667,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/OmniRSI/issues/1"
+      "url": "https://github.com/InferMatrixLab/OmniRSI/issues/1"
     }
   ]
 }

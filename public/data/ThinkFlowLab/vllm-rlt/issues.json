@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T18:48:07.073Z",
+  "generatedAt": "2026-10-16T18:32:56.667Z",
   "items": [
     {
       "number": 126,
@@ -10,7 +10,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-15T05:55:57Z",
       "closedAt": null,
-      "waitingHours": 12.869464722222222,
+      "waitingHours": 36.616574166666666,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/126"
@@ -24,7 +24,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-14T08:18:05Z",
       "closedAt": null,
-      "waitingHours": 34.500575833333336,
+      "waitingHours": 58.24768527777778,
       "comments": 0,
       "labels": [
         "documentation"
@@ -40,7 +40,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T09:18:13Z",
       "closedAt": null,
-      "waitingHours": 153.4983536111111,
+      "waitingHours": 177.24546305555555,
       "comments": 3,
       "labels": [
         "RFC"
@@ -56,7 +56,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:18:29Z",
       "closedAt": null,
-      "waitingHours": 257.49390916666664,
+      "waitingHours": 281.2410186111111,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/98"
@@ -70,7 +70,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-04T13:24:25Z",
       "closedAt": null,
-      "waitingHours": 269.3950202777778,
+      "waitingHours": 293.14212972222225,
       "comments": 9,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/85"
@@ -84,7 +84,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-03T18:46:56Z",
       "closedAt": null,
-      "waitingHours": 288.0197425,
+      "waitingHours": 311.76685194444445,
       "comments": 0,
       "labels": [
         "RFC"
@@ -100,7 +100,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-02T14:30:37Z",
       "closedAt": null,
-      "waitingHours": 316.29168694444445,
+      "waitingHours": 340.0387963888889,
       "comments": 7,
       "labels": [
         "RFC"
@@ -132,7 +132,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T03:35:21Z",
       "closedAt": null,
-      "waitingHours": 399.21279805555554,
+      "waitingHours": 422.9599075,
       "comments": 21,
       "labels": [
         "RFC"
@@ -148,7 +148,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T03:05:03Z",
       "closedAt": null,
-      "waitingHours": 399.71779805555553,
+      "waitingHours": 423.4649075,
       "comments": 14,
       "labels": [
         "RFC"
@@ -178,7 +178,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T10:14:46Z",
       "closedAt": null,
-      "waitingHours": 416.5558536111111,
+      "waitingHours": 440.30296305555555,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/65"
@@ -192,7 +192,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T06:31:41Z",
       "closedAt": null,
-      "waitingHours": 516.2739091666666,
+      "waitingHours": 540.0210186111111,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/56"
@@ -222,7 +222,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T08:26:09Z",
       "closedAt": null,
-      "waitingHours": 538.3661313888889,
+      "waitingHours": 562.1132408333333,
       "comments": 22,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/43"
@@ -236,7 +236,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T02:07:12Z",
       "closedAt": null,
-      "waitingHours": 664.6819647222222,
+      "waitingHours": 688.4290741666666,
       "comments": 22,
       "labels": [
         "RFC"
@@ -252,7 +252,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-12T07:22:42Z",
       "closedAt": null,
-      "waitingHours": 803.4236313888889,
+      "waitingHours": 827.1707408333333,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/22"
