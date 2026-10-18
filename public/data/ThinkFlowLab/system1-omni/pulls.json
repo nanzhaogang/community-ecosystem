@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T17:40:13.732Z",
+  "generatedAt": "2026-10-18T17:41:54.412Z",
   "items": [
     {
       "number": 149,
@@ -11,7 +11,7 @@
       "createdAt": "2026-10-16T09:27:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 32.218536666666665,
+      "waitingHours": 56.24650333333334,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/149"
@@ -26,8 +26,8 @@
       "createdAt": "2026-10-15T17:29:32Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 48.17825888888889,
-      "comments": 1,
+      "waitingHours": 72.20622555555556,
+      "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/148"
     },
@@ -41,8 +41,8 @@
       "createdAt": "2026-10-15T14:09:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 51.50548111111111,
-      "comments": 1,
+      "waitingHours": 75.53344777777778,
+      "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/147"
     },
@@ -56,7 +56,7 @@
       "createdAt": "2026-10-14T15:20:46Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 74.32437,
+      "waitingHours": 98.35233666666667,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/146"
@@ -71,7 +71,7 @@
       "createdAt": "2026-10-14T14:21:30Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 75.31214777777778,
+      "waitingHours": 99.34011444444444,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/145"
@@ -101,7 +101,7 @@
       "createdAt": "2026-10-14T00:52:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 88.79687,
+      "waitingHours": 112.82483666666667,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/143"
@@ -131,7 +131,7 @@
       "createdAt": "2026-10-12T17:30:09Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 120.16798111111112,
+      "waitingHours": 144.19594777777777,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/141"
@@ -146,7 +146,7 @@
       "createdAt": "2026-10-12T14:22:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 123.29575888888888,
+      "waitingHours": 147.32372555555557,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/140"
@@ -161,7 +161,7 @@
       "createdAt": "2026-10-12T11:57:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 125.70798111111111,
+      "waitingHours": 149.73594777777777,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/139"
@@ -206,7 +206,7 @@
       "createdAt": "2026-10-10T14:39:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 171.00853666666666,
+      "waitingHours": 195.03650333333334,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/134"
@@ -221,7 +221,7 @@
       "createdAt": "2026-10-10T12:36:18Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 173.0654811111111,
+      "waitingHours": 197.09344777777778,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/132"
@@ -236,7 +236,7 @@
       "createdAt": "2026-10-10T11:18:24Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 174.36381444444444,
+      "waitingHours": 198.3917811111111,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/131"
@@ -251,7 +251,7 @@
       "createdAt": "2026-10-10T02:57:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 182.71492555555557,
+      "waitingHours": 206.74289222222222,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/129"
@@ -266,7 +266,7 @@
       "createdAt": "2026-10-09T02:05:23Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 207.58075888888888,
+      "waitingHours": 231.60872555555557,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/127"
@@ -296,7 +296,7 @@
       "createdAt": "2026-10-08T14:51:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 218.80631444444444,
+      "waitingHours": 242.83428111111112,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/124"
@@ -311,7 +311,7 @@
       "createdAt": "2026-10-08T08:52:18Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 224.79881444444445,
+      "waitingHours": 248.8267811111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/123"
@@ -326,7 +326,7 @@
       "createdAt": "2026-10-08T08:01:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 225.6504811111111,
+      "waitingHours": 249.6784477777778,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/122"
@@ -371,7 +371,7 @@
       "createdAt": "2026-10-08T02:57:14Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 230.71659222222223,
+      "waitingHours": 254.7445588888889,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/118"
@@ -386,7 +386,7 @@
       "createdAt": "2026-10-08T02:56:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 230.72520333333333,
+      "waitingHours": 254.75317,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/117"
@@ -431,7 +431,7 @@
       "createdAt": "2026-10-07T13:27:01Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 244.22020333333333,
+      "waitingHours": 268.24817,
       "comments": 6,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/113"
@@ -446,7 +446,7 @@
       "createdAt": "2026-10-07T13:12:32Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 244.4615922222222,
+      "waitingHours": 268.4895588888889,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/112"
@@ -493,8 +493,8 @@
       "createdAt": "2026-10-07T12:14:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 245.42325888888888,
-      "comments": 2,
+      "waitingHours": 269.45122555555554,
+      "comments": 3,
       "labels": [
         "high priority"
       ],
@@ -621,7 +621,7 @@
       "createdAt": "2026-10-06T13:05:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 268.5802033333333,
+      "waitingHours": 292.60817,
       "comments": 0,
       "labels": [
         "high priority"
@@ -638,7 +638,7 @@
       "createdAt": "2026-10-06T13:05:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 268.5827033333333,
+      "waitingHours": 292.61067,
       "comments": 0,
       "labels": [
         "high priority"
@@ -655,7 +655,7 @@
       "createdAt": "2026-10-06T09:37:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 272.0485366666667,
+      "waitingHours": 296.07650333333333,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/99"
@@ -670,7 +670,7 @@
       "createdAt": "2026-10-06T09:37:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 272.05187,
+      "waitingHours": 296.07983666666667,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/98"
@@ -734,7 +734,7 @@
       "createdAt": "2026-10-05T16:17:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 289.37603666666666,
+      "waitingHours": 313.4040033333333,
       "comments": 0,
       "labels": [
         "high priority"
@@ -828,7 +828,7 @@
       "createdAt": "2026-10-05T00:46:09Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 304.90131444444444,
+      "waitingHours": 328.9292811111111,
       "comments": 0,
       "labels": [
         "high priority"
@@ -1027,7 +1027,7 @@
       "createdAt": "2026-10-03T13:09:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 340.5177033333333,
+      "waitingHours": 364.54567,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/69"
@@ -1417,7 +1417,7 @@
       "createdAt": "2026-09-29T05:02:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 444.6221477777778,
+      "waitingHours": 468.65011444444445,
       "comments": 12,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-omni/pull/35"

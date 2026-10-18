@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T17:40:13.732Z",
+  "generatedAt": "2026-10-18T17:41:54.412Z",
   "items": [
     {
       "number": 112,
@@ -24,7 +24,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-07T14:43:10Z",
       "closedAt": null,
-      "waitingHours": 242.95103666666665,
+      "waitingHours": 266.9790033333333,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/111"
@@ -38,7 +38,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T23:51:05Z",
       "closedAt": null,
-      "waitingHours": 257.8190922222222,
+      "waitingHours": 281.8470588888889,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/105"
@@ -52,7 +52,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T13:44:21Z",
       "closedAt": null,
-      "waitingHours": 267.93131444444447,
+      "waitingHours": 291.9592811111111,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/101"
@@ -66,7 +66,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T13:44:14Z",
       "closedAt": null,
-      "waitingHours": 267.9332588888889,
+      "waitingHours": 291.96122555555553,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/100"
@@ -80,7 +80,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T13:44:12Z",
       "closedAt": null,
-      "waitingHours": 267.93381444444447,
+      "waitingHours": 291.9617811111111,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/99"
@@ -94,7 +94,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T07:56:54Z",
       "closedAt": null,
-      "waitingHours": 273.72214777777776,
+      "waitingHours": 297.7501144444444,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/97"
@@ -108,7 +108,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T07:56:51Z",
       "closedAt": null,
-      "waitingHours": 273.7229811111111,
+      "waitingHours": 297.75094777777775,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/96"
@@ -122,7 +122,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T07:32:24Z",
       "closedAt": null,
-      "waitingHours": 274.1304811111111,
+      "waitingHours": 298.1584477777778,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/95"
@@ -136,7 +136,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T07:31:35Z",
       "closedAt": null,
-      "waitingHours": 274.14409222222224,
+      "waitingHours": 298.1720588888889,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/94"
@@ -150,7 +150,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T07:31:33Z",
       "closedAt": null,
-      "waitingHours": 274.1446477777778,
+      "waitingHours": 298.17261444444443,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/93"
@@ -164,7 +164,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T07:31:27Z",
       "closedAt": null,
-      "waitingHours": 274.14631444444444,
+      "waitingHours": 298.1742811111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/92"
@@ -178,7 +178,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T07:31:22Z",
       "closedAt": null,
-      "waitingHours": 274.1477033333333,
+      "waitingHours": 298.17567,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/91"
@@ -206,7 +206,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T06:45:10Z",
       "closedAt": null,
-      "waitingHours": 298.91770333333335,
+      "waitingHours": 322.94567,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/84"
@@ -248,7 +248,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:01:59Z",
       "closedAt": null,
-      "waitingHours": 304.6374255555556,
+      "waitingHours": 328.66539222222224,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/74"
@@ -262,7 +262,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:01:56Z",
       "closedAt": null,
-      "waitingHours": 304.6382588888889,
+      "waitingHours": 328.66622555555557,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/73"
@@ -276,7 +276,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:01:52Z",
       "closedAt": null,
-      "waitingHours": 304.63937,
+      "waitingHours": 328.66733666666664,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/72"
@@ -304,7 +304,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:01:38Z",
       "closedAt": null,
-      "waitingHours": 304.6432588888889,
+      "waitingHours": 328.67122555555557,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/70"
@@ -318,7 +318,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T00:54:51Z",
       "closedAt": null,
-      "waitingHours": 304.75631444444446,
+      "waitingHours": 328.7842811111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/69"
@@ -332,7 +332,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T00:28:41Z",
       "closedAt": null,
-      "waitingHours": 305.19242555555553,
+      "waitingHours": 329.22039222222224,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/68"
@@ -724,7 +724,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-02T01:06:15Z",
       "closedAt": null,
-      "waitingHours": 376.56631444444446,
+      "waitingHours": 400.5942811111111,
       "comments": 11,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/vllm-omni-mlx/issues/2"
