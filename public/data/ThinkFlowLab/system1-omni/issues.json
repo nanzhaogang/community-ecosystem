@@ -1,6 +1,20 @@
 {
-  "generatedAt": "2026-10-18T17:41:54.412Z",
+  "generatedAt": "2026-10-19T20:18:31.333Z",
   "items": [
+    {
+      "number": 150,
+      "title": "[RFC]: Next-phase roadmap: prefill-only execution, reuse and scheduling",
+      "author": "twu3202",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-19T05:57:17Z",
+      "closedAt": null,
+      "waitingHours": 14.353981388888888,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/150"
+    },
     {
       "number": 137,
       "title": "[New Model]: Support the Vela 2.0 series",
@@ -10,12 +24,12 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T16:03:57Z",
       "closedAt": null,
-      "waitingHours": 169.63261444444444,
+      "waitingHours": 196.24287027777777,
       "comments": 0,
       "labels": [
         "new model"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/137"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/137"
     },
     {
       "number": 136,
@@ -26,13 +40,13 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T12:34:21Z",
       "closedAt": null,
-      "waitingHours": 173.12594777777778,
+      "waitingHours": 199.7362036111111,
       "comments": 1,
       "labels": [
         "help wanted",
         "new model"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/136"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/136"
     },
     {
       "number": 133,
@@ -43,13 +57,13 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T13:06:02Z",
       "closedAt": null,
-      "waitingHours": 196.5978922222222,
+      "waitingHours": 223.20814805555557,
       "comments": 1,
       "labels": [
         "help wanted",
         "new model"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/133"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/133"
     },
     {
       "number": 130,
@@ -60,10 +74,10 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T11:11:52Z",
       "closedAt": null,
-      "waitingHours": 198.50067,
+      "waitingHours": 225.11092583333334,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/130"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/130"
     },
     {
       "number": 128,
@@ -74,12 +88,12 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T11:26:15Z",
       "closedAt": null,
-      "waitingHours": 222.26094777777777,
+      "waitingHours": 248.8712036111111,
       "comments": 1,
       "labels": [
         "enhancement"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/128"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/128"
     },
     {
       "number": 125,
@@ -90,10 +104,10 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T15:38:03Z",
       "closedAt": null,
-      "waitingHours": 242.06428111111111,
+      "waitingHours": 268.67453694444447,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/125"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/125"
     },
     {
       "number": 121,
@@ -104,14 +118,14 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T04:29:27Z",
       "closedAt": null,
-      "waitingHours": 253.20761444444443,
+      "waitingHours": 279.8178702777778,
       "comments": 1,
       "labels": [
         "help wanted",
         "new model",
         "RFC"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/121"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/121"
     },
     {
       "number": 114,
@@ -122,14 +136,14 @@
       "isPullRequest": false,
       "createdAt": "2026-10-07T14:18:03Z",
       "closedAt": null,
-      "waitingHours": 267.39761444444446,
+      "waitingHours": 294.0078702777778,
       "comments": 5,
       "labels": [
         "help wanted",
         "new model",
         "RFC"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/114"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/114"
     },
     {
       "number": 95,
@@ -140,14 +154,14 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T04:22:51Z",
       "closedAt": null,
-      "waitingHours": 301.3176144444444,
+      "waitingHours": 327.9278702777778,
       "comments": 1,
       "labels": [
         "help wanted",
         "new model",
         "RFC"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/95"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/95"
     },
     {
       "number": 87,
@@ -158,13 +172,13 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:00:21Z",
       "closedAt": null,
-      "waitingHours": 328.6926144444444,
+      "waitingHours": 355.3028702777778,
       "comments": 1,
       "labels": [
         "enhancement",
         "help wanted"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/87"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/87"
     },
     {
       "number": 86,
@@ -181,7 +195,7 @@
         "documentation",
         "help wanted"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/86"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/86"
     },
     {
       "number": 85,
@@ -192,14 +206,14 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:00:19Z",
       "closedAt": null,
-      "waitingHours": 328.69317,
+      "waitingHours": 355.30342583333334,
       "comments": 6,
       "labels": [
         "help wanted",
         "performance",
         "RFC"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/85"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/85"
     },
     {
       "number": 84,
@@ -210,13 +224,13 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:00:09Z",
       "closedAt": null,
-      "waitingHours": 328.6959477777778,
+      "waitingHours": 355.30620361111113,
       "comments": 6,
       "labels": [
         "help wanted",
         "new model"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/84"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/84"
     },
     {
       "number": 83,
@@ -227,12 +241,12 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T00:53:49Z",
       "closedAt": null,
-      "waitingHours": 328.80150333333336,
+      "waitingHours": 355.4117591666667,
       "comments": 0,
       "labels": [
         "documentation"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/83"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/83"
     },
     {
       "number": 66,
@@ -243,13 +257,13 @@
       "isPullRequest": false,
       "createdAt": "2026-10-03T07:48:11Z",
       "closedAt": null,
-      "waitingHours": 369.8953922222222,
+      "waitingHours": 396.5056480555556,
       "comments": 1,
       "labels": [
         "help wanted",
         "performance"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/66"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/66"
     },
     {
       "number": 61,
@@ -260,10 +274,10 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T21:30:58Z",
       "closedAt": null,
-      "waitingHours": 404.1823366666667,
+      "waitingHours": 430.7925925,
       "comments": 2,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/61"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/61"
     },
     {
       "number": 57,
@@ -274,12 +288,12 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T09:59:49Z",
       "closedAt": null,
-      "waitingHours": 415.70150333333333,
+      "waitingHours": 442.31175916666666,
       "comments": 0,
       "labels": [
         "RFC"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/57"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/57"
     },
     {
       "number": 54,
@@ -295,7 +309,7 @@
       "labels": [
         "new model"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/54"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/54"
     },
     {
       "number": 46,
@@ -312,7 +326,7 @@
         "enhancement",
         "help wanted"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/46"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/46"
     },
     {
       "number": 45,
@@ -329,7 +343,7 @@
         "documentation",
         "help wanted"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/45"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/45"
     },
     {
       "number": 39,
@@ -340,13 +354,13 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T13:42:36Z",
       "closedAt": null,
-      "waitingHours": 459.98844777777776,
+      "waitingHours": 486.5987036111111,
       "comments": 0,
       "labels": [
         "help wanted",
         "performance"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/39"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/39"
     },
     {
       "number": 36,
@@ -357,10 +371,10 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T05:30:50Z",
       "closedAt": null,
-      "waitingHours": 468.1845588888889,
+      "waitingHours": 494.7948147222222,
       "comments": 2,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/36"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/36"
     },
     {
       "number": 31,
@@ -371,10 +385,10 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T14:26:04Z",
       "closedAt": null,
-      "waitingHours": 483.26400333333333,
+      "waitingHours": 509.87425916666666,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/31"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/31"
     },
     {
       "number": 27,
@@ -385,10 +399,10 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T09:42:19Z",
       "closedAt": null,
-      "waitingHours": 487.99317,
+      "waitingHours": 514.6034258333333,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/27"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/27"
     },
     {
       "number": 14,
@@ -399,10 +413,10 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T02:27:31Z",
       "closedAt": null,
-      "waitingHours": 495.2398366666667,
+      "waitingHours": 521.8500925,
       "comments": 1,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/14"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/14"
     },
     {
       "number": 10,
@@ -413,13 +427,13 @@
       "isPullRequest": false,
       "createdAt": "2026-09-27T09:02:01Z",
       "closedAt": null,
-      "waitingHours": 512.6648366666667,
+      "waitingHours": 539.2750925,
       "comments": 8,
       "labels": [
         "help wanted",
         "new model"
       ],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/10"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/10"
     },
     {
       "number": 9,
@@ -430,10 +444,10 @@
       "isPullRequest": false,
       "createdAt": "2026-09-27T08:42:35Z",
       "closedAt": null,
-      "waitingHours": 512.9887255555556,
+      "waitingHours": 539.5989813888889,
       "comments": 2,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/9"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/9"
     },
     {
       "number": 6,
@@ -447,7 +461,7 @@
       "waitingHours": null,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/6"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/6"
     },
     {
       "number": 3,
@@ -461,7 +475,7 @@
       "waitingHours": null,
       "comments": 4,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/3"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/3"
     },
     {
       "number": 1,
@@ -475,7 +489,7 @@
       "waitingHours": null,
       "comments": 3,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/system1-omni/issues/1"
+      "url": "https://github.com/InferMatrixLab/system1-omni/issues/1"
     }
   ]
 }

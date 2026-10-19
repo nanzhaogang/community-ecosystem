@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T17:41:54.412Z",
+  "generatedAt": "2026-10-19T20:18:31.333Z",
   "items": [
     {
       "number": 126,
@@ -10,10 +10,10 @@
       "isPullRequest": false,
       "createdAt": "2026-10-15T05:55:57Z",
       "closedAt": null,
-      "waitingHours": 83.76594777777778,
+      "waitingHours": 110.37620361111111,
       "comments": 3,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/126"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/126"
     },
     {
       "number": 124,
@@ -24,12 +24,12 @@
       "isPullRequest": false,
       "createdAt": "2026-10-14T08:18:05Z",
       "closedAt": null,
-      "waitingHours": 105.39705888888889,
+      "waitingHours": 132.00731472222222,
       "comments": 0,
       "labels": [
         "documentation"
       ],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/124"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/124"
     },
     {
       "number": 111,
@@ -40,12 +40,12 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T09:18:13Z",
       "closedAt": null,
-      "waitingHours": 224.39483666666666,
+      "waitingHours": 251.0050925,
       "comments": 3,
       "labels": [
         "RFC"
       ],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/111"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/111"
     },
     {
       "number": 98,
@@ -56,10 +56,10 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:18:29Z",
       "closedAt": null,
-      "waitingHours": 328.3903922222222,
+      "waitingHours": 355.00064805555553,
       "comments": 1,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/98"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/98"
     },
     {
       "number": 85,
@@ -70,10 +70,10 @@
       "isPullRequest": false,
       "createdAt": "2026-10-04T13:24:25Z",
       "closedAt": null,
-      "waitingHours": 340.2915033333333,
+      "waitingHours": 366.9017591666667,
       "comments": 9,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/85"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/85"
     },
     {
       "number": 84,
@@ -84,12 +84,12 @@
       "isPullRequest": false,
       "createdAt": "2026-10-03T18:46:56Z",
       "closedAt": null,
-      "waitingHours": 358.91622555555557,
+      "waitingHours": 385.5264813888889,
       "comments": 0,
       "labels": [
         "RFC"
       ],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/84"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/84"
     },
     {
       "number": 81,
@@ -100,12 +100,12 @@
       "isPullRequest": false,
       "createdAt": "2026-10-02T14:30:37Z",
       "closedAt": null,
-      "waitingHours": 387.18817,
+      "waitingHours": 413.79842583333334,
       "comments": 7,
       "labels": [
         "RFC"
       ],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/81"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/81"
     },
     {
       "number": 71,
@@ -121,7 +121,7 @@
       "labels": [
         "RFC"
       ],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/71"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/71"
     },
     {
       "number": 70,
@@ -132,12 +132,12 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T03:35:21Z",
       "closedAt": null,
-      "waitingHours": 470.1092811111111,
+      "waitingHours": 496.7195369444444,
       "comments": 21,
       "labels": [
         "RFC"
       ],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/70"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/70"
     },
     {
       "number": 69,
@@ -148,12 +148,12 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T03:05:03Z",
       "closedAt": null,
-      "waitingHours": 470.6142811111111,
+      "waitingHours": 497.2245369444444,
       "comments": 14,
       "labels": [
         "RFC"
       ],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/69"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/69"
     },
     {
       "number": 67,
@@ -167,7 +167,7 @@
       "waitingHours": null,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/67"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/67"
     },
     {
       "number": 65,
@@ -178,10 +178,10 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T10:14:46Z",
       "closedAt": null,
-      "waitingHours": 487.45233666666667,
+      "waitingHours": 514.0625925,
       "comments": 1,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/65"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/65"
     },
     {
       "number": 56,
@@ -192,10 +192,10 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T06:31:41Z",
       "closedAt": null,
-      "waitingHours": 587.1703922222222,
+      "waitingHours": 613.7806480555555,
       "comments": 4,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/56"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/56"
     },
     {
       "number": 53,
@@ -211,7 +211,7 @@
       "labels": [
         "help wanted"
       ],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/53"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/53"
     },
     {
       "number": 43,
@@ -222,10 +222,10 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T08:26:09Z",
       "closedAt": null,
-      "waitingHours": 609.2626144444445,
+      "waitingHours": 635.8728702777778,
       "comments": 22,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/43"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/43"
     },
     {
       "number": 32,
@@ -236,12 +236,12 @@
       "isPullRequest": false,
       "createdAt": "2026-09-18T02:07:12Z",
       "closedAt": null,
-      "waitingHours": 735.5784477777778,
+      "waitingHours": 762.1887036111111,
       "comments": 22,
       "labels": [
         "RFC"
       ],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/32"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/32"
     },
     {
       "number": 22,
@@ -252,10 +252,10 @@
       "isPullRequest": false,
       "createdAt": "2026-09-12T07:22:42Z",
       "closedAt": null,
-      "waitingHours": 874.3201144444445,
+      "waitingHours": 900.9303702777778,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/22"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/22"
     },
     {
       "number": 9,
@@ -269,7 +269,7 @@
       "waitingHours": null,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/9"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/9"
     },
     {
       "number": 8,
@@ -283,7 +283,7 @@
       "waitingHours": null,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/8"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/8"
     },
     {
       "number": 7,
@@ -297,7 +297,7 @@
       "waitingHours": null,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/7"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/7"
     },
     {
       "number": 6,
@@ -311,7 +311,7 @@
       "waitingHours": null,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/6"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/6"
     },
     {
       "number": 5,
@@ -325,7 +325,7 @@
       "waitingHours": null,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/5"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/5"
     },
     {
       "number": 4,
@@ -339,7 +339,7 @@
       "waitingHours": null,
       "comments": 0,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/4"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/4"
     },
     {
       "number": 3,
@@ -353,7 +353,7 @@
       "waitingHours": null,
       "comments": 1,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/3"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/3"
     },
     {
       "number": 2,
@@ -367,7 +367,7 @@
       "waitingHours": null,
       "comments": 3,
       "labels": [],
-      "url": "https://github.com/ThinkFlowLab/vllm-rlt/issues/2"
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/2"
     }
   ]
 }

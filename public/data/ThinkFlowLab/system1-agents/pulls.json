@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-10-18T17:41:54.412Z",
+  "generatedAt": "2026-10-19T20:18:31.333Z",
   "items": [
+    {
+      "number": 91,
+      "title": "[Fix] Unify decision confidence as max_k p_k (keep backend-native as backend_confidence)",
+      "author": "Birfy",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-19T12:01:22Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 8.285925833333334,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/ThinkFlowLab/system1-agents/pull/91"
+    },
     {
       "number": 86,
       "title": "[Feat] Served Cua-S1 4B screenshot decisions against system1-omni's multimodal worker",
@@ -11,7 +26,7 @@
       "createdAt": "2026-10-16T17:53:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 47.800114444444446,
+      "waitingHours": 74.41037027777777,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/86"
@@ -26,7 +41,7 @@
       "createdAt": "2026-10-15T11:55:22Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 77.77567,
+      "waitingHours": 104.38592583333333,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/85"
@@ -74,7 +89,7 @@
       "createdAt": "2026-10-14T09:31:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 104.18011444444444,
+      "waitingHours": 130.79037027777778,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/78"
@@ -89,7 +104,7 @@
       "createdAt": "2026-10-14T05:51:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 107.83372555555556,
+      "waitingHours": 134.4439813888889,
       "comments": 6,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/77"
@@ -104,7 +119,7 @@
       "createdAt": "2026-10-14T03:42:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 109.99400333333334,
+      "waitingHours": 136.60425916666668,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/76"
@@ -119,7 +134,7 @@
       "createdAt": "2026-10-13T23:59:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 113.69983666666667,
+      "waitingHours": 140.3100925,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/73"
@@ -134,7 +149,7 @@
       "createdAt": "2026-10-12T09:45:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 151.93594777777778,
+      "waitingHours": 178.5462036111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/72"
@@ -174,12 +189,12 @@
       "title": "[Feat] Re-score saved public231 decisions",
       "author": "linear3735",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-10T11:19:25Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 198.37483666666665,
+      "mergedAt": "2026-10-19T10:12:48Z",
+      "closedAt": "2026-10-19T10:12:48Z",
+      "waitingHours": null,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/69"
@@ -194,7 +209,7 @@
       "createdAt": "2026-10-10T02:51:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 206.8370588888889,
+      "waitingHours": 233.44731472222222,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/67"
@@ -239,7 +254,7 @@
       "createdAt": "2026-10-09T23:40:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 210.02817,
+      "waitingHours": 236.63842583333334,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/64"
@@ -254,7 +269,7 @@
       "createdAt": "2026-10-09T23:12:08Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 210.49622555555555,
+      "waitingHours": 237.10648138888888,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/63"
@@ -269,7 +284,7 @@
       "createdAt": "2026-10-09T17:19:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 216.37372555555555,
+      "waitingHours": 242.98398138888888,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/62"
@@ -299,7 +314,7 @@
       "createdAt": "2026-10-09T14:48:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 218.88483666666667,
+      "waitingHours": 245.4950925,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/60"
@@ -641,7 +656,7 @@
       "createdAt": "2026-09-29T17:03:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 456.63678111111113,
+      "waitingHours": 483.24703694444446,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/34"
@@ -724,7 +739,7 @@
       "createdAt": "2026-09-27T07:18:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 514.3862255555556,
+      "waitingHours": 540.9964813888889,
       "comments": 6,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/23"
@@ -889,7 +904,7 @@
       "createdAt": "2026-09-22T19:36:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 622.0953922222222,
+      "waitingHours": 648.7056480555556,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/6"
