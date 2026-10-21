@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-20T18:51:10.174Z",
+  "generatedAt": "2026-10-21T19:03:24.105Z",
   "items": [
     {
       "number": 117,
@@ -11,7 +11,7 @@
       "createdAt": "2026-10-17T10:18:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 80.541715,
+      "waitingHours": 104.74558472222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/pull/117"
@@ -26,7 +26,7 @@
       "createdAt": "2026-10-11T23:01:21Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 211.8303261111111,
+      "waitingHours": 236.03419583333334,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/pull/116"
@@ -41,7 +41,7 @@
       "createdAt": "2026-10-11T01:12:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 233.651715,
+      "waitingHours": 257.8555847222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/pull/115"
@@ -51,12 +51,12 @@
       "title": "docs: README catch-up — one model matrix, ASR row served, [asr] install + news",
       "author": "hsliuustc0106",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-10T14:31:55Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 244.32088166666668,
+      "mergedAt": "2026-10-21T14:30:10Z",
+      "closedAt": "2026-10-21T14:30:10Z",
+      "waitingHours": null,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/pull/114"
@@ -71,7 +71,7 @@
       "createdAt": "2026-10-09T00:35:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 282.2531038888889,
+      "waitingHours": 306.4569736111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/pull/113"
@@ -101,7 +101,7 @@
       "createdAt": "2026-10-07T03:59:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 326.85782611111114,
+      "waitingHours": 351.0616958333333,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/pull/109"
@@ -116,7 +116,7 @@
       "createdAt": "2026-10-07T01:37:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 329.22699277777775,
+      "waitingHours": 353.4308625,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/pull/108"
@@ -176,7 +176,7 @@
       "createdAt": "2026-10-06T14:53:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 339.9686594444444,
+      "waitingHours": 364.17252916666666,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/pull/103"
@@ -191,7 +191,7 @@
       "createdAt": "2026-10-06T14:40:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 340.18338166666666,
+      "waitingHours": 364.3872513888889,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/pull/102"
@@ -420,7 +420,7 @@
       "createdAt": "2026-10-04T14:33:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 388.30282611111113,
+      "waitingHours": 412.5066958333333,
       "comments": 1,
       "labels": [
         "enhancement"
