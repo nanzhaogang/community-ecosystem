@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T19:04:04.582Z",
+  "generatedAt": "2026-10-22T18:59:48.731Z",
   "repos": [
     {
       "owner": "openJiuwen-ai",
@@ -22,7 +22,7 @@
       "name": "vllm-rlt",
       "fullName": "ThinkFlowLab/vllm-rlt",
       "htmlUrl": "https://github.com/InferMatrixLab/vllm-rlt",
-      "description": "vllm based inference engine for looped transformer",
+      "description": "A vLLM-inspired inference engine for looped transformers, with loop-level scheduling and execution across composable stages",
       "defaultBranch": "main"
     },
     {

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T19:03:24.105Z",
+  "generatedAt": "2026-10-22T18:59:10.206Z",
   "items": [
     {
       "number": 154,
@@ -10,7 +10,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T14:46:52Z",
       "closedAt": null,
-      "waitingHours": 4.275584722222222,
+      "waitingHours": 28.205057222222223,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/issues/154"
@@ -24,7 +24,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T14:41:20Z",
       "closedAt": null,
-      "waitingHours": 4.367806944444444,
+      "waitingHours": 28.297279444444445,
       "comments": 5,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/issues/153"
@@ -38,7 +38,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T05:57:17Z",
       "closedAt": null,
-      "waitingHours": 61.10197361111111,
+      "waitingHours": 85.03144611111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/issues/150"
@@ -52,7 +52,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T16:03:57Z",
       "closedAt": null,
-      "waitingHours": 242.9908625,
+      "waitingHours": 266.920335,
       "comments": 0,
       "labels": [
         "new model"
@@ -68,7 +68,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T12:34:21Z",
       "closedAt": null,
-      "waitingHours": 246.48419583333333,
+      "waitingHours": 270.4136683333333,
       "comments": 1,
       "labels": [
         "help wanted",
@@ -85,7 +85,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T13:06:02Z",
       "closedAt": null,
-      "waitingHours": 269.95614027777776,
+      "waitingHours": 293.8856127777778,
       "comments": 1,
       "labels": [
         "help wanted",
@@ -102,7 +102,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-10T11:11:52Z",
       "closedAt": null,
-      "waitingHours": 271.85891805555553,
+      "waitingHours": 295.78839055555557,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/issues/130"
@@ -116,7 +116,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T11:26:15Z",
       "closedAt": null,
-      "waitingHours": 295.6191958333333,
+      "waitingHours": 319.54866833333335,
       "comments": 1,
       "labels": [
         "enhancement"
@@ -132,7 +132,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T15:38:03Z",
       "closedAt": null,
-      "waitingHours": 315.42252916666666,
+      "waitingHours": 339.3520016666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/issues/125"
@@ -146,7 +146,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T04:29:27Z",
       "closedAt": null,
-      "waitingHours": 326.5658625,
+      "waitingHours": 350.495335,
       "comments": 1,
       "labels": [
         "help wanted",
@@ -164,7 +164,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-07T14:18:03Z",
       "closedAt": null,
-      "waitingHours": 340.7558625,
+      "waitingHours": 364.685335,
       "comments": 5,
       "labels": [
         "help wanted",
@@ -182,7 +182,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T04:22:51Z",
       "closedAt": null,
-      "waitingHours": 374.6758625,
+      "waitingHours": 398.605335,
       "comments": 1,
       "labels": [
         "help wanted",
@@ -200,7 +200,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:00:21Z",
       "closedAt": null,
-      "waitingHours": 402.0508625,
+      "waitingHours": 425.980335,
       "comments": 1,
       "labels": [
         "enhancement",
@@ -234,7 +234,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:00:19Z",
       "closedAt": null,
-      "waitingHours": 402.05141805555553,
+      "waitingHours": 425.98089055555556,
       "comments": 6,
       "labels": [
         "help wanted",
@@ -252,7 +252,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:00:09Z",
       "closedAt": null,
-      "waitingHours": 402.0541958333333,
+      "waitingHours": 425.98366833333336,
       "comments": 6,
       "labels": [
         "help wanted",
@@ -269,7 +269,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T00:53:49Z",
       "closedAt": null,
-      "waitingHours": 402.1597513888889,
+      "waitingHours": 426.0892238888889,
       "comments": 0,
       "labels": [
         "documentation"
@@ -285,7 +285,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-03T07:48:11Z",
       "closedAt": null,
-      "waitingHours": 443.2536402777778,
+      "waitingHours": 467.18311277777775,
       "comments": 1,
       "labels": [
         "help wanted",
@@ -302,7 +302,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T21:30:58Z",
       "closedAt": null,
-      "waitingHours": 477.5405847222222,
+      "waitingHours": 501.47005722222224,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/issues/61"
@@ -316,7 +316,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-01T09:59:49Z",
       "closedAt": null,
-      "waitingHours": 489.0597513888889,
+      "waitingHours": 512.9892238888889,
       "comments": 0,
       "labels": [
         "RFC"
@@ -382,7 +382,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T13:42:36Z",
       "closedAt": null,
-      "waitingHours": 533.3466958333333,
+      "waitingHours": 557.2761683333333,
       "comments": 0,
       "labels": [
         "help wanted",
@@ -399,7 +399,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T05:30:50Z",
       "closedAt": null,
-      "waitingHours": 541.5428069444445,
+      "waitingHours": 565.4722794444444,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/issues/36"
@@ -413,7 +413,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T14:26:04Z",
       "closedAt": null,
-      "waitingHours": 556.6222513888889,
+      "waitingHours": 580.5517238888889,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/issues/31"
@@ -427,7 +427,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T09:42:19Z",
       "closedAt": null,
-      "waitingHours": 561.3514180555555,
+      "waitingHours": 585.2808905555555,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/issues/27"
@@ -441,7 +441,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-28T02:27:31Z",
       "closedAt": null,
-      "waitingHours": 568.5980847222222,
+      "waitingHours": 592.5275572222222,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/issues/14"
@@ -455,7 +455,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-27T09:02:01Z",
       "closedAt": null,
-      "waitingHours": 586.0230847222222,
+      "waitingHours": 609.9525572222223,
       "comments": 8,
       "labels": [
         "help wanted",
@@ -472,7 +472,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-27T08:42:35Z",
       "closedAt": null,
-      "waitingHours": 586.3469736111111,
+      "waitingHours": 610.2764461111111,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/issues/9"

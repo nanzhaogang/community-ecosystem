@@ -1,6 +1,87 @@
 {
-  "generatedAt": "2026-10-21T19:03:24.105Z",
+  "generatedAt": "2026-10-22T18:59:10.206Z",
   "items": [
+    {
+      "number": 93,
+      "title": "Proposal: controlled task-local harness improvement on top of Skill Eval",
+      "author": "david6666666",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-22T13:55:17Z",
+      "closedAt": null,
+      "waitingHours": 5.0647794444444445,
+      "comments": 3,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/93"
+    },
+    {
+      "number": 91,
+      "title": "[Tracking] SearchSpace distillation coverage and knowledge consolidation",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-22T12:34:08Z",
+      "closedAt": null,
+      "waitingHours": 6.4172794444444445,
+      "comments": 1,
+      "labels": [
+        "kind:tracking",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/91"
+    },
+    {
+      "number": 88,
+      "title": "Skill Eval v1.1: automated evaluation for skill additions and updates",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-22T07:51:02Z",
+      "closedAt": null,
+      "waitingHours": 11.135612777777778,
+      "comments": 0,
+      "labels": [
+        "kind:tracking",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/88"
+    },
+    {
+      "number": 84,
+      "title": "task: add visual change summaries before issue closure",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-10-22T03:31:07Z",
+      "closedAt": "2026-10-22T12:19:29Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/84"
+    },
+    {
+      "number": 81,
+      "title": "[Bug] Knowledge admission: stale sweeps leave merged PRs failed",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-10-22T00:46:14Z",
+      "closedAt": "2026-10-22T11:21:43Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/81"
+    },
     {
       "number": 75,
       "title": "acceptance: Qwen3-TTS 0.6B C1 RTF optimization on RTX 4090",
@@ -10,8 +91,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T17:25:47Z",
       "closedAt": null,
-      "waitingHours": 1.626973611111111,
-      "comments": 0,
+      "waitingHours": 25.55644611111111,
+      "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/75"
     },
@@ -24,8 +105,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T14:22:29Z",
       "closedAt": null,
-      "waitingHours": 4.681973611111111,
-      "comments": 0,
+      "waitingHours": 28.61144611111111,
+      "comments": 31,
       "labels": [
         "kind:acceptance",
         "area:workbench"
@@ -41,8 +122,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T09:21:03Z",
       "closedAt": null,
-      "waitingHours": 9.7058625,
-      "comments": 0,
+      "waitingHours": 33.635335,
+      "comments": 3,
       "labels": [
         "kind:roadmap",
         "area:process"
@@ -58,7 +139,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T07:51:17Z",
       "closedAt": null,
-      "waitingHours": 11.20197361111111,
+      "waitingHours": 35.13144611111111,
       "comments": 1,
       "labels": [
         "kind:rfc",
@@ -106,7 +187,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:57:11Z",
       "closedAt": null,
-      "waitingHours": 14.103640277777778,
+      "waitingHours": 38.03311277777778,
       "comments": 0,
       "labels": [
         "kind:acceptance",
@@ -123,8 +204,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:54:34Z",
       "closedAt": null,
-      "waitingHours": 14.147251388888888,
-      "comments": 0,
+      "waitingHours": 38.076723888888885,
+      "comments": 1,
       "labels": [
         "kind:task",
         "area:workbench"
@@ -140,7 +221,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T02:01:17Z",
       "closedAt": null,
-      "waitingHours": 17.035306944444443,
+      "waitingHours": 40.964779444444446,
       "comments": 0,
       "labels": [
         "kind:tracking",
@@ -157,7 +238,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T00:58:55Z",
       "closedAt": null,
-      "waitingHours": 18.074751388888888,
+      "waitingHours": 42.00422388888889,
       "comments": 5,
       "labels": [
         "kind:acceptance",
@@ -170,12 +251,12 @@
       "title": "[RFC] Repository knowledge distillation: source coverage, incremental updates and reusable mechanisms",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-20T13:06:14Z",
-      "closedAt": null,
-      "waitingHours": 29.952806944444443,
-      "comments": 0,
+      "closedAt": "2026-10-22T01:39:08Z",
+      "waitingHours": null,
+      "comments": 3,
       "labels": [
         "kind:rfc",
         "area:knowledge"
@@ -191,7 +272,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-20T11:29:55Z",
       "closedAt": null,
-      "waitingHours": 31.558084722222222,
+      "waitingHours": 55.48755722222222,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -208,7 +289,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-20T08:38:36Z",
       "closedAt": null,
-      "waitingHours": 34.4133625,
+      "waitingHours": 58.342835,
       "comments": 0,
       "labels": [
         "kind:status",
@@ -221,12 +302,12 @@
       "title": "[RFC] Skill Eval v1: revision-scoped discovery and task-efficacy evaluation",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-20T03:49:58Z",
-      "closedAt": null,
-      "waitingHours": 39.22391805555556,
-      "comments": 8,
+      "closedAt": "2026-10-22T01:34:38Z",
+      "waitingHours": null,
+      "comments": 9,
       "labels": [
         "kind:rfc",
         "area:knowledge"
@@ -242,7 +323,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T16:47:16Z",
       "closedAt": null,
-      "waitingHours": 50.26891805555555,
+      "waitingHours": 74.19839055555556,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -259,7 +340,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T12:17:58Z",
       "closedAt": null,
-      "waitingHours": 54.75725138888889,
+      "waitingHours": 78.68672388888889,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -276,7 +357,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T11:38:35Z",
       "closedAt": null,
-      "waitingHours": 55.41364027777778,
+      "waitingHours": 79.34311277777778,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -307,7 +388,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T08:31:56Z",
       "closedAt": null,
-      "waitingHours": 58.52447361111111,
+      "waitingHours": 82.45394611111111,
       "comments": 2,
       "labels": [
         "kind:rfc",
@@ -320,11 +401,11 @@
       "title": "task: add engine delivery template and recipe handoff",
       "author": "david6666666",
       "contributionType": "internal",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-19T06:56:35Z",
-      "closedAt": null,
-      "waitingHours": 60.113640277777776,
+      "closedAt": "2026-10-22T03:42:28Z",
+      "waitingHours": null,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -397,7 +478,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-15T06:53:05Z",
       "closedAt": null,
-      "waitingHours": 156.1719736111111,
+      "waitingHours": 180.1014461111111,
       "comments": 0,
       "labels": [
         "kind:acceptance",
@@ -414,7 +495,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-14T02:18:38Z",
       "closedAt": null,
-      "waitingHours": 184.74614027777778,
+      "waitingHours": 208.6756127777778,
       "comments": 0,
       "labels": [
         "kind:investigation",
@@ -431,7 +512,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T00:56:41Z",
       "closedAt": null,
-      "waitingHours": 258.1119736111111,
+      "waitingHours": 282.0414461111111,
       "comments": 0,
       "labels": [
         "kind:acceptance",
@@ -448,7 +529,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T09:34:48Z",
       "closedAt": null,
-      "waitingHours": 297.47669583333334,
+      "waitingHours": 321.4061683333333,
       "comments": 0,
       "labels": [
         "kind:task",
