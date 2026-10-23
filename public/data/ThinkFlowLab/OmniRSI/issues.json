@@ -1,6 +1,182 @@
 {
-  "generatedAt": "2026-10-22T18:59:10.206Z",
+  "generatedAt": "2026-10-23T18:48:58.787Z",
   "items": [
+    {
+      "number": 131,
+      "title": "[RFC] Bottleneck-driven optimization: scheduling, caching, and parallelism/pipelining",
+      "author": "david6666666",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-23T16:42:38Z",
+      "closedAt": null,
+      "waitingHours": 2.1057741666666665,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/131"
+    },
+    {
+      "number": 128,
+      "title": "[RFC] Skill Indexer: better skill and context selection through collect",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-23T14:25:09Z",
+      "closedAt": null,
+      "waitingHours": 4.397163055555556,
+      "comments": 1,
+      "labels": [
+        "kind:rfc",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/128"
+    },
+    {
+      "number": 126,
+      "title": "task: distill Hopper knowledge from KDA KernelWiki with provenance and architecture boundaries",
+      "author": "jiangkuaixue123",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-23T13:09:00Z",
+      "closedAt": null,
+      "waitingHours": 5.666329722222223,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/126"
+    },
+    {
+      "number": 125,
+      "title": "acceptance: HunyuanImage-3.0 DiT 1024×1024 single-image latency optimization / local L20X",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-23T13:04:06Z",
+      "closedAt": null,
+      "waitingHours": 5.747996388888889,
+      "comments": 0,
+      "labels": [
+        "kind:acceptance",
+        "area:workbench"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/125"
+    },
+    {
+      "number": 116,
+      "title": "[Status 02] InferRSI evolution: ac702729 → 48e0d589 (2026-10-23)",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-23T09:06:04Z",
+      "closedAt": null,
+      "waitingHours": 9.71521861111111,
+      "comments": 0,
+      "labels": [
+        "kind:status",
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/116"
+    },
+    {
+      "number": 115,
+      "title": "knowledge: distill lithos-metal into source-grounded candidate skills",
+      "author": "jiangkuaixue123",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-23T08:46:31Z",
+      "closedAt": null,
+      "waitingHours": 10.041051944444444,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/115"
+    },
+    {
+      "number": 112,
+      "title": "Acceptance: Qwen3-Omni full streaming speech on two L20X GPUs",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-23T03:42:02Z",
+      "closedAt": null,
+      "waitingHours": 15.115774166666666,
+      "comments": 0,
+      "labels": [
+        "kind:acceptance",
+        "area:workbench"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/112"
+    },
+    {
+      "number": 103,
+      "title": "task: broaden model research and qualify full-pipeline engine feasibility",
+      "author": "david6666666",
+      "contributionType": "internal",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-10-23T02:17:42Z",
+      "closedAt": "2026-10-23T07:20:09Z",
+      "waitingHours": null,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/103"
+    },
+    {
+      "number": 101,
+      "title": "Skill Eval: automate PR evaluation planning and feedback",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-23T01:30:33Z",
+      "closedAt": null,
+      "waitingHours": 17.307163055555556,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/101"
+    },
+    {
+      "number": 100,
+      "title": "Skill Eval: add configurable skill addition and update comparisons",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-10-23T01:30:30Z",
+      "closedAt": "2026-10-23T09:07:36Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/100"
+    },
+    {
+      "number": 99,
+      "title": "Skill Eval: harden deterministic grading and offline failure handling",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-10-23T01:29:44Z",
+      "closedAt": "2026-10-23T01:31:03Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/99"
+    },
     {
       "number": 93,
       "title": "Proposal: controlled task-local harness improvement on top of Skill Eval",
@@ -10,9 +186,12 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T13:55:17Z",
       "closedAt": null,
-      "waitingHours": 5.0647794444444445,
-      "comments": 3,
-      "labels": [],
+      "waitingHours": 28.894940833333333,
+      "comments": 7,
+      "labels": [
+        "kind:rfc",
+        "area:knowledge"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/93"
     },
     {
@@ -24,8 +203,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T12:34:08Z",
       "closedAt": null,
-      "waitingHours": 6.4172794444444445,
-      "comments": 1,
+      "waitingHours": 30.247440833333332,
+      "comments": 2,
       "labels": [
         "kind:tracking",
         "area:knowledge"
@@ -41,7 +220,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T07:51:02Z",
       "closedAt": null,
-      "waitingHours": 11.135612777777778,
+      "waitingHours": 34.96577416666667,
       "comments": 0,
       "labels": [
         "kind:tracking",
@@ -91,9 +270,12 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T17:25:47Z",
       "closedAt": null,
-      "waitingHours": 25.55644611111111,
+      "waitingHours": 49.3866075,
       "comments": 1,
-      "labels": [],
+      "labels": [
+        "kind:acceptance",
+        "area:workbench"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/75"
     },
     {
@@ -105,8 +287,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T14:22:29Z",
       "closedAt": null,
-      "waitingHours": 28.61144611111111,
-      "comments": 31,
+      "waitingHours": 52.4416075,
+      "comments": 143,
       "labels": [
         "kind:acceptance",
         "area:workbench"
@@ -122,7 +304,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T09:21:03Z",
       "closedAt": null,
-      "waitingHours": 33.635335,
+      "waitingHours": 57.46549638888889,
       "comments": 3,
       "labels": [
         "kind:roadmap",
@@ -135,11 +317,11 @@
       "title": "[RFC] Benchmark selection by task for InferRSI",
       "author": "david6666666",
       "contributionType": "internal",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-21T07:51:17Z",
-      "closedAt": null,
-      "waitingHours": 35.13144611111111,
+      "closedAt": "2026-10-23T01:55:52Z",
+      "waitingHours": null,
       "comments": 1,
       "labels": [
         "kind:rfc",
@@ -187,7 +369,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:57:11Z",
       "closedAt": null,
-      "waitingHours": 38.03311277777778,
+      "waitingHours": 61.86327416666666,
       "comments": 0,
       "labels": [
         "kind:acceptance",
@@ -204,7 +386,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:54:34Z",
       "closedAt": null,
-      "waitingHours": 38.076723888888885,
+      "waitingHours": 61.906885277777775,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -221,7 +403,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T02:01:17Z",
       "closedAt": null,
-      "waitingHours": 40.964779444444446,
+      "waitingHours": 64.79494083333333,
       "comments": 0,
       "labels": [
         "kind:tracking",
@@ -238,7 +420,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T00:58:55Z",
       "closedAt": null,
-      "waitingHours": 42.00422388888889,
+      "waitingHours": 65.83438527777778,
       "comments": 5,
       "labels": [
         "kind:acceptance",
@@ -272,7 +454,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-20T11:29:55Z",
       "closedAt": null,
-      "waitingHours": 55.48755722222222,
+      "waitingHours": 79.3177186111111,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -289,8 +471,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-20T08:38:36Z",
       "closedAt": null,
-      "waitingHours": 58.342835,
-      "comments": 0,
+      "waitingHours": 82.17299638888889,
+      "comments": 1,
       "labels": [
         "kind:status",
         "area:process"
@@ -323,7 +505,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T16:47:16Z",
       "closedAt": null,
-      "waitingHours": 74.19839055555556,
+      "waitingHours": 98.02855194444444,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -340,7 +522,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T12:17:58Z",
       "closedAt": null,
-      "waitingHours": 78.68672388888889,
+      "waitingHours": 102.51688527777777,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -357,7 +539,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T11:38:35Z",
       "closedAt": null,
-      "waitingHours": 79.34311277777778,
+      "waitingHours": 103.17327416666667,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -388,7 +570,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T08:31:56Z",
       "closedAt": null,
-      "waitingHours": 82.45394611111111,
+      "waitingHours": 106.2841075,
       "comments": 2,
       "labels": [
         "kind:rfc",
@@ -474,11 +656,11 @@
       "title": "Acceptance: Drama 3 / B300×1 / 1.5× throughput at every concurrency",
       "author": "david6666666",
       "contributionType": "internal",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-15T06:53:05Z",
-      "closedAt": null,
-      "waitingHours": 180.1014461111111,
+      "closedAt": "2026-10-23T07:22:34Z",
+      "waitingHours": null,
       "comments": 0,
       "labels": [
         "kind:acceptance",
@@ -495,7 +677,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-14T02:18:38Z",
       "closedAt": null,
-      "waitingHours": 208.6756127777778,
+      "waitingHours": 232.50577416666667,
       "comments": 0,
       "labels": [
         "kind:investigation",
@@ -512,7 +694,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T00:56:41Z",
       "closedAt": null,
-      "waitingHours": 282.0414461111111,
+      "waitingHours": 305.8716075,
       "comments": 0,
       "labels": [
         "kind:acceptance",
@@ -525,11 +707,11 @@
       "title": "Bootstrap CLI-first RSI experiments and source-grounded diffusion knowledge",
       "author": "david6666666",
       "contributionType": "internal",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-09T09:34:48Z",
-      "closedAt": null,
-      "waitingHours": 321.4061683333333,
+      "closedAt": "2026-10-23T07:22:51Z",
+      "waitingHours": null,
       "comments": 0,
       "labels": [
         "kind:task",

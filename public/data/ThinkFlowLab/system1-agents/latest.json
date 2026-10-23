@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-22T18:59:10.206Z",
+  "generatedAt": "2026-10-23T18:48:58.787Z",
   "repo": {
-    "stars": 170,
+    "stars": 172,
     "forks": 24,
     "watchers": 0,
-    "openIssuesAndPrs": 39
+    "openIssuesAndPrs": 40
   },
   "contributors": {
     "total": 19,
-    "activeLast30d": 18,
-    "newLast30d": 16,
+    "activeLast30d": 17,
+    "newLast30d": 15,
     "composition": {
       "internal": 18,
       "external": 1,
@@ -17,12 +17,12 @@
     }
   },
   "pulls": {
-    "total": 62,
-    "open": 17,
+    "total": 63,
+    "open": 18,
     "merged": 44,
     "closedUnmerged": 1,
     "composition": {
-      "internal": 60,
+      "internal": 61,
       "external": 0,
       "unknown": 2
     }
@@ -45,7 +45,7 @@
           "title": "injection_guard: a labelled set from InjecAgent and AgentDojo",
           "author": "Yunaik",
           "createdAt": "2026-09-22T16:48:13Z",
-          "waitingHours": 722.1825572222223,
+          "waitingHours": 746.0127186111112,
           "url": "https://github.com/ThinkFlowLab/system1-agents/issues/3"
         }
       ]

@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-22T18:59:10.206Z",
+  "generatedAt": "2026-10-23T18:48:58.787Z",
   "repo": {
-    "stars": 202,
+    "stars": 205,
     "forks": 30,
     "watchers": 1,
     "openIssuesAndPrs": 38
   },
   "contributors": {
     "total": 25,
-    "activeLast30d": 24,
-    "newLast30d": 22,
+    "activeLast30d": 22,
+    "newLast30d": 18,
     "composition": {
       "internal": 22,
       "external": 3,
@@ -17,12 +17,12 @@
     }
   },
   "pulls": {
-    "total": 116,
+    "total": 119,
     "open": 25,
-    "merged": 51,
-    "closedUnmerged": 40,
+    "merged": 52,
+    "closedUnmerged": 42,
     "composition": {
-      "internal": 114,
+      "internal": 117,
       "external": 2,
       "unknown": 0
     }
@@ -38,14 +38,14 @@
     },
     "longOpen": {
       "thresholdDays": 30,
-      "count": 2,
+      "count": 3,
       "items": [
         {
           "number": 22,
           "title": "feat: add OpenAI-compatible serving and reuse vllm bench serve",
           "author": "hsliuustc0106",
           "createdAt": "2026-09-12T07:22:42Z",
-          "waitingHours": 971.607835,
+          "waitingHours": 995.4379963888889,
           "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/22"
         },
         {
@@ -53,8 +53,16 @@
           "title": "[RFC] Module boundaries and incremental refactoring of the RLT inference runtime",
           "author": "bjf-frz",
           "createdAt": "2026-09-18T02:07:12Z",
-          "waitingHours": 832.8661683333333,
+          "waitingHours": 856.6963297222222,
           "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/32"
+        },
+        {
+          "number": 43,
+          "title": "[RFC] Speculative Decoding for rlt",
+          "author": "bjf-frz",
+          "createdAt": "2026-09-23T08:26:09Z",
+          "waitingHours": 730.3804963888889,
+          "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/43"
         }
       ]
     }
