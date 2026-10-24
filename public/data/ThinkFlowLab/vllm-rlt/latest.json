@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-10-23T18:48:58.787Z",
+  "generatedAt": "2026-10-24T17:44:21.158Z",
   "repo": {
-    "stars": 205,
+    "stars": 208,
     "forks": 30,
     "watchers": 1,
-    "openIssuesAndPrs": 38
+    "openIssuesAndPrs": 36
   },
   "contributors": {
     "total": 25,
-    "activeLast30d": 22,
-    "newLast30d": 18,
+    "activeLast30d": 19,
+    "newLast30d": 13,
     "composition": {
       "internal": 22,
       "external": 3,
@@ -17,12 +17,12 @@
     }
   },
   "pulls": {
-    "total": 119,
-    "open": 25,
-    "merged": 52,
+    "total": 120,
+    "open": 23,
+    "merged": 55,
     "closedUnmerged": 42,
     "composition": {
-      "internal": 117,
+      "internal": 118,
       "external": 2,
       "unknown": 0
     }
@@ -38,14 +38,14 @@
     },
     "longOpen": {
       "thresholdDays": 30,
-      "count": 3,
+      "count": 4,
       "items": [
         {
           "number": 22,
           "title": "feat: add OpenAI-compatible serving and reuse vllm bench serve",
           "author": "hsliuustc0106",
           "createdAt": "2026-09-12T07:22:42Z",
-          "waitingHours": 995.4379963888889,
+          "waitingHours": 1018.3608772222223,
           "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/22"
         },
         {
@@ -53,7 +53,7 @@
           "title": "[RFC] Module boundaries and incremental refactoring of the RLT inference runtime",
           "author": "bjf-frz",
           "createdAt": "2026-09-18T02:07:12Z",
-          "waitingHours": 856.6963297222222,
+          "waitingHours": 879.6192105555556,
           "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/32"
         },
         {
@@ -61,8 +61,16 @@
           "title": "[RFC] Speculative Decoding for rlt",
           "author": "bjf-frz",
           "createdAt": "2026-09-23T08:26:09Z",
-          "waitingHours": 730.3804963888889,
+          "waitingHours": 753.3033772222223,
           "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/43"
+        },
+        {
+          "number": 56,
+          "title": "[RFC]: Adaptive early exit on Ouro-1.4B: accuracy–throughput evaluation and exact-policy async exit",
+          "author": "MinhaoLi0318",
+          "createdAt": "2026-09-24T06:31:41Z",
+          "waitingHours": 731.211155,
+          "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/56"
         }
       ]
     }
