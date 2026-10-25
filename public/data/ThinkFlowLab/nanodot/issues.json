@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-24T17:44:21.158Z",
+  "generatedAt": "2026-10-25T18:00:40.868Z",
   "items": [
     {
       "number": 113,
@@ -38,7 +38,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T09:46:42Z",
       "closedAt": null,
-      "waitingHours": 463.9608772222222,
+      "waitingHours": 488.23301888888886,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/nanodot/issues/111"
@@ -52,7 +52,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T09:46:30Z",
       "closedAt": null,
-      "waitingHours": 463.96421055555555,
+      "waitingHours": 488.2363522222222,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/nanodot/issues/110"
@@ -136,7 +136,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-04T03:14:30Z",
       "closedAt": null,
-      "waitingHours": 494.4975438888889,
+      "waitingHours": 518.7696855555556,
       "comments": 5,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/nanodot/issues/100"

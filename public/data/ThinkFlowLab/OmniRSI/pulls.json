@@ -1,6 +1,98 @@
 {
-  "generatedAt": "2026-10-24T17:44:21.158Z",
+  "generatedAt": "2026-10-25T18:00:40.868Z",
   "items": [
+    {
+      "number": 150,
+      "title": "feat: derive offline goal checkpoints and next actions",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-25T14:15:00Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 3.7613522222222224,
+      "comments": 3,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/150"
+    },
+    {
+      "number": 146,
+      "title": "fix: give each admission target a bounded share of the sweep",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-25T13:23:39Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 4.617185555555555,
+      "comments": 2,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/146"
+    },
+    {
+      "number": 145,
+      "title": "fix: isolate local command input and clarify audit aggregation",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-25T13:00:31Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 5.002741111111111,
+      "comments": 2,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/145"
+    },
+    {
+      "number": 144,
+      "title": "docs: route PyTorch compiler and checkpoint knowledge by scope",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-25T10:16:13Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 7.741074444444444,
+      "comments": 1,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/144"
+    },
+    {
+      "number": 142,
+      "title": "docs: connect TensorRT-LLM methodology and disaggregation guidance",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-25T04:14:32Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 13.76913,
+      "comments": 1,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/142"
+    },
+    {
+      "number": 139,
+      "title": "docs: route vLLM-Omni engine and abort guidance",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-24T22:10:54Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 19.829685555555557,
+      "comments": 1,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/139"
+    },
     {
       "number": 138,
       "title": "docs: route vLLM engine, admission and KV knowledge",
@@ -11,9 +103,11 @@
       "createdAt": "2026-10-24T16:24:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1.3258772222222222,
+      "waitingHours": 25.598018888888888,
       "comments": 1,
-      "labels": [],
+      "labels": [
+        "area:knowledge"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/138"
     },
     {
@@ -56,9 +150,11 @@
       "createdAt": "2026-10-24T04:16:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 13.468932777777777,
+      "waitingHours": 37.74107444444444,
       "comments": 1,
-      "labels": [],
+      "labels": [
+        "area:knowledge"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/134"
     },
     {
@@ -71,7 +167,7 @@
       "createdAt": "2026-10-23T22:35:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 19.140877222222223,
+      "waitingHours": 43.41301888888889,
       "comments": 1,
       "labels": [
         "area:knowledge"
@@ -88,7 +184,7 @@
       "createdAt": "2026-10-23T18:08:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 23.60393277777778,
+      "waitingHours": 47.87607444444444,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -139,7 +235,7 @@
       "createdAt": "2026-10-23T13:39:23Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 28.082821666666668,
+      "waitingHours": 52.35496333333333,
       "comments": 2,
       "labels": [
         "area:knowledge"
@@ -173,7 +269,7 @@
       "createdAt": "2026-10-23T12:39:21Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 29.08337722222222,
+      "waitingHours": 53.35551888888889,
       "comments": 1,
       "labels": [
         "area:knowledge"
@@ -190,7 +286,7 @@
       "createdAt": "2026-10-23T11:54:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 29.831710555555556,
+      "waitingHours": 54.10385222222222,
       "comments": 1,
       "labels": [
         "area:knowledge"
@@ -207,7 +303,7 @@
       "createdAt": "2026-10-23T11:34:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 30.161988333333333,
+      "waitingHours": 54.43413,
       "comments": 1,
       "labels": [
         "area:knowledge"
@@ -239,9 +335,11 @@
       "createdAt": "2026-10-23T10:40:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 31.058932777777777,
+      "waitingHours": 55.33107444444445,
       "comments": 1,
-      "labels": [],
+      "labels": [
+        "area:knowledge"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/119"
     },
     {
@@ -254,7 +352,7 @@
       "createdAt": "2026-10-23T10:15:18Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 31.484210555555556,
+      "waitingHours": 55.75635222222222,
       "comments": 5,
       "labels": [
         "area:knowledge"
@@ -271,7 +369,7 @@
       "createdAt": "2026-10-23T09:23:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 32.34032166666667,
+      "waitingHours": 56.61246333333333,
       "comments": 0,
       "labels": [
         "area:knowledge"
@@ -303,7 +401,7 @@
       "createdAt": "2026-10-23T04:28:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 37.26087722222222,
+      "waitingHours": 61.53301888888889,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -472,7 +570,7 @@
       "createdAt": "2026-10-22T16:36:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 49.133655,
+      "waitingHours": 73.40579666666666,
       "comments": 56,
       "labels": [
         "area:workbench"
@@ -534,7 +632,7 @@
       "createdAt": "2026-10-22T13:41:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 52.05587722222222,
+      "waitingHours": 76.32801888888889,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -551,7 +649,7 @@
       "createdAt": "2026-10-22T11:57:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 53.78726611111111,
+      "waitingHours": 78.05940777777778,
       "comments": 0,
       "labels": [
         "area:knowledge"
@@ -943,7 +1041,7 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 84.59254388888888,
+      "waitingHours": 108.86468555555555,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -975,7 +1073,7 @@
       "createdAt": "2026-10-21T02:45:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 86.97393277777778,
+      "waitingHours": 111.24607444444445,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -1127,7 +1225,7 @@
       "createdAt": "2026-10-19T08:41:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 129.0525438888889,
+      "waitingHours": 153.32468555555556,
       "comments": 1,
       "labels": [
         "area:workbench"
