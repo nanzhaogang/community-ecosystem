@@ -1,6 +1,40 @@
 {
-  "generatedAt": "2026-10-25T18:00:40.868Z",
+  "generatedAt": "2026-10-26T20:14:46.684Z",
   "items": [
+    {
+      "number": 161,
+      "title": "Skill Eval: preserve safe GitHub API failure diagnostics for PR publication",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-10-26T11:34:20Z",
+      "closedAt": "2026-10-26T14:38:47Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:workbench"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/161"
+    },
+    {
+      "number": 152,
+      "title": "[RFC] Agent plugins: a consistent InferRSI workflow in Codex, DSH and openJiuwen",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-26T01:31:13Z",
+      "closedAt": null,
+      "waitingHours": 18.726023333333334,
+      "comments": 0,
+      "labels": [
+        "kind:rfc",
+        "area:workbench"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/152"
+    },
     {
       "number": 149,
       "title": "[Task] Distill LoopX goal authority and quota decision boundaries",
@@ -10,9 +44,10 @@
       "isPullRequest": false,
       "createdAt": "2026-10-25T13:38:37Z",
       "closedAt": null,
-      "waitingHours": 4.367741111111111,
+      "waitingHours": 30.60269,
       "comments": 0,
       "labels": [
+        "kind:task",
         "area:knowledge"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/149"
@@ -26,9 +61,10 @@
       "isPullRequest": false,
       "createdAt": "2026-10-25T13:37:26Z",
       "closedAt": null,
-      "waitingHours": 4.387463333333334,
+      "waitingHours": 30.622412222222223,
       "comments": 0,
       "labels": [
+        "kind:task",
         "area:knowledge"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/148"
@@ -38,12 +74,12 @@
       "title": "[RFC] Flare beyond distillation: offline qualification evidence adapter",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-25T13:30:43Z",
-      "closedAt": null,
-      "waitingHours": 4.499407777777778,
-      "comments": 1,
+      "closedAt": "2026-10-26T08:39:13Z",
+      "waitingHours": null,
+      "comments": 5,
       "labels": [
         "kind:rfc",
         "area:workbench"
@@ -59,8 +95,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-25T06:43:50Z",
       "closedAt": null,
-      "waitingHours": 11.280796666666667,
-      "comments": 0,
+      "waitingHours": 37.515745555555554,
+      "comments": 1,
       "labels": [
         "kind:rfc",
         "area:workbench",
@@ -77,7 +113,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-25T01:19:03Z",
       "closedAt": null,
-      "waitingHours": 16.693852222222223,
+      "waitingHours": 42.92880111111111,
       "comments": 0,
       "labels": [
         "kind:rfc",
@@ -90,12 +126,12 @@
       "title": "[Bug] Admission sweep: shared history deadline starves later PRs",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-25T00:49:27Z",
-      "closedAt": null,
-      "waitingHours": 17.187185555555555,
-      "comments": 0,
+      "closedAt": "2026-10-26T07:44:36Z",
+      "waitingHours": null,
+      "comments": 1,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -107,12 +143,12 @@
       "title": "[RFC] Goal checkpoints: explicit progress and next actions across agent sessions",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-24T13:54:53Z",
-      "closedAt": null,
-      "waitingHours": 28.09663,
-      "comments": 2,
+      "closedAt": "2026-10-26T04:16:18Z",
+      "waitingHours": null,
+      "comments": 3,
       "labels": [
         "kind:rfc",
         "area:workbench"
@@ -128,7 +164,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T16:42:38Z",
       "closedAt": null,
-      "waitingHours": 49.30079666666666,
+      "waitingHours": 75.53574555555555,
       "comments": 0,
       "labels": [
         "kind:rfc",
@@ -141,12 +177,12 @@
       "title": "[RFC] Skill Indexer: better skill and context selection through collect",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-23T14:25:09Z",
-      "closedAt": null,
-      "waitingHours": 51.59218555555555,
-      "comments": 2,
+      "closedAt": "2026-10-26T09:06:32Z",
+      "waitingHours": null,
+      "comments": 6,
       "labels": [
         "kind:rfc",
         "area:knowledge"
@@ -162,7 +198,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T13:09:00Z",
       "closedAt": null,
-      "waitingHours": 52.86135222222222,
+      "waitingHours": 79.09630111111112,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -179,7 +215,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T13:04:06Z",
       "closedAt": null,
-      "waitingHours": 52.943018888888886,
+      "waitingHours": 79.17796777777778,
       "comments": 48,
       "labels": [
         "kind:acceptance",
@@ -196,7 +232,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T09:06:04Z",
       "closedAt": null,
-      "waitingHours": 56.91024111111111,
+      "waitingHours": 83.14519,
       "comments": 0,
       "labels": [
         "kind:status",
@@ -213,7 +249,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T08:46:31Z",
       "closedAt": null,
-      "waitingHours": 57.23607444444445,
+      "waitingHours": 83.47102333333333,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -230,7 +266,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T03:42:02Z",
       "closedAt": null,
-      "waitingHours": 62.31079666666667,
+      "waitingHours": 88.54574555555556,
       "comments": 0,
       "labels": [
         "kind:acceptance",
@@ -261,8 +297,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T01:30:33Z",
       "closedAt": null,
-      "waitingHours": 64.50218555555556,
-      "comments": 2,
+      "waitingHours": 90.73713444444445,
+      "comments": 3,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -310,7 +346,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T13:55:17Z",
       "closedAt": null,
-      "waitingHours": 76.08996333333333,
+      "waitingHours": 102.32491222222222,
       "comments": 7,
       "labels": [
         "kind:rfc",
@@ -327,7 +363,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T12:34:08Z",
       "closedAt": null,
-      "waitingHours": 77.44246333333334,
+      "waitingHours": 103.67741222222222,
       "comments": 2,
       "labels": [
         "kind:tracking",
@@ -344,7 +380,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T07:51:02Z",
       "closedAt": null,
-      "waitingHours": 82.16079666666667,
+      "waitingHours": 108.39574555555555,
       "comments": 0,
       "labels": [
         "kind:tracking",
@@ -394,7 +430,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T17:25:47Z",
       "closedAt": null,
-      "waitingHours": 96.58163,
+      "waitingHours": 122.81657888888888,
       "comments": 1,
       "labels": [
         "kind:acceptance",
@@ -411,8 +447,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T14:22:29Z",
       "closedAt": null,
-      "waitingHours": 99.63663,
-      "comments": 241,
+      "waitingHours": 125.87157888888889,
+      "comments": 306,
       "labels": [
         "kind:acceptance",
         "area:workbench"
@@ -428,7 +464,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T09:21:03Z",
       "closedAt": null,
-      "waitingHours": 104.66051888888889,
+      "waitingHours": 130.89546777777778,
       "comments": 3,
       "labels": [
         "kind:roadmap",
@@ -493,7 +529,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:57:11Z",
       "closedAt": null,
-      "waitingHours": 109.05829666666666,
+      "waitingHours": 135.29324555555556,
       "comments": 0,
       "labels": [
         "kind:acceptance",
@@ -510,7 +546,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:54:34Z",
       "closedAt": null,
-      "waitingHours": 109.10190777777778,
+      "waitingHours": 135.33685666666668,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -523,12 +559,12 @@
       "title": "[Tracking] Knowledge PR admission: model and effort policy",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-21T02:01:17Z",
-      "closedAt": null,
-      "waitingHours": 111.98996333333334,
-      "comments": 1,
+      "closedAt": "2026-10-26T06:19:17Z",
+      "waitingHours": null,
+      "comments": 3,
       "labels": [
         "kind:tracking",
         "area:knowledge"
@@ -540,11 +576,11 @@
       "title": "Acceptance: MiniCPM-o 4.5 single-L20X vLLM-Omni throughput optimization",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-21T00:58:55Z",
-      "closedAt": null,
-      "waitingHours": 113.02940777777778,
+      "closedAt": "2026-10-26T02:50:01Z",
+      "waitingHours": null,
       "comments": 5,
       "labels": [
         "kind:acceptance",
@@ -574,11 +610,11 @@
       "title": "task: source audit follow-up — 34 findings, proposed remedies and acceptance checks",
       "author": "david6666666",
       "contributionType": "internal",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-20T11:29:55Z",
-      "closedAt": null,
-      "waitingHours": 126.51274111111111,
+      "closedAt": "2026-10-26T02:29:02Z",
+      "waitingHours": null,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -595,7 +631,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-20T08:38:36Z",
       "closedAt": null,
-      "waitingHours": 129.36801888888888,
+      "waitingHours": 155.6029677777778,
       "comments": 1,
       "labels": [
         "kind:status",
@@ -629,7 +665,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T16:47:16Z",
       "closedAt": null,
-      "waitingHours": 145.22357444444444,
+      "waitingHours": 171.45852333333335,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -646,7 +682,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T12:17:58Z",
       "closedAt": null,
-      "waitingHours": 149.71190777777778,
+      "waitingHours": 175.94685666666666,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -663,7 +699,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T11:38:35Z",
       "closedAt": null,
-      "waitingHours": 150.36829666666668,
+      "waitingHours": 176.60324555555556,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -694,7 +730,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T08:31:56Z",
       "closedAt": null,
-      "waitingHours": 153.47913,
+      "waitingHours": 179.71407888888888,
       "comments": 2,
       "labels": [
         "kind:rfc",
@@ -801,7 +837,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-14T02:18:38Z",
       "closedAt": null,
-      "waitingHours": 279.7007966666667,
+      "waitingHours": 305.93574555555557,
       "comments": 0,
       "labels": [
         "kind:investigation",
@@ -818,7 +854,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T00:56:41Z",
       "closedAt": null,
-      "waitingHours": 353.06663,
+      "waitingHours": 379.3015788888889,
       "comments": 0,
       "labels": [
         "kind:acceptance",

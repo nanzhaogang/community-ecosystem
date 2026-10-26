@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-10-25T18:00:40.868Z",
+  "generatedAt": "2026-10-26T20:14:46.684Z",
   "items": [
+    {
+      "number": 99,
+      "title": "[Feat] Opt-in screenshot input for hosted Jev (S1A_JEV_IMAGES, TypeSafe danger zone)",
+      "author": "Birfy",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-10-26T11:58:40Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 8.268523333333333,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/ThinkFlowLab/system1-agents/pull/99"
+    },
     {
       "number": 96,
       "title": "[Feat] Add the five-stage Jev content desk with a draft Omni worker path",
@@ -11,7 +26,7 @@
       "createdAt": "2026-10-25T02:12:39Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 15.800518888888888,
+      "waitingHours": 42.035467777777775,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/96"
@@ -71,7 +86,7 @@
       "createdAt": "2026-10-16T17:53:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 216.1130188888889,
+      "waitingHours": 242.34796777777777,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/86"
@@ -129,12 +144,12 @@
       "title": "[Feat] Use native JEV-VL for browser decisions",
       "author": "linear3735",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-14T09:31:06Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 272.4930188888889,
+      "mergedAt": "2026-10-26T02:12:36Z",
+      "closedAt": "2026-10-26T02:12:36Z",
+      "waitingHours": null,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/78"
@@ -194,7 +209,7 @@
       "createdAt": "2026-10-12T09:45:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 320.24885222222224,
+      "waitingHours": 346.4838011111111,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/72"
@@ -329,7 +344,7 @@
       "createdAt": "2026-10-09T17:19:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 384.68663,
+      "waitingHours": 410.9215788888889,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/62"
@@ -359,8 +374,8 @@
       "createdAt": "2026-10-09T14:48:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 387.1977411111111,
-      "comments": 0,
+      "waitingHours": 413.43269,
+      "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/60"
     },
@@ -701,7 +716,7 @@
       "createdAt": "2026-09-29T17:03:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 624.9496855555556,
+      "waitingHours": 651.1846344444444,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/34"
@@ -949,8 +964,8 @@
       "createdAt": "2026-09-22T19:36:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 790.4082966666666,
-      "comments": 2,
+      "waitingHours": 816.6432455555556,
+      "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/6"
     },

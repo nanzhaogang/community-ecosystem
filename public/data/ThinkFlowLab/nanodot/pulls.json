@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-25T18:00:40.868Z",
+  "generatedAt": "2026-10-26T20:14:46.684Z",
   "items": [
     {
       "number": 116,
@@ -11,7 +11,7 @@
       "createdAt": "2026-10-11T23:02:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 330.96996333333334,
+      "waitingHours": 357.2049122222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/nanodot/pull/116"
@@ -26,7 +26,7 @@
       "createdAt": "2026-10-05T09:56:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 488.0727411111111,
+      "waitingHours": 514.30769,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/nanodot/pull/115"
