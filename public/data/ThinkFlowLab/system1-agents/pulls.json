@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T20:14:46.684Z",
+  "generatedAt": "2026-10-27T19:46:33.276Z",
   "items": [
     {
       "number": 99,
@@ -11,7 +11,7 @@
       "createdAt": "2026-10-26T11:58:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 8.268523333333333,
+      "waitingHours": 31.798132222222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/99"
@@ -26,7 +26,7 @@
       "createdAt": "2026-10-25T02:12:39Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 42.035467777777775,
+      "waitingHours": 65.56507666666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/96"
@@ -86,7 +86,7 @@
       "createdAt": "2026-10-16T17:53:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 242.34796777777777,
+      "waitingHours": 265.87757666666664,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/86"
@@ -204,12 +204,12 @@
       "title": "[Feat] Replay changed-image decision requests with retained evidence",
       "author": "linear3735",
       "contributionType": "internal",
-      "state": "open",
-      "isDraft": true,
+      "state": "merged",
+      "isDraft": false,
       "createdAt": "2026-10-12T09:45:45Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 346.4838011111111,
+      "mergedAt": "2026-10-27T05:25:49Z",
+      "closedAt": "2026-10-27T05:25:49Z",
+      "waitingHours": null,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/72"
@@ -344,7 +344,7 @@
       "createdAt": "2026-10-09T17:19:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 410.9215788888889,
+      "waitingHours": 434.45118777777776,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/62"
@@ -374,7 +374,7 @@
       "createdAt": "2026-10-09T14:48:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 413.43269,
+      "waitingHours": 436.9622988888889,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/60"
@@ -716,7 +716,7 @@
       "createdAt": "2026-09-29T17:03:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 651.1846344444444,
+      "waitingHours": 674.7142433333333,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/34"
@@ -964,7 +964,7 @@
       "createdAt": "2026-09-22T19:36:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 816.6432455555556,
+      "waitingHours": 840.1728544444444,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/6"
