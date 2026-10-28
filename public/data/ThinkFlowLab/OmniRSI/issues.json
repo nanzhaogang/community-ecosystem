@@ -1,18 +1,162 @@
 {
-  "generatedAt": "2026-10-27T19:46:33.276Z",
+  "generatedAt": "2026-10-28T20:00:24.857Z",
   "items": [
+    {
+      "number": 231,
+      "title": "knowledge: audit h3-metal FastH3 execution and fallback contracts",
+      "author": "david6666666",
+      "contributionType": "internal",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-10-28T14:41:46Z",
+      "closedAt": "2026-10-28T15:27:49Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/231"
+    },
+    {
+      "number": 227,
+      "title": "knowledge: distill MLC LLM compiled Metal and runtime contracts",
+      "author": "david6666666",
+      "contributionType": "internal",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-10-28T12:21:21Z",
+      "closedAt": "2026-10-28T13:01:42Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/227"
+    },
+    {
+      "number": 225,
+      "title": "knowledge: distill MLX Swift LM lifecycle and Metal recurrence contracts",
+      "author": "david6666666",
+      "contributionType": "internal",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-10-28T11:41:59Z",
+      "closedAt": "2026-10-28T12:12:33Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/225"
+    },
+    {
+      "number": 222,
+      "title": "knowledge: distill mistral.rs Metal paged-attention contracts",
+      "author": "david6666666",
+      "contributionType": "internal",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-10-28T11:00:45Z",
+      "closedAt": "2026-10-28T11:40:10Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/222"
+    },
+    {
+      "number": 220,
+      "title": "task: pre-registered campaign on experience and context compaction for agents on the #75 task (Qwen3-TTS 0.6B, RTX 4090), with exploratory results",
+      "author": "ZX271848",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-28T10:49:34Z",
+      "closedAt": null,
+      "waitingHours": 9.180793611111111,
+      "comments": 0,
+      "labels": [
+        "kind:rfc",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/220"
+    },
+    {
+      "number": 218,
+      "title": "knowledge: distill vllm-metal with portable AREX workflow",
+      "author": "david6666666",
+      "contributionType": "internal",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-10-28T10:19:57Z",
+      "closedAt": "2026-10-28T10:58:59Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/218"
+    },
+    {
+      "number": 215,
+      "title": "Skill Eval: actionable, revision-bound review guidance for skill and knowledge PRs",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-10-28T09:25:26Z",
+      "closedAt": "2026-10-28T14:31:14Z",
+      "waitingHours": null,
+      "comments": 4,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/215"
+    },
+    {
+      "number": 209,
+      "title": "docs: add the h3-metal comparison table with a Device column",
+      "author": "david6666666",
+      "contributionType": "internal",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-10-28T06:53:38Z",
+      "closedAt": "2026-10-28T12:12:46Z",
+      "waitingHours": null,
+      "comments": 0,
+      "labels": [
+        "kind:docs",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/209"
+    },
+    {
+      "number": 203,
+      "title": "[Bug] Admission writer: misleading merge cancellations and repeated HTTP 422 invalidation failures",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-10-28T02:21:12Z",
+      "closedAt": null,
+      "waitingHours": 17.65357138888889,
+      "comments": 6,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/203"
+    },
     {
       "number": 200,
       "title": "docs: data tree guidance contradicts the generated inferrsi catalog, and platform_packs has no reader",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-27T15:26:46Z",
-      "closedAt": null,
-      "waitingHours": 4.329798888888889,
-      "comments": 0,
-      "labels": [],
+      "closedAt": "2026-10-28T13:50:13Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "kind:docs",
+        "area:knowledge"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/200"
     },
     {
@@ -20,12 +164,12 @@
       "title": "knowledge: distill Project Maya with AREX native workflow",
       "author": "david6666666",
       "contributionType": "internal",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-27T12:53:07Z",
-      "closedAt": null,
-      "waitingHours": 6.890632222222222,
-      "comments": 0,
+      "closedAt": "2026-10-28T07:20:21Z",
+      "waitingHours": null,
+      "comments": 1,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -107,12 +251,12 @@
       "title": "fix: knowledge bundle reads can escape the skills root and store protection depends on a .git entry",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-27T08:53:03Z",
-      "closedAt": null,
-      "waitingHours": 10.891743333333334,
-      "comments": 0,
+      "closedAt": "2026-10-28T10:50:17Z",
+      "waitingHours": null,
+      "comments": 1,
       "labels": [
         "bug",
         "kind:task",
@@ -125,14 +269,15 @@
       "title": "fix: run state and comparison verdicts can report support the artifacts do not establish",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-27T08:52:25Z",
-      "closedAt": null,
-      "waitingHours": 10.90229888888889,
-      "comments": 0,
+      "closedAt": "2026-10-28T10:50:02Z",
+      "waitingHours": null,
+      "comments": 1,
       "labels": [
         "bug",
+        "kind:task",
         "area:workbench"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/179"
@@ -142,12 +287,12 @@
       "title": "fix: source and device identity accept evidence that cannot support it",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-27T08:51:29Z",
-      "closedAt": null,
-      "waitingHours": 10.917854444444444,
-      "comments": 0,
+      "closedAt": "2026-10-28T10:49:53Z",
+      "waitingHours": null,
+      "comments": 1,
       "labels": [
         "bug",
         "kind:task",
@@ -164,8 +309,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T08:32:26Z",
       "closedAt": null,
-      "waitingHours": 11.235354444444445,
-      "comments": 3,
+      "waitingHours": 35.46634916666667,
+      "comments": 4,
       "labels": [
         "kind:investigation",
         "area:knowledge"
@@ -191,12 +336,12 @@
       "title": "docs: knowledge-model-policy still describes the check as advisory, but it is a required status check",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-27T06:59:58Z",
-      "closedAt": null,
-      "waitingHours": 12.776465555555555,
-      "comments": 1,
+      "closedAt": "2026-10-28T01:35:48Z",
+      "waitingHours": null,
+      "comments": 2,
       "labels": [
         "documentation",
         "kind:docs",
@@ -213,7 +358,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:26:33Z",
       "closedAt": null,
-      "waitingHours": 17.33341,
+      "waitingHours": 41.56440472222222,
       "comments": 0,
       "labels": [
         "bug",
@@ -248,7 +393,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-26T01:31:13Z",
       "closedAt": null,
-      "waitingHours": 42.255632222222225,
+      "waitingHours": 66.48662694444444,
       "comments": 0,
       "labels": [
         "kind:rfc",
@@ -261,12 +406,12 @@
       "title": "[Task] Distill LoopX goal authority and quota decision boundaries",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-25T13:38:37Z",
-      "closedAt": null,
-      "waitingHours": 54.13229888888889,
-      "comments": 0,
+      "closedAt": "2026-10-28T01:36:42Z",
+      "waitingHours": null,
+      "comments": 1,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -278,12 +423,12 @@
       "title": "[Task] Distill Flare preparation contracts and session-state lifetimes",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-25T13:37:26Z",
-      "closedAt": null,
-      "waitingHours": 54.15202111111111,
-      "comments": 0,
+      "closedAt": "2026-10-28T16:52:20Z",
+      "waitingHours": null,
+      "comments": 2,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -316,7 +461,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-25T06:43:50Z",
       "closedAt": null,
-      "waitingHours": 61.04535444444444,
+      "waitingHours": 85.27634916666666,
       "comments": 7,
       "labels": [
         "kind:rfc",
@@ -334,7 +479,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-25T01:19:03Z",
       "closedAt": null,
-      "waitingHours": 66.45841,
+      "waitingHours": 90.68940472222222,
       "comments": 0,
       "labels": [
         "kind:rfc",
@@ -415,12 +560,12 @@
       "title": "task: distill Hopper knowledge from KDA KernelWiki with provenance and architecture boundaries",
       "author": "jiangkuaixue123",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-23T13:09:00Z",
-      "closedAt": null,
-      "waitingHours": 102.62591,
-      "comments": 0,
+      "closedAt": "2026-10-28T01:35:58Z",
+      "waitingHours": null,
+      "comments": 1,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -436,7 +581,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T13:04:06Z",
       "closedAt": null,
-      "waitingHours": 102.70757666666667,
+      "waitingHours": 126.93857138888889,
       "comments": 48,
       "labels": [
         "kind:acceptance",
@@ -453,8 +598,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T09:06:04Z",
       "closedAt": null,
-      "waitingHours": 106.67479888888889,
-      "comments": 2,
+      "waitingHours": 130.9057936111111,
+      "comments": 3,
       "labels": [
         "kind:status",
         "area:process"
@@ -470,7 +615,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T08:46:31Z",
       "closedAt": null,
-      "waitingHours": 107.00063222222222,
+      "waitingHours": 131.23162694444446,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -487,7 +632,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T03:42:02Z",
       "closedAt": null,
-      "waitingHours": 112.07535444444444,
+      "waitingHours": 136.30634916666668,
       "comments": 0,
       "labels": [
         "kind:acceptance",
@@ -584,8 +729,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T12:34:08Z",
       "closedAt": null,
-      "waitingHours": 127.20702111111112,
-      "comments": 3,
+      "waitingHours": 151.43801583333334,
+      "comments": 6,
       "labels": [
         "kind:tracking",
         "area:knowledge"
@@ -651,7 +796,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T17:25:47Z",
       "closedAt": null,
-      "waitingHours": 146.34618777777777,
+      "waitingHours": 170.5771825,
       "comments": 1,
       "labels": [
         "kind:acceptance",
@@ -668,7 +813,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T14:22:29Z",
       "closedAt": null,
-      "waitingHours": 149.40118777777778,
+      "waitingHours": 173.6321825,
       "comments": 330,
       "labels": [
         "kind:acceptance",
@@ -685,7 +830,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T09:21:03Z",
       "closedAt": null,
-      "waitingHours": 154.42507666666666,
+      "waitingHours": 178.65607138888888,
       "comments": 3,
       "labels": [
         "kind:roadmap",
@@ -750,7 +895,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:57:11Z",
       "closedAt": null,
-      "waitingHours": 158.82285444444443,
+      "waitingHours": 183.05384916666668,
       "comments": 0,
       "labels": [
         "kind:acceptance",
@@ -767,7 +912,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:54:34Z",
       "closedAt": null,
-      "waitingHours": 158.86646555555555,
+      "waitingHours": 183.09746027777777,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -852,7 +997,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-20T08:38:36Z",
       "closedAt": null,
-      "waitingHours": 179.13257666666667,
+      "waitingHours": 203.3635713888889,
       "comments": 1,
       "labels": [
         "kind:status",
@@ -886,7 +1031,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T16:47:16Z",
       "closedAt": null,
-      "waitingHours": 194.98813222222222,
+      "waitingHours": 219.21912694444444,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -903,7 +1048,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T12:17:58Z",
       "closedAt": null,
-      "waitingHours": 199.47646555555556,
+      "waitingHours": 223.70746027777778,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -916,12 +1061,12 @@
       "title": "task: add portable privacy and security rules",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-19T11:38:35Z",
-      "closedAt": null,
-      "waitingHours": 200.13285444444443,
-      "comments": 0,
+      "closedAt": "2026-10-28T01:36:05Z",
+      "waitingHours": null,
+      "comments": 1,
       "labels": [
         "kind:task",
         "area:process"
@@ -951,7 +1096,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T08:31:56Z",
       "closedAt": null,
-      "waitingHours": 203.24368777777778,
+      "waitingHours": 227.4746825,
       "comments": 2,
       "labels": [
         "kind:rfc",
@@ -1058,8 +1203,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-14T02:18:38Z",
       "closedAt": null,
-      "waitingHours": 329.4653544444445,
-      "comments": 0,
+      "waitingHours": 353.69634916666666,
+      "comments": 1,
       "labels": [
         "kind:investigation",
         "area:knowledge"
@@ -1075,7 +1220,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T00:56:41Z",
       "closedAt": null,
-      "waitingHours": 402.83118777777776,
+      "waitingHours": 427.0621825,
       "comments": 0,
       "labels": [
         "kind:acceptance",

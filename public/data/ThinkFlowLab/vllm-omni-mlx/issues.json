@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T19:46:33.276Z",
+  "generatedAt": "2026-10-28T20:00:24.857Z",
   "items": [
     {
       "number": 112,
@@ -24,7 +24,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-07T14:43:10Z",
       "closedAt": null,
-      "waitingHours": 485.0564655555556,
+      "waitingHours": 509.28746027777777,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/111"
@@ -38,7 +38,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T23:51:05Z",
       "closedAt": null,
-      "waitingHours": 499.9245211111111,
+      "waitingHours": 524.1555158333333,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/105"
@@ -52,7 +52,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T13:44:21Z",
       "closedAt": null,
-      "waitingHours": 510.03674333333333,
+      "waitingHours": 534.2677380555556,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/101"
@@ -66,7 +66,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T13:44:14Z",
       "closedAt": null,
-      "waitingHours": 510.0386877777778,
+      "waitingHours": 534.2696825,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/100"
@@ -80,7 +80,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T13:44:12Z",
       "closedAt": null,
-      "waitingHours": 510.03924333333333,
+      "waitingHours": 534.2702380555555,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/99"
@@ -94,7 +94,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T07:56:54Z",
       "closedAt": null,
-      "waitingHours": 515.8275766666667,
+      "waitingHours": 540.0585713888889,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/97"
@@ -108,7 +108,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T07:56:51Z",
       "closedAt": null,
-      "waitingHours": 515.82841,
+      "waitingHours": 540.0594047222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/96"
@@ -122,7 +122,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T07:32:24Z",
       "closedAt": null,
-      "waitingHours": 516.23591,
+      "waitingHours": 540.4669047222222,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/95"
@@ -136,7 +136,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T07:31:35Z",
       "closedAt": null,
-      "waitingHours": 516.2495211111111,
+      "waitingHours": 540.4805158333334,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/94"
@@ -150,7 +150,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T07:31:33Z",
       "closedAt": null,
-      "waitingHours": 516.2500766666667,
+      "waitingHours": 540.4810713888888,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/93"
@@ -164,7 +164,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T07:31:27Z",
       "closedAt": null,
-      "waitingHours": 516.2517433333334,
+      "waitingHours": 540.4827380555555,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/92"
@@ -178,7 +178,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T07:31:22Z",
       "closedAt": null,
-      "waitingHours": 516.2531322222222,
+      "waitingHours": 540.4841269444445,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/91"
@@ -206,7 +206,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T06:45:10Z",
       "closedAt": null,
-      "waitingHours": 541.0231322222222,
+      "waitingHours": 565.2541269444445,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/84"
@@ -248,7 +248,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:01:59Z",
       "closedAt": null,
-      "waitingHours": 546.7428544444444,
+      "waitingHours": 570.9738491666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/74"
@@ -262,7 +262,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:01:56Z",
       "closedAt": null,
-      "waitingHours": 546.7436877777777,
+      "waitingHours": 570.9746825,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/73"
@@ -276,7 +276,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:01:52Z",
       "closedAt": null,
-      "waitingHours": 546.7447988888889,
+      "waitingHours": 570.9757936111112,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/72"
@@ -304,7 +304,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:01:38Z",
       "closedAt": null,
-      "waitingHours": 546.7486877777778,
+      "waitingHours": 570.9796825,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/70"
@@ -318,7 +318,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T00:54:51Z",
       "closedAt": null,
-      "waitingHours": 546.8617433333334,
+      "waitingHours": 571.0927380555555,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/69"
@@ -332,7 +332,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T00:28:41Z",
       "closedAt": null,
-      "waitingHours": 547.2978544444444,
+      "waitingHours": 571.5288491666666,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/68"
@@ -724,7 +724,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-02T01:06:15Z",
       "closedAt": null,
-      "waitingHours": 618.6717433333333,
+      "waitingHours": 642.9027380555556,
       "comments": 11,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/2"
