@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-10-29T19:59:27.218Z",
+  "generatedAt": "2026-10-30T19:47:52.548Z",
   "repo": {
     "stars": 61,
     "forks": 16,
     "watchers": 1,
-    "openIssuesAndPrs": 56
+    "openIssuesAndPrs": 55
   },
   "contributors": {
     "total": 13,
@@ -18,8 +18,8 @@
   },
   "pulls": {
     "total": 153,
-    "open": 20,
-    "merged": 109,
+    "open": 19,
+    "merged": 110,
     "closedUnmerged": 24,
     "composition": {
       "internal": 147,
@@ -45,7 +45,7 @@
           "title": "[RFC] Support emerging System 1 models, with CLM as the second model after LAYA",
           "author": "Yunaik",
           "createdAt": "2026-09-27T08:42:35Z",
-          "waitingHours": 779.2811716666666,
+          "waitingHours": 803.0882077777778,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/9"
         },
         {
@@ -53,7 +53,7 @@
           "title": "[New Model]: Support Cua-S1 4B 0.2 — community help wanted",
           "author": "hsliuustc0106",
           "createdAt": "2026-09-27T09:02:01Z",
-          "waitingHours": 778.9572827777778,
+          "waitingHours": 802.7643188888889,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/10"
         },
         {
@@ -61,7 +61,7 @@
           "title": "[RFC]: Native Laya inference with Rust and CUDA",
           "author": "linear3735",
           "createdAt": "2026-09-28T02:27:31Z",
-          "waitingHours": 761.5322827777778,
+          "waitingHours": 785.3393188888889,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/14"
         },
         {
@@ -69,7 +69,7 @@
           "title": "[New Model]: Support Kev (0.5B–9B) — second Qwen3.5 decision model, reusing the qwen3_5 CUDA backend",
           "author": "xiaoyu-xyz",
           "createdAt": "2026-09-28T09:42:19Z",
-          "waitingHours": 754.2856161111112,
+          "waitingHours": 778.0926522222222,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/27"
         },
         {
@@ -77,7 +77,7 @@
           "title": "[New Model]: LFM2.5-350M choice execution",
           "author": "prettygirlisnotme",
           "createdAt": "2026-09-28T14:26:04Z",
-          "waitingHours": 749.5564494444444,
+          "waitingHours": 773.3634855555556,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/31"
         },
         {
@@ -85,7 +85,7 @@
           "title": "[Performance]: Reproducible Laya benchmarks against the original runtime",
           "author": "hsliuustc0106",
           "createdAt": "2026-09-29T13:42:36Z",
-          "waitingHours": 726.2808938888888,
+          "waitingHours": 750.08793,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/39"
         }
       ]

@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-10-29T19:59:27.218Z",
+  "generatedAt": "2026-10-30T19:47:52.548Z",
   "items": [
+    {
+      "number": 106,
+      "title": "[Feat] Let run_agent run as an MCP task (2025-11-25 experimental tasks on the 1.x SDK)",
+      "author": "Birfy",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-10-30T12:02:38Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 7.754041111111111,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/ThinkFlowLab/system1-agents/pull/106"
+    },
     {
       "number": 105,
       "title": "[Fix] Share OneJev's HTTP deadline across retries",
@@ -21,12 +36,12 @@
       "title": "[Feat] Served OneJev multimodal decision backend (--model onejev)",
       "author": "Birfy",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-28T11:55:38Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 32.063671666666664,
+      "mergedAt": "2026-10-30T02:05:07Z",
+      "closedAt": "2026-10-30T02:05:07Z",
+      "waitingHours": null,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/101"
@@ -59,7 +74,7 @@
       "createdAt": "2026-10-26T11:58:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 80.01311611111112,
+      "waitingHours": 103.82015222222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/99"
@@ -74,7 +89,7 @@
       "createdAt": "2026-10-25T02:12:39Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 113.78006055555555,
+      "waitingHours": 137.58709666666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/96"
@@ -134,7 +149,7 @@
       "createdAt": "2026-10-16T17:53:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 314.09256055555556,
+      "waitingHours": 337.89959666666664,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/86"
@@ -392,7 +407,7 @@
       "createdAt": "2026-10-09T17:19:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 482.6661716666667,
+      "waitingHours": 506.47320777777776,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/62"
@@ -422,7 +437,7 @@
       "createdAt": "2026-10-09T14:48:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 485.1772827777778,
+      "waitingHours": 508.9843188888889,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/60"
@@ -764,7 +779,7 @@
       "createdAt": "2026-09-29T17:03:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 722.9292272222223,
+      "waitingHours": 746.7362633333333,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/34"
@@ -1012,7 +1027,7 @@
       "createdAt": "2026-09-22T19:36:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 888.3878383333333,
+      "waitingHours": 912.1948744444444,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/6"
