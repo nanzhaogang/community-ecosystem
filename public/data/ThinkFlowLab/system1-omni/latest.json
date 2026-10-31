@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T19:47:52.548Z",
+  "generatedAt": "2026-10-31T18:57:46.236Z",
   "repo": {
     "stars": 61,
     "forks": 16,
@@ -9,7 +9,7 @@
   "contributors": {
     "total": 13,
     "activeLast30d": 10,
-    "newLast30d": 4,
+    "newLast30d": 3,
     "composition": {
       "internal": 11,
       "external": 2,
@@ -17,12 +17,12 @@
     }
   },
   "pulls": {
-    "total": 153,
+    "total": 154,
     "open": 19,
-    "merged": 110,
+    "merged": 111,
     "closedUnmerged": 24,
     "composition": {
-      "internal": 147,
+      "internal": 148,
       "external": 6,
       "unknown": 0
     }
@@ -38,14 +38,14 @@
     },
     "longOpen": {
       "thresholdDays": 30,
-      "count": 6,
+      "count": 7,
       "items": [
         {
           "number": 9,
           "title": "[RFC] Support emerging System 1 models, with CLM as the second model after LAYA",
           "author": "Yunaik",
           "createdAt": "2026-09-27T08:42:35Z",
-          "waitingHours": 803.0882077777778,
+          "waitingHours": 826.2531211111111,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/9"
         },
         {
@@ -53,7 +53,7 @@
           "title": "[New Model]: Support Cua-S1 4B 0.2 — community help wanted",
           "author": "hsliuustc0106",
           "createdAt": "2026-09-27T09:02:01Z",
-          "waitingHours": 802.7643188888889,
+          "waitingHours": 825.9292322222223,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/10"
         },
         {
@@ -61,7 +61,7 @@
           "title": "[RFC]: Native Laya inference with Rust and CUDA",
           "author": "linear3735",
           "createdAt": "2026-09-28T02:27:31Z",
-          "waitingHours": 785.3393188888889,
+          "waitingHours": 808.5042322222222,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/14"
         },
         {
@@ -69,7 +69,7 @@
           "title": "[New Model]: Support Kev (0.5B–9B) — second Qwen3.5 decision model, reusing the qwen3_5 CUDA backend",
           "author": "xiaoyu-xyz",
           "createdAt": "2026-09-28T09:42:19Z",
-          "waitingHours": 778.0926522222222,
+          "waitingHours": 801.2575655555555,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/27"
         },
         {
@@ -77,7 +77,7 @@
           "title": "[New Model]: LFM2.5-350M choice execution",
           "author": "prettygirlisnotme",
           "createdAt": "2026-09-28T14:26:04Z",
-          "waitingHours": 773.3634855555556,
+          "waitingHours": 796.5283988888889,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/31"
         },
         {
@@ -85,8 +85,16 @@
           "title": "[Performance]: Reproducible Laya benchmarks against the original runtime",
           "author": "hsliuustc0106",
           "createdAt": "2026-09-29T13:42:36Z",
-          "waitingHours": 750.08793,
+          "waitingHours": 773.2528433333333,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/39"
+        },
+        {
+          "number": 57,
+          "title": "[RFC]: Native Rust/CUDA inference for Mapika/decider-2b",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-10-01T09:59:49Z",
+          "waitingHours": 728.9658988888889,
+          "url": "https://github.com/InferMatrixLab/system1-omni/issues/57"
         }
       ]
     }

@@ -1,17 +1,258 @@
 {
-  "generatedAt": "2026-10-30T19:47:52.548Z",
+  "generatedAt": "2026-10-31T18:57:46.236Z",
   "items": [
+    {
+      "number": 294,
+      "title": "Freeze MiniMax-H3 Ref2VA Ascend quality gates and campaign evidence",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-10-31T17:58:38Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 0.9856211111111111,
+      "comments": 0,
+      "labels": [
+        "area:workbench"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/294"
+    },
+    {
+      "number": 292,
+      "title": "Make nonpaid SkillEval plans actionable for PR authors",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-10-31T14:35:56Z",
+      "mergedAt": "2026-10-31T14:58:05Z",
+      "closedAt": "2026-10-31T14:58:06Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/292"
+    },
+    {
+      "number": 291,
+      "title": "Test the manual SkillEval CLI handoff lifecycle",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-10-31T13:59:22Z",
+      "mergedAt": "2026-10-31T14:08:18Z",
+      "closedAt": "2026-10-31T14:08:18Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/291"
+    },
+    {
+      "number": 290,
+      "title": "Bind the single additional KV pair to the refreshed public freeze",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-10-31T10:35:03Z",
+      "mergedAt": "2026-10-31T10:44:17Z",
+      "closedAt": "2026-10-31T10:44:17Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/290"
+    },
+    {
+      "number": 288,
+      "title": "docs: add FlexGen offload feasibility reference",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-31T09:00:02Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 9.962287777777778,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/288"
+    },
+    {
+      "number": 287,
+      "title": "Bound one additional KV pair to the PR275 budget exception",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-10-31T08:00:06Z",
+      "mergedAt": "2026-10-31T08:22:44Z",
+      "closedAt": "2026-10-31T08:22:44Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/287"
+    },
+    {
+      "number": 285,
+      "title": "docs: describe conditions and advice for 29 repository and framework skills",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-31T04:00:29Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 14.954787777777778,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/285"
+    },
+    {
+      "number": 283,
+      "title": "docs: describe conditions and advice for 22 hardware skills",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-31T03:50:47Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 15.116454444444445,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/283"
+    },
+    {
+      "number": 282,
+      "title": "feat: distinguish resource-layer exclusions and unresolved coverage",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-10-31T03:38:57Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 15.313676666666666,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/282"
+    },
+    {
+      "number": 281,
+      "title": "Retain closed KV failure diagnostics without retry",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-10-31T03:20:15Z",
+      "mergedAt": "2026-10-31T03:30:07Z",
+      "closedAt": "2026-10-31T03:30:07Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/281"
+    },
+    {
+      "number": 280,
+      "title": "Activate one owner-frozen CPU KV editing pair",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-10-31T02:10:46Z",
+      "mergedAt": "2026-10-31T02:18:55Z",
+      "closedAt": "2026-10-31T02:18:55Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/280"
+    },
+    {
+      "number": 279,
+      "title": "docs: add Mooncake prefix reuse feasibility reference",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-10-31T02:01:08Z",
+      "mergedAt": "2026-10-31T04:58:42Z",
+      "closedAt": "2026-10-31T04:58:42Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/279"
+    },
+    {
+      "number": 278,
+      "title": "docs: retain DistServe topology-constrained phase planning",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-10-31T01:58:37Z",
+      "mergedAt": "2026-10-31T04:36:02Z",
+      "closedAt": "2026-10-31T04:36:02Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/278"
+    },
+    {
+      "number": 277,
+      "title": "docs: qualify Sarathi chunked-prefill budget case",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-10-31T01:54:43Z",
+      "mergedAt": "2026-10-31T04:14:49Z",
+      "closedAt": "2026-10-31T04:14:49Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/277"
+    },
+    {
+      "number": 276,
+      "title": "feat: add inactive bounded KV pilot launcher",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-10-31T01:13:22Z",
+      "mergedAt": "2026-10-31T01:23:02Z",
+      "closedAt": "2026-10-31T01:23:03Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/276"
+    },
     {
       "number": 275,
       "title": "feat: add bounded KV editing and scripted actor qualification",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-30T16:51:50Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 2.934041111111111,
+      "mergedAt": "2026-10-31T01:12:07Z",
+      "closedAt": "2026-10-31T01:12:08Z",
+      "waitingHours": null,
       "comments": 1,
       "labels": [
         "area:workbench"
@@ -105,7 +346,7 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 12.531263333333333,
+      "waitingHours": 35.696176666666666,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -159,15 +400,15 @@
     },
     {
       "number": 263,
-      "title": "docs: describe 15 methods skills with applicability and recommendations",
+      "title": "docs: complete applicability metadata for 17 methods skills",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-30T04:09:47Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 15.634874444444444,
+      "mergedAt": "2026-10-31T06:42:54Z",
+      "closedAt": "2026-10-31T06:42:54Z",
+      "waitingHours": null,
       "comments": 2,
       "labels": [
         "area:knowledge"
@@ -419,8 +660,8 @@
       "createdAt": "2026-10-29T02:35:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 41.20404111111111,
-      "comments": 0,
+      "waitingHours": 64.36895444444444,
+      "comments": 1,
       "labels": [
         "area:process"
       ],
@@ -1569,7 +1810,7 @@
       "createdAt": "2026-10-23T18:08:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 169.66265222222222,
+      "waitingHours": 192.82756555555557,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -1786,7 +2027,7 @@
       "createdAt": "2026-10-23T04:28:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 183.31959666666665,
+      "waitingHours": 206.48451,
       "comments": 1,
       "labels": [
         "area:workbench"
@@ -2034,8 +2275,8 @@
       "createdAt": "2026-10-22T11:57:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 199.84598555555556,
-      "comments": 0,
+      "waitingHours": 223.0108988888889,
+      "comments": 2,
       "labels": [
         "area:knowledge"
       ],
@@ -2426,7 +2667,7 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 230.65126333333333,
+      "waitingHours": 253.81617666666668,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -2458,7 +2699,7 @@
       "createdAt": "2026-10-21T02:45:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 233.03265222222223,
+      "waitingHours": 256.19756555555557,
       "comments": 0,
       "labels": [
         "area:workbench"

@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-10-30T19:47:52.548Z",
+  "generatedAt": "2026-10-31T18:57:46.236Z",
   "items": [
     {
       "login": "Dong1017",
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-10-14T02:18:38Z",
-      "lastContributionAt": "2026-10-30T16:51:50Z",
-      "pulls": 120,
-      "issues": 39,
+      "lastContributionAt": "2026-10-31T14:35:56Z",
+      "pulls": 134,
+      "issues": 41,
       "reviews": 0
     },
     {
@@ -22,22 +22,22 @@
       "reviews": 0
     },
     {
+      "login": "amy-why-3459",
+      "contributionType": "external",
+      "isBot": false,
+      "firstContributionAt": "2026-10-16T01:32:25Z",
+      "lastContributionAt": "2026-10-31T17:58:38Z",
+      "pulls": 7,
+      "issues": 7,
+      "reviews": 0
+    },
+    {
       "login": "zengchuang-hw",
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-10-19T08:31:56Z",
       "lastContributionAt": "2026-10-29T09:26:29Z",
       "pulls": 7,
-      "issues": 6,
-      "reviews": 0
-    },
-    {
-      "login": "amy-why-3459",
-      "contributionType": "external",
-      "isBot": false,
-      "firstContributionAt": "2026-10-16T01:32:25Z",
-      "lastContributionAt": "2026-10-27T02:26:33Z",
-      "pulls": 6,
       "issues": 6,
       "reviews": 0
     },
@@ -89,6 +89,16 @@
       "lastContributionAt": "2026-10-28T10:53:13Z",
       "pulls": 1,
       "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "wuhang2014",
+      "contributionType": "external",
+      "isBot": false,
+      "firstContributionAt": "2026-10-31T09:39:40Z",
+      "lastContributionAt": "2026-10-31T09:39:40Z",
+      "pulls": 0,
+      "issues": 1,
       "reviews": 0
     },
     {
