@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T18:57:46.236Z",
+  "generatedAt": "2026-11-01T19:18:24.579Z",
   "repo": {
     "stars": 26,
     "forks": 4,
@@ -9,7 +9,7 @@
   "contributors": {
     "total": 3,
     "activeLast30d": 3,
-    "newLast30d": 3,
+    "newLast30d": 2,
     "composition": {
       "internal": 3,
       "external": 0,
@@ -38,8 +38,17 @@
     },
     "longOpen": {
       "thresholdDays": 30,
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "number": 2,
+          "title": "Roadmap: batch-1 low-latency omni serving on Apple Silicon — v0.1 core + M1 TTS",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-10-02T01:06:15Z",
+          "waitingHours": 738.2026608333333,
+          "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/2"
+        }
+      ]
     }
   }
 }

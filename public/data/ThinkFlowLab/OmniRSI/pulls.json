@@ -1,17 +1,115 @@
 {
-  "generatedAt": "2026-10-31T18:57:46.236Z",
+  "generatedAt": "2026-11-01T19:18:24.579Z",
   "items": [
     {
+      "number": 302,
+      "title": "knowledge: distill JustGoal controlled evaluation contracts",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-01T18:35:48Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 0.7101608333333334,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/302"
+    },
+    {
+      "number": 301,
+      "title": "docs: add cache-aware ASR stream-boundary reference",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-01T16:44:45Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 2.5609941666666667,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/301"
+    },
+    {
+      "number": 300,
+      "title": "fix: preserve unknown command counts in author imports",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-01T14:27:43Z",
+      "mergedAt": "2026-11-01T14:36:37Z",
+      "closedAt": "2026-11-01T14:36:37Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/300"
+    },
+    {
+      "number": 299,
+      "title": "docs: define the label list, rules and nightly drift report",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-01T12:20:11Z",
+      "mergedAt": "2026-11-01T13:13:59Z",
+      "closedAt": "2026-11-01T13:13:59Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/299"
+    },
+    {
+      "number": 298,
+      "title": "policy: admit GPT-6.1 Terra at xhigh and max",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-01T09:27:10Z",
+      "mergedAt": "2026-11-01T10:12:43Z",
+      "closedAt": "2026-11-01T10:12:43Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/298"
+    },
+    {
+      "number": 296,
+      "title": "ci: report closing syntax inside PR body text",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-01T02:30:07Z",
+      "mergedAt": "2026-11-01T02:41:22Z",
+      "closedAt": "2026-11-01T02:41:22Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/296"
+    },
+    {
       "number": 294,
-      "title": "Freeze MiniMax-H3 Ref2VA Ascend quality gates and campaign evidence",
+      "title": "Qualify MiniMax-H3 Ref2VA five-second Ascend optimization",
       "author": "amy-why-3459",
       "contributionType": "external",
       "state": "open",
-      "isDraft": true,
+      "isDraft": false,
       "createdAt": "2026-10-31T17:58:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 0.9856211111111111,
+      "waitingHours": 25.329605277777777,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -68,12 +166,12 @@
       "title": "docs: add FlexGen offload feasibility reference",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-31T09:00:02Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 9.962287777777778,
+      "mergedAt": "2026-11-01T12:41:46Z",
+      "closedAt": "2026-11-01T12:41:46Z",
+      "waitingHours": null,
       "comments": 2,
       "labels": [
         "area:knowledge"
@@ -105,7 +203,7 @@
       "createdAt": "2026-10-31T04:00:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 14.954787777777778,
+      "waitingHours": 39.29877194444445,
       "comments": 2,
       "labels": [
         "area:knowledge"
@@ -122,7 +220,7 @@
       "createdAt": "2026-10-31T03:50:47Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 15.116454444444445,
+      "waitingHours": 39.46043861111111,
       "comments": 2,
       "labels": [
         "area:knowledge"
@@ -139,7 +237,7 @@
       "createdAt": "2026-10-31T03:38:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 15.313676666666666,
+      "waitingHours": 39.65766083333333,
       "comments": 2,
       "labels": [
         "area:knowledge"
@@ -346,7 +444,7 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 35.696176666666666,
+      "waitingHours": 60.04016083333333,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -655,13 +753,13 @@
       "title": "ci: automate daily releases with Python and Codex plugin packages",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
-      "isDraft": true,
+      "state": "merged",
+      "isDraft": false,
       "createdAt": "2026-10-29T02:35:38Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 64.36895444444444,
-      "comments": 1,
+      "mergedAt": "2026-11-01T12:57:47Z",
+      "closedAt": "2026-11-01T12:57:47Z",
+      "waitingHours": null,
+      "comments": 2,
       "labels": [
         "area:process"
       ],
@@ -1810,7 +1908,7 @@
       "createdAt": "2026-10-23T18:08:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 192.82756555555557,
+      "waitingHours": 217.1715497222222,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -2027,8 +2125,8 @@
       "createdAt": "2026-10-23T04:28:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 206.48451,
-      "comments": 1,
+      "waitingHours": 230.82849416666667,
+      "comments": 2,
       "labels": [
         "area:workbench"
       ],
@@ -2275,8 +2373,8 @@
       "createdAt": "2026-10-22T11:57:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 223.0108988888889,
-      "comments": 2,
+      "waitingHours": 247.35488305555555,
+      "comments": 3,
       "labels": [
         "area:knowledge"
       ],
@@ -2667,7 +2765,7 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 253.81617666666668,
+      "waitingHours": 278.16016083333335,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -2699,8 +2797,8 @@
       "createdAt": "2026-10-21T02:45:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 256.19756555555557,
-      "comments": 0,
+      "waitingHours": 280.5415497222222,
+      "comments": 1,
       "labels": [
         "area:workbench"
       ],
