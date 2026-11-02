@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-11-01T19:18:24.579Z",
+  "generatedAt": "2026-11-02T22:57:40.496Z",
   "items": [
     {
       "login": "0z5a",
       "contributionType": "internal",
       "isBot": false,
       "firstContributionAt": "2026-09-23T07:59:19Z",
-      "lastContributionAt": "2026-10-28T14:35:03Z",
-      "pulls": 41,
+      "lastContributionAt": "2026-11-02T13:58:13Z",
+      "pulls": 42,
       "issues": 1,
       "reviews": 0
     },
@@ -26,9 +26,19 @@
       "contributionType": "internal",
       "isBot": false,
       "firstContributionAt": "2026-09-15T02:42:04Z",
-      "lastContributionAt": "2026-10-31T09:10:55Z",
-      "pulls": 19,
+      "lastContributionAt": "2026-11-02T12:49:54Z",
+      "pulls": 20,
       "issues": 6,
+      "reviews": 0
+    },
+    {
+      "login": "LyxWxj",
+      "contributionType": "internal",
+      "isBot": false,
+      "firstContributionAt": "2026-09-24T18:05:56Z",
+      "lastContributionAt": "2026-11-02T15:10:01Z",
+      "pulls": 6,
+      "issues": 1,
       "reviews": 0
     },
     {
@@ -38,16 +48,6 @@
       "firstContributionAt": "2026-09-27T13:46:37Z",
       "lastContributionAt": "2026-10-23T03:47:48Z",
       "pulls": 6,
-      "issues": 1,
-      "reviews": 0
-    },
-    {
-      "login": "LyxWxj",
-      "contributionType": "internal",
-      "isBot": false,
-      "firstContributionAt": "2026-09-24T18:05:56Z",
-      "lastContributionAt": "2026-10-29T04:50:03Z",
-      "pulls": 5,
       "issues": 1,
       "reviews": 0
     },
@@ -138,6 +138,16 @@
       "firstContributionAt": "2026-09-23T10:38:20Z",
       "lastContributionAt": "2026-09-23T13:06:33Z",
       "pulls": 2,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "sysuTobo",
+      "contributionType": "external",
+      "isBot": false,
+      "firstContributionAt": "2026-11-02T07:04:12Z",
+      "lastContributionAt": "2026-11-02T07:04:12Z",
+      "pulls": 1,
       "issues": 0,
       "reviews": 0
     },

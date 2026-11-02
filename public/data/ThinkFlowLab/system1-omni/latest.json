@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-01T19:18:24.579Z",
+  "generatedAt": "2026-11-02T22:57:40.496Z",
   "repo": {
     "stars": 63,
     "forks": 17,
     "watchers": 1,
-    "openIssuesAndPrs": 58
+    "openIssuesAndPrs": 57
   },
   "contributors": {
     "total": 14,
-    "activeLast30d": 11,
+    "activeLast30d": 10,
     "newLast30d": 4,
     "composition": {
       "internal": 11,
@@ -18,8 +18,8 @@
   },
   "pulls": {
     "total": 157,
-    "open": 22,
-    "merged": 111,
+    "open": 21,
+    "merged": 112,
     "closedUnmerged": 24,
     "composition": {
       "internal": 150,
@@ -38,14 +38,14 @@
     },
     "longOpen": {
       "thresholdDays": 30,
-      "count": 8,
+      "count": 9,
       "items": [
         {
           "number": 9,
           "title": "[RFC] Support emerging System 1 models, with CLM as the second model after LAYA",
           "author": "Yunaik",
           "createdAt": "2026-09-27T08:42:35Z",
-          "waitingHours": 850.5971052777778,
+          "waitingHours": 878.2515266666667,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/9"
         },
         {
@@ -53,7 +53,7 @@
           "title": "[New Model]: Support Cua-S1 4B 0.2 — community help wanted",
           "author": "hsliuustc0106",
           "createdAt": "2026-09-27T09:02:01Z",
-          "waitingHours": 850.2732163888888,
+          "waitingHours": 877.9276377777778,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/10"
         },
         {
@@ -61,7 +61,7 @@
           "title": "[RFC]: Native Laya inference with Rust and CUDA",
           "author": "linear3735",
           "createdAt": "2026-09-28T02:27:31Z",
-          "waitingHours": 832.8482163888889,
+          "waitingHours": 860.5026377777777,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/14"
         },
         {
@@ -69,7 +69,7 @@
           "title": "[New Model]: Support Kev (0.5B–9B) — second Qwen3.5 decision model, reusing the qwen3_5 CUDA backend",
           "author": "xiaoyu-xyz",
           "createdAt": "2026-09-28T09:42:19Z",
-          "waitingHours": 825.6015497222222,
+          "waitingHours": 853.2559711111111,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/27"
         },
         {
@@ -77,7 +77,7 @@
           "title": "[New Model]: LFM2.5-350M choice execution",
           "author": "prettygirlisnotme",
           "createdAt": "2026-09-28T14:26:04Z",
-          "waitingHours": 820.8723830555556,
+          "waitingHours": 848.5268044444445,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/31"
         },
         {
@@ -85,7 +85,7 @@
           "title": "[Performance]: Reproducible Laya benchmarks against the original runtime",
           "author": "hsliuustc0106",
           "createdAt": "2026-09-29T13:42:36Z",
-          "waitingHours": 797.5968275,
+          "waitingHours": 825.2512488888889,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/39"
         },
         {
@@ -93,7 +93,7 @@
           "title": "[RFC]: Native Rust/CUDA inference for Mapika/decider-2b",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-01T09:59:49Z",
-          "waitingHours": 753.3098830555556,
+          "waitingHours": 780.9643044444445,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/57"
         },
         {
@@ -101,8 +101,16 @@
           "title": "[RFC]: Write down which parts of the /v1/systemone contract all workers share",
           "author": "twu3202",
           "createdAt": "2026-10-01T21:30:58Z",
-          "waitingHours": 741.7907163888889,
+          "waitingHours": 769.4451377777777,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/61"
+        },
+        {
+          "number": 66,
+          "title": "[Performance]: Optimize native Rust/CUDA Laya inference",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-10-03T07:48:11Z",
+          "waitingHours": 735.1581933333333,
+          "url": "https://github.com/InferMatrixLab/system1-omni/issues/66"
         }
       ]
     }

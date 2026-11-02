@@ -1,40 +1,40 @@
 {
-  "generatedAt": "2026-11-01T19:18:24.579Z",
+  "generatedAt": "2026-11-02T22:57:40.496Z",
   "repo": {
-    "stars": 55,
-    "forks": 11,
+    "stars": 56,
+    "forks": 12,
     "watchers": 0,
-    "openIssuesAndPrs": 49
+    "openIssuesAndPrs": 56
   },
   "contributors": {
-    "total": 14,
-    "activeLast30d": 13,
-    "newLast30d": 13,
+    "total": 16,
+    "activeLast30d": 15,
+    "newLast30d": 15,
     "composition": {
       "internal": 3,
-      "external": 11,
+      "external": 13,
       "unknown": 0
     }
   },
   "pulls": {
-    "total": 207,
-    "open": 12,
-    "merged": 186,
-    "closedUnmerged": 9,
+    "total": 221,
+    "open": 17,
+    "merged": 193,
+    "closedUnmerged": 11,
     "composition": {
-      "internal": 44,
-      "external": 163,
+      "internal": 49,
+      "external": 172,
       "unknown": 0
     }
   },
   "issues": {
-    "total": 95,
-    "open": 37,
-    "closed": 58,
+    "total": 103,
+    "open": 39,
+    "closed": 64,
     "composition": {
-      "internal": 29,
-      "external": 66,
-      "unknown": 0
+      "internal": 33,
+      "external": 69,
+      "unknown": 1
     },
     "longOpen": {
       "thresholdDays": 30,
