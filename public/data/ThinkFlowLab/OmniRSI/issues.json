@@ -1,6 +1,145 @@
 {
-  "generatedAt": "2026-11-02T22:57:40.496Z",
+  "generatedAt": "2026-11-03T20:43:46.442Z",
   "items": [
+    {
+      "number": 337,
+      "title": "task: connect shared tasks to RSI and verify their use",
+      "author": "Bounty-hunter",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-03T14:49:10Z",
+      "closedAt": null,
+      "waitingHours": 5.910122777777778,
+      "comments": 2,
+      "labels": [
+        "kind:task",
+        "area:workbench"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/337"
+    },
+    {
+      "number": 336,
+      "title": "task: ship executable Softmax and RMSNorm CPU tasks",
+      "author": "Bounty-hunter",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-03T14:49:08Z",
+      "closedAt": null,
+      "waitingHours": 5.910678333333333,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:workbench",
+        "priority:P2",
+        "status:proposed",
+        "bot-reviewed"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/336"
+    },
+    {
+      "number": 335,
+      "title": "task: share task inputs and evaluation rules across RSI consumers",
+      "author": "Bounty-hunter",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-03T14:49:06Z",
+      "closedAt": null,
+      "waitingHours": 5.911233888888889,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:workbench",
+        "priority:P2",
+        "status:proposed",
+        "bot-reviewed"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/335"
+    },
+    {
+      "number": 334,
+      "title": "task: select initial optimization tasks and benchmark reuse",
+      "author": "Bounty-hunter",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-03T14:43:26Z",
+      "closedAt": null,
+      "waitingHours": 6.005678333333333,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:workbench",
+        "priority:P2",
+        "status:proposed",
+        "bot-reviewed"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/334"
+    },
+    {
+      "number": 333,
+      "title": "discussion: what trace evidence should InferRSI persist beyond per-run artifacts?",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-03T13:16:42Z",
+      "closedAt": null,
+      "waitingHours": 7.451233888888889,
+      "comments": 5,
+      "labels": [
+        "help:wanted",
+        "kind:rfc",
+        "area:workbench",
+        "area:process",
+        "priority:P2",
+        "area:usability",
+        "status:proposed",
+        "bot-reviewed"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/333"
+    },
+    {
+      "number": 331,
+      "title": "[Task] Deploy Minimax H3 in 5070 and enhance the performance using InferRSI",
+      "author": "congw729",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-03T09:41:03Z",
+      "closedAt": null,
+      "waitingHours": 11.045400555555556,
+      "comments": 5,
+      "labels": [
+        "help:wanted",
+        "kind:task",
+        "area:workbench",
+        "priority:P2",
+        "status:proposed",
+        "bot-reviewed"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/331"
+    },
+    {
+      "number": 329,
+      "title": "acceptance: DeepSeek V4.1 Flash 910C decode TPOT ≤25 ms/token at C1–C32",
+      "author": "jiangkuaixue123",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-03T07:34:52Z",
+      "closedAt": null,
+      "waitingHours": 13.148456111111111,
+      "comments": 43,
+      "labels": [
+        "kind:acceptance",
+        "area:workbench",
+        "bot-reviewed"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/329"
+    },
     {
       "number": 320,
       "title": "[Campaign] MiniMax-H3 Ref2VA lossless optimization on 4x910B1",
@@ -10,8 +149,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T11:44:13Z",
       "closedAt": null,
-      "waitingHours": 11.224304444444444,
-      "comments": 1,
+      "waitingHours": 32.992622777777775,
+      "comments": 4,
       "labels": [
         "kind:acceptance",
         "area:workbench",
@@ -28,7 +167,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T08:23:36Z",
       "closedAt": null,
-      "waitingHours": 14.567915555555556,
+      "waitingHours": 36.33623388888889,
       "comments": 1,
       "labels": [
         "kind:roadmap",
@@ -46,7 +185,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T08:22:31Z",
       "closedAt": null,
-      "waitingHours": 14.58597111111111,
+      "waitingHours": 36.35428944444445,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -64,7 +203,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T08:22:23Z",
       "closedAt": null,
-      "waitingHours": 14.588193333333333,
+      "waitingHours": 36.35651166666667,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -135,7 +274,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T03:01:55Z",
       "closedAt": null,
-      "waitingHours": 19.929304444444444,
+      "waitingHours": 41.69762277777778,
       "comments": 4,
       "labels": [
         "kind:rfc",
@@ -152,7 +291,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-01T07:43:04Z",
       "closedAt": null,
-      "waitingHours": 39.24347111111111,
+      "waitingHours": 61.011789444444446,
       "comments": 1,
       "labels": [
         "kind:acceptance",
@@ -169,7 +308,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-01T01:56:59Z",
       "closedAt": null,
-      "waitingHours": 45.01152666666667,
+      "waitingHours": 66.779845,
       "comments": 1,
       "labels": [
         "kind:rfc",
@@ -187,7 +326,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-31T17:49:41Z",
       "closedAt": null,
-      "waitingHours": 53.13319333333333,
+      "waitingHours": 74.90151166666666,
       "comments": 2,
       "labels": [
         "kind:acceptance",
@@ -204,8 +343,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-31T09:39:40Z",
       "closedAt": null,
-      "waitingHours": 61.30013777777778,
-      "comments": 1,
+      "waitingHours": 83.06845611111112,
+      "comments": 3,
       "labels": [
         "kind:rfc",
         "area:workbench",
@@ -222,11 +361,12 @@
       "isPullRequest": false,
       "createdAt": "2026-10-31T06:40:09Z",
       "closedAt": null,
-      "waitingHours": 64.29208222222222,
-      "comments": 2,
+      "waitingHours": 86.06040055555556,
+      "comments": 4,
       "labels": [
         "kind:status",
-        "area:process"
+        "area:process",
+        "bot-reviewed"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/286"
     },
@@ -239,11 +379,12 @@
       "isPullRequest": false,
       "createdAt": "2026-10-31T03:50:52Z",
       "closedAt": null,
-      "waitingHours": 67.11347111111111,
-      "comments": 6,
+      "waitingHours": 88.88178944444445,
+      "comments": 8,
       "labels": [
         "kind:task",
-        "area:process"
+        "area:process",
+        "bot-reviewed"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/284"
     },
@@ -256,8 +397,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-30T14:03:18Z",
       "closedAt": null,
-      "waitingHours": 80.90624888888888,
-      "comments": 3,
+      "waitingHours": 102.67456722222222,
+      "comments": 7,
       "labels": [
         "kind:investigation",
         "area:process",
@@ -274,7 +415,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-30T05:03:21Z",
       "closedAt": null,
-      "waitingHours": 89.90541555555555,
+      "waitingHours": 111.67373388888889,
       "comments": 0,
       "labels": [
         "kind:tracking",
@@ -305,7 +446,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T11:24:29Z",
       "closedAt": null,
-      "waitingHours": 107.55319333333334,
+      "waitingHours": 129.32151166666668,
       "comments": 6,
       "labels": [
         "kind:tracking",
@@ -323,7 +464,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T09:26:29Z",
       "closedAt": null,
-      "waitingHours": 109.51986,
+      "waitingHours": 131.28817833333332,
       "comments": 1,
       "labels": [
         "kind:rfc",
@@ -341,7 +482,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T09:18:39Z",
       "closedAt": null,
-      "waitingHours": 109.65041555555555,
+      "waitingHours": 131.41873388888888,
       "comments": 11,
       "labels": [
         "kind:tracking",
@@ -358,13 +499,15 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T08:22:43Z",
       "closedAt": null,
-      "waitingHours": 110.58263777777778,
-      "comments": 2,
+      "waitingHours": 132.35095611111112,
+      "comments": 9,
       "labels": [
         "help:wanted",
         "kind:tracking",
         "area:workbench",
-        "status:proposed"
+        "priority:P2",
+        "status:proposed",
+        "bot-reviewed"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/252"
     },
@@ -377,7 +520,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T07:50:06Z",
       "closedAt": null,
-      "waitingHours": 111.1262488888889,
+      "waitingHours": 132.89456722222224,
       "comments": 6,
       "labels": [
         "help:wanted",
@@ -396,7 +539,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T07:31:30Z",
       "closedAt": null,
-      "waitingHours": 111.43624888888888,
+      "waitingHours": 133.2045672222222,
       "comments": 10,
       "labels": [
         "help:wanted",
@@ -433,12 +576,14 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T02:24:01Z",
       "closedAt": null,
-      "waitingHours": 116.56097111111112,
-      "comments": 1,
+      "waitingHours": 138.32928944444444,
+      "comments": 8,
       "labels": [
         "kind:task",
         "area:process",
-        "status:proposed"
+        "priority:P2",
+        "status:proposed",
+        "bot-reviewed"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/238"
     },
@@ -544,7 +689,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-28T10:49:34Z",
       "closedAt": null,
-      "waitingHours": 132.13513777777777,
+      "waitingHours": 153.9034561111111,
       "comments": 2,
       "labels": [
         "kind:rfc",
@@ -785,8 +930,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T08:32:26Z",
       "closedAt": null,
-      "waitingHours": 158.42069333333333,
-      "comments": 10,
+      "waitingHours": 180.18901166666666,
+      "comments": 11,
       "labels": [
         "kind:investigation",
         "area:knowledge"
@@ -833,7 +978,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:26:33Z",
       "closedAt": null,
-      "waitingHours": 164.5187488888889,
+      "waitingHours": 186.28706722222222,
       "comments": 1,
       "labels": [
         "kind:bug",
@@ -868,12 +1013,14 @@
       "isPullRequest": false,
       "createdAt": "2026-10-26T01:31:13Z",
       "closedAt": null,
-      "waitingHours": 189.4409711111111,
-      "comments": 2,
+      "waitingHours": 211.20928944444444,
+      "comments": 3,
       "labels": [
         "kind:rfc",
         "area:workbench",
-        "status:proposed"
+        "priority:P2",
+        "status:proposed",
+        "bot-reviewed"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/152"
     },
@@ -937,7 +1084,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-25T06:43:50Z",
       "closedAt": null,
-      "waitingHours": 208.23069333333333,
+      "waitingHours": 229.99901166666666,
       "comments": 7,
       "labels": [
         "kind:rfc",
@@ -955,7 +1102,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-25T01:19:03Z",
       "closedAt": null,
-      "waitingHours": 213.6437488888889,
+      "waitingHours": 235.41206722222222,
       "comments": 1,
       "labels": [
         "kind:rfc",
@@ -1057,7 +1204,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T13:04:06Z",
       "closedAt": null,
-      "waitingHours": 249.89291555555556,
+      "waitingHours": 271.6612338888889,
       "comments": 48,
       "labels": [
         "kind:acceptance",
@@ -1108,7 +1255,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T03:42:02Z",
       "closedAt": null,
-      "waitingHours": 259.26069333333334,
+      "waitingHours": 281.0290116666667,
       "comments": 0,
       "labels": [
         "kind:acceptance",
@@ -1205,7 +1352,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T12:34:08Z",
       "closedAt": null,
-      "waitingHours": 274.39236,
+      "waitingHours": 296.16067833333335,
       "comments": 11,
       "labels": [
         "kind:tracking",
@@ -1272,7 +1419,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T17:25:47Z",
       "closedAt": null,
-      "waitingHours": 293.53152666666665,
+      "waitingHours": 315.299845,
       "comments": 1,
       "labels": [
         "kind:acceptance",
@@ -1290,7 +1437,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T14:22:29Z",
       "closedAt": null,
-      "waitingHours": 296.58652666666666,
+      "waitingHours": 318.354845,
       "comments": 330,
       "labels": [
         "kind:acceptance",
@@ -1307,7 +1454,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T09:21:03Z",
       "closedAt": null,
-      "waitingHours": 301.61041555555556,
+      "waitingHours": 323.3787338888889,
       "comments": 3,
       "labels": [
         "kind:roadmap",
@@ -1372,7 +1519,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:57:11Z",
       "closedAt": null,
-      "waitingHours": 306.00819333333334,
+      "waitingHours": 327.7765116666667,
       "comments": 0,
       "labels": [
         "kind:acceptance",
@@ -1390,7 +1537,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:54:34Z",
       "closedAt": null,
-      "waitingHours": 306.05180444444443,
+      "waitingHours": 327.8201227777778,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -1475,7 +1622,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-20T08:38:36Z",
       "closedAt": null,
-      "waitingHours": 326.31791555555554,
+      "waitingHours": 348.0862338888889,
       "comments": 2,
       "labels": [
         "kind:status",
@@ -1509,7 +1656,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T16:47:16Z",
       "closedAt": null,
-      "waitingHours": 342.1734711111111,
+      "waitingHours": 363.94178944444445,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -1526,7 +1673,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T12:17:58Z",
       "closedAt": null,
-      "waitingHours": 346.66180444444444,
+      "waitingHours": 368.4301227777778,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -1575,7 +1722,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T08:31:56Z",
       "closedAt": null,
-      "waitingHours": 350.4290266666667,
+      "waitingHours": 372.197345,
       "comments": 2,
       "labels": [
         "kind:rfc",
@@ -1700,7 +1847,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T00:56:41Z",
       "closedAt": null,
-      "waitingHours": 550.0165266666667,
+      "waitingHours": 571.784845,
       "comments": 0,
       "labels": [
         "kind:acceptance",

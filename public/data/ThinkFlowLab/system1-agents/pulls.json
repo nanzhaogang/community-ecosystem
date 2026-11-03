@@ -1,6 +1,24 @@
 {
-  "generatedAt": "2026-11-02T22:57:40.496Z",
+  "generatedAt": "2026-11-03T20:43:46.442Z",
   "items": [
+    {
+      "number": 112,
+      "title": "Bump astral-sh/setup-uv from 10.3.2 to 10.3.3 in the actions group",
+      "author": "dependabot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-03T20:37:20Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 0.107345,
+      "comments": 0,
+      "labels": [
+        "dependencies",
+        "github_actions"
+      ],
+      "url": "https://github.com/ThinkFlowLab/system1-agents/pull/112"
+    },
     {
       "number": 111,
       "title": "[Feat] Score browser decision backends step by step on myjev-browser-decisions (offline, any text backend)",
@@ -11,7 +29,7 @@
       "createdAt": "2026-11-02T11:57:14Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 11.00736,
+      "waitingHours": 32.77567833333333,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/111"
@@ -41,7 +59,7 @@
       "createdAt": "2026-10-31T06:50:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 64.12319333333333,
+      "waitingHours": 85.89151166666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/107"
@@ -56,7 +74,7 @@
       "createdAt": "2026-10-30T12:02:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 82.91736,
+      "waitingHours": 104.68567833333333,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/106"
@@ -119,7 +137,7 @@
       "createdAt": "2026-10-26T11:58:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 178.9834711111111,
+      "waitingHours": 200.75178944444446,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/99"
@@ -134,7 +152,7 @@
       "createdAt": "2026-10-25T02:12:39Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 212.75041555555555,
+      "waitingHours": 234.5187338888889,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/96"
@@ -194,7 +212,7 @@
       "createdAt": "2026-10-16T17:53:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 413.06291555555555,
+      "waitingHours": 434.8312338888889,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/86"
@@ -452,7 +470,7 @@
       "createdAt": "2026-10-09T17:19:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 581.6365266666667,
+      "waitingHours": 603.404845,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/62"
@@ -482,7 +500,7 @@
       "createdAt": "2026-10-09T14:48:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 584.1476377777777,
+      "waitingHours": 605.9159561111111,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/60"
@@ -824,7 +842,7 @@
       "createdAt": "2026-09-29T17:03:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 821.8995822222222,
+      "waitingHours": 843.6679005555555,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/34"
@@ -1072,7 +1090,7 @@
       "createdAt": "2026-09-22T19:36:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 987.3581933333334,
+      "waitingHours": 1009.1265116666667,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/6"

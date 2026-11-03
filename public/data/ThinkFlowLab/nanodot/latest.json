@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T22:57:40.496Z",
+  "generatedAt": "2026-11-03T20:43:46.442Z",
   "repo": {
     "stars": 2,
     "forks": 0,
@@ -38,8 +38,17 @@
     },
     "longOpen": {
       "thresholdDays": 30,
-      "count": 0,
-      "items": []
+      "count": 1,
+      "items": [
+        {
+          "number": 100,
+          "title": "RFC: desktop interface — the four UX questions as a local UI",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-10-04T03:14:30Z",
+          "waitingHours": 737.4879005555556,
+          "url": "https://github.com/ThinkFlowLab/nanodot/issues/100"
+        }
+      ]
     }
   }
 }
