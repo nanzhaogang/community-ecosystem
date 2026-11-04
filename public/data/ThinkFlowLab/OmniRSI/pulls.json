@@ -1,9 +1,128 @@
 {
-  "generatedAt": "2026-11-03T20:43:46.442Z",
+  "generatedAt": "2026-11-04T21:01:13.996Z",
   "items": [
     {
+      "number": 351,
+      "title": "docs: anchor L1 weight demand against the checkpoint in performance-ceiling-analysis",
+      "author": "fake0fan",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-04T09:14:17Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 11.782498888888888,
+      "comments": 4,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/351"
+    },
+    {
+      "number": 349,
+      "title": "fix(InferRSI): [Bounty] tracking: grow reusable engineering optimization tasks (fixes #336)",
+      "author": "NePreby",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-04T08:41:20Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 12.331665555555556,
+      "comments": 2,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/349"
+    },
+    {
+      "number": 347,
+      "title": "docs: require explicit pull request review verdicts",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-04T06:26:19Z",
+      "mergedAt": "2026-11-04T09:54:15Z",
+      "closedAt": "2026-11-04T09:54:15Z",
+      "waitingHours": null,
+      "comments": 8,
+      "labels": [
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/347"
+    },
+    {
+      "number": 343,
+      "title": "fix(labels): exempt outside-app labels from the drift report",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-04T05:59:24Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 15.030554444444444,
+      "comments": 8,
+      "labels": [
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/343"
+    },
+    {
+      "number": 342,
+      "title": "Extend VLA observation-to-action benchmark guidance",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-04T04:54:12Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 16.11722111111111,
+      "comments": 3,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/342"
+    },
+    {
+      "number": 341,
+      "title": "Qualify RSI trials with explicit completeness and lifecycle checks",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-04T01:43:24Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 19.29722111111111,
+      "comments": 1,
+      "labels": [
+        "area:workbench"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/341"
+    },
+    {
+      "number": 339,
+      "title": "Add source-bound TTS playout benchmark guidance",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-03T21:26:16Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 23.582776666666668,
+      "comments": 5,
+      "labels": [
+        "kind:docs",
+        "area:knowledge",
+        "bot-reviewed"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/339"
+    },
+    {
       "number": 338,
-      "title": "feat: add shared CPU engineering benchmark tasks",
+      "title": "feat: add shared engineering task evaluation and Ascend RMSNorm",
       "author": "Bounty-hunter",
       "contributionType": "external",
       "state": "open",
@@ -11,8 +130,8 @@
       "createdAt": "2026-11-03T14:54:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 5.822622777777778,
-      "comments": 0,
+      "waitingHours": 30.11361,
+      "comments": 5,
       "labels": [
         "area:workbench"
       ],
@@ -28,8 +147,8 @@
       "createdAt": "2026-11-03T10:14:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 10.489289444444445,
-      "comments": 3,
+      "waitingHours": 34.780276666666666,
+      "comments": 6,
       "labels": [
         "kind:docs",
         "area:knowledge",
@@ -47,8 +166,8 @@
       "createdAt": "2026-11-03T08:53:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 11.834011666666667,
-      "comments": 1,
+      "waitingHours": 36.12499888888889,
+      "comments": 5,
       "labels": [
         "kind:docs",
         "area:usability",
@@ -66,8 +185,8 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 15.736789444444444,
-      "comments": 7,
+      "waitingHours": 40.02777666666667,
+      "comments": 15,
       "labels": [
         "area:process"
       ],
@@ -83,8 +202,8 @@
       "createdAt": "2026-11-03T04:32:23Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 16.189845,
-      "comments": 4,
+      "waitingHours": 40.48083222222222,
+      "comments": 5,
       "labels": [
         "kind:task",
         "area:workbench",
@@ -102,8 +221,8 @@
       "createdAt": "2026-11-03T03:20:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 17.39512277777778,
-      "comments": 0,
+      "waitingHours": 41.68611,
+      "comments": 1,
       "labels": [
         "area:workbench"
       ],
@@ -119,8 +238,8 @@
       "createdAt": "2026-11-03T03:06:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 17.620122777777777,
-      "comments": 3,
+      "waitingHours": 41.91111,
+      "comments": 4,
       "labels": [
         "kind:docs",
         "area:knowledge",
@@ -138,8 +257,8 @@
       "createdAt": "2026-11-02T20:27:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 24.263178333333332,
-      "comments": 4,
+      "waitingHours": 48.55416555555556,
+      "comments": 5,
       "labels": [
         "kind:docs",
         "area:knowledge",
@@ -157,7 +276,7 @@
       "createdAt": "2026-11-02T16:48:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 27.924845,
+      "waitingHours": 52.215832222222225,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -174,8 +293,8 @@
       "createdAt": "2026-11-02T12:12:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 32.513178333333336,
-      "comments": 4,
+      "waitingHours": 56.80416555555556,
+      "comments": 5,
       "labels": [
         "kind:docs",
         "area:knowledge",
@@ -193,7 +312,7 @@
       "createdAt": "2026-11-02T11:51:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 32.87845611111111,
+      "waitingHours": 57.169443333333334,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -210,8 +329,8 @@
       "createdAt": "2026-11-02T11:42:31Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 33.02095611111111,
-      "comments": 6,
+      "waitingHours": 57.31194333333333,
+      "comments": 9,
       "labels": [
         "kind:task",
         "area:workbench",
@@ -229,7 +348,7 @@
       "createdAt": "2026-11-02T09:05:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 35.63567833333333,
+      "waitingHours": 59.92666555555556,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -246,8 +365,8 @@
       "createdAt": "2026-11-02T08:24:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 36.32040055555556,
-      "comments": 0,
+      "waitingHours": 60.61138777777778,
+      "comments": 1,
       "labels": [
         "area:workbench"
       ],
@@ -809,8 +928,8 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 109.46290055555555,
-      "comments": 3,
+      "waitingHours": 133.75388777777778,
+      "comments": 4,
       "labels": [
         "kind:task",
         "area:workbench",
@@ -2275,8 +2394,8 @@
       "createdAt": "2026-10-23T18:08:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 266.5942894444444,
-      "comments": 0,
+      "waitingHours": 290.88527666666664,
+      "comments": 1,
       "labels": [
         "area:workbench"
       ],
@@ -2492,8 +2611,8 @@
       "createdAt": "2026-10-23T04:28:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 280.25123388888886,
-      "comments": 2,
+      "waitingHours": 304.54222111111113,
+      "comments": 5,
       "labels": [
         "area:workbench"
       ],
@@ -3134,8 +3253,8 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 327.58290055555557,
-      "comments": 0,
+      "waitingHours": 351.8738877777778,
+      "comments": 1,
       "labels": [
         "area:workbench"
       ],
@@ -3166,8 +3285,8 @@
       "createdAt": "2026-10-21T02:45:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 329.96428944444443,
-      "comments": 1,
+      "waitingHours": 354.25527666666665,
+      "comments": 4,
       "labels": [
         "area:workbench"
       ],

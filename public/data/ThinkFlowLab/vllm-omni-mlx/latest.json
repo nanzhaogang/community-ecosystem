@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T20:43:46.442Z",
+  "generatedAt": "2026-11-04T21:01:13.996Z",
   "repo": {
     "stars": 26,
     "forks": 4,
@@ -38,15 +38,71 @@
     },
     "longOpen": {
       "thresholdDays": 30,
-      "count": 1,
+      "count": 8,
       "items": [
         {
           "number": 2,
           "title": "Roadmap: batch-1 low-latency omni serving on Apple Silicon — v0.1 core + M1 TTS",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-02T01:06:15Z",
-          "waitingHours": 787.6254005555555,
+          "waitingHours": 811.9163877777778,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/2"
+        },
+        {
+          "number": 68,
+          "title": "ASR decoder-style first: /v1/audio/transcriptions on qwen3_asr — prompt-prefix cache + TPOT/ITL doctrine",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-10-05T00:28:41Z",
+          "waitingHours": 740.5424988888889,
+          "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/68"
+        },
+        {
+          "number": 69,
+          "title": "TTS breadth: tiered model support list — Kokoro-82M, VoxCPM2, OmniVoice, MOSS-TTS-Nano, (watch) Voxtral-4B-TTS",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-10-05T00:54:51Z",
+          "waitingHours": 740.1063877777777,
+          "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/69"
+        },
+        {
+          "number": 70,
+          "title": "TTS model: Kokoro-82M (tier 1) — non-AR fast lane, preset voices, streaming by sentence chunking",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-10-05T01:01:38Z",
+          "waitingHours": 739.9933322222222,
+          "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/70"
+        },
+        {
+          "number": 72,
+          "title": "TTS model: OmniVoice (tier 1) — diffusion cloning tier, bf16 1.2 GB",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-10-05T01:01:52Z",
+          "waitingHours": 739.9894433333334,
+          "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/72"
+        },
+        {
+          "number": 73,
+          "title": "TTS model: MOSS-TTS-Nano-100M (tier 2) — tiny single-stage AR, cloning-only",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-10-05T01:01:56Z",
+          "waitingHours": 739.9883322222222,
+          "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/73"
+        },
+        {
+          "number": 74,
+          "title": "TTS model: Voxtral-4B-TTS-2603 (tier 2, watch) — AR + FlowMatching presets",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-10-05T01:01:59Z",
+          "waitingHours": 739.9874988888889,
+          "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/74"
+        },
+        {
+          "number": 84,
+          "title": "Reproduce the quiet-machine TTS streaming benchmarks on your Apple Silicon (RTF record: 0.37–0.42)",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-10-05T06:45:10Z",
+          "waitingHours": 734.2677766666667,
+          "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/84"
         }
       ]
     }

@@ -1,51 +1,51 @@
 {
-  "generatedAt": "2026-11-03T20:43:46.442Z",
+  "generatedAt": "2026-11-04T21:01:13.996Z",
   "repo": {
     "stars": 219,
     "forks": 37,
     "watchers": 2,
-    "openIssuesAndPrs": 49
+    "openIssuesAndPrs": 50
   },
   "contributors": {
-    "total": 29,
-    "activeLast30d": 20,
-    "newLast30d": 10,
+    "total": 30,
+    "activeLast30d": 21,
+    "newLast30d": 11,
     "composition": {
       "internal": 22,
-      "external": 7,
+      "external": 8,
       "unknown": 0
     }
   },
   "pulls": {
-    "total": 142,
+    "total": 143,
     "open": 35,
-    "merged": 62,
+    "merged": 63,
     "closedUnmerged": 45,
     "composition": {
       "internal": 136,
-      "external": 6,
+      "external": 7,
       "unknown": 0
     }
   },
   "issues": {
-    "total": 26,
-    "open": 14,
+    "total": 27,
+    "open": 15,
     "closed": 12,
     "composition": {
-      "internal": 26,
+      "internal": 27,
       "external": 0,
       "unknown": 0
     },
     "longOpen": {
       "thresholdDays": 30,
-      "count": 9,
+      "count": 10,
       "items": [
         {
           "number": 22,
           "title": "feat: add OpenAI-compatible serving and reuse vllm bench serve",
           "author": "hsliuustc0106",
           "createdAt": "2026-09-12T07:22:42Z",
-          "waitingHours": 1261.3512338888888,
+          "waitingHours": 1285.6422211111112,
           "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/22"
         },
         {
@@ -53,7 +53,7 @@
           "title": "[RFC] Module boundaries and incremental refactoring of the RLT inference runtime",
           "author": "bjf-frz",
           "createdAt": "2026-09-18T02:07:12Z",
-          "waitingHours": 1122.6095672222223,
+          "waitingHours": 1146.9005544444444,
           "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/32"
         },
         {
@@ -61,7 +61,7 @@
           "title": "[RFC] Speculative Decoding for rlt",
           "author": "bjf-frz",
           "createdAt": "2026-09-23T08:26:09Z",
-          "waitingHours": 996.2937338888889,
+          "waitingHours": 1020.5847211111111,
           "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/43"
         },
         {
@@ -69,7 +69,7 @@
           "title": "[RFC]: Adaptive early exit on Ouro-1.4B: accuracy–throughput evaluation and exact-policy async exit",
           "author": "MinhaoLi0318",
           "createdAt": "2026-09-24T06:31:41Z",
-          "waitingHours": 974.2015116666666,
+          "waitingHours": 998.4924988888889,
           "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/56"
         },
         {
@@ -77,7 +77,7 @@
           "title": "[RFC]: Wavefront Chunked Prefill Batching (WCPB) implementation",
           "author": "LyxWxj",
           "createdAt": "2026-09-28T10:14:46Z",
-          "waitingHours": 874.4834561111111,
+          "waitingHours": 898.7744433333334,
           "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/65"
         },
         {
@@ -85,7 +85,7 @@
           "title": "[RFC]: Model support and feature roadmap for Ouro, Nanbeige4.2, and Huginn",
           "author": "bjf-frz",
           "createdAt": "2026-09-29T03:05:03Z",
-          "waitingHours": 857.6454005555555,
+          "waitingHours": 881.9363877777778,
           "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/69"
         },
         {
@@ -93,7 +93,7 @@
           "title": "[RFC]: Training support and verl/vime integration for looped-transformer inference optimization",
           "author": "bjf-frz",
           "createdAt": "2026-09-29T03:35:21Z",
-          "waitingHours": 857.1404005555555,
+          "waitingHours": 881.4313877777778,
           "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/70"
         },
         {
@@ -101,7 +101,7 @@
           "title": "[RFC]: Support Adaptive Speculation for Ouro",
           "author": "Dmaner",
           "createdAt": "2026-10-03T18:46:56Z",
-          "waitingHours": 745.947345,
+          "waitingHours": 770.2383322222222,
           "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/84"
         },
         {
@@ -109,8 +109,16 @@
           "title": "[RFC] Add support for LoopCD and validate its correctness",
           "author": "0z5a",
           "createdAt": "2026-10-04T13:24:25Z",
-          "waitingHours": 727.3226227777777,
+          "waitingHours": 751.61361,
           "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/85"
+        },
+        {
+          "number": 98,
+          "title": "Ouro LoopCD preemption",
+          "author": "prettygirlisnotme",
+          "createdAt": "2026-10-05T01:18:29Z",
+          "waitingHours": 739.712498888889,
+          "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/98"
         }
       ]
     }
