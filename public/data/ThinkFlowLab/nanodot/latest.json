@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T21:01:13.996Z",
+  "generatedAt": "2026-11-05T21:17:55.717Z",
   "repo": {
     "stars": 2,
     "forks": 0,
@@ -45,7 +45,7 @@
           "title": "RFC: desktop interface — the four UX questions as a local UI",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-04T03:14:30Z",
-          "waitingHours": 761.7788877777778,
+          "waitingHours": 786.0571436111111,
           "url": "https://github.com/ThinkFlowLab/nanodot/issues/100"
         },
         {
@@ -53,7 +53,7 @@
           "title": "Desktop UI P0: loopback server + read screens + runner lifecycle (nanodot ui)",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-05T09:46:30Z",
-          "waitingHours": 731.2455544444445,
+          "waitingHours": 755.5238102777778,
           "url": "https://github.com/ThinkFlowLab/nanodot/issues/110"
         },
         {
@@ -61,7 +61,7 @@
           "title": "Desktop UI P0: the approvals surface — content, hash, evidence, one deliberate action",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-05T09:46:42Z",
-          "waitingHours": 731.2422211111111,
+          "waitingHours": 755.5204769444445,
           "url": "https://github.com/ThinkFlowLab/nanodot/issues/111"
         }
       ]

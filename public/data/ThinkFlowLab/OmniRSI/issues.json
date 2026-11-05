@@ -1,17 +1,52 @@
 {
-  "generatedAt": "2026-11-04T21:01:13.996Z",
+  "generatedAt": "2026-11-05T21:17:55.717Z",
   "items": [
     {
+      "number": 356,
+      "title": "[Dashboard] 外部 Ascend 任务原生视图全为空：补齐数据接入并区分未接入与后端不支持",
+      "author": "jiangkuaixue123",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-11-05T09:31:40Z",
+      "closedAt": "2026-11-05T14:20:33Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "kind:bug",
+        "area:workbench"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/356"
+    },
+    {
+      "number": 355,
+      "title": "trim & improve: reduce knowledge contribution cost and generated-file churn",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-05T03:51:29Z",
+      "closedAt": null,
+      "waitingHours": 17.440754722222223,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:knowledge",
+        "status:proposed"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/355"
+    },
+    {
       "number": 353,
-      "title": "acceptance: DeepSeek V4.1 Flash 910C 8K/1K TPOT ≤25 ms/token at C1/C4/C16/C32",
+      "title": "acceptance: DeepSeek V4.1 Flash 910C 8K/1K TPOT ≤25 ms/token at C1/C4/C16",
       "author": "jiangkuaixue123",
       "contributionType": "external",
       "state": "open",
       "isPullRequest": false,
       "createdAt": "2026-11-04T15:58:26Z",
       "closedAt": null,
-      "waitingHours": 5.046665555555555,
-      "comments": 11,
+      "waitingHours": 29.32492138888889,
+      "comments": 29,
       "labels": [
         "kind:acceptance",
         "area:workbench"
@@ -27,11 +62,12 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T12:20:41Z",
       "closedAt": null,
-      "waitingHours": 8.675832222222223,
+      "waitingHours": 32.95408805555556,
       "comments": 1,
       "labels": [
         "kind:task",
-        "area:knowledge"
+        "area:knowledge",
+        "status:proposed"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/352"
     },
@@ -44,8 +80,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T08:53:41Z",
       "closedAt": null,
-      "waitingHours": 12.125832222222222,
-      "comments": 7,
+      "waitingHours": 36.404088055555555,
+      "comments": 9,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -62,11 +98,12 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T08:40:56Z",
       "closedAt": null,
-      "waitingHours": 12.338332222222222,
+      "waitingHours": 36.61658805555555,
       "comments": 1,
       "labels": [
         "kind:task",
-        "area:knowledge"
+        "area:knowledge",
+        "status:proposed"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/348"
     },
@@ -75,12 +112,12 @@
       "title": "task: define an explicit verdict for InferRSI PR reviews",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-04T06:21:58Z",
-      "closedAt": null,
-      "waitingHours": 14.654443333333333,
-      "comments": 1,
+      "closedAt": "2026-11-05T12:40:10Z",
+      "waitingHours": null,
+      "comments": 2,
       "labels": [
         "kind:task",
         "area:process"
@@ -89,15 +126,15 @@
     },
     {
       "number": 345,
-      "title": "task: Dashboard 支持精度测试和性能测试的动态百分比进度条",
+      "title": "task: Dashboard 增强：每轮改动说明、动态 workflow 与耗时、测试进度",
       "author": "jiangkuaixue123",
       "contributionType": "external",
       "state": "open",
       "isPullRequest": false,
       "createdAt": "2026-11-04T06:18:40Z",
       "closedAt": null,
-      "waitingHours": 14.709443333333333,
-      "comments": 0,
+      "waitingHours": 38.987699166666665,
+      "comments": 1,
       "labels": [
         "kind:task",
         "area:workbench",
@@ -115,8 +152,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T06:18:37Z",
       "closedAt": null,
-      "waitingHours": 14.710276666666667,
-      "comments": 0,
+      "waitingHours": 38.9885325,
+      "comments": 2,
       "labels": [
         "kind:task",
         "area:workbench",
@@ -130,12 +167,12 @@
       "title": "Qualify RSI trials with explicit completeness and lifecycle evidence",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-04T01:34:58Z",
-      "closedAt": null,
-      "waitingHours": 19.437776666666668,
-      "comments": 1,
+      "closedAt": "2026-11-05T12:40:19Z",
+      "waitingHours": null,
+      "comments": 2,
       "labels": [
         "kind:task",
         "area:workbench",
@@ -153,11 +190,12 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T14:49:10Z",
       "closedAt": null,
-      "waitingHours": 30.20111,
-      "comments": 3,
+      "waitingHours": 54.47936583333333,
+      "comments": 5,
       "labels": [
         "kind:task",
-        "area:workbench"
+        "area:workbench",
+        "status:proposed"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/337"
     },
@@ -170,8 +208,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T14:49:08Z",
       "closedAt": null,
-      "waitingHours": 30.201665555555557,
-      "comments": 3,
+      "waitingHours": 54.47992138888889,
+      "comments": 5,
       "labels": [
         "kind:task",
         "area:workbench",
@@ -230,8 +268,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T13:16:42Z",
       "closedAt": null,
-      "waitingHours": 31.74222111111111,
-      "comments": 5,
+      "waitingHours": 56.02047694444445,
+      "comments": 7,
       "labels": [
         "help:wanted",
         "kind:rfc",
@@ -253,7 +291,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T09:41:03Z",
       "closedAt": null,
-      "waitingHours": 35.33638777777778,
+      "waitingHours": 59.61464361111111,
       "comments": 5,
       "labels": [
         "help:wanted",
@@ -292,11 +330,12 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T11:44:13Z",
       "closedAt": null,
-      "waitingHours": 57.28361,
+      "waitingHours": 81.56186583333333,
       "comments": 4,
       "labels": [
         "kind:acceptance",
         "area:workbench",
+        "status:proposed",
         "bot-reviewed"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/320"
@@ -310,7 +349,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T08:23:36Z",
       "closedAt": null,
-      "waitingHours": 60.62722111111111,
+      "waitingHours": 84.90547694444444,
       "comments": 1,
       "labels": [
         "kind:roadmap",
@@ -328,11 +367,12 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T08:22:31Z",
       "closedAt": null,
-      "waitingHours": 60.64527666666667,
+      "waitingHours": 84.9235325,
       "comments": 1,
       "labels": [
         "kind:task",
         "area:knowledge",
+        "status:proposed",
         "bot-reviewed"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/315"
@@ -346,13 +386,14 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T08:22:23Z",
       "closedAt": null,
-      "waitingHours": 60.64749888888889,
-      "comments": 2,
+      "waitingHours": 84.92575472222222,
+      "comments": 3,
       "labels": [
         "kind:task",
         "kind:rfc",
         "area:workbench",
         "area:usability",
+        "status:proposed",
         "bot-reviewed"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/314"
@@ -417,11 +458,12 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T03:01:55Z",
       "closedAt": null,
-      "waitingHours": 65.98861,
+      "waitingHours": 90.26686583333333,
       "comments": 4,
       "labels": [
         "kind:rfc",
-        "area:knowledge"
+        "area:knowledge",
+        "status:proposed"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/303"
     },
@@ -434,7 +476,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-01T07:43:04Z",
       "closedAt": null,
-      "waitingHours": 85.30277666666667,
+      "waitingHours": 109.5810325,
       "comments": 1,
       "labels": [
         "kind:acceptance",
@@ -451,7 +493,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-01T01:56:59Z",
       "closedAt": null,
-      "waitingHours": 91.07083222222222,
+      "waitingHours": 115.34908805555555,
       "comments": 1,
       "labels": [
         "kind:rfc",
@@ -469,7 +511,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-31T17:49:41Z",
       "closedAt": null,
-      "waitingHours": 99.19249888888889,
+      "waitingHours": 123.47075472222222,
       "comments": 2,
       "labels": [
         "kind:acceptance",
@@ -486,7 +528,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-31T09:39:40Z",
       "closedAt": null,
-      "waitingHours": 107.35944333333333,
+      "waitingHours": 131.63769916666666,
       "comments": 3,
       "labels": [
         "kind:rfc",
@@ -504,8 +546,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-31T06:40:09Z",
       "closedAt": null,
-      "waitingHours": 110.35138777777777,
-      "comments": 5,
+      "waitingHours": 134.6296436111111,
+      "comments": 6,
       "labels": [
         "kind:status",
         "area:process",
@@ -518,12 +560,12 @@
       "title": "task: agent-maintained issue system: one label scheme, auto-labeling and a pending-decision view",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-31T03:50:52Z",
-      "closedAt": null,
-      "waitingHours": 113.17277666666666,
-      "comments": 9,
+      "closedAt": "2026-11-05T15:12:30Z",
+      "waitingHours": null,
+      "comments": 13,
       "labels": [
         "kind:task",
         "area:process",
@@ -585,12 +627,12 @@
       "title": "[Tracking] Skill Indexer: retrieval efficiency and accuracy",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-29T11:24:29Z",
-      "closedAt": null,
-      "waitingHours": 153.6124988888889,
-      "comments": 6,
+      "closedAt": "2026-11-05T07:01:00Z",
+      "waitingHours": null,
+      "comments": 7,
       "labels": [
         "kind:tracking",
         "area:knowledge",
@@ -607,7 +649,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T09:26:29Z",
       "closedAt": null,
-      "waitingHours": 155.57916555555556,
+      "waitingHours": 179.8574213888889,
       "comments": 1,
       "labels": [
         "kind:rfc",
@@ -621,12 +663,12 @@
       "title": "[Tracking] SkillEval evolution: local evidence, PR review and optional LLM judge",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-29T09:18:39Z",
-      "closedAt": null,
-      "waitingHours": 155.70972111111112,
-      "comments": 11,
+      "closedAt": "2026-11-05T07:00:50Z",
+      "waitingHours": null,
+      "comments": 13,
       "labels": [
         "kind:tracking",
         "area:knowledge"
@@ -642,8 +684,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T08:22:43Z",
       "closedAt": null,
-      "waitingHours": 156.64194333333333,
-      "comments": 13,
+      "waitingHours": 180.92019916666666,
+      "comments": 14,
       "labels": [
         "help:wanted",
         "kind:tracking",
@@ -663,7 +705,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T07:50:06Z",
       "closedAt": null,
-      "waitingHours": 157.18555444444445,
+      "waitingHours": 181.46381027777778,
       "comments": 6,
       "labels": [
         "help:wanted",
@@ -682,8 +724,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T07:31:30Z",
       "closedAt": null,
-      "waitingHours": 157.49555444444445,
-      "comments": 10,
+      "waitingHours": 181.77381027777778,
+      "comments": 11,
       "labels": [
         "help:wanted",
         "kind:task",
@@ -719,7 +761,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T02:24:01Z",
       "closedAt": null,
-      "waitingHours": 162.62027666666665,
+      "waitingHours": 186.8985325,
       "comments": 11,
       "labels": [
         "kind:task",
@@ -832,7 +874,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-28T10:49:34Z",
       "closedAt": null,
-      "waitingHours": 178.19444333333334,
+      "waitingHours": 202.47269916666667,
       "comments": 2,
       "labels": [
         "kind:rfc",
@@ -1073,8 +1115,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T08:32:26Z",
       "closedAt": null,
-      "waitingHours": 204.4799988888889,
-      "comments": 13,
+      "waitingHours": 228.75825472222223,
+      "comments": 14,
       "labels": [
         "kind:investigation",
         "area:knowledge",
@@ -1122,7 +1164,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:26:33Z",
       "closedAt": null,
-      "waitingHours": 210.57805444444443,
+      "waitingHours": 234.85631027777777,
       "comments": 1,
       "labels": [
         "kind:bug",
@@ -1157,7 +1199,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-26T01:31:13Z",
       "closedAt": null,
-      "waitingHours": 235.50027666666668,
+      "waitingHours": 259.7785325,
       "comments": 4,
       "labels": [
         "kind:rfc",
@@ -1228,7 +1270,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-25T06:43:50Z",
       "closedAt": null,
-      "waitingHours": 254.2899988888889,
+      "waitingHours": 278.5682547222222,
       "comments": 7,
       "labels": [
         "kind:rfc",
@@ -1242,12 +1284,12 @@
       "title": "[RFC] GDN hybrid decider kernels: close HF→vLLM/SGLang gap (causal_conv1d + FlashInfer/Triton GDN)",
       "author": "hsliuustc0106",
       "contributionType": "internal",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-25T01:19:03Z",
-      "closedAt": null,
-      "waitingHours": 259.70305444444443,
-      "comments": 2,
+      "closedAt": "2026-11-05T13:15:06Z",
+      "waitingHours": null,
+      "comments": 3,
       "labels": [
         "kind:rfc",
         "area:knowledge"
@@ -1348,7 +1390,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T13:04:06Z",
       "closedAt": null,
-      "waitingHours": 295.9522211111111,
+      "waitingHours": 320.23047694444443,
       "comments": 48,
       "labels": [
         "kind:acceptance",
@@ -1399,11 +1441,12 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T03:42:02Z",
       "closedAt": null,
-      "waitingHours": 305.3199988888889,
+      "waitingHours": 329.59825472222224,
       "comments": 0,
       "labels": [
         "kind:acceptance",
-        "area:workbench"
+        "area:workbench",
+        "status:proposed"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/112"
     },
@@ -1496,7 +1539,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T12:34:08Z",
       "closedAt": null,
-      "waitingHours": 320.45166555555556,
+      "waitingHours": 344.7299213888889,
       "comments": 16,
       "labels": [
         "kind:tracking",
@@ -1564,7 +1607,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T17:25:47Z",
       "closedAt": null,
-      "waitingHours": 339.5908322222222,
+      "waitingHours": 363.86908805555555,
       "comments": 1,
       "labels": [
         "kind:acceptance",
@@ -1582,7 +1625,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T14:22:29Z",
       "closedAt": null,
-      "waitingHours": 342.6458322222222,
+      "waitingHours": 366.92408805555556,
       "comments": 330,
       "labels": [
         "kind:acceptance",
@@ -1599,7 +1642,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T09:21:03Z",
       "closedAt": null,
-      "waitingHours": 347.66972111111113,
+      "waitingHours": 371.94797694444446,
       "comments": 3,
       "labels": [
         "kind:roadmap",
@@ -1664,7 +1707,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:57:11Z",
       "closedAt": null,
-      "waitingHours": 352.0674988888889,
+      "waitingHours": 376.34575472222224,
       "comments": 0,
       "labels": [
         "kind:acceptance",
@@ -1682,7 +1725,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:54:34Z",
       "closedAt": null,
-      "waitingHours": 352.11111,
+      "waitingHours": 376.38936583333333,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -1767,7 +1810,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-20T08:38:36Z",
       "closedAt": null,
-      "waitingHours": 372.3772211111111,
+      "waitingHours": 396.65547694444444,
       "comments": 2,
       "labels": [
         "kind:status",
@@ -1801,11 +1844,12 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T16:47:16Z",
       "closedAt": null,
-      "waitingHours": 388.23277666666667,
+      "waitingHours": 412.5110325,
       "comments": 1,
       "labels": [
         "kind:task",
-        "area:knowledge"
+        "area:knowledge",
+        "status:proposed"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/38"
     },
@@ -1818,7 +1862,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T12:17:58Z",
       "closedAt": null,
-      "waitingHours": 392.72111,
+      "waitingHours": 416.99936583333334,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -1867,7 +1911,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T08:31:56Z",
       "closedAt": null,
-      "waitingHours": 396.4883322222222,
+      "waitingHours": 420.76658805555553,
       "comments": 2,
       "labels": [
         "kind:rfc",
@@ -1992,7 +2036,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T00:56:41Z",
       "closedAt": null,
-      "waitingHours": 596.0758322222222,
+      "waitingHours": 620.3540880555555,
       "comments": 0,
       "labels": [
         "kind:acceptance",

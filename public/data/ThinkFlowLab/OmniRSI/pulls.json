@@ -1,6 +1,102 @@
 {
-  "generatedAt": "2026-11-04T21:01:13.996Z",
+  "generatedAt": "2026-11-05T21:17:55.717Z",
   "items": [
+    {
+      "number": 361,
+      "title": "feat(dsh): add structured iteration form and SSH execution",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-05T13:31:41Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 7.770754722222223,
+      "comments": 5,
+      "labels": [
+        "area:workbench"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/361"
+    },
+    {
+      "number": 360,
+      "title": "fix: read shared provenance in trusted SkillEval planning",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-05T13:10:08Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 8.129921388888889,
+      "comments": 2,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/360"
+    },
+    {
+      "number": 359,
+      "title": "prototype: reduce knowledge projection and declaration churn",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-05T12:26:57Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 8.84964361111111,
+      "comments": 2,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/359"
+    },
+    {
+      "number": 358,
+      "title": "[BugFix][Dashboard] Render external Ascend optimization records",
+      "author": "jiangkuaixue123",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-05T11:45:47Z",
+      "mergedAt": "2026-11-05T14:20:26Z",
+      "closedAt": "2026-11-05T14:20:26Z",
+      "waitingHours": null,
+      "comments": 4,
+      "labels": [
+        "area:workbench"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/358"
+    },
+    {
+      "number": 357,
+      "title": "chore: retire the synthetic CPU KV slice tooling",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-05T09:44:42Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 11.553810277777778,
+      "comments": 3,
+      "labels": [
+        "area:workbench"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/357"
+    },
+    {
+      "number": 354,
+      "title": "[Feat][Knowledge] Distill Ascend RC model and fusion performance history",
+      "author": "jiangkuaixue123",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-05T02:57:32Z",
+      "mergedAt": "2026-11-05T06:54:16Z",
+      "closedAt": "2026-11-05T06:54:16Z",
+      "waitingHours": null,
+      "comments": 6,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/354"
+    },
     {
       "number": 351,
       "title": "docs: anchor L1 weight demand against the checkpoint in performance-ceiling-analysis",
@@ -11,7 +107,7 @@
       "createdAt": "2026-11-04T09:14:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 11.782498888888888,
+      "waitingHours": 36.06075472222222,
       "comments": 4,
       "labels": [
         "area:knowledge"
@@ -28,7 +124,7 @@
       "createdAt": "2026-11-04T08:41:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 12.331665555555556,
+      "waitingHours": 36.609921388888885,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/349"
@@ -55,13 +151,13 @@
       "title": "fix(labels): exempt outside-app labels from the drift report",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-04T05:59:24Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 15.030554444444444,
-      "comments": 8,
+      "mergedAt": "2026-11-05T12:02:03Z",
+      "closedAt": "2026-11-05T12:02:03Z",
+      "waitingHours": null,
+      "comments": 15,
       "labels": [
         "area:process"
       ],
@@ -77,7 +173,7 @@
       "createdAt": "2026-11-04T04:54:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 16.11722111111111,
+      "waitingHours": 40.39547694444445,
       "comments": 3,
       "labels": [
         "area:knowledge"
@@ -89,13 +185,13 @@
       "title": "Qualify RSI trials with explicit completeness and lifecycle checks",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-04T01:43:24Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 19.29722111111111,
-      "comments": 1,
+      "mergedAt": "2026-11-05T12:03:35Z",
+      "closedAt": "2026-11-05T12:03:35Z",
+      "waitingHours": null,
+      "comments": 9,
       "labels": [
         "area:workbench"
       ],
@@ -111,7 +207,7 @@
       "createdAt": "2026-11-03T21:26:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 23.582776666666668,
+      "waitingHours": 47.8610325,
       "comments": 5,
       "labels": [
         "kind:docs",
@@ -122,7 +218,7 @@
     },
     {
       "number": 338,
-      "title": "feat: add shared engineering task evaluation and Ascend RMSNorm",
+      "title": "feat: add shared engineering evaluation and dual-NPU MoE task",
       "author": "Bounty-hunter",
       "contributionType": "external",
       "state": "open",
@@ -130,8 +226,8 @@
       "createdAt": "2026-11-03T14:54:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 30.11361,
-      "comments": 5,
+      "waitingHours": 54.391865833333334,
+      "comments": 9,
       "labels": [
         "area:workbench"
       ],
@@ -147,8 +243,8 @@
       "createdAt": "2026-11-03T10:14:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 34.780276666666666,
-      "comments": 6,
+      "waitingHours": 59.0585325,
+      "comments": 7,
       "labels": [
         "kind:docs",
         "area:knowledge",
@@ -166,8 +262,8 @@
       "createdAt": "2026-11-03T08:53:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 36.12499888888889,
-      "comments": 5,
+      "waitingHours": 60.40325472222222,
+      "comments": 7,
       "labels": [
         "kind:docs",
         "area:usability",
@@ -185,7 +281,7 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 40.02777666666667,
+      "waitingHours": 64.3060325,
       "comments": 15,
       "labels": [
         "area:process"
@@ -197,13 +293,13 @@
       "title": "feat: add native WorkSwarm plugin and release artifact",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-03T04:32:23Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 40.48083222222222,
-      "comments": 5,
+      "mergedAt": "2026-11-05T15:27:54Z",
+      "closedAt": "2026-11-05T15:27:54Z",
+      "waitingHours": null,
+      "comments": 9,
       "labels": [
         "kind:task",
         "area:workbench",
@@ -221,7 +317,7 @@
       "createdAt": "2026-11-03T03:20:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 41.68611,
+      "waitingHours": 65.96436583333333,
       "comments": 1,
       "labels": [
         "area:workbench"
@@ -238,7 +334,7 @@
       "createdAt": "2026-11-03T03:06:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 41.91111,
+      "waitingHours": 66.18936583333333,
       "comments": 4,
       "labels": [
         "kind:docs",
@@ -257,7 +353,7 @@
       "createdAt": "2026-11-02T20:27:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 48.55416555555556,
+      "waitingHours": 72.83242138888889,
       "comments": 5,
       "labels": [
         "kind:docs",
@@ -276,7 +372,7 @@
       "createdAt": "2026-11-02T16:48:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 52.215832222222225,
+      "waitingHours": 76.49408805555555,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -293,7 +389,7 @@
       "createdAt": "2026-11-02T12:12:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 56.80416555555556,
+      "waitingHours": 81.08242138888889,
       "comments": 5,
       "labels": [
         "kind:docs",
@@ -312,7 +408,7 @@
       "createdAt": "2026-11-02T11:51:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 57.169443333333334,
+      "waitingHours": 81.44769916666667,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -324,13 +420,13 @@
       "title": "Add offline and live optimization workflow dashboard",
       "author": "david6666666",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-02T11:42:31Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 57.31194333333333,
-      "comments": 9,
+      "mergedAt": "2026-11-05T09:15:19Z",
+      "closedAt": "2026-11-05T09:15:19Z",
+      "waitingHours": null,
+      "comments": 17,
       "labels": [
         "kind:task",
         "area:workbench",
@@ -348,7 +444,7 @@
       "createdAt": "2026-11-02T09:05:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 59.92666555555556,
+      "waitingHours": 84.20492138888889,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -365,7 +461,7 @@
       "createdAt": "2026-11-02T08:24:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 60.61138777777778,
+      "waitingHours": 84.88964361111111,
       "comments": 1,
       "labels": [
         "area:workbench"
@@ -928,7 +1024,7 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 133.75388777777778,
+      "waitingHours": 158.0321436111111,
       "comments": 4,
       "labels": [
         "kind:task",
@@ -2389,13 +2485,13 @@
       "title": "knowledge: Drama-3 decode graphs on Ascend 910B1",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-10-23T18:08:07Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 290.88527666666664,
-      "comments": 1,
+      "mergedAt": "2026-11-05T15:48:38Z",
+      "closedAt": "2026-11-05T15:48:38Z",
+      "waitingHours": null,
+      "comments": 2,
       "labels": [
         "area:workbench"
       ],
@@ -2611,8 +2707,8 @@
       "createdAt": "2026-10-23T04:28:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 304.54222111111113,
-      "comments": 5,
+      "waitingHours": 328.82047694444447,
+      "comments": 6,
       "labels": [
         "area:workbench"
       ],
@@ -3253,7 +3349,7 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 351.8738877777778,
+      "waitingHours": 376.1521436111111,
       "comments": 1,
       "labels": [
         "area:workbench"
@@ -3285,8 +3381,8 @@
       "createdAt": "2026-10-21T02:45:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 354.25527666666665,
-      "comments": 4,
+      "waitingHours": 378.5335325,
+      "comments": 5,
       "labels": [
         "area:workbench"
       ],
