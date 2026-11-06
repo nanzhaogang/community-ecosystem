@@ -1,6 +1,95 @@
 {
-  "generatedAt": "2026-11-05T21:17:55.717Z",
+  "generatedAt": "2026-11-06T20:40:27.534Z",
   "items": [
+    {
+      "number": 366,
+      "title": "[Status 04] InferRSI evolution: 68108700 → 1246348f (2026-11-06)",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-06T11:12:55Z",
+      "closedAt": null,
+      "waitingHours": 9.459037222222221,
+      "comments": 1,
+      "labels": [
+        "kind:status",
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/366"
+    },
+    {
+      "number": 365,
+      "title": "task: support shared YAML task input for the InferRSI CLI and agents",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-06T07:05:27Z",
+      "closedAt": null,
+      "waitingHours": 13.583481666666666,
+      "comments": 4,
+      "labels": [
+        "kind:task",
+        "area:usability"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/365"
+    },
+    {
+      "number": 364,
+      "title": "Diffusion quality: reference PSNR ranks a blurred frame above a sharp one",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-06T03:47:06Z",
+      "closedAt": null,
+      "waitingHours": 16.889315,
+      "comments": 2,
+      "labels": [
+        "kind:bug",
+        "area:workbench"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/364"
+    },
+    {
+      "number": 363,
+      "title": "[RFC] RSI 投机验证：覆盖推理引擎优化与 Agent/Skill 自我改进",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-06T02:59:12Z",
+      "closedAt": null,
+      "waitingHours": 17.687648333333332,
+      "comments": 6,
+      "labels": [
+        "kind:rfc",
+        "area:workbench",
+        "area:knowledge",
+        "status:proposed"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/363"
+    },
+    {
+      "number": 362,
+      "title": "discussion: Knowledge / Workbench / Benchmark 三模块目标架构——现状、原语、交接时序与遗留问题",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-06T01:04:05Z",
+      "closedAt": null,
+      "waitingHours": 19.606259444444444,
+      "comments": 10,
+      "labels": [
+        "kind:rfc",
+        "area:workbench",
+        "area:knowledge",
+        "status:proposed"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/362"
+    },
     {
       "number": 356,
       "title": "[Dashboard] 外部 Ascend 任务原生视图全为空：补齐数据接入并区分未接入与后端不支持",
@@ -27,7 +116,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-05T03:51:29Z",
       "closedAt": null,
-      "waitingHours": 17.440754722222223,
+      "waitingHours": 40.81625944444445,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -45,8 +134,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T15:58:26Z",
       "closedAt": null,
-      "waitingHours": 29.32492138888889,
-      "comments": 29,
+      "waitingHours": 52.70042611111111,
+      "comments": 57,
       "labels": [
         "kind:acceptance",
         "area:workbench"
@@ -62,7 +151,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T12:20:41Z",
       "closedAt": null,
-      "waitingHours": 32.95408805555556,
+      "waitingHours": 56.329592777777776,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -80,7 +169,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T08:53:41Z",
       "closedAt": null,
-      "waitingHours": 36.404088055555555,
+      "waitingHours": 59.77959277777778,
       "comments": 9,
       "labels": [
         "kind:task",
@@ -98,7 +187,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T08:40:56Z",
       "closedAt": null,
-      "waitingHours": 36.61658805555555,
+      "waitingHours": 59.99209277777778,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -133,7 +222,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T06:18:40Z",
       "closedAt": null,
-      "waitingHours": 38.987699166666665,
+      "waitingHours": 62.36320388888889,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -152,7 +241,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T06:18:37Z",
       "closedAt": null,
-      "waitingHours": 38.9885325,
+      "waitingHours": 62.36403722222222,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -190,7 +279,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T14:49:10Z",
       "closedAt": null,
-      "waitingHours": 54.47936583333333,
+      "waitingHours": 77.85487055555555,
       "comments": 5,
       "labels": [
         "kind:task",
@@ -208,7 +297,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T14:49:08Z",
       "closedAt": null,
-      "waitingHours": 54.47992138888889,
+      "waitingHours": 77.85542611111111,
       "comments": 5,
       "labels": [
         "kind:task",
@@ -268,7 +357,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T13:16:42Z",
       "closedAt": null,
-      "waitingHours": 56.02047694444445,
+      "waitingHours": 79.39598166666667,
       "comments": 7,
       "labels": [
         "help:wanted",
@@ -291,7 +380,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T09:41:03Z",
       "closedAt": null,
-      "waitingHours": 59.61464361111111,
+      "waitingHours": 82.99014833333334,
       "comments": 5,
       "labels": [
         "help:wanted",
@@ -330,7 +419,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T11:44:13Z",
       "closedAt": null,
-      "waitingHours": 81.56186583333333,
+      "waitingHours": 104.93737055555556,
       "comments": 4,
       "labels": [
         "kind:acceptance",
@@ -349,7 +438,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T08:23:36Z",
       "closedAt": null,
-      "waitingHours": 84.90547694444444,
+      "waitingHours": 108.28098166666666,
       "comments": 1,
       "labels": [
         "kind:roadmap",
@@ -367,7 +456,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T08:22:31Z",
       "closedAt": null,
-      "waitingHours": 84.9235325,
+      "waitingHours": 108.29903722222222,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -386,7 +475,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T08:22:23Z",
       "closedAt": null,
-      "waitingHours": 84.92575472222222,
+      "waitingHours": 108.30125944444444,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -458,7 +547,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T03:01:55Z",
       "closedAt": null,
-      "waitingHours": 90.26686583333333,
+      "waitingHours": 113.64237055555556,
       "comments": 4,
       "labels": [
         "kind:rfc",
@@ -476,7 +565,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-01T07:43:04Z",
       "closedAt": null,
-      "waitingHours": 109.5810325,
+      "waitingHours": 132.9565372222222,
       "comments": 1,
       "labels": [
         "kind:acceptance",
@@ -493,7 +582,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-01T01:56:59Z",
       "closedAt": null,
-      "waitingHours": 115.34908805555555,
+      "waitingHours": 138.7245927777778,
       "comments": 1,
       "labels": [
         "kind:rfc",
@@ -511,7 +600,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-31T17:49:41Z",
       "closedAt": null,
-      "waitingHours": 123.47075472222222,
+      "waitingHours": 146.84625944444446,
       "comments": 2,
       "labels": [
         "kind:acceptance",
@@ -528,7 +617,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-31T09:39:40Z",
       "closedAt": null,
-      "waitingHours": 131.63769916666666,
+      "waitingHours": 155.01320388888888,
       "comments": 3,
       "labels": [
         "kind:rfc",
@@ -546,7 +635,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-31T06:40:09Z",
       "closedAt": null,
-      "waitingHours": 134.6296436111111,
+      "waitingHours": 158.00514833333332,
       "comments": 6,
       "labels": [
         "kind:status",
@@ -649,7 +738,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T09:26:29Z",
       "closedAt": null,
-      "waitingHours": 179.8574213888889,
+      "waitingHours": 203.2329261111111,
       "comments": 1,
       "labels": [
         "kind:rfc",
@@ -684,7 +773,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T08:22:43Z",
       "closedAt": null,
-      "waitingHours": 180.92019916666666,
+      "waitingHours": 204.29570388888888,
       "comments": 14,
       "labels": [
         "help:wanted",
@@ -705,7 +794,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T07:50:06Z",
       "closedAt": null,
-      "waitingHours": 181.46381027777778,
+      "waitingHours": 204.839315,
       "comments": 6,
       "labels": [
         "help:wanted",
@@ -724,7 +813,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T07:31:30Z",
       "closedAt": null,
-      "waitingHours": 181.77381027777778,
+      "waitingHours": 205.149315,
       "comments": 11,
       "labels": [
         "help:wanted",
@@ -761,7 +850,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T02:24:01Z",
       "closedAt": null,
-      "waitingHours": 186.8985325,
+      "waitingHours": 210.27403722222223,
       "comments": 11,
       "labels": [
         "kind:task",
@@ -874,7 +963,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-28T10:49:34Z",
       "closedAt": null,
-      "waitingHours": 202.47269916666667,
+      "waitingHours": 225.8482038888889,
       "comments": 2,
       "labels": [
         "kind:rfc",
@@ -1115,8 +1204,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T08:32:26Z",
       "closedAt": null,
-      "waitingHours": 228.75825472222223,
-      "comments": 14,
+      "waitingHours": 252.13375944444445,
+      "comments": 15,
       "labels": [
         "kind:investigation",
         "area:knowledge",
@@ -1164,7 +1253,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:26:33Z",
       "closedAt": null,
-      "waitingHours": 234.85631027777777,
+      "waitingHours": 258.231815,
       "comments": 1,
       "labels": [
         "kind:bug",
@@ -1199,7 +1288,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-26T01:31:13Z",
       "closedAt": null,
-      "waitingHours": 259.7785325,
+      "waitingHours": 283.1540372222222,
       "comments": 4,
       "labels": [
         "kind:rfc",
@@ -1270,7 +1359,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-25T06:43:50Z",
       "closedAt": null,
-      "waitingHours": 278.5682547222222,
+      "waitingHours": 301.9437594444444,
       "comments": 7,
       "labels": [
         "kind:rfc",
@@ -1390,7 +1479,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T13:04:06Z",
       "closedAt": null,
-      "waitingHours": 320.23047694444443,
+      "waitingHours": 343.60598166666665,
       "comments": 48,
       "labels": [
         "kind:acceptance",
@@ -1441,7 +1530,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T03:42:02Z",
       "closedAt": null,
-      "waitingHours": 329.59825472222224,
+      "waitingHours": 352.97375944444445,
       "comments": 0,
       "labels": [
         "kind:acceptance",
@@ -1539,7 +1628,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T12:34:08Z",
       "closedAt": null,
-      "waitingHours": 344.7299213888889,
+      "waitingHours": 368.1054261111111,
       "comments": 16,
       "labels": [
         "kind:tracking",
@@ -1607,7 +1696,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T17:25:47Z",
       "closedAt": null,
-      "waitingHours": 363.86908805555555,
+      "waitingHours": 387.24459277777777,
       "comments": 1,
       "labels": [
         "kind:acceptance",
@@ -1625,7 +1714,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T14:22:29Z",
       "closedAt": null,
-      "waitingHours": 366.92408805555556,
+      "waitingHours": 390.2995927777778,
       "comments": 330,
       "labels": [
         "kind:acceptance",
@@ -1642,7 +1731,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T09:21:03Z",
       "closedAt": null,
-      "waitingHours": 371.94797694444446,
+      "waitingHours": 395.3234816666667,
       "comments": 3,
       "labels": [
         "kind:roadmap",
@@ -1707,7 +1796,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:57:11Z",
       "closedAt": null,
-      "waitingHours": 376.34575472222224,
+      "waitingHours": 399.72125944444446,
       "comments": 0,
       "labels": [
         "kind:acceptance",
@@ -1725,7 +1814,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:54:34Z",
       "closedAt": null,
-      "waitingHours": 376.38936583333333,
+      "waitingHours": 399.76487055555555,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -1810,8 +1899,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-20T08:38:36Z",
       "closedAt": null,
-      "waitingHours": 396.65547694444444,
-      "comments": 2,
+      "waitingHours": 420.03098166666666,
+      "comments": 3,
       "labels": [
         "kind:status",
         "area:process"
@@ -1844,7 +1933,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T16:47:16Z",
       "closedAt": null,
-      "waitingHours": 412.5110325,
+      "waitingHours": 435.8865372222222,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -1862,7 +1951,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T12:17:58Z",
       "closedAt": null,
-      "waitingHours": 416.99936583333334,
+      "waitingHours": 440.37487055555556,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -1911,7 +2000,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T08:31:56Z",
       "closedAt": null,
-      "waitingHours": 420.76658805555553,
+      "waitingHours": 444.1420927777778,
       "comments": 2,
       "labels": [
         "kind:rfc",
@@ -2036,7 +2125,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T00:56:41Z",
       "closedAt": null,
-      "waitingHours": 620.3540880555555,
+      "waitingHours": 643.7295927777777,
       "comments": 0,
       "labels": [
         "kind:acceptance",

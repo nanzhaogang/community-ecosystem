@@ -1,6 +1,21 @@
 {
-  "generatedAt": "2026-11-05T21:17:55.717Z",
+  "generatedAt": "2026-11-06T20:40:27.534Z",
   "items": [
+    {
+      "number": 117,
+      "title": "[Eval] BrowseSafe++ train-pair converter for injection_guard (matched controls + multi-view)",
+      "author": "Birfy",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-06T11:51:13Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 8.82070388888889,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/ThinkFlowLab/system1-agents/pull/117"
+    },
     {
       "number": 113,
       "title": "[Feat] Find desktop click targets with Jev Box (--box-target) instead of hand-written --pixel-target",
@@ -11,7 +26,7 @@
       "createdAt": "2026-11-04T12:08:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 33.155476944444445,
+      "waitingHours": 56.53098166666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/113"
@@ -44,7 +59,7 @@
       "createdAt": "2026-11-02T11:57:14Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 81.34492138888889,
+      "waitingHours": 104.72042611111111,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/111"
@@ -74,7 +89,7 @@
       "createdAt": "2026-10-31T06:50:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 134.46075472222222,
+      "waitingHours": 157.83625944444444,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/107"
@@ -89,7 +104,7 @@
       "createdAt": "2026-10-30T12:02:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 153.2549213888889,
+      "waitingHours": 176.63042611111112,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/106"
@@ -152,7 +167,7 @@
       "createdAt": "2026-10-26T11:58:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 249.3210325,
+      "waitingHours": 272.6965372222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/99"
@@ -167,7 +182,7 @@
       "createdAt": "2026-10-25T02:12:39Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 283.08797694444445,
+      "waitingHours": 306.46348166666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/96"
@@ -227,7 +242,7 @@
       "createdAt": "2026-10-16T17:53:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 483.40047694444445,
+      "waitingHours": 506.77598166666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/86"
@@ -485,7 +500,7 @@
       "createdAt": "2026-10-09T17:19:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 651.9740880555555,
+      "waitingHours": 675.3495927777777,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/62"
@@ -515,7 +530,7 @@
       "createdAt": "2026-10-09T14:48:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 654.4851991666667,
+      "waitingHours": 677.8607038888889,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/60"
@@ -857,7 +872,7 @@
       "createdAt": "2026-09-29T17:03:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 892.2371436111112,
+      "waitingHours": 915.6126483333334,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/34"
@@ -1105,7 +1120,7 @@
       "createdAt": "2026-09-22T19:36:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1057.6957547222223,
+      "waitingHours": 1081.0712594444444,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/pull/6"

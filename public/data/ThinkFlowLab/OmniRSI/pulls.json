@@ -1,18 +1,35 @@
 {
-  "generatedAt": "2026-11-05T21:17:55.717Z",
+  "generatedAt": "2026-11-06T20:40:27.534Z",
   "items": [
+    {
+      "number": 367,
+      "title": "feat: support shared YAML task input",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-06T14:03:59Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 6.607926111111111,
+      "comments": 3,
+      "labels": [
+        "area:usability"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/367"
+    },
     {
       "number": 361,
       "title": "feat(dsh): add structured iteration form and SSH execution",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
-      "isDraft": true,
+      "state": "merged",
+      "isDraft": false,
       "createdAt": "2026-11-05T13:31:41Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 7.770754722222223,
-      "comments": 5,
+      "mergedAt": "2026-11-06T13:55:53Z",
+      "closedAt": "2026-11-06T13:55:53Z",
+      "waitingHours": null,
+      "comments": 8,
       "labels": [
         "area:workbench"
       ],
@@ -28,7 +45,7 @@
       "createdAt": "2026-11-05T13:10:08Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 8.129921388888889,
+      "waitingHours": 31.50542611111111,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/360"
@@ -43,7 +60,7 @@
       "createdAt": "2026-11-05T12:26:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 8.84964361111111,
+      "waitingHours": 32.22514833333334,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/359"
@@ -70,13 +87,13 @@
       "title": "chore: retire the synthetic CPU KV slice tooling",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-05T09:44:42Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 11.553810277777778,
-      "comments": 3,
+      "mergedAt": "2026-11-06T01:57:10Z",
+      "closedAt": "2026-11-06T01:57:10Z",
+      "waitingHours": null,
+      "comments": 5,
       "labels": [
         "area:workbench"
       ],
@@ -107,8 +124,8 @@
       "createdAt": "2026-11-04T09:14:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 36.06075472222222,
-      "comments": 4,
+      "waitingHours": 59.436259444444445,
+      "comments": 5,
       "labels": [
         "area:knowledge"
       ],
@@ -124,7 +141,7 @@
       "createdAt": "2026-11-04T08:41:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 36.609921388888885,
+      "waitingHours": 59.98542611111111,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/349"
@@ -173,8 +190,8 @@
       "createdAt": "2026-11-04T04:54:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 40.39547694444445,
-      "comments": 3,
+      "waitingHours": 63.770981666666664,
+      "comments": 4,
       "labels": [
         "area:knowledge"
       ],
@@ -207,8 +224,8 @@
       "createdAt": "2026-11-03T21:26:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 47.8610325,
-      "comments": 5,
+      "waitingHours": 71.23653722222222,
+      "comments": 6,
       "labels": [
         "kind:docs",
         "area:knowledge",
@@ -226,8 +243,8 @@
       "createdAt": "2026-11-03T14:54:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 54.391865833333334,
-      "comments": 9,
+      "waitingHours": 77.76737055555556,
+      "comments": 10,
       "labels": [
         "area:workbench"
       ],
@@ -243,8 +260,8 @@
       "createdAt": "2026-11-03T10:14:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 59.0585325,
-      "comments": 7,
+      "waitingHours": 82.43403722222222,
+      "comments": 8,
       "labels": [
         "kind:docs",
         "area:knowledge",
@@ -262,7 +279,7 @@
       "createdAt": "2026-11-03T08:53:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 60.40325472222222,
+      "waitingHours": 83.77875944444445,
       "comments": 7,
       "labels": [
         "kind:docs",
@@ -281,8 +298,8 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 64.3060325,
-      "comments": 15,
+      "waitingHours": 87.68153722222222,
+      "comments": 16,
       "labels": [
         "area:process"
       ],
@@ -317,8 +334,8 @@
       "createdAt": "2026-11-03T03:20:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 65.96436583333333,
-      "comments": 1,
+      "waitingHours": 89.33987055555555,
+      "comments": 2,
       "labels": [
         "area:workbench"
       ],
@@ -334,8 +351,8 @@
       "createdAt": "2026-11-03T03:06:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 66.18936583333333,
-      "comments": 4,
+      "waitingHours": 89.56487055555556,
+      "comments": 5,
       "labels": [
         "kind:docs",
         "area:knowledge",
@@ -353,8 +370,8 @@
       "createdAt": "2026-11-02T20:27:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 72.83242138888889,
-      "comments": 5,
+      "waitingHours": 96.2079261111111,
+      "comments": 6,
       "labels": [
         "kind:docs",
         "area:knowledge",
@@ -372,7 +389,7 @@
       "createdAt": "2026-11-02T16:48:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 76.49408805555555,
+      "waitingHours": 99.86959277777778,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -389,8 +406,8 @@
       "createdAt": "2026-11-02T12:12:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 81.08242138888889,
-      "comments": 5,
+      "waitingHours": 104.4579261111111,
+      "comments": 6,
       "labels": [
         "kind:docs",
         "area:knowledge",
@@ -408,7 +425,7 @@
       "createdAt": "2026-11-02T11:51:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 81.44769916666667,
+      "waitingHours": 104.82320388888888,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -444,7 +461,7 @@
       "createdAt": "2026-11-02T09:05:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 84.20492138888889,
+      "waitingHours": 107.58042611111111,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -461,8 +478,8 @@
       "createdAt": "2026-11-02T08:24:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 84.88964361111111,
-      "comments": 1,
+      "waitingHours": 108.26514833333333,
+      "comments": 2,
       "labels": [
         "area:workbench"
       ],
@@ -1024,8 +1041,8 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 158.0321436111111,
-      "comments": 4,
+      "waitingHours": 181.40764833333333,
+      "comments": 5,
       "labels": [
         "kind:task",
         "area:workbench",
@@ -2707,7 +2724,7 @@
       "createdAt": "2026-10-23T04:28:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 328.82047694444447,
+      "waitingHours": 352.1959816666667,
       "comments": 6,
       "labels": [
         "area:workbench"
@@ -3349,8 +3366,8 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 376.1521436111111,
-      "comments": 1,
+      "waitingHours": 399.52764833333333,
+      "comments": 3,
       "labels": [
         "area:workbench"
       ],
@@ -3381,7 +3398,7 @@
       "createdAt": "2026-10-21T02:45:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 378.5335325,
+      "waitingHours": 401.9090372222222,
       "comments": 5,
       "labels": [
         "area:workbench"
