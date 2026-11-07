@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-06T20:40:27.534Z",
+  "generatedAt": "2026-11-07T19:13:51.509Z",
   "repo": {
     "stars": 27,
     "forks": 4,
@@ -45,7 +45,7 @@
           "title": "Roadmap: batch-1 low-latency omni serving on Apple Silicon — v0.1 core + M1 TTS",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-02T01:06:15Z",
-          "waitingHours": 859.5701483333333,
+          "waitingHours": 882.1268080555556,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/2"
         },
         {
@@ -53,7 +53,7 @@
           "title": "ASR decoder-style first: /v1/audio/transcriptions on qwen3_asr — prompt-prefix cache + TPOT/ITL doctrine",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-05T00:28:41Z",
-          "waitingHours": 788.1962594444444,
+          "waitingHours": 810.7529191666666,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/68"
         },
         {
@@ -61,7 +61,7 @@
           "title": "TTS breadth: tiered model support list — Kokoro-82M, VoxCPM2, OmniVoice, MOSS-TTS-Nano, (watch) Voxtral-4B-TTS",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-05T00:54:51Z",
-          "waitingHours": 787.7601483333333,
+          "waitingHours": 810.3168080555556,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/69"
         },
         {
@@ -69,7 +69,7 @@
           "title": "TTS model: Kokoro-82M (tier 1) — non-AR fast lane, preset voices, streaming by sentence chunking",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-05T01:01:38Z",
-          "waitingHours": 787.6470927777777,
+          "waitingHours": 810.2037525,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/70"
         },
         {
@@ -77,7 +77,7 @@
           "title": "TTS model: OmniVoice (tier 1) — diffusion cloning tier, bf16 1.2 GB",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-05T01:01:52Z",
-          "waitingHours": 787.6432038888889,
+          "waitingHours": 810.1998636111111,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/72"
         },
         {
@@ -85,7 +85,7 @@
           "title": "TTS model: MOSS-TTS-Nano-100M (tier 2) — tiny single-stage AR, cloning-only",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-05T01:01:56Z",
-          "waitingHours": 787.6420927777777,
+          "waitingHours": 810.1987525,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/73"
         },
         {
@@ -93,7 +93,7 @@
           "title": "TTS model: Voxtral-4B-TTS-2603 (tier 2, watch) — AR + FlowMatching presets",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-05T01:01:59Z",
-          "waitingHours": 787.6412594444445,
+          "waitingHours": 810.1979191666667,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/74"
         },
         {
@@ -101,7 +101,7 @@
           "title": "Reproduce the quiet-machine TTS streaming benchmarks on your Apple Silicon (RTF record: 0.37–0.42)",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-05T06:45:10Z",
-          "waitingHours": 781.9215372222222,
+          "waitingHours": 804.4781969444444,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/84"
         },
         {
@@ -109,7 +109,7 @@
           "title": "Image generation engine: /v1/images/generations on MLX — mflux seam, [image] extra, time-to-image doctrine",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-06T07:31:22Z",
-          "waitingHours": 757.1515372222223,
+          "waitingHours": 779.7081969444445,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/91"
         },
         {
@@ -117,7 +117,7 @@
           "title": "Image model: FLUX.1-schnell 4-bit (tier 1) — mflux seam, 4-step fast lane, txt2img + img2img",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-06T07:31:27Z",
-          "waitingHours": 757.1501483333333,
+          "waitingHours": 779.7068080555556,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/92"
         },
         {
@@ -125,7 +125,7 @@
           "title": "Image model: SDXL-base 4-bit (tier 1) — most-used image model on the Hub, CLIP-only memory tier",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-06T07:31:33Z",
-          "waitingHours": 757.1484816666666,
+          "waitingHours": 779.7051413888889,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/93"
         },
         {
@@ -133,7 +133,7 @@
           "title": "Image model: SD3.5-medium 4-bit (tier 2) — MMDiT tier, upstream's images-API flagship",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-06T07:31:35Z",
-          "waitingHours": 757.1479261111111,
+          "waitingHours": 779.7045858333333,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/94"
         },
         {
@@ -141,7 +141,7 @@
           "title": "Image diffusion breadth: tiered model support list — engine + FLUX.1-schnell (mflux), SDXL 4-bit, SD3.5-medium, (watch) Qwen-Image",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-06T07:32:24Z",
-          "waitingHours": 757.134315,
+          "waitingHours": 779.6909747222222,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/95"
         },
         {
@@ -149,7 +149,7 @@
           "title": "Image model: Stable Diffusion 1.5 4-bit (tier 1) — 2nd-hottest image model on the Hub, ~1 GB, small+hot pick",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-06T07:56:51Z",
-          "waitingHours": 756.726815,
+          "waitingHours": 779.2834747222222,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/96"
         },
         {
@@ -157,7 +157,7 @@
           "title": "Image fast lane: low-step generation — SDXL-Turbo (943k/mo) vs SDXL-Lightning vs LCM-LoRA",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-06T07:56:54Z",
-          "waitingHours": 756.7259816666667,
+          "waitingHours": 779.2826413888889,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/97"
         },
         {
@@ -165,7 +165,7 @@
           "title": "Image model: Z-Image-Turbo 6B (tier 1, engine reference path candidate) — 592k/mo, 9-step, Apache-2.0, mflux-native",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-06T13:44:12Z",
-          "waitingHours": 750.9376483333333,
+          "waitingHours": 773.4943080555555,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/99"
         },
         {
@@ -173,7 +173,7 @@
           "title": "Image model: FLUX.2-klein-4B (tier 1) — 394k/mo, 4-step, Apache-2.0, smallest of the category, edit-native",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-06T13:44:14Z",
-          "waitingHours": 750.9370927777778,
+          "waitingHours": 773.4937525,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/100"
         },
         {
@@ -181,7 +181,7 @@
           "title": "Image model: Qwen-Image-2.1 + fast variants (tier 1) — the currently-trending image family (3M+/mo wave), upstream flagship parity",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-06T13:44:21Z",
-          "waitingHours": 750.9351483333334,
+          "waitingHours": 773.4918080555556,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/101"
         },
         {
@@ -189,7 +189,7 @@
           "title": "TTS model: CosyVoice3-0.5B (tier 2, watch) — 161k/mo, 9 languages, instruct + voice conversion; blocked on mlx-audio backend merge",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-06T23:51:05Z",
-          "waitingHours": 740.8229261111111,
+          "waitingHours": 763.3795858333333,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/105"
         },
         {
@@ -197,7 +197,7 @@
           "title": "Serve MiniCPM-o 4.5 — omni chat: text/image/audio in → text + 24 kHz speech out",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-07T14:43:10Z",
-          "waitingHours": 725.9548705555555,
+          "waitingHours": 748.5115302777778,
           "url": "https://github.com/InferMatrixLab/vllm-omni-mlx/issues/111"
         }
       ]

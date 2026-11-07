@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-06T20:40:27.534Z",
+  "generatedAt": "2026-11-07T19:13:51.509Z",
   "repo": {
     "stars": 63,
     "forks": 17,
     "watchers": 1,
-    "openIssuesAndPrs": 57
+    "openIssuesAndPrs": 56
   },
   "contributors": {
     "total": 14,
     "activeLast30d": 9,
-    "newLast30d": 3,
+    "newLast30d": 2,
     "composition": {
       "internal": 11,
       "external": 3,
@@ -18,8 +18,8 @@
   },
   "pulls": {
     "total": 158,
-    "open": 21,
-    "merged": 113,
+    "open": 20,
+    "merged": 114,
     "closedUnmerged": 24,
     "composition": {
       "internal": 151,
@@ -38,14 +38,14 @@
     },
     "longOpen": {
       "thresholdDays": 30,
-      "count": 15,
+      "count": 17,
       "items": [
         {
           "number": 9,
           "title": "[RFC] Support emerging System 1 models, with CLM as the second model after LAYA",
           "author": "Yunaik",
           "createdAt": "2026-09-27T08:42:35Z",
-          "waitingHours": 971.9645927777777,
+          "waitingHours": 994.5212525,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/9"
         },
         {
@@ -53,7 +53,7 @@
           "title": "[New Model]: Support Cua-S1 4B 0.2 — community help wanted",
           "author": "hsliuustc0106",
           "createdAt": "2026-09-27T09:02:01Z",
-          "waitingHours": 971.6407038888889,
+          "waitingHours": 994.1973636111111,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/10"
         },
         {
@@ -61,7 +61,7 @@
           "title": "[RFC]: Native Laya inference with Rust and CUDA",
           "author": "linear3735",
           "createdAt": "2026-09-28T02:27:31Z",
-          "waitingHours": 954.2157038888889,
+          "waitingHours": 976.7723636111111,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/14"
         },
         {
@@ -69,7 +69,7 @@
           "title": "[New Model]: Support Kev (0.5B–9B) — second Qwen3.5 decision model, reusing the qwen3_5 CUDA backend",
           "author": "xiaoyu-xyz",
           "createdAt": "2026-09-28T09:42:19Z",
-          "waitingHours": 946.9690372222223,
+          "waitingHours": 969.5256969444445,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/27"
         },
         {
@@ -77,7 +77,7 @@
           "title": "[New Model]: LFM2.5-350M choice execution",
           "author": "prettygirlisnotme",
           "createdAt": "2026-09-28T14:26:04Z",
-          "waitingHours": 942.2398705555555,
+          "waitingHours": 964.7965302777778,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/31"
         },
         {
@@ -85,7 +85,7 @@
           "title": "[Performance]: Reproducible Laya benchmarks against the original runtime",
           "author": "hsliuustc0106",
           "createdAt": "2026-09-29T13:42:36Z",
-          "waitingHours": 918.964315,
+          "waitingHours": 941.5209747222223,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/39"
         },
         {
@@ -93,7 +93,7 @@
           "title": "[RFC]: Native Rust/CUDA inference for Mapika/decider-2b",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-01T09:59:49Z",
-          "waitingHours": 874.6773705555555,
+          "waitingHours": 897.2340302777778,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/57"
         },
         {
@@ -101,7 +101,7 @@
           "title": "[RFC]: Write down which parts of the /v1/systemone contract all workers share",
           "author": "twu3202",
           "createdAt": "2026-10-01T21:30:58Z",
-          "waitingHours": 863.1582038888889,
+          "waitingHours": 885.7148636111111,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/61"
         },
         {
@@ -109,7 +109,7 @@
           "title": "[Performance]: Optimize native Rust/CUDA Laya inference",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-03T07:48:11Z",
-          "waitingHours": 828.8712594444445,
+          "waitingHours": 851.4279191666667,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/66"
         },
         {
@@ -117,7 +117,7 @@
           "title": "[Tracking]: Model support status",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-05T00:53:49Z",
-          "waitingHours": 787.7773705555555,
+          "waitingHours": 810.3340302777777,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/83"
         },
         {
@@ -125,7 +125,7 @@
           "title": "[New Model]: Add Valen-Preview-0923 reference serving — community help wanted",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-05T01:00:09Z",
-          "waitingHours": 787.671815,
+          "waitingHours": 810.2284747222222,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/84"
         },
         {
@@ -133,7 +133,7 @@
           "title": "[RFC]: Reuse shared observations across decision questions — community help wanted",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-05T01:00:19Z",
-          "waitingHours": 787.6690372222222,
+          "waitingHours": 810.2256969444444,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/85"
         },
         {
@@ -141,7 +141,7 @@
           "title": "[Feature]: Reproducible Open-Jev agent demo — community help wanted",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-05T01:00:21Z",
-          "waitingHours": 787.6684816666667,
+          "waitingHours": 810.2251413888889,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/87"
         },
         {
@@ -149,7 +149,7 @@
           "title": "[RFC]: Support openjev/openjev in System1-Omni — community help wanted",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-06T04:22:51Z",
-          "waitingHours": 760.2934816666667,
+          "waitingHours": 782.8501413888889,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/95"
         },
         {
@@ -157,8 +157,24 @@
           "title": "[RFC]: Native Rust/CUDA support for OmniJev-4B v1.1 and community help",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-07T14:18:03Z",
-          "waitingHours": 726.3734816666666,
+          "waitingHours": 748.9301413888888,
           "url": "https://github.com/InferMatrixLab/system1-omni/issues/114"
+        },
+        {
+          "number": 121,
+          "title": "[RFC]: Native Rust/CUDA support for MaestroYan/JEMM and community help",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-10-08T04:29:27Z",
+          "waitingHours": 734.7401413888889,
+          "url": "https://github.com/InferMatrixLab/system1-omni/issues/121"
+        },
+        {
+          "number": 125,
+          "title": "[Tracking]: System1-Omni roadmap: models, features, and agent integration",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-10-08T15:38:03Z",
+          "waitingHours": 723.5968080555556,
+          "url": "https://github.com/InferMatrixLab/system1-omni/issues/125"
         }
       ]
     }
