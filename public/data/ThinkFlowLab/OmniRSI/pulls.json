@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T19:13:51.509Z",
+  "generatedAt": "2026-11-08T19:16:00.671Z",
   "items": [
     {
       "number": 368,
@@ -26,7 +26,7 @@
       "createdAt": "2026-11-06T14:03:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 29.164585833333334,
+      "waitingHours": 53.20046416666667,
       "comments": 3,
       "labels": [
         "area:usability"
@@ -60,9 +60,11 @@
       "createdAt": "2026-11-05T13:10:08Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 54.062085833333335,
+      "waitingHours": 78.09796416666667,
       "comments": 2,
-      "labels": [],
+      "labels": [
+        "area:knowledge"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/360"
     },
     {
@@ -75,9 +77,11 @@
       "createdAt": "2026-11-05T12:26:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 54.78180805555556,
+      "waitingHours": 78.81768638888889,
       "comments": 2,
-      "labels": [],
+      "labels": [
+        "area:knowledge"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/359"
     },
     {
@@ -139,7 +143,7 @@
       "createdAt": "2026-11-04T09:14:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 81.99291916666667,
+      "waitingHours": 106.0287975,
       "comments": 7,
       "labels": [
         "area:knowledge"
@@ -156,7 +160,7 @@
       "createdAt": "2026-11-04T08:41:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 82.54208583333333,
+      "waitingHours": 106.57796416666666,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/349"
@@ -205,7 +209,7 @@
       "createdAt": "2026-11-04T04:54:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 86.32764138888889,
+      "waitingHours": 110.36351972222222,
       "comments": 4,
       "labels": [
         "area:knowledge"
@@ -239,7 +243,7 @@
       "createdAt": "2026-11-03T21:26:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 93.79319694444445,
+      "waitingHours": 117.82907527777778,
       "comments": 6,
       "labels": [
         "kind:docs",
@@ -258,7 +262,7 @@
       "createdAt": "2026-11-03T14:54:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 100.32403027777778,
+      "waitingHours": 124.35990861111111,
       "comments": 10,
       "labels": [
         "area:workbench"
@@ -275,7 +279,7 @@
       "createdAt": "2026-11-03T10:14:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 104.99069694444445,
+      "waitingHours": 129.02657527777777,
       "comments": 8,
       "labels": [
         "kind:docs",
@@ -294,7 +298,7 @@
       "createdAt": "2026-11-03T08:53:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 106.33541916666667,
+      "waitingHours": 130.3712975,
       "comments": 7,
       "labels": [
         "kind:docs",
@@ -313,7 +317,7 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 110.23819694444444,
+      "waitingHours": 134.27407527777777,
       "comments": 16,
       "labels": [
         "area:process"
@@ -349,7 +353,7 @@
       "createdAt": "2026-11-03T03:20:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 111.89653027777777,
+      "waitingHours": 135.9324086111111,
       "comments": 2,
       "labels": [
         "area:workbench"
@@ -366,7 +370,7 @@
       "createdAt": "2026-11-03T03:06:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 112.12153027777778,
+      "waitingHours": 136.15740861111112,
       "comments": 5,
       "labels": [
         "kind:docs",
@@ -385,7 +389,7 @@
       "createdAt": "2026-11-02T20:27:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 118.76458583333333,
+      "waitingHours": 142.80046416666667,
       "comments": 6,
       "labels": [
         "kind:docs",
@@ -404,7 +408,7 @@
       "createdAt": "2026-11-02T16:48:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 122.4262525,
+      "waitingHours": 146.46213083333333,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -421,7 +425,7 @@
       "createdAt": "2026-11-02T12:12:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 127.01458583333333,
+      "waitingHours": 151.05046416666667,
       "comments": 6,
       "labels": [
         "kind:docs",
@@ -440,7 +444,7 @@
       "createdAt": "2026-11-02T11:51:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 127.3798636111111,
+      "waitingHours": 151.41574194444445,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -476,7 +480,7 @@
       "createdAt": "2026-11-02T09:05:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 130.13708583333334,
+      "waitingHours": 154.17296416666667,
       "comments": 0,
       "labels": [
         "area:workbench"
@@ -493,7 +497,7 @@
       "createdAt": "2026-11-02T08:24:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 130.82180805555555,
+      "waitingHours": 154.85768638888888,
       "comments": 2,
       "labels": [
         "area:workbench"
@@ -1056,7 +1060,7 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 203.96430805555556,
+      "waitingHours": 228.0001863888889,
       "comments": 5,
       "labels": [
         "kind:task",
@@ -2739,7 +2743,7 @@
       "createdAt": "2026-10-23T04:28:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 374.7526413888889,
+      "waitingHours": 398.78851972222225,
       "comments": 6,
       "labels": [
         "area:workbench"
@@ -3381,7 +3385,7 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 422.08430805555554,
+      "waitingHours": 446.1201863888889,
       "comments": 3,
       "labels": [
         "area:workbench"
@@ -3413,7 +3417,7 @@
       "createdAt": "2026-10-21T02:45:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 424.46569694444446,
+      "waitingHours": 448.50157527777776,
       "comments": 5,
       "labels": [
         "area:workbench"
