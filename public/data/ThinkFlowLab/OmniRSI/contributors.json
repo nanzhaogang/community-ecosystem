@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-09T23:39:55.723Z",
+  "generatedAt": "2026-11-10T21:08:13.164Z",
   "items": [
     {
       "login": "Dong1017",
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-10-14T02:18:38Z",
-      "lastContributionAt": "2026-11-09T23:28:01Z",
-      "pulls": 158,
-      "issues": 49,
+      "lastContributionAt": "2026-11-10T20:44:28Z",
+      "pulls": 161,
+      "issues": 51,
       "reviews": 0
     },
     {
@@ -76,9 +76,29 @@
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-11-02T03:01:55Z",
-      "lastContributionAt": "2026-11-04T09:14:17Z",
+      "lastContributionAt": "2026-11-10T08:55:13Z",
+      "pulls": 2,
+      "issues": 3,
+      "reviews": 0
+    },
+    {
+      "login": "jiaran-king",
+      "contributionType": "external",
+      "isBot": false,
+      "firstContributionAt": "2026-11-10T03:15:23Z",
+      "lastContributionAt": "2026-11-10T07:49:37Z",
       "pulls": 1,
       "issues": 2,
+      "reviews": 0
+    },
+    {
+      "login": "Rohank143",
+      "contributionType": "external",
+      "isBot": false,
+      "firstContributionAt": "2026-11-03T04:59:34Z",
+      "lastContributionAt": "2026-11-10T06:33:51Z",
+      "pulls": 2,
+      "issues": 0,
       "reviews": 0
     },
     {
@@ -107,16 +127,6 @@
       "isBot": false,
       "firstContributionAt": "2026-11-04T08:41:20Z",
       "lastContributionAt": "2026-11-04T08:41:20Z",
-      "pulls": 1,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "Rohank143",
-      "contributionType": "external",
-      "isBot": false,
-      "firstContributionAt": "2026-11-03T04:59:34Z",
-      "lastContributionAt": "2026-11-03T04:59:34Z",
       "pulls": 1,
       "issues": 0,
       "reviews": 0

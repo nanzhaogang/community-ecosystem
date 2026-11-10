@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-09T23:39:55.723Z",
+  "generatedAt": "2026-11-10T21:08:13.164Z",
   "items": [
     {
       "number": 119,
@@ -10,7 +10,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-09T01:55:26Z",
       "closedAt": null,
-      "waitingHours": 21.741589722222223,
+      "waitingHours": 43.21310111111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/119"
@@ -24,7 +24,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-09T01:55:25Z",
       "closedAt": null,
-      "waitingHours": 21.7418675,
+      "waitingHours": 43.21337888888889,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/118"
@@ -38,7 +38,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-05T02:06:09Z",
       "closedAt": null,
-      "waitingHours": 117.5629786111111,
+      "waitingHours": 139.03449,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/116"
@@ -52,7 +52,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-05T02:06:07Z",
       "closedAt": null,
-      "waitingHours": 117.56353416666667,
+      "waitingHours": 139.03504555555557,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/115"
@@ -66,7 +66,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-05T02:06:04Z",
       "closedAt": null,
-      "waitingHours": 117.5643675,
+      "waitingHours": 139.0358788888889,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/114"
@@ -80,7 +80,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T01:55:40Z",
       "closedAt": null,
-      "waitingHours": 189.73770083333332,
+      "waitingHours": 211.20921222222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/109"
@@ -94,7 +94,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T01:55:21Z",
       "closedAt": null,
-      "waitingHours": 189.7429786111111,
+      "waitingHours": 211.21449,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/108"
@@ -108,7 +108,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T01:56:50Z",
       "closedAt": null,
-      "waitingHours": 285.7182563888889,
+      "waitingHours": 307.1897677777778,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/104"
@@ -122,7 +122,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T01:56:49Z",
       "closedAt": null,
-      "waitingHours": 285.71853416666664,
+      "waitingHours": 307.19004555555557,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/103"
@@ -136,7 +136,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T01:56:48Z",
       "closedAt": null,
-      "waitingHours": 285.71881194444444,
+      "waitingHours": 307.1903233333333,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/102"
@@ -150,7 +150,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-26T02:06:17Z",
       "closedAt": null,
-      "waitingHours": 357.5607563888889,
+      "waitingHours": 379.0322677777778,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/98"
@@ -164,7 +164,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-26T02:06:16Z",
       "closedAt": null,
-      "waitingHours": 357.5610341666667,
+      "waitingHours": 379.03254555555554,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/97"
@@ -178,7 +178,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T01:57:08Z",
       "closedAt": null,
-      "waitingHours": 453.7132563888889,
+      "waitingHours": 475.1847677777778,
       "comments": 2,
       "labels": [
         "enhancement"
@@ -258,7 +258,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-17T01:57:12Z",
       "closedAt": null,
-      "waitingHours": 573.7121452777777,
+      "waitingHours": 595.1836566666667,
       "comments": 0,
       "labels": [
         "enhancement"
@@ -306,7 +306,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-14T16:13:00Z",
       "closedAt": null,
-      "waitingHours": 631.4488119444444,
+      "waitingHours": 652.9203233333334,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/80"
@@ -320,7 +320,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-14T14:27:34Z",
       "closedAt": null,
-      "waitingHours": 633.2060341666667,
+      "waitingHours": 654.6775455555555,
       "comments": 1,
       "labels": [
         "enhancement",
@@ -399,7 +399,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-08T15:38:40Z",
       "closedAt": null,
-      "waitingHours": 776.0210341666667,
+      "waitingHours": 797.4925455555556,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/54"
@@ -413,7 +413,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-06T08:45:59Z",
       "closedAt": null,
-      "waitingHours": 830.8990897222222,
+      "waitingHours": 852.3706011111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/44"
@@ -443,7 +443,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-27T17:10:42Z",
       "closedAt": null,
-      "waitingHours": 1038.4871452777777,
+      "waitingHours": 1059.9586566666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/30"
@@ -489,7 +489,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-27T10:52:58Z",
       "closedAt": null,
-      "waitingHours": 1044.7827008333334,
+      "waitingHours": 1066.2542122222221,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/26"
@@ -503,7 +503,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-27T08:49:50Z",
       "closedAt": null,
-      "waitingHours": 1046.8349230555555,
+      "waitingHours": 1068.3064344444444,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/25"
@@ -517,7 +517,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-27T08:49:47Z",
       "closedAt": null,
-      "waitingHours": 1046.835756388889,
+      "waitingHours": 1068.3072677777777,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/24"
@@ -559,7 +559,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-25T11:35:45Z",
       "closedAt": null,
-      "waitingHours": 1092.0696452777777,
+      "waitingHours": 1113.5411566666667,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/15"
@@ -573,7 +573,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-25T11:35:40Z",
       "closedAt": null,
-      "waitingHours": 1092.0710341666668,
+      "waitingHours": 1113.5425455555555,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/14"
@@ -587,7 +587,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-25T11:35:36Z",
       "closedAt": null,
-      "waitingHours": 1092.0721452777777,
+      "waitingHours": 1113.5436566666667,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/system1-agents/issues/13"

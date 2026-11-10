@@ -1,19 +1,128 @@
 {
-  "generatedAt": "2026-11-09T23:39:55.723Z",
+  "generatedAt": "2026-11-10T21:08:13.164Z",
   "items": [
+    {
+      "number": 386,
+      "title": "skill: add model-level speed-of-light analysis (model-sol-analysis)",
+      "author": "fake0fan",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-10T08:55:13Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 12.216712222222222,
+      "comments": 2,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/386"
+    },
+    {
+      "number": 384,
+      "title": "feat: record per-round knowledge searches and adoption evidence",
+      "author": "jiaran-king",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-10T07:49:37Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 13.310045555555556,
+      "comments": 5,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/384"
+    },
+    {
+      "number": 383,
+      "title": "docs: archive stale planning notes under docs/plans",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-10T07:32:09Z",
+      "mergedAt": "2026-11-10T08:26:08Z",
+      "closedAt": "2026-11-10T08:26:08Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "kind:docs",
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/383"
+    },
+    {
+      "number": 382,
+      "title": "feat: refine vLLM Ascend ACLGraph and model adaptation knowledge (Refs #350)",
+      "author": "Rohank143",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-10T06:33:51Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 14.572823333333334,
+      "comments": 12,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/382"
+    },
+    {
+      "number": 381,
+      "title": "chore: move skill-eval fixtures out of docs/examples",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-10T03:45:31Z",
+      "mergedAt": "2026-11-10T06:39:45Z",
+      "closedAt": "2026-11-10T06:39:46Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/381"
+    },
+    {
+      "number": 378,
+      "title": "test: connect one CPU offline read, record, and assessment",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-10T02:32:08Z",
+      "mergedAt": "2026-11-10T03:22:41Z",
+      "closedAt": "2026-11-10T03:22:41Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/378"
+    },
     {
       "number": 377,
       "title": "test: add a fake prepare-to-assess handoff loop",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-09T23:28:01Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 0.19853416666666668,
-      "comments": 2,
+      "mergedAt": "2026-11-10T02:22:01Z",
+      "closedAt": "2026-11-10T02:22:01Z",
+      "waitingHours": null,
+      "comments": 7,
       "labels": [
+        "kind:task",
         "area:harness"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/377"
@@ -111,9 +220,10 @@
       "createdAt": "2026-11-06T14:03:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 81.59908972222222,
-      "comments": 9,
+      "waitingHours": 103.07060111111112,
+      "comments": 12,
       "labels": [
+        "kind:task",
         "area:usability"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/367"
@@ -157,14 +267,15 @@
       "title": "prototype: reduce knowledge projection and declaration churn",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
-      "isDraft": true,
+      "state": "merged",
+      "isDraft": false,
       "createdAt": "2026-11-05T12:26:57Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 107.21631194444444,
-      "comments": 2,
+      "mergedAt": "2026-11-10T09:36:22Z",
+      "closedAt": "2026-11-10T09:36:22Z",
+      "waitingHours": null,
+      "comments": 4,
       "labels": [
+        "kind:task",
         "area:knowledge"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/359"
@@ -228,9 +339,10 @@
       "createdAt": "2026-11-04T09:14:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 134.42742305555555,
-      "comments": 7,
+      "waitingHours": 155.89893444444445,
+      "comments": 11,
       "labels": [
+        "kind:docs",
         "area:knowledge"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/351"
@@ -245,9 +357,10 @@
       "createdAt": "2026-11-04T08:41:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 134.97658972222223,
+      "waitingHours": 156.4481011111111,
       "comments": 2,
       "labels": [
+        "kind:task",
         "area:harness"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/349"
@@ -296,9 +409,10 @@
       "createdAt": "2026-11-04T04:54:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 138.7621452777778,
+      "waitingHours": 160.23365666666666,
       "comments": 4,
       "labels": [
+        "kind:docs",
         "area:knowledge"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/342"
@@ -325,13 +439,13 @@
       "title": "Add source-bound TTS playout benchmark guidance",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-03T21:26:16Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 146.22770083333333,
-      "comments": 6,
+      "mergedAt": "2026-11-10T11:33:22Z",
+      "closedAt": "2026-11-10T11:33:22Z",
+      "waitingHours": null,
+      "comments": 7,
       "labels": [
         "kind:docs",
         "area:knowledge",
@@ -341,7 +455,7 @@
     },
     {
       "number": 338,
-      "title": "feat: add shared engineering evaluation and dual-NPU MoE task",
+      "title": "feat: add optimization tasks and current-Agent benchmark sessions",
       "author": "Bounty-hunter",
       "contributionType": "external",
       "state": "open",
@@ -349,9 +463,10 @@
       "createdAt": "2026-11-03T14:54:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 152.75853416666666,
-      "comments": 10,
+      "waitingHours": 174.23004555555556,
+      "comments": 17,
       "labels": [
+        "kind:task",
         "area:harness"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/338"
@@ -404,9 +519,10 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 162.67270083333332,
-      "comments": 16,
+      "waitingHours": 184.14421222222222,
+      "comments": 19,
       "labels": [
+        "kind:task",
         "area:process"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/328"
@@ -440,9 +556,10 @@
       "createdAt": "2026-11-03T03:20:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 164.33103416666665,
+      "waitingHours": 185.80254555555555,
       "comments": 2,
       "labels": [
+        "kind:task",
         "area:harness"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/326"
@@ -452,13 +569,13 @@
       "title": "knowledge: validate NInfer state and completion contracts",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-03T03:06:34Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 164.55603416666668,
-      "comments": 7,
+      "mergedAt": "2026-11-10T01:26:47Z",
+      "closedAt": "2026-11-10T01:26:47Z",
+      "waitingHours": null,
+      "comments": 8,
       "labels": [
         "kind:docs",
         "area:knowledge",
@@ -495,9 +612,10 @@
       "createdAt": "2026-11-02T16:48:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 174.8607563888889,
+      "waitingHours": 196.3322677777778,
       "comments": 0,
       "labels": [
+        "kind:task",
         "area:harness"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/323"
@@ -531,9 +649,10 @@
       "createdAt": "2026-11-02T11:51:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 179.8143675,
+      "waitingHours": 201.2858788888889,
       "comments": 0,
       "labels": [
+        "kind:task",
         "area:harness"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/321"
@@ -567,9 +686,10 @@
       "createdAt": "2026-11-02T09:05:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 182.57158972222223,
+      "waitingHours": 204.0431011111111,
       "comments": 0,
       "labels": [
+        "kind:task",
         "area:harness"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/318"
@@ -579,14 +699,15 @@
       "title": "evidence: track H3 Ref2VA on four logical Ascend 910C devices",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
-      "isDraft": true,
+      "state": "merged",
+      "isDraft": false,
       "createdAt": "2026-11-02T08:24:33Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 183.25631194444443,
-      "comments": 4,
+      "mergedAt": "2026-11-10T13:44:23Z",
+      "closedAt": "2026-11-10T13:44:23Z",
+      "waitingHours": null,
+      "comments": 6,
       "labels": [
+        "kind:task",
         "area:harness"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/317"
@@ -1147,8 +1268,8 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 256.39881194444445,
-      "comments": 5,
+      "waitingHours": 277.8703233333333,
+      "comments": 7,
       "labels": [
         "kind:task",
         "area:harness",
@@ -2830,9 +2951,10 @@
       "createdAt": "2026-10-23T04:28:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 427.1871452777778,
+      "waitingHours": 448.6586566666667,
       "comments": 6,
       "labels": [
+        "kind:task",
         "area:harness"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/113"
@@ -3472,9 +3594,10 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 474.51881194444445,
+      "waitingHours": 495.9903233333333,
       "comments": 3,
       "labels": [
+        "kind:task",
         "area:harness"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/55"
@@ -3504,9 +3627,10 @@
       "createdAt": "2026-10-21T02:45:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 476.9002008333333,
+      "waitingHours": 498.37171222222224,
       "comments": 5,
       "labels": [
+        "kind:task",
         "area:harness"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/51"
