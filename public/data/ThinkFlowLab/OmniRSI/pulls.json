@@ -1,6 +1,133 @@
 {
-  "generatedAt": "2026-11-10T21:08:13.164Z",
+  "generatedAt": "2026-11-11T21:40:49.915Z",
   "items": [
+    {
+      "number": 398,
+      "title": "harness: add local SQLite RunStore core (H01)",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-11T17:29:51Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 4.183031944444444,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/398"
+    },
+    {
+      "number": 397,
+      "title": "Move monitoring into Apps and publish standardized run output",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-11T15:23:24Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 6.290531944444444,
+      "comments": 2,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/397"
+    },
+    {
+      "number": 395,
+      "title": "docs: propose the first-wave Knowledge compatibility gate (P0b)",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-11T12:32:31Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 9.1385875,
+      "comments": 2,
+      "labels": [
+        "kind:docs",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/395"
+    },
+    {
+      "number": 394,
+      "title": "docs: record MiniMax-H3-Image Ascend iteration evidence",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-11T11:31:00Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 10.163865277777777,
+      "comments": 0,
+      "labels": [
+        "kind:docs",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/394"
+    },
+    {
+      "number": 393,
+      "title": "Integrate project-scoped MindIE knowledge into InferRSI",
+      "author": "jiaran-king",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-11T09:17:04Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 12.3960875,
+      "comments": 15,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/393"
+    },
+    {
+      "number": 391,
+      "title": "docs: P0a contracts, schema, fixtures, and D023 errata",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-11T04:42:12Z",
+      "mergedAt": "2026-11-11T09:11:51Z",
+      "closedAt": "2026-11-11T09:11:51Z",
+      "waitingHours": null,
+      "comments": 13,
+      "labels": [
+        "kind:docs",
+        "area:harness",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/391"
+    },
+    {
+      "number": 389,
+      "title": "Review measured request profiles and decisions across optimization rounds",
+      "author": "david6666666",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-11T02:56:49Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 18.7335875,
+      "comments": 7,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/389"
+    },
     {
       "number": 386,
       "title": "skill: add model-level speed-of-light analysis (model-sol-analysis)",
@@ -11,7 +138,7 @@
       "createdAt": "2026-11-10T08:55:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 12.216712222222222,
+      "waitingHours": 36.76025416666667,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -25,12 +152,12 @@
       "author": "jiaran-king",
       "contributionType": "external",
       "state": "open",
-      "isDraft": true,
+      "isDraft": false,
       "createdAt": "2026-11-10T07:49:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 13.310045555555556,
-      "comments": 5,
+      "waitingHours": 37.8535875,
+      "comments": 12,
       "labels": [
         "kind:task",
         "area:harness"
@@ -65,7 +192,7 @@
       "createdAt": "2026-11-10T06:33:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 14.572823333333334,
+      "waitingHours": 39.11636527777778,
       "comments": 12,
       "labels": [
         "kind:task",
@@ -215,13 +342,13 @@
       "title": "feat: support shared YAML task input",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isDraft": false,
       "createdAt": "2026-11-06T14:03:59Z",
       "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 103.07060111111112,
-      "comments": 12,
+      "closedAt": "2026-11-11T09:31:07Z",
+      "waitingHours": null,
+      "comments": 13,
       "labels": [
         "kind:task",
         "area:usability"
@@ -339,8 +466,8 @@
       "createdAt": "2026-11-04T09:14:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 155.89893444444445,
-      "comments": 11,
+      "waitingHours": 180.44247638888888,
+      "comments": 13,
       "labels": [
         "kind:docs",
         "area:knowledge"
@@ -357,7 +484,7 @@
       "createdAt": "2026-11-04T08:41:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 156.4481011111111,
+      "waitingHours": 180.99164305555556,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -409,7 +536,7 @@
       "createdAt": "2026-11-04T04:54:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 160.23365666666666,
+      "waitingHours": 184.77719861111112,
       "comments": 4,
       "labels": [
         "kind:docs",
@@ -455,7 +582,7 @@
     },
     {
       "number": 338,
-      "title": "feat: add optimization tasks and current-Agent benchmark sessions",
+      "title": "feat: share RSI optimization management across project and benchmark tasks",
       "author": "Bounty-hunter",
       "contributionType": "external",
       "state": "open",
@@ -463,8 +590,8 @@
       "createdAt": "2026-11-03T14:54:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 174.23004555555556,
-      "comments": 17,
+      "waitingHours": 198.7735875,
+      "comments": 21,
       "labels": [
         "kind:task",
         "area:harness"
@@ -519,7 +646,7 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 184.14421222222222,
+      "waitingHours": 208.68775416666668,
       "comments": 19,
       "labels": [
         "kind:task",
@@ -556,7 +683,7 @@
       "createdAt": "2026-11-03T03:20:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 185.80254555555555,
+      "waitingHours": 210.3460875,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -612,7 +739,7 @@
       "createdAt": "2026-11-02T16:48:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 196.3322677777778,
+      "waitingHours": 220.87580972222221,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -649,7 +776,7 @@
       "createdAt": "2026-11-02T11:51:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 201.2858788888889,
+      "waitingHours": 225.82942083333333,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -686,7 +813,7 @@
       "createdAt": "2026-11-02T09:05:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 204.0431011111111,
+      "waitingHours": 228.58664305555556,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -1260,7 +1387,7 @@
     },
     {
       "number": 268,
-      "title": "feat(harness): offline parallel-round coordinator",
+      "title": "feat(harness): 集群 RSI 并行轮协调器",
       "author": "NumberWan",
       "contributionType": "external",
       "state": "open",
@@ -1268,7 +1395,7 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 277.8703233333333,
+      "waitingHours": 302.4138652777778,
       "comments": 7,
       "labels": [
         "kind:task",
@@ -2951,7 +3078,7 @@
       "createdAt": "2026-10-23T04:28:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 448.6586566666667,
+      "waitingHours": 473.2021986111111,
       "comments": 6,
       "labels": [
         "kind:task",
@@ -3594,7 +3721,7 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 495.9903233333333,
+      "waitingHours": 520.5338652777777,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -3627,7 +3754,7 @@
       "createdAt": "2026-10-21T02:45:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 498.37171222222224,
+      "waitingHours": 522.9152541666666,
       "comments": 5,
       "labels": [
         "kind:task",

@@ -1,51 +1,51 @@
 {
-  "generatedAt": "2026-11-10T21:08:13.164Z",
+  "generatedAt": "2026-11-11T21:40:49.915Z",
   "repo": {
-    "stars": 192,
+    "stars": 196,
     "forks": 40,
     "watchers": 1,
-    "openIssuesAndPrs": 161
+    "openIssuesAndPrs": 140
   },
   "contributors": {
-    "total": 27,
+    "total": 28,
     "activeLast30d": 20,
     "newLast30d": 14,
     "composition": {
       "internal": 16,
-      "external": 11,
+      "external": 12,
       "unknown": 0
     }
   },
   "pulls": {
-    "total": 623,
-    "open": 51,
-    "merged": 449,
-    "closedUnmerged": 123,
+    "total": 650,
+    "open": 41,
+    "merged": 480,
+    "closedUnmerged": 129,
     "composition": {
-      "internal": 434,
-      "external": 139,
-      "unknown": 50
+      "internal": 452,
+      "external": 146,
+      "unknown": 52
     }
   },
   "issues": {
-    "total": 445,
-    "open": 110,
-    "closed": 335,
+    "total": 462,
+    "open": 99,
+    "closed": 363,
     "composition": {
-      "internal": 292,
-      "external": 149,
+      "internal": 301,
+      "external": 157,
       "unknown": 4
     },
     "longOpen": {
       "thresholdDays": 30,
-      "count": 18,
+      "count": 19,
       "items": [
         {
           "number": 22,
           "title": "[Rfc] Make ScienceDiscovery easy to understand, start, and use",
           "author": "hsliuustc0106",
           "createdAt": "2026-09-15T09:57:55Z",
-          "waitingHours": 1355.1717122222221,
+          "waitingHours": 1379.7152541666667,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/22"
         },
         {
@@ -53,7 +53,7 @@
           "title": "[Feature] Notify users of new releases, and support self-update",
           "author": "Birfy",
           "createdAt": "2026-09-16T09:28:26Z",
-          "waitingHours": 1331.663101111111,
+          "waitingHours": 1356.2066430555556,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/32"
         },
         {
@@ -61,7 +61,7 @@
           "title": "[Feature] Support general cloud compute as a third remote job mode",
           "author": "Birfy",
           "createdAt": "2026-09-16T09:28:29Z",
-          "waitingHours": 1331.6622677777777,
+          "waitingHours": 1356.2058097222223,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/33"
         },
         {
@@ -69,7 +69,7 @@
           "title": "[Feedback] Strengths and gaps vs. the 2026 open-source science-workbench landscape",
           "author": "hsliuustc0106",
           "createdAt": "2026-09-16T14:07:39Z",
-          "waitingHours": 1327.00949,
+          "waitingHours": 1351.5530319444445,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/48"
         },
         {
@@ -77,7 +77,7 @@
           "title": "[Feature] CLI subcommands for the long-running engines — evolve and Idea Tree",
           "author": "Birfy",
           "createdAt": "2026-09-16T23:57:00Z",
-          "waitingHours": 1317.18699,
+          "waitingHours": 1341.7305319444445,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/50"
         },
         {
@@ -85,7 +85,7 @@
           "title": "[Feature] RSI — evolve the agent's own harness against a task dataset, reusing the agentdescent search",
           "author": "Birfy",
           "createdAt": "2026-09-17T00:50:20Z",
-          "waitingHours": 1316.298101111111,
+          "waitingHours": 1340.8416430555556,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/54"
         },
         {
@@ -93,7 +93,7 @@
           "title": "[Feature] Let users copy key diagnostics from errors and file an issue",
           "author": "zhaozhaozz",
           "createdAt": "2026-09-17T02:08:22Z",
-          "waitingHours": 1314.9975455555555,
+          "waitingHours": 1339.5410875,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/58"
         },
         {
@@ -101,7 +101,7 @@
           "title": "[Feature] Reuse JiuwenSwarm backend - sub-task: artifact / provenance / CAS service (including papers)",
           "author": "Birfy",
           "createdAt": "2026-09-20T11:25:35Z",
-          "waitingHours": 1233.7106011111111,
+          "waitingHours": 1258.2541430555555,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/98"
         },
         {
@@ -109,7 +109,7 @@
           "title": "[Feature] Reuse JiuwenSwarm backend - sub-task: artifact review, claims and evidence",
           "author": "Birfy",
           "createdAt": "2026-09-20T11:25:38Z",
-          "waitingHours": 1233.7097677777779,
+          "waitingHours": 1258.2533097222222,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/99"
         },
         {
@@ -117,7 +117,7 @@
           "title": "[Feature] Reuse JiuwenSwarm backend - sub-task: idea-tree service",
           "author": "Birfy",
           "createdAt": "2026-09-20T11:25:46Z",
-          "waitingHours": 1233.7075455555555,
+          "waitingHours": 1258.2510875,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/101"
         },
         {
@@ -125,7 +125,7 @@
           "title": "[Feature] Reuse JiuwenSwarm backend - sub-task: evolve service",
           "author": "Birfy",
           "createdAt": "2026-09-20T11:25:51Z",
-          "waitingHours": 1233.7061566666666,
+          "waitingHours": 1258.2496986111112,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/102"
         },
         {
@@ -133,7 +133,7 @@
           "title": "[Feature] Reuse JiuwenSwarm backend - sub-task: Remote hosts and NPU (compute)",
           "author": "Birfy",
           "createdAt": "2026-09-20T11:25:59Z",
-          "waitingHours": 1233.7039344444445,
+          "waitingHours": 1258.2474763888888,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/104"
         },
         {
@@ -141,7 +141,7 @@
           "title": "[Rfc] Collect community requirements for E2E test scenarios",
           "author": "zy95-12",
           "createdAt": "2026-09-20T12:34:23Z",
-          "waitingHours": 1232.5639344444444,
+          "waitingHours": 1257.107476388889,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/107"
         },
         {
@@ -149,7 +149,7 @@
           "title": "[Rfc] Evaluate native JiuwenSwarm multi-agent orchestration versus the current platform task integration",
           "author": "zy95-12",
           "createdAt": "2026-09-22T12:03:57Z",
-          "waitingHours": 1185.0711566666666,
+          "waitingHours": 1209.6146986111112,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/141"
         },
         {
@@ -157,7 +157,7 @@
           "title": "[Feature] Give ScienceDiscovery a recognizable product icon",
           "author": "zhaozhaozz",
           "createdAt": "2026-09-23T03:05:48Z",
-          "waitingHours": 1170.0403233333334,
+          "waitingHours": 1194.5838652777777,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/151"
         },
         {
@@ -165,7 +165,7 @@
           "title": "[Feature] Reduce real research memory footprint for personal machines: worker peaks reach 11.12 GiB",
           "author": "zy95-12",
           "createdAt": "2026-09-27T07:56:55Z",
-          "waitingHours": 1069.1883788888888,
+          "waitingHours": 1093.7319208333333,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/215"
         },
         {
@@ -173,7 +173,7 @@
           "title": "[Feature] test(e2e): take the sub-agent precondition from the stack instead of the E2E_SWARM_TASK switch",
           "author": "zhaozhaozz",
           "createdAt": "2026-10-11T06:46:31Z",
-          "waitingHours": 734.3617122222222,
+          "waitingHours": 758.9052541666666,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/260"
         },
         {
@@ -181,8 +181,16 @@
           "title": "[Bug] Improve proxy-aware installation: declare SOCKS support and unify preflight and recovery",
           "author": "zy95-12",
           "createdAt": "2026-10-11T13:32:25Z",
-          "waitingHours": 727.5967122222222,
+          "waitingHours": 752.1402541666666,
           "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/264"
+        },
+        {
+          "number": 267,
+          "title": "[Bug] security(api): Unauthenticated /health returns deployment details, not just liveness",
+          "author": "zhaozhaozz",
+          "createdAt": "2026-10-12T02:07:15Z",
+          "waitingHours": 739.5596986111111,
+          "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/267"
         }
       ]
     }

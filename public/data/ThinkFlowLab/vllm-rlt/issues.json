@@ -1,6 +1,22 @@
 {
-  "generatedAt": "2026-11-10T21:08:13.164Z",
+  "generatedAt": "2026-11-11T21:40:49.915Z",
   "items": [
+    {
+      "number": 176,
+      "title": "[RFC]: Native Dory support — model architecture and three-stage serving/speculation roadmap",
+      "author": "bjf-frz",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-11T09:28:24Z",
+      "closedAt": null,
+      "waitingHours": 12.207198611111112,
+      "comments": 8,
+      "labels": [
+        "RFC"
+      ],
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/176"
+    },
     {
       "number": 172,
       "title": "[RFC]: Support for current v0.2.0 features on different GPU architectures",
@@ -10,7 +26,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-05T18:16:16Z",
       "closedAt": null,
-      "waitingHours": 122.86587888888889,
+      "waitingHours": 147.40942083333334,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/172"
@@ -24,7 +40,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T05:37:42Z",
       "closedAt": null,
-      "waitingHours": 159.50865666666667,
+      "waitingHours": 184.05219861111112,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/169"
@@ -38,7 +54,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T12:31:24Z",
       "closedAt": null,
-      "waitingHours": 344.61365666666666,
+      "waitingHours": 369.1571986111111,
       "comments": 31,
       "labels": [
         "RFC"
@@ -54,7 +70,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-15T05:55:57Z",
       "closedAt": null,
-      "waitingHours": 639.20449,
+      "waitingHours": 663.7480319444444,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/126"
@@ -68,7 +84,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-14T08:18:05Z",
       "closedAt": null,
-      "waitingHours": 660.8356011111111,
+      "waitingHours": 685.3791430555556,
       "comments": 1,
       "labels": [
         "documentation"
@@ -84,7 +100,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T09:18:13Z",
       "closedAt": null,
-      "waitingHours": 779.8333788888889,
+      "waitingHours": 804.3769208333333,
       "comments": 7,
       "labels": [
         "RFC"
@@ -100,7 +116,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:18:29Z",
       "closedAt": null,
-      "waitingHours": 883.8289344444445,
+      "waitingHours": 908.3724763888889,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/98"
@@ -114,7 +130,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-04T13:24:25Z",
       "closedAt": null,
-      "waitingHours": 895.7300455555555,
+      "waitingHours": 920.2735875,
       "comments": 9,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/85"
@@ -128,7 +144,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-03T18:46:56Z",
       "closedAt": null,
-      "waitingHours": 914.3547677777777,
+      "waitingHours": 938.8983097222222,
       "comments": 0,
       "labels": [
         "RFC"
@@ -176,7 +192,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T03:35:21Z",
       "closedAt": null,
-      "waitingHours": 1025.5478233333333,
+      "waitingHours": 1050.0913652777779,
       "comments": 21,
       "labels": [
         "RFC"
@@ -192,7 +208,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T03:05:03Z",
       "closedAt": null,
-      "waitingHours": 1026.0528233333334,
+      "waitingHours": 1050.5963652777777,
       "comments": 17,
       "labels": [
         "RFC"
@@ -218,12 +234,12 @@
       "title": "[RFC]: Wavefront Chunked Prefill Batching (WCPB) implementation",
       "author": "LyxWxj",
       "contributionType": "internal",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-09-28T10:14:46Z",
-      "closedAt": null,
-      "waitingHours": 1042.890878888889,
-      "comments": 2,
+      "closedAt": "2026-11-11T08:23:12Z",
+      "waitingHours": null,
+      "comments": 3,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/65"
     },
@@ -236,7 +252,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T06:31:41Z",
       "closedAt": null,
-      "waitingHours": 1142.6089344444445,
+      "waitingHours": 1167.152476388889,
       "comments": 6,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/56"
@@ -266,7 +282,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T08:26:09Z",
       "closedAt": null,
-      "waitingHours": 1164.7011566666667,
+      "waitingHours": 1189.244698611111,
       "comments": 22,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/43"
@@ -276,12 +292,12 @@
       "title": "[RFC] Module boundaries and incremental refactoring of the RLT inference runtime",
       "author": "bjf-frz",
       "contributionType": "internal",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-09-18T02:07:12Z",
-      "closedAt": null,
-      "waitingHours": 1291.01699,
-      "comments": 22,
+      "closedAt": "2026-11-11T07:39:52Z",
+      "waitingHours": null,
+      "comments": 23,
       "labels": [
         "RFC"
       ],
@@ -292,11 +308,11 @@
       "title": "feat: add OpenAI-compatible serving and reuse vllm bench serve",
       "author": "hsliuustc0106",
       "contributionType": "internal",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-09-12T07:22:42Z",
-      "closedAt": null,
-      "waitingHours": 1429.7586566666666,
+      "closedAt": "2026-11-11T07:42:20Z",
+      "waitingHours": null,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/22"
