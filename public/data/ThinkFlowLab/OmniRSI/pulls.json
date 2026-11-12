@@ -1,18 +1,108 @@
 {
-  "generatedAt": "2026-11-11T21:40:49.915Z",
+  "generatedAt": "2026-11-12T21:40:35.129Z",
   "items": [
+    {
+      "number": 418,
+      "title": "knowledge: move seven bodies into inferrsi.knowledge and revise the manifest (K01)",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-12T13:23:42Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 8.281424722222223,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/418"
+    },
+    {
+      "number": 415,
+      "title": "docs: InferRSI × vLLM-Omni Optimization Results",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-12T06:52:46Z",
+      "mergedAt": "2026-11-12T12:23:03Z",
+      "closedAt": "2026-11-12T12:23:03Z",
+      "waitingHours": null,
+      "comments": 9,
+      "labels": [
+        "kind:docs",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/415"
+    },
+    {
+      "number": 405,
+      "title": "feat: Dashboard 实验性能曲线、事件轨道与证据下钻",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-12T02:26:47Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 19.230035833333332,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/405"
+    },
+    {
+      "number": 401,
+      "title": "Compare stage timings and inspect knowledge searches for each profile",
+      "author": "david6666666",
+      "contributionType": "internal",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-12T01:58:19Z",
+      "mergedAt": "2026-11-12T13:35:46Z",
+      "closedAt": "2026-11-12T13:35:46Z",
+      "waitingHours": null,
+      "comments": 6,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/401"
+    },
+    {
+      "number": 400,
+      "title": "Use user acceptance criteria, with ceiling-analysis fallback",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-12T01:39:23Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 20.020035833333335,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/400"
+    },
     {
       "number": 398,
       "title": "harness: add local SQLite RunStore core (H01)",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-11T17:29:51Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 4.183031944444444,
-      "comments": 1,
+      "mergedAt": "2026-11-12T01:16:37Z",
+      "closedAt": "2026-11-12T01:16:37Z",
+      "waitingHours": null,
+      "comments": 4,
       "labels": [
         "kind:task",
         "area:harness"
@@ -21,16 +111,16 @@
     },
     {
       "number": 397,
-      "title": "Move monitoring into Apps and publish standardized run output",
+      "title": "Publish standardized Apps run output",
       "author": "zengchuang-hw",
       "contributionType": "external",
       "state": "open",
-      "isDraft": true,
+      "isDraft": false,
       "createdAt": "2026-11-11T15:23:24Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 6.290531944444444,
-      "comments": 2,
+      "waitingHours": 30.286424722222222,
+      "comments": 11,
       "labels": [
         "kind:task",
         "area:harness"
@@ -42,12 +132,12 @@
       "title": "docs: propose the first-wave Knowledge compatibility gate (P0b)",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-11T12:32:31Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 9.1385875,
+      "mergedAt": "2026-11-11T23:08:19Z",
+      "closedAt": "2026-11-11T23:08:19Z",
+      "waitingHours": null,
       "comments": 2,
       "labels": [
         "kind:docs",
@@ -65,7 +155,7 @@
       "createdAt": "2026-11-11T11:31:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 10.163865277777777,
+      "waitingHours": 34.15975805555556,
       "comments": 0,
       "labels": [
         "kind:docs",
@@ -78,12 +168,12 @@
       "title": "Integrate project-scoped MindIE knowledge into InferRSI",
       "author": "jiaran-king",
       "contributionType": "external",
-      "state": "open",
-      "isDraft": true,
+      "state": "merged",
+      "isDraft": false,
       "createdAt": "2026-11-11T09:17:04Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 12.3960875,
+      "mergedAt": "2026-11-12T02:16:01Z",
+      "closedAt": "2026-11-12T02:16:01Z",
+      "waitingHours": null,
       "comments": 15,
       "labels": [
         "kind:task",
@@ -115,13 +205,13 @@
       "title": "Review measured request profiles and decisions across optimization rounds",
       "author": "david6666666",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-11T02:56:49Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 18.7335875,
-      "comments": 7,
+      "mergedAt": "2026-11-12T01:27:43Z",
+      "closedAt": "2026-11-12T01:27:43Z",
+      "waitingHours": null,
+      "comments": 9,
       "labels": [
         "kind:task",
         "area:harness"
@@ -138,7 +228,7 @@
       "createdAt": "2026-11-10T08:55:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 36.76025416666667,
+      "waitingHours": 60.756146944444446,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -156,8 +246,8 @@
       "createdAt": "2026-11-10T07:49:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 37.8535875,
-      "comments": 12,
+      "waitingHours": 61.84948027777778,
+      "comments": 16,
       "labels": [
         "kind:task",
         "area:harness"
@@ -192,7 +282,7 @@
       "createdAt": "2026-11-10T06:33:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 39.11636527777778,
+      "waitingHours": 63.11225805555556,
       "comments": 12,
       "labels": [
         "kind:task",
@@ -466,8 +556,8 @@
       "createdAt": "2026-11-04T09:14:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 180.44247638888888,
-      "comments": 13,
+      "waitingHours": 204.43836916666666,
+      "comments": 14,
       "labels": [
         "kind:docs",
         "area:knowledge"
@@ -484,7 +574,7 @@
       "createdAt": "2026-11-04T08:41:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 180.99164305555556,
+      "waitingHours": 204.98753583333334,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -536,7 +626,7 @@
       "createdAt": "2026-11-04T04:54:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 184.77719861111112,
+      "waitingHours": 208.7730913888889,
       "comments": 4,
       "labels": [
         "kind:docs",
@@ -585,13 +675,13 @@
       "title": "feat: share RSI optimization management across project and benchmark tasks",
       "author": "Bounty-hunter",
       "contributionType": "external",
-      "state": "open",
-      "isDraft": true,
+      "state": "merged",
+      "isDraft": false,
       "createdAt": "2026-11-03T14:54:25Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 198.7735875,
-      "comments": 21,
+      "mergedAt": "2026-11-12T13:43:29Z",
+      "closedAt": "2026-11-12T13:43:29Z",
+      "waitingHours": null,
+      "comments": 37,
       "labels": [
         "kind:task",
         "area:harness"
@@ -646,7 +736,7 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 208.68775416666668,
+      "waitingHours": 232.68364694444443,
       "comments": 19,
       "labels": [
         "kind:task",
@@ -683,7 +773,7 @@
       "createdAt": "2026-11-03T03:20:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 210.3460875,
+      "waitingHours": 234.34198027777776,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -739,7 +829,7 @@
       "createdAt": "2026-11-02T16:48:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 220.87580972222221,
+      "waitingHours": 244.8717025,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -776,7 +866,7 @@
       "createdAt": "2026-11-02T11:51:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 225.82942083333333,
+      "waitingHours": 249.8253136111111,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -813,7 +903,7 @@
       "createdAt": "2026-11-02T09:05:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 228.58664305555556,
+      "waitingHours": 252.58253583333334,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -1395,8 +1485,8 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 302.4138652777778,
-      "comments": 7,
+      "waitingHours": 326.4097580555555,
+      "comments": 18,
       "labels": [
         "kind:task",
         "area:harness",
@@ -3078,7 +3168,7 @@
       "createdAt": "2026-10-23T04:28:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 473.2021986111111,
+      "waitingHours": 497.1980913888889,
       "comments": 6,
       "labels": [
         "kind:task",
@@ -3721,7 +3811,7 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 520.5338652777777,
+      "waitingHours": 544.5297580555556,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -3754,7 +3844,7 @@
       "createdAt": "2026-10-21T02:45:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 522.9152541666666,
+      "waitingHours": 546.9111469444445,
       "comments": 5,
       "labels": [
         "kind:task",

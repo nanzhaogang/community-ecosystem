@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-11T21:40:49.915Z",
+  "generatedAt": "2026-11-12T21:40:35.129Z",
   "items": [
     {
       "login": "Dong1017",
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-10-14T02:18:38Z",
-      "lastContributionAt": "2026-11-11T17:29:51Z",
-      "pulls": 164,
-      "issues": 52,
+      "lastContributionAt": "2026-11-12T13:23:42Z",
+      "pulls": 165,
+      "issues": 60,
       "reviews": 0
     },
     {
@@ -16,19 +16,9 @@
       "contributionType": "internal",
       "isBot": false,
       "firstContributionAt": "2026-10-09T09:34:48Z",
-      "lastContributionAt": "2026-11-11T02:56:49Z",
-      "pulls": 45,
-      "issues": 31,
-      "reviews": 0
-    },
-    {
-      "login": "zengchuang-hw",
-      "contributionType": "external",
-      "isBot": false,
-      "firstContributionAt": "2026-10-19T08:31:56Z",
-      "lastContributionAt": "2026-11-11T15:23:24Z",
-      "pulls": 15,
-      "issues": 10,
+      "lastContributionAt": "2026-11-12T02:21:15Z",
+      "pulls": 46,
+      "issues": 34,
       "reviews": 0
     },
     {
@@ -36,9 +26,19 @@
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-10-16T01:32:25Z",
-      "lastContributionAt": "2026-11-11T11:31:00Z",
-      "pulls": 11,
-      "issues": 12,
+      "lastContributionAt": "2026-11-12T11:34:38Z",
+      "pulls": 13,
+      "issues": 15,
+      "reviews": 0
+    },
+    {
+      "login": "zengchuang-hw",
+      "contributionType": "external",
+      "isBot": false,
+      "firstContributionAt": "2026-10-19T08:31:56Z",
+      "lastContributionAt": "2026-11-12T12:44:04Z",
+      "pulls": 16,
+      "issues": 11,
       "reviews": 0
     },
     {
