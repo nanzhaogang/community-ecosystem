@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-12T21:40:35.129Z",
+  "generatedAt": "2026-11-13T21:07:36.314Z",
   "repo": {
     "stars": 182,
     "forks": 26,
     "watchers": 0,
-    "openIssuesAndPrs": 38
+    "openIssuesAndPrs": 39
   },
   "contributors": {
     "total": 20,
-    "activeLast30d": 5,
-    "newLast30d": 2,
+    "activeLast30d": 4,
+    "newLast30d": 1,
     "composition": {
       "internal": 18,
       "external": 2,
@@ -17,12 +17,12 @@
     }
   },
   "pulls": {
-    "total": 77,
-    "open": 13,
-    "merged": 63,
+    "total": 79,
+    "open": 14,
+    "merged": 64,
     "closedUnmerged": 1,
     "composition": {
-      "internal": 72,
+      "internal": 74,
       "external": 1,
       "unknown": 4
     }
@@ -38,14 +38,14 @@
     },
     "longOpen": {
       "thresholdDays": 30,
-      "count": 9,
+      "count": 11,
       "items": [
         {
           "number": 13,
           "title": "[Eval] Add repeatable browser and desktop task suites",
           "author": "Yunaik",
           "createdAt": "2026-09-25T11:35:36Z",
-          "waitingHours": 1162.083091388889,
+          "waitingHours": 1185.5334205555555,
           "url": "https://github.com/ThinkFlowLab/system1-agents/issues/13"
         },
         {
@@ -53,7 +53,7 @@
           "title": "[Feat] Integrate and evaluate Cua-S1 4B 0.2",
           "author": "Yunaik",
           "createdAt": "2026-09-25T11:35:40Z",
-          "waitingHours": 1162.0819802777778,
+          "waitingHours": 1185.5323094444445,
           "url": "https://github.com/ThinkFlowLab/system1-agents/issues/14"
         },
         {
@@ -61,7 +61,7 @@
           "title": "[Feat] Extend desktop execution to typing, keyboard input, and scrolling",
           "author": "Yunaik",
           "createdAt": "2026-09-25T11:35:45Z",
-          "waitingHours": 1162.080591388889,
+          "waitingHours": 1185.5309205555557,
           "url": "https://github.com/ThinkFlowLab/system1-agents/issues/15"
         },
         {
@@ -69,7 +69,7 @@
           "title": "[Feat] Integrate and evaluate CLM-v0.1-8B through clm-serve",
           "author": "Yunaik",
           "createdAt": "2026-09-27T08:49:47Z",
-          "waitingHours": 1116.8467025,
+          "waitingHours": 1140.2970316666667,
           "url": "https://github.com/ThinkFlowLab/system1-agents/issues/24"
         },
         {
@@ -77,7 +77,7 @@
           "title": "[Feat] Integrate and evaluate Julia-1",
           "author": "Yunaik",
           "createdAt": "2026-09-27T08:49:50Z",
-          "waitingHours": 1116.8458691666667,
+          "waitingHours": 1140.2961983333332,
           "url": "https://github.com/ThinkFlowLab/system1-agents/issues/25"
         },
         {
@@ -85,7 +85,7 @@
           "title": "[RFC] macOS desktop input and save flows for #15",
           "author": "QianCyrus",
           "createdAt": "2026-09-27T10:52:58Z",
-          "waitingHours": 1114.7936469444444,
+          "waitingHours": 1138.2439761111111,
           "url": "https://github.com/ThinkFlowLab/system1-agents/issues/26"
         },
         {
@@ -93,7 +93,7 @@
           "title": "[RFC] Local Cua-S1 4B and screenshot targets for #14 and #15",
           "author": "QianCyrus",
           "createdAt": "2026-09-27T17:10:42Z",
-          "waitingHours": 1108.498091388889,
+          "waitingHours": 1131.9484205555555,
           "url": "https://github.com/ThinkFlowLab/system1-agents/issues/30"
         },
         {
@@ -101,7 +101,7 @@
           "title": "[Feat] Connect desktop screenshot decisions to System1-Omni Cua-S1 4B",
           "author": "QianCyrus",
           "createdAt": "2026-10-06T08:45:59Z",
-          "waitingHours": 900.9100358333334,
+          "waitingHours": 924.360365,
           "url": "https://github.com/ThinkFlowLab/system1-agents/issues/44"
         },
         {
@@ -109,8 +109,24 @@
           "title": "[Tracking] Roadmap: applications, benchmarks, model backends and System1-Omni",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-08T15:38:40Z",
-          "waitingHours": 846.0319802777777,
+          "waitingHours": 869.4823094444445,
           "url": "https://github.com/ThinkFlowLab/system1-agents/issues/54"
+        },
+        {
+          "number": 79,
+          "title": "[Help wanted] Live multi-question game dashboard (Mario-style) on the decision slot",
+          "author": "hsliuustc0106",
+          "createdAt": "2026-10-14T14:27:34Z",
+          "waitingHours": 726.6673094444444,
+          "url": "https://github.com/ThinkFlowLab/system1-agents/issues/79"
+        },
+        {
+          "number": 80,
+          "title": "Security Notice: Potential Decision Hijacking Risk in Jev-Based Applications",
+          "author": "yuchenWang188",
+          "createdAt": "2026-10-14T16:13:00Z",
+          "waitingHours": 724.9100872222223,
+          "url": "https://github.com/ThinkFlowLab/system1-agents/issues/80"
         }
       ]
     }

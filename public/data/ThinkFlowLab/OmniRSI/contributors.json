@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-12T21:40:35.129Z",
+  "generatedAt": "2026-11-13T21:07:36.314Z",
   "items": [
     {
       "login": "Dong1017",
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-10-14T02:18:38Z",
-      "lastContributionAt": "2026-11-12T13:23:42Z",
-      "pulls": 165,
-      "issues": 60,
+      "lastContributionAt": "2026-11-13T11:17:51Z",
+      "pulls": 169,
+      "issues": 61,
       "reviews": 0
     },
     {
@@ -22,23 +22,23 @@
       "reviews": 0
     },
     {
-      "login": "amy-why-3459",
-      "contributionType": "external",
-      "isBot": false,
-      "firstContributionAt": "2026-10-16T01:32:25Z",
-      "lastContributionAt": "2026-11-12T11:34:38Z",
-      "pulls": 13,
-      "issues": 15,
-      "reviews": 0
-    },
-    {
       "login": "zengchuang-hw",
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-10-19T08:31:56Z",
-      "lastContributionAt": "2026-11-12T12:44:04Z",
-      "pulls": 16,
-      "issues": 11,
+      "lastContributionAt": "2026-11-13T16:42:51Z",
+      "pulls": 21,
+      "issues": 15,
+      "reviews": 0
+    },
+    {
+      "login": "amy-why-3459",
+      "contributionType": "external",
+      "isBot": false,
+      "firstContributionAt": "2026-10-16T01:32:25Z",
+      "lastContributionAt": "2026-11-13T15:58:36Z",
+      "pulls": 15,
+      "issues": 16,
       "reviews": 0
     },
     {
@@ -52,6 +52,16 @@
       "reviews": 0
     },
     {
+      "login": "Bounty-hunter",
+      "contributionType": "external",
+      "isBot": false,
+      "firstContributionAt": "2026-11-03T14:43:26Z",
+      "lastContributionAt": "2026-11-13T01:29:10Z",
+      "pulls": 1,
+      "issues": 6,
+      "reviews": 0
+    },
+    {
       "login": "hsliuustc0106",
       "contributionType": "internal",
       "isBot": false,
@@ -59,16 +69,6 @@
       "lastContributionAt": "2026-10-25T01:19:03Z",
       "pulls": 5,
       "issues": 2,
-      "reviews": 0
-    },
-    {
-      "login": "Bounty-hunter",
-      "contributionType": "external",
-      "isBot": false,
-      "firstContributionAt": "2026-11-03T14:43:26Z",
-      "lastContributionAt": "2026-11-09T10:11:59Z",
-      "pulls": 1,
-      "issues": 5,
       "reviews": 0
     },
     {

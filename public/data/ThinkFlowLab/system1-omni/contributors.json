@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-12T21:40:35.129Z",
+  "generatedAt": "2026-11-13T21:07:36.314Z",
   "items": [
     {
       "login": "hsliuustc0106",
@@ -99,6 +99,16 @@
       "lastContributionAt": "2026-09-28T14:27:22Z",
       "pulls": 1,
       "issues": 1,
+      "reviews": 0
+    },
+    {
+      "login": "Liuziyu77",
+      "contributionType": "external",
+      "isBot": false,
+      "firstContributionAt": "2026-11-13T00:27:48Z",
+      "lastContributionAt": "2026-11-13T00:27:48Z",
+      "pulls": 1,
+      "issues": 0,
       "reviews": 0
     },
     {
