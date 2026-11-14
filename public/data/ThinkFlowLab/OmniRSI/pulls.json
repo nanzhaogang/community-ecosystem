@@ -1,19 +1,125 @@
 {
-  "generatedAt": "2026-11-13T21:07:36.314Z",
+  "generatedAt": "2026-11-14T19:38:33.432Z",
   "items": [
+    {
+      "number": 445,
+      "title": "docs: add important release news to README",
+      "author": "hsliuustc0106",
+      "contributionType": "internal",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-14T13:56:57Z",
+      "mergedAt": "2026-11-14T14:12:53Z",
+      "closedAt": "2026-11-14T14:12:54Z",
+      "waitingHours": null,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/445"
+    },
+    {
+      "number": 444,
+      "title": "Assemble fixed-record offline assessment in Apps",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-14T13:44:47Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 5.896231111111111,
+      "comments": 4,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/444"
+    },
+    {
+      "number": 442,
+      "title": "release: prepare one-off formal v0.2.0 with reviewed highlights",
+      "author": "hsliuustc0106",
+      "contributionType": "internal",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-14T11:44:21Z",
+      "mergedAt": "2026-11-14T13:46:11Z",
+      "closedAt": "2026-11-14T13:46:11Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/442"
+    },
+    {
+      "number": 441,
+      "title": "Require two approvals independently of change requests",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-14T06:00:19Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 13.637342222222221,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/441"
+    },
+    {
+      "number": 439,
+      "title": "policy: admit Claude Fable 5.2 at xhigh and max",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-14T04:17:32Z",
+      "mergedAt": "2026-11-14T04:38:02Z",
+      "closedAt": "2026-11-14T04:38:02Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/439"
+    },
+    {
+      "number": 437,
+      "title": "skill-eval: split the four-file family by function owner and drop the residual (S01)",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-14T02:02:47Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 17.596231111111113,
+      "comments": 9,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/437"
+    },
     {
       "number": 436,
       "title": "Compose standalone knowledge reads in Apps",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-13T16:42:51Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 4.412587222222222,
-      "comments": 1,
-      "labels": [],
+      "mergedAt": "2026-11-14T13:53:15Z",
+      "closedAt": "2026-11-14T13:53:15Z",
+      "waitingHours": null,
+      "comments": 15,
+      "labels": [
+        "kind:task",
+        "area:harness",
+        "area:knowledge"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/436"
     },
     {
@@ -26,9 +132,12 @@
       "createdAt": "2026-11-13T15:58:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 5.150087222222222,
-      "comments": 0,
-      "labels": [],
+      "waitingHours": 27.665953333333334,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/435"
     },
     {
@@ -36,14 +145,17 @@
       "title": "Project fixed Harness records into assessment evidence",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-13T15:33:20Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 5.571198333333333,
-      "comments": 2,
-      "labels": [],
+      "mergedAt": "2026-11-14T13:41:27Z",
+      "closedAt": "2026-11-14T13:41:27Z",
+      "waitingHours": null,
+      "comments": 7,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/433"
     },
     {
@@ -51,14 +163,17 @@
       "title": "Route fixed artifacts through Apps storage mounts",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-13T15:25:38Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 5.699531666666667,
-      "comments": 4,
-      "labels": [],
+      "mergedAt": "2026-11-14T13:41:06Z",
+      "closedAt": "2026-11-14T13:41:06Z",
+      "waitingHours": null,
+      "comments": 9,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/432"
     },
     {
@@ -66,14 +181,18 @@
       "title": "feat: 补齐知识检索解释与逐轮候选证据导航",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-13T11:43:47Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 9.397031666666667,
-      "comments": 2,
-      "labels": [],
+      "mergedAt": "2026-11-14T06:07:08Z",
+      "closedAt": "2026-11-14T06:07:08Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:knowledge",
+        "area:usability"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/428"
     },
     {
@@ -96,13 +215,13 @@
       "title": "knowledge: move packaged resources into knowledge/data and harness/data (K02)",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-13T11:17:51Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 9.82925388888889,
-      "comments": 3,
+      "mergedAt": "2026-11-14T12:45:25Z",
+      "closedAt": "2026-11-14T12:45:25Z",
+      "waitingHours": null,
+      "comments": 11,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -119,8 +238,8 @@
       "createdAt": "2026-11-13T09:58:15Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 11.155920555555555,
-      "comments": 6,
+      "waitingHours": 33.67178666666667,
+      "comments": 10,
       "labels": [
         "kind:task",
         "area:harness"
@@ -155,8 +274,8 @@
       "createdAt": "2026-11-13T08:18:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 12.814809444444444,
-      "comments": 5,
+      "waitingHours": 35.33067555555556,
+      "comments": 11,
       "labels": [
         "kind:task",
         "area:harness"
@@ -335,7 +454,7 @@
       "createdAt": "2026-11-11T11:31:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 57.61008722222222,
+      "waitingHours": 80.12595333333333,
       "comments": 0,
       "labels": [
         "kind:docs",
@@ -408,7 +527,7 @@
       "createdAt": "2026-11-10T08:55:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 84.20647611111112,
+      "waitingHours": 106.72234222222222,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -462,7 +581,7 @@
       "createdAt": "2026-11-10T06:33:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 86.56258722222222,
+      "waitingHours": 109.07845333333333,
       "comments": 12,
       "labels": [
         "kind:task",
@@ -736,7 +855,7 @@
       "createdAt": "2026-11-04T09:14:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 227.88869833333334,
+      "waitingHours": 250.40456444444445,
       "comments": 14,
       "labels": [
         "kind:docs",
@@ -754,7 +873,7 @@
       "createdAt": "2026-11-04T08:41:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 228.437865,
+      "waitingHours": 250.95373111111113,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -806,7 +925,7 @@
       "createdAt": "2026-11-04T04:54:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 232.22342055555555,
+      "waitingHours": 254.73928666666666,
       "comments": 4,
       "labels": [
         "kind:docs",
@@ -916,7 +1035,7 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 256.1339761111111,
+      "waitingHours": 278.6498422222222,
       "comments": 19,
       "labels": [
         "kind:task",
@@ -953,7 +1072,7 @@
       "createdAt": "2026-11-03T03:20:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 257.79230944444447,
+      "waitingHours": 280.3081755555556,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -1009,7 +1128,7 @@
       "createdAt": "2026-11-02T16:48:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 268.32203166666665,
+      "waitingHours": 290.83789777777775,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -1046,7 +1165,7 @@
       "createdAt": "2026-11-02T11:51:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 273.27564277777776,
+      "waitingHours": 295.79150888888887,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -1083,7 +1202,7 @@
       "createdAt": "2026-11-02T09:05:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 276.032865,
+      "waitingHours": 298.5487311111111,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -1665,7 +1784,7 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 349.8600872222222,
+      "waitingHours": 372.3759533333333,
       "comments": 25,
       "labels": [
         "kind:task",
@@ -3348,7 +3467,7 @@
       "createdAt": "2026-10-23T04:28:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 520.6484205555555,
+      "waitingHours": 543.1642866666666,
       "comments": 6,
       "labels": [
         "kind:task",
@@ -3991,7 +4110,7 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 567.9800872222222,
+      "waitingHours": 590.4959533333333,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -4024,7 +4143,7 @@
       "createdAt": "2026-10-21T02:45:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 570.3614761111111,
+      "waitingHours": 592.8773422222222,
       "comments": 5,
       "labels": [
         "kind:task",
