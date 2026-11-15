@@ -1,6 +1,165 @@
 {
-  "generatedAt": "2026-11-14T19:38:33.432Z",
+  "generatedAt": "2026-11-15T20:04:11.426Z",
   "items": [
+    {
+      "number": 459,
+      "title": "refactor(R1): retire eleven roots and bind Apps inspection",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-15T19:07:05Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 0.951785,
+      "comments": 3,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/459"
+    },
+    {
+      "number": 458,
+      "title": "refactor(C2): relocate resource facade and split evidence layout",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-15T15:35:29Z",
+      "mergedAt": "2026-11-15T16:13:29Z",
+      "closedAt": "2026-11-15T16:13:29Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/458"
+    },
+    {
+      "number": 457,
+      "title": "harness: explain gains with profile evidence and paired statistics",
+      "author": "BeatSeat",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-15T13:47:06Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 6.284840555555555,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/457"
+    },
+    {
+      "number": 456,
+      "title": "knowledge: add GPU measurement-validity and profiler attribution guidance",
+      "author": "BeatSeat",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-15T13:37:50Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 6.439285,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/456"
+    },
+    {
+      "number": 453,
+      "title": "Package shared technical contracts and retire root modules",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-15T13:00:49Z",
+      "mergedAt": "2026-11-15T13:30:01Z",
+      "closedAt": "2026-11-15T13:30:01Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/453"
+    },
+    {
+      "number": 450,
+      "title": "Connect report Dashboard and trace to fixed attempt records",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-15T08:47:36Z",
+      "mergedAt": "2026-11-15T11:36:56Z",
+      "closedAt": "2026-11-15T11:36:56Z",
+      "waitingHours": null,
+      "comments": 0,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/450"
+    },
+    {
+      "number": 449,
+      "title": "Read fixed attempt status and archived claims in Apps",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-15T04:20:53Z",
+      "mergedAt": "2026-11-15T08:40:18Z",
+      "closedAt": "2026-11-15T08:40:18Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/449"
+    },
+    {
+      "number": 448,
+      "title": "Expose explicit Apps access to candidate stores",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-15T04:08:32Z",
+      "mergedAt": "2026-11-15T09:25:33Z",
+      "closedAt": "2026-11-15T09:25:33Z",
+      "waitingHours": null,
+      "comments": 0,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/448"
+    },
+    {
+      "number": 446,
+      "title": "Adapt Knowledge context to a Harness delivery draft",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-15T04:01:22Z",
+      "mergedAt": "2026-11-15T09:25:17Z",
+      "closedAt": "2026-11-15T09:25:17Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/446"
+    },
     {
       "number": 445,
       "title": "docs: add important release news to README",
@@ -21,13 +180,13 @@
       "title": "Assemble fixed-record offline assessment in Apps",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-14T13:44:47Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 5.896231111111111,
-      "comments": 4,
+      "mergedAt": "2026-11-15T03:54:25Z",
+      "closedAt": "2026-11-15T03:54:25Z",
+      "waitingHours": null,
+      "comments": 5,
       "labels": [
         "kind:task",
         "area:harness"
@@ -59,7 +218,7 @@
       "createdAt": "2026-11-14T06:00:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 13.637342222222221,
+      "waitingHours": 38.06456277777778,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -90,13 +249,13 @@
       "title": "skill-eval: split the four-file family by function owner and drop the residual (S01)",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-14T02:02:47Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 17.596231111111113,
-      "comments": 9,
+      "mergedAt": "2026-11-14T20:51:50Z",
+      "closedAt": "2026-11-14T20:51:50Z",
+      "waitingHours": null,
+      "comments": 10,
       "labels": [
         "kind:task",
         "area:harness"
@@ -132,7 +291,7 @@
       "createdAt": "2026-11-13T15:58:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 27.665953333333334,
+      "waitingHours": 52.09317388888889,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -187,7 +346,7 @@
       "mergedAt": "2026-11-14T06:07:08Z",
       "closedAt": "2026-11-14T06:07:08Z",
       "waitingHours": null,
-      "comments": 3,
+      "comments": 4,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -233,13 +392,13 @@
       "title": "observability: dissolve the transition package into H records, Apps views, and K (OBS)",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-13T09:58:15Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 33.67178666666667,
-      "comments": 10,
+      "mergedAt": "2026-11-15T04:12:54Z",
+      "closedAt": "2026-11-15T04:12:54Z",
+      "waitingHours": null,
+      "comments": 18,
       "labels": [
         "kind:task",
         "area:harness"
@@ -269,13 +428,13 @@
       "title": "benchmark: split the legacy run/evaluate chain into B, H, and Apps legacy (B01)",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-13T08:18:43Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 35.33067555555556,
-      "comments": 11,
+      "mergedAt": "2026-11-15T02:55:51Z",
+      "closedAt": "2026-11-15T02:55:51Z",
+      "waitingHours": null,
+      "comments": 14,
       "labels": [
         "kind:task",
         "area:harness"
@@ -454,7 +613,7 @@
       "createdAt": "2026-11-11T11:31:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 80.12595333333333,
+      "waitingHours": 104.55317388888889,
       "comments": 0,
       "labels": [
         "kind:docs",
@@ -527,7 +686,7 @@
       "createdAt": "2026-11-10T08:55:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 106.72234222222222,
+      "waitingHours": 131.1495627777778,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -581,7 +740,7 @@
       "createdAt": "2026-11-10T06:33:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 109.07845333333333,
+      "waitingHours": 133.50567388888888,
       "comments": 12,
       "labels": [
         "kind:task",
@@ -855,7 +1014,7 @@
       "createdAt": "2026-11-04T09:14:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 250.40456444444445,
+      "waitingHours": 274.831785,
       "comments": 14,
       "labels": [
         "kind:docs",
@@ -873,7 +1032,7 @@
       "createdAt": "2026-11-04T08:41:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 250.95373111111113,
+      "waitingHours": 275.38095166666665,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -925,7 +1084,7 @@
       "createdAt": "2026-11-04T04:54:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 254.73928666666666,
+      "waitingHours": 279.1665072222222,
       "comments": 4,
       "labels": [
         "kind:docs",
@@ -1035,7 +1194,7 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 278.6498422222222,
+      "waitingHours": 303.07706277777777,
       "comments": 19,
       "labels": [
         "kind:task",
@@ -1072,7 +1231,7 @@
       "createdAt": "2026-11-03T03:20:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 280.3081755555556,
+      "waitingHours": 304.73539611111113,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -1128,7 +1287,7 @@
       "createdAt": "2026-11-02T16:48:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 290.83789777777775,
+      "waitingHours": 315.2651183333333,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -1165,7 +1324,7 @@
       "createdAt": "2026-11-02T11:51:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 295.79150888888887,
+      "waitingHours": 320.2187294444444,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -1202,7 +1361,7 @@
       "createdAt": "2026-11-02T09:05:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 298.5487311111111,
+      "waitingHours": 322.9759516666667,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -1784,7 +1943,7 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 372.3759533333333,
+      "waitingHours": 396.80317388888886,
       "comments": 25,
       "labels": [
         "kind:task",
@@ -3467,7 +3626,7 @@
       "createdAt": "2026-10-23T04:28:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 543.1642866666666,
+      "waitingHours": 567.5915072222223,
       "comments": 6,
       "labels": [
         "kind:task",
@@ -4110,7 +4269,7 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 590.4959533333333,
+      "waitingHours": 614.9231738888889,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -4143,7 +4302,7 @@
       "createdAt": "2026-10-21T02:45:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 592.8773422222222,
+      "waitingHours": 617.3045627777777,
       "comments": 5,
       "labels": [
         "kind:task",
