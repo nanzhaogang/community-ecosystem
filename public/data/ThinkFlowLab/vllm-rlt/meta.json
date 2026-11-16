@@ -5,7 +5,7 @@
     "name": "vllm-rlt",
     "fullName": "ThinkFlowLab/vllm-rlt",
     "htmlUrl": "https://github.com/InferMatrixLab/vllm-rlt",
-    "description": "A vLLM-inspired inference engine for looped transformers, with loop-level scheduling and execution across composable stages",
+    "description": "A vLLM-inspired inference engine for looped transformers, with loop-level scheduling and execution across composable stages.",
     "homepage": "",
     "defaultBranch": "main",
     "createdAt": "2026-09-10T09:29:49Z",
@@ -13,12 +13,13 @@
     "topics": [
       "inference-engine",
       "llm",
+      "looped-transformer",
       "transformer"
     ]
   },
   "monitoringStart": "2026-10-13T08:50:35.691Z",
-  "lastSuccessAt": "2026-11-15T20:04:11.426Z",
-  "lastAttemptAt": "2026-11-15T20:04:11.426Z",
+  "lastSuccessAt": "2026-11-16T23:37:01.175Z",
+  "lastAttemptAt": "2026-11-16T23:37:01.175Z",
   "status": "ok",
   "errors": [],
   "tokenConfigured": true,

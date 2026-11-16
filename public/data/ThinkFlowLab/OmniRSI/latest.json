@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-11-15T20:04:11.426Z",
+  "generatedAt": "2026-11-16T23:37:01.175Z",
   "repo": {
-    "stars": 75,
+    "stars": 77,
     "forks": 19,
     "watchers": 0,
-    "openIssuesAndPrs": 94
+    "openIssuesAndPrs": 86
   },
   "contributors": {
-    "total": 22,
-    "activeLast30d": 21,
-    "newLast30d": 17,
+    "total": 23,
+    "activeLast30d": 22,
+    "newLast30d": 18,
     "composition": {
       "internal": 3,
-      "external": 19,
+      "external": 20,
       "unknown": 0
     }
   },
   "pulls": {
-    "total": 292,
-    "open": 20,
-    "merged": 258,
-    "closedUnmerged": 14,
+    "total": 303,
+    "open": 12,
+    "merged": 273,
+    "closedUnmerged": 18,
     "composition": {
       "internal": 53,
-      "external": 239,
+      "external": 250,
       "unknown": 0
     }
   },
   "issues": {
-    "total": 167,
+    "total": 172,
     "open": 74,
-    "closed": 93,
+    "closed": 98,
     "composition": {
       "internal": 37,
-      "external": 129,
+      "external": 134,
       "unknown": 1
     },
     "longOpen": {
@@ -45,7 +45,7 @@
           "title": "Acceptance: Qwen-Image-2.1-Turbo / B300×4 campaign",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-11T00:56:41Z",
-          "waitingHours": 859.1251183333334,
+          "waitingHours": 886.6722708333333,
           "url": "https://github.com/InferMatrixLab/InferRSI/issues/3"
         }
       ]
