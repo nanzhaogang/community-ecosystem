@@ -1,19 +1,165 @@
 {
-  "generatedAt": "2026-11-16T23:37:01.175Z",
+  "generatedAt": "2026-11-17T22:45:26.628Z",
   "items": [
+    {
+      "number": 486,
+      "title": "refactor(harness,benchmark): close the five runtime resource loaders (R3)",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-17T19:26:51Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 3.3098966666666665,
+      "comments": 4,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/486"
+    },
+    {
+      "number": 485,
+      "title": "Add consistent RSI result delivery bundles",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-17T12:42:57Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 10.041563333333333,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/485"
+    },
+    {
+      "number": 484,
+      "title": "feat(knowledge): add external read-only channels to find",
+      "author": "jiangkuaixue123",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-17T12:21:50Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 10.393507777777778,
+      "comments": 2,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/484"
+    },
+    {
+      "number": 483,
+      "title": "Bring performance trends and evidence into the dashboard overview",
+      "author": "david6666666",
+      "contributionType": "internal",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-17T10:43:30Z",
+      "mergedAt": "2026-11-17T12:00:30Z",
+      "closedAt": "2026-11-17T12:00:30Z",
+      "waitingHours": null,
+      "comments": 6,
+      "labels": [
+        "kind:task",
+        "area:usability"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/483"
+    },
+    {
+      "number": 482,
+      "title": "feat: permit unverified feature status and add boundary retrieval tests (Refs #350)",
+      "author": "Rohank143",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-17T09:31:07Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 13.238785555555555,
+      "comments": 5,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/482"
+    },
+    {
+      "number": 480,
+      "title": "Add service-reuse evaluation for project campaigns",
+      "author": "lirx-pd",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-17T08:11:37Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 14.563785555555556,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/480"
+    },
+    {
+      "number": 478,
+      "title": "refactor(harness): close the artifact-primitive edges from six Harness modules into Infra (R2)",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-17T06:33:42Z",
+      "mergedAt": "2026-11-17T14:21:05Z",
+      "closedAt": "2026-11-17T14:21:05Z",
+      "waitingHours": null,
+      "comments": 9,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/478"
+    },
+    {
+      "number": 477,
+      "title": "refactor(apps): move the MindIE adapter into Apps and retire four root files (M1)",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-17T03:33:05Z",
+      "mergedAt": "2026-11-17T06:30:46Z",
+      "closedAt": "2026-11-17T06:30:46Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/477"
+    },
     {
       "number": 475,
       "title": "Seal Harness generation inputs before execution registration",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
-      "isDraft": true,
+      "state": "merged",
+      "isDraft": false,
       "createdAt": "2026-11-16T14:56:14Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 8.679770833333333,
-      "comments": 1,
-      "labels": [],
+      "mergedAt": "2026-11-17T13:19:49Z",
+      "closedAt": "2026-11-17T13:19:50Z",
+      "waitingHours": null,
+      "comments": 8,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/475"
     },
     {
@@ -107,17 +253,16 @@
       "title": "feat(knowledge): unify search across cases, skills, and records",
       "author": "jiaran-king",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-16T08:40:10Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 14.947548611111111,
-      "comments": 6,
+      "mergedAt": "2026-11-17T07:18:25Z",
+      "closedAt": "2026-11-17T07:18:25Z",
+      "waitingHours": null,
+      "comments": 8,
       "labels": [
         "kind:task",
-        "area:knowledge",
-        "high priority"
+        "area:knowledge"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/466"
     },
@@ -236,8 +381,8 @@
       "createdAt": "2026-11-15T13:47:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 33.83199305555556,
-      "comments": 6,
+      "waitingHours": 56.97239666666667,
+      "comments": 7,
       "labels": [
         "kind:task",
         "area:harness"
@@ -250,12 +395,12 @@
       "author": "BeatSeat",
       "contributionType": "external",
       "state": "open",
-      "isDraft": true,
+      "isDraft": false,
       "createdAt": "2026-11-15T13:37:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 33.9864375,
-      "comments": 6,
+      "waitingHours": 57.12684111111111,
+      "comments": 12,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -409,7 +554,7 @@
       "createdAt": "2026-11-14T06:00:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 65.61171527777778,
+      "waitingHours": 88.75211888888889,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -877,7 +1022,7 @@
       "createdAt": "2026-11-10T08:55:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 158.69671527777777,
+      "waitingHours": 181.83711888888888,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -1223,7 +1368,7 @@
       "createdAt": "2026-11-04T08:41:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 302.9281041666667,
+      "waitingHours": 326.06850777777777,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -1385,8 +1530,8 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 330.62421527777775,
-      "comments": 20,
+      "waitingHours": 353.7646188888889,
+      "comments": 24,
       "labels": [
         "kind:task",
         "area:process"
@@ -1422,7 +1567,7 @@
       "createdAt": "2026-11-03T03:20:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 332.2825486111111,
+      "waitingHours": 355.42295222222225,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -1473,13 +1618,13 @@
       "title": "mlx: select an Apple chip by its whole name and test the Darwin branches",
       "author": "cacheline999",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-02T16:48:17Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 342.81227083333334,
-      "comments": 0,
+      "mergedAt": "2026-11-17T02:13:42Z",
+      "closedAt": "2026-11-17T02:13:42Z",
+      "waitingHours": null,
+      "comments": 2,
       "labels": [
         "kind:task",
         "area:harness"
@@ -2126,7 +2271,7 @@
     },
     {
       "number": 268,
-      "title": "feat(harness): 集群 RSI 并行轮协调器",
+      "title": "feat(harness): 離線集群 RSI 并行轮协调器",
       "author": "NumberWan",
       "contributionType": "external",
       "state": "open",
@@ -2134,8 +2279,8 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 424.3503263888889,
-      "comments": 25,
+      "waitingHours": 447.49073,
+      "comments": 35,
       "labels": [
         "kind:task",
         "area:harness",
@@ -4460,7 +4605,7 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 642.4703263888889,
+      "waitingHours": 665.61073,
       "comments": 3,
       "labels": [
         "kind:task",

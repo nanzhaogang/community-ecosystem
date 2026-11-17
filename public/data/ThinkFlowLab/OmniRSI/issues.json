@@ -1,6 +1,60 @@
 {
-  "generatedAt": "2026-11-16T23:37:01.175Z",
+  "generatedAt": "2026-11-17T22:45:26.628Z",
   "items": [
+    {
+      "number": 481,
+      "title": "task: 基于 Modern Web Guidance 优化 Dashboard 体验",
+      "author": "david6666666",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-17T09:25:51Z",
+      "closedAt": null,
+      "waitingHours": 13.326563333333333,
+      "comments": 4,
+      "labels": [
+        "kind:task",
+        "area:usability",
+        "status:proposed",
+        "bot-reviewed"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/481"
+    },
+    {
+      "number": 479,
+      "title": "task: 设计首个 Codex 用户使用 InferRSI 的端到端用例",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-17T07:01:03Z",
+      "closedAt": null,
+      "waitingHours": 15.739896666666667,
+      "comments": 5,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/479"
+    },
+    {
+      "number": 476,
+      "title": "rfc: 全量接入 cannbot-knowledge：MCP 常驻查询通道设计",
+      "author": "jiangkuaixue123",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-17T02:50:53Z",
+      "closedAt": null,
+      "waitingHours": 19.90934111111111,
+      "comments": 7,
+      "labels": [
+        "kind:rfc",
+        "area:knowledge",
+        "status:proposed"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/476"
+    },
     {
       "number": 471,
       "title": "acceptance: Qwen-Image 单次知识检索流程 A/B 记录",
@@ -24,8 +78,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-16T10:43:52Z",
       "closedAt": null,
-      "waitingHours": 12.885881944444444,
-      "comments": 6,
+      "waitingHours": 36.02628555555555,
+      "comments": 8,
       "labels": [
         "kind:rfc",
         "area:harness",
@@ -43,8 +97,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-16T09:06:09Z",
       "closedAt": null,
-      "waitingHours": 14.514493055555555,
-      "comments": 12,
+      "waitingHours": 37.654896666666666,
+      "comments": 17,
       "labels": [
         "kind:task",
         "area:harness",
@@ -62,7 +116,7 @@
       "createdAt": "2026-11-16T08:01:35Z",
       "closedAt": "2026-11-16T13:36:36Z",
       "waitingHours": null,
-      "comments": 7,
+      "comments": 8,
       "labels": [
         "kind:rfc",
         "area:process",
@@ -79,8 +133,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-16T03:54:06Z",
       "closedAt": null,
-      "waitingHours": 19.71532638888889,
-      "comments": 4,
+      "waitingHours": 42.85573,
+      "comments": 7,
       "labels": [
         "kind:rfc"
       ],
@@ -95,8 +149,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-15T13:32:29Z",
       "closedAt": null,
-      "waitingHours": 34.075604166666665,
-      "comments": 2,
+      "waitingHours": 57.216007777777776,
+      "comments": 3,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -112,8 +166,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-15T13:29:46Z",
       "closedAt": null,
-      "waitingHours": 34.12088194444444,
-      "comments": 7,
+      "waitingHours": 57.26128555555555,
+      "comments": 8,
       "labels": [
         "kind:rfc",
         "area:harness"
@@ -125,12 +179,12 @@
       "title": "task: consolidate existing MindIE adapters under Apps",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-15T09:23:46Z",
-      "closedAt": null,
-      "waitingHours": 38.22088194444444,
-      "comments": 3,
+      "closedAt": "2026-11-17T07:11:18Z",
+      "waitingHours": null,
+      "comments": 5,
       "labels": [
         "kind:task",
         "status:accepted",
@@ -161,8 +215,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-15T04:06:14Z",
       "closedAt": null,
-      "waitingHours": 43.513104166666665,
-      "comments": 7,
+      "waitingHours": 66.65350777777778,
+      "comments": 9,
       "labels": [
         "kind:task",
         "area:harness",
@@ -179,8 +233,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-14T13:27:48Z",
       "closedAt": null,
-      "waitingHours": 58.15365972222222,
-      "comments": 1,
+      "waitingHours": 81.29406333333333,
+      "comments": 3,
       "labels": [
         "kind:task",
         "area:process"
@@ -196,7 +250,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-14T05:47:41Z",
       "closedAt": null,
-      "waitingHours": 65.82227083333333,
+      "waitingHours": 88.96267444444445,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -214,7 +268,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-14T03:02:08Z",
       "closedAt": null,
-      "waitingHours": 68.5814375,
+      "waitingHours": 91.72184111111112,
       "comments": 2,
       "labels": [
         "kind:acceptance",
@@ -232,7 +286,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-13T15:50:29Z",
       "closedAt": null,
-      "waitingHours": 79.77560416666667,
+      "waitingHours": 102.91600777777778,
       "comments": 7,
       "labels": [
         "kind:task",
@@ -245,12 +299,12 @@
       "title": "MiniCPM-o 4.5: optimize vLLM-Omni Seed-TTS RTF at C1/C16/C32 against the single-GPU engine",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-13T14:59:13Z",
-      "closedAt": null,
-      "waitingHours": 80.6300486111111,
-      "comments": 2,
+      "closedAt": "2026-11-17T08:30:56Z",
+      "waitingHours": null,
+      "comments": 3,
       "labels": [
         "kind:acceptance",
         "area:harness",
@@ -267,7 +321,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-13T12:17:16Z",
       "closedAt": null,
-      "waitingHours": 83.32921527777778,
+      "waitingHours": 106.46961888888889,
       "comments": 7,
       "labels": [
         "kind:task",
@@ -284,7 +338,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-13T12:17:15Z",
       "closedAt": null,
-      "waitingHours": 83.32949305555556,
+      "waitingHours": 106.46989666666667,
       "comments": 4,
       "labels": [
         "kind:task",
@@ -302,8 +356,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-13T09:25:31Z",
       "closedAt": null,
-      "waitingHours": 86.19171527777777,
-      "comments": 5,
+      "waitingHours": 109.33211888888889,
+      "comments": 8,
       "labels": [
         "kind:status",
         "area:process"
@@ -319,7 +373,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-13T01:29:26Z",
       "closedAt": null,
-      "waitingHours": 94.1264375,
+      "waitingHours": 117.2668411111111,
       "comments": 2,
       "labels": [
         "kind:investigation",
@@ -337,8 +391,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-13T01:29:10Z",
       "closedAt": null,
-      "waitingHours": 94.13088194444444,
-      "comments": 2,
+      "waitingHours": 117.27128555555555,
+      "comments": 3,
       "labels": [
         "kind:task",
         "area:harness"
@@ -354,7 +408,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-12T12:44:04Z",
       "closedAt": null,
-      "waitingHours": 106.8825486111111,
+      "waitingHours": 130.02295222222222,
       "comments": 1,
       "labels": [
         "kind:acceptance",
@@ -371,8 +425,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-12T11:34:38Z",
       "closedAt": null,
-      "waitingHours": 108.03977083333334,
-      "comments": 1,
+      "waitingHours": 131.18017444444445,
+      "comments": 3,
       "labels": [
         "kind:roadmap",
         "area:harness",
@@ -391,7 +445,7 @@
       "createdAt": "2026-11-12T03:40:57Z",
       "closedAt": "2026-11-15T04:42:22Z",
       "waitingHours": null,
-      "comments": 3,
+      "comments": 4,
       "labels": [
         "kind:task",
         "area:harness"
@@ -407,8 +461,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-12T03:40:57Z",
       "closedAt": null,
-      "waitingHours": 115.93449305555555,
-      "comments": 3,
+      "waitingHours": 139.07489666666666,
+      "comments": 7,
       "labels": [
         "kind:task",
         "area:process"
@@ -425,7 +479,7 @@
       "createdAt": "2026-11-12T03:40:57Z",
       "closedAt": "2026-11-15T04:42:22Z",
       "waitingHours": null,
-      "comments": 3,
+      "comments": 4,
       "labels": [
         "kind:task",
         "area:usability"
@@ -510,7 +564,7 @@
       "createdAt": "2026-11-12T03:40:46Z",
       "closedAt": "2026-11-15T05:27:21Z",
       "waitingHours": null,
-      "comments": 2,
+      "comments": 3,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -522,12 +576,12 @@
       "title": "task: Dashboard 补齐知识检索路径、排序解释与候选证据关联",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-12T03:33:00Z",
-      "closedAt": null,
-      "waitingHours": 116.06699305555556,
-      "comments": 5,
+      "closedAt": "2026-11-17T08:31:05Z",
+      "waitingHours": null,
+      "comments": 8,
       "labels": [
         "kind:task",
         "area:harness",
@@ -546,8 +600,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-12T02:21:15Z",
       "closedAt": null,
-      "waitingHours": 117.26282638888888,
-      "comments": 1,
+      "waitingHours": 140.40323,
+      "comments": 2,
       "labels": [
         "kind:task",
         "area:harness",
@@ -564,8 +618,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-12T02:21:07Z",
       "closedAt": null,
-      "waitingHours": 117.26504861111111,
-      "comments": 1,
+      "waitingHours": 140.4054522222222,
+      "comments": 2,
       "labels": [
         "kind:rfc",
         "area:harness",
@@ -582,8 +636,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-12T02:20:59Z",
       "closedAt": null,
-      "waitingHours": 117.26727083333333,
-      "comments": 1,
+      "waitingHours": 140.40767444444444,
+      "comments": 2,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -596,12 +650,12 @@
       "title": "task: prefer user acceptance criteria and derive missing targets with ceiling analysis",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-12T01:27:21Z",
-      "closedAt": null,
-      "waitingHours": 118.16115972222222,
-      "comments": 3,
+      "closedAt": "2026-11-17T08:25:31Z",
+      "waitingHours": null,
+      "comments": 6,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -630,12 +684,12 @@
       "title": "rfc: 将 Dashboard 成功与失败记录改为性能曲线与事件标记",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-11T07:07:20Z",
-      "closedAt": null,
-      "waitingHours": 136.49477083333332,
-      "comments": 6,
+      "closedAt": "2026-11-17T08:31:13Z",
+      "waitingHours": null,
+      "comments": 9,
       "labels": [
         "kind:rfc",
         "area:harness",
@@ -648,12 +702,12 @@
       "title": "[Campaign] MiniMax-H3-Image on 4x910B1: match author workloads at >=50% H200 performance",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-11T03:37:20Z",
-      "closedAt": null,
-      "waitingHours": 139.99477083333332,
-      "comments": 1,
+      "closedAt": "2026-11-17T08:30:49Z",
+      "waitingHours": null,
+      "comments": 3,
       "labels": [
         "kind:acceptance",
         "area:harness"
@@ -669,8 +723,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-10T20:44:28Z",
       "closedAt": null,
-      "waitingHours": 146.87588194444444,
-      "comments": 1,
+      "waitingHours": 170.01628555555556,
+      "comments": 2,
       "labels": [
         "kind:rfc",
         "area:knowledge"
@@ -686,8 +740,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-10T09:28:04Z",
       "closedAt": null,
-      "waitingHours": 158.14921527777778,
-      "comments": 18,
+      "waitingHours": 181.2896188888889,
+      "comments": 19,
       "labels": [
         "kind:rfc",
         "area:harness",
@@ -705,8 +759,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-10T08:39:57Z",
       "closedAt": null,
-      "waitingHours": 158.95115972222223,
-      "comments": 1,
+      "waitingHours": 182.09156333333334,
+      "comments": 3,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -723,8 +777,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-10T03:15:50Z",
       "closedAt": null,
-      "waitingHours": 164.35310416666667,
-      "comments": 6,
+      "waitingHours": 187.49350777777778,
+      "comments": 7,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -741,8 +795,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-10T03:15:23Z",
       "closedAt": null,
-      "waitingHours": 164.36060416666666,
-      "comments": 4,
+      "waitingHours": 187.50100777777777,
+      "comments": 9,
       "labels": [
         "kind:tracking",
         "area:knowledge",
@@ -759,8 +813,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-09T14:30:03Z",
       "closedAt": null,
-      "waitingHours": 177.11615972222222,
-      "comments": 3,
+      "waitingHours": 200.25656333333333,
+      "comments": 6,
       "labels": [
         "kind:task",
         "area:harness",
@@ -796,7 +850,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-09T12:06:27Z",
       "closedAt": null,
-      "waitingHours": 179.50949305555557,
+      "waitingHours": 202.64989666666668,
       "comments": 32,
       "labels": [
         "kind:task",
@@ -814,8 +868,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-09T10:11:59Z",
       "closedAt": null,
-      "waitingHours": 181.41727083333333,
-      "comments": 8,
+      "waitingHours": 204.55767444444444,
+      "comments": 9,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -849,7 +903,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-06T07:05:27Z",
       "closedAt": null,
-      "waitingHours": 256.52615972222225,
+      "waitingHours": 279.66656333333333,
       "comments": 5,
       "labels": [
         "kind:task",
@@ -866,8 +920,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-06T03:47:06Z",
       "closedAt": null,
-      "waitingHours": 259.83199305555553,
-      "comments": 2,
+      "waitingHours": 282.97239666666667,
+      "comments": 3,
       "labels": [
         "kind:bug",
         "area:harness"
@@ -883,8 +937,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-06T02:59:12Z",
       "closedAt": null,
-      "waitingHours": 260.6303263888889,
-      "comments": 6,
+      "waitingHours": 283.77073,
+      "comments": 7,
       "labels": [
         "kind:rfc",
         "area:harness",
@@ -902,8 +956,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-06T01:04:05Z",
       "closedAt": null,
-      "waitingHours": 262.5489375,
-      "comments": 19,
+      "waitingHours": 285.6893411111111,
+      "comments": 20,
       "labels": [
         "kind:rfc",
         "area:harness",
@@ -956,8 +1010,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T15:58:26Z",
       "closedAt": null,
-      "waitingHours": 295.64310416666666,
-      "comments": 113,
+      "waitingHours": 318.7835077777778,
+      "comments": 114,
       "labels": [
         "kind:acceptance",
         "area:harness"
@@ -973,8 +1027,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T12:20:41Z",
       "closedAt": null,
-      "waitingHours": 299.2722708333333,
-      "comments": 1,
+      "waitingHours": 322.41267444444446,
+      "comments": 3,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -991,8 +1045,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T08:53:41Z",
       "closedAt": null,
-      "waitingHours": 302.7222708333333,
-      "comments": 11,
+      "waitingHours": 325.86267444444445,
+      "comments": 15,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -1009,8 +1063,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T08:40:56Z",
       "closedAt": null,
-      "waitingHours": 302.93477083333335,
-      "comments": 4,
+      "waitingHours": 326.07517444444443,
+      "comments": 5,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -1044,8 +1098,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T06:18:40Z",
       "closedAt": null,
-      "waitingHours": 305.3058819444444,
-      "comments": 1,
+      "waitingHours": 328.44628555555556,
+      "comments": 3,
       "labels": [
         "kind:task",
         "area:harness",
@@ -1063,8 +1117,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T06:18:37Z",
       "closedAt": null,
-      "waitingHours": 305.30671527777776,
-      "comments": 3,
+      "waitingHours": 328.4471188888889,
+      "comments": 6,
       "labels": [
         "kind:task",
         "area:harness",
@@ -1101,8 +1155,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T14:49:10Z",
       "closedAt": null,
-      "waitingHours": 320.7975486111111,
-      "comments": 5,
+      "waitingHours": 343.93795222222224,
+      "comments": 9,
       "labels": [
         "kind:task",
         "area:harness",
@@ -1119,8 +1173,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T14:49:08Z",
       "closedAt": null,
-      "waitingHours": 320.7981041666667,
-      "comments": 6,
+      "waitingHours": 343.9385077777778,
+      "comments": 7,
       "labels": [
         "kind:task",
         "area:harness",
@@ -1179,8 +1233,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T13:16:42Z",
       "closedAt": null,
-      "waitingHours": 322.33865972222225,
-      "comments": 7,
+      "waitingHours": 345.47906333333333,
+      "comments": 8,
       "labels": [
         "help:wanted",
         "kind:rfc",
@@ -1202,8 +1256,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T09:41:03Z",
       "closedAt": null,
-      "waitingHours": 325.9328263888889,
-      "comments": 5,
+      "waitingHours": 349.07323,
+      "comments": 6,
       "labels": [
         "help:wanted",
         "kind:task",
@@ -1237,12 +1291,12 @@
       "title": "[Campaign] MiniMax-H3 Ref2VA lossless optimization on 4x910B1",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-02T11:44:13Z",
-      "closedAt": null,
-      "waitingHours": 347.88004861111114,
-      "comments": 4,
+      "closedAt": "2026-11-17T08:30:38Z",
+      "waitingHours": null,
+      "comments": 5,
       "labels": [
         "kind:acceptance",
         "area:harness",
@@ -1260,8 +1314,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T08:23:36Z",
       "closedAt": null,
-      "waitingHours": 351.22365972222224,
-      "comments": 2,
+      "waitingHours": 374.3640633333333,
+      "comments": 5,
       "labels": [
         "kind:roadmap",
         "area:process",
@@ -1369,8 +1423,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T03:01:55Z",
       "closedAt": null,
-      "waitingHours": 356.5850486111111,
-      "comments": 4,
+      "waitingHours": 379.7254522222222,
+      "comments": 5,
       "labels": [
         "kind:rfc",
         "area:knowledge",
@@ -1404,8 +1458,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-01T01:56:59Z",
       "closedAt": null,
-      "waitingHours": 381.66727083333336,
-      "comments": 2,
+      "waitingHours": 404.80767444444444,
+      "comments": 3,
       "labels": [
         "kind:rfc",
         "area:harness",
@@ -1418,12 +1472,12 @@
       "title": "[Campaign] MiniMax-H3 Ref2VA Ascend NPU latency optimization with video/audio quality gates",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-31T17:49:41Z",
-      "closedAt": null,
-      "waitingHours": 389.7889375,
-      "comments": 2,
+      "closedAt": "2026-11-17T08:30:24Z",
+      "waitingHours": null,
+      "comments": 3,
       "labels": [
         "kind:acceptance",
         "area:harness"
@@ -1439,8 +1493,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-31T09:39:40Z",
       "closedAt": null,
-      "waitingHours": 397.95588194444446,
-      "comments": 3,
+      "waitingHours": 421.09628555555554,
+      "comments": 4,
       "labels": [
         "kind:rfc",
         "area:harness",
@@ -1476,7 +1530,7 @@
       "createdAt": "2026-10-31T03:50:52Z",
       "closedAt": "2026-11-05T15:12:30Z",
       "waitingHours": null,
-      "comments": 13,
+      "comments": 14,
       "labels": [
         "kind:task",
         "area:process",
@@ -1595,8 +1649,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T08:22:43Z",
       "closedAt": null,
-      "waitingHours": 447.2383819444444,
-      "comments": 15,
+      "waitingHours": 470.37878555555557,
+      "comments": 16,
       "labels": [
         "help:wanted",
         "kind:tracking",
@@ -1616,8 +1670,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T07:50:06Z",
       "closedAt": null,
-      "waitingHours": 447.7819930555556,
-      "comments": 6,
+      "waitingHours": 470.92239666666666,
+      "comments": 7,
       "labels": [
         "help:wanted",
         "kind:task",
@@ -1635,8 +1689,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T07:31:30Z",
       "closedAt": null,
-      "waitingHours": 448.0919930555556,
-      "comments": 11,
+      "waitingHours": 471.23239666666666,
+      "comments": 13,
       "labels": [
         "help:wanted",
         "kind:task",
@@ -1785,8 +1839,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-28T10:49:34Z",
       "closedAt": null,
-      "waitingHours": 468.79088194444444,
-      "comments": 2,
+      "waitingHours": 491.9312855555556,
+      "comments": 3,
       "labels": [
         "kind:rfc",
         "area:knowledge",
@@ -2026,8 +2080,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T08:32:26Z",
       "closedAt": null,
-      "waitingHours": 495.0764375,
-      "comments": 25,
+      "waitingHours": 518.2168411111111,
+      "comments": 27,
       "labels": [
         "kind:investigation",
         "area:knowledge",
@@ -2071,12 +2125,12 @@
       "title": "bug: Drama3 does not fuse NPU normalization operators",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:26:33Z",
-      "closedAt": null,
-      "waitingHours": 501.17449305555556,
-      "comments": 1,
+      "closedAt": "2026-11-17T08:30:09Z",
+      "waitingHours": null,
+      "comments": 2,
       "labels": [
         "kind:bug",
         "kind:investigation",
@@ -2110,7 +2164,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-26T01:31:13Z",
       "closedAt": null,
-      "waitingHours": 526.0967152777778,
+      "waitingHours": 549.2371188888889,
       "comments": 4,
       "labels": [
         "kind:rfc",
@@ -2177,12 +2231,12 @@
       "title": "[RFC] Hardware-aware optimization goals throughout the RSI workflow",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-25T06:43:50Z",
-      "closedAt": null,
-      "waitingHours": 544.8864375,
-      "comments": 7,
+      "closedAt": "2026-11-17T08:25:41Z",
+      "waitingHours": null,
+      "comments": 8,
       "labels": [
         "kind:rfc",
         "area:harness",
@@ -2348,12 +2402,12 @@
       "title": "Acceptance: Qwen3-Omni full streaming speech on two L20X GPUs",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-23T03:42:02Z",
-      "closedAt": null,
-      "waitingHours": 595.9164375,
-      "comments": 0,
+      "closedAt": "2026-11-17T08:30:17Z",
+      "waitingHours": null,
+      "comments": 1,
       "labels": [
         "kind:acceptance",
         "area:harness",
@@ -2450,8 +2504,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T12:34:08Z",
       "closedAt": null,
-      "waitingHours": 611.0481041666667,
-      "comments": 14,
+      "waitingHours": 634.1885077777778,
+      "comments": 19,
       "labels": [
         "kind:tracking",
         "area:knowledge",
@@ -2518,8 +2572,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T17:25:47Z",
       "closedAt": null,
-      "waitingHours": 630.1872708333333,
-      "comments": 1,
+      "waitingHours": 653.3276744444445,
+      "comments": 2,
       "labels": [
         "kind:acceptance",
         "area:harness",
@@ -2536,8 +2590,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T14:22:29Z",
       "closedAt": null,
-      "waitingHours": 633.2422708333334,
-      "comments": 330,
+      "waitingHours": 656.3826744444444,
+      "comments": 331,
       "labels": [
         "kind:acceptance",
         "area:harness"
@@ -2553,8 +2607,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T09:21:03Z",
       "closedAt": null,
-      "waitingHours": 638.2661597222223,
-      "comments": 12,
+      "waitingHours": 661.4065633333333,
+      "comments": 14,
       "labels": [
         "kind:roadmap",
         "area:process"
@@ -2618,8 +2672,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:57:11Z",
       "closedAt": null,
-      "waitingHours": 642.6639375,
-      "comments": 0,
+      "waitingHours": 665.8043411111111,
+      "comments": 1,
       "labels": [
         "kind:acceptance",
         "area:harness",
@@ -2636,8 +2690,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:54:34Z",
       "closedAt": null,
-      "waitingHours": 642.7075486111111,
-      "comments": 1,
+      "waitingHours": 665.8479522222223,
+      "comments": 2,
       "labels": [
         "kind:task",
         "area:harness"
@@ -2654,7 +2708,7 @@
       "createdAt": "2026-10-21T02:01:17Z",
       "closedAt": "2026-10-26T06:19:17Z",
       "waitingHours": null,
-      "comments": 3,
+      "comments": 4,
       "labels": [
         "kind:tracking",
         "area:knowledge"
@@ -2721,8 +2775,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-20T08:38:36Z",
       "closedAt": null,
-      "waitingHours": 662.9736597222222,
-      "comments": 5,
+      "waitingHours": 686.1140633333333,
+      "comments": 6,
       "labels": [
         "kind:status",
         "area:process"
@@ -2755,8 +2809,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T16:47:16Z",
       "closedAt": null,
-      "waitingHours": 678.8292152777777,
-      "comments": 1,
+      "waitingHours": 701.9696188888889,
+      "comments": 2,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -2769,12 +2823,12 @@
       "title": "task: import Qwen3-TTS Ascend optimization techniques and evidence",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-19T12:17:58Z",
-      "closedAt": null,
-      "waitingHours": 683.3175486111111,
-      "comments": 0,
+      "closedAt": "2026-11-17T08:30:00Z",
+      "waitingHours": null,
+      "comments": 1,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -2947,8 +3001,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T00:56:41Z",
       "closedAt": null,
-      "waitingHours": 886.6722708333333,
-      "comments": 0,
+      "waitingHours": 909.8126744444445,
+      "comments": 1,
       "labels": [
         "kind:acceptance",
         "area:harness"
