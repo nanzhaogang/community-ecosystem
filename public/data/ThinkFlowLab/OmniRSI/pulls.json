@@ -1,18 +1,212 @@
 {
-  "generatedAt": "2026-11-17T22:45:26.628Z",
+  "generatedAt": "2026-11-18T22:27:05.015Z",
   "items": [
+    {
+      "number": 506,
+      "title": "knowledge: add cold EPD GPU provisioning case",
+      "author": "Kelvin-Al",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-18T16:51:04Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 5.600281944444444,
+      "comments": 8,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/506"
+    },
+    {
+      "number": 504,
+      "title": "refactor(apps): group application workflows in a workflows package",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-18T15:29:48Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 6.954726388888889,
+      "comments": 6,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/504"
+    },
+    {
+      "number": 503,
+      "title": "refactor(benchmark): move the metric contract and validators out of model",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-18T15:03:01Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 7.401115277777778,
+      "comments": 1,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/503"
+    },
+    {
+      "number": 501,
+      "title": "feat: benchmark RSI knowledge with paired optimization runs",
+      "author": "Bounty-hunter",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-18T14:40:05Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 7.7833375,
+      "comments": 4,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/501"
+    },
+    {
+      "number": 499,
+      "title": "policy: admit GPT-6.2 Astra and GPT-6.2 Sol, stop admitting GPT-6-Astra, GPT-6.1 Sol and GPT-6.1 Terra",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-18T12:00:36Z",
+      "mergedAt": "2026-11-18T15:02:57Z",
+      "closedAt": "2026-11-18T15:02:57Z",
+      "waitingHours": null,
+      "comments": 0,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/499"
+    },
+    {
+      "number": 496,
+      "title": "refactor(apps): move Harness handoff adapters into apps.handoff",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-18T08:56:00Z",
+      "mergedAt": "2026-11-18T15:06:33Z",
+      "closedAt": "2026-11-18T15:06:33Z",
+      "waitingHours": null,
+      "comments": 15,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/496"
+    },
+    {
+      "number": 495,
+      "title": "feat: 增加逐轮检索、备选、选择与执行结果展示",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-18T08:45:54Z",
+      "mergedAt": "2026-11-18T10:56:31Z",
+      "closedAt": "2026-11-18T10:56:31Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "kind:task",
+        "area:usability"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/495"
+    },
+    {
+      "number": 493,
+      "title": "refactor(apps): group artifact storage under apps.storage",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-18T07:04:31Z",
+      "mergedAt": "2026-11-18T08:38:33Z",
+      "closedAt": "2026-11-18T08:38:33Z",
+      "waitingHours": null,
+      "comments": 6,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/493"
+    },
+    {
+      "number": 492,
+      "title": "fix(knowledge): guide Ascend tasks through external setup",
+      "author": "jiangkuaixue123",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-18T06:52:41Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 15.5733375,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/492"
+    },
+    {
+      "number": 489,
+      "title": "knowledge: remove the CannBot stage-evidence distillation from #114",
+      "author": "jiangkuaixue123",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-18T06:14:29Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 16.210004166666668,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/489"
+    },
+    {
+      "number": 488,
+      "title": "harness: add bounded VATS/GVO runtime and benchmark adapters",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-18T04:53:14Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 17.564170833333332,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/488"
+    },
     {
       "number": 486,
       "title": "refactor(harness,benchmark): close the five runtime resource loaders (R3)",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-17T19:26:51Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 3.3098966666666665,
-      "comments": 4,
+      "mergedAt": "2026-11-18T08:38:28Z",
+      "closedAt": "2026-11-18T08:38:28Z",
+      "waitingHours": null,
+      "comments": 15,
       "labels": [
         "kind:task",
         "area:harness"
@@ -24,13 +218,13 @@
       "title": "Add consistent RSI result delivery bundles",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-17T12:42:57Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 10.041563333333333,
-      "comments": 3,
+      "mergedAt": "2026-11-17T23:47:52Z",
+      "closedAt": "2026-11-17T23:47:52Z",
+      "waitingHours": null,
+      "comments": 4,
       "labels": [
         "kind:task",
         "area:harness"
@@ -42,13 +236,13 @@
       "title": "feat(knowledge): add external read-only channels to find",
       "author": "jiangkuaixue123",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-17T12:21:50Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 10.393507777777778,
-      "comments": 2,
+      "mergedAt": "2026-11-18T03:41:04Z",
+      "closedAt": "2026-11-18T03:41:04Z",
+      "waitingHours": null,
+      "comments": 7,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -83,8 +277,8 @@
       "createdAt": "2026-11-17T09:31:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 13.238785555555555,
-      "comments": 5,
+      "waitingHours": 36.93278194444444,
+      "comments": 9,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -97,12 +291,12 @@
       "author": "lirx-pd",
       "contributionType": "external",
       "state": "open",
-      "isDraft": true,
+      "isDraft": false,
       "createdAt": "2026-11-17T08:11:37Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 14.563785555555556,
-      "comments": 1,
+      "waitingHours": 38.257781944444446,
+      "comments": 3,
       "labels": [
         "kind:task",
         "area:harness"
@@ -381,7 +575,7 @@
       "createdAt": "2026-11-15T13:47:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 56.97239666666667,
+      "waitingHours": 80.66639305555556,
       "comments": 7,
       "labels": [
         "kind:task",
@@ -394,13 +588,13 @@
       "title": "knowledge: add GPU measurement-validity and profiler attribution guidance",
       "author": "BeatSeat",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-15T13:37:50Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 57.12684111111111,
-      "comments": 12,
+      "mergedAt": "2026-11-18T03:41:13Z",
+      "closedAt": "2026-11-18T03:41:13Z",
+      "waitingHours": null,
+      "comments": 15,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -554,7 +748,7 @@
       "createdAt": "2026-11-14T06:00:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 88.75211888888889,
+      "waitingHours": 112.44611527777778,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -1022,7 +1216,7 @@
       "createdAt": "2026-11-10T08:55:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 181.83711888888888,
+      "waitingHours": 205.5311152777778,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -1368,7 +1562,7 @@
       "createdAt": "2026-11-04T08:41:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 326.06850777777777,
+      "waitingHours": 349.76250416666664,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -1530,8 +1724,8 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 353.7646188888889,
-      "comments": 24,
+      "waitingHours": 377.45861527777777,
+      "comments": 25,
       "labels": [
         "kind:task",
         "area:process"
@@ -1567,7 +1761,7 @@
       "createdAt": "2026-11-03T03:20:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 355.42295222222225,
+      "waitingHours": 379.1169486111111,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -2279,8 +2473,8 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 447.49073,
-      "comments": 35,
+      "waitingHours": 471.18472638888886,
+      "comments": 42,
       "labels": [
         "kind:task",
         "area:harness",
@@ -4605,7 +4799,7 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 665.61073,
+      "waitingHours": 689.3047263888889,
       "comments": 3,
       "labels": [
         "kind:task",

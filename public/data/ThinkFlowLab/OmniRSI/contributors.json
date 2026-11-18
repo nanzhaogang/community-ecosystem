@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-17T22:45:26.628Z",
+  "generatedAt": "2026-11-18T22:27:05.015Z",
   "items": [
     {
       "login": "Dong1017",
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-10-14T02:18:38Z",
-      "lastContributionAt": "2026-11-17T19:26:51Z",
-      "pulls": 180,
-      "issues": 63,
+      "lastContributionAt": "2026-11-18T15:03:01Z",
+      "pulls": 182,
+      "issues": 67,
       "reviews": 0
     },
     {
@@ -26,9 +26,9 @@
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-10-19T08:31:56Z",
-      "lastContributionAt": "2026-11-17T07:01:03Z",
-      "pulls": 32,
-      "issues": 19,
+      "lastContributionAt": "2026-11-18T15:29:48Z",
+      "pulls": 35,
+      "issues": 21,
       "reviews": 0
     },
     {
@@ -36,9 +36,9 @@
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-10-16T01:32:25Z",
-      "lastContributionAt": "2026-11-17T12:42:57Z",
-      "pulls": 17,
-      "issues": 18,
+      "lastContributionAt": "2026-11-18T08:45:54Z",
+      "pulls": 19,
+      "issues": 19,
       "reviews": 0
     },
     {
@@ -46,9 +46,19 @@
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-10-21T04:54:34Z",
-      "lastContributionAt": "2026-11-17T12:21:50Z",
-      "pulls": 9,
+      "lastContributionAt": "2026-11-18T06:52:41Z",
+      "pulls": 11,
       "issues": 14,
+      "reviews": 0
+    },
+    {
+      "login": "Bounty-hunter",
+      "contributionType": "external",
+      "isBot": false,
+      "firstContributionAt": "2026-11-03T14:43:26Z",
+      "lastContributionAt": "2026-11-18T14:42:20Z",
+      "pulls": 3,
+      "issues": 7,
       "reviews": 0
     },
     {
@@ -59,16 +69,6 @@
       "lastContributionAt": "2026-11-14T13:56:57Z",
       "pulls": 7,
       "issues": 3,
-      "reviews": 0
-    },
-    {
-      "login": "Bounty-hunter",
-      "contributionType": "external",
-      "isBot": false,
-      "firstContributionAt": "2026-11-03T14:43:26Z",
-      "lastContributionAt": "2026-11-16T14:02:50Z",
-      "pulls": 2,
-      "issues": 6,
       "reviews": 0
     },
     {
@@ -109,6 +109,16 @@
       "lastContributionAt": "2026-11-17T09:31:07Z",
       "pulls": 3,
       "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "Kelvin-Al",
+      "contributionType": "external",
+      "isBot": false,
+      "firstContributionAt": "2026-11-18T16:40:48Z",
+      "lastContributionAt": "2026-11-18T16:51:04Z",
+      "pulls": 1,
+      "issues": 1,
       "reviews": 0
     },
     {

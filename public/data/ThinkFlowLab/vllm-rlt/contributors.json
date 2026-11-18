@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T22:45:26.628Z",
+  "generatedAt": "2026-11-18T22:27:05.015Z",
   "items": [
     {
       "login": "0z5a",
@@ -86,8 +86,8 @@
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-11-14T16:21:03Z",
-      "lastContributionAt": "2026-11-16T04:03:18Z",
-      "pulls": 4,
+      "lastContributionAt": "2026-11-18T11:05:32Z",
+      "pulls": 5,
       "issues": 0,
       "reviews": 0
     },
@@ -142,6 +142,16 @@
       "reviews": 0
     },
     {
+      "login": "XinhaoTheo",
+      "contributionType": "external",
+      "isBot": false,
+      "firstContributionAt": "2026-11-17T07:37:42Z",
+      "lastContributionAt": "2026-11-18T03:28:05Z",
+      "pulls": 2,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
       "login": "quan-yi-ai",
       "contributionType": "internal",
       "isBot": false,
@@ -158,16 +168,6 @@
       "firstContributionAt": "2026-09-23T10:38:20Z",
       "lastContributionAt": "2026-09-23T13:06:33Z",
       "pulls": 2,
-      "issues": 0,
-      "reviews": 0
-    },
-    {
-      "login": "XinhaoTheo",
-      "contributionType": "external",
-      "isBot": false,
-      "firstContributionAt": "2026-11-17T07:37:42Z",
-      "lastContributionAt": "2026-11-17T07:37:42Z",
-      "pulls": 1,
       "issues": 0,
       "reviews": 0
     },
