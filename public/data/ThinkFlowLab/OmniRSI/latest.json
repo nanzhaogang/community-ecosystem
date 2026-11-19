@@ -1,39 +1,39 @@
 {
-  "generatedAt": "2026-11-18T22:27:05.015Z",
+  "generatedAt": "2026-11-19T22:32:16.714Z",
   "repo": {
-    "stars": 78,
-    "forks": 23,
+    "stars": 82,
+    "forks": 25,
     "watchers": 0,
-    "openIssuesAndPrs": 80
+    "openIssuesAndPrs": 87
   },
   "contributors": {
-    "total": 24,
-    "activeLast30d": 22,
-    "newLast30d": 17,
+    "total": 26,
+    "activeLast30d": 24,
+    "newLast30d": 19,
     "composition": {
       "internal": 3,
-      "external": 21,
+      "external": 23,
       "unknown": 0
     }
   },
   "pulls": {
-    "total": 322,
-    "open": 17,
-    "merged": 287,
-    "closedUnmerged": 18,
+    "total": 337,
+    "open": 21,
+    "merged": 296,
+    "closedUnmerged": 20,
     "composition": {
-      "internal": 54,
-      "external": 268,
+      "internal": 55,
+      "external": 282,
       "unknown": 0
     }
   },
   "issues": {
-    "total": 184,
-    "open": 63,
-    "closed": 121,
+    "total": 191,
+    "open": 66,
+    "closed": 125,
     "composition": {
-      "internal": 38,
-      "external": 145,
+      "internal": 39,
+      "external": 151,
       "unknown": 1
     },
     "longOpen": {
@@ -45,7 +45,7 @@
           "title": "Acceptance: Qwen-Image-2.1-Turbo / B300×4 campaign",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-11T00:56:41Z",
-          "waitingHours": 933.5066708333334,
+          "waitingHours": 957.5932538888889,
           "url": "https://github.com/InferMatrixLab/InferRSI/issues/3"
         },
         {
@@ -53,7 +53,7 @@
           "title": "task: add MLX backend discovery and seed source-grounded MLX knowledge for Apple Silicon",
           "author": "shihongzhi",
           "createdAt": "2026-10-19T16:47:16Z",
-          "waitingHours": 725.6636152777778,
+          "waitingHours": 749.7501983333333,
           "url": "https://github.com/InferMatrixLab/InferRSI/issues/38"
         }
       ]

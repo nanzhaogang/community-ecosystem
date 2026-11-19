@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T22:27:05.015Z",
+  "generatedAt": "2026-11-19T22:32:16.714Z",
   "items": [
     {
       "number": 192,
@@ -10,8 +10,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-16T12:19:35Z",
       "closedAt": null,
-      "waitingHours": 58.12500416666666,
-      "comments": 7,
+      "waitingHours": 82.21158722222222,
+      "comments": 12,
       "labels": [
         "RFC"
       ],
@@ -26,7 +26,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-16T09:39:58Z",
       "closedAt": null,
-      "waitingHours": 60.78528194444444,
+      "waitingHours": 84.871865,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/191"
@@ -86,7 +86,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-11T09:28:24Z",
       "closedAt": null,
-      "waitingHours": 180.9780597222222,
+      "waitingHours": 205.06464277777778,
       "comments": 18,
       "labels": [
         "RFC"
@@ -102,7 +102,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-05T18:16:16Z",
       "closedAt": null,
-      "waitingHours": 316.18028194444446,
+      "waitingHours": 340.266865,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/172"
@@ -116,8 +116,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T05:37:42Z",
       "closedAt": null,
-      "waitingHours": 352.82305972222224,
-      "comments": 4,
+      "waitingHours": 376.9096427777778,
+      "comments": 5,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/169"
     },
@@ -130,7 +130,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T12:31:24Z",
       "closedAt": null,
-      "waitingHours": 537.9280597222222,
+      "waitingHours": 562.0146427777778,
       "comments": 31,
       "labels": [
         "RFC"
@@ -146,7 +146,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-15T05:55:57Z",
       "closedAt": null,
-      "waitingHours": 832.5188930555555,
+      "waitingHours": 856.6054761111111,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/126"
@@ -160,7 +160,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-14T08:18:05Z",
       "closedAt": null,
-      "waitingHours": 854.1500041666667,
+      "waitingHours": 878.2365872222222,
       "comments": 1,
       "labels": [
         "documentation"
@@ -176,7 +176,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-09T09:18:13Z",
       "closedAt": null,
-      "waitingHours": 973.1477819444444,
+      "waitingHours": 997.234365,
       "comments": 7,
       "labels": [
         "RFC"
@@ -192,7 +192,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-05T01:18:29Z",
       "closedAt": null,
-      "waitingHours": 1077.1433375,
+      "waitingHours": 1101.2299205555555,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/98"
@@ -206,7 +206,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-04T13:24:25Z",
       "closedAt": null,
-      "waitingHours": 1089.0444486111112,
+      "waitingHours": 1113.1310316666666,
       "comments": 9,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/85"
@@ -220,7 +220,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-03T18:46:56Z",
       "closedAt": null,
-      "waitingHours": 1107.6691708333333,
+      "waitingHours": 1131.7557538888889,
       "comments": 0,
       "labels": [
         "RFC"
@@ -268,7 +268,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T03:35:21Z",
       "closedAt": null,
-      "waitingHours": 1218.862226388889,
+      "waitingHours": 1242.9488094444444,
       "comments": 21,
       "labels": [
         "RFC"
@@ -284,7 +284,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-29T03:05:03Z",
       "closedAt": null,
-      "waitingHours": 1219.3672263888889,
+      "waitingHours": 1243.4538094444445,
       "comments": 17,
       "labels": [
         "RFC"
@@ -328,7 +328,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-24T06:31:41Z",
       "closedAt": null,
-      "waitingHours": 1335.9233375,
+      "waitingHours": 1360.0099205555555,
       "comments": 6,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/56"
@@ -358,7 +358,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-23T08:26:09Z",
       "closedAt": null,
-      "waitingHours": 1358.0155597222222,
+      "waitingHours": 1382.1021427777778,
       "comments": 22,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/issues/43"

@@ -1,6 +1,179 @@
 {
-  "generatedAt": "2026-11-18T22:27:05.015Z",
+  "generatedAt": "2026-11-19T22:32:16.714Z",
   "items": [
+    {
+      "number": 1257,
+      "title": "feat(desktop): show what each assistant turn produced",
+      "author": "yuanzhou75",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-19T16:52:12Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 5.667976111111111,
+      "comments": 2,
+      "labels": [
+        "feature",
+        "release:feature",
+        "bot-reviewed",
+        "UI"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/1257"
+    },
+    {
+      "number": 1256,
+      "title": "feat(desktop): add workbench search and session-list filters (#1251)",
+      "author": "agent-ci-infra-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-19T16:05:25Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 6.447698333333333,
+      "comments": 3,
+      "labels": [
+        "feature",
+        "priority/major",
+        "release:feature",
+        "need-human",
+        "bot-reviewed",
+        "UI"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/1256"
+    },
+    {
+      "number": 1255,
+      "title": "feat(desktop): create and import custom MCP servers from the settings",
+      "author": "yuanzhou75",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-19T12:27:57Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 10.072142777777778,
+      "comments": 5,
+      "labels": [
+        "feature",
+        "priority/unspecified",
+        "bot-reviewed",
+        "UI"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/1255"
+    },
+    {
+      "number": 1249,
+      "title": "fix(desktop): bring import and new session actions together",
+      "author": "yuanzhou75",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-19T10:48:40Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 11.726865,
+      "comments": 2,
+      "labels": [
+        "bug",
+        "release:fix",
+        "bot-reviewed",
+        "UI"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/1249"
+    },
+    {
+      "number": 1248,
+      "title": "test(runner): make the NPU bubblewrap failure case order-based",
+      "author": "agent-ci-infra-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-19T09:52:38Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 12.66075388888889,
+      "comments": 5,
+      "labels": [
+        "bug",
+        "release:internal",
+        "bug/P2",
+        "bot-reviewed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/1248"
+    },
+    {
+      "number": 1246,
+      "title": "fix(real-e2e): retry failed cases and recover completed model streams",
+      "author": "zhaochen39",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-19T08:14:44Z",
+      "mergedAt": "2026-11-19T12:27:38Z",
+      "closedAt": "2026-11-19T12:27:38Z",
+      "waitingHours": null,
+      "comments": 8,
+      "labels": [
+        "release:fix",
+        "regression",
+        "needs-human",
+        "bot-reviewed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/1246"
+    },
+    {
+      "number": 1244,
+      "title": "fix(desktop): stop the connecting strip blinking under a planning run",
+      "author": "ink999107",
+      "contributionType": "internal",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-19T07:53:38Z",
+      "mergedAt": "2026-11-19T09:07:14Z",
+      "closedAt": "2026-11-19T09:07:14Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/1244"
+    },
+    {
+      "number": 1243,
+      "title": "feat(hub): add the backend for accounts, uploads and signed downloads",
+      "author": "ink999107",
+      "contributionType": "internal",
+      "state": "closed",
+      "isDraft": true,
+      "createdAt": "2026-11-19T07:41:36Z",
+      "mergedAt": null,
+      "closedAt": "2026-11-19T07:53:08Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/1243"
+    },
+    {
+      "number": 1242,
+      "title": "fix(desktop): make the add-model dialog pickers readable and scrollable",
+      "author": "ink999107",
+      "contributionType": "internal",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-19T06:49:50Z",
+      "mergedAt": "2026-11-19T12:41:31Z",
+      "closedAt": "2026-11-19T12:41:31Z",
+      "waitingHours": null,
+      "comments": 16,
+      "labels": [
+        "bug",
+        "priority/unspecified",
+        "needs-human",
+        "bot-reviewed",
+        "UI"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/1242"
+    },
     {
       "number": 1240,
       "title": "fix(e2e): include setup error transcript in BLOCKED reason",
@@ -11,8 +184,8 @@
       "createdAt": "2026-11-18T21:03:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1.3938930555555555,
-      "comments": 3,
+      "waitingHours": 25.480476111111113,
+      "comments": 4,
       "labels": [
         "bug",
         "bot-reviewed"
@@ -39,13 +212,13 @@
       "title": "feat(desktop): polish the session export and import UI",
       "author": "yuanzhou75",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-18T12:49:17Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 9.630004166666666,
-      "comments": 6,
+      "mergedAt": "2026-11-19T11:51:44Z",
+      "closedAt": "2026-11-19T11:51:44Z",
+      "waitingHours": null,
+      "comments": 26,
       "labels": [
         "feature",
         "needs-human",
@@ -112,7 +285,7 @@
       "createdAt": "2026-11-18T07:41:28Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 14.760281944444445,
+      "waitingHours": 38.846865,
       "comments": 0,
       "labels": [
         "release:feature"
@@ -129,7 +302,7 @@
       "createdAt": "2026-11-18T07:11:22Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 15.26194861111111,
+      "waitingHours": 39.348531666666666,
       "comments": 0,
       "labels": [
         "release:feature"
@@ -146,7 +319,7 @@
       "createdAt": "2026-11-18T07:10:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 15.283059722222223,
+      "waitingHours": 39.36964277777778,
       "comments": 0,
       "labels": [
         "release:feature"
@@ -155,17 +328,23 @@
     },
     {
       "number": 1225,
-      "title": "feat(hub): publish a static hub for skills, specialists, connectors and session packages",
+      "title": "feat(hub): publish the asset hub and add the backend for accounts, uploads and signed downloads",
       "author": "ink999107",
       "contributionType": "internal",
       "state": "open",
-      "isDraft": true,
+      "isDraft": false,
       "createdAt": "2026-11-18T06:03:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 16.391393055555554,
-      "comments": 0,
-      "labels": [],
+      "waitingHours": 40.47797611111111,
+      "comments": 11,
+      "labels": [
+        "feature",
+        "priority/major",
+        "needs-human",
+        "bot-reviewed",
+        "UI"
+      ],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/1225"
     },
     {
@@ -173,13 +352,13 @@
       "title": "feat(desktop): Idea Tree journey in the desktop client",
       "author": "yuanzhou75",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-18T04:14:30Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 18.20972638888889,
-      "comments": 5,
+      "mergedAt": "2026-11-19T07:18:55Z",
+      "closedAt": "2026-11-19T07:18:55Z",
+      "waitingHours": null,
+      "comments": 6,
       "labels": [
         "needs-human",
         "UI"
@@ -192,14 +371,20 @@
       "author": "moShangLouTou",
       "contributionType": "external",
       "state": "open",
-      "isDraft": true,
+      "isDraft": false,
       "createdAt": "2026-11-18T02:48:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 19.637781944444445,
-      "comments": 0,
+      "waitingHours": 43.724365,
+      "comments": 4,
       "labels": [
-        "release:feature"
+        "bug",
+        "feature",
+        "priority/major",
+        "release:feature",
+        "needs-human",
+        "bot-reviewed",
+        "UI"
       ],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/1221"
     },
@@ -243,13 +428,13 @@
       "title": "fix(research-package): stream package I/O end to end and close the gaps the 5 GiB default exposes",
       "author": "yuanzhou75",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-17T16:12:54Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 30.236393055555556,
-      "comments": 17,
+      "mergedAt": "2026-11-19T07:18:55Z",
+      "closedAt": "2026-11-19T07:18:55Z",
+      "waitingHours": null,
+      "comments": 20,
       "labels": [
         "bug",
         "priority/major",
@@ -270,7 +455,7 @@
       "createdAt": "2026-11-17T12:41:23Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 33.76167083333333,
+      "waitingHours": 57.84825388888889,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/1215"
@@ -285,7 +470,7 @@
       "createdAt": "2026-11-17T11:35:47Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 34.85500416666667,
+      "waitingHours": 58.941587222222225,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/1213"
@@ -433,12 +618,12 @@
       "title": "修复自定义 MCP 后台发现、连接代理与状态更新",
       "author": "FangYikaii",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-17T06:46:51Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 39.67055972222222,
+      "mergedAt": "2026-11-19T03:42:20Z",
+      "closedAt": "2026-11-19T03:42:20Z",
+      "waitingHours": null,
       "comments": 7,
       "labels": [
         "bug",
@@ -557,7 +742,7 @@
       "createdAt": "2026-11-16T11:55:57Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 58.51889305555556,
+      "waitingHours": 82.60547611111112,
       "comments": 2,
       "labels": [
         "feature",
@@ -1129,7 +1314,7 @@
       "createdAt": "2026-11-12T09:29:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 156.96805972222222,
+      "waitingHours": 181.0546427777778,
       "comments": 0,
       "labels": [
         "release:fix"
@@ -1183,7 +1368,7 @@
       "createdAt": "2026-11-12T07:37:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 158.82278194444444,
+      "waitingHours": 182.909365,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/1127"
@@ -1198,7 +1383,7 @@
       "createdAt": "2026-11-12T07:30:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 158.95028194444444,
+      "waitingHours": 183.036865,
       "comments": 3,
       "labels": [
         "bug",
@@ -2322,7 +2507,7 @@
       "createdAt": "2026-11-09T17:56:23Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 220.51167083333334,
+      "waitingHours": 244.59825388888888,
       "comments": 3,
       "labels": [
         "release:internal"
@@ -2395,7 +2580,7 @@
       "createdAt": "2026-11-09T12:59:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 225.4647263888889,
+      "waitingHours": 249.55130944444446,
       "comments": 4,
       "labels": [
         "release:fix"
@@ -3108,7 +3293,7 @@
       "createdAt": "2026-11-06T13:27:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 296.99389305555553,
+      "waitingHours": 321.0804761111111,
       "comments": 1,
       "labels": [
         "feature",
@@ -3566,7 +3751,7 @@
       "createdAt": "2026-11-05T13:24:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 321.04972638888887,
+      "waitingHours": 345.13630944444446,
       "comments": 7,
       "labels": [
         "bug",
@@ -4286,7 +4471,7 @@
       "createdAt": "2026-11-04T02:33:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 355.8919486111111,
+      "waitingHours": 379.97853166666664,
       "comments": 13,
       "labels": [
         "feature",
@@ -4702,7 +4887,7 @@
       "createdAt": "2026-11-03T02:18:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 380.1419486111111,
+      "waitingHours": 404.22853166666664,
       "comments": 6,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/778"
@@ -5529,7 +5714,7 @@
       "createdAt": "2026-11-02T08:53:22Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 397.5619486111111,
+      "waitingHours": 421.64853166666666,
       "comments": 3,
       "labels": [
         "needs-human"
@@ -5812,7 +5997,7 @@
       "createdAt": "2026-10-29T23:30:24Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 478.9447263888889,
+      "waitingHours": 503.03130944444445,
       "comments": 1,
       "labels": [
         "conflicted",
@@ -6005,7 +6190,7 @@
       "createdAt": "2026-10-29T05:05:11Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 497.36500416666667,
+      "waitingHours": 521.4515872222222,
       "comments": 10,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/678"
@@ -6238,7 +6423,7 @@
       "createdAt": "2026-10-29T03:12:15Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 499.24722638888886,
+      "waitingHours": 523.3338094444445,
       "comments": 10,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/648"
@@ -7142,7 +7327,7 @@
       "createdAt": "2026-10-25T13:23:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 585.0680597222222,
+      "waitingHours": 609.1546427777778,
       "comments": 4,
       "labels": [
         "conflicted",
@@ -7633,7 +7818,7 @@
       "createdAt": "2026-10-23T11:45:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 634.6961152777777,
+      "waitingHours": 658.7826983333333,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/pull/509"
@@ -7966,7 +8151,7 @@
       "createdAt": "2026-10-22T05:33:40Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 664.8902819444445,
+      "waitingHours": 688.976865,
       "comments": 6,
       "labels": [
         "release:internal",
@@ -8222,7 +8407,7 @@
       "createdAt": "2026-10-20T08:03:22Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 710.3952819444445,
+      "waitingHours": 734.481865,
       "comments": 0,
       "labels": [
         "conflicted",
@@ -8584,7 +8769,7 @@
       "createdAt": "2026-10-18T12:14:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 754.2111152777778,
+      "waitingHours": 778.2976983333333,
       "comments": 0,
       "labels": [
         "release:internal"
@@ -8851,7 +9036,7 @@
       "createdAt": "2026-10-17T11:28:22Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 778.9786152777777,
+      "waitingHours": 803.0651983333333,
       "comments": 0,
       "labels": [
         "conflicted",
@@ -9409,7 +9594,7 @@
       "createdAt": "2026-10-15T08:37:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 829.8302819444444,
+      "waitingHours": 853.916865,
       "comments": 5,
       "labels": [
         "conflicted",
@@ -9428,7 +9613,7 @@
       "createdAt": "2026-10-15T06:39:38Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 831.7908375,
+      "waitingHours": 855.8774205555555,
       "comments": 21,
       "labels": [
         "release:feature",
@@ -9463,7 +9648,7 @@
       "createdAt": "2026-10-14T14:58:01Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 847.4844486111111,
+      "waitingHours": 871.5710316666666,
       "comments": 6,
       "labels": [
         "bug",
@@ -9607,7 +9792,7 @@
       "createdAt": "2026-10-13T10:31:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 875.9211152777777,
+      "waitingHours": 900.0076983333333,
       "comments": 3,
       "labels": [
         "enhancement",
@@ -9656,13 +9841,13 @@
       "title": "fix(network): unify proxy configuration and protect local transport",
       "author": "zy95-12",
       "contributionType": "internal",
-      "state": "open",
+      "state": "closed",
       "isDraft": false,
       "createdAt": "2026-10-13T08:57:14Z",
       "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 877.4975041666667,
-      "comments": 25,
+      "closedAt": "2026-11-19T13:15:30Z",
+      "waitingHours": null,
+      "comments": 26,
       "labels": [
         "bug",
         "release:fix",
@@ -9803,7 +9988,7 @@
       "createdAt": "2026-10-12T08:25:58Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 902.0186152777778,
+      "waitingHours": 926.1051983333333,
       "comments": 2,
       "labels": [
         "enhancement",
@@ -9839,7 +10024,7 @@
       "createdAt": "2026-10-12T04:43:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 905.7191708333334,
+      "waitingHours": 929.805753888889,
       "comments": 4,
       "labels": [
         "bug",
@@ -9891,7 +10076,7 @@
       "createdAt": "2026-10-11T07:31:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 926.9194486111111,
+      "waitingHours": 951.0060316666667,
       "comments": 5,
       "labels": [
         "conflicted",
@@ -10576,7 +10761,7 @@
       "createdAt": "2026-09-25T13:04:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1305.3772263888889,
+      "waitingHours": 1329.4638094444445,
       "comments": 4,
       "labels": [
         "release:feature"
@@ -10960,7 +11145,7 @@
       "createdAt": "2026-09-23T14:49:55Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1351.619448611111,
+      "waitingHours": 1375.7060316666666,
       "comments": 0,
       "labels": [
         "conflicted",
