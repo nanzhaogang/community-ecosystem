@@ -1,18 +1,140 @@
 {
-  "generatedAt": "2026-11-19T22:32:16.714Z",
+  "generatedAt": "2026-11-20T22:04:39.438Z",
   "items": [
+    {
+      "number": 539,
+      "title": "feat: lead benchmark reports with versioned metrics",
+      "author": "Bounty-hunter",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-20T10:02:27Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 12.036788333333334,
+      "comments": 9,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/539"
+    },
+    {
+      "number": 537,
+      "title": "refactor(apps): move MindIE adapter into integrations",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-20T08:23:52Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 13.67984388888889,
+      "comments": 4,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/537"
+    },
+    {
+      "number": 535,
+      "title": "refactor(apps): give Apps its artifact helpers and the provider modules, remove infra and model",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-20T04:02:27Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 18.036788333333334,
+      "comments": 10,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/535"
+    },
+    {
+      "number": 534,
+      "title": "feat(knowledge): add full-catalog selection, applicability checks and bounded reads",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-20T03:07:07Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 18.959010555555555,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/534"
+    },
+    {
+      "number": 533,
+      "title": "Docs: refresh README quickstart, architecture and release guidance",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-20T03:03:59Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 19.011232777777778,
+      "comments": 4,
+      "labels": [
+        "kind:docs"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/533"
+    },
+    {
+      "number": 532,
+      "title": "feat(labels): add the area:benchmark and area:apps labels",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-20T02:44:50Z",
+      "mergedAt": "2026-11-20T04:30:54Z",
+      "closedAt": "2026-11-20T04:30:55Z",
+      "waitingHours": null,
+      "comments": 0,
+      "labels": [
+        "kind:task",
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/532"
+    },
+    {
+      "number": 530,
+      "title": "feat(benchmark): add frozen P1 preparation port",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-20T01:38:17Z",
+      "mergedAt": "2026-11-20T08:14:13Z",
+      "closedAt": "2026-11-20T08:14:13Z",
+      "waitingHours": null,
+      "comments": 7,
+      "labels": [
+        "kind:task",
+        "area:benchmark"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/530"
+    },
     {
       "number": 528,
       "title": "refactor(apps): move Cannbot adapter into integrations",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-19T16:54:00Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 5.6379761111111115,
-      "comments": 3,
+      "mergedAt": "2026-11-20T08:13:55Z",
+      "closedAt": "2026-11-20T08:13:55Z",
+      "waitingHours": null,
+      "comments": 8,
       "labels": [
         "kind:task",
         "area:harness"
@@ -29,8 +151,8 @@
       "createdAt": "2026-11-19T15:29:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 7.045476111111111,
-      "comments": 0,
+      "waitingHours": 30.585121666666666,
+      "comments": 2,
       "labels": [
         "kind:task",
         "area:harness"
@@ -60,13 +182,13 @@
       "title": "Mark source-built plugins with an explicit 0.0.0+source version",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-19T14:03:38Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 8.477420555555556,
-      "comments": 0,
+      "mergedAt": "2026-11-20T05:49:02Z",
+      "closedAt": "2026-11-20T05:49:02Z",
+      "waitingHours": null,
+      "comments": 3,
       "labels": [
         "kind:task",
         "area:harness"
@@ -78,13 +200,13 @@
       "title": "Trace CANNBot round knowledge in managed optimization",
       "author": "jiangkuaixue123",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-19T11:56:06Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 10.602976111111111,
-      "comments": 2,
+      "mergedAt": "2026-11-20T09:40:18Z",
+      "closedAt": "2026-11-20T09:40:18Z",
+      "waitingHours": null,
+      "comments": 8,
       "labels": [
         "kind:task"
       ],
@@ -95,13 +217,13 @@
       "title": "Make profiling optional in service-reuse campaigns",
       "author": "lirx-pd",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-19T09:21:02Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 13.187420555555555,
-      "comments": 3,
+      "mergedAt": "2026-11-20T02:03:07Z",
+      "closedAt": "2026-11-20T02:03:07Z",
+      "waitingHours": null,
+      "comments": 4,
       "labels": [
         "kind:task",
         "area:harness"
@@ -113,13 +235,13 @@
       "title": "Gate RSI search on measured bottleneck diagnosis",
       "author": "Bounty-hunter",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-19T08:27:39Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 14.077142777777778,
-      "comments": 0,
+      "mergedAt": "2026-11-20T07:44:10Z",
+      "closedAt": "2026-11-20T07:44:10Z",
+      "waitingHours": null,
+      "comments": 3,
       "labels": [
         "kind:task",
         "area:harness"
@@ -136,8 +258,8 @@
       "createdAt": "2026-11-19T07:30:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 15.02575388888889,
-      "comments": 4,
+      "waitingHours": 38.565399444444445,
+      "comments": 14,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -167,13 +289,13 @@
       "title": "Unify inference knowledge in skill_library with seven task routes and direct search",
       "author": "david6666666",
       "contributionType": "internal",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-19T06:38:54Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 15.889642777777778,
-      "comments": 11,
+      "mergedAt": "2026-11-20T02:31:59Z",
+      "closedAt": "2026-11-20T02:31:59Z",
+      "waitingHours": null,
+      "comments": 15,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -279,8 +401,8 @@
       "createdAt": "2026-11-18T16:51:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 29.686865,
-      "comments": 8,
+      "waitingHours": 53.226510555555556,
+      "comments": 10,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -422,8 +544,8 @@
       "createdAt": "2026-11-18T06:52:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 39.65992055555556,
-      "comments": 1,
+      "waitingHours": 63.19956611111111,
+      "comments": 3,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -440,8 +562,8 @@
       "createdAt": "2026-11-18T06:14:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 40.29658722222222,
-      "comments": 1,
+      "waitingHours": 63.83623277777778,
+      "comments": 3,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -458,8 +580,8 @@
       "createdAt": "2026-11-18T04:53:14Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 41.650753888888886,
-      "comments": 1,
+      "waitingHours": 65.19039944444444,
+      "comments": 2,
       "labels": [
         "kind:task",
         "area:harness"
@@ -548,8 +670,8 @@
       "createdAt": "2026-11-17T09:31:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 61.019365,
-      "comments": 9,
+      "waitingHours": 84.55901055555556,
+      "comments": 11,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -846,8 +968,8 @@
       "createdAt": "2026-11-15T13:47:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 104.75297611111111,
-      "comments": 9,
+      "waitingHours": 128.29262166666666,
+      "comments": 11,
       "labels": [
         "kind:task",
         "area:harness"
@@ -1019,8 +1141,8 @@
       "createdAt": "2026-11-14T06:00:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 136.53269833333334,
-      "comments": 1,
+      "waitingHours": 160.0723438888889,
+      "comments": 2,
       "labels": [
         "kind:task",
         "area:process"
@@ -1487,8 +1609,8 @@
       "createdAt": "2026-11-10T08:55:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 229.61769833333332,
-      "comments": 3,
+      "waitingHours": 253.1573438888889,
+      "comments": 5,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -1833,7 +1955,7 @@
       "createdAt": "2026-11-04T08:41:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 373.84908722222224,
+      "waitingHours": 397.38873277777776,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -1995,8 +2117,8 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 401.54519833333336,
-      "comments": 25,
+      "waitingHours": 425.0848438888889,
+      "comments": 27,
       "labels": [
         "kind:task",
         "area:process"
@@ -2032,7 +2154,7 @@
       "createdAt": "2026-11-03T03:20:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 403.20353166666666,
+      "waitingHours": 426.74317722222224,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -2744,8 +2866,8 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 495.27130944444446,
-      "comments": 45,
+      "waitingHours": 518.810955,
+      "comments": 47,
       "labels": [
         "kind:task",
         "area:harness",
@@ -5070,7 +5192,7 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 713.3913094444445,
+      "waitingHours": 736.930955,
       "comments": 3,
       "labels": [
         "kind:task",
