@@ -1,17 +1,399 @@
 {
-  "generatedAt": "2026-11-20T22:04:39.438Z",
+  "generatedAt": "2026-11-21T20:43:46.630Z",
   "items": [
+    {
+      "number": 569,
+      "title": "feat(benchmark): define the pinned CPU evidence smoke task",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-21T15:47:58Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 4.930175,
+      "comments": 7,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/569"
+    },
+    {
+      "number": 568,
+      "title": "feat(apps): assemble role-bound evidence capture ports",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-21T15:23:36Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 5.336286111111111,
+      "comments": 1,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/568"
+    },
+    {
+      "number": 567,
+      "title": "feat(harness): seal evaluation capture proofs before commit",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-21T14:49:36Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 5.902952777777778,
+      "comments": 2,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/567"
+    },
+    {
+      "number": 566,
+      "title": "feat(benchmark): project P1 reports into capture drafts",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-21T14:21:50Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 6.3657305555555554,
+      "comments": 0,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/566"
+    },
+    {
+      "number": 564,
+      "title": "fix(harness): preserve evaluation limits and replay original attempts (PR-3)",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-21T13:44:51Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 6.982119444444445,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/564"
+    },
+    {
+      "number": 563,
+      "title": "refactor(harness): rename harness/scenarios to harness/trials",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-21T12:38:08Z",
+      "mergedAt": "2026-11-21T14:50:54Z",
+      "closedAt": "2026-11-21T14:50:54Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/563"
+    },
+    {
+      "number": 562,
+      "title": "feat(harness): retain actual entry verification after registration (PR-2)",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-21T12:36:00Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 8.129619444444444,
+      "comments": 2,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/562"
+    },
+    {
+      "number": 561,
+      "title": "feat(harness): verify frozen preparation before registration",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-21T11:48:14Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 8.925730555555555,
+      "comments": 5,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/561"
+    },
+    {
+      "number": 560,
+      "title": "feat(benchmark): add frozen P1 offline assessment",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-21T11:14:20Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 9.490730555555556,
+      "comments": 8,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/560"
+    },
+    {
+      "number": 559,
+      "title": "docs: correct stale layout text and complete the directory map",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-21T11:13:43Z",
+      "mergedAt": "2026-11-21T13:11:41Z",
+      "closedAt": "2026-11-21T13:11:41Z",
+      "waitingHours": null,
+      "comments": 4,
+      "labels": [
+        "kind:docs"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/559"
+    },
+    {
+      "number": 556,
+      "title": "Use the Harness digest in the interrupted recovery test",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-21T10:39:39Z",
+      "mergedAt": "2026-11-21T11:35:50Z",
+      "closedAt": "2026-11-21T11:35:50Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/556"
+    },
+    {
+      "number": 553,
+      "title": "feat(benchmarks): filter the task list with --iterative",
+      "author": "Inference1",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-21T09:49:15Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 10.90878611111111,
+      "comments": 8,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/553"
+    },
+    {
+      "number": 552,
+      "title": "fix(harness): recheck execution limits before worker launch",
+      "author": "Inference1",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-21T09:13:33Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 11.503786111111111,
+      "comments": 5,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/552"
+    },
+    {
+      "number": 551,
+      "title": "fix(benchmark): keep comparison reports when host evidence fails",
+      "author": "Inference1",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-21T09:13:08Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 11.510730555555556,
+      "comments": 1,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/551"
+    },
+    {
+      "number": 550,
+      "title": "fix(benchmark): stop reading oversized preparation resources",
+      "author": "Inference1",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-21T09:12:46Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 11.516841666666666,
+      "comments": 1,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/550"
+    },
+    {
+      "number": 548,
+      "title": "fix(benchmark): treat Qwen signature errors as candidate failures",
+      "author": "Inference1",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-21T08:23:37Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 12.336008333333334,
+      "comments": 1,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/548"
+    },
+    {
+      "number": 547,
+      "title": "fix(delivery): preserve observed benchmark token usage",
+      "author": "Inference1",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-21T08:23:13Z",
+      "mergedAt": "2026-11-21T10:48:53Z",
+      "closedAt": "2026-11-21T10:48:53Z",
+      "waitingHours": null,
+      "comments": 0,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/547"
+    },
+    {
+      "number": 546,
+      "title": "fix(apps): report Windows session lock contention as retryable",
+      "author": "Inference1",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-21T08:22:48Z",
+      "mergedAt": "2026-11-21T14:14:31Z",
+      "closedAt": "2026-11-21T14:14:31Z",
+      "waitingHours": null,
+      "comments": 6,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/546"
+    },
+    {
+      "number": 545,
+      "title": "docs: add DeepWiki navigation and clarify README guidance",
+      "author": "Inference1",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-21T07:33:38Z",
+      "mergedAt": "2026-11-21T14:14:35Z",
+      "closedAt": "2026-11-21T14:14:35Z",
+      "waitingHours": null,
+      "comments": 5,
+      "labels": [
+        "kind:docs"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/545"
+    },
+    {
+      "number": 544,
+      "title": "docs: Inkling 2 Mini on Apple silicon (exploratory MLX record) + scheduling RSI lessons",
+      "author": "zuiho-kai",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-21T06:44:39Z",
+      "mergedAt": "2026-11-21T10:45:29Z",
+      "closedAt": "2026-11-21T10:45:29Z",
+      "waitingHours": null,
+      "comments": 11,
+      "labels": [
+        "kind:docs"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/544"
+    },
+    {
+      "number": 542,
+      "title": "test(apps): verify fixed CPU records across read-only views",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-21T04:51:51Z",
+      "mergedAt": "2026-11-21T06:27:28Z",
+      "closedAt": "2026-11-21T06:27:28Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/542"
+    },
+    {
+      "number": 541,
+      "title": "Publish weekly stable minor releases alongside daily patch previews",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-21T03:52:31Z",
+      "mergedAt": "2026-11-21T12:52:59Z",
+      "closedAt": "2026-11-21T12:52:59Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/541"
+    },
     {
       "number": 539,
       "title": "feat: lead benchmark reports with versioned metrics",
       "author": "Bounty-hunter",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-20T10:02:27Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 12.036788333333334,
+      "mergedAt": "2026-11-21T06:27:34Z",
+      "closedAt": "2026-11-21T06:27:34Z",
+      "waitingHours": null,
       "comments": 9,
       "labels": [
         "kind:task"
@@ -23,13 +405,13 @@
       "title": "refactor(apps): move MindIE adapter into integrations",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-20T08:23:52Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 13.67984388888889,
-      "comments": 4,
+      "mergedAt": "2026-11-21T04:47:27Z",
+      "closedAt": "2026-11-21T04:47:27Z",
+      "waitingHours": null,
+      "comments": 8,
       "labels": [
         "kind:task"
       ],
@@ -40,13 +422,13 @@
       "title": "refactor(apps): give Apps its artifact helpers and the provider modules, remove infra and model",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-20T04:02:27Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 18.036788333333334,
-      "comments": 10,
+      "mergedAt": "2026-11-20T23:18:33Z",
+      "closedAt": "2026-11-20T23:18:33Z",
+      "waitingHours": null,
+      "comments": 11,
       "labels": [
         "kind:task"
       ],
@@ -62,7 +444,7 @@
       "createdAt": "2026-11-20T03:07:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 18.959010555555555,
+      "waitingHours": 41.61100833333333,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -75,12 +457,12 @@
       "title": "Docs: refresh README quickstart, architecture and release guidance",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-20T03:03:59Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 19.011232777777778,
+      "mergedAt": "2026-11-21T00:02:26Z",
+      "closedAt": "2026-11-21T00:02:26Z",
+      "waitingHours": null,
       "comments": 4,
       "labels": [
         "kind:docs"
@@ -151,7 +533,7 @@
       "createdAt": "2026-11-19T15:29:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 30.585121666666666,
+      "waitingHours": 53.237119444444446,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -258,8 +640,8 @@
       "createdAt": "2026-11-19T07:30:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 38.565399444444445,
-      "comments": 14,
+      "waitingHours": 61.217397222222225,
+      "comments": 15,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -401,7 +783,7 @@
       "createdAt": "2026-11-18T16:51:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 53.226510555555556,
+      "waitingHours": 75.87850833333333,
       "comments": 10,
       "labels": [
         "kind:task",
@@ -544,7 +926,7 @@
       "createdAt": "2026-11-18T06:52:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 63.19956611111111,
+      "waitingHours": 85.85156388888889,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -562,7 +944,7 @@
       "createdAt": "2026-11-18T06:14:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 63.83623277777778,
+      "waitingHours": 86.48823055555556,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -580,7 +962,7 @@
       "createdAt": "2026-11-18T04:53:14Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 65.19039944444444,
+      "waitingHours": 87.84239722222222,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -670,7 +1052,7 @@
       "createdAt": "2026-11-17T09:31:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 84.55901055555556,
+      "waitingHours": 107.21100833333334,
       "comments": 11,
       "labels": [
         "kind:task",
@@ -963,12 +1345,12 @@
       "title": "harness: explain gains with profile evidence and paired statistics",
       "author": "BeatSeat",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-15T13:47:06Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 128.29262166666666,
+      "mergedAt": "2026-11-21T06:27:39Z",
+      "closedAt": "2026-11-21T06:27:39Z",
+      "waitingHours": null,
       "comments": 11,
       "labels": [
         "kind:task",
@@ -1141,7 +1523,7 @@
       "createdAt": "2026-11-14T06:00:19Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 160.0723438888889,
+      "waitingHours": 182.72434166666667,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -1609,7 +1991,7 @@
       "createdAt": "2026-11-10T08:55:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 253.1573438888889,
+      "waitingHours": 275.8093416666667,
       "comments": 5,
       "labels": [
         "kind:task",
@@ -1955,7 +2337,7 @@
       "createdAt": "2026-11-04T08:41:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 397.38873277777776,
+      "waitingHours": 420.04073055555557,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -2117,7 +2499,7 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 425.0848438888889,
+      "waitingHours": 447.7368416666667,
       "comments": 27,
       "labels": [
         "kind:task",
@@ -2154,7 +2536,7 @@
       "createdAt": "2026-11-03T03:20:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 426.74317722222224,
+      "waitingHours": 449.395175,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -2866,7 +3248,7 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 518.810955,
+      "waitingHours": 541.4629527777778,
       "comments": 47,
       "labels": [
         "kind:task",
@@ -5192,7 +5574,7 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 736.930955,
+      "waitingHours": 759.5829527777778,
       "comments": 3,
       "labels": [
         "kind:task",
