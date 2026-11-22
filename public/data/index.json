@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T20:44:38.874Z",
+  "generatedAt": "2026-11-22T20:55:04.931Z",
   "repos": [
     {
       "owner": "openJiuwen-ai",
@@ -54,7 +54,7 @@
       "name": "OmniRSI",
       "fullName": "ThinkFlowLab/OmniRSI",
       "htmlUrl": "https://github.com/InferMatrixLab/InferRSI",
-      "description": null,
+      "description": "A universal RSI engine for inference optimization",
       "defaultBranch": "main"
     },
     {

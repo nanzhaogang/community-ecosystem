@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T20:43:46.630Z",
+  "generatedAt": "2026-11-22T20:54:16.256Z",
   "items": [
     {
       "number": 12,
@@ -11,7 +11,7 @@
       "createdAt": "2026-10-15T02:22:47Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 906.3498972222222,
+      "waitingHours": 930.5247933333334,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/ThinkFlowLab/agent-core/pull/12"

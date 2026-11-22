@@ -5,16 +5,21 @@
     "name": "OmniRSI",
     "fullName": "ThinkFlowLab/OmniRSI",
     "htmlUrl": "https://github.com/InferMatrixLab/InferRSI",
-    "description": null,
-    "homepage": null,
+    "description": "A universal RSI engine for inference optimization",
+    "homepage": "",
     "defaultBranch": "main",
     "createdAt": "2026-10-08T00:48:02Z",
     "license": "Apache-2.0",
-    "topics": []
+    "topics": [
+      "inference-optimization",
+      "rsi",
+      "vllm",
+      "vllm-omni"
+    ]
   },
   "monitoringStart": "2026-10-13T08:50:35.691Z",
-  "lastSuccessAt": "2026-11-21T20:43:46.630Z",
-  "lastAttemptAt": "2026-11-21T20:43:46.630Z",
+  "lastSuccessAt": "2026-11-22T20:54:16.256Z",
+  "lastAttemptAt": "2026-11-22T20:54:16.256Z",
   "status": "ok",
   "errors": [],
   "tokenConfigured": true,
