@@ -1,6 +1,66 @@
 {
-  "generatedAt": "2026-11-22T20:54:16.256Z",
+  "generatedAt": "2026-11-24T01:58:38.562Z",
   "items": [
+    {
+      "number": 210,
+      "title": "[Model] Add Inkling 2 Mini Fixed and VarLoop support",
+      "author": "bjf-frz",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-23T13:28:21Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 12.504878333333334,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/210"
+    },
+    {
+      "number": 209,
+      "title": "feat(ascend): add HCCL PD transport",
+      "author": "O1range",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-23T11:54:32Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 14.068489444444445,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/209"
+    },
+    {
+      "number": 208,
+      "title": "[FEAT][Dory/Huginn] Add three-stage staged prefill and loop-level batching (2A phase 2/4)",
+      "author": "LyxWxj",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-23T09:44:08Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 16.241822777777777,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/208"
+    },
+    {
+      "number": 207,
+      "title": "test(nanbeige): qualify incremental KV allocation on CPU and CUDA",
+      "author": "lx6800",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-23T09:31:47Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 16.44765611111111,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/207"
+    },
     {
       "number": 206,
       "title": "perf(models): fuse the qkv and gate/up projections into single GEMVs",
@@ -11,8 +71,8 @@
       "createdAt": "2026-11-22T16:29:32Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 4.412293333333333,
-      "comments": 0,
+      "waitingHours": 33.48515611111111,
+      "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/206"
     },
@@ -26,7 +86,7 @@
       "createdAt": "2026-11-22T16:29:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 4.419515555555556,
+      "waitingHours": 33.492378333333335,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/205"
@@ -41,7 +101,7 @@
       "createdAt": "2026-11-21T10:59:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 33.90618222222222,
+      "waitingHours": 62.979045,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/204"
@@ -56,7 +116,7 @@
       "createdAt": "2026-11-21T04:35:01Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 40.320904444444444,
+      "waitingHours": 69.39376722222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/203"
@@ -71,7 +131,7 @@
       "createdAt": "2026-11-21T03:21:16Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 41.55007111111111,
+      "waitingHours": 70.6229338888889,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/202"
@@ -101,7 +161,7 @@
       "createdAt": "2026-11-19T15:11:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 77.71840444444445,
+      "waitingHours": 106.79126722222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/200"
@@ -116,7 +176,7 @@
       "createdAt": "2026-11-19T05:51:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 87.04062666666667,
+      "waitingHours": 116.11348944444444,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/199"
@@ -131,7 +191,7 @@
       "createdAt": "2026-11-18T11:05:32Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 105.81229333333333,
+      "waitingHours": 134.88515611111112,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/198"
@@ -146,7 +206,7 @@
       "createdAt": "2026-11-18T03:28:05Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 113.43646,
+      "waitingHours": 142.50932277777778,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/197"
@@ -191,7 +251,7 @@
       "createdAt": "2026-11-17T07:37:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 133.27618222222222,
+      "waitingHours": 162.349045,
       "comments": 6,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/194"
@@ -221,7 +281,7 @@
       "createdAt": "2026-11-16T09:00:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 155.90090444444445,
+      "waitingHours": 184.97376722222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/190"
@@ -401,7 +461,7 @@
       "createdAt": "2026-11-11T05:17:59Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 279.60479333333336,
+      "waitingHours": 308.6776561111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/174"
@@ -431,7 +491,7 @@
       "createdAt": "2026-11-05T18:15:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 410.64284888888886,
+      "waitingHours": 439.71571166666666,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/171"
@@ -446,7 +506,7 @@
       "createdAt": "2026-11-04T15:22:09Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 437.5353488888889,
+      "waitingHours": 466.60821166666665,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/170"
@@ -476,7 +536,7 @@
       "createdAt": "2026-11-03T04:02:05Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 472.86979333333335,
+      "waitingHours": 501.9426561111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/167"
@@ -491,7 +551,7 @@
       "createdAt": "2026-11-03T03:47:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 473.1203488888889,
+      "waitingHours": 502.1932116666667,
       "comments": 7,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/166"
@@ -521,7 +581,7 @@
       "createdAt": "2026-11-02T13:58:13Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 486.93423777777775,
+      "waitingHours": 516.0071005555556,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/164"
@@ -551,7 +611,7 @@
       "createdAt": "2026-11-02T07:04:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 493.8345155555556,
+      "waitingHours": 522.9073783333333,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/162"
@@ -566,7 +626,7 @@
       "createdAt": "2026-11-01T06:31:02Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 518.3872933333333,
+      "waitingHours": 547.4601561111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/161"
@@ -626,7 +686,7 @@
       "createdAt": "2026-10-27T17:09:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 627.7406266666667,
+      "waitingHours": 656.8134894444445,
       "comments": 58,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/157"
@@ -641,7 +701,7 @@
       "createdAt": "2026-10-27T09:23:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 635.5086822222222,
+      "waitingHours": 664.581545,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/155"
@@ -671,7 +731,7 @@
       "createdAt": "2026-10-26T03:26:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 665.4595155555555,
+      "waitingHours": 694.5323783333333,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/153"
@@ -746,7 +806,7 @@
       "createdAt": "2026-10-25T16:35:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 676.3184044444445,
+      "waitingHours": 705.3912672222223,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/148"
@@ -761,7 +821,7 @@
       "createdAt": "2026-10-25T16:35:08Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 676.31896,
+      "waitingHours": 705.3918227777777,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/147"
@@ -821,7 +881,7 @@
       "createdAt": "2026-10-23T12:56:42Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 727.9595155555555,
+      "waitingHours": 757.0323783333333,
       "comments": 3,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/143"
@@ -836,7 +896,7 @@
       "createdAt": "2026-10-23T03:47:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 737.1078488888888,
+      "waitingHours": 766.1807116666666,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/142"
@@ -881,7 +941,7 @@
       "createdAt": "2026-10-22T11:40:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 753.2222933333334,
+      "waitingHours": 782.295156111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/139"
@@ -896,7 +956,7 @@
       "createdAt": "2026-10-22T11:13:49Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 753.6742377777778,
+      "waitingHours": 782.7471005555556,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/138"
@@ -911,7 +971,7 @@
       "createdAt": "2026-10-22T08:22:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 756.5345155555556,
+      "waitingHours": 785.6073783333334,
       "comments": 7,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/137"
@@ -971,7 +1031,7 @@
       "createdAt": "2026-10-18T09:15:01Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 851.6542377777778,
+      "waitingHours": 880.7271005555556,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/133"
@@ -1076,7 +1136,7 @@
       "createdAt": "2026-10-14T16:47:12Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 940.117848888889,
+      "waitingHours": 969.1907116666666,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/125"
@@ -1136,7 +1196,7 @@
       "createdAt": "2026-10-13T13:49:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 967.0797933333333,
+      "waitingHours": 996.1526561111111,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/120"
@@ -1151,7 +1211,7 @@
       "createdAt": "2026-10-12T21:31:09Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 983.3853488888889,
+      "waitingHours": 1012.4582116666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/119"
@@ -1256,7 +1316,7 @@
       "createdAt": "2026-10-10T08:14:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1044.6695155555556,
+      "waitingHours": 1073.7423783333334,
       "comments": 6,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/112"
@@ -1271,7 +1331,7 @@
       "createdAt": "2026-10-08T08:22:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1092.5322933333334,
+      "waitingHours": 1121.605156111111,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/110"
@@ -1406,7 +1466,7 @@
       "createdAt": "2026-10-05T02:06:02Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1170.80396,
+      "waitingHours": 1199.8768227777778,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/101"
@@ -1616,7 +1676,7 @@
       "createdAt": "2026-10-04T18:23:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1178.5056266666666,
+      "waitingHours": 1207.5784894444444,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/86"
@@ -1631,7 +1691,7 @@
       "createdAt": "2026-10-03T05:56:58Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1214.955071111111,
+      "waitingHours": 1244.0279338888888,
       "comments": 13,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/83"
@@ -1691,7 +1751,7 @@
       "createdAt": "2026-10-01T12:34:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1256.3236822222223,
+      "waitingHours": 1285.396545,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/78"
@@ -1856,7 +1916,7 @@
       "createdAt": "2026-09-25T07:39:56Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1405.23896,
+      "waitingHours": 1434.3118227777777,
       "comments": 8,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/62"
@@ -2051,7 +2111,7 @@
       "createdAt": "2026-09-23T13:06:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1447.7953488888888,
+      "waitingHours": 1476.8682116666666,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/vllm-rlt/pull/47"

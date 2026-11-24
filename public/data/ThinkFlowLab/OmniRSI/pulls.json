@@ -1,6 +1,219 @@
 {
-  "generatedAt": "2026-11-22T20:54:16.256Z",
+  "generatedAt": "2026-11-24T01:58:38.562Z",
   "items": [
+    {
+      "number": 609,
+      "title": "feat(apps): assemble role-bound evidence capture ports",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-23T16:19:31Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 9.652100555555556,
+      "comments": 0,
+      "labels": [
+        "kind:task",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/609"
+    },
+    {
+      "number": 607,
+      "title": "Remove the independent-approvals CI check and rely on native reviews",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-23T09:36:38Z",
+      "mergedAt": "2026-11-23T11:37:46Z",
+      "closedAt": "2026-11-23T11:37:46Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/607"
+    },
+    {
+      "number": 605,
+      "title": "fix(apps): close six review defects in host, compare, delivery and views",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-23T06:53:47Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 19.080989444444445,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/605"
+    },
+    {
+      "number": 604,
+      "title": "fix(apps): handle long WorkSwarm runtime-cache roots",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-23T06:39:41Z",
+      "mergedAt": "2026-11-23T07:04:30Z",
+      "closedAt": "2026-11-23T07:04:30Z",
+      "waitingHours": null,
+      "comments": 4,
+      "labels": [
+        "kind:task",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/604"
+    },
+    {
+      "number": 601,
+      "title": "docs: give each issue at most one parent and its own completion condition",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-23T03:51:39Z",
+      "mergedAt": "2026-11-23T13:17:51Z",
+      "closedAt": "2026-11-23T13:17:51Z",
+      "waitingHours": null,
+      "comments": 6,
+      "labels": [
+        "kind:docs",
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/601"
+    },
+    {
+      "number": 600,
+      "title": "docs: correct retired paths and drop dead knowledge path patterns",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-23T03:30:08Z",
+      "mergedAt": "2026-11-23T07:15:51Z",
+      "closedAt": "2026-11-23T07:15:51Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/600"
+    },
+    {
+      "number": 598,
+      "title": "Add DeepSeek V4.1 Flash optimization case",
+      "author": "lirx-pd",
+      "contributionType": "external",
+      "state": "closed",
+      "isDraft": true,
+      "createdAt": "2026-11-23T03:02:47Z",
+      "mergedAt": null,
+      "closedAt": "2026-11-23T03:32:22Z",
+      "waitingHours": null,
+      "comments": 0,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/598"
+    },
+    {
+      "number": 597,
+      "title": "feat(apps): expose saved-request evaluation CLI",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-23T02:56:24Z",
+      "mergedAt": "2026-11-23T05:24:53Z",
+      "closedAt": "2026-11-23T05:24:53Z",
+      "waitingHours": null,
+      "comments": 16,
+      "labels": [
+        "kind:task",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/597"
+    },
+    {
+      "number": 594,
+      "title": "docs: record Realtime-Venus turn and full-duplex adaptation",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-23T02:02:27Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 23.936545,
+      "comments": 0,
+      "labels": [
+        "kind:docs"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/594"
+    },
+    {
+      "number": 592,
+      "title": "feat(apps): retain generation references across fixed-record views",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-23T00:11:57Z",
+      "mergedAt": "2026-11-23T01:24:09Z",
+      "closedAt": "2026-11-23T01:24:09Z",
+      "waitingHours": null,
+      "comments": 6,
+      "labels": [
+        "kind:task",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/592"
+    },
+    {
+      "number": 590,
+      "title": "feat(harness): validate frozen generation feedback policy",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-22T21:25:36Z",
+      "mergedAt": "2026-11-23T04:31:57Z",
+      "closedAt": "2026-11-23T04:31:57Z",
+      "waitingHours": null,
+      "comments": 14,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/590"
+    },
+    {
+      "number": 589,
+      "title": "Retain per-arm attempts and total wall in knowledge comparisons",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-22T21:09:22Z",
+      "mergedAt": "2026-11-23T14:44:37Z",
+      "closedAt": "2026-11-23T14:44:37Z",
+      "waitingHours": null,
+      "comments": 24,
+      "labels": [
+        "kind:task",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/589"
+    },
     {
       "number": 588,
       "title": "Attribute Qwen candidate shape errors only after baseline recheck",
@@ -11,8 +224,8 @@
       "createdAt": "2026-11-22T20:22:26Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 0.5306266666666667,
-      "comments": 0,
+      "waitingHours": 29.603489444444445,
+      "comments": 18,
       "labels": [
         "kind:task",
         "area:benchmark"
@@ -24,12 +237,12 @@
       "title": "docs: clarify trusted-host generation feedback responsibility",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-22T20:17:42Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 0.6095155555555556,
+      "mergedAt": "2026-11-22T23:55:32Z",
+      "closedAt": "2026-11-22T23:55:32Z",
+      "waitingHours": null,
       "comments": 3,
       "labels": [
         "kind:docs"
@@ -41,12 +254,12 @@
       "title": "Retain original generation bounds without changing sealing identity",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-22T18:55:09Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 1.9853488888888888,
+      "mergedAt": "2026-11-22T23:55:27Z",
+      "closedAt": "2026-11-22T23:55:27Z",
+      "waitingHours": null,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -59,13 +272,13 @@
       "title": "Split round adoption by search hits and direct reads",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-22T17:09:16Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 3.750071111111111,
-      "comments": 5,
+      "mergedAt": "2026-11-23T04:32:00Z",
+      "closedAt": "2026-11-23T04:32:00Z",
+      "waitingHours": null,
+      "comments": 11,
       "labels": [
         "kind:task"
       ],
@@ -93,12 +306,12 @@
       "title": "docs(skills): link weight loading to checkpoint anchoring gates",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-22T16:10:31Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 4.729237777777778,
+      "mergedAt": "2026-11-23T04:27:19Z",
+      "closedAt": "2026-11-23T04:27:19Z",
+      "waitingHours": null,
       "comments": 2,
       "labels": [
         "kind:docs",
@@ -128,13 +341,13 @@
       "title": "Accept a YAML task file in inferrsi plan and run with --task",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-22T14:25:18Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 6.482848888888889,
-      "comments": 18,
+      "mergedAt": "2026-11-23T04:29:53Z",
+      "closedAt": "2026-11-23T04:29:53Z",
+      "waitingHours": null,
+      "comments": 23,
       "labels": [
         "kind:task",
         "area:apps"
@@ -151,8 +364,8 @@
       "createdAt": "2026-11-22T14:03:27Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 6.847015555555555,
-      "comments": 4,
+      "waitingHours": 35.91987833333334,
+      "comments": 17,
       "labels": [
         "kind:task",
         "area:apps"
@@ -164,13 +377,13 @@
       "title": "feat(benchmark): deliver the pinned CPU task after Apps integration",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-22T13:44:59Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 7.154793333333333,
-      "comments": 1,
+      "mergedAt": "2026-11-24T01:00:38Z",
+      "closedAt": "2026-11-24T01:00:38Z",
+      "waitingHours": null,
+      "comments": 5,
       "labels": [
         "kind:task",
         "area:benchmark"
@@ -199,13 +412,13 @@
       "title": "docs: add collaboration skills and slim the agent entry page",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-22T02:35:50Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 18.307293333333334,
-      "comments": 10,
+      "mergedAt": "2026-11-23T23:52:47Z",
+      "closedAt": "2026-11-23T23:52:47Z",
+      "waitingHours": null,
+      "comments": 20,
       "labels": [
         "kind:docs",
         "area:process"
@@ -222,8 +435,8 @@
       "createdAt": "2026-11-22T02:21:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 18.542015555555555,
-      "comments": 11,
+      "waitingHours": 47.61487833333333,
+      "comments": 24,
       "labels": [
         "kind:docs",
         "area:process"
@@ -252,13 +465,13 @@
       "title": "feat(apps): assemble role-bound evidence capture ports",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-21T15:23:36Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 29.51118222222222,
-      "comments": 2,
+      "mergedAt": "2026-11-23T03:36:56Z",
+      "closedAt": "2026-11-23T03:36:56Z",
+      "waitingHours": null,
+      "comments": 6,
       "labels": [
         "kind:task",
         "area:apps"
@@ -270,13 +483,13 @@
       "title": "feat(harness): seal evaluation capture proofs before commit",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-21T14:49:36Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 30.077848888888887,
-      "comments": 3,
+      "mergedAt": "2026-11-23T16:14:49Z",
+      "closedAt": "2026-11-23T16:14:49Z",
+      "waitingHours": null,
+      "comments": 22,
       "labels": [
         "kind:task",
         "area:harness"
@@ -288,13 +501,13 @@
       "title": "feat(benchmark): project P1 reports into capture drafts",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-21T14:21:50Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 30.540626666666668,
-      "comments": 6,
+      "mergedAt": "2026-11-23T13:03:45Z",
+      "closedAt": "2026-11-23T13:03:45Z",
+      "waitingHours": null,
+      "comments": 33,
       "labels": [
         "kind:task",
         "area:benchmark"
@@ -306,13 +519,13 @@
       "title": "fix(harness): preserve evaluation limits and replay original attempts (PR-3)",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-21T13:44:51Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 31.157015555555557,
-      "comments": 1,
+      "mergedAt": "2026-11-23T01:39:39Z",
+      "closedAt": "2026-11-23T01:39:39Z",
+      "waitingHours": null,
+      "comments": 7,
       "labels": [
         "kind:task",
         "area:harness"
@@ -342,12 +555,12 @@
       "title": "feat(harness): retain actual entry verification after registration (PR-2)",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-21T12:36:00Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 32.304515555555554,
+      "mergedAt": "2026-11-22T23:52:55Z",
+      "closedAt": "2026-11-22T23:52:56Z",
+      "waitingHours": null,
       "comments": 9,
       "labels": [
         "kind:task",
@@ -675,8 +888,8 @@
       "createdAt": "2026-11-20T03:07:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 65.78590444444444,
-      "comments": 1,
+      "waitingHours": 94.85876722222223,
+      "comments": 2,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -764,7 +977,7 @@
       "createdAt": "2026-11-19T15:29:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 77.41201555555556,
+      "waitingHours": 106.48487833333333,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -871,8 +1084,8 @@
       "createdAt": "2026-11-19T07:30:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 85.39229333333333,
-      "comments": 15,
+      "waitingHours": 114.46515611111111,
+      "comments": 29,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -1014,7 +1227,7 @@
       "createdAt": "2026-11-18T16:51:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 100.05340444444444,
+      "waitingHours": 129.12626722222222,
       "comments": 10,
       "labels": [
         "kind:task",
@@ -1157,7 +1370,7 @@
       "createdAt": "2026-11-18T06:52:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 110.02646,
+      "waitingHours": 139.0993227777778,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -1175,7 +1388,7 @@
       "createdAt": "2026-11-18T06:14:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 110.66312666666667,
+      "waitingHours": 139.73598944444444,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -1193,8 +1406,8 @@
       "createdAt": "2026-11-18T04:53:14Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 112.01729333333333,
-      "comments": 2,
+      "waitingHours": 141.0901561111111,
+      "comments": 3,
       "labels": [
         "kind:task",
         "area:harness"
@@ -1283,8 +1496,8 @@
       "createdAt": "2026-11-17T09:31:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 131.38590444444444,
-      "comments": 11,
+      "waitingHours": 160.45876722222224,
+      "comments": 12,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -1749,13 +1962,13 @@
       "title": "Add an advisory independent-approval observer before cutover",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-14T06:00:19Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 206.89923777777778,
-      "comments": 3,
+      "mergedAt": "2026-11-23T06:58:04Z",
+      "closedAt": "2026-11-23T06:58:04Z",
+      "waitingHours": null,
+      "comments": 27,
       "labels": [
         "kind:task",
         "area:process"
@@ -2217,13 +2430,13 @@
       "title": "skill: add model-level speed-of-light analysis (model-sol-analysis)",
       "author": "fake0fan",
       "contributionType": "external",
-      "state": "open",
-      "isDraft": true,
+      "state": "merged",
+      "isDraft": false,
       "createdAt": "2026-11-10T08:55:13Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 299.98423777777776,
-      "comments": 5,
+      "mergedAt": "2026-11-23T09:55:11Z",
+      "closedAt": "2026-11-23T09:55:11Z",
+      "waitingHours": null,
+      "comments": 17,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -2568,7 +2781,7 @@
       "createdAt": "2026-11-04T08:41:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 444.21562666666665,
+      "waitingHours": 473.28848944444445,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -2730,7 +2943,7 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 471.9117377777778,
+      "waitingHours": 500.9846005555556,
       "comments": 27,
       "labels": [
         "kind:task",
@@ -2767,7 +2980,7 @@
       "createdAt": "2026-11-03T03:20:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 473.57007111111113,
+      "waitingHours": 502.6429338888889,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -3479,8 +3692,8 @@
       "createdAt": "2026-10-30T07:16:00Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 565.6378488888889,
-      "comments": 47,
+      "waitingHours": 594.7107116666666,
+      "comments": 60,
       "labels": [
         "kind:task",
         "area:harness",
@@ -5805,7 +6018,7 @@
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 783.7578488888889,
+      "waitingHours": 812.8307116666666,
       "comments": 3,
       "labels": [
         "kind:task",
