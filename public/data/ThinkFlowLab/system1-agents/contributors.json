@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T01:58:38.562Z",
+  "generatedAt": "2026-11-24T23:43:13.926Z",
   "items": [
     {
       "login": "Birfy",
@@ -52,6 +52,16 @@
       "reviews": 0
     },
     {
+      "login": "dependabot[bot]",
+      "contributionType": "unknown",
+      "isBot": true,
+      "firstContributionAt": "2026-09-22T16:49:13Z",
+      "lastContributionAt": "2026-11-24T20:34:39Z",
+      "pulls": 5,
+      "issues": 0,
+      "reviews": 0
+    },
+    {
       "login": "QianCyrus",
       "contributionType": "internal",
       "isBot": false,
@@ -59,16 +69,6 @@
       "lastContributionAt": "2026-10-06T08:45:59Z",
       "pulls": 2,
       "issues": 3,
-      "reviews": 0
-    },
-    {
-      "login": "dependabot[bot]",
-      "contributionType": "unknown",
-      "isBot": true,
-      "firstContributionAt": "2026-09-22T16:49:13Z",
-      "lastContributionAt": "2026-11-03T20:37:20Z",
-      "pulls": 4,
-      "issues": 0,
       "reviews": 0
     },
     {

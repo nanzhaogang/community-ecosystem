@@ -698,19 +698,19 @@
   },
   {
     "date": "2026-11-24",
-    "stars": 231,
-    "forks": 47,
+    "stars": 232,
+    "forks": 48,
     "watchers": 3,
-    "openPulls": 45,
-    "openIssues": 16,
-    "totalPulls": 176,
-    "totalIssues": 34,
-    "newPulls": 0,
-    "mergedPulls": 0,
-    "closedUnmergedPulls": 0,
-    "newIssues": 0,
+    "openPulls": 38,
+    "openIssues": 15,
+    "totalPulls": 136,
+    "totalIssues": 33,
+    "newPulls": 6,
+    "mergedPulls": 3,
+    "closedUnmergedPulls": 1,
+    "newIssues": 1,
     "closedIssues": 0,
-    "activeContributors": 0,
-    "collectedAt": "2026-11-24T01:58:38.562Z"
+    "activeContributors": 4,
+    "collectedAt": "2026-11-24T23:43:13.926Z"
   }
 ]

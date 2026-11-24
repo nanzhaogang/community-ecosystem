@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T01:58:38.562Z",
+  "generatedAt": "2026-11-24T23:43:13.926Z",
   "items": [
     {
       "number": 218,
@@ -11,7 +11,7 @@
       "createdAt": "2026-11-23T09:13:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 16.746545,
+      "waitingHours": 38.48970166666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/218"
@@ -26,7 +26,7 @@
       "createdAt": "2026-11-23T06:20:25Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 19.637100555555556,
+      "waitingHours": 41.38025722222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/217"
@@ -41,7 +41,7 @@
       "createdAt": "2026-11-23T05:34:31Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 20.402100555555556,
+      "waitingHours": 42.14525722222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/216"
@@ -56,7 +56,7 @@
       "createdAt": "2026-11-20T07:26:22Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 90.53793388888889,
+      "waitingHours": 112.28109055555555,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/215"
@@ -86,7 +86,7 @@
       "createdAt": "2026-11-20T06:52:06Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 91.109045,
+      "waitingHours": 112.85220166666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/213"
@@ -101,7 +101,7 @@
       "createdAt": "2026-11-20T06:38:32Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 91.33515611111112,
+      "waitingHours": 113.07831277777778,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/212"
@@ -116,7 +116,7 @@
       "createdAt": "2026-11-20T05:44:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 92.23598944444444,
+      "waitingHours": 113.9791461111111,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/211"
@@ -131,7 +131,7 @@
       "createdAt": "2026-11-20T05:12:09Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 92.77487833333333,
+      "waitingHours": 114.518035,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/210"
@@ -146,7 +146,7 @@
       "createdAt": "2026-11-20T04:28:43Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 93.49876722222223,
+      "waitingHours": 115.24192388888889,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/209"
@@ -161,7 +161,7 @@
       "createdAt": "2026-11-20T02:50:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 95.14210055555556,
+      "waitingHours": 116.88525722222222,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/208"
@@ -176,7 +176,7 @@
       "createdAt": "2026-11-20T02:19:02Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 95.6601561111111,
+      "waitingHours": 117.40331277777777,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/207"
@@ -191,7 +191,7 @@
       "createdAt": "2026-11-19T12:56:26Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 109.03682277777777,
+      "waitingHours": 130.77997944444445,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/206"
@@ -206,7 +206,7 @@
       "createdAt": "2026-11-19T12:42:45Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 109.26487833333333,
+      "waitingHours": 131.008035,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/205"
@@ -266,7 +266,7 @@
       "createdAt": "2026-11-01T01:55:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 552.0512672222222,
+      "waitingHours": 573.7944238888889,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/201"
@@ -311,7 +311,7 @@
       "createdAt": "2026-10-28T12:06:03Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 637.876545,
+      "waitingHours": 659.6197016666666,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/198"
@@ -326,7 +326,7 @@
       "createdAt": "2026-10-28T07:21:58Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 642.6112672222222,
+      "waitingHours": 664.3544238888888,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/197"
@@ -356,7 +356,7 @@
       "createdAt": "2026-10-27T12:16:15Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 661.706545,
+      "waitingHours": 683.4497016666667,
       "comments": 8,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/195"
@@ -596,7 +596,7 @@
       "createdAt": "2026-10-25T06:03:01Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 715.9271005555555,
+      "waitingHours": 737.6702572222222,
       "comments": 8,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/177"
@@ -611,7 +611,7 @@
       "createdAt": "2026-10-25T06:02:36Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 715.934045,
+      "waitingHours": 737.6772016666666,
       "comments": 7,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/176"
@@ -626,7 +626,7 @@
       "createdAt": "2026-10-25T06:02:02Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 715.9434894444445,
+      "waitingHours": 737.6866461111111,
       "comments": 7,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/175"
@@ -793,7 +793,7 @@
       "createdAt": "2026-10-20T12:52:53Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 829.0959894444444,
+      "waitingHours": 850.8391461111111,
       "comments": 11,
       "labels": [
         "high priority"
@@ -895,7 +895,7 @@
       "createdAt": "2026-10-14T14:21:30Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 971.619045,
+      "waitingHours": 993.3622016666667,
       "comments": 2,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/145"
@@ -955,7 +955,7 @@
       "createdAt": "2026-10-12T17:30:09Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1016.4748783333333,
+      "waitingHours": 1038.218035,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/141"
@@ -970,7 +970,7 @@
       "createdAt": "2026-10-12T14:22:29Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1019.6026561111111,
+      "waitingHours": 1041.3458127777778,
       "comments": 3,
       "labels": [
         "high priority"
@@ -1130,7 +1130,7 @@
       "createdAt": "2026-10-08T14:51:51Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1115.1132116666668,
+      "waitingHours": 1136.8563683333334,
       "comments": 4,
       "labels": [
         "high priority"
@@ -1333,7 +1333,7 @@
       "createdAt": "2026-10-07T12:14:50Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1141.730156111111,
+      "waitingHours": 1163.4733127777777,
       "comments": 7,
       "labels": [
         "high priority"
@@ -1672,7 +1672,7 @@
       "createdAt": "2026-10-05T00:46:09Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1201.2082116666666,
+      "waitingHours": 1222.9513683333332,
       "comments": 2,
       "labels": [
         "high priority"
@@ -1871,7 +1871,7 @@
       "createdAt": "2026-10-03T13:09:10Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1236.8246005555557,
+      "waitingHours": 1258.5677572222223,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/69"
@@ -2261,7 +2261,7 @@
       "createdAt": "2026-09-29T05:02:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 1340.929045,
+      "waitingHours": 1362.6722016666668,
       "comments": 13,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/system1-omni/pull/35"

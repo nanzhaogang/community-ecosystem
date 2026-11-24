@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-11-24T01:58:38.562Z",
+  "generatedAt": "2026-11-24T23:43:13.926Z",
   "items": [
     {
       "login": "Dong1017",
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-10-14T02:18:38Z",
-      "lastContributionAt": "2026-11-23T06:53:47Z",
-      "pulls": 201,
-      "issues": 75,
+      "lastContributionAt": "2026-11-24T19:07:08Z",
+      "pulls": 218,
+      "issues": 86,
       "reviews": 0
     },
     {
@@ -16,9 +16,9 @@
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-10-19T08:31:56Z",
-      "lastContributionAt": "2026-11-23T16:19:31Z",
-      "pulls": 64,
-      "issues": 33,
+      "lastContributionAt": "2026-11-24T16:58:27Z",
+      "pulls": 72,
+      "issues": 35,
       "reviews": 0
     },
     {
@@ -46,9 +46,9 @@
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-10-21T04:54:34Z",
-      "lastContributionAt": "2026-11-23T15:25:13Z",
-      "pulls": 12,
-      "issues": 17,
+      "lastContributionAt": "2026-11-24T03:34:43Z",
+      "pulls": 13,
+      "issues": 18,
       "reviews": 0
     },
     {
@@ -66,8 +66,8 @@
       "contributionType": "external",
       "isBot": false,
       "firstContributionAt": "2026-11-21T07:33:38Z",
-      "lastContributionAt": "2026-11-21T10:40:32Z",
-      "pulls": 8,
+      "lastContributionAt": "2026-11-24T15:52:43Z",
+      "pulls": 9,
       "issues": 2,
       "reviews": 0
     },
@@ -129,6 +129,16 @@
       "lastContributionAt": "2026-11-17T09:31:07Z",
       "pulls": 3,
       "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "psv666",
+      "contributionType": "external",
+      "isBot": false,
+      "firstContributionAt": "2026-11-24T13:20:10Z",
+      "lastContributionAt": "2026-11-24T13:31:51Z",
+      "pulls": 1,
+      "issues": 1,
       "reviews": 0
     },
     {
@@ -219,6 +229,16 @@
       "lastContributionAt": "2026-10-30T07:16:00Z",
       "pulls": 1,
       "issues": 0,
+      "reviews": 0
+    },
+    {
+      "login": "Gaohan123",
+      "contributionType": "external",
+      "isBot": false,
+      "firstContributionAt": "2026-11-24T16:13:18Z",
+      "lastContributionAt": "2026-11-24T16:13:18Z",
+      "pulls": 0,
+      "issues": 1,
       "reviews": 0
     },
     {

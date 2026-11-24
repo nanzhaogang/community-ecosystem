@@ -1,6 +1,281 @@
 {
-  "generatedAt": "2026-11-24T01:58:38.562Z",
+  "generatedAt": "2026-11-24T23:43:13.926Z",
   "items": [
+    {
+      "number": 1368,
+      "title": "[Bug]: Importing a research package duplicates its evolution run records under new ids",
+      "author": "HongyeZhou",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-24T15:58:31Z",
+      "closedAt": null,
+      "waitingHours": 7.7452572222222225,
+      "comments": 1,
+      "labels": [
+        "bug",
+        "bot-develop"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1368"
+    },
+    {
+      "number": 1366,
+      "title": "[Bug]: Model usage and Runtime settings pages block for about a second with no skeleton",
+      "author": "HongyeZhou",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-24T13:20:54Z",
+      "closedAt": null,
+      "waitingHours": 10.372201666666667,
+      "comments": 3,
+      "labels": [
+        "bug",
+        "confirmed",
+        "bug/P2",
+        "bot-reviewed",
+        "bot-develop",
+        "performance",
+        "bot-developed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1366"
+    },
+    {
+      "number": 1365,
+      "title": "[Bug]: Exporting a 189 KB Session package takes 38 s, and the size estimate takes 6 s",
+      "author": "HongyeZhou",
+      "contributionType": "internal",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-11-24T13:20:51Z",
+      "closedAt": "2026-11-24T21:33:33Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "bug",
+        "bug/P2",
+        "bot-reviewed",
+        "bot-develop",
+        "performance",
+        "bot-developed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1365"
+    },
+    {
+      "number": 1360,
+      "title": "[Feature]: Route heavy merge-queue L2 mocked E2E shards and UT to self-hosted Docker runners behind a toggle",
+      "author": "zhaozhaozz",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-24T09:39:48Z",
+      "closedAt": null,
+      "waitingHours": 14.057201666666666,
+      "comments": 1,
+      "labels": [
+        "feature",
+        "release:internal",
+        "bot-reviewed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1360"
+    },
+    {
+      "number": 1354,
+      "title": "[Feature]: Let the desktop client delete a single Scientific memory record",
+      "author": "HongyeZhou",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-24T06:42:39Z",
+      "closedAt": null,
+      "waitingHours": 17.00970166666667,
+      "comments": 4,
+      "labels": [
+        "feature",
+        "bot-reviewed",
+        "bot-develop",
+        "bot-developed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1354"
+    },
+    {
+      "number": 1353,
+      "title": "[Feature]: Add an archive entry for a Session in the desktop client",
+      "author": "HongyeZhou",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-24T06:42:36Z",
+      "closedAt": null,
+      "waitingHours": 17.010535,
+      "comments": 3,
+      "labels": [
+        "duplicate",
+        "feature",
+        "bot-reviewed",
+        "bot-develop",
+        "bot-needs-human"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1353"
+    },
+    {
+      "number": 1352,
+      "title": "[Bug]: Scientific memory reports Running normally while every query is rejected with 401",
+      "author": "HongyeZhou",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-24T06:42:33Z",
+      "closedAt": null,
+      "waitingHours": 17.011368333333333,
+      "comments": 3,
+      "labels": [
+        "bug",
+        "confirmed",
+        "bug/P2",
+        "bot-reviewed",
+        "bot-develop",
+        "bot-developed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1352"
+    },
+    {
+      "number": 1351,
+      "title": "[Bug]: The Open network mode button does nothing: no confirmation, no mode change, no hint",
+      "author": "HongyeZhou",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-24T06:42:30Z",
+      "closedAt": null,
+      "waitingHours": 17.012201666666666,
+      "comments": 4,
+      "labels": [
+        "bug",
+        "bot-reviewed",
+        "bot-develop",
+        "bot-developed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1351"
+    },
+    {
+      "number": 1350,
+      "title": "[Bug]: Start design closes the dialog, drops the task into the composer, and sends nothing",
+      "author": "HongyeZhou",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-24T06:42:28Z",
+      "closedAt": null,
+      "waitingHours": 17.012757222222223,
+      "comments": 3,
+      "labels": [
+        "bug",
+        "bot-reviewed",
+        "bot-develop",
+        "bot-developed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1350"
+    },
+    {
+      "number": 1349,
+      "title": "[Bug]: The evolve run card shows only a terminal state, and Stop gives no in-progress feedback",
+      "author": "HongyeZhou",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-24T06:02:27Z",
+      "closedAt": null,
+      "waitingHours": 17.679701666666666,
+      "comments": 3,
+      "labels": [
+        "bug",
+        "confirmed",
+        "bug/P2",
+        "bot-reviewed",
+        "bot-develop",
+        "bot-developed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1349"
+    },
+    {
+      "number": 1348,
+      "title": "[Bug]: Older Sessions are folded behind Show more with no hint of how many are hidden",
+      "author": "HongyeZhou",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-24T06:02:22Z",
+      "closedAt": null,
+      "waitingHours": 17.681090555555556,
+      "comments": 4,
+      "labels": [
+        "bug",
+        "confirmed",
+        "bug/P2",
+        "bot-reviewed",
+        "bot-develop",
+        "bot-developed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1348"
+    },
+    {
+      "number": 1347,
+      "title": "[Bug]: The Session export preview shows the uncompressed size, so the estimate is about four times the download",
+      "author": "HongyeZhou",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-24T06:02:19Z",
+      "closedAt": null,
+      "waitingHours": 17.68192388888889,
+      "comments": 3,
+      "labels": [
+        "bug",
+        "confirmed",
+        "bug/P3",
+        "bot-reviewed",
+        "bot-develop",
+        "bot-developed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1347"
+    },
+    {
+      "number": 1346,
+      "title": "[Bug]: Custom evolve parameters give no range or interaction hints, so values are silently coerced",
+      "author": "HongyeZhou",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-24T06:02:15Z",
+      "closedAt": null,
+      "waitingHours": 17.683035,
+      "comments": 3,
+      "labels": [
+        "bug",
+        "needs info",
+        "bot-reviewed",
+        "bot-develop",
+        "bot-developed"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1346"
+    },
+    {
+      "number": 1343,
+      "title": "[Bug]: the changed-path L1 gate diffs a pull request against its recorded base, so main's own additions fail the PR",
+      "author": "agent-ci-infra-bot[bot]",
+      "contributionType": "unknown",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-24T02:24:46Z",
+      "closedAt": null,
+      "waitingHours": 21.30775722222222,
+      "comments": 0,
+      "labels": [
+        "bug"
+      ],
+      "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1343"
+    },
     {
       "number": 1340,
       "title": "Nightly L4: Idea Tree's `Model HTTP 502` is scored as a product failure, and an unstarted macOS job cannot be recovered by re-running failed jobs",
@@ -10,8 +285,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-23T19:16:32Z",
       "closedAt": null,
-      "waitingHours": 6.701822777777778,
-      "comments": 2,
+      "waitingHours": 28.444979444444446,
+      "comments": 3,
       "labels": [
         "bug",
         "ci-failed",
@@ -31,7 +306,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-23T07:51:13Z",
       "closedAt": null,
-      "waitingHours": 18.123767222222224,
+      "waitingHours": 39.86692388888889,
       "comments": 4,
       "labels": [
         "bug",
@@ -51,7 +326,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-23T06:14:18Z",
       "closedAt": null,
-      "waitingHours": 19.739045,
+      "waitingHours": 41.48220166666667,
       "comments": 3,
       "labels": [
         "bug",
@@ -72,7 +347,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-23T06:13:47Z",
       "closedAt": null,
-      "waitingHours": 19.747656111111112,
+      "waitingHours": 41.490812777777776,
       "comments": 3,
       "labels": [
         "bug",
@@ -92,7 +367,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-23T06:13:29Z",
       "closedAt": null,
-      "waitingHours": 19.75265611111111,
+      "waitingHours": 41.49581277777778,
       "comments": 3,
       "labels": [
         "bug",
@@ -113,7 +388,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-23T04:41:44Z",
       "closedAt": null,
-      "waitingHours": 21.281822777777776,
+      "waitingHours": 43.02497944444445,
       "comments": 1,
       "labels": [
         "bug",
@@ -193,7 +468,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-22T13:59:32Z",
       "closedAt": null,
-      "waitingHours": 35.98515611111111,
+      "waitingHours": 57.72831277777778,
       "comments": 2,
       "labels": [
         "bug",
@@ -214,7 +489,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-22T13:59:17Z",
       "closedAt": null,
-      "waitingHours": 35.98932277777778,
+      "waitingHours": 57.732479444444444,
       "comments": 3,
       "labels": [
         "bug",
@@ -235,7 +510,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-22T12:52:47Z",
       "closedAt": null,
-      "waitingHours": 37.097656111111114,
+      "waitingHours": 58.84081277777778,
       "comments": 2,
       "labels": [
         "bug",
@@ -276,7 +551,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-22T08:18:05Z",
       "closedAt": null,
-      "waitingHours": 41.67598944444445,
+      "waitingHours": 63.41914611111111,
       "comments": 2,
       "labels": [
         "bug",
@@ -316,7 +591,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-22T08:10:07Z",
       "closedAt": null,
-      "waitingHours": 41.80876722222222,
+      "waitingHours": 63.551923888888886,
       "comments": 1,
       "labels": [
         "bug",
@@ -395,7 +670,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-22T04:59:56Z",
       "closedAt": null,
-      "waitingHours": 44.97848944444444,
+      "waitingHours": 66.72164611111111,
       "comments": 1,
       "labels": [
         "bug",
@@ -414,7 +689,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-22T04:03:41Z",
       "closedAt": null,
-      "waitingHours": 45.91598944444444,
+      "waitingHours": 67.65914611111111,
       "comments": 2,
       "labels": [
         "bug",
@@ -434,7 +709,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-22T02:57:19Z",
       "closedAt": null,
-      "waitingHours": 47.022100555555554,
+      "waitingHours": 68.76525722222222,
       "comments": 2,
       "labels": [
         "bug",
@@ -701,7 +976,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-19T12:02:58Z",
       "closedAt": null,
-      "waitingHours": 109.92793388888889,
+      "waitingHours": 131.67109055555557,
       "comments": 3,
       "labels": [
         "feature",
@@ -715,11 +990,11 @@
       "title": "[Feature]: Add session archive and restore to the desktop client (filter, actions, read-only archived view)",
       "author": "yuanzhou75",
       "contributionType": "internal",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-19T11:57:14Z",
-      "closedAt": null,
-      "waitingHours": 110.02348944444445,
+      "closedAt": "2026-11-24T08:33:54Z",
+      "waitingHours": null,
       "comments": 1,
       "labels": [
         "feature",
@@ -770,7 +1045,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-19T02:54:19Z",
       "closedAt": null,
-      "waitingHours": 119.07210055555555,
+      "waitingHours": 140.81525722222221,
       "comments": 1,
       "labels": [
         "bug",
@@ -790,7 +1065,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-18T20:05:06Z",
       "closedAt": null,
-      "waitingHours": 125.89237833333334,
+      "waitingHours": 147.635535,
       "comments": 2,
       "labels": [
         "ci-failed",
@@ -807,7 +1082,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-18T20:04:55Z",
       "closedAt": null,
-      "waitingHours": 125.89543388888889,
+      "waitingHours": 147.63859055555557,
       "comments": 1,
       "labels": [
         "bug",
@@ -825,7 +1100,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-18T19:43:11Z",
       "closedAt": null,
-      "waitingHours": 126.25765611111112,
+      "waitingHours": 148.00081277777778,
       "comments": 5,
       "labels": [
         "bot-developed"
@@ -841,7 +1116,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-18T09:52:01Z",
       "closedAt": null,
-      "waitingHours": 136.11043388888888,
+      "waitingHours": 157.85359055555554,
       "comments": 1,
       "labels": [
         "bug",
@@ -893,11 +1168,11 @@
       "title": "[需求] 用户账户中心与用户管理后台（积分展示与运营管理）",
       "author": "nanzhaogang",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-18T03:32:43Z",
-      "closedAt": null,
-      "waitingHours": 142.43210055555556,
+      "closedAt": "2026-11-24T02:59:44Z",
+      "waitingHours": null,
       "comments": 0,
       "labels": [
         "feature",
@@ -969,7 +1244,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-17T12:13:48Z",
       "closedAt": null,
-      "waitingHours": 157.74737833333333,
+      "waitingHours": 179.490535,
       "comments": 1,
       "labels": [
         "feature",
@@ -1081,7 +1356,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-17T07:59:24Z",
       "closedAt": null,
-      "waitingHours": 161.98737833333334,
+      "waitingHours": 183.730535,
       "comments": 1,
       "labels": [
         "feature",
@@ -1119,7 +1394,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-17T07:11:08Z",
       "closedAt": null,
-      "waitingHours": 162.79182277777778,
+      "waitingHours": 184.53497944444445,
       "comments": 1,
       "labels": [
         "feature",
@@ -1364,7 +1639,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-16T11:45:45Z",
       "closedAt": null,
-      "waitingHours": 182.21487833333333,
+      "waitingHours": 203.958035,
       "comments": 1,
       "labels": [
         "feature",
@@ -1476,11 +1751,11 @@
       "title": "[Feature]: macOS desktop adaptation: shell, packaging chain, Seatbelt sandbox & distribution",
       "author": "qingkwl",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-16T03:59:53Z",
-      "closedAt": null,
-      "waitingHours": 189.97932277777778,
+      "closedAt": "2026-11-24T03:03:03Z",
+      "waitingHours": null,
       "comments": 2,
       "labels": [
         "feature",
@@ -1499,7 +1774,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-15T23:48:56Z",
       "closedAt": null,
-      "waitingHours": 194.1618227777778,
+      "waitingHours": 215.90497944444445,
       "comments": 2,
       "labels": [
         "ci-failed",
@@ -1516,7 +1791,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-15T23:48:48Z",
       "closedAt": null,
-      "waitingHours": 194.164045,
+      "waitingHours": 215.90720166666668,
       "comments": 1,
       "labels": [
         "bug",
@@ -1535,7 +1810,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-15T23:48:38Z",
       "closedAt": null,
-      "waitingHours": 194.16682277777778,
+      "waitingHours": 215.90997944444445,
       "comments": 1,
       "labels": [
         "bot-reviewed"
@@ -1551,7 +1826,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-15T23:48:29Z",
       "closedAt": null,
-      "waitingHours": 194.16932277777778,
+      "waitingHours": 215.91247944444444,
       "comments": 1,
       "labels": [
         "bug",
@@ -1790,11 +2065,11 @@
       "title": "[Follow-up] #1053: thread the configured noProxy bypass list into stdio MCP server environments",
       "author": "qingkwl",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-12T00:39:07Z",
-      "closedAt": null,
-      "waitingHours": 289.3254338888889,
+      "closedAt": "2026-11-24T02:59:40Z",
+      "waitingHours": null,
       "comments": 1,
       "labels": [
         "bug",
@@ -2193,7 +2468,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-09T14:49:21Z",
       "closedAt": null,
-      "waitingHours": 347.15487833333333,
+      "waitingHours": 368.898035,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1034"
@@ -2221,7 +2496,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-09T12:31:23Z",
       "closedAt": null,
-      "waitingHours": 349.4543227777778,
+      "waitingHours": 371.19747944444447,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/1029"
@@ -2440,7 +2715,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-08T10:37:51Z",
       "closedAt": null,
-      "waitingHours": 375.346545,
+      "waitingHours": 397.08970166666666,
       "comments": 0,
       "labels": [
         "enhancement",
@@ -3945,7 +4220,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T01:45:26Z",
       "closedAt": null,
-      "waitingHours": 480.2201561111111,
+      "waitingHours": 501.9633127777778,
       "comments": 2,
       "labels": [
         "feature",
@@ -4618,7 +4893,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T02:07:55Z",
       "closedAt": null,
-      "waitingHours": 503.84543388888886,
+      "waitingHours": 525.5885905555556,
       "comments": 3,
       "labels": [
         "bug",
@@ -4848,7 +5123,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T13:06:53Z",
       "closedAt": null,
-      "waitingHours": 612.8626561111112,
+      "waitingHours": 634.6058127777778,
       "comments": 0,
       "labels": [
         "feature"
@@ -4943,7 +5218,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T04:57:50Z",
       "closedAt": null,
-      "waitingHours": 621.0134894444444,
+      "waitingHours": 642.7566461111111,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/673"
@@ -4987,7 +5262,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T04:46:08Z",
       "closedAt": null,
-      "waitingHours": 621.2084894444445,
+      "waitingHours": 642.9516461111111,
       "comments": 0,
       "labels": [
         "enhancement"
@@ -5003,7 +5278,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T04:46:06Z",
       "closedAt": null,
-      "waitingHours": 621.209045,
+      "waitingHours": 642.9522016666666,
       "comments": 0,
       "labels": [
         "enhancement"
@@ -5037,7 +5312,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T04:18:18Z",
       "closedAt": null,
-      "waitingHours": 621.6723783333333,
+      "waitingHours": 643.415535,
       "comments": 4,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/665"
@@ -5154,7 +5429,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T03:06:17Z",
       "closedAt": null,
-      "waitingHours": 622.8726561111112,
+      "waitingHours": 644.6158127777778,
       "comments": 1,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/647"
@@ -5268,7 +5543,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T00:12:30Z",
       "closedAt": null,
-      "waitingHours": 625.769045,
+      "waitingHours": 647.5122016666667,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/633"
@@ -5348,7 +5623,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-28T12:03:04Z",
       "closedAt": null,
-      "waitingHours": 637.9262672222222,
+      "waitingHours": 659.6694238888889,
       "comments": 0,
       "labels": [
         "feature"
@@ -5364,7 +5639,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-28T11:44:51Z",
       "closedAt": null,
-      "waitingHours": 638.2298783333333,
+      "waitingHours": 659.973035,
       "comments": 0,
       "labels": [
         "feature",
@@ -5398,7 +5673,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-28T07:43:41Z",
       "closedAt": null,
-      "waitingHours": 642.2493227777778,
+      "waitingHours": 663.9924794444445,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/618"
@@ -5412,7 +5687,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T12:03:20Z",
       "closedAt": null,
-      "waitingHours": 661.9218227777778,
+      "waitingHours": 683.6649794444445,
       "comments": 1,
       "labels": [
         "enhancement",
@@ -5465,7 +5740,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T11:44:49Z",
       "closedAt": null,
-      "waitingHours": 662.2304338888889,
+      "waitingHours": 683.9735905555556,
       "comments": 0,
       "labels": [
         "feature",
@@ -5551,8 +5826,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T09:14:55Z",
       "closedAt": null,
-      "waitingHours": 664.7287672222222,
-      "comments": 0,
+      "waitingHours": 686.4719238888889,
+      "comments": 1,
       "labels": [
         "feature"
       ],
@@ -5599,7 +5874,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T03:02:16Z",
       "closedAt": null,
-      "waitingHours": 670.9396005555556,
+      "waitingHours": 692.6827572222222,
       "comments": 0,
       "labels": [
         "feature",
@@ -5616,7 +5891,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T03:00:40Z",
       "closedAt": null,
-      "waitingHours": 670.9662672222222,
+      "waitingHours": 692.7094238888889,
       "comments": 1,
       "labels": [
         "feature",
@@ -5633,7 +5908,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T03:00:18Z",
       "closedAt": null,
-      "waitingHours": 670.9723783333334,
+      "waitingHours": 692.715535,
       "comments": 1,
       "labels": [
         "feature",
@@ -5650,7 +5925,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:59:59Z",
       "closedAt": null,
-      "waitingHours": 670.9776561111111,
+      "waitingHours": 692.7208127777777,
       "comments": 0,
       "labels": [
         "feature",
@@ -5667,7 +5942,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:59:44Z",
       "closedAt": null,
-      "waitingHours": 670.9818227777778,
+      "waitingHours": 692.7249794444444,
       "comments": 0,
       "labels": [
         "feature",
@@ -5684,7 +5959,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:59:30Z",
       "closedAt": null,
-      "waitingHours": 670.9857116666667,
+      "waitingHours": 692.7288683333334,
       "comments": 0,
       "labels": [
         "feature",
@@ -5701,7 +5976,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:59:18Z",
       "closedAt": null,
-      "waitingHours": 670.989045,
+      "waitingHours": 692.7322016666667,
       "comments": 0,
       "labels": [
         "feature",
@@ -5718,7 +5993,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:59:06Z",
       "closedAt": null,
-      "waitingHours": 670.9923783333334,
+      "waitingHours": 692.735535,
       "comments": 0,
       "labels": [
         "feature",
@@ -5735,7 +6010,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:58:55Z",
       "closedAt": null,
-      "waitingHours": 670.9954338888889,
+      "waitingHours": 692.7385905555556,
       "comments": 0,
       "labels": [
         "feature",
@@ -5752,7 +6027,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:58:44Z",
       "closedAt": null,
-      "waitingHours": 670.9984894444444,
+      "waitingHours": 692.7416461111111,
       "comments": 0,
       "labels": [
         "feature",
@@ -5769,7 +6044,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:58:23Z",
       "closedAt": null,
-      "waitingHours": 671.0043227777778,
+      "waitingHours": 692.7474794444445,
       "comments": 0,
       "labels": [
         "feature",
@@ -5786,7 +6061,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:58:02Z",
       "closedAt": null,
-      "waitingHours": 671.0101561111111,
+      "waitingHours": 692.7533127777778,
       "comments": 0,
       "labels": [
         "feature",
@@ -5803,7 +6078,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:57:49Z",
       "closedAt": null,
-      "waitingHours": 671.0137672222222,
+      "waitingHours": 692.7569238888889,
       "comments": 0,
       "labels": [
         "feature",
@@ -5820,7 +6095,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:57:38Z",
       "closedAt": null,
-      "waitingHours": 671.0168227777777,
+      "waitingHours": 692.7599794444444,
       "comments": 0,
       "labels": [
         "feature",
@@ -5837,7 +6112,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:57:09Z",
       "closedAt": null,
-      "waitingHours": 671.0248783333333,
+      "waitingHours": 692.768035,
       "comments": 1,
       "labels": [
         "feature",
@@ -5854,7 +6129,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T02:56:16Z",
       "closedAt": null,
-      "waitingHours": 671.0396005555556,
+      "waitingHours": 692.7827572222222,
       "comments": 1,
       "labels": [
         "feature",
@@ -6044,7 +6319,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-23T02:45:21Z",
       "closedAt": null,
-      "waitingHours": 767.221545,
+      "waitingHours": 788.9647016666667,
       "comments": 5,
       "labels": [
         "enhancement",
@@ -6132,7 +6407,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T12:02:16Z",
       "closedAt": null,
-      "waitingHours": 781.9396005555556,
+      "waitingHours": 803.6827572222222,
       "comments": 2,
       "labels": [
         "enhancement",
@@ -6150,7 +6425,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T12:02:12Z",
       "closedAt": null,
-      "waitingHours": 781.9407116666666,
+      "waitingHours": 803.6838683333333,
       "comments": 2,
       "labels": [
         "enhancement",
@@ -6281,7 +6556,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T11:02:39Z",
       "closedAt": null,
-      "waitingHours": 782.9332116666667,
+      "waitingHours": 804.6763683333334,
       "comments": 2,
       "labels": [
         "enhancement",
@@ -6299,7 +6574,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T11:02:35Z",
       "closedAt": null,
-      "waitingHours": 782.9343227777778,
+      "waitingHours": 804.6774794444444,
       "comments": 3,
       "labels": [
         "enhancement",
@@ -6425,7 +6700,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T01:16:09Z",
       "closedAt": null,
-      "waitingHours": 816.7082116666667,
+      "waitingHours": 838.4513683333333,
       "comments": 1,
       "labels": [
         "enhancement",
@@ -6496,7 +6771,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-20T13:21:16Z",
       "closedAt": null,
-      "waitingHours": 828.6229338888888,
+      "waitingHours": 850.3660905555555,
       "comments": 2,
       "labels": [
         "enhancement",
@@ -6680,7 +6955,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-20T06:54:20Z",
       "closedAt": null,
-      "waitingHours": 835.0718227777778,
+      "waitingHours": 856.8149794444445,
       "comments": 2,
       "labels": [
         "enhancement",
@@ -6697,7 +6972,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-20T06:54:19Z",
       "closedAt": null,
-      "waitingHours": 835.0721005555556,
+      "waitingHours": 856.8152572222223,
       "comments": 2,
       "labels": [
         "enhancement",
@@ -6816,7 +7091,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T16:29:05Z",
       "closedAt": null,
-      "waitingHours": 849.4926561111112,
+      "waitingHours": 871.2358127777778,
       "comments": 1,
       "labels": [
         "enhancement",
@@ -6834,7 +7109,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T15:11:03Z",
       "closedAt": null,
-      "waitingHours": 850.7932116666667,
+      "waitingHours": 872.5363683333334,
       "comments": 1,
       "labels": [
         "enhancement",
@@ -6851,7 +7126,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T14:45:10Z",
       "closedAt": null,
-      "waitingHours": 851.2246005555555,
+      "waitingHours": 872.9677572222222,
       "comments": 1,
       "labels": [
         "enhancement"
@@ -6883,7 +7158,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T14:45:09Z",
       "closedAt": null,
-      "waitingHours": 851.2248783333333,
+      "waitingHours": 872.968035,
       "comments": 1,
       "labels": [
         "enhancement"
@@ -6899,7 +7174,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T14:45:08Z",
       "closedAt": null,
-      "waitingHours": 851.2251561111111,
+      "waitingHours": 872.9683127777778,
       "comments": 1,
       "labels": [
         "enhancement"
@@ -7035,7 +7310,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T02:34:05Z",
       "closedAt": null,
-      "waitingHours": 863.4093227777778,
+      "waitingHours": 885.1524794444445,
       "comments": 3,
       "labels": [
         "enhancement",
@@ -7123,7 +7398,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-18T13:07:01Z",
       "closedAt": null,
-      "waitingHours": 876.8604338888889,
+      "waitingHours": 898.6035905555556,
       "comments": 2,
       "labels": [
         "enhancement"
@@ -7189,7 +7464,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-17T14:11:48Z",
       "closedAt": null,
-      "waitingHours": 899.7807116666667,
+      "waitingHours": 921.5238683333333,
       "comments": 2,
       "labels": [
         "documentation",
@@ -7715,7 +7990,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-15T03:28:33Z",
       "closedAt": null,
-      "waitingHours": 958.501545,
+      "waitingHours": 980.2447016666666,
       "comments": 3,
       "labels": [
         "enhancement"
@@ -7779,7 +8054,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-14T15:10:58Z",
       "closedAt": null,
-      "waitingHours": 970.7946005555556,
+      "waitingHours": 992.5377572222222,
       "comments": 3,
       "labels": [
         "enhancement",
@@ -8119,7 +8394,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T06:46:31Z",
       "closedAt": null,
-      "waitingHours": 1051.2021005555555,
+      "waitingHours": 1072.9452572222222,
       "comments": 3,
       "labels": [
         "enhancement",
@@ -8420,7 +8695,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-27T07:56:55Z",
       "closedAt": null,
-      "waitingHours": 1386.0287672222223,
+      "waitingHours": 1407.771923888889,
       "comments": 0,
       "labels": [
         "feature"
@@ -8572,7 +8847,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-22T12:03:57Z",
       "closedAt": null,
-      "waitingHours": 1501.911545,
+      "waitingHours": 1523.6547016666666,
       "comments": 0,
       "labels": [
         "feature",
@@ -8750,7 +9025,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T12:34:23Z",
       "closedAt": null,
-      "waitingHours": 1549.4043227777777,
+      "waitingHours": 1571.1474794444443,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/107"
@@ -8802,7 +9077,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T11:25:59Z",
       "closedAt": null,
-      "waitingHours": 1550.5443227777778,
+      "waitingHours": 1572.2874794444444,
       "comments": 3,
       "labels": [
         "help wanted",
@@ -8839,7 +9114,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T11:25:51Z",
       "closedAt": null,
-      "waitingHours": 1550.546545,
+      "waitingHours": 1572.2897016666666,
       "comments": 3,
       "labels": [
         "help wanted",
@@ -8896,7 +9171,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T11:25:38Z",
       "closedAt": null,
-      "waitingHours": 1550.5501561111112,
+      "waitingHours": 1572.2933127777778,
       "comments": 3,
       "labels": [
         "help wanted",
@@ -8915,7 +9190,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-20T11:25:35Z",
       "closedAt": null,
-      "waitingHours": 1550.5509894444444,
+      "waitingHours": 1572.294146111111,
       "comments": 3,
       "labels": [
         "help wanted",
@@ -9255,7 +9530,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T02:08:22Z",
       "closedAt": null,
-      "waitingHours": 1631.837933888889,
+      "waitingHours": 1653.5810905555556,
       "comments": 2,
       "labels": [
         "feature"
@@ -9288,7 +9563,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-17T00:50:20Z",
       "closedAt": null,
-      "waitingHours": 1633.1384894444445,
+      "waitingHours": 1654.8816461111112,
       "comments": 0,
       "labels": [
         "feature"
@@ -9304,7 +9579,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T23:57:00Z",
       "closedAt": null,
-      "waitingHours": 1634.0273783333334,
+      "waitingHours": 1655.770535,
       "comments": 1,
       "labels": [
         "feature"
@@ -9337,7 +9612,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T14:07:39Z",
       "closedAt": null,
-      "waitingHours": 1643.8498783333334,
+      "waitingHours": 1665.593035,
       "comments": 0,
       "labels": [],
       "url": "https://github.com/openJiuwen-ai/sciencediscovery/issues/48"
@@ -9559,7 +9834,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T09:28:29Z",
       "closedAt": null,
-      "waitingHours": 1648.502656111111,
+      "waitingHours": 1670.2458127777777,
       "comments": 0,
       "labels": [
         "feature"
@@ -9575,7 +9850,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-16T09:28:26Z",
       "closedAt": null,
-      "waitingHours": 1648.5034894444445,
+      "waitingHours": 1670.2466461111112,
       "comments": 0,
       "labels": [
         "feature",
@@ -9715,7 +9990,7 @@
       "isPullRequest": false,
       "createdAt": "2026-09-15T09:57:55Z",
       "closedAt": null,
-      "waitingHours": 1672.0121005555557,
+      "waitingHours": 1693.7552572222223,
       "comments": 0,
       "labels": [
         "feature"
