@@ -1,20 +1,433 @@
 {
-  "generatedAt": "2026-11-24T23:43:13.926Z",
+  "generatedAt": "2026-11-25T23:26:24.809Z",
   "items": [
+    {
+      "number": 700,
+      "title": "task: 提供面向 Agent 的 GitHub 检视与开发 Bot 部署 Skill",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T14:38:19Z",
+      "closedAt": null,
+      "waitingHours": 8.801613611111112,
+      "comments": 2,
+      "labels": [
+        "kind:task",
+        "area:usability",
+        "status:proposed"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/700"
+    },
+    {
+      "number": 698,
+      "title": "Require an evidence-backed feasibility check before freezing project performance goals",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T13:37:33Z",
+      "closedAt": null,
+      "waitingHours": 9.81439138888889,
+      "comments": 6,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/698"
+    },
+    {
+      "number": 697,
+      "title": "task: Allow managed campaigns to continue after a failed final evaluation",
+      "author": "fake0fan",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T13:23:27Z",
+      "closedAt": null,
+      "waitingHours": 10.049391388888889,
+      "comments": 4,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/697"
+    },
+    {
+      "number": 696,
+      "title": "bug: campaign knowledge records a delivery when all matched skills exceed the context budget",
+      "author": "fake0fan",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T13:06:00Z",
+      "closedAt": null,
+      "waitingHours": 10.340224722222223,
+      "comments": 4,
+      "labels": [
+        "kind:bug",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/696"
+    },
+    {
+      "number": 694,
+      "title": "task: 外部 Skill 固定版本外链和 Git 子模块的可复验夹具",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T12:13:09Z",
+      "closedAt": "2026-11-25T14:10:17Z",
+      "waitingHours": null,
+      "comments": 5,
+      "labels": [
+        "kind:task",
+        "area:knowledge",
+        "status:accepted",
+        "bot:auto-close"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/694"
+    },
+    {
+      "number": 690,
+      "title": "RFC: 按任务导航 bot 协作流程，补齐 Issue 评审入口",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T10:50:24Z",
+      "closedAt": null,
+      "waitingHours": 12.600224722222222,
+      "comments": 11,
+      "labels": [
+        "kind:rfc",
+        "area:process",
+        "area:usability",
+        "status:proposed"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/690"
+    },
+    {
+      "number": 689,
+      "title": "task: 明确 Harness loop 子组件边界，先抽出 Indexer 排序策略",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T10:33:50Z",
+      "closedAt": "2026-11-25T12:28:50Z",
+      "waitingHours": null,
+      "comments": 15,
+      "labels": [
+        "kind:task",
+        "area:harness",
+        "area:knowledge",
+        "status:accepted",
+        "bot:auto-close"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/689"
+    },
+    {
+      "number": 688,
+      "title": "[RFC] 接入公开 benchmark（一）：用 Φ-Bench 评测 InferRSI",
+      "author": "Bounty-hunter",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T10:05:47Z",
+      "closedAt": null,
+      "waitingHours": 13.343835833333333,
+      "comments": 3,
+      "labels": [
+        "kind:rfc",
+        "status:proposed",
+        "area:benchmark"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/688"
+    },
+    {
+      "number": 687,
+      "title": "[Campaign] Hy4-Flash-FP8 on four local L20X GPUs: reduce serial 127K decode P50 TPOT by 30%",
+      "author": "fake0fan",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T10:03:59Z",
+      "closedAt": null,
+      "waitingHours": 13.373835833333333,
+      "comments": 22,
+      "labels": [
+        "kind:acceptance"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/687"
+    },
+    {
+      "number": 686,
+      "title": "bug: Overlapping CLI routes make skill lookup ambiguous for agents",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T09:53:26Z",
+      "closedAt": null,
+      "waitingHours": 13.549669166666666,
+      "comments": 6,
+      "labels": [
+        "kind:bug",
+        "area:knowledge",
+        "status:proposed",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/686"
+    },
+    {
+      "number": 685,
+      "title": "P0.1: verify benchmark knowledge card delivery",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T09:33:50Z",
+      "closedAt": "2026-11-25T13:50:01Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:knowledge",
+        "status:accepted",
+        "area:benchmark"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/685"
+    },
+    {
+      "number": 683,
+      "title": "task: make campaign evidence checks explicit in PR review",
+      "author": "david6666666",
+      "contributionType": "internal",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T09:13:03Z",
+      "closedAt": null,
+      "waitingHours": 14.222724722222223,
+      "comments": 6,
+      "labels": [
+        "kind:task",
+        "area:process",
+        "status:accepted"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/683"
+    },
+    {
+      "number": 678,
+      "title": "Group Dashboard tests under Apps",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T08:35:46Z",
+      "closedAt": "2026-11-25T09:07:53Z",
+      "waitingHours": null,
+      "comments": 6,
+      "labels": [
+        "kind:task",
+        "status:accepted",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/678"
+    },
+    {
+      "number": 674,
+      "title": "task: consolidate SkillEval docs and relocate standalone guides",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T07:39:52Z",
+      "closedAt": null,
+      "waitingHours": 15.775780277777777,
+      "comments": 6,
+      "labels": [
+        "kind:task",
+        "status:accepted",
+        "area:usability"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/674"
+    },
+    {
+      "number": 673,
+      "title": "Avoid hashing a retained candidate twice in one dashboard record read",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T06:49:02Z",
+      "closedAt": "2026-11-25T13:14:00Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/673"
+    },
+    {
+      "number": 668,
+      "title": "Evaluate vLLM-Omni GLM-Image end-to-end latency on Ascend",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T05:08:45Z",
+      "closedAt": null,
+      "waitingHours": 18.29439138888889,
+      "comments": 8,
+      "labels": [
+        "kind:acceptance",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/668"
+    },
+    {
+      "number": 665,
+      "title": "[RFC] InferRSI benchmark 指标协议 v1：指标口径、任务分层与报告格式（含文献调研全文）",
+      "author": "Bounty-hunter",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T03:59:08Z",
+      "closedAt": null,
+      "waitingHours": 19.454669166666665,
+      "comments": 4,
+      "labels": [
+        "kind:rfc",
+        "area:benchmark"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/665"
+    },
+    {
+      "number": 664,
+      "title": "[RFC] InferRSI 多宿主插件设计：Agent 交互、适配器与公共代码接口",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T03:54:44Z",
+      "closedAt": null,
+      "waitingHours": 19.5280025,
+      "comments": 4,
+      "labels": [
+        "kind:rfc",
+        "status:proposed",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/664"
+    },
+    {
+      "number": 662,
+      "title": "bug: Round decisions omits local retrieval snapshots referenced by older managed submissions",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T03:10:37Z",
+      "closedAt": "2026-11-25T07:27:19Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "kind:bug",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/662"
+    },
+    {
+      "number": 658,
+      "title": "rfc: 标签体系重新标定——kind 适用范围、area 基数、status 收尾与无需评审对象的评论边界",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T01:23:31Z",
+      "closedAt": null,
+      "waitingHours": 22.048280277777778,
+      "comments": 31,
+      "labels": [
+        "kind:rfc",
+        "area:process",
+        "status:accepted",
+        "bot:auto-close"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/658"
+    },
+    {
+      "number": 657,
+      "title": "task: 支持摩尔线程 MUSA GPU（后端适配、仓库包与知识交付）",
+      "author": "yeahdongcn",
+      "contributionType": "external",
+      "state": "open",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T01:22:13Z",
+      "closedAt": null,
+      "waitingHours": 22.069946944444446,
+      "comments": 3,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/657"
+    },
+    {
+      "number": 656,
+      "title": "Group remaining test helpers and remove duplicate component coverage",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T01:16:29Z",
+      "closedAt": "2026-11-25T06:41:03Z",
+      "waitingHours": null,
+      "comments": 22,
+      "labels": [
+        "kind:task",
+        "area:process",
+        "status:accepted"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/656"
+    },
+    {
+      "number": 655,
+      "title": "Group remaining documentation by reader and shorten agent navigation",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "closed",
+      "isPullRequest": false,
+      "createdAt": "2026-11-25T01:10:12Z",
+      "closedAt": "2026-11-25T03:33:31Z",
+      "waitingHours": null,
+      "comments": 23,
+      "labels": [
+        "kind:task",
+        "status:accepted",
+        "area:usability",
+        "bot:auto-close"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/issues/655"
+    },
     {
       "number": 652,
       "title": "[Intake] 昇腾推理优化知识来源：服务画像、算子流水、调度与量化",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-24T16:58:27Z",
-      "closedAt": null,
-      "waitingHours": 6.746368333333334,
-      "comments": 0,
+      "closedAt": "2026-11-25T10:29:29Z",
+      "waitingHours": null,
+      "comments": 3,
       "labels": [
         "kind:task",
-        "area:knowledge"
+        "area:knowledge",
+        "status:accepted",
+        "bot:auto-close"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/652"
     },
@@ -27,9 +440,11 @@
       "isPullRequest": false,
       "createdAt": "2026-11-24T16:13:18Z",
       "closedAt": null,
-      "waitingHours": 7.498868333333333,
+      "waitingHours": 31.218558055555555,
       "comments": 3,
-      "labels": [],
+      "labels": [
+        "kind:rfc"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/651"
     },
     {
@@ -42,7 +457,7 @@
       "createdAt": "2026-11-24T15:36:44Z",
       "closedAt": "2026-11-24T18:00:21Z",
       "waitingHours": null,
-      "comments": 5,
+      "comments": 6,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -80,7 +495,7 @@
       "createdAt": "2026-11-24T14:44:29Z",
       "closedAt": "2026-11-24T21:10:13Z",
       "waitingHours": null,
-      "comments": 7,
+      "comments": 9,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -99,7 +514,7 @@
       "createdAt": "2026-11-24T14:25:58Z",
       "closedAt": "2026-11-24T16:23:44Z",
       "waitingHours": null,
-      "comments": 7,
+      "comments": 8,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -117,8 +532,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-24T14:11:21Z",
       "closedAt": null,
-      "waitingHours": 9.531368333333333,
-      "comments": 6,
+      "waitingHours": 33.25105805555555,
+      "comments": 24,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -131,12 +546,12 @@
       "title": "task: 二次整理 Apps 目录，根层仅保留必要入口，其余按模块归类",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-24T14:11:08Z",
-      "closedAt": null,
-      "waitingHours": 9.534979444444444,
-      "comments": 10,
+      "closedAt": "2026-11-25T07:38:11Z",
+      "waitingHours": null,
+      "comments": 12,
       "labels": [
         "kind:task",
         "status:accepted",
@@ -154,7 +569,7 @@
       "createdAt": "2026-11-24T14:10:12Z",
       "closedAt": "2026-11-24T18:00:08Z",
       "waitingHours": null,
-      "comments": 7,
+      "comments": 8,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -192,7 +607,7 @@
       "createdAt": "2026-11-24T13:23:44Z",
       "closedAt": "2026-11-24T15:27:07Z",
       "waitingHours": null,
-      "comments": 6,
+      "comments": 7,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -211,7 +626,7 @@
       "createdAt": "2026-11-24T13:23:21Z",
       "closedAt": "2026-11-24T19:01:41Z",
       "waitingHours": null,
-      "comments": 7,
+      "comments": 8,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -222,17 +637,18 @@
     },
     {
       "number": 625,
-      "title": "feat: add opt-in InferRSI-Jiusi interview entry for Codex",
+      "title": "Add an opt-in InferRSI-Grilling interview entry for Codex",
       "author": "psv666",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-24T13:20:10Z",
-      "closedAt": null,
-      "waitingHours": 10.38442388888889,
-      "comments": 2,
+      "closedAt": "2026-11-25T14:06:47Z",
+      "waitingHours": null,
+      "comments": 8,
       "labels": [
         "kind:task",
+        "status:accepted",
         "area:apps"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/625"
@@ -242,12 +658,12 @@
       "title": "bug: Windows test collection fails and component suites are difficult to maintain",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-24T13:12:00Z",
-      "closedAt": null,
-      "waitingHours": 10.520535,
-      "comments": 6,
+      "closedAt": "2026-11-25T00:58:37Z",
+      "waitingHours": null,
+      "comments": 12,
       "labels": [
         "kind:bug",
         "status:accepted",
@@ -283,8 +699,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-24T02:46:13Z",
       "closedAt": null,
-      "waitingHours": 20.950257222222223,
-      "comments": 186,
+      "waitingHours": 44.66994694444445,
+      "comments": 245,
       "labels": [
         "kind:acceptance"
       ],
@@ -316,8 +732,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-23T08:01:18Z",
       "closedAt": null,
-      "waitingHours": 39.69886833333333,
-      "comments": 5,
+      "waitingHours": 63.41855805555556,
+      "comments": 7,
       "labels": [
         "kind:task"
       ],
@@ -350,8 +766,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-23T04:52:04Z",
       "closedAt": null,
-      "waitingHours": 42.85275722222222,
-      "comments": 20,
+      "waitingHours": 66.57244694444445,
+      "comments": 22,
       "labels": [
         "kind:acceptance",
         "area:harness"
@@ -402,8 +818,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-23T02:32:53Z",
       "closedAt": null,
-      "waitingHours": 45.17247944444444,
-      "comments": 17,
+      "waitingHours": 68.89216916666666,
+      "comments": 27,
       "labels": [
         "kind:bug",
         "area:harness",
@@ -418,11 +834,11 @@
       "title": "task: adapt Realtime-Venus to vLLM-Omni and retain validation experience",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-23T01:20:02Z",
-      "closedAt": null,
-      "waitingHours": 46.38664611111111,
+      "closedAt": "2026-11-25T15:13:31Z",
+      "waitingHours": null,
       "comments": 7,
       "labels": [
         "kind:task"
@@ -601,8 +1017,7 @@
       "waitingHours": null,
       "comments": 10,
       "labels": [
-        "kind:docs",
-        "status:proposed"
+        "kind:docs"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/557"
     },
@@ -653,7 +1068,6 @@
       "comments": 9,
       "labels": [
         "kind:task",
-        "status:proposed",
         "area:benchmark"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/549"
@@ -667,7 +1081,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-21T06:09:16Z",
       "closedAt": null,
-      "waitingHours": 89.56609055555556,
+      "waitingHours": 113.28578027777777,
       "comments": 8,
       "labels": [
         "kind:tracking",
@@ -704,8 +1118,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-20T09:29:58Z",
       "closedAt": null,
-      "waitingHours": 110.22109055555555,
-      "comments": 14,
+      "waitingHours": 133.94078027777778,
+      "comments": 15,
       "labels": [
         "kind:tracking",
         "area:process"
@@ -754,7 +1168,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-20T01:19:38Z",
       "closedAt": null,
-      "waitingHours": 118.39331277777778,
+      "waitingHours": 142.1130025,
       "comments": 4,
       "labels": [
         "kind:task",
@@ -784,11 +1198,11 @@
       "title": "task: Trace CANNBot knowledge through optimization rounds and the Dashboard",
       "author": "jiangkuaixue123",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-19T11:51:18Z",
-      "closedAt": null,
-      "waitingHours": 131.865535,
+      "closedAt": "2026-11-25T14:20:08Z",
+      "waitingHours": null,
       "comments": 5,
       "labels": [
         "kind:task",
@@ -807,7 +1221,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-19T09:07:32Z",
       "closedAt": null,
-      "waitingHours": 134.59497944444445,
+      "waitingHours": 158.31466916666668,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -824,7 +1238,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-19T06:35:12Z",
       "closedAt": null,
-      "waitingHours": 137.13386833333334,
+      "waitingHours": 160.85355805555557,
       "comments": 12,
       "labels": [
         "kind:task",
@@ -876,8 +1290,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-19T02:56:22Z",
       "closedAt": null,
-      "waitingHours": 140.78109055555555,
-      "comments": 14,
+      "waitingHours": 164.50078027777778,
+      "comments": 17,
       "labels": [
         "kind:task",
         "area:harness",
@@ -894,7 +1308,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-18T16:40:48Z",
       "closedAt": null,
-      "waitingHours": 151.040535,
+      "waitingHours": 174.76022472222223,
       "comments": 5,
       "labels": [
         "kind:task",
@@ -911,7 +1325,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-18T14:42:20Z",
       "closedAt": null,
-      "waitingHours": 153.01497944444444,
+      "waitingHours": 176.73466916666666,
       "comments": 5,
       "labels": [
         "kind:acceptance",
@@ -928,8 +1342,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-18T13:36:19Z",
       "closedAt": null,
-      "waitingHours": 154.11525722222223,
-      "comments": 38,
+      "waitingHours": 177.83494694444445,
+      "comments": 60,
       "labels": [
         "kind:rfc",
         "area:knowledge"
@@ -1067,7 +1481,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-17T07:01:03Z",
       "closedAt": null,
-      "waitingHours": 184.703035,
+      "waitingHours": 208.42272472222223,
       "comments": 12,
       "labels": [
         "kind:task",
@@ -1080,11 +1494,11 @@
       "title": "rfc: 全量接入 cannbot-knowledge：MCP 常驻查询通道设计",
       "author": "jiangkuaixue123",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-17T02:50:53Z",
-      "closedAt": null,
-      "waitingHours": 188.87247944444445,
+      "closedAt": "2026-11-25T14:18:59Z",
+      "waitingHours": null,
       "comments": 12,
       "labels": [
         "kind:rfc",
@@ -1171,10 +1585,11 @@
       "isPullRequest": false,
       "createdAt": "2026-11-16T03:54:06Z",
       "closedAt": null,
-      "waitingHours": 211.81886833333334,
+      "waitingHours": 235.53855805555557,
       "comments": 9,
       "labels": [
-        "kind:rfc"
+        "kind:rfc",
+        "area:harness"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/460"
     },
@@ -1413,7 +1828,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-13T01:29:26Z",
       "closedAt": null,
-      "waitingHours": 286.22997944444444,
+      "waitingHours": 309.9496691666667,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -1431,7 +1846,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-13T01:29:10Z",
       "closedAt": null,
-      "waitingHours": 286.2344238888889,
+      "waitingHours": 309.9541136111111,
       "comments": 11,
       "labels": [
         "kind:task",
@@ -1444,11 +1859,11 @@
       "title": "Acceptance: MiniCPM-o 4.5 on 2 × 910B3, Seed-TTS RTF at 90% of H100",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-12T12:44:04Z",
-      "closedAt": null,
-      "waitingHours": 298.98609055555556,
+      "closedAt": "2026-11-25T08:08:57Z",
+      "waitingHours": null,
       "comments": 1,
       "labels": [
         "kind:acceptance",
@@ -1465,7 +1880,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-12T11:34:38Z",
       "closedAt": null,
-      "waitingHours": 300.1433127777778,
+      "waitingHours": 323.8630025,
       "comments": 3,
       "labels": [
         "kind:tracking",
@@ -1640,7 +2055,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-12T02:21:15Z",
       "closedAt": null,
-      "waitingHours": 309.36636833333336,
+      "waitingHours": 333.08605805555555,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -1658,7 +2073,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-12T02:21:07Z",
       "closedAt": null,
-      "waitingHours": 309.36859055555556,
+      "waitingHours": 333.08828027777776,
       "comments": 2,
       "labels": [
         "kind:rfc",
@@ -1676,7 +2091,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-12T02:20:59Z",
       "closedAt": null,
-      "waitingHours": 309.37081277777776,
+      "waitingHours": 333.0905025,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -1759,15 +2174,17 @@
       "title": "rfc: 外部技能内容的依赖、版本锁定与可复现导入（外链或 submodule 待决）",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-10T20:44:28Z",
-      "closedAt": null,
-      "waitingHours": 338.9794238888889,
-      "comments": 5,
+      "closedAt": "2026-11-25T12:30:38Z",
+      "waitingHours": null,
+      "comments": 13,
       "labels": [
         "kind:rfc",
-        "area:knowledge"
+        "area:knowledge",
+        "status:accepted",
+        "bot:auto-close"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/388"
     },
@@ -1799,8 +2216,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-10T08:39:57Z",
       "closedAt": null,
-      "waitingHours": 351.0547016666667,
-      "comments": 8,
+      "waitingHours": 374.7743913888889,
+      "comments": 9,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -1817,7 +2234,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-10T03:15:50Z",
       "closedAt": null,
-      "waitingHours": 356.4566461111111,
+      "waitingHours": 380.1763358333333,
       "comments": 7,
       "labels": [
         "kind:task",
@@ -1835,7 +2252,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-10T03:15:23Z",
       "closedAt": null,
-      "waitingHours": 356.4641461111111,
+      "waitingHours": 380.1838358333333,
       "comments": 10,
       "labels": [
         "kind:tracking",
@@ -1849,11 +2266,11 @@
       "title": "task: 支持 MindIE Agent 对接（知识、执行与评测交接）",
       "author": "jiangkuaixue123",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-09T14:30:03Z",
-      "closedAt": null,
-      "waitingHours": 369.21970166666665,
+      "closedAt": "2026-11-25T14:20:17Z",
+      "waitingHours": null,
       "comments": 6,
       "labels": [
         "kind:task",
@@ -1908,7 +2325,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-09T10:11:59Z",
       "closedAt": null,
-      "waitingHours": 373.5208127777778,
+      "waitingHours": 397.2405025,
       "comments": 11,
       "labels": [
         "kind:task",
@@ -1960,7 +2377,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-06T03:47:06Z",
       "closedAt": null,
-      "waitingHours": 451.935535,
+      "waitingHours": 475.6552247222222,
       "comments": 4,
       "labels": [
         "kind:bug",
@@ -1973,11 +2390,11 @@
       "title": "[RFC] 基于 SpecRSI 的双循环 RSI：VATS 搜索与 GVO 改进器学习",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-06T02:59:12Z",
-      "closedAt": null,
-      "waitingHours": 452.7338683333333,
+      "closedAt": "2026-11-25T15:13:55Z",
+      "waitingHours": null,
       "comments": 13,
       "labels": [
         "kind:rfc",
@@ -2046,11 +2463,11 @@
       "title": "acceptance: DeepSeek V4.1 Flash 910C 8K/1K TPOT ≤25 ms/token at C1/C4/C16",
       "author": "jiangkuaixue123",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-04T15:58:26Z",
-      "closedAt": null,
-      "waitingHours": 487.7466461111111,
+      "closedAt": "2026-11-25T14:20:43Z",
+      "waitingHours": null,
       "comments": 114,
       "labels": [
         "kind:acceptance",
@@ -2067,8 +2484,8 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T12:20:41Z",
       "closedAt": null,
-      "waitingHours": 491.37581277777775,
-      "comments": 4,
+      "waitingHours": 515.0955025,
+      "comments": 5,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -2081,11 +2498,11 @@
       "title": "task: 细化 vLLM Ascend 知识蒸馏与知识库整理",
       "author": "jiangkuaixue123",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-11-04T08:53:41Z",
-      "closedAt": null,
-      "waitingHours": 494.8258127777778,
+      "closedAt": "2026-11-25T14:20:32Z",
+      "waitingHours": null,
       "comments": 18,
       "labels": [
         "kind:task",
@@ -2138,7 +2555,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T06:18:40Z",
       "closedAt": null,
-      "waitingHours": 497.4094238888889,
+      "waitingHours": 521.1291136111112,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -2157,7 +2574,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-04T06:18:37Z",
       "closedAt": null,
-      "waitingHours": 497.41025722222224,
+      "waitingHours": 521.1299469444444,
       "comments": 14,
       "labels": [
         "kind:task",
@@ -2195,7 +2612,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T14:49:10Z",
       "closedAt": null,
-      "waitingHours": 512.9010905555556,
+      "waitingHours": 536.6207802777777,
       "comments": 9,
       "labels": [
         "kind:task",
@@ -2213,7 +2630,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T14:49:08Z",
       "closedAt": null,
-      "waitingHours": 512.9016461111111,
+      "waitingHours": 536.6213358333333,
       "comments": 7,
       "labels": [
         "kind:task",
@@ -2233,7 +2650,7 @@
       "createdAt": "2026-11-03T14:49:06Z",
       "closedAt": "2026-11-04T07:51:44Z",
       "waitingHours": null,
-      "comments": 4,
+      "comments": 6,
       "labels": [
         "kind:task",
         "area:harness",
@@ -2252,7 +2669,7 @@
       "createdAt": "2026-11-03T14:43:26Z",
       "closedAt": "2026-11-04T07:51:15Z",
       "waitingHours": null,
-      "comments": 4,
+      "comments": 6,
       "labels": [
         "kind:task",
         "area:harness",
@@ -2277,7 +2694,6 @@
         "area:harness",
         "area:process",
         "area:usability",
-        "status:proposed",
         "bot:reviewed"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/333"
@@ -2291,7 +2707,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-03T09:41:03Z",
       "closedAt": null,
-      "waitingHours": 518.0363683333334,
+      "waitingHours": 541.7560580555555,
       "comments": 6,
       "labels": [
         "kind:task",
@@ -2340,14 +2756,14 @@
     },
     {
       "number": 316,
-      "title": "[Roadmap] InferRSI: Optimization, Evaluation, and Engineering",
+      "title": "[Roadmap] InferRSI：总体架构 / Apps / Knowledge / Harness / Benchmark",
       "author": "david6666666",
       "contributionType": "internal",
       "state": "open",
       "isPullRequest": false,
       "createdAt": "2026-11-02T08:23:36Z",
       "closedAt": null,
-      "waitingHours": 543.3272016666666,
+      "waitingHours": 567.0468913888889,
       "comments": 11,
       "labels": [
         "kind:tracking",
@@ -2456,7 +2872,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-02T03:01:55Z",
       "closedAt": null,
-      "waitingHours": 548.6885905555556,
+      "waitingHours": 572.4082802777777,
       "comments": 6,
       "labels": [
         "kind:rfc",
@@ -2491,7 +2907,7 @@
       "isPullRequest": false,
       "createdAt": "2026-11-01T01:56:59Z",
       "closedAt": null,
-      "waitingHours": 573.7708127777778,
+      "waitingHours": 597.4905025,
       "comments": 4,
       "labels": [
         "kind:rfc",
@@ -2526,7 +2942,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-31T09:39:40Z",
       "closedAt": null,
-      "waitingHours": 590.0594238888889,
+      "waitingHours": 613.7791136111111,
       "comments": 4,
       "labels": [
         "kind:rfc",
@@ -2584,8 +3000,7 @@
       "comments": 9,
       "labels": [
         "kind:task",
-        "area:process",
-        "status:proposed"
+        "area:process"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/273"
     },
@@ -2633,8 +3048,7 @@
       "comments": 7,
       "labels": [
         "kind:tracking",
-        "area:knowledge",
-        "status:proposed"
+        "area:knowledge"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/issues/255"
     },
@@ -2701,7 +3115,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-29T07:50:06Z",
       "closedAt": null,
-      "waitingHours": 639.885535,
+      "waitingHours": 663.6052247222223,
       "comments": 8,
       "labels": [
         "kind:task",
@@ -2867,7 +3281,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-28T10:49:34Z",
       "closedAt": null,
-      "waitingHours": 660.8944238888889,
+      "waitingHours": 684.6141136111111,
       "comments": 3,
       "labels": [
         "kind:rfc",
@@ -3108,8 +3522,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-27T08:32:26Z",
       "closedAt": null,
-      "waitingHours": 687.1799794444445,
-      "comments": 30,
+      "waitingHours": 710.8996691666666,
+      "comments": 31,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -3531,7 +3945,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-22T12:34:08Z",
       "closedAt": null,
-      "waitingHours": 803.1516461111111,
+      "waitingHours": 826.8713358333333,
       "comments": 30,
       "labels": [
         "kind:tracking",
@@ -3599,7 +4013,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T17:25:47Z",
       "closedAt": null,
-      "waitingHours": 822.2908127777778,
+      "waitingHours": 846.0105025,
       "comments": 4,
       "labels": [
         "kind:acceptance",
@@ -3634,8 +4048,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-21T09:21:03Z",
       "closedAt": null,
-      "waitingHours": 830.3697016666666,
-      "comments": 24,
+      "waitingHours": 854.0893913888889,
+      "comments": 25,
       "labels": [
         "kind:tracking",
         "area:process"
@@ -3713,11 +4127,11 @@
       "title": "task: evolve a Qwen3.8-27B H20 engine with InferRSI; phase 1 FP8 text service",
       "author": "jiangkuaixue123",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isPullRequest": false,
       "createdAt": "2026-10-21T04:54:34Z",
-      "closedAt": null,
-      "waitingHours": 834.8110905555556,
+      "closedAt": "2026-11-25T14:20:54Z",
+      "waitingHours": null,
       "comments": 4,
       "labels": [
         "kind:task",
@@ -3836,8 +4250,8 @@
       "isPullRequest": false,
       "createdAt": "2026-10-19T16:47:16Z",
       "closedAt": null,
-      "waitingHours": 870.9327572222222,
-      "comments": 4,
+      "waitingHours": 894.6524469444445,
+      "comments": 5,
       "labels": [
         "kind:task",
         "area:knowledge",
@@ -4028,7 +4442,7 @@
       "isPullRequest": false,
       "createdAt": "2026-10-11T00:56:41Z",
       "closedAt": null,
-      "waitingHours": 1078.7758127777777,
+      "waitingHours": 1102.4955025,
       "comments": 1,
       "labels": [
         "kind:acceptance",

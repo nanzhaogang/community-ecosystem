@@ -1,6 +1,446 @@
 {
-  "generatedAt": "2026-11-24T23:43:13.926Z",
+  "generatedAt": "2026-11-25T23:26:24.809Z",
   "items": [
+    {
+      "number": 701,
+      "title": "Record the four-L20X Hy4-Flash-FP8 serial TPOT campaign",
+      "author": "fake0fan",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-25T16:31:17Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 6.9188358333333335,
+      "comments": 0,
+      "labels": [
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/701"
+    },
+    {
+      "number": 699,
+      "title": "Require evidence-backed feasibility checks for project performance targets",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-25T13:51:34Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 9.580780277777778,
+      "comments": 0,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/699"
+    },
+    {
+      "number": 695,
+      "title": "Exercise offline and fresh reproduction of pinned external skills",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T12:25:43Z",
+      "mergedAt": "2026-11-25T14:02:58Z",
+      "closedAt": "2026-11-25T14:02:58Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/695"
+    },
+    {
+      "number": 693,
+      "title": "Retain interrupted optimization attempts safely",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-25T11:30:13Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 11.936613611111111,
+      "comments": 13,
+      "labels": [
+        "area:harness",
+        "area:benchmark",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/693"
+    },
+    {
+      "number": 692,
+      "title": "Freeze the Knowledge ranking policy across managed optimization sessions",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T11:24:24Z",
+      "mergedAt": "2026-11-25T12:26:54Z",
+      "closedAt": "2026-11-25T12:26:54Z",
+      "waitingHours": null,
+      "comments": 5,
+      "labels": [
+        "area:harness",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/692"
+    },
+    {
+      "number": 691,
+      "title": "Extract versioned Knowledge ranking weights and verify delivered context",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T11:05:48Z",
+      "mergedAt": "2026-11-25T11:59:10Z",
+      "closedAt": "2026-11-25T11:59:10Z",
+      "waitingHours": null,
+      "comments": 6,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/691"
+    },
+    {
+      "number": 684,
+      "title": "docs: add evidence-based scoring to PR review",
+      "author": "david6666666",
+      "contributionType": "internal",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-25T09:24:20Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 14.034669166666667,
+      "comments": 3,
+      "labels": [
+        "kind:docs",
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/684"
+    },
+    {
+      "number": 682,
+      "title": "Reconcile the November closed-proposal label cohort",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T08:59:57Z",
+      "mergedAt": "2026-11-25T10:38:37Z",
+      "closedAt": "2026-11-25T10:38:37Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/682"
+    },
+    {
+      "number": 681,
+      "title": "Inspect label decisions and define the hourly writer handoff",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T08:43:34Z",
+      "mergedAt": "2026-11-25T10:30:38Z",
+      "closedAt": "2026-11-25T10:30:38Z",
+      "waitingHours": null,
+      "comments": 13,
+      "labels": [
+        "kind:task",
+        "area:process"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/681"
+    },
+    {
+      "number": 680,
+      "title": "Group Dashboard tests under Apps",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T08:40:57Z",
+      "mergedAt": "2026-11-25T08:49:21Z",
+      "closedAt": "2026-11-25T08:49:21Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/680"
+    },
+    {
+      "number": 679,
+      "title": "Document four Ascend source paths for profiling, attention, scheduling and quantization",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T08:37:30Z",
+      "mergedAt": "2026-11-25T10:27:03Z",
+      "closedAt": "2026-11-25T10:27:03Z",
+      "waitingHours": null,
+      "comments": 5,
+      "labels": [
+        "kind:docs",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/679"
+    },
+    {
+      "number": 677,
+      "title": "test: run one unattended Codex optimization and validate latency on Ascend A2",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-25T08:22:33Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 15.06439138888889,
+      "comments": 0,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/677"
+    },
+    {
+      "number": 676,
+      "title": "Clarify Issue progress, label ownership and reviewer invitations",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T08:02:24Z",
+      "mergedAt": "2026-11-25T08:42:45Z",
+      "closedAt": "2026-11-25T08:42:45Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "kind:docs"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/676"
+    },
+    {
+      "number": 675,
+      "title": "Organize SkillEval and standalone documentation guides",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T08:01:29Z",
+      "mergedAt": "2026-11-25T08:34:53Z",
+      "closedAt": "2026-11-25T08:34:53Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "kind:docs",
+        "area:usability"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/675"
+    },
+    {
+      "number": 672,
+      "title": "feat(knowledge): deliver selected L1 cards with pinned Collect bodies",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T06:48:59Z",
+      "mergedAt": "2026-11-25T07:31:17Z",
+      "closedAt": "2026-11-25T07:31:17Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/672"
+    },
+    {
+      "number": 671,
+      "title": "evidence: native GLM-Image rotary latency and pixel parity on Ascend",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-25T06:25:46Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 17.010780277777776,
+      "comments": 1,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/671"
+    },
+    {
+      "number": 670,
+      "title": "Verify required benchmark knowledge card delivery",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T05:36:16Z",
+      "mergedAt": "2026-11-25T09:46:17Z",
+      "closedAt": "2026-11-25T09:46:17Z",
+      "waitingHours": null,
+      "comments": 6,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/670"
+    },
+    {
+      "number": 669,
+      "title": "perf(harness): verify each retained candidate once per record read",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T05:30:29Z",
+      "mergedAt": "2026-11-25T13:13:42Z",
+      "closedAt": "2026-11-25T13:13:42Z",
+      "waitingHours": null,
+      "comments": 0,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/669"
+    },
+    {
+      "number": 667,
+      "title": "feat(knowledge): deliver pinned L1 cards from catalog selections",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-25T04:08:54Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 19.29189138888889,
+      "comments": 4,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/667"
+    },
+    {
+      "number": 666,
+      "title": "Retire superseded Apps entry points and verify the installed layout",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T04:00:08Z",
+      "mergedAt": "2026-11-25T07:35:02Z",
+      "closedAt": "2026-11-25T07:35:03Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "kind:task",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/666"
+    },
+    {
+      "number": 663,
+      "title": "fix(dashboard): show retained retrieval snapshots on older managed rounds",
+      "author": "amy-why-3459",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T03:23:02Z",
+      "mergedAt": "2026-11-25T07:19:13Z",
+      "closedAt": "2026-11-25T07:19:13Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "kind:task",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/663"
+    },
+    {
+      "number": 661,
+      "title": "refactor(knowledge): project L1 cards from the pinned Bundle already read",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T02:45:13Z",
+      "mergedAt": "2026-11-25T03:21:23Z",
+      "closedAt": "2026-11-25T03:21:23Z",
+      "waitingHours": null,
+      "comments": 4,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/661"
+    },
+    {
+      "number": 660,
+      "title": "Group test support by module and consolidate overlapping coverage",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T01:57:31Z",
+      "mergedAt": "2026-11-25T06:23:06Z",
+      "closedAt": "2026-11-25T06:23:06Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "kind:task"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/660"
+    },
+    {
+      "number": 659,
+      "title": "Reconcile task documentation with repository entry points",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T01:39:04Z",
+      "mergedAt": "2026-11-25T03:28:27Z",
+      "closedAt": "2026-11-25T03:28:27Z",
+      "waitingHours": null,
+      "comments": 11,
+      "labels": [
+        "kind:docs",
+        "area:usability"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/659"
+    },
+    {
+      "number": 654,
+      "title": "fix(harness): reserve device locks before initializing empty files",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-25T00:29:06Z",
+      "mergedAt": "2026-11-25T00:49:01Z",
+      "closedAt": "2026-11-25T00:49:01Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "kind:task",
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/654"
+    },
     {
       "number": 653,
       "title": "Offer compact reads of pinned L1 decisions",
@@ -12,7 +452,7 @@
       "mergedAt": "2026-11-24T20:59:04Z",
       "closedAt": "2026-11-24T20:59:04Z",
       "waitingHours": null,
-      "comments": 1,
+      "comments": 2,
       "labels": [],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/653"
     },
@@ -36,14 +476,17 @@
       "title": "fix(benchmark): require successful P1 measurement checks",
       "author": "Inference1",
       "contributionType": "external",
-      "state": "open",
-      "isDraft": true,
+      "state": "merged",
+      "isDraft": false,
       "createdAt": "2026-11-24T15:52:43Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 7.841923888888889,
-      "comments": 0,
-      "labels": [],
+      "mergedAt": "2026-11-25T16:42:15Z",
+      "closedAt": "2026-11-25T16:42:15Z",
+      "waitingHours": null,
+      "comments": 8,
+      "labels": [
+        "kind:task",
+        "area:benchmark"
+      ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/649"
     },
     {
@@ -51,13 +494,13 @@
       "title": "refactor(apps): move host inspection and file helpers to their owning packages",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-24T15:51:09Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 7.868035,
-      "comments": 4,
+      "mergedAt": "2026-11-25T04:42:33Z",
+      "closedAt": "2026-11-25T04:42:33Z",
+      "waitingHours": null,
+      "comments": 11,
       "labels": [
         "kind:task",
         "area:apps"
@@ -75,7 +518,7 @@
       "mergedAt": "2026-11-24T21:00:26Z",
       "closedAt": "2026-11-24T21:00:26Z",
       "waitingHours": null,
-      "comments": 1,
+      "comments": 2,
       "labels": [
         "kind:docs",
         "area:knowledge"
@@ -87,13 +530,13 @@
       "title": "Move knowledge and parallel-round entry points into Apps workflows",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-24T15:39:44Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 8.058312777777777,
-      "comments": 4,
+      "mergedAt": "2026-11-25T02:08:30Z",
+      "closedAt": "2026-11-25T02:08:30Z",
+      "waitingHours": null,
+      "comments": 7,
       "labels": [
         "kind:task",
         "area:apps"
@@ -195,7 +638,7 @@
       "mergedAt": "2026-11-24T18:47:54Z",
       "closedAt": "2026-11-24T18:47:54Z",
       "waitingHours": null,
-      "comments": 4,
+      "comments": 7,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -222,13 +665,13 @@
       "title": "Organize tests by component and fix Windows device leases",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-24T13:35:51Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 10.123035,
-      "comments": 9,
+      "mergedAt": "2026-11-24T23:57:27Z",
+      "closedAt": "2026-11-24T23:57:27Z",
+      "waitingHours": null,
+      "comments": 14,
       "labels": [
         "kind:task"
       ],
@@ -254,16 +697,16 @@
     },
     {
       "number": 628,
-      "title": "feat(codex): add opt-in InferRSI-Jiusi interview",
+      "title": "feat(codex): add opt-in InferRSI-Grilling interview",
       "author": "psv666",
       "contributionType": "external",
-      "state": "open",
-      "isDraft": true,
+      "state": "merged",
+      "isDraft": false,
       "createdAt": "2026-11-24T13:31:51Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 10.189701666666666,
-      "comments": 0,
+      "mergedAt": "2026-11-25T13:54:57Z",
+      "closedAt": "2026-11-25T13:54:57Z",
+      "waitingHours": null,
+      "comments": 6,
       "labels": [
         "kind:task",
         "area:apps"
@@ -419,12 +862,12 @@
       "title": "docs: measure fixed-length speculative decode on Ascend 950DT",
       "author": "jiangkuaixue123",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isDraft": true,
       "createdAt": "2026-11-24T03:34:43Z",
       "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 20.14192388888889,
+      "closedAt": "2026-11-25T13:35:57Z",
+      "waitingHours": null,
       "comments": 0,
       "labels": [
         "kind:docs"
@@ -526,12 +969,12 @@
       "title": "fix(apps): close six review defects in host, compare, delivery and views",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-23T06:53:47Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 40.82414611111111,
+      "mergedAt": "2026-11-25T00:21:03Z",
+      "closedAt": "2026-11-25T00:21:03Z",
+      "waitingHours": null,
       "comments": 7,
       "labels": [
         "kind:task",
@@ -632,13 +1075,13 @@
       "title": "docs: record Realtime-Venus turn and full-duplex adaptation",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-23T02:02:27Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 45.679701666666666,
-      "comments": 0,
+      "mergedAt": "2026-11-25T06:31:14Z",
+      "closedAt": "2026-11-25T06:31:14Z",
+      "waitingHours": null,
+      "comments": 3,
       "labels": [
         "kind:docs"
       ],
@@ -703,13 +1146,13 @@
       "title": "Attribute Qwen candidate shape errors only after baseline recheck",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-22T20:22:26Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 51.34664611111111,
-      "comments": 22,
+      "mergedAt": "2026-11-25T03:04:01Z",
+      "closedAt": "2026-11-25T03:04:01Z",
+      "waitingHours": null,
+      "comments": 23,
       "labels": [
         "kind:task",
         "area:benchmark"
@@ -1372,8 +1815,8 @@
       "createdAt": "2026-11-20T03:07:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 116.60192388888889,
-      "comments": 2,
+      "waitingHours": 140.3216136111111,
+      "comments": 6,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -1461,7 +1904,7 @@
       "createdAt": "2026-11-19T15:29:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 128.228035,
+      "waitingHours": 151.94772472222223,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -1568,8 +2011,8 @@
       "createdAt": "2026-11-19T07:30:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 136.2083127777778,
-      "comments": 34,
+      "waitingHours": 159.9280025,
+      "comments": 60,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -1711,7 +2154,7 @@
       "createdAt": "2026-11-18T16:51:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 150.8694238888889,
+      "waitingHours": 174.58911361111112,
       "comments": 10,
       "labels": [
         "kind:task",
@@ -1854,7 +2297,7 @@
       "createdAt": "2026-11-18T06:52:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 160.84247944444445,
+      "waitingHours": 184.56216916666668,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -1867,12 +2310,12 @@
       "title": "knowledge: remove the CannBot stage-evidence distillation from #114",
       "author": "jiangkuaixue123",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isDraft": true,
       "createdAt": "2026-11-18T06:14:29Z",
       "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 161.4791461111111,
+      "closedAt": "2026-11-25T13:36:00Z",
+      "waitingHours": null,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -1885,13 +2328,13 @@
       "title": "harness: add bounded VATS/GVO runtime and benchmark adapters",
       "author": "amy-why-3459",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-18T04:53:14Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 162.8333127777778,
-      "comments": 7,
+      "mergedAt": "2026-11-25T02:40:01Z",
+      "closedAt": "2026-11-25T02:40:02Z",
+      "waitingHours": null,
+      "comments": 8,
       "labels": [
         "kind:task",
         "area:harness"
@@ -1980,7 +2423,7 @@
       "createdAt": "2026-11-17T09:31:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 182.2019238888889,
+      "waitingHours": 205.9216136111111,
       "comments": 12,
       "labels": [
         "kind:task",
@@ -3265,7 +3708,7 @@
       "createdAt": "2026-11-04T08:41:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 495.0316461111111,
+      "waitingHours": 518.7513358333333,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -3427,7 +3870,7 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 522.7277572222222,
+      "waitingHours": 546.4474469444444,
       "comments": 27,
       "labels": [
         "kind:task",
@@ -3459,12 +3902,12 @@
       "title": "Add an optional AISBench service benchmark adapter",
       "author": "jiangkuaixue123",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isDraft": true,
       "createdAt": "2026-11-03T03:20:04Z",
       "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 524.3860905555556,
+      "closedAt": "2026-11-25T13:35:55Z",
+      "waitingHours": null,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -6497,12 +6940,12 @@
       "title": "Add Qwen3.8 FP8 correctness and service qualification workflows",
       "author": "jiangkuaixue123",
       "contributionType": "external",
-      "state": "open",
+      "state": "closed",
       "isDraft": true,
       "createdAt": "2026-10-21T05:08:48Z",
       "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 834.5738683333333,
+      "closedAt": "2026-11-25T13:35:59Z",
+      "waitingHours": null,
       "comments": 3,
       "labels": [
         "kind:task",
