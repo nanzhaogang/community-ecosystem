@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-25T23:26:24.809Z",
+  "generatedAt": "2026-11-26T23:25:56.548Z",
   "repo": {
-    "stars": 120,
-    "forks": 34,
+    "stars": 124,
+    "forks": 36,
     "watchers": 0,
-    "openIssuesAndPrs": 76
+    "openIssuesAndPrs": 89
   },
   "contributors": {
     "total": 29,
     "activeLast30d": 26,
-    "newLast30d": 20,
+    "newLast30d": 19,
     "composition": {
       "internal": 3,
       "external": 26,
@@ -17,35 +17,35 @@
     }
   },
   "pulls": {
-    "total": 444,
-    "open": 15,
-    "merged": 403,
-    "closedUnmerged": 26,
+    "total": 471,
+    "open": 26,
+    "merged": 418,
+    "closedUnmerged": 27,
     "composition": {
       "internal": 56,
-      "external": 388,
+      "external": 415,
       "unknown": 0
     }
   },
   "issues": {
-    "total": 257,
-    "open": 61,
-    "closed": 196,
+    "total": 267,
+    "open": 63,
+    "closed": 204,
     "composition": {
       "internal": 40,
-      "external": 216,
+      "external": 226,
       "unknown": 1
     },
     "longOpen": {
       "thresholdDays": 30,
-      "count": 5,
+      "count": 6,
       "items": [
         {
           "number": 3,
           "title": "Acceptance: Qwen-Image-2.1-Turbo / B300×4 campaign",
           "author": "hsliuustc0106",
           "createdAt": "2026-10-11T00:56:41Z",
-          "waitingHours": 1102.4955025,
+          "waitingHours": 1126.4876522222223,
           "url": "https://github.com/InferMatrixLab/InferRSI/issues/3"
         },
         {
@@ -53,7 +53,7 @@
           "title": "task: add MLX backend discovery and seed source-grounded MLX knowledge for Apple Silicon",
           "author": "shihongzhi",
           "createdAt": "2026-10-19T16:47:16Z",
-          "waitingHours": 894.6524469444445,
+          "waitingHours": 918.6445966666666,
           "url": "https://github.com/InferMatrixLab/InferRSI/issues/38"
         },
         {
@@ -61,7 +61,7 @@
           "title": "[Roadmap] InferRSI: reusable knowledge, verifiable inference optimization",
           "author": "Dong1017",
           "createdAt": "2026-10-21T09:21:03Z",
-          "waitingHours": 854.0893913888889,
+          "waitingHours": 878.0815411111112,
           "url": "https://github.com/InferMatrixLab/InferRSI/issues/61"
         },
         {
@@ -69,7 +69,7 @@
           "title": "acceptance: Qwen3-TTS 0.6B C1 RTF optimization on RTX 4090",
           "author": "godnight",
           "createdAt": "2026-10-21T17:25:47Z",
-          "waitingHours": 846.0105025,
+          "waitingHours": 870.0026522222222,
           "url": "https://github.com/InferMatrixLab/InferRSI/issues/75"
         },
         {
@@ -77,8 +77,16 @@
           "title": "[Tracking] SearchSpace distillation coverage and knowledge consolidation",
           "author": "Dong1017",
           "createdAt": "2026-10-22T12:34:08Z",
-          "waitingHours": 826.8713358333333,
+          "waitingHours": 850.8634855555556,
           "url": "https://github.com/InferMatrixLab/InferRSI/issues/91"
+        },
+        {
+          "number": 177,
+          "title": "[Research Radar] AI inference performance & RSI — daily categorized insights",
+          "author": "david6666666",
+          "createdAt": "2026-10-27T08:32:26Z",
+          "waitingHours": 734.8918188888889,
+          "url": "https://github.com/InferMatrixLab/InferRSI/issues/177"
         }
       ]
     }
