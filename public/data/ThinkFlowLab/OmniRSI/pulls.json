@@ -1,18 +1,759 @@
 {
-  "generatedAt": "2026-11-26T23:25:56.548Z",
+  "generatedAt": "2026-11-27T23:06:22.595Z",
   "items": [
+    {
+      "number": 794,
+      "title": "Migrate the v0.3.4 Platforms guide and source inventory",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T22:22:18Z",
+      "mergedAt": "2026-11-27T23:03:55Z",
+      "closedAt": "2026-11-27T23:03:55Z",
+      "waitingHours": null,
+      "comments": 1,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/794"
+    },
+    {
+      "number": 793,
+      "title": "Migrate Ascend Graph Mode Knowledge entry",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T21:36:03Z",
+      "mergedAt": "2026-11-27T22:13:22Z",
+      "closedAt": "2026-11-27T22:13:22Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/793"
+    },
+    {
+      "number": 792,
+      "title": "feat(knowledge): migrate Diffusers and MLX entries to atoms",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T20:56:53Z",
+      "mergedAt": "2026-11-27T21:38:50Z",
+      "closedAt": "2026-11-27T21:38:51Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/792"
+    },
+    {
+      "number": 791,
+      "title": "Migrate ten Ascend platform Knowledge entries",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T20:17:19Z",
+      "mergedAt": "2026-11-27T20:54:23Z",
+      "closedAt": "2026-11-27T20:54:23Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/791"
+    },
+    {
+      "number": 790,
+      "title": "Migrate Ascend ACLGraph and quantization knowledge",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T19:09:28Z",
+      "mergedAt": "2026-11-27T20:44:55Z",
+      "closedAt": "2026-11-27T20:44:55Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/790"
+    },
+    {
+      "number": 789,
+      "title": "Ship sealed Knowledge in release bundles",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-27T17:42:05Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 5.4048875,
+      "comments": 7,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/789"
+    },
+    {
+      "number": 788,
+      "title": "Migrate the two remaining released CUDA platform checkouts",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T16:09:44Z",
+      "mergedAt": "2026-11-27T16:56:50Z",
+      "closedAt": "2026-11-27T16:56:50Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/788"
+    },
+    {
+      "number": 787,
+      "title": "feat(apps): bind performance campaign approvals to frozen gate bytes",
+      "author": "Inference1",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-27T16:04:52Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 7.025165277777778,
+      "comments": 0,
+      "labels": [
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/787"
+    },
+    {
+      "number": 786,
+      "title": "Migrate four released Host platform checkouts",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T14:28:53Z",
+      "mergedAt": "2026-11-27T15:18:23Z",
+      "closedAt": "2026-11-27T15:18:23Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/786"
+    },
+    {
+      "number": 784,
+      "title": "Package inferrsi-feedback for the InferRSI plugins",
+      "author": "zengchuang-hw",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-27T13:14:15Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 9.86877638888889,
+      "comments": 3,
+      "labels": [
+        "area:usability",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/784"
+    },
+    {
+      "number": 783,
+      "title": "Add staged evaluation to service-reuse campaigns",
+      "author": "lirx-pd",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-27T12:17:20Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 10.8173875,
+      "comments": 1,
+      "labels": [
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/783"
+    },
+    {
+      "number": 782,
+      "title": "Migrate the inference benchmark guide and its ordered dependencies",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T12:03:38Z",
+      "mergedAt": "2026-11-27T14:45:38Z",
+      "closedAt": "2026-11-27T14:45:38Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/782"
+    },
+    {
+      "number": 781,
+      "title": "Migrate the PyTorch directory and its ordered frozen resources",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T11:02:12Z",
+      "mergedAt": "2026-11-27T14:10:36Z",
+      "closedAt": "2026-11-27T14:10:36Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/781"
+    },
+    {
+      "number": 780,
+      "title": "Migrate the H3 runtime checkout and its frozen original files",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T10:39:09Z",
+      "mergedAt": "2026-11-27T13:37:08Z",
+      "closedAt": "2026-11-27T13:37:08Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/780"
+    },
+    {
+      "number": 779,
+      "title": "Migrate the optimization search policy and its required references",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T10:34:43Z",
+      "mergedAt": "2026-11-27T13:03:03Z",
+      "closedAt": "2026-11-27T13:03:03Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/779"
+    },
+    {
+      "number": 778,
+      "title": "Migrate the kernel writing guide and its ordered case dependencies",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T10:32:48Z",
+      "mergedAt": "2026-11-27T12:24:43Z",
+      "closedAt": "2026-11-27T12:24:43Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/778"
+    },
+    {
+      "number": 777,
+      "title": "Record HunyuanImage-3.0 AR batch sampler RSI on Ascend A2",
+      "author": "BLANKETusers",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-27T10:27:40Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 12.645165277777778,
+      "comments": 1,
+      "labels": [
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/777"
+    },
+    {
+      "number": 776,
+      "title": "benchmark: judge diffusion video against a matched dense reference",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T10:02:44Z",
+      "mergedAt": "2026-11-27T15:07:32Z",
+      "closedAt": "2026-11-27T15:07:32Z",
+      "waitingHours": null,
+      "comments": 7,
+      "labels": [
+        "kind:bug",
+        "area:benchmark"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/776"
+    },
+    {
+      "number": 773,
+      "title": "Migrate the released DCP and Host Memory Knowledge checkouts",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T09:20:37Z",
+      "mergedAt": "2026-11-27T10:53:12Z",
+      "closedAt": "2026-11-27T10:53:12Z",
+      "waitingHours": null,
+      "comments": 5,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/773"
+    },
+    {
+      "number": 771,
+      "title": "knowledge: replay a retained Find ranking from its frozen rule",
+      "author": "fake0fan",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-27T09:05:32Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 14.014054166666666,
+      "comments": 1,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/771"
+    },
+    {
+      "number": 770,
+      "title": "harness: freeze and resume unregistered candidate ranking rules",
+      "author": "fake0fan",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-27T09:05:30Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 14.014609722222222,
+      "comments": 1,
+      "labels": [
+        "area:harness",
+        "area:knowledge",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/770"
+    },
+    {
+      "number": 769,
+      "title": "knowledge: rebuild frozen ranking configurations and check declared weight spaces",
+      "author": "fake0fan",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-27T09:05:19Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 14.017665277777779,
+      "comments": 1,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/769"
+    },
+    {
+      "number": 768,
+      "title": "docs: describe the Harness rule-slot contract and component status",
+      "author": "fake0fan",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-27T09:05:16Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 14.018498611111111,
+      "comments": 1,
+      "labels": [
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/768"
+    },
+    {
+      "number": 767,
+      "title": "Preserve the v0.3.4 library guide and index as package material",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T08:23:46Z",
+      "mergedAt": "2026-11-27T11:24:43Z",
+      "closedAt": "2026-11-27T11:24:44Z",
+      "waitingHours": null,
+      "comments": 5,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/767"
+    },
+    {
+      "number": 765,
+      "title": "Preserve six Engine guides linked by the inference research Workflow",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T07:20:41Z",
+      "mergedAt": "2026-11-27T10:09:14Z",
+      "closedAt": "2026-11-27T10:09:14Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/765"
+    },
+    {
+      "number": 763,
+      "title": "Migrate the released CUDA attention and llama.cpp runtime-state guides",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T06:55:11Z",
+      "mergedAt": "2026-11-27T10:12:18Z",
+      "closedAt": "2026-11-27T10:12:18Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/763"
+    },
+    {
+      "number": 761,
+      "title": "Migrate the released vLLM KV lifetime and admission-pressure Engine guides",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T06:10:59Z",
+      "mergedAt": "2026-11-27T08:53:51Z",
+      "closedAt": "2026-11-27T08:53:51Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/761"
+    },
+    {
+      "number": 760,
+      "title": "Preserve declared Casebook dependencies of the dense-performance Playbook",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T05:12:24Z",
+      "mergedAt": "2026-11-27T10:09:42Z",
+      "closedAt": "2026-11-27T10:09:42Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/760"
+    },
+    {
+      "number": 759,
+      "title": "Migrate the performance-ceiling Playbook and released Roofline calculator",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T05:08:44Z",
+      "mergedAt": "2026-11-27T10:10:40Z",
+      "closedAt": "2026-11-27T10:10:40Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/759"
+    },
+    {
+      "number": 758,
+      "title": "fix(apps): use the shared Dashboard for service-reuse campaigns",
+      "author": "jiangkuaixue123",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T05:03:27Z",
+      "mergedAt": "2026-11-27T07:53:27Z",
+      "closedAt": "2026-11-27T07:53:27Z",
+      "waitingHours": null,
+      "comments": 10,
+      "labels": [
+        "area:harness",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/758"
+    },
+    {
+      "number": 756,
+      "title": "Preserve the two Engine guides required by inference benchmark design",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T04:39:15Z",
+      "mergedAt": "2026-11-27T11:50:24Z",
+      "closedAt": "2026-11-27T11:50:24Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/756"
+    },
+    {
+      "number": 755,
+      "title": "policy: admit Gemini 4 Neon at xhigh",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T04:32:38Z",
+      "mergedAt": "2026-11-27T06:50:27Z",
+      "closedAt": "2026-11-27T06:50:27Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "kind:task",
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/755"
+    },
+    {
+      "number": 753,
+      "title": "Migrate the model-level speed-of-light Playbook to the atomic Reader",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T04:05:37Z",
+      "mergedAt": "2026-11-27T10:11:45Z",
+      "closedAt": "2026-11-27T10:11:45Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/753"
+    },
+    {
+      "number": 750,
+      "title": "feat(harness): allow AB/BA campaigns to continue after a failed final",
+      "author": "Inference1",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-27T03:37:33Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 19.480443055555554,
+      "comments": 8,
+      "labels": [
+        "area:harness",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/750"
+    },
+    {
+      "number": 748,
+      "title": "Sync main's Manager and Indexer interfaces into the atomic candidate",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T03:11:11Z",
+      "mergedAt": "2026-11-27T10:13:12Z",
+      "closedAt": "2026-11-27T10:13:13Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:harness",
+        "area:knowledge",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/748"
+    },
+    {
+      "number": 746,
+      "title": "Include opted-in MindIE navigation in ordinary Find",
+      "author": "jiangkuaixue123",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T02:46:34Z",
+      "mergedAt": "2026-11-27T03:33:58Z",
+      "closedAt": "2026-11-27T03:33:59Z",
+      "waitingHours": null,
+      "comments": 4,
+      "labels": [
+        "area:knowledge",
+        "area:apps"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/746"
+    },
+    {
+      "number": 745,
+      "title": "Integrate the atomic knowledge library for a single production cutover",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": true,
+      "createdAt": "2026-11-27T01:48:09Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 21.30377638888889,
+      "comments": 7,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/745"
+    },
+    {
+      "number": 744,
+      "title": "Migrate video diffusion and weight loading Playbooks to the atomic Reader",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T01:21:51Z",
+      "mergedAt": "2026-11-27T10:14:56Z",
+      "closedAt": "2026-11-27T10:14:56Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/744"
+    },
+    {
+      "number": 743,
+      "title": "Docs: add deepseek v4.1 flash case",
+      "author": "lirx-pd",
+      "contributionType": "external",
+      "state": "open",
+      "isDraft": false,
+      "createdAt": "2026-11-27T01:11:33Z",
+      "mergedAt": null,
+      "closedAt": null,
+      "waitingHours": 21.913776388888888,
+      "comments": 4,
+      "labels": [
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/743"
+    },
+    {
+      "number": 742,
+      "title": "Migrate the training resource-budget Playbook and its release terms",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T00:28:04Z",
+      "mergedAt": "2026-11-27T04:56:42Z",
+      "closedAt": "2026-11-27T04:56:42Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/742"
+    },
+    {
+      "number": 741,
+      "title": "Move managed sessions, budgets and recovery into Harness Manager",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T00:26:02Z",
+      "mergedAt": "2026-11-27T01:16:37Z",
+      "closedAt": "2026-11-27T01:16:37Z",
+      "waitingHours": null,
+      "comments": 3,
+      "labels": [
+        "area:harness"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/741"
+    },
+    {
+      "number": 740,
+      "title": "Migrate three released Playbook cases and their finding routes",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-27T00:00:42Z",
+      "mergedAt": "2026-11-27T10:08:47Z",
+      "closedAt": "2026-11-27T10:08:47Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/740"
+    },
+    {
+      "number": 739,
+      "title": "Migrate measurement and training Playbooks with their released source records",
+      "author": "Dong1017",
+      "contributionType": "external",
+      "state": "merged",
+      "isDraft": false,
+      "createdAt": "2026-11-26T23:44:13Z",
+      "mergedAt": "2026-11-27T10:10:08Z",
+      "closedAt": "2026-11-27T10:10:08Z",
+      "waitingHours": null,
+      "comments": 2,
+      "labels": [
+        "area:knowledge"
+      ],
+      "url": "https://github.com/InferMatrixLab/InferRSI/pull/739"
+    },
     {
       "number": 738,
       "title": "Migrate six planning Playbooks and their original host resources",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-26T23:12:25Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 0.22543,
-      "comments": 1,
+      "mergedAt": "2026-11-27T05:44:38Z",
+      "closedAt": "2026-11-27T05:44:39Z",
+      "waitingHours": null,
+      "comments": 2,
       "labels": [
         "area:knowledge"
       ],
@@ -23,13 +764,13 @@
       "title": "Move managed service execution and assessment into Harness components",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-26T23:04:46Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 0.35293,
-      "comments": 1,
+      "mergedAt": "2026-11-27T00:18:30Z",
+      "closedAt": "2026-11-27T00:18:30Z",
+      "waitingHours": null,
+      "comments": 3,
       "labels": [
         "area:harness"
       ],
@@ -40,13 +781,13 @@
       "title": "Preserve shared Workflow research files for legacy package references",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-26T22:35:34Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 0.8395966666666667,
-      "comments": 1,
+      "mergedAt": "2026-11-27T01:53:22Z",
+      "closedAt": "2026-11-27T01:53:22Z",
+      "waitingHours": null,
+      "comments": 4,
       "labels": [
         "area:knowledge"
       ],
@@ -57,12 +798,12 @@
       "title": "Separate ordinary Harness execution and evaluation",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-26T22:26:58Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 0.98293,
+      "mergedAt": "2026-11-26T23:40:35Z",
+      "closedAt": "2026-11-26T23:40:35Z",
+      "waitingHours": null,
       "comments": 3,
       "labels": [
         "area:harness"
@@ -74,13 +815,13 @@
       "title": "Migrate four linked Workflow Reader entries and pin declared references",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-26T22:02:47Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 1.3859855555555556,
-      "comments": 1,
+      "mergedAt": "2026-11-27T04:23:02Z",
+      "closedAt": "2026-11-27T04:23:02Z",
+      "waitingHours": null,
+      "comments": 4,
       "labels": [
         "area:knowledge"
       ],
@@ -91,13 +832,13 @@
       "title": "Migrate the Playbook source documents referenced by Workflows",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-26T21:17:07Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 2.1470966666666667,
-      "comments": 4,
+      "mergedAt": "2026-11-26T23:35:38Z",
+      "closedAt": "2026-11-26T23:35:38Z",
+      "waitingHours": null,
+      "comments": 5,
       "labels": [
         "area:knowledge"
       ],
@@ -108,13 +849,13 @@
       "title": "knowledge: migrate the NPU skill factory and its reference directory",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-26T20:47:12Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 2.645707777777778,
-      "comments": 1,
+      "mergedAt": "2026-11-27T02:35:17Z",
+      "closedAt": "2026-11-27T02:35:17Z",
+      "waitingHours": null,
+      "comments": 4,
       "labels": [
         "area:knowledge"
       ],
@@ -142,13 +883,13 @@
       "title": "Migrate three self-contained Workflow Skills to the atomic candidate",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-26T20:12:23Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 3.2259855555555554,
-      "comments": 6,
+      "mergedAt": "2026-11-27T00:32:31Z",
+      "closedAt": "2026-11-27T00:32:31Z",
+      "waitingHours": null,
+      "comments": 8,
       "labels": [
         "area:knowledge"
       ],
@@ -165,7 +906,7 @@
       "mergedAt": "2026-11-26T22:41:17Z",
       "closedAt": "2026-11-26T22:41:17Z",
       "waitingHours": null,
-      "comments": 8,
+      "comments": 9,
       "labels": [
         "area:knowledge"
       ],
@@ -261,13 +1002,13 @@
       "title": "Migrate the seven public task entries and their shared router to atomic Knowledge",
       "author": "Dong1017",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-26T15:45:30Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 7.674041111111111,
-      "comments": 6,
+      "mergedAt": "2026-11-27T00:39:08Z",
+      "closedAt": "2026-11-27T00:39:08Z",
+      "waitingHours": null,
+      "comments": 7,
       "labels": [
         "area:knowledge"
       ],
@@ -332,15 +1073,15 @@
       "title": "Add an opt-in skill for optimization run records",
       "author": "zengchuang-hw",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-26T13:24:32Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 10.023485555555556,
-      "comments": 7,
+      "mergedAt": "2026-11-27T12:49:45Z",
+      "closedAt": "2026-11-27T12:49:45Z",
+      "waitingHours": null,
+      "comments": 17,
       "labels": [
-        "area:knowledge"
+        "area:process"
       ],
       "url": "https://github.com/InferMatrixLab/InferRSI/pull/718"
     },
@@ -384,13 +1125,13 @@
       "title": "Unify knowledge discovery and delivery through find and read",
       "author": "jiaran-king",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-26T08:18:27Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 15.124874444444444,
-      "comments": 8,
+      "mergedAt": "2026-11-27T06:25:53Z",
+      "closedAt": "2026-11-27T06:25:53Z",
+      "waitingHours": null,
+      "comments": 11,
       "labels": [
         "area:harness",
         "area:knowledge",
@@ -420,13 +1161,13 @@
       "title": "Add task intake records and question prompts for inference workflows",
       "author": "jiangkuaixue123",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-26T03:07:52Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 20.301263333333335,
-      "comments": 10,
+      "mergedAt": "2026-11-27T08:30:09Z",
+      "closedAt": "2026-11-27T08:30:10Z",
+      "waitingHours": null,
+      "comments": 29,
       "labels": [
         "area:harness",
         "area:apps"
@@ -456,13 +1197,13 @@
       "title": "Run Φ-Bench tasks with Codex and Codex + InferRSI, scored by the suite's grader",
       "author": "Bounty-hunter",
       "contributionType": "external",
-      "state": "open",
+      "state": "merged",
       "isDraft": false,
       "createdAt": "2026-11-26T01:15:17Z",
-      "mergedAt": null,
-      "closedAt": null,
-      "waitingHours": 22.17765222222222,
-      "comments": 3,
+      "mergedAt": "2026-11-27T03:33:26Z",
+      "closedAt": "2026-11-27T03:33:26Z",
+      "waitingHours": null,
+      "comments": 9,
       "labels": [
         "area:benchmark",
         "area:apps"
@@ -479,7 +1220,7 @@
       "createdAt": "2026-11-25T16:31:17Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 30.910985555555555,
+      "waitingHours": 54.5848875,
       "comments": 0,
       "labels": [
         "area:harness"
@@ -496,7 +1237,7 @@
       "createdAt": "2026-11-25T13:51:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 33.57293,
+      "waitingHours": 57.246831944444445,
       "comments": 0,
       "labels": [
         "area:harness"
@@ -671,7 +1412,7 @@
       "createdAt": "2026-11-25T08:22:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 39.05654111111111,
+      "waitingHours": 62.730443055555554,
       "comments": 0,
       "labels": [
         "kind:task",
@@ -742,7 +1483,7 @@
       "createdAt": "2026-11-25T06:25:46Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 41.00293,
+      "waitingHours": 64.67683194444444,
       "comments": 1,
       "labels": [
         "kind:task",
@@ -796,8 +1537,8 @@
       "createdAt": "2026-11-25T04:08:54Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 43.28404111111111,
-      "comments": 4,
+      "waitingHours": 66.95794305555556,
+      "comments": 5,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -2285,7 +3026,7 @@
       "createdAt": "2026-11-20T03:07:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 164.31376333333333,
+      "waitingHours": 187.98766527777778,
       "comments": 6,
       "labels": [
         "kind:task",
@@ -2374,7 +3115,7 @@
       "createdAt": "2026-11-19T15:29:33Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 175.93987444444446,
+      "waitingHours": 199.61377638888888,
       "comments": 2,
       "labels": [
         "kind:task",
@@ -2481,8 +3222,8 @@
       "createdAt": "2026-11-19T07:30:44Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 183.9201522222222,
-      "comments": 64,
+      "waitingHours": 207.59405416666667,
+      "comments": 69,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -2620,12 +3361,12 @@
       "author": "Kelvin-Al",
       "contributionType": "external",
       "state": "open",
-      "isDraft": true,
+      "isDraft": false,
       "createdAt": "2026-11-18T16:51:04Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 198.58126333333334,
-      "comments": 11,
+      "waitingHours": 222.2551652777778,
+      "comments": 14,
       "labels": [
         "kind:task",
         "area:knowledge"
@@ -2767,7 +3508,7 @@
       "createdAt": "2026-11-18T06:52:41Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 208.5543188888889,
+      "waitingHours": 232.22822083333332,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -2893,7 +3634,7 @@
       "createdAt": "2026-11-17T09:31:07Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 229.91376333333332,
+      "waitingHours": 253.58766527777777,
       "comments": 12,
       "labels": [
         "kind:task",
@@ -4178,7 +4919,7 @@
       "createdAt": "2026-11-04T08:41:20Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 542.7434855555556,
+      "waitingHours": 566.4173875,
       "comments": 3,
       "labels": [
         "kind:task",
@@ -4340,7 +5081,7 @@
       "createdAt": "2026-11-03T04:59:34Z",
       "mergedAt": null,
       "closedAt": null,
-      "waitingHours": 570.4395966666667,
+      "waitingHours": 594.1134986111111,
       "comments": 27,
       "labels": [
         "kind:task",

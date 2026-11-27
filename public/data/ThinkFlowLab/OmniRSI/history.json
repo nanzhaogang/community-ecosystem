@@ -746,5 +746,22 @@
     "closedIssues": 8,
     "activeContributors": 7,
     "collectedAt": "2026-11-26T23:25:56.548Z"
+  },
+  {
+    "date": "2026-11-27",
+    "stars": 128,
+    "forks": 38,
+    "watchers": 0,
+    "openPulls": 25,
+    "openIssues": 70,
+    "totalPulls": 514,
+    "totalIssues": 280,
+    "newPulls": 42,
+    "mergedPulls": 42,
+    "closedUnmergedPulls": 0,
+    "newIssues": 13,
+    "closedIssues": 6,
+    "activeContributors": 10,
+    "collectedAt": "2026-11-27T23:06:22.595Z"
   }
 ]
